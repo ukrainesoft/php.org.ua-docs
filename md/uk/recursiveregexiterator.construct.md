@@ -15,7 +15,7 @@ RecursiveRegexIterator::\_\_construct - Конструктор класу Recurs
 
 ### Опис
 
-public**RecursiveRegexIterator::\_\_construct**  
+public **RecursiveRegexIterator::\_\_construct**  
 [RecursiveIterator](class.recursiveiterator.md) `$iterator`,  
 string`$pattern`,  
 int`$mode`\= RecursiveRegexIterator::MATCH,  
@@ -59,7 +59,7 @@ int`$pregFlags`
 
 ### Приклади
 
-**Пример #1 Пример использования**RecursiveRegexIterator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** RecursiveRegexIterator::\_\_construct()\*\*\*\*
 
 Створює новий об'єкт-ітератор RegexIterator, який вибирає всі рядки, що починаються зі слова 'test'.
 

@@ -39,7 +39,7 @@ mysql_list_processes(resource $link_identifier = NULL): resource|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_list\_processes()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_list\_processes()\*\*\*\*
 
 ```php
 <?php

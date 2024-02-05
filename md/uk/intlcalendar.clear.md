@@ -51,7 +51,7 @@ intlcal_clear(IntlCalendar $calendar, ?int $field = null): true
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::clear()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::clear()\*\*\*\*
 
 ```php
 <?php

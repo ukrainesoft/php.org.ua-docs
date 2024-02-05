@@ -51,7 +51,7 @@ public Random\Randomizer::nextFloat(): float
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Random\\Randomizer::nextFloat()\*\*\*\*
+**Приклад #1 Приклад использования метода**Random\\Randomizer::nextFloat()\*\*\*\*
 
 ```php
 <?php

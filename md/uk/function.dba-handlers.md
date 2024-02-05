@@ -37,7 +37,7 @@ dba_handlers(bool $full_info = false): array
 
 ### Приклади
 
-**Пример #1 Пример использования**dba\_handlers()\*\*\*\*
+**Приклад #1 Приклад використання** dba\_handlers()\*\*\*\*
 
 ```php
 <?php

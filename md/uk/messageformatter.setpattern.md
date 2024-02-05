@@ -47,7 +47,7 @@ msgfmt_set_pattern(MessageFormatter $formatter, string $pattern): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**msgfmt\_set\_pattern()\*\*\*\*
+**Приклад #1 Приклад використання** msgfmt\_set\_pattern()\*\*\*\*
 
 ```php
 <?php

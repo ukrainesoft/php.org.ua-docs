@@ -37,7 +37,7 @@ mb_output_handler(string $string, int $status): string
 
 ### Приклади
 
-**Пример #1 Пример использования функции**mb\_output\_handler()\*\*\*\*
+**Приклад #1 Приклад использования функции**mb\_output\_handler()\*\*\*\*
 
 ```php
 <?php

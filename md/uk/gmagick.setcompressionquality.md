@@ -38,7 +38,7 @@ Gmagick::setCompressionQuality(
 
 ### Приклади
 
-**Пример #1 Пример использования**Gmagick::setCompressionQuality()\*\*\*\*
+**Приклад #1 Приклад використання** Gmagick::setCompressionQuality()\*\*\*\*
 
 ```php
 <?php

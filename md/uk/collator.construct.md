@@ -15,7 +15,7 @@ Collator::\_\_construct — Створює новий екземпляр Collato
 
 ### Опис
 
-public**Collator::\_\_construct**(string`$locale`) .
+public **Collator::\_\_construct**(string`$locale`) .
 
 Створює новий екземпляр [Collator](class.collator.md)
 
@@ -33,7 +33,7 @@ public**Collator::\_\_construct**(string`$locale`) .
 
 ### Приклади
 
-**Пример #1 Пример использования**Collator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Collator::\_\_construct()\*\*\*\*
 
 ```php
 <?php

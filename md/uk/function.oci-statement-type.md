@@ -51,7 +51,7 @@ oci_statement_type(resource $statement): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_statement\_type()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_statement\_type()\*\*\*\*
 
 ```php
 <?php

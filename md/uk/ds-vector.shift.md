@@ -35,7 +35,7 @@ public Ds\Vector::shift(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::shift()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::shift()\*\*\*\*
 
 ```php
 <?php

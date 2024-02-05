@@ -45,7 +45,7 @@ public ImagickDraw::ellipse(    float $ox,    float $oy,    float $r
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::ellipse()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::ellipse()\*\*\*\*
 
 ```php
 <?php

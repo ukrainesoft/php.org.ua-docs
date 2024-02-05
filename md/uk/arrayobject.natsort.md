@@ -41,7 +41,7 @@ public ArrayObject::natsort(): true
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::natsort()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::natsort()\*\*\*\*
 
 ```php
 <?php

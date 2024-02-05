@@ -15,7 +15,7 @@ SolrObject::\_\_construct — Створює об'єкт Solr
 
 ### Опис
 
-public**SolrObject::\_\_construct**()
+public **SolrObject::\_\_construct**()
 
 Створює об'єкт Solr.
 
@@ -29,7 +29,7 @@ public**SolrObject::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrObject::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SolrObject::\_\_construct()\*\*\*\*
 
 ```php
 <?php

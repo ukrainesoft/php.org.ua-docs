@@ -35,11 +35,11 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 `verbosity`
 
-Необхідний режим: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`**или**`PGSQL_ERRORS_VERBOSE`**
+Необхідний режим: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`** або **`PGSQL_ERRORS_VERBOSE`**
 
 ### Значення, що повертаються
 
-Попередній режим, що діяв до запуску функції: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`**или**`PGSQL_ERRORS_VERBOSE`**
+Попередній режим, що діяв до запуску функції: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`** або **`PGSQL_ERRORS_VERBOSE`**
 
 ### список змін
 
@@ -49,7 +49,7 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_set\_error\_verbosity()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_set\_error\_verbosity()\*\*\*\*
 
 ```php
 <?php

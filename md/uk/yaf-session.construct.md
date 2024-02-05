@@ -15,7 +15,7 @@ Yaf\_Session::\_\_construct - Конструктор класу Yaf\_Session
 
 ### Опис
 
-private**Yaf\_Session::\_\_construct**()
+private **Yaf\_Session::\_\_construct**()
 
 **Увага**
 

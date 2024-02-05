@@ -35,7 +35,7 @@ sodium_crypto_core_ristretto255_scalar_random(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_scalar\_random()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_core\_ristretto255\_scalar\_random()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ intlcal_roll(IntlCalendar $calendar, int $field, int|bool $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::roll()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::roll()\*\*\*\*
 
 ```php
 <?php

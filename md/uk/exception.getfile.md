@@ -31,7 +31,7 @@ final public Exception::getFile(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Exception::getFile()\*\*\*\*
+**Приклад #1 Приклад використання** Exception::getFile()\*\*\*\*
 
 ```php
 <?php

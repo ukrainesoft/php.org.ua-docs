@@ -15,7 +15,7 @@ CommonMark\\Node\\CodeBlock::\_\_construct - Конструктор класу C
 
 ### Опис
 
-public**CommonMark\\Node\\CodeBlock::\_\_construct**(string`$fence`, string`$literal`) .
+public **CommonMark\\Node\\CodeBlock::\_\_construct**(string`$fence`, string`$literal`) .
 
 **Увага**
 

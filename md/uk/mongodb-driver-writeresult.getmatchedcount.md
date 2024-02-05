@@ -35,7 +35,7 @@ final public MongoDB\Driver\WriteResult::getMatchedCount(): ?int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getMatchedCount()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getMatchedCount()\*\*\*\*
 
 ```php
 <?php

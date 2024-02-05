@@ -51,7 +51,7 @@ public Phar::buildFromDirectory(string $directory, string $pattern = ""): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::buildFromDirectory()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::buildFromDirectory()\*\*\*\*
 
 ```php
 <?php

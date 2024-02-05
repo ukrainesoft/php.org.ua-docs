@@ -45,7 +45,7 @@ public SoapServer::setPersistence(int $mode): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapServer::setPersistence()\*\*\*\*
+**Приклад #1 Приклад використання** SoapServer::setPersistence()\*\*\*\*
 
 ```php
 <?php

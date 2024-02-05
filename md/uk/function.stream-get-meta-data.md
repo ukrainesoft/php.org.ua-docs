@@ -58,7 +58,7 @@ stream_get_meta_data(resource $stream): array
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_get\_meta\_data()**с использованием[fopen()](function.fopen.md) з http**
+**Приклад #1 Приклад використання** stream\_get\_meta\_data()**с использованием[fopen()](function.fopen.md) з http**
 
 ```php
 <?php
@@ -130,7 +130,7 @@ array(10) {
 }
 ```
 
-**Пример #2 Пример использования**stream\_get\_meta\_data()**с использованием[stream\_socket\_client()](function.stream-socket-client.md) з https**
+**Приклад #2 Приклад використання** stream\_get\_meta\_data()**с использованием[stream\_socket\_client()](function.stream-socket-client.md) з https**
 
 ```php
 <?php

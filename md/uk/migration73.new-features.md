@@ -61,7 +61,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 -   Добавлен параметр`$serverctrls`для відправлення керування сервером у функціях[ldap\_add()](function.ldap-add.md) [ldap\_mod\_replace()](function.ldap-mod-replace.md) [ldap\_mod\_add()](function.ldap-mod-add.md) [ldap\_mod\_del()](function.ldap-mod-del.md) [ldap\_rename()](function.ldap-rename.md) [ldap\_compare()](function.ldap-compare.md) [ldap\_delete()](function.ldap-delete.md) [ldap\_modify\_batch()](function.ldap-modify-batch.md) [ldap\_search()](function.ldap-search.md) [ldap\_list()](function.ldap-list.md) і [ldap\_read()](function.ldap-read.md)
 -   Добавлен параметр`$serverctrls`для отримання керування з сервера до функцій[ldap\_parse\_result()](function.ldap-parse-result.md)
--   Поддержка\*\*`LDAP_OPT_SERVER_CONTROLS`**и**`LDAP_OPT_CLIENT_CONTROLS`\*\*у функціях[ldap\_get\_option()](function.ldap-get-option.md) і [ldap\_set\_option()](function.ldap-set-option.md)було виправлено.
+-   Поддержка\*\*`LDAP_OPT_SERVER_CONTROLS`** і **`LDAP_OPT_CLIENT_CONTROLS`\*\*у функціях[ldap\_get\_option()](function.ldap-get-option.md) і [ldap\_set\_option()](function.ldap-set-option.md)було виправлено.
 
 ### Функції мультибайтових рядків
 

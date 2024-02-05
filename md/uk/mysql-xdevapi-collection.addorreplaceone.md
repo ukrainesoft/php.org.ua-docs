@@ -52,7 +52,7 @@ public mysql_xdevapi\Collection::addOrReplaceOne(string $id, string $doc): mysql
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::addOrReplaceOne()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::addOrReplaceOne()\*\*\*\*
 
 ```php
 <?php

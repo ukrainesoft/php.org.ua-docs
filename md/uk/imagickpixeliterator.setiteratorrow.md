@@ -35,7 +35,7 @@ public ImagickPixelIterator::setIteratorRow(int $row): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixelIterator::setIteratorRow()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixelIterator::setIteratorRow()\*\*\*\*
 
 ```php
 <?php

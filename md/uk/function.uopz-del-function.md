@@ -49,7 +49,7 @@ uopz_del_function(string $class, string $function, int &$all = true): bool
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_del\_function()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_del\_function()\*\*\*\*
 
 ```php
 <?php

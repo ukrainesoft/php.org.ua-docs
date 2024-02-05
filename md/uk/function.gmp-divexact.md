@@ -41,7 +41,7 @@ gmp_divexact(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_divexact()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_divexact()\*\*\*\*
 
 ```php
 <?php

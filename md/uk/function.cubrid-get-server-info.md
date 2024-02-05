@@ -33,7 +33,7 @@ cubrid_get_server_info(resource $conn_identifier): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_get\_server\_info()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_get\_server\_info()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcernError::getInfo(): ?object
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcernError::getInfo()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteConcernError::getInfo()\*\*\*\*
 
 ```php
 <?php

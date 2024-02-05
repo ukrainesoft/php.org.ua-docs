@@ -39,11 +39,11 @@ intlcal_get_repeated_wall_time_option(IntlCalendar $calendar): int
 
 ### Значення, що повертаються
 
-Одна из констант:**`IntlCalendar::WALLTIME_FIRST`**или**`IntlCalendar::WALLTIME_LAST`**
+Одна из констант:**`IntlCalendar::WALLTIME_FIRST`** або **`IntlCalendar::WALLTIME_LAST`**
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getRepeatedWallTimeOption()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getRepeatedWallTimeOption()\*\*\*\*
 
 ```php
 <?php

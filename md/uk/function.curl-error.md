@@ -39,7 +39,7 @@ curl_error(CurlHandle $handle): string
 
 ### Приклади
 
-**Пример #1 Пример использования**curl\_error()\*\*\*\*
+**Приклад #1 Приклад використання** curl\_error()\*\*\*\*
 
 ```php
 <?php

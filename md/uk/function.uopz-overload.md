@@ -37,7 +37,7 @@ uopz_overload(int $opcode, Callable $callable): void
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_overload()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_overload()\*\*\*\*
 
 ```php
 <?php

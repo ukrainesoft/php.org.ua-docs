@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadConcern::getLevel(): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadConcern::getLevel()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadConcern::getLevel()\*\*\*\*
 
 ```php
 <?php

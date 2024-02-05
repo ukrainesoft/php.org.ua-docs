@@ -47,7 +47,7 @@ stream_get_contents(resource $stream, ?int $length = null, int $offset = -1): st
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_get\_contents()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_get\_contents()\*\*\*\*
 
 ```php
 <?php

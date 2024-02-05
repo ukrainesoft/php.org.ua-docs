@@ -59,7 +59,7 @@ imagerectangle(    GdImage $image,    int $x1,    int $y1,    in
 
 ### Приклади
 
-**Пример #1 Пример использования**imagerectangle()\*\*\*\*
+**Приклад #1 Приклад використання** imagerectangle()\*\*\*\*
 
 ```php
 <?php

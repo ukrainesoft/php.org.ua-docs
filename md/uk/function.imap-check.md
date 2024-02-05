@@ -47,7 +47,7 @@ imap_check(IMAP\Connection $imap): stdClass|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_check()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_check()\*\*\*\*
 
 ```php
 <?php

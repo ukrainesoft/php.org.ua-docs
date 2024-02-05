@@ -31,7 +31,7 @@ public QuickHashStringIntHash::saveToString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashStringIntHash::saveToString()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashStringIntHash::saveToString()\*\*\*\*
 
 ```php
 <?php

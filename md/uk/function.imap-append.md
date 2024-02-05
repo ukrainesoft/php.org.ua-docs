@@ -62,7 +62,7 @@ imap_append(    IMAP\Connection $imap,    string $folder,    string 
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_append()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_append()\*\*\*\*
 
 ```php
 <?php

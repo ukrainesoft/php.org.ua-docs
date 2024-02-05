@@ -45,7 +45,7 @@ intlcal_set_time(IntlCalendar $calendar, float $timestamp): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::setTime()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::setTime()\*\*\*\*
 
 ```php
 <?php

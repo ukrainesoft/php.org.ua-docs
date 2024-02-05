@@ -64,7 +64,7 @@ callback(
 
 ### Приклади
 
-**Пример #1 Пример использования**EventHttp::setDefaultCallback()\*\*\*\*
+**Приклад #1 Приклад використання** EventHttp::setDefaultCallback()\*\*\*\*
 
 ```php
 <?php

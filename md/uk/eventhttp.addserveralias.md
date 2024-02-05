@@ -37,7 +37,7 @@ public
 
 ### Приклади
 
-**Пример #1 Пример использования**EventHttp::addServerAlias()\*\*\*\*
+**Приклад #1 Приклад використання** EventHttp::addServerAlias()\*\*\*\*
 
 ```php
 <?php

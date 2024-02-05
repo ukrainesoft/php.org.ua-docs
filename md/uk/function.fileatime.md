@@ -37,12 +37,12 @@ fileatime(string $filename): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования функции**fileatime()\*\*\*\*
+**Приклад #1 Приклад использования функции**fileatime()\*\*\*\*
 
 ```php
 <?php
 
-// Пример вывода: В последний раз обращение к файлу somefile.txt было произведено: December 29 2002 22:16:23.
+// Приклад вывода: В последний раз обращение к файлу somefile.txt было произведено: December 29 2002 22:16:23.
 
 $filename = 'somefile.txt';
 if (file_exists($filename)) {

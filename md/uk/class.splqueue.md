@@ -84,7 +84,7 @@ public SplDoublyLinkedList::valid(): bool
 
 ## Приклади
 
-**Пример #1 Пример использования**SplQueue\*\*\*\*
+**Приклад #1 Приклад використання** SplQueue\*\*\*\*
 
 ```php
 <?php

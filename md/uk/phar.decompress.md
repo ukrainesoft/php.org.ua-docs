@@ -51,7 +51,7 @@ public Phar::decompress(?string $extension = null): ?Phar
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::decompress()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::decompress()\*\*\*\*
 
 ```php
 <?php

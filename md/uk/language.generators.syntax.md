@@ -106,7 +106,7 @@ foreach (input_parser($input) as $id => $fields) {
 
 Для получения\*\*`null`\*\* Треба викликати "Yield" без аргументів. Ключ згенерується автоматично.
 
-**Пример #3 Получение**`null`\*\*\*\*
+**Приклад #3 Получение**`null`\*\*\*\*
 
 ```php
 <?php
@@ -172,13 +172,13 @@ foreach (gen_reference() as &$number) {
 
 **Застереження**
 
-# Сохранение в массив (например, с помощью[iterator\_to\_array()](function.iterator-to-array.md)) .
+# Сохранение в массив (наПриклад, с помощью[iterator\_to\_array()](function.iterator-to-array.md)) .
 
-**yield from** не скидає ключі. Ключі, повернуті з об'єкту [Traversable](class.traversable.md) або масиву, збережуться. Таким чином, деякі значення можуть перетинатися по ключах з іншими **yield**или**yield from**, Що, при записі в масив, спричинить перезапис колишніх значень.
+**yield from** не скидає ключі. Ключі, повернуті з об'єкту [Traversable](class.traversable.md) або масиву, збережуться. Таким чином, деякі значення можуть перетинатися по ключах з іншими **yield** або **yield from**, Що, при записі в масив, спричинить перезапис колишніх значень.
 
 Загальний випадок, коли це має значення, це коли [iterator\_to\_array()](function.iterator-to-array.md) повертає масив із ключами за замовчуванням. В цьому випадку можна отримати несподіваний результат . [iterator\_to\_array()](function.iterator-to-array.md) має другий параметр `preserve_keys`, який можна встановити в **`false`**, для генерації власних ключів та ігнорування ключів, переданих з об'єкта [Generator](class.generator.md)
 
-**Пример #5**yield from**с[iterator\_to\_array()](function.iterator-to-array.md)**
+**Приклад #5**yield from**с[iterator\_to\_array()](function.iterator-to-array.md)**
 
 ```php
 <?php
@@ -245,7 +245,7 @@ foreach (count_to_ten() as $num) {
 1 2 3 4 5 6 7 8 9 10
 ```
 
-**Пример #7**yield from\*\* і значення, що повертаються\*\*
+**Приклад #7**yield from\*\* і значення, що повертаються\*\*
 
 ```php
 <?php

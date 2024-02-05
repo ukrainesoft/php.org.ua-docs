@@ -41,7 +41,7 @@ public SolrClient::request(string $raw_request): SolrUpdateResponse
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrClient::request()\*\*\*\*
+**Приклад #1 Приклад використання** SolrClient::request()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ public Imagick::distortImage(int $method, array $arguments, bool $bestfit): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::distortImage()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::distortImage()\*\* :\*\*
 
 Спотворення зображення та відображення у браузері.
 

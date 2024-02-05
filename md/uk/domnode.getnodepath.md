@@ -31,7 +31,7 @@ public DOMNode::getNodePath(): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**DOMNode::getNodePath()\*\*\*\*
+**Приклад #1 Приклад використання** DOMNode::getNodePath()\*\*\*\*
 
 ```php
 <?php

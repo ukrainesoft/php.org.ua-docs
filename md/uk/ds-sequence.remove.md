@@ -37,7 +37,7 @@ abstract public Ds\Sequence::remove(int $index): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::remove()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::remove()\*\*\*\*
 
 ```php
 <?php

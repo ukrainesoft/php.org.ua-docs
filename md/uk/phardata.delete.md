@@ -37,7 +37,7 @@ public PharData::delete(string $localName): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::delete()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::delete()\*\*\*\*
 
 ```php
 <?php

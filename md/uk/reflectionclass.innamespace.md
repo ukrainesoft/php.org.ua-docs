@@ -31,7 +31,7 @@ public ReflectionClass::inNamespace(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::inNamespace()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::inNamespace()\*\*\*\*
 
 ```php
 <?php

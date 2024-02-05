@@ -31,7 +31,7 @@ public Imagick::colorMatrixImage(array $color_matrix = Imagick::CHANNEL_DEFAULT)
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::colorMatrixImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::colorMatrixImage()\*\*\*\*
 
 ```php
 <?php

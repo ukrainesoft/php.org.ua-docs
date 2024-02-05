@@ -56,7 +56,7 @@ geoip_record_by_name(string $hostname): array
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_record\_by\_name()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_record\_by\_name()\*\*\*\*
 
 Виведе масив, що містить запис про хост example.com.
 

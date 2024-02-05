@@ -33,11 +33,11 @@ public ReflectionClass::isInstance(object $object): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::isInstance()\*\* та його аналогів\*\*
+**Приклад #1 Приклад використання** ReflectionClass::isInstance()\*\* та його аналогів\*\*
 
 ```php
 <?php
-// Пример использования
+// Приклад использования
 $class = new ReflectionClass('Foo');
 
 if ($class->isInstance($arg)) {

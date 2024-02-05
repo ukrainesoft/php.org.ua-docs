@@ -37,7 +37,7 @@ public OAuthProvider::timestampNonceHandler(callable $callback_function): void
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuthProvider::timestampNonceHandler()\*\*\*\*
+**Приклад #1 Приклад використання** OAuthProvider::timestampNonceHandler()\*\*\*\*
 
 ```php
 <?php

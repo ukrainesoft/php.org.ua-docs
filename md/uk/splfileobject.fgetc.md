@@ -35,7 +35,7 @@ public SplFileObject::fgetc(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fgetc()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fgetc()\*\*\*\*
 
 ```php
 <?php

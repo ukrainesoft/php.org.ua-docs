@@ -37,7 +37,7 @@ public ImagickDraw::polygon(array $coordinates): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::polygon()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::polygon()\*\*\*\*
 
 ```php
 <?php

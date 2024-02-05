@@ -39,7 +39,7 @@ final public MongoDB\Driver\WriteConcern::getWtimeout(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcern::getWtimeout()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteConcern::getWtimeout()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ImagickPixelIterator::__construct(Imagick $wand)
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixelIterator::construct()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixelIterator::construct()\*\*\*\*
 
 ```php
 <?php

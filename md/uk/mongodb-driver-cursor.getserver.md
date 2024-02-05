@@ -35,7 +35,7 @@ final public MongoDB\Driver\Cursor::getServer(): MongoDB\Driver\Server
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Cursor::getServer()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Cursor::getServer()\*\*\*\*
 
 ```php
 <?php

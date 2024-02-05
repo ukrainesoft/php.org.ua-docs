@@ -29,7 +29,7 @@ public Yaf_Application::environ(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Application::environ()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Application::environ()\*\*\*\*
 
 ```php
 <?php

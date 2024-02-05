@@ -43,7 +43,7 @@ Memcache::increment(string $key, int $value = 1): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::increment()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::increment()\*\*\*\*
 
 ```php
 <?php

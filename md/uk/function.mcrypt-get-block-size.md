@@ -49,7 +49,7 @@ mcrypt_get_block_size(string $cipher, string $mode): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_get\_block\_size()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_get\_block\_size()\*\*\*\*
 
 Цей приклад демонструє використання функції, зібраної з libmcrypt 2.4.x і 2.5.x.
 

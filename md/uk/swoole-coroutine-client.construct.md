@@ -15,7 +15,7 @@ Swoole\\Coroutine\\Client::\_\_construct — Опис
 
 ### Опис
 
-public**Swoole\\Coroutine\\Client::\_\_construct**()
+public **Swoole\\Coroutine\\Client::\_\_construct**()
 
 ### Список параметрів
 

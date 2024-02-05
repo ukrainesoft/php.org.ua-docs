@@ -39,7 +39,7 @@ public Imagick::setImageBias(float $bias): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImageBias()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImageBias()\*\*\*\*
 
 ```php
 <?php

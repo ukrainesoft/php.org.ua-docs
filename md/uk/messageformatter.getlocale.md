@@ -43,7 +43,7 @@ msgfmt_get_locale(MessageFormatter $formatter): string
 
 ### Приклади
 
-**Пример #1 Пример использования**msgfmt\_get\_locale()\*\*\*\*
+**Приклад #1 Приклад використання** msgfmt\_get\_locale()\*\*\*\*
 
 ```php
 <?php

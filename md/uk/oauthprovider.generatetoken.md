@@ -41,7 +41,7 @@ final public static OAuthProvider::generateToken(int $size, bool $strong = false
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuthProvider::generateToken()\*\*\*\*
+**Приклад #1 Приклад використання** OAuthProvider::generateToken()\*\*\*\*
 
 ```php
 <?php

@@ -43,11 +43,11 @@ final public static Phar::mungServer(array $variables): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::mungServer()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::mungServer()\*\*\*\*
 
 ```php
 <?php
-// пример загрузчика
+// Приклад загрузчика
 Phar::mungServer(array('REQUEST_URI'));
 Phar::webPhar();
 __HALT_COMPILER();

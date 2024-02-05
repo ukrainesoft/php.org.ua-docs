@@ -35,7 +35,7 @@ public PharFileInfo::getCRC32(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::getCRC32()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::getCRC32()\*\*\*\*
 
 ```php
 <?php

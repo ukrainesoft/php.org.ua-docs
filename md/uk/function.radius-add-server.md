@@ -51,7 +51,7 @@ radius_add_server(    resource $radius_handle,    string $hostname,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_add\_server()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_add\_server()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ apcu_fetch(mixed $key, bool &$success = ?): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**apcu\_fetch()\*\*\*\*
+**Приклад #1 Приклад використання** apcu\_fetch()\*\*\*\*
 
 ```php
 <?php

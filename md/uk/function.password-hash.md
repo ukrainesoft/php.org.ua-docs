@@ -43,7 +43,7 @@ password_hash(string $password, string|int|null $algo, array $options = []): str
     Якщо не встановлено, то буде вибрано значення за замовчуванням:`10`. Це хороша базова вартість, але її можна збільшити, якщо дозволяє продуктивність устаткування.
     
 
-Опції, що підтримуються для **`PASSWORD_ARGON2I`**и**`PASSWORD_ARGON2ID`** :
+Опції, що підтримуються для **`PASSWORD_ARGON2I`** і **`PASSWORD_ARGON2ID`** :
 
 -   `memory_cost`(int) – максимальний розмір пам'яті (у кілобайтах), яка буде використана для обчислення хешу Argon2. За промовчанням буде вибрано значення константи\*\*`PASSWORD_ARGON2_DEFAULT_MEMORY_COST`\*\*
     
@@ -95,7 +95,7 @@ password_hash(string $password, string|int|null $algo, array $options = []): str
 
 ### Приклади
 
-**Пример #1 Пример использования**password\_hash()\*\*\*\*
+**Приклад #1 Приклад використання** password\_hash()\*\*\*\*
 
 ```php
 <?php
@@ -117,7 +117,7 @@ echo password_hash("rasmuslerdorf", PASSWORD_DEFAULT);
 $2y$10$.vGA1O9wmRjrwAVXD98HNOgsNpDczlqm3Jq7KnEd1rVAGv3Fykk1a
 ```
 
-**Пример #2 Пример использования**password\_hash()\*\* з ручним завданням вартості\*\*
+**Приклад #2 Приклад використання** password\_hash()\*\* з ручним завданням вартості\*\*
 
 ```php
 <?php
@@ -171,7 +171,7 @@ echo "Оптимальная стоимость: " . $cost;
 Оптимальная стоимость: 12
 ```
 
-**Пример #4 Пример использования функции**password\_hash()**с Argon2i**
+**Приклад #4 Приклад использования функции**password\_hash()**с Argon2i**
 
 ```php
 <?php

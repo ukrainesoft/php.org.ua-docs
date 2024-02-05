@@ -37,7 +37,7 @@ sodium_crypto_generichash_init(string $key = "", int $length = SODIUM_CRYPTO_GEN
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_generichash\_init()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_generichash\_init()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ public DOMElement::replaceWith(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::replaceWith()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::replaceWith()\*\*\*\*
 
 Заміна елемента на нові вузли.
 

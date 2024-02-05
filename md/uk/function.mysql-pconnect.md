@@ -54,7 +54,7 @@ mysql_pconnect(    string $server = ini_get("mysql.default_host"),    st
 
 `client_flags`
 
-Параметр`client_flags` може бути комбінацією наступних констант: 128 (включає обробку `LOAD DATA LOCAL` **`MYSQL_CLIENT_SSL`** **`MYSQL_CLIENT_COMPRESS`** **`MYSQL_CLIENT_IGNORE_SPACE`**и**`MYSQL_CLIENT_INTERACTIVE`**
+Параметр`client_flags` може бути комбінацією наступних констант: 128 (включає обробку `LOAD DATA LOCAL` **`MYSQL_CLIENT_SSL`** **`MYSQL_CLIENT_COMPRESS`** **`MYSQL_CLIENT_IGNORE_SPACE`** і **`MYSQL_CLIENT_INTERACTIVE`**
 
 ### Значення, що повертаються
 

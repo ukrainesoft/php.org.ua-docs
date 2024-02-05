@@ -35,7 +35,7 @@ snmp_read_mib(string $filename): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**snmp\_read\_mib()\*\*\*\*
+**Приклад #1 Приклад використання** snmp\_read\_mib()\*\*\*\*
 
 ```php
 <?php

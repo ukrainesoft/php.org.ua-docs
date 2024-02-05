@@ -35,7 +35,7 @@ public Imagick::getImageGeometry(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getImageGeometry()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::getImageGeometry()\*\*\*\*
 
 ```php
 <?php

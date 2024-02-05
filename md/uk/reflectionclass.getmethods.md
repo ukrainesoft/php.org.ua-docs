@@ -43,7 +43,7 @@ public ReflectionClass::getMethods(?int $filter = null): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getMethods()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getMethods()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ SplFileInfo::\_\_construct — Створити новий об'єкт SplFileIn
 
 ### Опис
 
-public**SplFileInfo::\_\_construct**(string`$filename`) .
+public **SplFileInfo::\_\_construct**(string`$filename`) .
 
 Створює новий об'єкт SplFileInfo для вказаного імені файлу. Файл не обов'язково має існувати чи бути доступним для читання.
 
@@ -27,7 +27,7 @@ public**SplFileInfo::\_\_construct**(string`$filename`) .
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::\_\_construct()\*\*\*\*
 
 ```php
 <?php

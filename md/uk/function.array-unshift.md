@@ -47,7 +47,7 @@ array_unshift(array &$array, mixed ...$values): int
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_unshift()\*\*\*\*
+**Приклад #1 Приклад використання** array\_unshift()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ cubrid_insert_id(resource $conn_identifier = ?): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_insert\_id()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_insert\_id()\*\*\*\*
 
 ```php
 <?php

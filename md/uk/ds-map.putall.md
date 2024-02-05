@@ -37,7 +37,7 @@ public Ds\Map::putAll(mixed $pairs): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::putAll()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::putAll()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public static SeasLog::getBufferEnabled(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::getBufferEnabled()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::getBufferEnabled()\*\*\*\*
 
 ```php
 <?php

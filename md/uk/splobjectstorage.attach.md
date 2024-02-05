@@ -37,7 +37,7 @@ public SplObjectStorage::attach(object $object, mixed $info = null): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::attach()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::attach()\*\*\*\*
 
 ```php
 <?php

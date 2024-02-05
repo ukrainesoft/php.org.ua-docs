@@ -43,7 +43,7 @@ imagealphablending(GdImage $image, bool $enable): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagealphablending()\*\*\*\*
+**Приклад #1 Приклад використання** imagealphablending()\*\*\*\*
 
 ```php
 <?php

@@ -51,7 +51,7 @@ array_search(mixed $needle, array $haystack, bool $strict = false): int|string|f
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_search()\*\*\*\*
+**Приклад #1 Приклад використання** array\_search()\*\*\*\*
 
 ```php
 <?php

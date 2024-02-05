@@ -64,7 +64,7 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_pkcs7\_sign()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_pkcs7\_sign()\*\*\*\*
 
 ```php
 <?php

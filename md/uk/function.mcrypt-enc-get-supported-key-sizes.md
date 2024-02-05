@@ -37,7 +37,7 @@ mcrypt_enc_get_supported_key_sizes(resource $td): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_enc\_get\_supported\_key\_sizes()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_enc\_get\_supported\_key\_sizes()\*\*\*\*
 
 ```php
 <?php

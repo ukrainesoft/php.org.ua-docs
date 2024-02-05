@@ -39,7 +39,7 @@ datefmt_get_locale(IntlDateFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE)
 
 `type`
 
-Ви можете вибирати між коректним та поточним мовним стандартом (\*\*`Locale::VALID_LOCALE`**и**`Locale::ACTUAL_LOCALE`\*\*відповідно). За промовчанням використовується поточний мовний стандарт.
+Ви можете вибирати між коректним та поточним мовним стандартом (\*\*`Locale::VALID_LOCALE`** і **`Locale::ACTUAL_LOCALE`\*\*відповідно). За промовчанням використовується поточний мовний стандарт.
 
 ### Значення, що повертаються
 
@@ -47,7 +47,7 @@ datefmt_get_locale(IntlDateFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE)
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_get\_locale()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_get\_locale()\*\*\*\*
 
 ```php
 <?php

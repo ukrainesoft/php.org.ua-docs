@@ -31,7 +31,7 @@ public Random\Engine\PcgOneseq128XslRr64::__debugInfo(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\PcgOneseq128XslRr64::\_\_debugInfo()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\PcgOneseq128XslRr64::\_\_debugInfo()\*\*\*\*
 
 ```php
 <?php

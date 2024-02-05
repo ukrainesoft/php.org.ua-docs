@@ -57,7 +57,7 @@ public SyncEvent::__construct(string $name = ?, bool $manual = false, bool $pref
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncEvent::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SyncEvent::\_\_construct()\*\*\*\*
 
 ```php
 <?php

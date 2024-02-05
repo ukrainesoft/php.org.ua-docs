@@ -31,7 +31,7 @@ uopz_get_exit_status(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_get\_exit\_status()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_get\_exit\_status()\*\*\*\*
 
 ```php
 <?php

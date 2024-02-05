@@ -47,7 +47,7 @@ bcadd(string $num1, string $num2, ?int $scale = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**bcadd()\*\*\*\*
+**Приклад #1 Приклад використання** bcadd()\*\*\*\*
 
 ```php
 <?php

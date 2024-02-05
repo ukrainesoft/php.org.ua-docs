@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeLineCap(int $linecap): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeLineCap()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeLineCap()\*\*\*\*
 
 ```php
 <?php

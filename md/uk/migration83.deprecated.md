@@ -59,7 +59,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 Функция[assert\_options()](function.assert-options.md)устарела.
 
-Константи **`ASSERT_ACTIVE`** **`ASSERT_BAIL`** **`ASSERT_CALLBACK`** \*\*`ASSERT_EXCEPTION`**и**`ASSERT_WARNING`\*\*устарели.
+Константи **`ASSERT_ACTIVE`** **`ASSERT_BAIL`** **`ASSERT_CALLBACK`** \*\*`ASSERT_EXCEPTION`** і **`ASSERT_WARNING`\*\*устарели.
 
 INI-параметри `assert.*`устарели. Смотрите[зміни у роботі з INI-файлами](migration83.other-changes.md#migration83.other-changes.ini) для більш детальної інформації.
 

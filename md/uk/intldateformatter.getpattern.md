@@ -43,7 +43,7 @@ datefmt_get_pattern(IntlDateFormatter $formatter): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_get\_pattern()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_get\_pattern()\*\*\*\*
 
 ```php
 <?php

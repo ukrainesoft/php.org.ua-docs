@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setBigramPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setBigramPhraseSlop()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setBigramPhraseSlop()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadConcern::__construct(?string $level = null)
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadConcern::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadConcern::\_\_construct()\*\*\*\*
 
 ```php
 <?php

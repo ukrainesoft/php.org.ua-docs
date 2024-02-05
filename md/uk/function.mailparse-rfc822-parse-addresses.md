@@ -41,7 +41,7 @@ mailparse_rfc822_parse_addresses(string $addresses): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mailparse\_rfc822\_parse\_addresses()\*\*\*\*
+**Приклад #1 Приклад використання** mailparse\_rfc822\_parse\_addresses()\*\*\*\*
 
 ```php
 <?php

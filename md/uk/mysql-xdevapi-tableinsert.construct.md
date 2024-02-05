@@ -15,7 +15,7 @@ TableInsert::\_\_construct — Конструктор класу TableInsert
 
 ### Опис
 
-private**mysql\_xdevapi\\TableInsert::\_\_construct**()
+private **mysql\_xdevapi\\TableInsert::\_\_construct**()
 
 Ініціюється за допомогою методу insert().
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\TableInsert::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableInsert::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableInsert::\_\_construct()\*\*\*\*
 
 ```php
 <?php

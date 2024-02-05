@@ -62,7 +62,7 @@ if (!ps_open_file($ps, "translate.ps")) {
 
 ps_set_info($ps, "Creator", "translate.php");
 ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример перевода");
+ps_set_info($ps, "Title", "Приклад перевода");
 ps_set_info($ps, "BoundingBox", "0 0 596 842");
 
 $psfont = ps_findfont($ps, "Helvetica", "", 0);

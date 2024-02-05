@@ -33,7 +33,7 @@ sqlsrv_commit(resource $conn): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_commit()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_commit()\*\*\*\*
 
 У наступному прикладі показано, як використовувати \*\*sqlsrv\_commit()\*\*вместе с[sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md) і [sqlsrv\_rollback()](function.sqlsrv-rollback.md)
 

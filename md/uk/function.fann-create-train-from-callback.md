@@ -51,7 +51,7 @@ fann_create_train_from_callback(    int $num_data,    int $num_input, �
 
 ### Приклади
 
-**Пример #1 Пример использования**fann\_create\_train\_from\_callback()\*\*\*\*
+**Приклад #1 Приклад використання** fann\_create\_train\_from\_callback()\*\*\*\*
 
 ```php
 <?php

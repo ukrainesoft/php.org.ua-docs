@@ -15,7 +15,7 @@ PharFileInfo::\_\_destruct — Знищує вхідний об'єкт Phar
 
 ### Опис
 
-public**PharFileInfo::\_\_destruct**()
+public **PharFileInfo::\_\_destruct**()
 
 ### Список параметрів
 

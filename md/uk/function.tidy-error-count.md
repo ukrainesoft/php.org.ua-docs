@@ -33,7 +33,7 @@ tidy_error_count(tidy $tidy): int
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy\_error\_count()\*\*\*\*
+**Приклад #1 Приклад використання** tidy\_error\_count()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ public DOMElement::append(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::append()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::append()\*\*\*\*
 
 Додавання вузлів елемент «container».
 

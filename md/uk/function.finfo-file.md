@@ -62,7 +62,7 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### Приклади
 
-**Пример #1 Пример использования[finfo\_file()](finfo.file.md)**
+**Приклад #1 Приклад использования[finfo\_file()](finfo.file.md)**
 
 ```php
 <?php

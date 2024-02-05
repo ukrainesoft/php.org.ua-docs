@@ -45,7 +45,7 @@ openssl_cms_encrypt(    string $input_filename,    string $output_filena
 
 `encoding`
 
-Кодування для виведення . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`**или**`OPENSSL_ENCODING_PEM`**
+Кодування для виведення . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`** або **`OPENSSL_ENCODING_PEM`**
 
 `cipher_algo`
 

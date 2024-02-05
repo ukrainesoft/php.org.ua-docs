@@ -35,7 +35,7 @@ convert_uudecode(string $string): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**convert\_uudecode()\*\*\*\*
+**Приклад #1 Приклад використання** convert\_uudecode()\*\*\*\*
 
 ```php
 <?php

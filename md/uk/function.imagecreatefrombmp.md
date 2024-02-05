@@ -43,7 +43,7 @@ imagecreatefrombmp(string $filename): GdImage|false
 
 ### Приклади
 
-**Пример #1 Конвертирование BMP-изображения в PNG-изображения, используя**imagecreatefrombmp()\*\*\*\*
+**Приклад #1 Конвертирование BMP-изображения в PNG-изображения, используя**imagecreatefrombmp()\*\*\*\*
 
 ```php
 <?php

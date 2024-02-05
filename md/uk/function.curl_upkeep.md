@@ -37,7 +37,7 @@ curl_upkeep(CurlHandle $handle): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**curl\_upkeep()\*\*\*\*
+**Приклад #1 Приклад використання** curl\_upkeep()\*\*\*\*
 
 ```php
 <?php

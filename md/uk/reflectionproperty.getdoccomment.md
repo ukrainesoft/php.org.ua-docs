@@ -31,7 +31,7 @@ Doc-коментар, якщо він існує, інакше **`false`**
 
 ### Приклади
 
-**Пример #1 Пример**ReflectionProperty::getDocComment()\*\*\*\*
+**Приклад #1 Приклад**ReflectionProperty::getDocComment()\*\*\*\*
 
 ```php
 <?php

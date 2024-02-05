@@ -37,7 +37,7 @@ public SolrParams::setParam(string $name, string $value): SolrParams
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrParams::setParam()\*\*\*\*
+**Приклад #1 Приклад використання** SolrParams::setParam()\*\*\*\*
 
 ```php
 <?php

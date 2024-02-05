@@ -35,7 +35,7 @@ final public MongoDB\Driver\Manager::getWriteConcern(): MongoDB\Driver\WriteConc
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Manager::getWriteConcern()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Manager::getWriteConcern()\*\*\*\*
 
 ```php
 <?php

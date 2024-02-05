@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionFind::bind(array $placeholder_values): mysql_xdev
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::bind()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionFind::bind()\*\*\*\*
 
 ```php
 <?php

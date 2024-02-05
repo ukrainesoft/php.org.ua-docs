@@ -63,7 +63,7 @@ final public MongoDB\Driver\Manager::executeQuery(string $namespace, MongoDB\Dri
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Manager::executeQuery()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Manager::executeQuery()\*\*\*\*
 
 ```php
 <?php

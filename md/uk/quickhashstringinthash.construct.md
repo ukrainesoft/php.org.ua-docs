@@ -37,7 +37,7 @@ public QuickHashStringIntHash::__construct(int $size, int $options = 0)
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashStringIntHash::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashStringIntHash::\_\_construct()\*\*\*\*
 
 ```php
 <?php

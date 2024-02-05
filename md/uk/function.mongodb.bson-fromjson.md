@@ -37,7 +37,7 @@ MongoDB\BSON\fromJSON(string $json): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\fromJSON()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\fromJSON()\*\*\*\*
 
 ```php
 <?php

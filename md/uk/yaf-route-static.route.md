@@ -33,7 +33,7 @@ public Yaf_Route_Static::route(Yaf_Request_Abstract $request): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Route\_Static::route()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Route\_Static::route()\*\*\*\*
 
 // за умови, що визначено лише один модуль: Index Запит: [http://yourdomain.com/a/b](http://yourdomain.com/a/b) => module = index, controller=a, action=b
 

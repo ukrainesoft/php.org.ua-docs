@@ -39,7 +39,7 @@ public Ds\Set::slice(int $index, int $length = ?): Ds\Set
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Set::slice()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Set::slice()\*\*\*\*
 
 ```php
 <?php

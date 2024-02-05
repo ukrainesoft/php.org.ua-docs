@@ -37,7 +37,7 @@ imageaffinematrixconcat(array $matrix1, array $matrix2): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imageaffinematrixconcat()\*\*\*\*
+**Приклад #1 Приклад використання** imageaffinematrixconcat()\*\*\*\*
 
 ```php
 <?php

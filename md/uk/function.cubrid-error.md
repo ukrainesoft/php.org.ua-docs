@@ -33,7 +33,7 @@ cubrid_error(resource $connection = ?): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_error()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_error()\*\*\*\*
 
 ```php
 <?php

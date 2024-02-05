@@ -15,7 +15,7 @@ UI\\Point::\_\_construct — Створити новий об'єкт Point
 
 ### Опис
 
-public**UI\\Point::\_\_construct**(float`$x`, float`$y`) .
+public **UI\\Point::\_\_construct**(float`$x`, float`$y`) .
 
 Створити новий об'єкт Point, використовуючи нові координати
 

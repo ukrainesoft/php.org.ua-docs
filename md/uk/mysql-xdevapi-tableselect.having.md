@@ -33,7 +33,7 @@ public mysql_xdevapi\TableSelect::having(string $sort_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::having()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::having()\*\*\*\*
 
 ```php
 <?php

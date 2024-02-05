@@ -73,7 +73,7 @@ $fmt = new IntlDateFormatter(
 ?>
 ```
 
-**Пример #2 Пример использования**datefmt\_parse()\*\*\*\*
+**Приклад #2 Приклад використання** datefmt\_parse()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ imap_get_quota(IMAP\Connection $imap, string $quota_root): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_get\_quota()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_get\_quota()\*\*\*\*
 
 ```php
 <?php
@@ -66,7 +66,7 @@ imap_close($mbox);
 ?>
 ```
 
-**Пример #2 Пример использования**imap\_get\_quota()\*\* у PHP 4.3 і вище\*\*
+**Приклад #2 Приклад використання** imap\_get\_quota()\*\* у PHP 4.3 і вище\*\*
 
 ```php
 <?php

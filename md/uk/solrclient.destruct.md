@@ -15,7 +15,7 @@ SolrClient::\_\_destruct — Деструктор SolrClient
 
 ### Опис
 
-public**SolrClient::\_\_destruct**()
+public **SolrClient::\_\_destruct**()
 
 Деструктор
 

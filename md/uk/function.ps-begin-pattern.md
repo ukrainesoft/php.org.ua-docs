@@ -67,7 +67,7 @@ if (!ps_open_file($ps, "pattern.ps")) {
 ps_set_parameter($ps, "warning", "true");
 ps_set_info($ps, "Creator", "pattern.php");
 ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример узора");
+ps_set_info($ps, "Title", "Приклад узора");
 
 
 $pspattern = ps_begin_pattern($ps, 10.0, 10.0, 10.0, 10.0, 1);

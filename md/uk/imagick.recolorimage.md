@@ -37,7 +37,7 @@ public Imagick::recolorImage(array $matrix): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::recolorImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::recolorImage()\*\*\*\*
 
 ```php
 <?php

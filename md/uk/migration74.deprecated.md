@@ -123,4 +123,4 @@ $str = (string) new ReflectionClass(Foo::class);
 
 ### Сокети
 
-Флаги\*\*`AI_IDN_ALLOW_UNASSIGNED`**и**`AI_IDN_USE_STD3_ASCII_RULES`\*\* для функції [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.md) оголошено застарілими через оновлення glibc.
+Флаги\*\*`AI_IDN_ALLOW_UNASSIGNED`** і **`AI_IDN_USE_STD3_ASCII_RULES`\*\* для функції [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.md) оголошено застарілими через оновлення glibc.

@@ -35,7 +35,7 @@ public mysql_xdevapi\Collection::modify(string $search_condition): mysql_xdevapi
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::modify()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::modify()\*\*\*\*
 
 ```php
 <?php

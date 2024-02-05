@@ -41,7 +41,7 @@ public ReflectionParameter::getClass(): ?ReflectionClass
 
 ### Приклади
 
-**Пример #1 Пример использования класса[ReflectionParameter](class.reflectionparameter.md)**
+**Приклад #1 Приклад использования класса[ReflectionParameter](class.reflectionparameter.md)**
 
 ```php
 <?php

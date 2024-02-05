@@ -61,7 +61,7 @@ grapheme_extract(    string $haystack,    int $size,    int $type = 
 
 ### Приклади
 
-**Пример #1 Пример использования**grapheme\_extract()\*\*\*\*
+**Приклад #1 Приклад використання** grapheme\_extract()\*\*\*\*
 
 ```php
 <?php

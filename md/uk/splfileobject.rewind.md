@@ -35,7 +35,7 @@ public SplFileObject::rewind(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::rewind()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::rewind()\*\*\*\*
 
 ```php
 <?php

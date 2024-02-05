@@ -29,7 +29,7 @@ public ImagickKernel::addKernel(ImagickKernel $ImagickKernel): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickKernel::addKernel()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickKernel::addKernel()\*\*\*\*
 
 ```php
 <?php

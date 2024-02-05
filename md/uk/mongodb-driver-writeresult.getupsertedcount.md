@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteResult::getUpsertedCount(): ?int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getUpsertedCount()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getUpsertedCount()\*\*\*\*
 
 ```php
 <?php

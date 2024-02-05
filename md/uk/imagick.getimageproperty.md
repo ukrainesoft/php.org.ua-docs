@@ -33,7 +33,7 @@ public Imagick::getImageProperty(string $name): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getImageProperty()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::getImageProperty()\*\* :\*\*
 
 Завдання та отримання властивості зображення
 

@@ -35,7 +35,7 @@ public Lua::registerCallback(string $name, callable $function): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Lua::registerCallback()\*\*\*\*
+**Приклад #1 Приклад використання** Lua::registerCallback()\*\*\*\*
 
 ```php
 <?php

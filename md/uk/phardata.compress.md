@@ -51,7 +51,7 @@ public PharData::compress(int $compression, ?string $extension = null): ?PharDat
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::compress()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::compress()\*\*\*\*
 
 ```php
 <?php

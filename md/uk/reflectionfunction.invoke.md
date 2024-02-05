@@ -33,7 +33,7 @@ public ReflectionFunction::invoke(mixed ...$args): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionFunction::invoke()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionFunction::invoke()\*\*\*\*
 
 ```php
 <?php

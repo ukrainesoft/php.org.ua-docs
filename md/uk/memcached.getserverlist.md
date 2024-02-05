@@ -31,7 +31,7 @@ public Memcached::getServerList(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::getServerList()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::getServerList()\*\*\*\*
 
 ```php
 <?php

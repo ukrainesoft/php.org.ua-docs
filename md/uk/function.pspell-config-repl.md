@@ -47,7 +47,7 @@ pspell_config_repl(PSpell\Config $config, string $filename): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_config\_repl()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_config\_repl()\*\*\*\*
 
 ```php
 <?php

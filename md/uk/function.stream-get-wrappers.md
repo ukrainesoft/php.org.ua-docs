@@ -31,7 +31,7 @@ stream_get_wrappers(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_get\_wrappers()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_get\_wrappers()\*\*\*\*
 
 ```php
 <?php

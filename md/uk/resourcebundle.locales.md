@@ -43,7 +43,7 @@ resourcebundle_locales(string $bundle): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**resourcebundle\_locales()\*\*\*\*
+**Приклад #1 Приклад використання** resourcebundle\_locales()\*\*\*\*
 
 ```php
 <?php

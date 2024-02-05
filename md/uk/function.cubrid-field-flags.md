@@ -19,7 +19,7 @@ cubrid\_field\_flags — Отримати рядок, який містить п
 cubrid_field_flags(resource $result, int $field_offset): string
 ```
 
-Функція повертає рядок, що містить прапори стовпця за вказаним індексом, розділені пробілом. Ви можете розбити рядок на окремі частини, використовуючи explode. Можливі значення прапорів: **`not_null`** **`primary_key`** **`unique_key`** **`foreign_key`** **`auto_increment`** **`shared`** **`reverse_index`** **`reverse_unique`**и**`timestamp`**
+Функція повертає рядок, що містить прапори стовпця за вказаним індексом, розділені пробілом. Ви можете розбити рядок на окремі частини, використовуючи explode. Можливі значення прапорів: **`not_null`** **`primary_key`** **`unique_key`** **`foreign_key`** **`auto_increment`** **`shared`** **`reverse_index`** **`reverse_unique`** і **`timestamp`**
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ cubrid_field_flags(resource $result, int $field_offset): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_field\_flags()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_field\_flags()\*\*\*\*
 
 ```php
 <?php

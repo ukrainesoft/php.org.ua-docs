@@ -37,7 +37,7 @@ public Imagick::rollImage(int $x, int $y): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::rollImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::rollImage()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ SolrClient::\_\_construct - Конструктор об'єкта SolrClient
 
 ### Опис
 
-public**SolrClient::\_\_construct**(array`$clientOptions`) .
+public **SolrClient::\_\_construct**(array`$clientOptions`) .
 
 Конструктор об'єкта SolrClient
 
@@ -54,7 +54,7 @@ public**SolrClient::\_\_construct**(array`$clientOptions`) .
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrClient::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SolrClient::\_\_construct()\*\*\*\*
 
 ```php
 <?php

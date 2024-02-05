@@ -33,7 +33,7 @@ public SolrQuery::setExpand(bool $value): SolrQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrQuery::setExpand()\*\*\*\*
+**Приклад #1 Приклад використання** SolrQuery::setExpand()\*\*\*\*
 
 ```php
 <?php

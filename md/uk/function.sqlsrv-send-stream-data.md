@@ -33,7 +33,7 @@ sqlsrv_send_stream_data(resource $stmt): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_send\_stream\_data()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_send\_stream\_data()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ openssl_get_curve_names(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_get\_curve\_names()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_get\_curve\_names()\*\*\*\*
 
 ```php
 <?php

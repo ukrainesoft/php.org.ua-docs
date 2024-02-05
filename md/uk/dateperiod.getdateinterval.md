@@ -33,7 +33,7 @@ public DatePeriod::getDateInterval(): DateInterval
 
 ### Приклади
 
-**Пример #1 Пример использования**DatePeriod::getDateInterval()\*\*\*\*
+**Приклад #1 Приклад використання** DatePeriod::getDateInterval()\*\*\*\*
 
 ```php
 <?php

@@ -40,7 +40,7 @@ pspell_new_config(PSpell\Config $config): PSpell\Dictionary|false
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_new\_config()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_new\_config()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ system(string $command, int &$result_code = null): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**system()\*\*\*\*
+**Приклад #1 Приклад використання** system()\*\*\*\*
 
 ```php
 <?php

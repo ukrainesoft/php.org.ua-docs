@@ -39,7 +39,7 @@ public Ds\PriorityQueue::toArray(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\PriorityQueue::toArray()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\PriorityQueue::toArray()\*\*\*\*
 
 ```php
 <?php

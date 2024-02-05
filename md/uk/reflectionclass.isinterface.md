@@ -31,7 +31,7 @@ public ReflectionClass::isInterface(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::isInterface()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::isInterface()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ final public ErrorException::getSeverity(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ErrorException::getSeverity()\*\*\*\*
+**Приклад #1 Приклад використання** ErrorException::getSeverity()\*\*\*\*
 
 ```php
 <?php

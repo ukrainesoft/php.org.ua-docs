@@ -15,7 +15,7 @@ UI\\Controls\\Label::\_\_construct — Створити новий об'єкт L
 
 ### Опис
 
-public**UI\\Controls\\Label::\_\_construct**(string`$text`) .
+public **UI\\Controls\\Label::\_\_construct**(string`$text`) .
 
 Створює новий об'єкт Label
 

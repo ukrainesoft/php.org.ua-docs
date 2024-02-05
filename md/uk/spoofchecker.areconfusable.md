@@ -41,7 +41,7 @@ public Spoofchecker::areConfusable(string $string1, string $string2, int &$error
 
 ### Приклади
 
-**Пример #1 Пример использования**Spoofchecker::areConfusable()\*\*\*\*
+**Приклад #1 Приклад використання** Spoofchecker::areConfusable()\*\*\*\*
 
 ```php
 <?php

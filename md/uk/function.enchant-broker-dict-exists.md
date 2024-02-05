@@ -33,7 +33,7 @@ enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**или**`false`**
+Повертає **`true`** або **`false`**
 
 ### список змін
 
@@ -43,7 +43,7 @@ enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**enchant\_broker\_dict\_exists()\*\*\*\*
+**Приклад #1 Приклад використання** enchant\_broker\_dict\_exists()\*\*\*\*
 
 ```php
 <?php

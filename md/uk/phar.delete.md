@@ -41,7 +41,7 @@ public Phar::delete(string $localName): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::delete()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::delete()\*\*\*\*
 
 ```php
 <?php

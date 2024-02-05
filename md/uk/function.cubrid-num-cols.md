@@ -35,7 +35,7 @@ cubrid_num_cols(resource $result): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_num\_cols()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_num\_cols()\*\*\*\*
 
 ```php
 <?php

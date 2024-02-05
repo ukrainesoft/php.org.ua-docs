@@ -35,7 +35,7 @@ public Ds\Vector::reversed(): Ds\Vector
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::reversed()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::reversed()\*\*\*\*
 
 ```php
 <?php

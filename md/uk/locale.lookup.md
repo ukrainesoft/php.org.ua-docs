@@ -63,7 +63,7 @@ locale_lookup(    array $languageTag,    string $locale,    bool $ca
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_lookup()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_lookup()\*\*\*\*
 
 ```php
 <?php

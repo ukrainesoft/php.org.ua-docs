@@ -39,7 +39,7 @@ public mysql_xdevapi\CollectionModify::arrayInsert(string $collection_field, str
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::arrayInsert()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionModify::arrayInsert()\*\*\*\*
 
 ```php
 <?php

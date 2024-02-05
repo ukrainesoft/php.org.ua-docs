@@ -45,7 +45,7 @@ array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_walk\_recursive()\*\*\*\*
+**Приклад #1 Приклад використання** array\_walk\_recursive()\*\*\*\*
 
 ```php
 <?php

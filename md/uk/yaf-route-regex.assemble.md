@@ -33,7 +33,7 @@ public Yaf_Route_Regex::assemble(array $info, array $query = ?): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Route\_Regex::assemble()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Route\_Regex::assemble()\*\*\*\*
 
 ```php
 <?php

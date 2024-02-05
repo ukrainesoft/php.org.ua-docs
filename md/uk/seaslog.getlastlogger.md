@@ -31,7 +31,7 @@ public static SeasLog::getLastLogger(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::getLastLogger()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::getLastLogger()\*\*\*\*
 
 ```php
 <?php

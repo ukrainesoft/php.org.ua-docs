@@ -33,7 +33,7 @@ sqlsrv_cancel(resource $stmt): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_cancel()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_cancel()\*\*\*\*
 
 ```php
 <?php

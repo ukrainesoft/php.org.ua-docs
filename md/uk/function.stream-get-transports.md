@@ -31,7 +31,7 @@ stream_get_transports(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_get\_transports()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_get\_transports()\*\*\*\*
 
 ```php
 <?php

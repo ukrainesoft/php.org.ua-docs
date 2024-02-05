@@ -15,7 +15,7 @@ SolrPingResponse::\_\_construct — Конструктор
 
 ### Опис
 
-public**SolrPingResponse::\_\_construct**()
+public **SolrPingResponse::\_\_construct**()
 
 Конструктор
 

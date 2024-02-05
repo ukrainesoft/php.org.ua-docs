@@ -37,7 +37,7 @@ interface_exists(string $interface, bool $autoload = true): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**interface\_exists()\*\*\*\*
+**Приклад #1 Приклад використання** interface\_exists()\*\*\*\*
 
 ```php
 <?php

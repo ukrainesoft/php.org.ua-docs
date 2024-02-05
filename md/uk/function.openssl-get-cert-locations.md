@@ -31,7 +31,7 @@ openssl_get_cert_locations(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_get\_cert\_locations()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_get\_cert\_locations()\*\*\*\*
 
 ```php
 <?php

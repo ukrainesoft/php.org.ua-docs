@@ -43,7 +43,7 @@ pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_config\_ignore()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_config\_ignore()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ## Установка OCI8 із PECL за допомогою phpize
 
-Якщо з якихось причин немає можливості скористатися командою `pecl`, можна самостійно завантажити пакет із сайту [» PECL](https://pecl.php.net/package/oci8)Например oci8-3.0.0.tgz.
+Якщо з якихось причин немає можливості скористатися командою `pecl`, можна самостійно завантажити пакет із сайту [» PECL](https://pecl.php.net/package/oci8)НаПриклад oci8-3.0.0.tgz.
 
 -   Розархівуйте пакет:
     
@@ -125,7 +125,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
     ./configure --with-oci8=shared,instantclient,/usr/lib/oracle/<version>/client/lib
     ```
     
-    Например,**\--with-oci8=shared,instantclient,/usr/lib/oracle/19.9/client/lib**
+    НаПриклад,**\--with-oci8=shared,instantclient,/usr/lib/oracle/19.9/client/lib**
     
 -   При використанні бази даних Oracle database або повної установки Oracle Client:
     

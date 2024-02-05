@@ -33,7 +33,7 @@ closedir(?resource $dir_handle = null): void
 
 ### Приклади
 
-**Пример #1 Пример использования**closedir()\*\*\*\*
+**Приклад #1 Приклад використання** closedir()\*\*\*\*
 
 ```php
 <?php

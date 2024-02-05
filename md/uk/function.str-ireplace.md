@@ -59,7 +59,7 @@ str_ireplace(    array|string $search,    array|string $replace,    
 
 ### Приклади
 
-**Пример #1 Пример использования**str\_ireplace()\*\*\*\*
+**Приклад #1 Приклад використання** str\_ireplace()\*\*\*\*
 
 ```php
 <?php

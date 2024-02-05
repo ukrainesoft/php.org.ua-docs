@@ -51,7 +51,7 @@ Memcache::set(    string $key,    mixed $var,    int $flag = ?,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::set()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::set()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +72,7 @@ echo memcache_get($memcache_obj, 'var_key');
 ?>
 ```
 
-**Пример #2 Пример использования**Memcache::set()\*\*\*\*
+**Приклад #2 Приклад використання** Memcache::set()\*\*\*\*
 
 ```php
 <?php

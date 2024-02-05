@@ -39,7 +39,7 @@ public Phar::setAlias(string $alias): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::setAlias()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::setAlias()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ ibase_trans(resource $link_identifier = ?, int $trans_args = ?): resource
 
 `trans_args`
 
-`trans_args` може бути комбінацією **`IBASE_READ`** **`IBASE_WRITE`** **`IBASE_COMMITTED`** **`IBASE_CONSISTENCY`** **`IBASE_CONCURRENCY`** **`IBASE_REC_VERSION`** **`IBASE_REC_NO_VERSION`** **`IBASE_WAIT`**и**`IBASE_NOWAIT`**
+`trans_args` може бути комбінацією **`IBASE_READ`** **`IBASE_WRITE`** **`IBASE_COMMITTED`** **`IBASE_CONSISTENCY`** **`IBASE_CONCURRENCY`** **`IBASE_REC_VERSION`** **`IBASE_REC_NO_VERSION`** **`IBASE_WAIT`** і **`IBASE_NOWAIT`**
 
 `link_identifier`
 

@@ -31,7 +31,7 @@ public SplFileInfo::isDir(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::isDir()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::isDir()\*\*\*\*
 
 ```php
 <?php

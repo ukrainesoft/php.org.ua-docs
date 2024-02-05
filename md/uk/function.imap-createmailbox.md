@@ -47,7 +47,7 @@ imap_createmailbox(IMAP\Connection $imap, string $mailbox): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_createmailbox()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_createmailbox()\*\*\*\*
 
 ```php
 <?php

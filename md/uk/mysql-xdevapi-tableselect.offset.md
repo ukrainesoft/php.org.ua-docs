@@ -33,7 +33,7 @@ public mysql_xdevapi\TableSelect::offset(int $position): mysql_xdevapi\TableSele
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::offset()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::offset()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ UI\\Draw\\Text\\Font::\_\_construct — Створити новий об'єкт 
 
 ### Опис
 
-public**UI\\Draw\\Text\\Font::\_\_construct** [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.md) `$descriptor`) .
+public **UI\\Draw\\Text\\Font::\_\_construct** [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.md) `$descriptor`) .
 
 Створить новий об'єкт Font, використовуючи заданий дескриптор
 

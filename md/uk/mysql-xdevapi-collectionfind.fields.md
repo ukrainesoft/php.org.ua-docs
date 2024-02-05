@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionFind::fields(string $projection): mysql_xdevapi\C
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::fields()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionFind::fields()\*\*\*\*
 
 ```php
 <?php

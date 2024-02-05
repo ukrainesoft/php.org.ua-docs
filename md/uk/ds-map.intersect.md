@@ -43,7 +43,7 @@ public Ds\Map::intersect(Ds\Map $map): Ds\Map
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::intersect()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::intersect()\*\*\*\*
 
 ```php
 <?php

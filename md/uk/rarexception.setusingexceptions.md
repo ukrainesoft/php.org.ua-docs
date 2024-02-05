@@ -38,7 +38,7 @@ public static RarException::setUsingExceptions(bool $using_exceptions): void
 
 ### Приклади
 
-**Пример #1 Пример использования**RarException::setUsingExceptions()\*\*\*\*
+**Приклад #1 Приклад використання** RarException::setUsingExceptions()\*\*\*\*
 
 ```php
 <?php

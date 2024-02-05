@@ -77,7 +77,7 @@ $username = $_GET['user'] ?? 'nobody';
 $username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
 
 // Данный оператор можно использовать в цепочке.
-// В этом примере мы сперва проверяем, задан ли $_GET['user'], если нет,
+// В этом Прикладе мы сперва проверяем, задан ли $_GET['user'], если нет,
 // то проверяем $_POST['user'], и если он тоже не задан, то присваеваем 'nobody'.
 $username = $_GET['user'] ?? $_POST['user'] ?? 'nobody';
 ?>
@@ -384,7 +384,7 @@ int(3)
 
 Також опції були розширені включеною за замовчуванням опцією [session.lazy\_write](session.configuration.md#ini.session.lazy-write), яка говорить PHP про те, що файл сесії треба перезаписувати тільки якщо змінилися дані сесії, і опцією `read_and_close`, яку можна задати тільки через [session\_start()](function.session-start.md) для того, щоб PHP закривав сесію відразу ж як прочитає її дані і не вносив до неї будь-яких змін.
 
-К примеру, для установки[session.cache\_limiter](session.configuration.md#ini.session.cache-limiter) рівним `private` та негайного закриття сесії після читання її даних:
+К Прикладу, для установки[session.cache\_limiter](session.configuration.md#ini.session.cache-limiter) рівним `private` та негайного закриття сесії після читання її даних:
 
 ```php
 <?php

@@ -43,7 +43,7 @@ grapheme_strstr(string $haystack, string $needle, bool $beforeNeedle = false): s
 
 ### Приклади
 
-**Пример #1 Пример использования**grapheme\_strstr()\*\*\*\*
+**Приклад #1 Приклад використання** grapheme\_strstr()\*\*\*\*
 
 ```php
 <?php

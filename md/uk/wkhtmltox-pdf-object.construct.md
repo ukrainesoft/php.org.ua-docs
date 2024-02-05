@@ -15,7 +15,7 @@ wkhtmltox\\PDF\\Object::\_\_construct — Створити новий об'єк�
 
 ### Опис
 
-public**wkhtmltox\\PDF\\Object::\_\_construct**(string`$buffer`, array`$settings`
+public **wkhtmltox\\PDF\\Object::\_\_construct**(string`$buffer`, array`$settings`
 
 Створює новий об'єкт PDF із зазначеного буфера та додаткові конфігураційні налаштування
 

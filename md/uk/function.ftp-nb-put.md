@@ -39,7 +39,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `mode`
 
-Режим передачі. Може приймати значення **`FTP_ASCII`**или**`FTP_BINARY`**
+Режим передачі. Може приймати значення **`FTP_ASCII`** або **`FTP_BINARY`**
 
 `offset`
 
@@ -47,7 +47,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Значення, що повертаються
 
-Повертає **`FTP_FAILED`** **`FTP_FINISHED`**или**`FTP_MOREDATA`**или**`false`** у разі неможливості відкрити локальний файл.
+Повертає **`FTP_FAILED`** **`FTP_FINISHED`** або **`FTP_MOREDATA`** або **`false`** у разі неможливості відкрити локальний файл.
 
 ### список змін
 
@@ -58,7 +58,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_nb\_put()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_nb\_put()\*\*\*\*
 
 ```php
 <?php
@@ -80,7 +80,7 @@ if ($ret != FTP_FINISHED) {
 ?>
 ```
 
-**Пример #2 Возобновление загрузки файла с помощью**ftp\_nb\_put()\*\*\*\*
+**Приклад #2 Возобновление загрузки файла с помощью**ftp\_nb\_put()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ public Phar::decompressFiles(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::decompressFiles()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::decompressFiles()\*\*\*\*
 
 ```php
 <?php

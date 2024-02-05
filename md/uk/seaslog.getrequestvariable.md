@@ -38,7 +38,7 @@ public static SeasLog::getRequestVariable(int $key): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::getRequestVariable()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::getRequestVariable()\*\*\*\*
 
 ```php
 <?php

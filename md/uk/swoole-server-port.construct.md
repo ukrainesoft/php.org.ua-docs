@@ -15,7 +15,7 @@ Swoole\\Server\\Port::\_\_construct — Створює порт сервера
 
 ### Опис
 
-private**Swoole\\Server\\Port::\_\_construct**()
+private **Swoole\\Server\\Port::\_\_construct**()
 
 ### Список параметрів
 

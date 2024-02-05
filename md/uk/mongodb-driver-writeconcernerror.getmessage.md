@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcernError::getMessage(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcernError::getMessage()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteConcernError::getMessage()\*\*\*\*
 
 ```php
 <?php

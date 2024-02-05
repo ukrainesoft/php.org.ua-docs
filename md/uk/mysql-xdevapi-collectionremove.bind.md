@@ -39,7 +39,7 @@ public mysql_xdevapi\CollectionRemove::bind(array $placeholder_values): mysql_xd
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionRemove::bind()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionRemove::bind()\*\*\*\*
 
 ```php
 <?php

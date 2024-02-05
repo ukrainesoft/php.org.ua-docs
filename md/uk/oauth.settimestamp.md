@@ -33,7 +33,7 @@ public OAuth::setTimestamp(string $timestamp): mixed
 
 ### Значення, що повертаються
 
-Повертає **`true`**или**`false`**, якщо параметр `timestamp`задан некорректно.
+Повертає **`true`** або **`false`**, якщо параметр `timestamp`задан некорректно.
 
 ### список змін
 

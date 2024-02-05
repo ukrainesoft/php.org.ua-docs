@@ -31,7 +31,7 @@ public Yaf_Plugin_Abstract::routerShutdown(Yaf_Request_Abstract $request, Yaf_Re
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Plugin\_Abstract::routerShutdown()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Plugin\_Abstract::routerShutdown()\*\*\*\*
 
 ```php
 <?php

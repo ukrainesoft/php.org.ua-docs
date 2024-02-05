@@ -48,7 +48,7 @@ public PharData::buildFromIterator(Traversable $iterator, ?string $baseDirectory
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::buildFromIterator()**с SplFileInfo**
+**Приклад #1 Приклад використання** PharData::buildFromIterator()**с SplFileInfo**
 
 Для більшості tar/zip-архівів, структура відображає дерево директорій на файловій системі. Наприклад, для створення tar/zip-архіву, що містить таку структуру директорій та файлів:
 
@@ -81,7 +81,7 @@ $phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 ?>
 ```
 
-**Пример #2 Пример использования**PharData::buildFromIterator()\*\* з іншим ітератором\*\*
+**Приклад #2 Приклад використання** PharData::buildFromIterator()\*\* з іншим ітератором\*\*
 
 Можна використовувати ітератори, що повертають зв'язку "ключ" => "значення", наприклад [ArrayIterator](class.arrayiterator.md) :
 

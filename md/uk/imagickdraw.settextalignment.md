@@ -37,7 +37,7 @@ public ImagickDraw::setTextAlignment(int $alignment): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setTextAlignment()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setTextAlignment()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ getimagesizefromstring(string $string, array &$image_info = null): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**getimagesizefromstring()\*\*\*\*
+**Приклад #1 Приклад використання** getimagesizefromstring()\*\*\*\*
 
 ```php
 <?php

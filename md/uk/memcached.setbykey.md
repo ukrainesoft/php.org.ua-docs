@@ -45,7 +45,7 @@ public Memcached::setByKey(    string $server_key,    string $key,   
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::setByKey()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::setByKey()\*\*\*\*
 
 ```php
 <?php

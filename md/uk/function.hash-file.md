@@ -49,7 +49,7 @@ hash_file(    string $algo,    string $filename,    bool $binary = f
 
 ### Приклади
 
-**Пример #1 Использование**hash\_file()\*\*\*\*
+**Приклад #1 Использование**hash\_file()\*\*\*\*
 
 ```php
 <?php

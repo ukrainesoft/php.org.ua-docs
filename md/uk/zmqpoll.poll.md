@@ -45,7 +45,7 @@ public ZMQPoll::poll(array &$readable, array &$writable, int $timeout = -1): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ZMQPoll()\*\*\*\*
+**Приклад #1 Приклад використання** ZMQPoll()\*\*\*\*
 
 Створимо простий сервер опитування
 

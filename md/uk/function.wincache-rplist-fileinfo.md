@@ -40,7 +40,7 @@ wincache_rplist_fileinfo(bool $summaryonly = false): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_rplist\_fileinfo()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_rplist\_fileinfo()\*\*\*\*
 
 ```php
 <pre>

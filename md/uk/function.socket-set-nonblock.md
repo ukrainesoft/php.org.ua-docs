@@ -41,7 +41,7 @@ socket_set_nonblock(Socket $socket): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**socket\_set\_nonblock()\*\*\*\*
+**Приклад #1 Приклад використання** socket\_set\_nonblock()\*\*\*\*
 
 ```php
 <?php

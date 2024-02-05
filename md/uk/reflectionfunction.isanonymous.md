@@ -31,7 +31,7 @@ public ReflectionFunction::isAnonymous(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionFunction::isAnonymous()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionFunction::isAnonymous()\*\*\*\*
 
 ```php
 <?php

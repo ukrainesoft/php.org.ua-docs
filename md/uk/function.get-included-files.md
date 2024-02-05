@@ -35,7 +35,7 @@ get_included_files(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_included\_files()\*\*\*\*
+**Приклад #1 Приклад використання** get\_included\_files()\*\*\*\*
 
 ```php
 <?php

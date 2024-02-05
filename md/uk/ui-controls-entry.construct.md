@@ -15,7 +15,7 @@ UI\\Controls\\Entry::\_\_construct — Створити новий об'єкт E
 
 ### Опис
 
-public**UI\\Controls\\Entry::\_\_construct**(int`$type`\= UI\\Controls\\Entry::Normal)
+public **UI\\Controls\\Entry::\_\_construct**(int`$type`\= UI\\Controls\\Entry::Normal)
 
 Створити новий елемент керування "Введення" заданого типу
 

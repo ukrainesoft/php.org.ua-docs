@@ -15,7 +15,7 @@ EvTimer::\_\_construct - Конструктор об'єкта спостеріг
 
 ### Опис
 
-public**EvTimer::\_\_construct**  
+public **EvTimer::\_\_construct**  
 float`$after`  
 float`$repeat`  
 [callable](language.types.callable.md) `$callback`  

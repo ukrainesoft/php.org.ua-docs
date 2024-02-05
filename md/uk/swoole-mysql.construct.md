@@ -15,7 +15,7 @@ Swoole\\MySQL::\_\_construct - Створює асинхронний клієн�
 
 ### Опис
 
-public**Swoole\\MySQL::\_\_construct**()
+public **Swoole\\MySQL::\_\_construct**()
 
 Створює асинхронний клієнт MySQL.
 

@@ -115,7 +115,7 @@ cubrid_schema(    resource $conn_identifier,    int $schema_type,   �
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_schema()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_schema()\*\*\*\*
 
 ```php
 <?php

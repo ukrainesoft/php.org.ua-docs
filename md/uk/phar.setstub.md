@@ -65,7 +65,7 @@ include 'phar://myphar.phar/somefile.php';
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::setStub()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::setStub()\*\*\*\*
 
 ```php
 <?php

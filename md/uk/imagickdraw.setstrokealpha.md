@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeAlpha(float $opacity): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeAlpha()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeAlpha()\*\*\*\*
 
 ```php
 <?php

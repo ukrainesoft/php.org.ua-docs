@@ -49,7 +49,7 @@ stream_socket_sendto(    resource $socket,    string $data,    int $
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_socket\_sendto()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_socket\_sendto()\*\*\*\*
 
 ```php
 <?php

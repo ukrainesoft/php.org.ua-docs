@@ -53,7 +53,7 @@ cubrid_connect(    string $host,    int $port,    string $dbname, �
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_connect()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_connect()\*\*\*\*
 
 ```php
 <?php

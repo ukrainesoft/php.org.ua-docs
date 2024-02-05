@@ -33,7 +33,7 @@ public Ds\Deque::rotate(int $rotations): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::rotate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::rotate()\*\*\*\*
 
 ```php
 <?php

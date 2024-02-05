@@ -15,7 +15,7 @@ PharData::\_\_construct — Конструктор об'єкта PharData
 
 ### Опис
 
-public**PharData::\_\_construct**  
+public **PharData::\_\_construct**  
 string`$filename`,  
 int`$flags`\= FilesystemIterator::SKIP\_DOTS | FilesystemIterator::UNIX\_PATHS,  
 ?string`$alias` **`null`**,  
@@ -46,7 +46,7 @@ int`$format`
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::\_\_construct()\*\*\*\*
 
 ```php
 <?php

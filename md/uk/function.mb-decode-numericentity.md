@@ -51,7 +51,7 @@ mb_decode_numericentity(string $string, array $map, ?string $encoding = null): s
 
 ### Приклади
 
-**Пример #1 Пример использования параметра`map`**
+**Приклад #1 Приклад использования параметра`map`**
 
 ```php
 <?php

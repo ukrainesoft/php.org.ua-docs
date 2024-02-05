@@ -56,7 +56,7 @@ public static SeasLog::log(    string $level,    string $message = ?, �
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::log()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::log()\*\*\*\*
 
 ```php
 <?php

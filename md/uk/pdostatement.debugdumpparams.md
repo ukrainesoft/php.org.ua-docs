@@ -35,7 +35,7 @@ public PDOStatement::debugDumpParams(): ?bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`null`**или**`false`\*\*в случае возникновения ошибки.
+Повертає \*\*`null`** або **`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
@@ -45,7 +45,7 @@ public PDOStatement::debugDumpParams(): ?bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PDOStatement::debugDumpParams()\*\* з іменованими параметрами\*\*
+**Приклад #1 Приклад використання** PDOStatement::debugDumpParams()\*\* з іменованими параметрами\*\*
 
 ```php
 <?php
@@ -83,7 +83,7 @@ is_param=1
 param_type=2
 ```
 
-**Пример #2 Пример использования**PDOStatement::debugDumpParams()\*\* з неіменованими (?) параметрами\*\*
+**Приклад #2 Приклад використання** PDOStatement::debugDumpParams()\*\* з неіменованими (?) параметрами\*\*
 
 ```php
 <?php

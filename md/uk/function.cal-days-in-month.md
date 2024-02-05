@@ -41,7 +41,7 @@ cal_days_in_month(int $calendar, int $month, int $year): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cal\_days\_in\_month()\*\*\*\*
+**Приклад #1 Приклад використання** cal\_days\_in\_month()\*\*\*\*
 
 ```php
 <?php

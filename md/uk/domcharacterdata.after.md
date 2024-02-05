@@ -50,7 +50,7 @@ public DOMCharacterData::after(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMCharacterData::after()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMCharacterData::after()\*\*\*\*
 
 Додавання вузлів після символьних даних.
 

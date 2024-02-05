@@ -35,7 +35,7 @@ xmlrpc_is_fault(array $arg): bool
 
 ### Приклади
 
-Смотрите пример[xmlrpc\_encode\_request()](function.xmlrpc-encode-request.md)
+Смотрите Приклад[xmlrpc\_encode\_request()](function.xmlrpc-encode-request.md)
 
 ### Дивіться також
 

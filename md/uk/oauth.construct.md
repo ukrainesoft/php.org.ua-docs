@@ -15,7 +15,7 @@ OAuth::\_\_construct — Створює новий об'єкт OAuth
 
 ### Опис
 
-public**OAuth::\_\_construct**  
+public **OAuth::\_\_construct**  
 string`$consumer_key`,  
 string`$consumer_secret`,  
 string`$signature_method` **`OAUTH_SIG_METHOD_HMACSHA1`**,  

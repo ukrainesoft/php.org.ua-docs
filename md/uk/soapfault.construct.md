@@ -15,7 +15,7 @@ SoapFault::\_\_construct - Конструктор SoapFault
 
 ### Опис
 
-public**SoapFault::\_\_construct**  
+public **SoapFault::\_\_construct**  
 array|string|null`$code`,  
 string`$string`,  
 ?string`$actor` **`null`**,  

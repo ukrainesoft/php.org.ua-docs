@@ -33,7 +33,7 @@ public OAuth::setRSACertificate(string $cert): mixed
 
 ### Значення, що повертаються
 
-Повертає **`true`**или**`false`** (наприклад, якщо встановлено неправильний сертифікат RSA)
+Повертає **`true`** або **`false`** (наприклад, якщо встановлено неправильний сертифікат RSA)
 
 ### список змін
 
@@ -43,7 +43,7 @@ public OAuth::setRSACertificate(string $cert): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuth::setRsaCertificate()\*\*\*\*
+**Приклад #1 Приклад використання** OAuth::setRsaCertificate()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ abstract public mysql_xdevapi\CrudOperationSkippable::skip(int $skip): mysql_xde
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CrudOperationSkippable::skip()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CrudOperationSkippable::skip()\*\*\*\*
 
 ```php
 <?php

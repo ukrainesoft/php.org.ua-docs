@@ -37,7 +37,7 @@ enum_exists(string $enum, bool $autoload = true): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**enum\_exists()\*\*\*\*
+**Приклад #1 Приклад використання** enum\_exists()\*\*\*\*
 
 ```php
 <?php

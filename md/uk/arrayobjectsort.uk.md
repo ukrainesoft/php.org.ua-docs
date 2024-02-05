@@ -51,7 +51,7 @@ callback(mixed $a, mixed $b): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::uksort()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::uksort()\*\*\*\*
 
 ```php
 <?php

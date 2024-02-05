@@ -15,7 +15,7 @@ Yaf\_Router::\_\_construct - Конструктор класу Yaf\_Router
 
 ### Опис
 
-public**Yaf\_Router::\_\_construct**()
+public **Yaf\_Router::\_\_construct**()
 
 ### Список параметрів
 

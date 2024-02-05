@@ -49,7 +49,7 @@ public DOMCharacterData::replaceWith(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMCharacterData::replaceWith()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMCharacterData::replaceWith()\*\*\*\*
 
 Заміна символьних даних на нові вузли.
 

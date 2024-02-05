@@ -39,7 +39,7 @@ wincache_ucache_meminfo(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ucache\_meminfo()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_ucache\_meminfo()\*\*\*\*
 
 ```php
 <pre>

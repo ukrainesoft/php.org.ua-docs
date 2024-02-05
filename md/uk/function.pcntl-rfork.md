@@ -45,7 +45,7 @@ pcntl_rfork(int $flags, int $signal = 0): int
 
 ### Приклади
 
-**Пример #1 Пример использования**pcntl\_rfork()\*\*\*\*
+**Приклад #1 Приклад використання** pcntl\_rfork()\*\*\*\*
 
 ```php
 <?php

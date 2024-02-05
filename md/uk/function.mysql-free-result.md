@@ -44,7 +44,7 @@ mysql_free_result(resource $result): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_free\_result()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_free\_result()\*\*\*\*
 
 ```php
 <?php

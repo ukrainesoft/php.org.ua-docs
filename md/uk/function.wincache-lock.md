@@ -41,7 +41,7 @@ wincache_lock(string $key, bool $isglobal = false): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_lock()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_lock()\*\*\*\*
 
 ```php
 <?php

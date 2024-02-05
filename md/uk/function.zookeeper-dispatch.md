@@ -41,7 +41,7 @@ zookeeper_dispatch(): void
 
 ### Приклади
 
-**Пример #1**zookeeper\_dispatch()**example #1**
+**Приклад #1**zookeeper\_dispatch()**example #1**
 
 Виклик callback-функцій вручну.
 
@@ -59,7 +59,7 @@ while(true) {
 ?>
 ```
 
-**Пример #2 Пример использования**zookeeper\_dispatch()\*\*\*\*
+**Приклад #2 Приклад використання** zookeeper\_dispatch()\*\*\*\*
 
 Оголошення тиків.
 

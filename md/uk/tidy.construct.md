@@ -15,7 +15,7 @@ tidy::\_\_construct — Створює новий [tidy](class.tidy.md)\-об'є
 
 ### Опис
 
-public**tidy::\_\_construct**  
+public **tidy::\_\_construct**  
 ?string`$filename` **`null`**,  
 array|string|null`$config` **`null`**,  
 ?string`$encoding` **`null`**,  
@@ -52,7 +52,7 @@ bool`$useIncludePath` **`false`**
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::\_\_construct()\*\*\*\*
 
 ```php
 <?php

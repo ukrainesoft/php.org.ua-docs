@@ -15,7 +15,7 @@ HashContext::\_\_construct — Закритий конструктор для з
 
 ### Опис
 
-private**HashContext::\_\_construct**()
+private **HashContext::\_\_construct**()
 
 ### Список параметрів
 

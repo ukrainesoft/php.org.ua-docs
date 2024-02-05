@@ -41,11 +41,11 @@ odbc_statistics(    resource $odbc,    ?string $catalog,    string $
 
 `unique`
 
-Тип индекса. Одна из констант\*\*`SQL_INDEX_UNIQUE`**или**`SQL_INDEX_ALL`\*\*
+Тип индекса. Одна из констант\*\*`SQL_INDEX_UNIQUE`** або **`SQL_INDEX_ALL`\*\*
 
 `accuracy`
 
-Одна из констант\*\*`SQL_ENSURE`**или**`SQL_QUICK`\*\*Последняя запрашивает у драйвера получение`CARDINALITY`и`PAGES`тільки якщо вони легко доступні з сервера.
+Одна из констант\*\*`SQL_ENSURE`** або **`SQL_QUICK`\*\*Последняя запрашивает у драйвера получение`CARDINALITY`и`PAGES`тільки якщо вони легко доступні з сервера.
 
 ### Значення, що повертаються
 

@@ -15,7 +15,7 @@ Random\\Engine\\Xoshiro256StarStar::\_\_construct - Створює новий о
 
 ### Опис
 
-public**Random\\Engine\\Xoshiro256StarStar::\_\_construct**(string|int|null`$seed` **`null`**) .
+public **Random\\Engine\\Xoshiro256StarStar::\_\_construct**(string|int|null`$seed` **`null`**) .
 
 **Увага**
 
@@ -40,7 +40,7 @@ public**Random\\Engine\\Xoshiro256StarStar::\_\_construct**(string|int|null`$see
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Xoshiro256StarStar::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Xoshiro256StarStar::\_\_construct()\*\*\*\*
 
 ```php
 <?php

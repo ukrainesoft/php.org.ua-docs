@@ -33,7 +33,7 @@ public mysql_xdevapi\ColumnResult::getSchemaName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getSchemaName()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::getSchemaName()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public QuickHashIntHash::update(int $key, int $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntHash::update()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntHash::update()\*\*\*\*
 
 ```php
 <?php

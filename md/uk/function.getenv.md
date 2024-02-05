@@ -47,11 +47,11 @@ getenv(?string $name = null, bool $local_only = false): string|array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**getenv()\*\*\*\*
+**Приклад #1 Приклад використання** getenv()\*\*\*\*
 
 ```php
 <?php
-// Пример использования getenv()
+// Приклад использования getenv()
 $ip = getenv('REMOTE_ADDR');
 
 // Можно ещё воспользоваться суперглобальной переменной ($_SERVER или $_ENV)

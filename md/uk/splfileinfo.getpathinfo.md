@@ -39,7 +39,7 @@ public SplFileInfo::getPathInfo(?string $class = null): ?SplFileInfo
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getPathInfo()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getPathInfo()\*\*\*\*
 
 ```php
 <?php

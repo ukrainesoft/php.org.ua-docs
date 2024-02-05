@@ -47,7 +47,7 @@ bzwrite(resource $bz, string $data, ?int $length = null): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**bzwrite()\*\*\*\*
+**Приклад #1 Приклад використання** bzwrite()\*\*\*\*
 
 ```php
 <?php

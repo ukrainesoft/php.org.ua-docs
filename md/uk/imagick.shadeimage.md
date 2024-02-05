@@ -45,7 +45,7 @@ public Imagick::shadeImage(bool $gray, float $azimuth, float $elevation): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::shadeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::shadeImage()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public static Seaslog::getBasePath(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::getBasePath()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::getBasePath()\*\*\*\*
 
 ```php
 <?php

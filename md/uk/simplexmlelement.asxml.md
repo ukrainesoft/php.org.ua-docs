@@ -79,11 +79,11 @@ echo $xml->asXML();
 
 `asXML` також працює з результатами Xpath:
 
-**Пример #2 Использование asXML() с результатами[SimpleXMLElement::xpath()](simplexmlelement.xpath.md)**
+**Приклад #2 Использование asXML() с результатами[SimpleXMLElement::xpath()](simplexmlelement.xpath.md)**
 
 ```php
 <?php
-// Продолжение примера XML выше.
+// Продолжение Приклада XML выше.
 
 /* Поиск <a><b><c> */
 $result = $xml->xpath('/a/b/c');

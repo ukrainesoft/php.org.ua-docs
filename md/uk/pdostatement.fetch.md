@@ -77,7 +77,7 @@ public PDOStatement::fetch(int $mode = PDO::FETCH_DEFAULT, int $cursorOrientatio
 $sth = $dbh->prepare("SELECT name, colour FROM fruit");
 $sth->execute();
 
-/* Примеры различных режимов работы PDOStatement::fetch */
+/* Приклады различных режимов работы PDOStatement::fetch */
 print "PDO::FETCH_ASSOC: ";
 print "Возвращаем следующую строку в виде массива, индексированного именами столбцов\n";
 $result = $sth->fetch(PDO::FETCH_ASSOC);

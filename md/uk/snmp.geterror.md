@@ -31,7 +31,7 @@ public SNMP::getError(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SNMP::getError()\*\*\*\*
+**Приклад #1 Приклад використання** SNMP::getError()\*\*\*\*
 
 ```php
 <?php

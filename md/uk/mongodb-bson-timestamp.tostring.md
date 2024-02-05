@@ -29,7 +29,7 @@ final public MongoDB\BSON\Timestamp::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Timestamp::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Timestamp::\_\_toString()\*\*\*\*
 
 ```php
 <?php

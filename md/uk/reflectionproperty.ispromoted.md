@@ -31,7 +31,7 @@ public ReflectionProperty::isPromoted(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::isPromoted()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::isPromoted()\*\*\*\*
 
 ```php
 <?php

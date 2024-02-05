@@ -31,7 +31,7 @@ public DirectoryIterator::getFilename(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::getFilename()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::getFilename()\*\*\*\*
 
 У цьому прикладі буде виведено вміст каталогу, що містить скрипт.
 

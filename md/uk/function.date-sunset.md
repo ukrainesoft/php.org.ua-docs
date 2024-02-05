@@ -35,7 +35,7 @@ date_sunset(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STRI
 
 **Константи `returnFormat`**
 
-| константа | описание | пример |
+| константа | описание | Приклад |
 | --- | --- | --- |
 | SUNFUNCS\_RET\_STRING | тип результату, що повертається string | 16:46 |
 | SUNFUNCS\_RET\_DOUBLE | тип повертається результату float | 16.78243132 |
@@ -83,7 +83,7 @@ date_sunset(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STRI
 
 ### Приклади
 
-**Пример #1 Пример использования**date\_sunset()\*\*\*\*
+**Приклад #1 Приклад використання** date\_sunset()\*\*\*\*
 
 ```php
 <?php

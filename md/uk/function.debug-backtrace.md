@@ -59,7 +59,7 @@ debug_backtrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT, int $limit = 0): 
 
 ### Приклади
 
-**Пример #1 Пример использования**debug\_backtrace()\*\*\*\*
+**Приклад #1 Приклад використання** debug\_backtrace()\*\*\*\*
 
 ```php
 <?php

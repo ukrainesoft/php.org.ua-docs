@@ -15,7 +15,7 @@ MultipleIterator::\_\_construct — Створює новий MultipleIterator
 
 ### Опис
 
-public**MultipleIterator::\_\_construct**(int`$flags`\= MultipleIterator::MIT\_NEED\_ALL | MultipleIterator::MIT\_KEYS\_NUMERIC)
+public **MultipleIterator::\_\_construct**(int`$flags`\= MultipleIterator::MIT\_NEED\_ALL | MultipleIterator::MIT\_KEYS\_NUMERIC)
 
 Створює новий MultipleIterator.
 
@@ -25,8 +25,8 @@ public**MultipleIterator::\_\_construct**(int`$flags`\= MultipleIterator::MIT\_N
 
 Флаги для установки, согласно[Обумовленим константам](class.multipleiterator.md#multipleiterator.constants)
 
--   **`MultipleIterator::MIT_NEED_ALL`**или**`MultipleIterator::MIT_NEED_ANY`**
--   **`MultipleIterator::MIT_KEYS_NUMERIC`**или**`MultipleIterator::MIT_KEYS_ASSOC`**
+-   **`MultipleIterator::MIT_NEED_ALL`** або **`MultipleIterator::MIT_NEED_ANY`**
+-   **`MultipleIterator::MIT_KEYS_NUMERIC`** або **`MultipleIterator::MIT_KEYS_ASSOC`**
 
 По умолчанию\*\*`MultipleIterator::MIT_NEED_ALL`\*\* **`MultipleIterator::MIT_KEYS_NUMERIC`**
 

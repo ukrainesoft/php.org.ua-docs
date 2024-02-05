@@ -15,7 +15,7 @@ SoapServer::\_\_construct — Конструктор SoapServer
 
 ### Опис
 
-public**SoapServer::\_\_construct**(?string`$wsdl`, array`$options` \[\]) .
+public **SoapServer::\_\_construct**(?string`$wsdl`, array`$options` \[\]) .
 
 Даний конструктор дозволяє створювати об'єкти [SoapServer](class.soapserver.md) у WSDL чи не-WSDL режимах.
 
@@ -33,15 +33,15 @@ public**SoapServer::\_\_construct**(?string`$wsdl`, array`$options` \[\]) .
 
 Опция`typemap` є масивом зіставлення типів. Масив із ключами `type_name` `type_ns` (URI простору імен), `from_xml` (callback-функція, що приймає один рядковий параметр) та `to_xml` (callback-функція, що приймає один об'єкт як параметр).
 
-Опция`cache_wsdl` задається однією з констант: **`WSDL_CACHE_NONE`** **`WSDL_CACHE_DISK`** **`WSDL_CACHE_MEMORY`**или**`WSDL_CACHE_BOTH`**
+Опция`cache_wsdl` задається однією з констант: **`WSDL_CACHE_NONE`** **`WSDL_CACHE_DISK`** **`WSDL_CACHE_MEMORY`** або **`WSDL_CACHE_BOTH`**
 
-Також є опція `features`, яка задається однією з констант: **`SOAP_WAIT_ONE_WAY_CALLS`** **`SOAP_SINGLE_ELEMENT_ARRAYS`**или**`SOAP_USE_XSI_ARRAY_TYPE`**
+Також є опція `features`, яка задається однією з констант: **`SOAP_WAIT_ONE_WAY_CALLS`** **`SOAP_SINGLE_ELEMENT_ARRAYS`** або **`SOAP_USE_XSI_ARRAY_TYPE`**
 
 опция`send_errors` може бути встановлена ​​в **`false`** для надсилання загального повідомлення про помилку ("Internal error") замість спеціального повідомлення про помилку, яке надсилається в іншому випадку.
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapServer::SoapServer()\*\*\*\*
+**Приклад #1 Приклад використання** SoapServer::SoapServer()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ public Imagick::exportImagePixels(    int $x,    int $y,    int $wid
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::exportImagePixels()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::exportImagePixels()\*\*\*\*
 
 Експорт пікселів зображення в масив
 

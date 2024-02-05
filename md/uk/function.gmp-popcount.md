@@ -33,7 +33,7 @@ gmp_popcount(GMP|int|string $num): int
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_popcount()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_popcount()\*\*\*\*
 
 ```php
 <?php

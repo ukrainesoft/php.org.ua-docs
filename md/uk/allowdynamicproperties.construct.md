@@ -15,7 +15,7 @@ AllowDynamicProperties::\_\_construct — Створює новий екземп
 
 ### Опис
 
-public**AllowDynamicProperties::\_\_construct**()
+public **AllowDynamicProperties::\_\_construct**()
 
 Створює новий екземпляр [AllowDynamicProperties](class.allowdynamicproperties.md)
 

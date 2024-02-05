@@ -43,7 +43,7 @@ resourcebundle_count(ResourceBundle $bundle): int
 
 ### Приклади
 
-**Пример #1 Пример использования**resourcebundle\_count()\*\*\*\*
+**Приклад #1 Приклад використання** resourcebundle\_count()\*\*\*\*
 
 ```php
 <?php

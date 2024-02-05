@@ -44,7 +44,7 @@ enchant_broker_request_dict(EnchantBroker $broker, string $tag): EnchantDictiona
 
 ### Приклади
 
-**Пример #1 Пример использования**enchant\_broker\_request\_dict()\*\*\*\*
+**Приклад #1 Приклад використання** enchant\_broker\_request\_dict()\*\*\*\*
 
 Перевіряємо, чи існує словник за допомогою [enchant\_broker\_dict\_exists()](function.enchant-broker-dict-exists.md) і потім запитуємо його.
 

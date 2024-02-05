@@ -43,7 +43,7 @@ curl_unescape(CurlHandle $handle, string $string): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования[curl\_escape()](function.curl-escape.md)**
+**Приклад #1 Приклад использования[curl\_escape()](function.curl-escape.md)**
 
 ```php
 <?php
@@ -56,7 +56,7 @@ curl_exec($ch);
 
 // Получаем последний использованный URL
 $effective_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
-// например "http://example.com/show_location.php?loc=M%C3%BCnchen"
+// наПриклад "http://example.com/show_location.php?loc=M%C3%BCnchen"
 
 // Декодируем
 $effective_url_decoded = curl_unescape($ch, $effective_url);

@@ -37,7 +37,7 @@ public DOMImplementation::createDocumentType(string $qualifiedName, string $publ
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMDocumentType](class.domdocumenttype.md) з атрибутом `ownerDocument`, встановленим у \*\*`null`**или**`false`\*\*в случае возникновения ошибки.
+Новий об'єкт класу [DOMDocumentType](class.domdocumenttype.md) з атрибутом `ownerDocument`, встановленим у \*\*`null`** або **`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 

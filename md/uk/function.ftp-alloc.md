@@ -51,7 +51,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_alloc()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_alloc()\*\*\*\*
 
 ```php
 <?php

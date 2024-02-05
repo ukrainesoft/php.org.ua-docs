@@ -32,7 +32,7 @@ final public MongoDB\BSON\ObjectId::__construct(?string $id = null)
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\ObjectId::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\ObjectId::\_\_construct()\*\*\*\*
 
 ```php
 <?php

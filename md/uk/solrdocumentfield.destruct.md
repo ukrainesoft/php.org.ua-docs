@@ -15,7 +15,7 @@ SolrDocumentField::\_\_destruct - Деструктор
 
 ### Опис
 
-public**SolrDocumentField::\_\_destruct**()
+public **SolrDocumentField::\_\_destruct**()
 
 Деструктор.
 

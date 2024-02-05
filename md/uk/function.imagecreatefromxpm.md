@@ -43,7 +43,7 @@ imagecreatefromxpm(string $filename): GdImage|false
 
 ### Приклади
 
-**Пример #1 Создание изображения, используя**imagecreatefromxpm()\*\*\*\*
+**Приклад #1 Создание изображения, используя**imagecreatefromxpm()\*\*\*\*
 
 ```php
 <?php

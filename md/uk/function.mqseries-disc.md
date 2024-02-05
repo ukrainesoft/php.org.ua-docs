@@ -43,7 +43,7 @@ mqseries_disc(resource $hconn, resource &$compCode, resource &$reason): void
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_disc()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_disc()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ oci_field_type_raw(resource $statement, string|int $column): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_field\_type\_raw()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_field\_type\_raw()\*\*\*\*
 
 ```php
 <?php

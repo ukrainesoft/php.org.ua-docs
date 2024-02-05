@@ -15,7 +15,7 @@ EventDnsBase::\_\_construct — Конструктор об'єкта EventDnsBas
 
 ### Опис
 
-public**EventDnsBase::\_\_construct** [EventBase](class.eventbase.md) `$base`, int|bool`$initialize`
+public **EventDnsBase::\_\_construct** [EventBase](class.eventbase.md) `$base`, int|bool`$initialize`
 
 Створює об'єкт EventDnsBase.
 

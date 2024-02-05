@@ -47,7 +47,7 @@ normalizer_normalize(string $string, int $form = Normalizer::FORM_C): string|fal
 
 ### Приклади
 
-**Пример #1 Пример использования**normalizer\_normalize()\*\*\*\*
+**Приклад #1 Приклад використання** normalizer\_normalize()\*\*\*\*
 
 ```php
 <?php

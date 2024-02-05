@@ -39,7 +39,7 @@ mysql_client_encoding(resource $link_identifier = NULL): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_client\_encoding()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_client\_encoding()\*\*\*\*
 
 ```php
 <?php

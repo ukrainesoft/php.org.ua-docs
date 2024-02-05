@@ -45,7 +45,7 @@ gzgetss(resource $zp, int $length, string $allowable_tags = ?): string
 
 ### Приклади
 
-**Пример #1 Пример использования**gzgetss()\*\*\*\*
+**Приклад #1 Приклад використання** gzgetss()\*\*\*\*
 
 ```php
 <?php

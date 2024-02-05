@@ -59,7 +59,7 @@ public Imagick::frameImage(    mixed $matte_color,    int $width,   �
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::frameImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::frameImage()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ cubrid_lob_size(resource $lob_identifier): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_lob\_size()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_lob\_size()\*\*\*\*
 
 ```php
 <?php

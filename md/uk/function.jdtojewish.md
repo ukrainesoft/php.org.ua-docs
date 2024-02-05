@@ -33,7 +33,7 @@ jdtojewish(int $julian_day, bool $hebrew = false, int $flags = 0): string
 
 `flags`
 
-Бітова маска може складатися з: **`CAL_JEWISH_ADD_ALAFIM_GERESH`** **`CAL_JEWISH_ADD_ALAFIM`**и**`CAL_JEWISH_ADD_GERESHAYIM`**
+Бітова маска може складатися з: **`CAL_JEWISH_ADD_ALAFIM_GERESH`** **`CAL_JEWISH_ADD_ALAFIM`** і **`CAL_JEWISH_ADD_GERESHAYIM`**
 
 ### Значення, що повертаються
 
@@ -41,7 +41,7 @@ jdtojewish(int $julian_day, bool $hebrew = false, int $flags = 0): string
 
 ### Приклади
 
-**Пример #1 Пример использования**jdtojewish()\*\*\*\*
+**Приклад #1 Приклад використання** jdtojewish()\*\*\*\*
 
 ```php
 <?php

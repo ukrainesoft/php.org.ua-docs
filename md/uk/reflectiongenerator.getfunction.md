@@ -31,7 +31,7 @@ public ReflectionGenerator::getFunction(): ReflectionFunctionAbstract
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionGenerator::getFunction()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionGenerator::getFunction()\*\*\*\*
 
 ```php
 <?php

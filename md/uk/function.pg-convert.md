@@ -41,7 +41,7 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 `flags`
 
-Одна из констант\*\*`PGSQL_CONV_IGNORE_DEFAULT`\*\* \*\*`PGSQL_CONV_FORCE_NULL`**или**`PGSQL_CONV_IGNORE_NOT_NULL`\*\*або їх комбінація.
+Одна из констант\*\*`PGSQL_CONV_IGNORE_DEFAULT`\*\* \*\*`PGSQL_CONV_FORCE_NULL`** або **`PGSQL_CONV_IGNORE_NOT_NULL`\*\*або їх комбінація.
 
 ### Значення, що повертаються
 
@@ -55,7 +55,7 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 ### Приклади
 
-**Пример #1 Пример использования функции**pg\_convert()\*\*\*\*
+**Приклад #1 Приклад использования функции**pg\_convert()\*\*\*\*
 
 ```php
 <?php

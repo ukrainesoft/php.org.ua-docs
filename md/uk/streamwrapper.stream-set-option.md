@@ -37,7 +37,7 @@ public streamWrapper::stream_set_option(int $option, int $arg1, int $arg2): bool
 
 -   **`STREAM_OPTION_BLOCKING`**: запит режиму блокування (1 - блокувати, 0 - не блокувати).
 -   **`STREAM_OPTION_READ_TIMEOUT`**: час очікування в секундах
--   **`STREAM_OPTION_WRITE_BUFFER`**: режим буферизації (**`STREAM_BUFFER_NONE`**или**`STREAM_BUFFER_FULL`**
+-   **`STREAM_OPTION_WRITE_BUFFER`**: режим буферизації (**`STREAM_BUFFER_NONE`** або **`STREAM_BUFFER_FULL`**
 
 `arg2`
 

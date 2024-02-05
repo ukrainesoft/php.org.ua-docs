@@ -41,7 +41,7 @@ public Random\Randomizer::shuffleBytes(string $bytes): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::shuffleBytes()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::shuffleBytes()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionEnumBackedCase::getBackingValue(): int|string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionEnum::getBackingValue()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionEnum::getBackingValue()\*\*\*\*
 
 ```php
 <?php

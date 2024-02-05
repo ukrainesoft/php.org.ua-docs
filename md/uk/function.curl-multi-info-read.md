@@ -57,7 +57,7 @@ curl_multi_info_read(CurlMultiHandle $multi_handle, int &$queued_messages = null
 
 ### Приклади
 
-**Пример #1 Пример использования**curl\_multi\_info\_read()\*\*\*\*
+**Приклад #1 Приклад використання** curl\_multi\_info\_read()\*\*\*\*
 
 ```php
 <?php

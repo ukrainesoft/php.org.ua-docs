@@ -41,7 +41,7 @@ mcrypt_module_self_test(string $algorithm, string $lib_dir = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_module\_self\_test()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_module\_self\_test()\*\*\*\*
 
 ```php
 <?php

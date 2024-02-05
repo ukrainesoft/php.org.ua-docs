@@ -37,7 +37,7 @@ is_uploaded_file(string $filename): bool
 
 ### Приклади
 
-**Пример #1 Пример использования функции**is\_uploaded\_file()\*\*\*\*
+**Приклад #1 Приклад использования функции**is\_uploaded\_file()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public SplFileInfo::isFile(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::isFile()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::isFile()\*\*\*\*
 
 ```php
 <?php

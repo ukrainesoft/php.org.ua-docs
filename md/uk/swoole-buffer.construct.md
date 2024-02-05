@@ -15,7 +15,7 @@ Swoole\\Buffer::\_\_construct - Фіксований розмір блоку п�
 
 ### Опис
 
-public**Swoole\\Buffer::\_\_construct**(int`$size`
+public **Swoole\\Buffer::\_\_construct**(int`$size`
 
 ### Список параметрів
 

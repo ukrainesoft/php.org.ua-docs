@@ -43,7 +43,7 @@ uopz_backup(string $class, string $function): void
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_backup()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_backup()\*\*\*\*
 
 ```php
 <?php

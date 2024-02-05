@@ -44,7 +44,7 @@ ldap_count_entries(LDAP\Connection $ldap, LDAP\Result $result): int
 
 ### Приклади
 
-**Пример #1 Пример использования функции**ldap\_count\_entries()\*\*\*\*
+**Приклад #1 Приклад использования функции**ldap\_count\_entries()\*\*\*\*
 
 Отримання числа записів у результаті.
 

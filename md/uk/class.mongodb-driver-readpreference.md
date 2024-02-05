@@ -155,7 +155,7 @@ final public unserialize(string $data): void
 
 | | PECL mongodb 1.2.0 |
 
-Додані константи **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`**и**`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
+Додані константи **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`** і **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
 
 Реалізує [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.md)
 

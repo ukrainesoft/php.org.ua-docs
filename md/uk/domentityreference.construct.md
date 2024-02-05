@@ -15,7 +15,7 @@ DOMEntityReference::\_\_construct — Створює новий об'єкт кл
 
 ### Опис
 
-public**DOMEntityReference::\_\_construct**(string`$name`) .
+public **DOMEntityReference::\_\_construct**(string`$name`) .
 
 Створює новий об'єкт класу [DOMEntityReference](class.domentityreference.md)
 

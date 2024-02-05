@@ -45,7 +45,7 @@ public ImagickDraw::matte(float $x, float $y, int $paintMethod): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::matte()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::matte()\*\*\*\*
 
 ```php
 <?php

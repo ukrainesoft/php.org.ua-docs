@@ -35,7 +35,7 @@ cubrid_close(resource $conn_identifier = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_close()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_close()\*\*\*\*
 
 ```php
 <?php

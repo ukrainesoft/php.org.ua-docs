@@ -31,7 +31,7 @@ realpath_cache_size(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**realpath\_cache\_size()\*\*\*\*
+**Приклад #1 Приклад використання** realpath\_cache\_size()\*\*\*\*
 
 ```php
 <?php

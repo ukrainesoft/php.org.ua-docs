@@ -44,7 +44,7 @@ pg_end_copy(?PgSql\Connection $connection = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_end\_copy()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_end\_copy()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public SoapClient::__getTypes(): ?array
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapClient::\_\_getTypes()\*\*\*\*
+**Приклад #1 Приклад використання** SoapClient::\_\_getTypes()\*\*\*\*
 
 ```php
 <?php

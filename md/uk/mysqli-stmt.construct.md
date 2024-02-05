@@ -15,7 +15,7 @@ mysqli\_stmt::\_\_construct — Конструктор для об'єкту [mys
 
 ### Опис
 
-public**mysqli\_stmt::\_\_construct** [mysqli](class.mysqli.md) `$mysql`, ?string`$query` **`null`**) .
+public **mysqli\_stmt::\_\_construct** [mysqli](class.mysqli.md) `$mysql`, ?string`$query` **`null`**) .
 
 Цей метод створює новий об'єкт класу [mysqli\_stmt](class.mysqli-stmt.md)
 

@@ -39,7 +39,7 @@ public Ds\Map::slice(int $index, int $length = ?): Ds\Map
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::slice()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::slice()\*\*\*\*
 
 ```php
 <?php

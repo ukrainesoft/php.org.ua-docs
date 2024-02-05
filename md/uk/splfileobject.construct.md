@@ -15,7 +15,7 @@ SplFileObject::\_\_construct — Створює об'єкт SplFileObject
 
 ### Опис
 
-public**SplFileObject::\_\_construct**  
+public **SplFileObject::\_\_construct**  
 string`$filename`,  
 string`$mode` = "r",  
 bool`$useIncludePath` **`false`**,  
@@ -54,7 +54,7 @@ bool`$useIncludePath` **`false`**,
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::\_\_construct()\*\*\*\*
 
 Цей приклад відкриває поточний файл і перебирає його рядків.
 

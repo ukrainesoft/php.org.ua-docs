@@ -37,7 +37,7 @@ array_fill_keys(array $keys, mixed $value): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_fill\_keys()\*\*\*\*
+**Приклад #1 Приклад використання** array\_fill\_keys()\*\*\*\*
 
 ```php
 <?php

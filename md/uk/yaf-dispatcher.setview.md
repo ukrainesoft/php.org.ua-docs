@@ -31,7 +31,7 @@ public Yaf_Dispatcher::setView(Yaf_View_Interface $view): Yaf_Dispatcher
 
 ### Приклади
 
-**Пример #1 Пример использования**движка користувача відображення()\*\*\*\*
+**Приклад #1 Приклад використання** движка користувача відображення()\*\*\*\*
 
 ```php
 <?php
@@ -165,7 +165,7 @@ class Smarty_Adapter implements Yaf_View_Interface
 ?>
 ```
 
-**Пример #2 Пример использования**Yaf\_Dispatcher::setView()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Dispatcher::setView()\*\*\*\*
 
 ```php
 <?php

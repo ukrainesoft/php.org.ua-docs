@@ -39,7 +39,7 @@ gzinflate(string $data, int $max_length = 0): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**gzinflate()\*\*\*\*
+**Приклад #1 Приклад використання** gzinflate()\*\*\*\*
 
 ```php
 <?php

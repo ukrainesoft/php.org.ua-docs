@@ -47,7 +47,7 @@ json_last_error(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**json\_last\_error()\*\*\*\*
+**Приклад #1 Приклад використання** json\_last\_error()\*\*\*\*
 
 ```php
 <?php
@@ -99,7 +99,7 @@ foreach ($json as $string) {
 Декодируем: {'Organization': 'PHP Documentation Team'} - Синтаксическая ошибка, некорректный JSON
 ```
 
-**Пример #2 Совместное использование**json\_last\_error()**и[json\_encode()](function.json-encode.md)**
+**Приклад #2 Совместное использование**json\_last\_error()**и[json\_encode()](function.json-encode.md)**
 
 ```php
 <?php
@@ -120,7 +120,7 @@ string(4) "null"
 bool(true)
 ```
 
-**Пример #3**json\_last\_error()**и**`JSON_THROW_ON_ERROR`\*\*\*\*
+**Приклад #3**json\_last\_error()** і **`JSON_THROW_ON_ERROR`\*\*\*\*
 
 ```php
 <?php

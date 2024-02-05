@@ -45,7 +45,7 @@ cubrid_fetch_array(resource $result, int $type = CUBRID_BOTH): array
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_fetch\_array()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_fetch\_array()\*\*\*\*
 
 ```php
 <?php

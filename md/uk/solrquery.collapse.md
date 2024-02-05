@@ -33,7 +33,7 @@ public SolrQuery::collapse(SolrCollapseFunction $collapseFunction): SolrQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrQuery::collapse()\*\*\*\*
+**Приклад #1 Приклад використання** SolrQuery::collapse()\*\*\*\*
 
 ```php
 <?php

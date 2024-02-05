@@ -39,7 +39,7 @@ public Ds\Vector::slice(int $index, int $length = ?): Ds\Vector
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::slice()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::slice()\*\*\*\*
 
 ```php
 <?php

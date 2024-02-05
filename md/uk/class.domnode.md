@@ -214,7 +214,7 @@ textContent
 | Версия | Опис |
 | --- | --- |
 | 8.3.0 | Додано властивості DOMNode::$parentElement і DOMNode::$isConnected. |
-| 8.0.0 | Нереалізовані методи **DOMNode::compareDocumentPosition()** [DOMNode::isEqualNode()](domnode.isequalnode.md) **DOMNode::getFeature()** **DOMNode::setUserData()**и**DOMNode::getUserData()** були вилучені. |
+| 8.0.0 | Нереалізовані методи **DOMNode::compareDocumentPosition()** [DOMNode::isEqualNode()](domnode.isequalnode.md) **DOMNode::getFeature()** **DOMNode::setUserData()** і **DOMNode::getUserData()** були вилучені. |
 
 ## Примітки
 

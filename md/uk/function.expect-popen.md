@@ -35,7 +35,7 @@ expect_popen(string $command): resource
 
 ### Приклади
 
-**Пример #1 Пример использования**expect\_popen()\*\*\*\*
+**Приклад #1 Приклад використання** expect\_popen()\*\*\*\*
 
 ```php
 <?php

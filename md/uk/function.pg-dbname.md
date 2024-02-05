@@ -44,7 +44,7 @@ pg_dbname(?PgSql\Connection $connection = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_dbname()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_dbname()\*\*\*\*
 
 ```php
 <?php

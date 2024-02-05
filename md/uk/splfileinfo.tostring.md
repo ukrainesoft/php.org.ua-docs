@@ -31,7 +31,7 @@ public SplFileInfo::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::\_\_toString()\*\*\*\*
 
 ```php
 <?php

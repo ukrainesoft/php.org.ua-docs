@@ -123,7 +123,7 @@ A::__set_state(array(
 ))
 ```
 
-**Пример #4 Использование[\_\_set\_state()](language.oop5.magic.md#object.set-state)**
+**Приклад #4 Использование[\_\_set\_state()](language.oop5.magic.md#object.set-state)**
 
 ```php
 <?php

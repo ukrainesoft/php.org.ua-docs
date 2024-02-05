@@ -31,7 +31,7 @@ VARNISH\_CONFIG\_IDENT - ідентифікатор екземпляра varnish
 
 ### Приклади
 
-**Пример #1 Пример использования**VarnishAdmin::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** VarnishAdmin::\_\_construct()\*\*\*\*
 
 ```php
 <?php

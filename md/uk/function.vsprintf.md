@@ -124,7 +124,7 @@ vsprintf(string $format, array $values): string
 
 ### Приклади
 
-**Пример #1**vsprintf()**: доповнення нулями цілих чисел**
+**Приклад #1**vsprintf()**: доповнення нулями цілих чисел**
 
 ```php
 <?php

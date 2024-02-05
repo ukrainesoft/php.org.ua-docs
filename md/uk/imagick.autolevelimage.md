@@ -33,7 +33,7 @@ public Imagick::autoLevelImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::autoLevelImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::autoLevelImage()\*\*\*\*
 
 ```php
 <?php

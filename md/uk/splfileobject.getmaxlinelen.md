@@ -31,7 +31,7 @@ public SplFileObject::getMaxLineLen(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::getMaxLineLen()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::getMaxLineLen()\*\*\*\*
 
 ```php
 <?php

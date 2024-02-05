@@ -25,7 +25,7 @@ filter_input_array(int $type, array|int $options = FILTER_DEFAULT, bool $add_emp
 
 `type`
 
-Одна из констант\*\*`INPUT_GET`\*\* **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`**или**`INPUT_ENV`**
+Одна из констант\*\*`INPUT_GET`\*\* **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`** або **`INPUT_ENV`**
 
 `options`
 
@@ -45,7 +45,7 @@ filter_input_array(int $type, array|int $options = FILTER_DEFAULT, bool $add_emp
 
 ### Приклади
 
-**Пример #1 Пример использования**filter\_input\_array()\*\*\*\*
+**Приклад #1 Приклад використання** filter\_input\_array()\*\*\*\*
 
 ```php
 <?php

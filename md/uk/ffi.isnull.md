@@ -29,4 +29,4 @@ public static FFI::isNull(FFI\CData &$ptr): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**или**`false`** залежно від того, чи є [FFI\\CData](class.ffi-cdata.md) нульовим покажчиком.
+Повертає **`true`** або **`false`** залежно від того, чи є [FFI\\CData](class.ffi-cdata.md) нульовим покажчиком.

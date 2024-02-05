@@ -49,7 +49,7 @@ pg_send_execute(PgSql\Connection $connection, string $statement_name, array $par
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_send\_execute()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_send\_execute()\*\*\*\*
 
 ```php
 <?php

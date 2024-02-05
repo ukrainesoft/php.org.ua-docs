@@ -33,7 +33,7 @@ public SplObjectStorage::addAll(SplObjectStorage $storage): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::addAll()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::addAll()\*\*\*\*
 
 ```php
 <?php

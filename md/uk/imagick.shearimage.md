@@ -47,7 +47,7 @@ public Imagick::shearImage(mixed $background, float $x_shear, float $y_shear): b
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::shearImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::shearImage()\*\*\*\*
 
 ```php
 <?php

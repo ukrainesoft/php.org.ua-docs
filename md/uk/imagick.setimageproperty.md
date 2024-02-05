@@ -33,7 +33,7 @@ public Imagick::setImageProperty(string $name, string $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImageProperty()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImageProperty()\*\*\*\*
 
 Встановлення та отримання властивостей зображення
 

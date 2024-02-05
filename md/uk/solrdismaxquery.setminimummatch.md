@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setMinimumMatch(string $value): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setMinimumMatch()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setMinimumMatch()\*\*\*\*
 
 ```php
 <?php

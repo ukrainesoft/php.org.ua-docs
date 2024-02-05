@@ -46,7 +46,7 @@ pg_version(?PgSql\Connection $connection = null): array
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_version()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_version()\*\*\*\*
 
 ```php
 <?php

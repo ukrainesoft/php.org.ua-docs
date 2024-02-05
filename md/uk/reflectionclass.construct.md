@@ -15,7 +15,7 @@ ReflectionClass::\_\_construct — Створює об'єкт класу Reflect
 
 ### Опис
 
-public**ReflectionClass::\_\_construct**(object|string`$objectOrClass`) .
+public **ReflectionClass::\_\_construct**(object|string`$objectOrClass`) .
 
 Створює новий об'єкт класу [ReflectionClass](class.reflectionclass.md)
 

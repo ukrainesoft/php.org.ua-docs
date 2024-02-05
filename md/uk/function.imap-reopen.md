@@ -61,7 +61,7 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_reopen()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_reopen()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ pg_parameter_status(PgSql\Connection $connection = ?, string $param_name): strin
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_parameter\_status()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_parameter\_status()\*\*\*\*
 
 ```php
 <?php

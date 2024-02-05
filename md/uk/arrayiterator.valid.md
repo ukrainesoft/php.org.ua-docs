@@ -31,7 +31,7 @@ public ArrayIterator::valid(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayIterator::valid()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayIterator::valid()\*\*\*\*
 
 ```php
 <?php

@@ -65,7 +65,7 @@ oci_fetch_array(resource $statement, int $mode = OCI_BOTH | OCI_RETURN_NULLS): a
 
 ### Приклади
 
-**Пример #1**oci\_fetch\_array()**с**`OCI_BOTH`\*\*\*\*
+**Приклад #1**oci\_fetch\_array()**с**`OCI_BOTH`\*\*\*\*
 
 ```php
 <?php
@@ -91,7 +91,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #2**oci\_fetch\_array()**с**`OCI_NUM`\*\*\*\*
+**Приклад #2**oci\_fetch\_array()**с**`OCI_NUM`\*\*\*\*
 
 ```php
 <?php
@@ -127,7 +127,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #3**oci\_fetch\_array()**с**`OCI_ASSOC`\*\*\*\*
+**Приклад #3**oci\_fetch\_array()**с**`OCI_ASSOC`\*\*\*\*
 
 ```php
 <?php
@@ -163,7 +163,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #4**oci\_fetch\_array()**с**`OCI_RETURN_NULLS`\*\*\*\*
+**Приклад #4**oci\_fetch\_array()**с**`OCI_RETURN_NULLS`\*\*\*\*
 
 ```php
 <?php
@@ -207,7 +207,7 @@ while (($row = oci_fetch_array ($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != false) { 
 ?>
 ```
 
-**Пример #5**oci\_fetch\_array()**с**`OCI_RETURN_LOBS`\*\*\*\*
+**Приклад #5**oci\_fetch\_array()**с**`OCI_RETURN_LOBS`\*\*\*\*
 
 ```php
 <?php
@@ -245,7 +245,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #6**oci\_fetch\_array()**з реєстрозалежними назвами полів**
+**Приклад #6**oci\_fetch\_array()**з реєстрозалежними назвами полів**
 
 ```php
 <?php
@@ -279,7 +279,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #7**oci\_fetch\_array()**з полями з однаковими назвами**
+**Приклад #7**oci\_fetch\_array()**з полями з однаковими назвами**
 
 ```php
 <?php
@@ -313,7 +313,7 @@ var_dump($row);
 //      string(9) "Australia"
 //    }
 
-// Для получения полей с повторяющимся названием используйте SQL псевдонимы (alias) для полей. Например "AS ctnm":
+// Для получения полей с повторяющимся названием используйте SQL псевдонимы (alias) для полей. НаПриклад "AS ctnm":
 $sql = 'SELECT mycity.name AS ctnm, mycountry.name
         FROM mycity, mycountry
         WHERE mycity.id = mycountry.id';

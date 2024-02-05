@@ -81,4 +81,4 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 | Версия | Опис |
 | --- | --- |
-| 7.4.0 | Значення ідентифікаторів алгоритму пароля (**`PASSWORD_BCRYPT`** **`PASSWORD_ARGON2I`** **`PASSWORD_ARGON2ID`**и**`PASSWORD_DEFAULT`**) Тепер є рядками (string). Раніше вони були номерами (int). |
+| 7.4.0 | Значення ідентифікаторів алгоритму пароля (**`PASSWORD_BCRYPT`** **`PASSWORD_ARGON2I`** **`PASSWORD_ARGON2ID`** і **`PASSWORD_DEFAULT`**) Тепер є рядками (string). Раніше вони були номерами (int). |

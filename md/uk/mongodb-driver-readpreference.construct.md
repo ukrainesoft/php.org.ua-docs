@@ -96,7 +96,7 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadPreference::\_\_construct()\*\*\*\*
 
 ```php
 <?php

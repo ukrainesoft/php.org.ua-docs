@@ -55,7 +55,7 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_config\_create()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_config\_create()\*\*\*\*
 
 ```php
 <?php

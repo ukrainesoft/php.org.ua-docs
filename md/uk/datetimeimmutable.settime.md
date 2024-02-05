@@ -52,7 +52,7 @@ public DateTimeImmutable::setTime(    int $hour,    int $minute,    
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::setTime()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::setTime()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

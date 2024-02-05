@@ -39,7 +39,7 @@ public mysql_xdevapi\SqlStatementResult::getColumnsCount(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::getColumnsCount()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\SqlStatementResult::getColumnsCount()\*\*\*\*
 
 ```php
 <?php

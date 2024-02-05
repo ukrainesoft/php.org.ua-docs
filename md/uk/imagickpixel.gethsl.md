@@ -31,7 +31,7 @@ public ImagickPixel::getHSL(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getHSL()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::getHSL()\*\*\*\*
 
 ```php
 <?php

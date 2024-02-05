@@ -51,7 +51,7 @@ mysqli_set_charset(mysqli $mysql, string $charset): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::set\_charset()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::set\_charset()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -100,7 +100,7 @@ printf("Текущий набор символов: %s\n", mysqli_character_set_
 
 > **Зауваження** :
 > 
-> Це найкращий спосіб завдання набору символів. Використання з цією метою функції [mysqli\_query()](mysqli.query.md)(например`SET NAMES utf8`) не рекомендуется. Дополнительно смотрите[Набори символів у MySQL](mysqlinfo.concepts.charset.md)
+> Це найкращий спосіб завдання набору символів. Використання з цією метою функції [mysqli\_query()](mysqli.query.md)(наПриклад`SET NAMES utf8`) не рекомендуется. Дополнительно смотрите[Набори символів у MySQL](mysqlinfo.concepts.charset.md)
 
 ### Дивіться також
 

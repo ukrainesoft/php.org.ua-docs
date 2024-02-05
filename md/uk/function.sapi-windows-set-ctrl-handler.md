@@ -33,7 +33,7 @@ handler(int $event): void
 
 `event`
 
-Отримана подія `CTRL` **`PHP_WINDOWS_EVENT_CTRL_C`**или**`PHP_WINDOWS_EVENT_CTRL_BREAK`**
+Отримана подія `CTRL` **`PHP_WINDOWS_EVENT_CTRL_C`** або **`PHP_WINDOWS_EVENT_CTRL_BREAK`**
 
 Установка параметра`handler`в значение\*\*`null`\*\* призведе до ігнорування подій `CTRL+C`, але не `CTRL+BREAK`
 
@@ -47,7 +47,7 @@ handler(int $event): void
 
 ### Приклади
 
-**Пример #1 Использование**sapi\_windows\_set\_ctrl\_handler()\*\*\*\*
+**Приклад #1 Использование**sapi\_windows\_set\_ctrl\_handler()\*\*\*\*
 
 У цьому прикладі показано, як перехоплювати події `CTRL`
 

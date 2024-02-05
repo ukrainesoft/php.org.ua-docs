@@ -31,7 +31,7 @@ public SplFileObject::ftell(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::ftell()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::ftell()\*\*\*\*
 
 ```php
 <?php

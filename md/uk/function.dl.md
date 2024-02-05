@@ -55,7 +55,7 @@ Unix - Якщо явно не задано в php.ini, директорія за
 
 ```php
 <?php
-// Пример загрузки модуля, основываясь на ОС
+// Приклад загрузки модуля, основываясь на ОС
 if (!extension_loaded('sqlite')) {
     if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
         dl('php_sqlite.dll');

@@ -33,7 +33,7 @@ public Imagick::shaveImage(int $columns, int $rows): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::shaveImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::shaveImage()\*\*\*\*
 
 ```php
 <?php

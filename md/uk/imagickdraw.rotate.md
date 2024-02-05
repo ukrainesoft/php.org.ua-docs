@@ -37,7 +37,7 @@ public ImagickDraw::rotate(float $degrees): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::rotate()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::rotate()\*\*\*\*
 
 ```php
 <?php

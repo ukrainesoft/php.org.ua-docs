@@ -41,7 +41,7 @@ public Phar::offsetUnset(string $localName): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::offsetUnset()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::offsetUnset()\*\*\*\*
 
 ```php
 <?php

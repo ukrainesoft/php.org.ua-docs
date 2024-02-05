@@ -37,7 +37,7 @@ public
 
 ### Приклади
 
-**Пример #1**Приклад використання EventConfig::avoidMethod()\*\*\*\*
+**Приклад #1**Приклад використання EventConfig::avoidMethod()\*\*\*\*
 
 ```php
 <?php

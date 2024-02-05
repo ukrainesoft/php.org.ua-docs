@@ -51,7 +51,7 @@ intlcal_add(IntlCalendar $calendar, int $field, int $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::add()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::add()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ svn_export(    string $frompath,    string $topath,    bool $working
 
 ### Приклади
 
-**Пример #1 Пример использования**svn\_export()\*\*\*\*
+**Приклад #1 Приклад використання** svn\_export()\*\*\*\*
 
 ```php
 <?php

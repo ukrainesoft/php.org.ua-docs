@@ -31,7 +31,7 @@ public ReflectionClass::isIterable(): bool
 
 ### Приклади
 
-**Пример #1 Использование**ReflectionClass::isIterable()\*\*\*\*
+**Приклад #1 Использование**ReflectionClass::isIterable()\*\*\*\*
 
 ```php
 <?php

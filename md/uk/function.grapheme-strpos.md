@@ -49,7 +49,7 @@ grapheme_strpos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**grapheme\_strpos()\*\*\*\*
+**Приклад #1 Приклад використання** grapheme\_strpos()\*\*\*\*
 
 ```php
 <?php

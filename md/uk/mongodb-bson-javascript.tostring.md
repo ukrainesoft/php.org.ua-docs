@@ -31,7 +31,7 @@ final public MongoDB\BSON\Javascript::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Javascript::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Javascript::\_\_toString()\*\*\*\*
 
 ```php
 <?php

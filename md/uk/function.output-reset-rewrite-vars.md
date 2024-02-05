@@ -37,7 +37,7 @@ output_reset_rewrite_vars(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования функции**output\_reset\_rewrite\_vars()\*\*\*\*
+**Приклад #1 Приклад использования функции**output\_reset\_rewrite\_vars()\*\*\*\*
 
 ```php
 <?php

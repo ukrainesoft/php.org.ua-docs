@@ -49,7 +49,7 @@ mysqli_fetch_assoc(mysqli_result $result): array|null|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_result::fetch\_assoc()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_result::fetch\_assoc()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -97,7 +97,7 @@ Green Bay (USA)
 Santa Clara (USA)
 ```
 
-**Пример #2 Сравнение использования[mysqli\_result](class.mysqli-result.md) [iterator](class.iterator.md)и**mysqli\_result::fetch\_assoc()\*\*\*\*
+**Приклад #2 Сравнение использования[mysqli\_result](class.mysqli-result.md) [iterator](class.iterator.md)и**mysqli\_result::fetch\_assoc()\*\*\*\*
 
 [mysqli\_result](class.mysqli-result.md) можна повторити за допомогою [foreach](control-structures.foreach.md). Результуючий набір завжди повторюватиметься з першого рядка незалежно від поточної позиції.
 

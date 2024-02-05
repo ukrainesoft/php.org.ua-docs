@@ -33,7 +33,7 @@ public mysql_xdevapi\SqlStatement::hasMoreResults(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatement::hasMoreResults()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\SqlStatement::hasMoreResults()\*\*\*\*
 
 ```php
 <?php

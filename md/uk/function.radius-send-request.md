@@ -31,7 +31,7 @@ radius_send_request(resource $radius_handle): int
 
 ### Значення, що повертаються
 
-Якщо отримано коректну відповідь, **radius\_send\_request()** повертає код Radius, який вказує тип відповіді. Зазвичай це **`RADIUS_ACCESS_ACCEPT`** **`RADIUS_ACCESS_REJECT`**или**`RADIUS_ACCESS_CHALLENGE`**. Якщо коректної відповіді не отримано, **radius\_send\_request()** повертає **`false`**
+Якщо отримано коректну відповідь, **radius\_send\_request()** повертає код Radius, який вказує тип відповіді. Зазвичай це **`RADIUS_ACCESS_ACCEPT`** **`RADIUS_ACCESS_REJECT`** або **`RADIUS_ACCESS_CHALLENGE`**. Якщо коректної відповіді не отримано, **radius\_send\_request()** повертає **`false`**
 
 ### Дивіться також
 

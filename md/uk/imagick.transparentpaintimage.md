@@ -45,7 +45,7 @@ public Imagick::transparentPaintImage(    mixed $target,    float $alpha
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::transparentPaintImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::transparentPaintImage()\*\*\*\*
 
 ```php
 <?php

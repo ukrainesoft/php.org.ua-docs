@@ -55,7 +55,7 @@ public ZipArchive::addFile(    string $filepath,    string $entryname = 
 | --- | --- |
 | 8.0.0 / 1.18.0 | Добавлен параметр`flags` |
 | 8.3.0 / 1.22.1 | Добавлена константа\*\*`ZipArchive::FL_OPEN_FILE_NOW`\*\* |
-| 8.3.0 / 1.22.2 | Додано константи, що задають значення довжини: **`ZipArchive::LENGTH_TO_END`**и**`ZipArchive::LENGTH_UNCHECKED`** |
+| 8.3.0 / 1.22.2 | Додано константи, що задають значення довжини: **`ZipArchive::LENGTH_TO_END`** і **`ZipArchive::LENGTH_UNCHECKED`** |
 
 ### Приклади
 

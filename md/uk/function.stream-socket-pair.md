@@ -25,11 +25,11 @@ stream_socket_pair(int $domain, int $type, int $protocol): array|false
 
 `domain`
 
-Используемое семейство протоколов:**`STREAM_PF_INET`** **`STREAM_PF_INET6`**или**`STREAM_PF_UNIX`**
+Используемое семейство протоколов:**`STREAM_PF_INET`** **`STREAM_PF_INET6`** або **`STREAM_PF_UNIX`**
 
 `type`
 
-Тип взаємодії, що використовується: **`STREAM_SOCK_DGRAM`** **`STREAM_SOCK_RAW`** **`STREAM_SOCK_RDM`** **`STREAM_SOCK_SEQPACKET`**или**`STREAM_SOCK_STREAM`**
+Тип взаємодії, що використовується: **`STREAM_SOCK_DGRAM`** **`STREAM_SOCK_RAW`** **`STREAM_SOCK_RDM`** **`STREAM_SOCK_SEQPACKET`** або **`STREAM_SOCK_STREAM`**
 
 `protocol`
 
@@ -43,7 +43,7 @@ stream_socket_pair(int $domain, int $type, int $protocol): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_socket\_pair()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_socket\_pair()\*\*\*\*
 
 Цей приклад демонструє основи використання функції **stream\_socket\_pair()** у міжпроцесній взаємодії.
 

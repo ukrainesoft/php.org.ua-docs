@@ -43,7 +43,7 @@ intlcal_from_date_time(DateTime|string $datetime, ?string $locale = null): ?Intl
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::fromDateTime()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::fromDateTime()\*\*\*\*
 
 ```php
 <?php

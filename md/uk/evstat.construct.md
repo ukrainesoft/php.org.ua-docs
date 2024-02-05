@@ -15,7 +15,7 @@ EvStat::\_\_construct - Створює об'єкт спостерігача EvSt
 
 ### Опис
 
-public**EvStat::\_\_construct**  
+public **EvStat::\_\_construct**  
 string`$path`  
 float`$interval`  
 [callable](language.types.callable.md) `$callback`  

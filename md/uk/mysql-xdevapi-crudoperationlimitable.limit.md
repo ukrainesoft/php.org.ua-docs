@@ -37,7 +37,7 @@ abstract public mysql_xdevapi\CrudOperationLimitable::limit(int $rows): mysql_xd
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CrudOperationLimitable::limit()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CrudOperationLimitable::limit()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public Spoofchecker::isSuspicious(string $string, int &$errorCode = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Spoofchecker::isSuspicious()\*\*\*\*
+**Приклад #1 Приклад використання** Spoofchecker::isSuspicious()\*\*\*\*
 
 ```php
 <?php

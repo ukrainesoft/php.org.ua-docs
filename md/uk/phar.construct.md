@@ -15,7 +15,7 @@ Phar::\_\_construct — Створює об'єкт Phar-архіву
 
 ### Опис
 
-public**Phar::\_\_construct**(string`$filename`, int`$flags`\= FilesystemIterator::SKIP\_DOTS | FilesystemIterator::UNIX\_PATHS, ?string`$alias` **`null`**) .
+public **Phar::\_\_construct**(string`$filename`, int`$flags`\= FilesystemIterator::SKIP\_DOTS | FilesystemIterator::UNIX\_PATHS, ?string`$alias` **`null`**) .
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ public**Phar::\_\_construct**(string`$filename`, int`$flags`\= FilesystemIterato
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::\_\_construct()\*\*\*\*
 
 ```php
 <?php

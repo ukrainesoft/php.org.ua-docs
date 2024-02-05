@@ -31,7 +31,7 @@ public Exception::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Exception::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** Exception::\_\_toString()\*\*\*\*
 
 ```php
 <?php

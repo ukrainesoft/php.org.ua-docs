@@ -37,7 +37,7 @@ public SolrClient::setResponseWriter(string $responseWriter): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrClient::setResponseWriter()\*\*\*\*
+**Приклад #1 Приклад використання** SolrClient::setResponseWriter()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public SyncMutex::unlock(bool $all = false): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncMutex::unlock()\*\*\*\*
+**Приклад #1 Приклад використання** SyncMutex::unlock()\*\*\*\*
 
 ```php
 <?php

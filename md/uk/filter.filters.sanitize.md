@@ -41,7 +41,7 @@ filter.default_flags = 0
 
 | Версия | Опис |
 | --- | --- |
-| 8.1.0 | Фільтри **`FILTER_SANITIZE_STRING`**и**`FILTER_SANITIZE_STRIPPED`** оголошено застарілими. |
+| 8.1.0 | Фільтри **`FILTER_SANITIZE_STRING`** і **`FILTER_SANITIZE_STRIPPED`** оголошено застарілими. |
 | 8.0.0 | Вилучено фільтр **`FILTER_SANITIZE_MAGIC_QUOTES`** |
 | 7.3.0 | Як заміна **`FILTER_SANITIZE_MAGIC_QUOTES`** додано фільтр **`FILTER_SANITIZE_ADD_SLASHES`** |
 | 7.3.0 | Фильтр\*\*`FILTER_SANITIZE_MAGIC_QUOTES`\*\* оголошено застарілим. |

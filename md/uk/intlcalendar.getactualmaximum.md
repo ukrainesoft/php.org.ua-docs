@@ -47,7 +47,7 @@ intlcal_get_actual_maximum(IntlCalendar $calendar, int $field): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getActualMaximum()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getActualMaximum()\*\*\*\*
 
 ```php
 <?php

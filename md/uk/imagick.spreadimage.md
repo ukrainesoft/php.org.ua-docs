@@ -35,7 +35,7 @@ public Imagick::spreadImage(float $radius): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::spreadImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::spreadImage()\*\*\*\*
 
 ```php
 <?php

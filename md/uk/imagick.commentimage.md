@@ -37,7 +37,7 @@ public Imagick::commentImage(string $comment): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::commentImage()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::commentImage()\*\* :\*\*
 
 Коментування зображення та отримання коментаря:
 

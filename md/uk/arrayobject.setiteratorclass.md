@@ -33,7 +33,7 @@ public ArrayObject::setIteratorClass(string $iteratorClass): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::setIteratorClass()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::setIteratorClass()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public SolrDisMaxQuery::addBoostQuery(string $field, string $value, string $boos
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::addBoostQuery()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::addBoostQuery()\*\*\*\*
 
 ```php
 <?php

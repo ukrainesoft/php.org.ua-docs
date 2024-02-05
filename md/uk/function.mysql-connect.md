@@ -58,7 +58,7 @@ mysql_connect(    string $server = ini_get("mysql.default_host"),    str
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_connect()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_connect()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +71,7 @@ mysql_close($link);
 ?>
 ```
 
-**Пример #2 Пример использования**mysql\_connect()\*\* із синтаксисом `hostname:port`\*\*
+**Приклад #2 Приклад використання** mysql\_connect()\*\* із синтаксисом `hostname:port`\*\*
 
 ```php
 <?php
@@ -93,7 +93,7 @@ mysql_close($link);
 ?>
 ```
 
-**Пример #3 Пример использования**mysql\_connect()\*\* із синтаксисом ":/path/to/socket"\*\*
+**Приклад #3 Приклад використання** mysql\_connect()\*\* із синтаксисом ":/path/to/socket"\*\*
 
 ```php
 <?php

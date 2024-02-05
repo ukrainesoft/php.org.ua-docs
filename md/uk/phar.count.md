@@ -31,7 +31,7 @@ public Phar::count(int $mode = COUNT_NORMAL): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::count()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::count()\*\*\*\*
 
 ```php
 <?php

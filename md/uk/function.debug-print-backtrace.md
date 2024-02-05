@@ -39,7 +39,7 @@ debug_print_backtrace(int $options = 0, int $limit = 0): void
 
 ### Приклади
 
-**Пример #1 Пример использования**debug\_print\_backtrace()\*\*\*\*
+**Приклад #1 Приклад використання** debug\_print\_backtrace()\*\*\*\*
 
 ```php
 <?php

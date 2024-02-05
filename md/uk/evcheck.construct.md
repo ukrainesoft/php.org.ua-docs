@@ -15,7 +15,7 @@ EvCheck::\_\_construct — Конструктор об'єкту EvCheck
 
 ### Опис
 
-public**EvCheck::\_\_construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` =?, int`$priority` =
+public **EvCheck::\_\_construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` =?, int`$priority` =
 
 Створює спостерігач [EvCheck](class.evcheck.md)
 

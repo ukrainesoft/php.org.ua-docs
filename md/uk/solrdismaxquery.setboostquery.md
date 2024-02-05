@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setBoostQuery(string $q): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setBoostQuery()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setBoostQuery()\*\*\*\*
 
 ```php
 <?php

@@ -15,11 +15,11 @@ CommonMark\\Node\\Link::\_\_construct - Конструктор класу Link
 
 ### Опис
 
-public**CommonMark\\Node\\Link::\_\_construct**()
+public **CommonMark\\Node\\Link::\_\_construct**()
 
-public**CommonMark\\Node\\Link::\_\_construct**(string`$url`) .
+public **CommonMark\\Node\\Link::\_\_construct**(string`$url`) .
 
-public**CommonMark\\Node\\Link::\_\_construct**(string`$url`, string`$title`) .
+public **CommonMark\\Node\\Link::\_\_construct**(string`$url`, string`$title`) .
 
 **Увага**
 

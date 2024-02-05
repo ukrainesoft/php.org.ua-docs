@@ -36,7 +36,7 @@ runkit7_zval_inspect(string $value): array
 
 ### Приклади
 
-**Пример #1 Пример использования**runkit7\_zval\_inspect()\*\*\*\*
+**Приклад #1 Приклад використання** runkit7\_zval\_inspect()\*\*\*\*
 
 ```php
 <?php

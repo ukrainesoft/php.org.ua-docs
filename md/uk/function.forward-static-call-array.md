@@ -41,7 +41,7 @@ forward_static_call_array(callable $callback, array $args): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**forward\_static\_call\_array()\*\*\*\*
+**Приклад #1 Приклад використання** forward\_static\_call\_array()\*\*\*\*
 
 ```php
 <?php

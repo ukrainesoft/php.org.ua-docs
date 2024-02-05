@@ -33,7 +33,7 @@ mb_preferred_mime_name(string $encoding): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования функции**mb\_preferred\_mime\_name()\*\*\*\*
+**Приклад #1 Приклад использования функции**mb\_preferred\_mime\_name()\*\*\*\*
 
 ```php
 <?php

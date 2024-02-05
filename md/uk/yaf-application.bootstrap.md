@@ -33,7 +33,7 @@ public Yaf_Application::bootstrap(Yaf_Bootstrap_Abstract $bootstrap = ?): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Bootstrap()\*\*\*\*
+**Приклад #1 Приклад використання** Bootstrap()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +54,7 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
 ?>
 ```
 
-**Пример #2 Пример использования**Yaf\_Application::bootstrap()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Application::bootstrap()\*\*\*\*
 
 ```php
 <?php

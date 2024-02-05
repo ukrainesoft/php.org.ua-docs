@@ -33,7 +33,7 @@ set_include_path(string $include_path): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**set\_include\_path()\*\*\*\*
+**Приклад #1 Приклад використання** set\_include\_path()\*\*\*\*
 
 ```php
 <?php

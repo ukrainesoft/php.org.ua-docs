@@ -41,7 +41,7 @@ public PharData::offsetSet(string $localName, resource|string $value): void
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::offsetSet()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::offsetSet()\*\*\*\*
 
 offsetSet не потрібно викликати безпосередньо. Використовуйте синтаксис `[]`
 

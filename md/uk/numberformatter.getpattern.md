@@ -43,7 +43,7 @@ numfmt_get_pattern(NumberFormatter $formatter): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_get\_pattern()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_get\_pattern()\*\*\*\*
 
 ```php
 <?php

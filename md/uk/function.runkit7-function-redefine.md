@@ -65,7 +65,7 @@ runkit7_function_redefine(    string $function_name,    Closure $closure
 
 ### Приклади
 
-**Пример #1 Пример использования**runkit7\_function\_redefine()\*\*\*\*
+**Приклад #1 Приклад використання** runkit7\_function\_redefine()\*\*\*\*
 
 ```php
 <?php

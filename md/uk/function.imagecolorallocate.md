@@ -63,7 +63,7 @@ imagecolorallocate(    GdImage $image,    int $red,    int $green, 
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecolorallocate()\*\*\*\*
+**Приклад #1 Приклад використання** imagecolorallocate()\*\*\*\*
 
 ```php
 <?php

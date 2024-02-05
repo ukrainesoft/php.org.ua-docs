@@ -37,7 +37,7 @@ public static QuickHashIntHash::loadFromString(string $contents, int $options = 
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntHash::loadFromString()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntHash::loadFromString()\*\*\*\*
 
 ```php
 <?php

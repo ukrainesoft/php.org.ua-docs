@@ -37,7 +37,7 @@ public OAuthProvider::__construct(array $params_array = ?)
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuthProvider::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** OAuthProvider::\_\_construct()\*\*\*\*
 
 ```php
 <?php

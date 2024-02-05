@@ -31,7 +31,7 @@ public ReflectionFunctionAbstract::isClosure(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования метода**ReflectionFunctionAbstract::isClosure()\*\*\*\*
+**Приклад #1 Приклад использования метода**ReflectionFunctionAbstract::isClosure()\*\*\*\*
 
 ```php
 <?php

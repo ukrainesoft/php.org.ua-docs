@@ -33,4 +33,4 @@ final public static Phar::isValidPharFilename(string $filename, bool $executable
 
 ### Значення, що повертаються
 
-Повертає **`true`**или**`false`**
+Повертає **`true`** або **`false`**

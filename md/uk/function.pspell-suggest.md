@@ -43,7 +43,7 @@ pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_suggest()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_suggest()\*\*\*\*
 
 ```php
 <?php

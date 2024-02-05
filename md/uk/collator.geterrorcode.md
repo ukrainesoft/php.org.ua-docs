@@ -41,7 +41,7 @@ collator_get_error_code(Collator $object): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_get\_error\_code()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_get\_error\_code()\*\*\*\*
 
 ```php
 <?php

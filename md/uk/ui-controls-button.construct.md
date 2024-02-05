@@ -15,7 +15,7 @@ UI\\Controls\\Button::\_\_construct — Створити новий об'єкт 
 
 ### Опис
 
-public**UI\\Controls\\Button::\_\_construct**(string`$text`) .
+public **UI\\Controls\\Button::\_\_construct**(string`$text`) .
 
 Створить новий об'єкт Button
 

@@ -31,7 +31,7 @@ abstract public Ds\Sequence::reverse(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::reverse()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::reverse()\*\*\*\*
 
 ```php
 <?php

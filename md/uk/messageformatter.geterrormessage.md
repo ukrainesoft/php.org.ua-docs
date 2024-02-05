@@ -43,7 +43,7 @@ msgfmt_get_error_message(MessageFormatter $formatter): string
 
 ### Приклади
 
-**Пример #1 Пример использования**msgfmt\_get\_error\_message()\*\*\*\*
+**Приклад #1 Приклад використання** msgfmt\_get\_error\_message()\*\*\*\*
 
 ```php
 <?php

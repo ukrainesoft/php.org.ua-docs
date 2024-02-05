@@ -15,7 +15,7 @@ SplFixedArray::\_\_construct - Створює новий масив фіксов
 
 ### Опис
 
-public**SplFixedArray::\_\_construct**(int`$size`
+public **SplFixedArray::\_\_construct**(int`$size`
 
 Створює фіксований масив із числом **`null`** значень, рівних `size`
 
@@ -37,7 +37,7 @@ public**SplFixedArray::\_\_construct**(int`$size`
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFixedArray::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SplFixedArray::\_\_construct()\*\*\*\*
 
 ```php
 <?php

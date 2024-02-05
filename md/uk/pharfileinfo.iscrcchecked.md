@@ -31,7 +31,7 @@ public PharFileInfo::isCRCChecked(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::isCRCChecked()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::isCRCChecked()\*\*\*\*
 
 ```php
 <?php

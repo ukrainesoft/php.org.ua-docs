@@ -47,7 +47,7 @@ gmp_powm(GMP|int|string $num, GMP|int|string $exponent, GMP|int|string $modulus)
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_powm()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_powm()\*\*\*\*
 
 ```php
 <?php

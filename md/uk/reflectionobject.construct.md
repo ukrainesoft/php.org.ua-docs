@@ -15,7 +15,7 @@ ReflectionObject::\_\_construct - Конструктор класу ReflectionOb
 
 ### Опис
 
-public**ReflectionObject::\_\_construct**(object`$object`) .
+public **ReflectionObject::\_\_construct**(object`$object`) .
 
 Створює новий об'єкт класу [ReflectionObject](class.reflectionobject.md)
 

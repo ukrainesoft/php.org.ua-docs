@@ -57,7 +57,7 @@ localtime(?int $timestamp = null, bool $associative = false): array
 
 ### Приклади
 
-**Пример #1 Пример использования**localtime()\*\*\*\*
+**Приклад #1 Приклад використання** localtime()\*\*\*\*
 
 ```php
 <?php

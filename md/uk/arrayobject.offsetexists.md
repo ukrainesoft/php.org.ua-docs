@@ -31,7 +31,7 @@ public ArrayObject::offsetExists(mixed $key): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::offsetExists()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::offsetExists()\*\*\*\*
 
 ```php
 <?php

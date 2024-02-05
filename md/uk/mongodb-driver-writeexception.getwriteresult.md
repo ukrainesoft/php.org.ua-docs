@@ -31,7 +31,7 @@ final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Exception\\WriteException::getWriteResult()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Exception\\WriteException::getWriteResult()\*\*\*\*
 
 ```php
 <?php

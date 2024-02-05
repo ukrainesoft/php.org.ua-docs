@@ -38,7 +38,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 Підтримка MySQL більше не включена за замовчуванням, тому для її включення необхідно підключити php\_mysql.dll DLL усередині php.ini. Крім цього, PHP знадобиться доступ до клієнтської бібліотеки MySQL. Файл libmysql.dll поставляється у Windows дистрибутиві PHP, і для коректного спілкування PHP з MySQL, цей файл має бути доступним у системному шляху Windows PATH. Про те, як це зробити, дивіться FAQ "[Як додати мою PHP директорію до системного PATH на Windows?](faq.installation.md#faq.installation.addtopath)". Хоча копіювання libmysql.dll у системну папку Windows також спрацює (оскільки системна папка знаходиться за замовчуванням у PATH), це не рекомендується.
 
-Як і при включенні будь-якого іншого модуля PHP (у тому числі php\_mysql.dll), директива[extension\_dir](ini.core.md#ini.extension-dir) повинна вказувати на директорію, що містить PHP-модулі. Дивіться також [Інструкції з ручного встановлення в Windows](install.windows.manual.md). Пример значения extension\_dir для PHP 5:`c:\php\ext`
+Як і при включенні будь-якого іншого модуля PHP (у тому числі php\_mysql.dll), директива[extension\_dir](ini.core.md#ini.extension-dir) повинна вказувати на директорію, що містить PHP-модулі. Дивіться також [Інструкції з ручного встановлення в Windows](install.windows.manual.md). Приклад значения extension\_dir для PHP 5:`c:\php\ext`
 
 > **Зауваження** :
 > 

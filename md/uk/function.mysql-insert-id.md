@@ -40,7 +40,7 @@ mysql_insert_id(resource $link_identifier = NULL): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_insert\_id()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_insert\_id()\*\*\*\*
 
 ```php
 <?php

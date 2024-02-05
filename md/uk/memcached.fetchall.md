@@ -31,7 +31,7 @@ public Memcached::fetchAll(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования[Memcached::getDelayed()](memcached.getdelayed.md)**
+**Приклад #1 Приклад использования[Memcached::getDelayed()](memcached.getdelayed.md)**
 
 ```php
 <?php

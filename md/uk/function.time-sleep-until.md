@@ -37,7 +37,7 @@ time_sleep_until(float $timestamp): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**time\_sleep\_until()\*\*\*\*
+**Приклад #1 Приклад використання** time\_sleep\_until()\*\*\*\*
 
 ```php
 <?php

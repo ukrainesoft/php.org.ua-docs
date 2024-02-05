@@ -51,7 +51,7 @@ public Phar::setDefaultStub(?string $index = null, ?string $webIndex = null): bo
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::setDefaultStub()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::setDefaultStub()\*\*\*\*
 
 ```php
 <?php

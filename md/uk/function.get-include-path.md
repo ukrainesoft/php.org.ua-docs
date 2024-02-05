@@ -31,7 +31,7 @@ get_include_path(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_include\_path()\*\*\*\*
+**Приклад #1 Приклад використання** get\_include\_path()\*\*\*\*
 
 ```php
 <?php

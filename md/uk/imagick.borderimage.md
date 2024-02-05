@@ -47,7 +47,7 @@ public Imagick::borderImage(mixed $bordercolor, int $width, int $height): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::borderImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::borderImage()\*\*\*\*
 
 ```php
 <?php

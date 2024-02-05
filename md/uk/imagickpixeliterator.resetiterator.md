@@ -31,7 +31,7 @@ public ImagickPixelIterator::resetIterator(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixelIterator::resetIterator()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixelIterator::resetIterator()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickDraw::setTextDecoration(int $decoration): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setTextDecoration()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setTextDecoration()\*\*\*\*
 
 ```php
 <?php

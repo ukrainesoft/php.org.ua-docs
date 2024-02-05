@@ -31,7 +31,7 @@ public Ds\Queue::isEmpty(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Queue::isEmpty()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Queue::isEmpty()\*\*\*\*
 
 ```php
 <?php

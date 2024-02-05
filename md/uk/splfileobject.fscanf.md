@@ -47,7 +47,7 @@ public SplFileObject::fscanf(string $format, mixed &...$vars): array|int|null
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fscanf()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fscanf()\*\*\*\*
 
 ```php
 <?php

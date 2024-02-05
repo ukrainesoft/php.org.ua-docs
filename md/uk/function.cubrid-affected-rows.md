@@ -45,7 +45,7 @@ cubrid_affected_rows(resource $req_identifier = ?): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_affected\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_affected\_rows()\*\*\*\*
 
 ```php
 <?php

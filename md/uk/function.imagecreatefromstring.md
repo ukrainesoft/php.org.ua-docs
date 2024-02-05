@@ -44,7 +44,7 @@ imagecreatefromstring(string $data): GdImage|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecreatefromstring()\*\*\*\*
+**Приклад #1 Приклад використання** imagecreatefromstring()\*\*\*\*
 
 ```php
 <?php

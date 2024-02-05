@@ -38,7 +38,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### PostgreSQL
 
--   [pg\_last\_notice()](function.pg-last-notice.md)тепер приймає необов'язковий параметр, що задає операцію. Використовується одна з наступних констант:**`PGSQL_NOTICE_LAST`** **`PGSQL_NOTICE_ALL`**или**`PGSQL_NOTICE_CLEAR`**
+-   [pg\_last\_notice()](function.pg-last-notice.md)тепер приймає необов'язковий параметр, що задає операцію. Використовується одна з наступних констант:**`PGSQL_NOTICE_LAST`** **`PGSQL_NOTICE_ALL`** або **`PGSQL_NOTICE_CLEAR`**
 -   [pg\_fetch\_all()](function.pg-fetch-all.md)тепер приймає другий, необов'язковий параметр для завдання типу результату (аналогічно третьому параметру[pg\_fetch\_array()](function.pg-fetch-array.md)
 -   [pg\_select()](function.pg-select.md)тепер приймає четвертий, необов'язковий параметр для завдання типу результату (аналогічно третьому параметру[pg\_fetch\_array()](function.pg-fetch-array.md)
 

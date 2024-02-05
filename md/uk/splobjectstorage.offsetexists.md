@@ -37,7 +37,7 @@ public SplObjectStorage::offsetExists(object $object): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::offsetExists()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::offsetExists()\*\*\*\*
 
 ```php
 <?php

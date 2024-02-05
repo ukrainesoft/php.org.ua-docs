@@ -55,7 +55,7 @@ mysqli_select_db(mysqli $mysql, string $database): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::select\_db()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::select\_db()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

@@ -44,7 +44,7 @@ time_nanosleep(int $seconds, int $nanoseconds): array|bool
 
 ### Приклади
 
-**Пример #1 Пример использования**time\_nanosleep()\*\*\*\*
+**Приклад #1 Приклад використання** time\_nanosleep()\*\*\*\*
 
 ```php
 <?php

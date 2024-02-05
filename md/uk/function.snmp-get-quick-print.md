@@ -31,7 +31,7 @@ snmp_get_quick_print(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**snmp\_get\_quick\_print()\*\*\*\*
+**Приклад #1 Приклад використання** snmp\_get\_quick\_print()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ ob_tidyhandler(string $input, int $mode = ?): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ob\_tidyhandler()\*\*\*\*
+**Приклад #1 Приклад використання** ob\_tidyhandler()\*\*\*\*
 
 ```php
 <?php

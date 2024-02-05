@@ -31,7 +31,7 @@ public SplFixedArray::count(): int
 
 ### Приклади
 
-**Пример #1 Пример**SplFixedArray::count()\*\*\*\*
+**Приклад #1 Приклад**SplFixedArray::count()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public JsonSerializable::jsonSerialize(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**JsonSerializable::jsonSerialize()**, що повертає масив (array)**
+**Приклад #1 Приклад використання** JsonSerializable::jsonSerialize()**, що повертає масив (array)**
 
 ```php
 <?php
@@ -62,7 +62,7 @@ echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 ]
 ```
 
-**Пример #2 Пример использования**JsonSerializable::jsonSerialize()**, що повертає асоціативний масив (array)**
+**Приклад #2 Приклад використання** JsonSerializable::jsonSerialize()**, що повертає асоціативний масив (array)**
 
 ```php
 <?php
@@ -92,7 +92,7 @@ echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 }
 ```
 
-**Пример #3 Пример использования**JsonSerializable::jsonSerialize()**, що повертає ціле значення (int)**
+**Приклад #3 Приклад використання** JsonSerializable::jsonSerialize()**, що повертає ціле значення (int)**
 
 ```php
 <?php
@@ -118,7 +118,7 @@ echo json_encode(new IntegerValue(1), JSON_PRETTY_PRINT);
 1
 ```
 
-**Пример #4 Пример использования**JsonSerializable::jsonSerialize()**, що повертає рядок (string)**
+**Приклад #4 Приклад використання** JsonSerializable::jsonSerialize()**, що повертає рядок (string)**
 
 ```php
 <?php

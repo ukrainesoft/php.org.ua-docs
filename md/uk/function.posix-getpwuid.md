@@ -47,7 +47,7 @@ posix_getpwuid(int $user_id): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getpwuid()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getpwuid()\*\*\*\*
 
 ```php
 <?php

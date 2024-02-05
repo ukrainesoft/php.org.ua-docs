@@ -35,7 +35,7 @@ public Random\Engine::generate(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine::generate()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine::generate()\*\*\*\*
 
 ```php
 <?php

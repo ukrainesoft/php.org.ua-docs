@@ -51,7 +51,7 @@ ibase_restore(    resource $service_handle,    string $source_file,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_restore()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_restore()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +69,7 @@ ibase_service_detach ($service);
 ?>
 ```
 
-**Пример #2 Пример использования**ibase\_restore()\*\* з аргументами\*\*
+**Приклад #2 Приклад використання** ibase\_restore()\*\* з аргументами\*\*
 
 ```php
 <?php

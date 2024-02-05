@@ -37,7 +37,7 @@ public SoapClient::__setSoapHeaders(SoapHeader|array|null $headers = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapClient::\_\_setSoapHeaders()\*\*\*\*
+**Приклад #1 Приклад використання** SoapClient::\_\_setSoapHeaders()\*\*\*\*
 
 ```php
 <?php

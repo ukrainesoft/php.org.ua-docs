@@ -31,7 +31,7 @@ Memcache::getVersion(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::getVersion()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::getVersion()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ public SyncSharedMemory::read(int $start = 0, int $length = ?)
 
 ### Приклади
 
-**Пример #1 Пример использования[SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md)**
+**Приклад #1 Приклад использования[SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md)**
 
 ```php
 <?php

@@ -64,7 +64,7 @@ fputcsv(    resource $stream,    array $fields,    string $separator
 
 ### Приклади
 
-**Пример #1 Пример использования**fputcsv()\*\*\*\*
+**Приклад #1 Приклад використання** fputcsv()\*\*\*\*
 
 ```php
 <?php

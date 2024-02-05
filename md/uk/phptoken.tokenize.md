@@ -39,7 +39,7 @@ public static PhpToken::tokenize(string $code, int $flags = 0): array
 
 ### Приклади
 
-**Пример #1 Пример использования**PhpToken::tokenize()\*\*\*\*
+**Приклад #1 Приклад використання** PhpToken::tokenize()\*\*\*\*
 
 ```php
 <?php

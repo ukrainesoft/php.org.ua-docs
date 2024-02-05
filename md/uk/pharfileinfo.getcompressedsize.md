@@ -31,7 +31,7 @@ public PharFileInfo::getCompressedSize(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::getCompressedSize()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::getCompressedSize()\*\*\*\*
 
 ```php
 <?php

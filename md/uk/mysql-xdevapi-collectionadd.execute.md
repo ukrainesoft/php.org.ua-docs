@@ -31,7 +31,7 @@ public mysql_xdevapi\CollectionAdd::execute(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionAdd::execute()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionAdd::execute()\*\*\*\*
 
 ```php
 <?php

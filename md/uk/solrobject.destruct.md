@@ -15,7 +15,7 @@ SolrObject::\_\_destruct - Деструктор
 
 ### Опис
 
-public**SolrObject::\_\_destruct**()
+public **SolrObject::\_\_destruct**()
 
 Приклад використання
 

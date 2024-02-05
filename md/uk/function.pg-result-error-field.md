@@ -47,7 +47,7 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_result\_error\_field()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_result\_error\_field()\*\*\*\*
 
 ```php
 <?php

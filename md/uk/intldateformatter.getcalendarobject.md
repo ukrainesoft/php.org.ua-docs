@@ -41,7 +41,7 @@ datefmt_get_calendar_object(IntlDateFormatter $formatter): IntlCalendar|false|nu
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlDateFormatter::getCalendarObject()\*\*\*\*
+**Приклад #1 Приклад використання** IntlDateFormatter::getCalendarObject()\*\*\*\*
 
 ```php
 <?php

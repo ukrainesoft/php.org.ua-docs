@@ -37,7 +37,7 @@ public Memcached::setMulti(array $items, int $expiration = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::setMulti()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::setMulti()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ iterator_count(Traversable|array $iterator): int
 
 ### Приклади
 
-**Пример #1 Пример использования**iterator\_count()\*\*\*\*
+**Приклад #1 Приклад використання** iterator\_count()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +54,7 @@ var_dump(iterator_count($iterator));
 int(4)
 ```
 
-**Пример #2**iterator\_count()\*\* модифікує позицію\*\*
+**Приклад #2**iterator\_count()\*\* модифікує позицію\*\*
 
 ```php
 <?php
@@ -73,7 +73,7 @@ int(3)
 NULL
 ```
 
-**Пример #3**iterator\_count()\*\* у циклі [foreach](control-structures.foreach.md)\*\*
+**Приклад #3**iterator\_count()\*\* у циклі [foreach](control-structures.foreach.md)\*\*
 
 ```php
 <?php

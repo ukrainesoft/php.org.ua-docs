@@ -37,7 +37,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 #### PDO ODBC
 
-Виклик [PDO::getAttribute()](pdo.getattribute.md) з константою **`PDO::ATTR_SERVER_INFO`**и**`PDO::ATTR_SERVER_VERSION`** тепер поверне значення замість генерації винятку [PDOException](class.pdoexception.md)
+Виклик [PDO::getAttribute()](pdo.getattribute.md) з константою **`PDO::ATTR_SERVER_INFO`** і **`PDO::ATTR_SERVER_VERSION`** тепер поверне значення замість генерації винятку [PDOException](class.pdoexception.md)
 
 #### Reflection
 

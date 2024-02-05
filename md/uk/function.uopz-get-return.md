@@ -41,7 +41,7 @@ uopz_get_return(string $class, string $function): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_get\_return()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_get\_return()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public Ds\Set::remove(mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Set::remove()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Set::remove()\*\*\*\*
 
 ```php
 <?php

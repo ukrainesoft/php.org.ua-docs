@@ -54,7 +54,7 @@ public
 
 `state`
 
-Текущее состояние соединения SSL:**`EventBufferEvent::SSL_OPEN`** **`EventBufferEvent::SSL_ACCEPTING`**или**`EventBufferEvent::SSL_CONNECTING`**
+Текущее состояние соединения SSL:**`EventBufferEvent::SSL_OPEN`** **`EventBufferEvent::SSL_ACCEPTING`** або **`EventBufferEvent::SSL_CONNECTING`**
 
 `options`
 

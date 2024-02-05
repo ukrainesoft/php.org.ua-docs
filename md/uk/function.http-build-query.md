@@ -86,7 +86,7 @@ foo=bar&baz=boom&cow=milk&php=hypertext+processor
 foo=bar&amp;baz=boom&amp;cow=milk&amp;php=hypertext+processor
 ```
 
-**Пример #2 Пример использования**http\_build\_query()\*\* із числовими індексами елементів.\*\*
+**Приклад #2 Приклад використання** http\_build\_query()\*\* із числовими індексами елементів.\*\*
 
 ```php
 <?php
@@ -104,7 +104,7 @@ echo http_build_query($data, 'myvar_');
 myvar_0=foo&myvar_1=bar&myvar_2=baz&myvar_4=boom&cow=milk&php=hypertext+processor
 ```
 
-**Пример #3 Пример использования**http\_build\_query()\*\* з багатовимірними масивами\*\*
+**Приклад #3 Приклад використання** http\_build\_query()\*\* з багатовимірними масивами\*\*
 
 ```php
 <?php
@@ -141,7 +141,7 @@ children%5Bsally%5D%5Bsex%5D=F&flags_0=CEO
 > 
 > Тільки числовий індексований елемент CEO в базовому масиві отримав префікс. Інші числові індекси, знайдені в pastimes, не вимагають рядкового префікса, щоб бути допустимими іменами змінних.
 
-**Пример #4 Пример использования**http\_build\_query()\*\* з об'єктом\*\*
+**Приклад #4 Приклад використання** http\_build\_query()\*\* з об'єктом\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ gmp_testbit(GMP|int|string $num, int $index): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_testbit()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_testbit()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public mysql_xdevapi\ColumnResult::getLength(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getLength()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::getLength()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionExtension::getVersion(): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionExtension::getVersion()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionExtension::getVersion()\*\*\*\*
 
 ```php
 <?php

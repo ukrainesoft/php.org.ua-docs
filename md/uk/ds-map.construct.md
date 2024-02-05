@@ -15,7 +15,7 @@ Ds\\Map::\_\_construct — Створює новий екземпляр
 
 ### Опис
 
-public**Ds\\Map::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `...$values`) .
+public **Ds\\Map::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `...$values`) .
 
 Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, переданий як параметр `values`
 
@@ -27,7 +27,7 @@ public**Ds\\Map::\_\_construct** [mixed](language.types.declarations.md#language
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::\_\_construct()\*\*\*\*
 
 ```php
 <?php

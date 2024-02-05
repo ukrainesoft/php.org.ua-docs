@@ -41,7 +41,7 @@ preg_replace_callback_array(    array $pattern,    string|array $subject
 
 `flags`
 
-`flags` може бути комбінацією прапорів \*\*`PREG_OFFSET_CAPTURE`**и**`PREG_UNMATCHED_AS_NULL`\*\*які впливають на формат масиву збігів. Дивіться опис у [preg\_match()](function.preg-match.md) для більш детальної інформації.
+`flags` може бути комбінацією прапорів \*\*`PREG_OFFSET_CAPTURE`** і **`PREG_UNMATCHED_AS_NULL`\*\*які впливають на формат масиву збігів. Дивіться опис у [preg\_match()](function.preg-match.md) для більш детальної інформації.
 
 ### Значення, що повертаються
 
@@ -61,7 +61,7 @@ preg_replace_callback_array(    array $pattern,    string|array $subject
 
 ### Приклади
 
-**Пример #1 Пример использования**preg\_replace\_callback\_array()\*\*\*\*
+**Приклад #1 Приклад використання** preg\_replace\_callback\_array()\*\*\*\*
 
 ```php
 <?php

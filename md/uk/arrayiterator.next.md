@@ -31,7 +31,7 @@ public ArrayIterator::next(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayIterator::next()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayIterator::next()\*\*\*\*
 
 ```php
 <?php

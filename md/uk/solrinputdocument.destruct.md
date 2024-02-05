@@ -15,7 +15,7 @@ SolrInputDocument::\_\_destruct - Деструктор
 
 ### Опис
 
-public**SolrInputDocument::\_\_destruct**()
+public **SolrInputDocument::\_\_destruct**()
 
 Деструктор
 

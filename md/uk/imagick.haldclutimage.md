@@ -41,7 +41,7 @@ public Imagick::haldClutImage(Imagick $clut, int $channel = Imagick::CHANNEL_DEF
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::haldClutImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::haldClutImage()\*\*\*\*
 
 ```php
 <?php

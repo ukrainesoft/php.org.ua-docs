@@ -37,7 +37,7 @@ public Imagick::setImageResolution(float $x_resolution, float $y_resolution): bo
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImageResolution()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImageResolution()\*\*\*\*
 
 ```php
 <?php

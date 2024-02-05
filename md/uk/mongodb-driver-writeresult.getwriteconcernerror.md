@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteResult::getWriteConcernError(): ?MongoDB\Driver
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getWriteConcernError()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getWriteConcernError()\*\*\*\*
 
 ```php
 <?php

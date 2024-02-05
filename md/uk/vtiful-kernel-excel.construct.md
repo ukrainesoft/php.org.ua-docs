@@ -15,7 +15,7 @@ Vtiful\\Kernel\\Excel::\_\_construct — Конструктор
 
 ### Опис
 
-public**Vtiful\\Kernel\\Excel::\_\_construct**(array`$config`) .
+public **Vtiful\\Kernel\\Excel::\_\_construct**(array`$config`) .
 
 Конструктор[Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)створити екземпляр.
 

@@ -15,7 +15,7 @@ SolrDisMaxQuery::\_\_construct - Конструктор класу
 
 ### Опис
 
-public**SolrDisMaxQuery::\_\_construct**(string`$q`
+public **SolrDisMaxQuery::\_\_construct**(string`$q`
 
 Конструктор класу ініціалізує об'єкт та встановлює параметр q, якщо він вказаний
 
@@ -33,7 +33,7 @@ public**SolrDisMaxQuery::\_\_construct**(string`$q`
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::\_\_construct()\*\*\*\*
 
 ```php
 <?php

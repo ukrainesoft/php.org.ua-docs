@@ -37,7 +37,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_pull(string $header, string $k
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +54,7 @@ function decrypt_file(string $inputFilePath, string $outputFilePath, string $key
     for ($i = 24; $i < $inputFileSize; $i += 8192) {
         $ctxt_chunk = fread($inputFile, 8192);
 
-        // Мы не используем $tag, но в реальных протоколах вы можете использовать его для шифрования, например,
+        // Мы не используем $tag, но в реальных протоколах вы можете использовать его для шифрования, наПриклад,
         // инициировать смену ключа или указать конец файла. Затем при расшифровке
         // вы можете подтвердить это поведение.
         [$ptxt_chunk, $tag] = sodium_crypto_secretstream_xchacha20poly1305_pull($state, $ctxt_chunk);

@@ -15,13 +15,13 @@ Componere\\Definition::\_\_construct - Визначення конструкто
 
 ### Опис
 
-public**Componere\\Definition::\_\_construct**(string`$name`) .
+public **Componere\\Definition::\_\_construct**(string`$name`) .
 
-public**Componere\\Definition::\_\_construct**(string`$name`, string`$parent`) .
+public **Componere\\Definition::\_\_construct**(string`$name`, string`$parent`) .
 
-public**Componere\\Definition::\_\_construct**(string`$name`, array`$interfaces`) .
+public **Componere\\Definition::\_\_construct**(string`$name`, array`$interfaces`) .
 
-public**Componere\\Definition::\_\_construct**(string`$name`, string`$parent`, array`$interfaces`) .
+public **Componere\\Definition::\_\_construct**(string`$name`, string`$parent`, array`$interfaces`) .
 
 ### Список параметрів
 

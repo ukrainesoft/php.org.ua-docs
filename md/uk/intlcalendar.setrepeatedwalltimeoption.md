@@ -39,7 +39,7 @@ intlcal_set_repeated_wall_time_option(IntlCalendar $calendar, int $option): true
 
 `option`
 
-Одна из констант:**`IntlCalendar::WALLTIME_FIRST`**или**`IntlCalendar::WALLTIME_LAST`**
+Одна из констант:**`IntlCalendar::WALLTIME_FIRST`** або **`IntlCalendar::WALLTIME_LAST`**
 
 ### Значення, що повертаються
 

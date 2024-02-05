@@ -31,7 +31,7 @@ public ReflectionGenerator::getExecutingGenerator(): Generator
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionGenerator::getExecutingGenerator()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionGenerator::getExecutingGenerator()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionModify::patch(string $document): mysql_xdevapi\Co
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::patch()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionModify::patch()\*\*\*\*
 
 ```php
 <?php

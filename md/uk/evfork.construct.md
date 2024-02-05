@@ -15,7 +15,7 @@ EvFork::\_\_construct - Конструктор спостерігача EvFork
 
 ### Опис
 
-public**EvFork::\_\_construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` = **`null`**, int`$priority` =
+public **EvFork::\_\_construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` = **`null`**, int`$priority` =
 
 Створює об'єкт спостерігач EvFork та автоматично його стартує.
 

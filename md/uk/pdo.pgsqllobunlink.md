@@ -35,7 +35,7 @@ public PDO::pgsqlLOBUnlink(string $oid): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PDO::pgsqlLOBUnlink()\*\*\*\*
+**Приклад #1 Приклад використання** PDO::pgsqlLOBUnlink()\*\*\*\*
 
 У цьому прикладі ми видаляємо великий об'єкт з БД до того, як видалимо рядки з таблиці, що посилаються на нього, що зберігає інформацію про великі об'єкти, яку ми використовували в прикладах для функцій [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md) і [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md)
 

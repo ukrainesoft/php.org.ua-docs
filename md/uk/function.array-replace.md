@@ -39,7 +39,7 @@ array_replace(array $array, array ...$replacements): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_replace()\*\*\*\*
+**Приклад #1 Приклад використання** array\_replace()\*\*\*\*
 
 ```php
 <?php

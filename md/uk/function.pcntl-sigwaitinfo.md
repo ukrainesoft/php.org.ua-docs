@@ -45,7 +45,7 @@ pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 -   pid: ID процесу-відправника
 -   uid: ID користувача, що володіє процесом-відправником
 
-Наступні елементи масиву застосовуються для сигналів **`SIGILL`** **`SIGFPE`** **`SIGSEGV`**и**`SIGBUS`** :
+Наступні елементи масиву застосовуються для сигналів **`SIGILL`** **`SIGFPE`** **`SIGSEGV`** і **`SIGBUS`** :
 
 -   addr: Адреса пам'яті, в якій стався збій
 
@@ -60,7 +60,7 @@ pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**pcntl\_sigwaitinfo()\*\*\*\*
+**Приклад #1 Приклад використання** pcntl\_sigwaitinfo()\*\*\*\*
 
 ```php
 <?php

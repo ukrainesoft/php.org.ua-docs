@@ -35,7 +35,7 @@ final public MongoDB\Driver\Cursor::toArray(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Cursor::toArray()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Cursor::toArray()\*\*\*\*
 
 ```php
 <?php

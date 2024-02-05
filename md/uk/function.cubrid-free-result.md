@@ -33,7 +33,7 @@ cubrid_free_result(resource $req_identifier): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_free\_result()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_free\_result()\*\*\*\*
 
 ```php
 <?php

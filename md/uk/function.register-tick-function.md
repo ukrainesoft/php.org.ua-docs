@@ -35,7 +35,7 @@ register_tick_function(callable $callback, mixed ...$args): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**register\_tick\_function()\*\*\*\*
+**Приклад #1 Приклад використання** register\_tick\_function()\*\*\*\*
 
 ```php
 <?php

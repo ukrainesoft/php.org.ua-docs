@@ -48,7 +48,7 @@ CUBRID з'єднання. Якщо ідентифікатор з'єднання 
 
 ### Приклади
 
-**Пример #1 Пример использования[cubrid\_get\_db\_parameter()](function.cubrid-get-db-parameter.md)**
+**Приклад #1 Приклад использования[cubrid\_get\_db\_parameter()](function.cubrid-get-db-parameter.md)**
 
 ```php
 <?php

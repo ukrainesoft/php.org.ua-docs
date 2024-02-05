@@ -31,7 +31,7 @@ openssl_error_string(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_error\_string()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_error\_string()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ locale_get_script(string $locale): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_get\_script()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_get\_script()\*\*\*\*
 
 ```php
 <?php

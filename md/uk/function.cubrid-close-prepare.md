@@ -33,7 +33,7 @@ cubrid_close_prepare(resource $req_identifier): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_close\_prepare()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_close\_prepare()\*\*\*\*
 
 ```php
 <?php

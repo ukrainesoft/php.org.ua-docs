@@ -39,7 +39,7 @@ public Ds\PriorityQueue::pop(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\PriorityQueue::pop()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\PriorityQueue::pop()\*\*\*\*
 
 ```php
 <?php

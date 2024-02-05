@@ -41,7 +41,7 @@ enchant_dict_suggest(EnchantDictionary $dictionary, string $word): array
 
 ### Приклади
 
-**Пример #1 Пример использования**enchant\_dict\_suggest()\*\*\*\*
+**Приклад #1 Приклад використання** enchant\_dict\_suggest()\*\*\*\*
 
 ```php
 <?php

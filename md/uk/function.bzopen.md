@@ -37,7 +37,7 @@ bzopen(string|resource $file, string $mode): resource|false
 
 ### Приклади
 
-**Пример #1 Пример использования**bzopen()\*\*\*\*
+**Приклад #1 Приклад використання** bzopen()\*\*\*\*
 
 ```php
 <?php

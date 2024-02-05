@@ -15,7 +15,7 @@ SolrCollapseFunction::\_\_construct - Конструктор класу
 
 ### Опис
 
-public**SolrCollapseFunction::\_\_construct**(string`$field`
+public **SolrCollapseFunction::\_\_construct**(string`$field`
 
 Конструктор класу Collapse Function
 
@@ -29,7 +29,7 @@ public**SolrCollapseFunction::\_\_construct**(string`$field`
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrCollapseFunction::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SolrCollapseFunction::\_\_construct()\*\*\*\*
 
 ```php
 <?php

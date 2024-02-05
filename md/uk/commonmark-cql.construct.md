@@ -15,7 +15,7 @@ CommonMark\\CQL::\_\_construct - Конструктор класу CQL
 
 ### Опис
 
-public**CommonMark\\CQL::\_\_construct**(string`$query`) .
+public **CommonMark\\CQL::\_\_construct**(string`$query`) .
 
 ### Список параметрів
 

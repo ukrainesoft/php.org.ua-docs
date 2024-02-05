@@ -15,7 +15,7 @@ Yaf\_Route\_Map::\_\_construct — Назначение\_\_construct
 
 ### Опис
 
-public**Yaf\_Route\_Map::\_\_construct**(string`$controller_prefer` **`false`**, string`$delimiter` = "")
+public **Yaf\_Route\_Map::\_\_construct**(string`$controller_prefer` **`false`**, string`$delimiter` = "")
 
 ### Список параметрів
 
@@ -29,7 +29,7 @@ public**Yaf\_Route\_Map::\_\_construct**(string`$controller_prefer` **`false`**,
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Route\_Map()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Route\_Map()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +52,7 @@ array(
 )
 ```
 
-**Пример #2 Пример использования**Yaf\_Route\_Map()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Route\_Map()\*\*\*\*
 
 ```php
 <?php
@@ -82,7 +82,7 @@ array(
 )
 ```
 
-**Пример #3 Пример использования**Yaf\_Route\_Map()\*\*\*\*
+**Приклад #3 Приклад використання** Yaf\_Route\_Map()\*\*\*\*
 
 ```php
 <?php

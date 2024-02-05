@@ -41,7 +41,7 @@ intlcal_get_minimal_days_in_first_week(IntlCalendar $calendar): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getMinimalDaysInFirstWeek()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getMinimalDaysInFirstWeek()\*\*\*\*
 
 ```php
 <?php

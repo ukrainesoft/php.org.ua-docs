@@ -41,7 +41,7 @@ spl_autoload_extensions(?string $file_extensions = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**spl\_autoload\_extensions()\*\*\*\*
+**Приклад #1 Приклад використання** spl\_autoload\_extensions()\*\*\*\*
 
 ```php
 <?php

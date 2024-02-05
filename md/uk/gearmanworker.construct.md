@@ -15,7 +15,7 @@ GearmanWorker::\_\_construct — Створення об'єкту GearmanWorker
 
 ### Опис
 
-public**GearmanWorker::\_\_construct**()
+public **GearmanWorker::\_\_construct**()
 
 Створює об'єкт [GearmanWorker](class.gearmanworker.md)представляє обробник, який підключається до сервера завдань і приймає завдання для виконання.
 

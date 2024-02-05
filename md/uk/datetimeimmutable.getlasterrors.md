@@ -37,7 +37,7 @@ public static DateTimeImmutable::getLastErrors(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::getLastErrors()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::getLastErrors()\*\*\*\*
 
 ```php
 <?php

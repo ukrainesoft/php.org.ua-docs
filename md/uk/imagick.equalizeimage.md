@@ -35,7 +35,7 @@ public Imagick::equalizeImage(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::equalizeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::equalizeImage()\*\*\*\*
 
 ```php
 <?php

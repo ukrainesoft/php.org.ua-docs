@@ -51,7 +51,7 @@ pg_fetch_assoc(PgSql\Result $result, ?int $row = null): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_fetch\_assoc()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_fetch\_assoc()\*\*\*\*
 
 ```php
 <?php

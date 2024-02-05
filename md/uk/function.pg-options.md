@@ -44,7 +44,7 @@ pg_options(?PgSql\Connection $connection = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_options()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_options()\*\*\*\*
 
 ```php
 <?php

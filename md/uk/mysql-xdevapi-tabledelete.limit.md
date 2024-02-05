@@ -33,7 +33,7 @@ public mysql_xdevapi\TableDelete::limit(int $rows): mysql_xdevapi\TableDelete
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::limit()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableDelete::limit()\*\*\*\*
 
 ```php
 <?php

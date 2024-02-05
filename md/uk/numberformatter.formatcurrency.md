@@ -51,7 +51,7 @@ numfmt_format_currency(NumberFormatter $formatter, float $amount, string $curren
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_format\_currency()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_format\_currency()\*\*\*\*
 
 ```php
 <?php

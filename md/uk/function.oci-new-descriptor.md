@@ -29,7 +29,7 @@ oci_new_descriptor(resource $connection, int $type = OCI_DTYPE_LOB): ?OCILob
 
 `type`
 
-Допустимі значення параметра `type` **`OCI_DTYPE_FILE`** **`OCI_DTYPE_LOB`**и**`OCI_DTYPE_ROWID`**
+Допустимі значення параметра `type` **`OCI_DTYPE_FILE`** **`OCI_DTYPE_LOB`** і **`OCI_DTYPE_ROWID`**
 
 ### Значення, що повертаються
 
@@ -37,7 +37,7 @@ oci_new_descriptor(resource $connection, int $type = OCI_DTYPE_LOB): ?OCILob
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_new\_descriptor()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_new\_descriptor()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +72,7 @@ oci_close($conn);
 ```php
 <?php
     /* Данный скрипт реализует загрузку файлов в LOB-столбцы
-     * HTML-форма для скрипта выглядит примерно так:
+     * HTML-форма для скрипта выглядит Прикладно так:
      * <form action="upload.php" method="post" enctype="multipart/form-data">
      * <input type="file" name="lob_upload" />
      * ...
@@ -110,12 +110,12 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #2 Пример использования**oci\_new\_descriptor()\*\*\*\*
+**Приклад #2 Приклад використання** oci\_new\_descriptor()\*\*\*\*
 
 ```php
 <?php
 /* Вызов хранимой процедуры PL/SQL, параметрами которой являются объекты CLOB
- * Пример PL/SQL процедуры:
+ * Приклад PL/SQL процедуры:
  *
  * PROCEDURE save_data
  *   Имя аргумента                    Тип                     In/Out По умолчанию?

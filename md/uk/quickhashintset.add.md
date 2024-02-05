@@ -33,7 +33,7 @@ public QuickHashIntSet::add(int $key): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntSet::add()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntSet::add()\*\*\*\*
 
 ```php
 <?php

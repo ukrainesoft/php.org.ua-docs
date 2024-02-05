@@ -31,7 +31,7 @@ public ReflectionClass::isInternal(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::isInternal()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::isInternal()\*\*\*\*
 
 ```php
 <?php

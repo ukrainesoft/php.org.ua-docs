@@ -31,7 +31,7 @@ pcntl_signal_dispatch(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pcntl\_signal\_dispatch()\*\* :\*\*
+**Приклад #1 Приклад використання** pcntl\_signal\_dispatch()\*\* :\*\*
 
 ```php
 <?php

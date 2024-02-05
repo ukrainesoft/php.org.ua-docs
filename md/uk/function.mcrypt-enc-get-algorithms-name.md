@@ -37,7 +37,7 @@ mcrypt_enc_get_algorithms_name(resource $td): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_enc\_get\_algorithms\_name()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_enc\_get\_algorithms\_name()\*\*\*\*
 
 ```php
 <?php

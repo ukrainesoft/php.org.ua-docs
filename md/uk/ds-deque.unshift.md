@@ -37,7 +37,7 @@ public Ds\Deque::unshift(mixed $values = ?): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::unshift()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::unshift()\*\*\*\*
 
 ```php
 <?php

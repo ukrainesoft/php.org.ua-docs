@@ -41,7 +41,7 @@ intlcal_is_lenient(IntlCalendar $calendar): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::isLenient()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::isLenient()\*\*\*\*
 
 ```php
 <?php

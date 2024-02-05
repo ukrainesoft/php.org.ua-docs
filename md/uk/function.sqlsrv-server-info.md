@@ -40,7 +40,7 @@ sqlsrv_server_info(resource $conn): array
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_server\_info()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_server\_info()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ UI\\Draw\\Brush\\LinearGradient::\_\_construct - Конструктор клас
 
 ### Опис
 
-public**UI\\Draw\\Brush\\LinearGradient::\_\_construct** [UI\\Point](class.ui-point.md) `$start` [UI\\Point](class.ui-point.md) `$end`) .
+public **UI\\Draw\\Brush\\LinearGradient::\_\_construct** [UI\\Point](class.ui-point.md) `$start` [UI\\Point](class.ui-point.md) `$end`) .
 
 Створює новий лінійний градієнт
 

@@ -35,7 +35,7 @@ public Imagick::brightnessContrastImage(float $brightness, float $contrast, int 
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Imagick::brightnessContrastImage()\*\*\*\*
+**Приклад #1 Приклад использования метода**Imagick::brightnessContrastImage()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ field name
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::addPhraseField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::addPhraseField()\*\*\*\*
 
 ```php
 <?php

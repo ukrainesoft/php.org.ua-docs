@@ -35,7 +35,7 @@ abstract public Ds\Sequence::first(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::first()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::first()\*\*\*\*
 
 ```php
 <?php

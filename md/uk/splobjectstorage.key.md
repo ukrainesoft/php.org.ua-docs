@@ -31,7 +31,7 @@ public SplObjectStorage::key(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::key()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::key()\*\*\*\*
 
 ```php
 <?php

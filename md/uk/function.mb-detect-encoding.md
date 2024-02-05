@@ -55,7 +55,7 @@ mb_detect_encoding(string $string, array|string|null $encodings = null, bool $st
 
 ### Приклади
 
-**Пример #1 Пример использования функции**mb\_detect\_encoding()\*\*\*\*
+**Приклад #1 Приклад использования функции**mb\_detect\_encoding()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +78,7 @@ $encodings = [
 echo mb_detect_encoding($str, $encodings);
 ```
 
-**Пример #2 Действие параметра`strict`**
+**Приклад #2 Действие параметра`strict`**
 
 ```php
 <?php

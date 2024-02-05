@@ -39,7 +39,7 @@ str_repeat(string $string, int $times): string
 
 ### Приклади
 
-**Пример #1 Пример использования**str\_repeat()\*\*\*\*
+**Приклад #1 Приклад використання** str\_repeat()\*\*\*\*
 
 ```php
 <?php

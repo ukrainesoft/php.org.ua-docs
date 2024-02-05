@@ -43,7 +43,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Использование**ftp\_raw()**для входа на FTP-сервер**
+**Приклад #1 Использование**ftp\_raw()**для входа на FTP-сервер**
 
 ```php
 <?php

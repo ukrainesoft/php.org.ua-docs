@@ -63,7 +63,7 @@ php myphar.phar
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::createDefaultStub()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::createDefaultStub()\*\*\*\*
 
 ```php
 <?php

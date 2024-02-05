@@ -45,7 +45,7 @@ abstract public Ds\Sequence::insert(int $index, mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::insert()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::insert()\*\*\*\*
 
 ```php
 <?php

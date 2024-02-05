@@ -43,7 +43,7 @@ collation(mixed $value1, mixed $value2): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3::createCollation()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3::createCollation()\*\*\*\*
 
 Реєструє PHP-функцію [strnatcmp()](function.strnatcmp.md) як послідовність сортування у базі даних SQLite3.
 

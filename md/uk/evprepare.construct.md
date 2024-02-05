@@ -15,7 +15,7 @@ EvPrepare::\_\_construct - Конструктор спостерігача EvPre
 
 ### Опис
 
-public**EvPrepare::\_\_construct**( string`$callback`, string`$data` =?, string`$priority` =
+public **EvPrepare::\_\_construct**( string`$callback`, string`$data` =?, string`$priority` =
 
 Створює об'єкт спостерігач EvPrepare та автоматично його стартує.
 

@@ -57,7 +57,7 @@ cubrid_pconnect(    string $host,    int $port,    string $dbname, 
 
 ### Приклади
 
-**Пример #1 Пример использования[cubrid\_connect()](function.cubrid-connect.md)**
+**Приклад #1 Приклад использования[cubrid\_connect()](function.cubrid-connect.md)**
 
 ```php
 <?php

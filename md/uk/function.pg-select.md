@@ -45,11 +45,11 @@ pg_select(    PgSql\Connection $connection,    string $table_name,   
 
 `flags`
 
-Одна из констант\*\*`PGSQL_CONV_FORCE_NULL`\*\* **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** **`PGSQL_DML_STRING`** чи їх комбінація. Якщо `flags` містить **`PGSQL_DML_STRING`**, функція поверне рядок. Якщо встановлено **`PGSQL_DML_NO_CONV`**или**`PGSQL_DML_ESCAPE`**, то функция[pg\_convert()](function.pg-convert.md) внутрішньо не викликається.
+Одна из констант\*\*`PGSQL_CONV_FORCE_NULL`\*\* **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** **`PGSQL_DML_STRING`** чи їх комбінація. Якщо `flags` містить **`PGSQL_DML_STRING`**, функція поверне рядок. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функция[pg\_convert()](function.pg-convert.md) внутрішньо не викликається.
 
 `mode`
 
-Одна из констант\*\*`PGSQL_ASSOC`\*\* **`PGSQL_NUM`**или**`PGSQL_BOTH`**Если установлено значение**`PGSQL_ASSOC`**, що повертається значення буде асоціативним масивом (array), при **`PGSQL_NUM`**возвращаемое значение будет массивом (array), а при**`PGSQL_BOTH`** значення, що повертається, буде і асоціативним і числовим індексованим масивом (array).
+Одна из констант\*\*`PGSQL_ASSOC`\*\* **`PGSQL_NUM`** або **`PGSQL_BOTH`**Если установлено значение**`PGSQL_ASSOC`**, що повертається значення буде асоціативним масивом (array), при **`PGSQL_NUM`**возвращаемое значение будет массивом (array), а при**`PGSQL_BOTH`** значення, що повертається, буде і асоціативним і числовим індексованим масивом (array).
 
 ### Значення, що повертаються
 
@@ -64,7 +64,7 @@ pg_select(    PgSql\Connection $connection,    string $table_name,   
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_select()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_select()\*\*\*\*
 
 ```php
 <?php

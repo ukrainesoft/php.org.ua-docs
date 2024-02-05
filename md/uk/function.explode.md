@@ -57,17 +57,17 @@ explode(string $separator, string $string, int $limit = PHP_INT_MAX): array
 
 ### Приклади
 
-**Пример #1 Пример использования**explode()\*\*\*\*
+**Приклад #1 Приклад використання** explode()\*\*\*\*
 
 ```php
 <?php
-// Пример 1
+// Приклад 1
 $pizza  = "кусок1 кусок2 кусок3 кусок4 кусок5 кусок6";
 $pieces = explode(" ", $pizza);
 echo $pieces[0]; // кусок1
 echo $pieces[1]; // кусок2
 
-// Пример 2
+// Приклад 2
 $data = "foo:*:1023:1000::/home/foo:/bin/sh";
 list($user, $pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $data);
 echo $user; // foo

@@ -43,7 +43,7 @@ imagecolordeallocate(GdImage $image, int $color): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecolordeallocate()\*\*\*\*
+**Приклад #1 Приклад використання** imagecolordeallocate()\*\*\*\*
 
 ```php
 <?php

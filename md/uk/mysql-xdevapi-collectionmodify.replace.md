@@ -37,7 +37,7 @@ public mysql_xdevapi\CollectionModify::replace(string $collection_field, string 
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::replace()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionModify::replace()\*\*\*\*
 
 ```php
 <?php

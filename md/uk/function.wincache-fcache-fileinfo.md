@@ -52,7 +52,7 @@ wincache_fcache_fileinfo(bool $summaryonly = false): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_fcache\_fileinfo()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_fcache\_fileinfo()\*\*\*\*
 
 ```php
 <pre>

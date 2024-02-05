@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadPreference::getMaxStalenessSeconds(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds()\*\*\*\*
 
 ```php
 <?php

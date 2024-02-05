@@ -33,7 +33,7 @@ public static SeasLog::setBasePath(string $base_path): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::setBasePath()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::setBasePath()\*\*\*\*
 
 ```php
 <?php

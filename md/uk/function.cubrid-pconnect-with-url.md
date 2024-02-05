@@ -95,7 +95,7 @@ cubrid_pconnect_with_url(string $conn_url, string $userid = ?, string $passwd = 
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_pconnect\_with\_url()\*\* без завдання властивостей\*\*
+**Приклад #1 Приклад використання** cubrid\_pconnect\_with\_url()\*\* без завдання властивостей\*\*
 
 ```php
 <?php
@@ -118,7 +118,7 @@ if ($con) {
 ?>
 ```
 
-**Пример #2**cubrid\_pconnect\_with\_url()**url with properties example**
+**Приклад #2**cubrid\_pconnect\_with\_url()**url with properties example**
 
 ```php
 <?php

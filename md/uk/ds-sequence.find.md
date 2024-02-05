@@ -37,7 +37,7 @@ abstract public Ds\Sequence::find(mixed $value): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::find()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::find()\*\*\*\*
 
 ```php
 <?php

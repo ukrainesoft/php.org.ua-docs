@@ -31,7 +31,7 @@ public ReflectionFunctionAbstract::hasReturnType(): bool
 
 ### Приклади
 
-**Пример #1 Пример**ReflectionFunctionAbstract::hasReturnType()\*\*\*\*
+**Приклад #1 Приклад**ReflectionFunctionAbstract::hasReturnType()\*\*\*\*
 
 ```php
 <?php

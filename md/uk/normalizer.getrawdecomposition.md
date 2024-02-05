@@ -45,7 +45,7 @@ normalizer_get_raw_decomposition(string $string, int $form = Normalizer::FORM_C)
 
 ### Приклади
 
-**Пример #1 Пример использования**Normalizer::getRawDecomposition()\*\*\*\*
+**Приклад #1 Приклад використання** Normalizer::getRawDecomposition()\*\*\*\*
 
 ```php
 <?php

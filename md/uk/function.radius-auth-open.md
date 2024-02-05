@@ -29,7 +29,7 @@ radius_auth_open(): resource
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_auth\_open()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_auth\_open()\*\*\*\*
 
 ```php
 <?php

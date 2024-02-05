@@ -59,7 +59,7 @@ pg_put_line(PgSql\Connection $connection = ?, string $data): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_put\_line()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_put\_line()\*\*\*\*
 
 ```php
 <?php

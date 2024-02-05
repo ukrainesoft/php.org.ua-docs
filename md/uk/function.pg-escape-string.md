@@ -51,7 +51,7 @@ pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_escape\_string()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_escape\_string()\*\*\*\*
 
 ```php
 <?php

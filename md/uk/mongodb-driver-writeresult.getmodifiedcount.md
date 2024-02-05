@@ -37,7 +37,7 @@ final public MongoDB\Driver\WriteResult::getModifiedCount(): ?int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getModifiedCount()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getModifiedCount()\*\*\*\*
 
 ```php
 <?php

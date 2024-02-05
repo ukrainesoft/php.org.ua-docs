@@ -33,7 +33,7 @@ inotify_read(resource $inotify_instance): array
 
 -   wd - дескриптор спостерігача, повернутий[inotify\_add\_watch()](function.inotify-add-watch.md)
 -   mask - бітова маска[подій](inotify.constants.md)
--   cookie – унікальний ідентифікатор для об'єднання пов'язаних подій (наприклад\*\*`IN_MOVE_FROM`**и**`IN_MOVE_TO`\*\*) .
+-   cookie – унікальний ідентифікатор для об'єднання пов'язаних подій (наприклад\*\*`IN_MOVE_FROM`** і **`IN_MOVE_TO`\*\*) .
 -   name - ім'я файлу (наприклад якщо в директорії, що спостерігається, змінився файл)
 
 ### Дивіться також

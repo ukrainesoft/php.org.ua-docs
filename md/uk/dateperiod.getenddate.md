@@ -37,7 +37,7 @@ public DatePeriod::getEndDate(): ?DateTimeInterface
 
 ### Приклади
 
-**Пример #1 Пример использования**DatePeriod::getEndDate()\*\*\*\*
+**Приклад #1 Приклад використання** DatePeriod::getEndDate()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +57,7 @@ echo $start->format(DateTime::ISO8601);
 2016-05-20T00:00:00+0000
 ```
 
-**Пример #2 Пример использования**DatePeriod::getEndDate()\*\* без дати закінчення\*\*
+**Приклад #2 Приклад використання** DatePeriod::getEndDate()\*\* без дати закінчення\*\*
 
 ```php
 <?php

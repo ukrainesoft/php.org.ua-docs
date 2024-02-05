@@ -15,7 +15,7 @@ wkhtmltox\\PDF\\Converter::\_\_construct — Створити новий PDF-к�
 
 ### Опис
 
-public**wkhtmltox\\PDF\\Converter::\_\_construct**(array`$settings`
+public **wkhtmltox\\PDF\\Converter::\_\_construct**(array`$settings`
 
 Створює PDF-конвертер, використовуючи додаткові параметри конфігурації
 

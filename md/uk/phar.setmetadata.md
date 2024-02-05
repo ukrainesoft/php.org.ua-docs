@@ -39,7 +39,7 @@ public Phar::setMetadata(mixed $metadata): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::setMetadata()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::setMetadata()\*\*\*\*
 
 ```php
 <?php

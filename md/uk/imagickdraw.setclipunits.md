@@ -37,7 +37,7 @@ public ImagickDraw::setClipUnits(int $clip_units): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setClipUnits()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setClipUnits()\*\*\*\*
 
 ```php
 <?php

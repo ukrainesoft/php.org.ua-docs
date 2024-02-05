@@ -15,7 +15,7 @@ EvPeriodic::\_\_construct - Конструктор об'єкта спостер�
 
 ### Опис
 
-public**EvPeriodic::\_\_construct**  
+public **EvPeriodic::\_\_construct**  
 float`$offset`  
 string`$interval`  
 [callable](language.types.callable.md) `$reschedule_cb`  

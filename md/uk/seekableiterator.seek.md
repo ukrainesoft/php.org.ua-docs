@@ -37,7 +37,7 @@ public SeekableIterator::seek(int $offset): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SeekableIterator::seek()\*\*\*\*
+**Приклад #1 Приклад використання** SeekableIterator::seek()\*\*\*\*
 
 Переміщення до елемента на 3-й позиції в ітераторі ([ArrayIterator](class.arrayiterator.md) реалізує [SeekableIterator](class.seekableiterator.md)
 

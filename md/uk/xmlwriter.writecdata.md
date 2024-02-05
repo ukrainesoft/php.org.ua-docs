@@ -53,7 +53,7 @@ xmlwriter_write_cdata(XMLWriter $writer, string $content): bool
 
 ### Приклади
 
-**Пример #1 Базовое использование**xmlwriter\_write\_cdata()\*\*\*\*
+**Приклад #1 Базовое использование**xmlwriter\_write\_cdata()\*\*\*\*
 
 ```php
 <?php

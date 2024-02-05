@@ -33,7 +33,7 @@ public SplFileInfo::setInfoClass(string $class = SplFileInfo::class): void
 
 ### Приклади
 
-**Пример #1 Пример использования[SplFileInfo::setFileClass()](splfileinfo.setfileclass.md)**
+**Приклад #1 Приклад использования[SplFileInfo::setFileClass()](splfileinfo.setfileclass.md)**
 
 ```php
 <?php

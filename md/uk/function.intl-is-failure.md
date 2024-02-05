@@ -31,7 +31,7 @@ intl_is_failure(int $errorCode): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**intl\_is\_failure()\*\*\*\*
+**Приклад #1 Приклад використання** intl\_is\_failure()\*\*\*\*
 
 ```php
 <?php

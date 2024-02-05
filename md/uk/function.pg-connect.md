@@ -53,7 +53,7 @@ pg_connect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 ### Приклади
 
-**Пример #1 Использование функции**pg\_connect()\*\*\*\*
+**Приклад #1 Использование функции**pg\_connect()\*\*\*\*
 
 ```php
 <?php

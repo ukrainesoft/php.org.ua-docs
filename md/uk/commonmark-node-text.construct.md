@@ -15,9 +15,9 @@ CommonMark\\Node\\Text::\_\_construct - Конструктор класу Text
 
 ### Опис
 
-public**CommonMark\\Node\\Text::\_\_construct**()
+public **CommonMark\\Node\\Text::\_\_construct**()
 
-public**CommonMark\\Node\\Text::\_\_construct**(string`$literal`) .
+public **CommonMark\\Node\\Text::\_\_construct**(string`$literal`) .
 
 **Увага**
 

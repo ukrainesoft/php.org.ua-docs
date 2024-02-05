@@ -47,7 +47,7 @@ public DateTimeImmutable::sub(DateInterval $interval): DateTimeImmutable
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::sub()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::sub()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

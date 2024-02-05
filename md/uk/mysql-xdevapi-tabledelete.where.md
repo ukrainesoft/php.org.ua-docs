@@ -33,7 +33,7 @@ public mysql_xdevapi\TableDelete::where(string $where_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::where()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableDelete::where()\*\*\*\*
 
 ```php
 <?php

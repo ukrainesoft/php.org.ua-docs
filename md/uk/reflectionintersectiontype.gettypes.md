@@ -31,7 +31,7 @@ public ReflectionIntersectionType::getTypes(): array
 
 ### Приклади
 
-**Пример #1 Пример использования метода**ReflectionIntersectionType::getTypes()\*\*\*\*
+**Приклад #1 Приклад использования метода**ReflectionIntersectionType::getTypes()\*\*\*\*
 
 ```php
 <?php

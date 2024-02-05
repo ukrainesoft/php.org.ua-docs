@@ -40,7 +40,7 @@ mysql_num_fields(resource $result): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_num\_fields()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_num\_fields()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ tidy_get_error_buffer(tidy $tidy): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy\_get\_error\_buffer()\*\*\*\*
+**Приклад #1 Приклад використання** tidy\_get\_error\_buffer()\*\*\*\*
 
 ```php
 <?php

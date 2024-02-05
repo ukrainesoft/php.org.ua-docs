@@ -57,7 +57,7 @@ public SplFileObject::fgetcsv(string $separator = ",", string $enclosure = "\"",
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fgetcsv()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fgetcsv()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +68,7 @@ while (!$file->eof()) {
 ?>
 ```
 
-**Пример #2 Пример использования**`SplFileObject::READ_CSV`\*\*\*\*
+**Приклад #2 Приклад використання** `SplFileObject::READ_CSV`\*\*\*\*
 
 ```php
 <?php

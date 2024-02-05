@@ -31,7 +31,7 @@ public ArrayIterator::key(): string|int|null
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayIterator::key()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayIterator::key()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionExtension::getClasses(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionExtension::getClasses()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionExtension::getClasses()\*\*\*\*
 
 ```php
 <?php

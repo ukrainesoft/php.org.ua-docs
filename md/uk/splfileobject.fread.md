@@ -33,7 +33,7 @@ public SplFileObject::fread(int $length): string|false
 
 ### Приклади
 
-**Пример #1 Пример**SplFileObject::fread()\*\*\*\*
+**Приклад #1 Приклад**SplFileObject::fread()\*\*\*\*
 
 ```php
 <?php

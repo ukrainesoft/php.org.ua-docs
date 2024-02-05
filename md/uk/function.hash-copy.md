@@ -37,7 +37,7 @@ hash_copy(HashContext $context): HashContext
 
 ### Приклади
 
-**Пример #1 Пример использования**hash\_copy()\*\*\*\*
+**Приклад #1 Приклад використання** hash\_copy()\*\*\*\*
 
 ```php
 <?php

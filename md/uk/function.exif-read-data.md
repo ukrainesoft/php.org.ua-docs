@@ -83,7 +83,7 @@ exif_read_data(    resource|string $file,    ?string $required_sections 
 
 ### Приклади
 
-**Пример #1 Пример использования**exif\_read\_data()\*\*\*\*
+**Приклад #1 Приклад використання** exif\_read\_data()\*\*\*\*
 
 ```php
 <?php
@@ -136,7 +136,7 @@ THUMBNAIL.Thumbnail.Height: 1
 THUMBNAIL.Thumbnail.Height: 1
 ```
 
-**Пример #2 Использование**exif\_read\_data()\*\* з потоковим ресурсом (доступно з PHP 7.2.0)\*\*
+**Приклад #2 Использование**exif\_read\_data()\*\* з потоковим ресурсом (доступно з PHP 7.2.0)\*\*
 
 ```php
 <?php

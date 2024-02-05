@@ -33,7 +33,7 @@ final public MongoDB\BSON\Binary::getType(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Binary::getType()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Binary::getType()\*\*\*\*
 
 ```php
 <?php

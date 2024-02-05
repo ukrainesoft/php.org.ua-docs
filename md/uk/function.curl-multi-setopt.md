@@ -78,4 +78,4 @@ pushfunction(resource $parent_ch, resource $pushed_ch, array $headers): int
 | 8.2.0 | Добавлена константа\*\*`CURLMOPT_MAX_CONCURRENT_STREAMS`\*\* |
 | 8.0.0 | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 | 7.1.0 | Добавлена константа\*\*`CURLMOPT_PUSHFUNCTION`\*\* |
-| 7.0.7 | Додані константи **`CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE`** **`CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE`** **`CURLMOPT_MAX_HOST_CONNECTIONS`** **`CURLMOPT_MAX_PIPELINE_LENGTH`**и**`CURLMOPT_MAX_TOTAL_CONNECTIONS`** |
+| 7.0.7 | Додані константи **`CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE`** **`CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE`** **`CURLMOPT_MAX_HOST_CONNECTIONS`** **`CURLMOPT_MAX_PIPELINE_LENGTH`** і **`CURLMOPT_MAX_TOTAL_CONNECTIONS`** |

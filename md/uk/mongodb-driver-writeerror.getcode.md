@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteError::getCode(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteError::getCode()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteError::getCode()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ oci_field_is_null(resource $statement, string|int $column): bool
 
 ### Приклади
 
-**Пример #1 Пример использования[oci\_field\_name()](function.oci-field-name.md)**
+**Приклад #1 Приклад использования[oci\_field\_name()](function.oci-field-name.md)**
 
 ```php
 <?php

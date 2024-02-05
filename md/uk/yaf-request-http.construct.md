@@ -15,7 +15,7 @@ Yaf\_Request\_Http::\_\_construct - Конструктор класу Yaf\_Reque
 
 ### Опис
 
-public**Yaf\_Request\_Http::\_\_construct**(string`$request_uri`\= ?, string`$base_uri`
+public **Yaf\_Request\_Http::\_\_construct**(string`$request_uri`\= ?, string`$base_uri`
 
 **Увага**
 

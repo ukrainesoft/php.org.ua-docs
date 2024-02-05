@@ -37,7 +37,7 @@ public mysql_xdevapi\TableSelect::orderby(mixed $sort_expr, mixed ...$sort_exprs
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::orderBy()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::orderBy()\*\*\*\*
 
 ```php
 <?php

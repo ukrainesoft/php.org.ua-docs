@@ -47,7 +47,7 @@ normalizer_is_normalized(string $string, int $form = Normalizer::FORM_C): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**normalizer\_is\_normalized()\*\*\*\*
+**Приклад #1 Приклад використання** normalizer\_is\_normalized()\*\*\*\*
 
 ```php
 <?php

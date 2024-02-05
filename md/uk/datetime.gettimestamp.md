@@ -64,7 +64,7 @@ date_timestamp_get(DateTimeInterface $object): int
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTime::getTimestamp()\*\*\*\*
+**Приклад #1 Приклад використання** DateTime::getTimestamp()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

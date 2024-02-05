@@ -39,7 +39,7 @@ public ReflectionClass::newInstanceArgs(array $args = []): ?object
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::newInstanceArgs()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::newInstanceArgs()\*\*\*\*
 
 ```php
 <?php

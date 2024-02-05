@@ -39,7 +39,7 @@ cubrid_lob_get(resource $conn_identifier, string $sql): array
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_lob\_get()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_lob\_get()\*\*\*\*
 
 ```php
 <?php

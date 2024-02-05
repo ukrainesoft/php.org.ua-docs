@@ -15,7 +15,7 @@ Ds\\Vector::\_\_construct — Створює новий екземпляр
 
 ### Опис
 
-public**Ds\\Vector::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
+public **Ds\\Vector::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
 Створює новий екземпляр, використовуючи або об'єкт реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
@@ -27,7 +27,7 @@ public**Ds\\Vector::\_\_construct** [mixed](language.types.declarations.md#langu
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::\_\_construct()\*\*\*\*
 
 ```php
 <?php

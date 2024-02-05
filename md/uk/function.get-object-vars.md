@@ -33,7 +33,7 @@ get_object_vars(object $object): array
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_object\_vars()\*\*\*\*
+**Приклад #1 Приклад використання** get\_object\_vars()\*\*\*\*
 
 ```php
 <?php

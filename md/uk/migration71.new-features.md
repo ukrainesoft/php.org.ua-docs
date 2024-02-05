@@ -268,7 +268,7 @@ SIGHUP
 
 ### Підтримка HTTP/2 server push в ext/curl
 
-Підтримка "server push" додана в модуль CURL (потрібна версія 7.46 та вище). Використовувати можна у функції [curl\_multi\_setopt()](function.curl-multi-setopt.md) з новою константою **`CURLMOPT_PUSHFUNCTION`**. Також додані константи **`CURL_PUSH_OK`**и**`CURL_PUSH_DENY`** для визначення, було прийнято чи відхилено "server push".
+Підтримка "server push" додана в модуль CURL (потрібна версія 7.46 та вище). Використовувати можна у функції [curl\_multi\_setopt()](function.curl-multi-setopt.md) з новою константою **`CURLMOPT_PUSHFUNCTION`**. Також додані константи **`CURL_PUSH_OK`** і **`CURL_PUSH_DENY`** для визначення, було прийнято чи відхилено "server push".
 
 ### Контекстні опції потоку
 

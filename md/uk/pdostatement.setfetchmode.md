@@ -61,7 +61,7 @@ public PDOStatement::setFetchMode(int $mode = PDO::FETCH_INTO, object $object): 
 
 **Приклад #1 Зміна режиму вибірки**
 
-В следующем примере показано, как метод**PDOStatement::setFetchMode()** змінює режим вибірки за промовчанням для об'єкта PDOStatement.
+В следующем Прикладе показано, как метод**PDOStatement::setFetchMode()** змінює режим вибірки за промовчанням для об'єкта PDOStatement.
 
 ```php
 <?php

@@ -15,7 +15,7 @@ IntlBreakIterator::\_\_construct - Закритий конструктор, що
 
 ### Опис
 
-private**IntlBreakIterator::\_\_construct**()
+private **IntlBreakIterator::\_\_construct**()
 
 Примірники [IntlBreakIterator](class.intlbreakiterator.md) повинні бути створені за допомогою одного із статичних фабричних методів.
 

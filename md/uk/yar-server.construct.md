@@ -33,7 +33,7 @@ final public Yar_Server::__construct(Object $obj)
 
 ### Приклади
 
-**Пример #1 Пример использования**Yar\_Server::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Yar\_Server::\_\_construct()\*\*\*\*
 
 ```php
 <?php

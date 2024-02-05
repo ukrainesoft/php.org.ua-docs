@@ -33,7 +33,7 @@ cubrid_column_names(resource $req_identifier): array
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_column\_names()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_column\_names()\*\*\*\*
 
 ```php
 <?php

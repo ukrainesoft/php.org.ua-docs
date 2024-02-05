@@ -33,7 +33,7 @@ public Ds\Stack::push(mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Stack::push()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Stack::push()\*\*\*\*
 
 ```php
 <?php

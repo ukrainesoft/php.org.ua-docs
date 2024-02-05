@@ -33,7 +33,7 @@ sqlsrv_close(resource $conn): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_close()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_close()\*\*\*\*
 
 ```php
 <?php

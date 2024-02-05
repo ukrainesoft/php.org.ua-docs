@@ -47,7 +47,7 @@ sodium_crypto_secretbox(string $message, string $nonce, string $key): string
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_secretbox()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_secretbox()\*\*\*\*
 
 ```php
 <?php

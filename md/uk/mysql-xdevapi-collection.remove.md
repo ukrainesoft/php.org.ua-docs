@@ -35,7 +35,7 @@ public mysql_xdevapi\Collection::remove(string $search_condition): mysql_xdevapi
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Collection::remove()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Collection::remove()\*\*\*\*
 
 ```php
 <?php

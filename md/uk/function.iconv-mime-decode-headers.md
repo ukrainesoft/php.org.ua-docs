@@ -56,7 +56,7 @@ iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = nu
 
 ### Приклади
 
-**Пример #1 Пример использования**iconv\_mime\_decode\_headers()\*\*\*\*
+**Приклад #1 Приклад використання** iconv\_mime\_decode\_headers()\*\*\*\*
 
 ```php
 <?php

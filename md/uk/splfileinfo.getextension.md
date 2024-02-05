@@ -31,7 +31,7 @@ public SplFileInfo::getExtension(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getExtension()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getExtension()\*\*\*\*
 
 ```php
 <?php

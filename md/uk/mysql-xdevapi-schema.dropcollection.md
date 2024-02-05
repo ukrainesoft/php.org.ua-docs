@@ -31,7 +31,7 @@ public mysql_xdevapi\Schema::dropCollection(string $collection_name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::dropCollection()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Schema::dropCollection()\*\*\*\*
 
 ```php
 <?php

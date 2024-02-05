@@ -31,7 +31,7 @@ public ReflectionFunctionAbstract::getTentativeReturnType(): ?ReflectionType
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionFunctionAbstract::getTentativeReturnType()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionFunctionAbstract::getTentativeReturnType()\*\*\*\*
 
 ```php
 <?php

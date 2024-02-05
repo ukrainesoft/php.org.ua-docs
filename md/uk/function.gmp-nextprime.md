@@ -33,7 +33,7 @@ gmp_nextprime(GMP|int|string $num): GMP
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_nextprime()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_nextprime()\*\*\*\*
 
 ```php
 <?php

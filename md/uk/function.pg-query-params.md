@@ -62,7 +62,7 @@ pg_query_params(PgSql\Connection $connection = ?, string $query, array $params):
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_query\_params()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_query\_params()\*\*\*\*
 
 ```php
 <?php

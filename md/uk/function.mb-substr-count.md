@@ -47,7 +47,7 @@ mb_substr_count(string $haystack, string $needle, ?string $encoding = null): int
 
 ### Приклади
 
-**Пример #1 Пример использования функции**mb\_substr\_count()\*\*\*\*
+**Приклад #1 Приклад использования функции**mb\_substr\_count()\*\*\*\*
 
 ```php
 <?php

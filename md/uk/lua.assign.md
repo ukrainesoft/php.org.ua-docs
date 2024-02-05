@@ -35,7 +35,7 @@ public Lua::assign(string $name, string $value): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Lua::assign()\*\*\*\*
+**Приклад #1 Приклад використання** Lua::assign()\*\*\*\*
 
 ```php
 <?php

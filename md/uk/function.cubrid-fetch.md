@@ -48,7 +48,7 @@ cubrid_fetch(resource $result, int $type = CUBRID_BOTH): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_fetch()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_fetch()\*\*\*\*
 
 ```php
 <?php

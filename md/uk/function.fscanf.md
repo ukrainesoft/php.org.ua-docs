@@ -55,7 +55,7 @@ fscanf(resource $stream, string $format, mixed &...$vars): array|int|false|null
 
 ### Приклади
 
-**Пример #1 Пример использования функции**fscanf()\*\*\*\*
+**Приклад #1 Приклад использования функции**fscanf()\*\*\*\*
 
 ```php
 <?php

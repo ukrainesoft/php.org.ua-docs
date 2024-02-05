@@ -43,7 +43,7 @@ public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_thre
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::segmentImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::segmentImage()\*\*\*\*
 
 ```php
 <?php

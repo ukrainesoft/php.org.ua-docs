@@ -35,7 +35,7 @@ abstract public Ds\Sequence::shift(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::shift()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::shift()\*\*\*\*
 
 ```php
 <?php

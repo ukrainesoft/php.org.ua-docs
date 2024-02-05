@@ -15,11 +15,11 @@ CommonMark\\Node\\BulletList::\_\_construct - Конструктор класу 
 
 ### Опис
 
-public**CommonMark\\Node\\BulletList::\_\_construct**()
+public **CommonMark\\Node\\BulletList::\_\_construct**()
 
-public**CommonMark\\Node\\BulletList::\_\_construct**(int`$tight`) .
+public **CommonMark\\Node\\BulletList::\_\_construct**(int`$tight`) .
 
-public**CommonMark\\Node\\BulletList::\_\_construct**(int`$tight`, int`$delimiter`) .
+public **CommonMark\\Node\\BulletList::\_\_construct**(int`$tight`, int`$delimiter`) .
 
 **Увага**
 

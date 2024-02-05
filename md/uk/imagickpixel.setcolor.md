@@ -37,7 +37,7 @@ public ImagickPixel::setColor(string $color): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixel::setColor()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixel::setColor()\*\*\*\*
 
 ```php
 <?php

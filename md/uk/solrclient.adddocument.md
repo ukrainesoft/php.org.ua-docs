@@ -55,7 +55,7 @@ $allowDups = false так само, як і $overwrite = true
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrClient::addDocument()\*\*\*\*
+**Приклад #1 Приклад використання** SolrClient::addDocument()\*\*\*\*
 
 ```php
 <?php
@@ -100,7 +100,7 @@ SolrObject Object
 )
 ```
 
-**Пример #2 Пример использования**SolrClient::addDocument()\*\*\*\*
+**Приклад #2 Приклад використання** SolrClient::addDocument()\*\*\*\*
 
 ```php
 <?php

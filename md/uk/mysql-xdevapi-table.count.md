@@ -31,7 +31,7 @@ public mysql_xdevapi\Table::count(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Table::count()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Table::count()\*\*\*\*
 
 ```php
 <?php

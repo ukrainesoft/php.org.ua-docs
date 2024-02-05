@@ -33,7 +33,7 @@ public Imagick::setPointSize(float $point_size): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setPointSize()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setPointSize()\*\*\*\*
 
 Приклад використання Imagick::setPointSize
 

@@ -51,7 +51,7 @@ msgfmt_format_message(string $locale, string $pattern, array $values): string|fa
 
 ### Приклади
 
-**Пример #1 Пример использования**msgfmt\_format\_message()\*\*\*\*
+**Приклад #1 Приклад використання** msgfmt\_format\_message()\*\*\*\*
 
 ```php
 <?php

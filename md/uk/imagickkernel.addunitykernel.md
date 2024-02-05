@@ -29,7 +29,7 @@ public ImagickKernel::addUnityKernel(float $scale): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickKernel::addUnityKernel()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickKernel::addUnityKernel()\*\*\*\*
 
 ```php
 <?php
@@ -83,7 +83,7 @@ public ImagickKernel::addUnityKernel(float $scale): void
 ?>
 ```
 
-**Пример #2 Пример использования**ImagickKernel::addUnityKernel()\*\*\*\*
+**Приклад #2 Приклад використання** ImagickKernel::addUnityKernel()\*\*\*\*
 
 ```php
 <?php

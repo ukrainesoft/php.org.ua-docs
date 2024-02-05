@@ -42,7 +42,7 @@ posix_getgrnam(string $name): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getgrnam()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getgrnam()\*\*\*\*
 
 ```php
 <?php

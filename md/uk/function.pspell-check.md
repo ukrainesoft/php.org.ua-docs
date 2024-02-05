@@ -43,7 +43,7 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_check()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_check()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ EvWatcher::\_\_construct - абстрактний конструктор об'є
 
 ### Опис
 
-abstract public**EvWatcher::\_\_construct**()
+abstract public **EvWatcher::\_\_construct**()
 
 **EvWatcher::\_\_construct()** є абстрактним конструктором об'єкта спостерігача, реалізованого у похідних класах.
 

@@ -17,7 +17,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### Використання виразу return
 
-**Пример #1 Использование конструкции[return](function.return.md)**
+**Приклад #1 Использование конструкции[return](function.return.md)**
 
 ```php
 <?php

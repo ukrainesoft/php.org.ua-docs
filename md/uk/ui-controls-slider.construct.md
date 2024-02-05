@@ -15,7 +15,7 @@ UI\\Controls\\Slider::\_\_construct — Створює новий об'єкт Sl
 
 ### Опис
 
-public**UI\\Controls\\Slider::\_\_construct**(int`$min`, int`$max`) .
+public **UI\\Controls\\Slider::\_\_construct**(int`$min`, int`$max`) .
 
 Створити новий об'єкт Slider із заданим діапазоном
 

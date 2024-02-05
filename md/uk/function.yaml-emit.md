@@ -51,7 +51,7 @@ yaml_emit(    mixed $data,    int $encoding = YAML_ANY_ENCODING,    
 
 ### Приклади
 
-**Пример #1 Пример использования**yaml\_emit()\*\*\*\*
+**Приклад #1 Приклад використання** yaml\_emit()\*\*\*\*
 
 ```php
 <?php

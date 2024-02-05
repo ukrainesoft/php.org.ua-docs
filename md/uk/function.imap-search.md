@@ -80,7 +80,7 @@ imap_search(    IMAP\Connection $imap,    string $criteria,    int $
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_search()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_search()\*\*\*\*
 
 ```php
 <?php

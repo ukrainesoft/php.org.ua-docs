@@ -43,7 +43,7 @@ pg_result_seek(PgSql\Result $result, int $row): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_result\_seek()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_result\_seek()\*\*\*\*
 
 ```php
 <?php

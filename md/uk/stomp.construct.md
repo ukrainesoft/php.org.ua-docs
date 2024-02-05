@@ -19,7 +19,7 @@ Stomp::\_\_construct -- stomp\_connect — Відкриває з'єднання
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public**Stomp::\_\_construct**  
+public **Stomp::\_\_construct**  
 string`$broker`\= ini\_get("stomp.default\_broker\_uri"),  
 string`$username`  
 string`$password`  

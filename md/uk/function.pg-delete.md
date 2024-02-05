@@ -43,7 +43,7 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 `flags`
 
-Комбінація констант **`PGSQL_CONV_FORCE_NULL`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** \*\*`PGSQL_DML_ASYNC`**или**`PGSQL_DML_STRING`**Если константа**`PGSQL_DML_STRING`\*\*присутствует в аргументе`flags`, то функція поверне рядок, що містить запит. Якщо встановлено **`PGSQL_DML_NO_CONV`**или**`PGSQL_DML_ESCAPE`**, то функция[pg\_convert()](function.pg-convert.md) внутрішньо не викликається.
+Комбінація констант **`PGSQL_CONV_FORCE_NULL`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** \*\*`PGSQL_DML_ASYNC`** або **`PGSQL_DML_STRING`**Если константа**`PGSQL_DML_STRING`\*\*присутствует в аргументе`flags`, то функція поверне рядок, що містить запит. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функция[pg\_convert()](function.pg-convert.md) внутрішньо не викликається.
 
 ### Значення, що повертаються
 
@@ -57,7 +57,7 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_delete()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_delete()\*\*\*\*
 
 ```php
 <?php

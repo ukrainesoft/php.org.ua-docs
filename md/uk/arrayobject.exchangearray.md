@@ -33,7 +33,7 @@ public ArrayObject::exchangeArray(array|object $array): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::exchangeArray()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::exchangeArray()\*\*\*\*
 
 ```php
 <?php

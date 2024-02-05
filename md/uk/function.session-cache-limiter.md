@@ -68,7 +68,7 @@ Expires: Thu, 19 Nov 1981 08:52:00 GMT Cache-Control: no-store, no-cache, must-r
 
 ### Приклади
 
-**Пример #1 Пример использования**session\_cache\_limiter()\*\*\*\*
+**Приклад #1 Приклад використання** session\_cache\_limiter()\*\*\*\*
 
 ```php
 <?php

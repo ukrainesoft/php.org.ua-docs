@@ -120,7 +120,7 @@ if ($ds) {
       [['oid' => LDAP_CONTROL_PAGEDRESULTS, 'value' => ['size' => 2, 'cookie' => $cookie]]]
     );
     ldap_parse_result($link, $result, $errcode , $matcheddn , $errmsg , $referrals, $controls);
-    // Чтобы сохранить пример, короткие ошибки не проверяются
+    // Чтобы сохранить Приклад, короткие ошибки не проверяются
     $entries = ldap_get_entries($link, $result);
     foreach ($entries as $entry) {
       echo "cn: ".$entry['cn'][0]."\n";

@@ -43,7 +43,7 @@ curl_escape(CurlHandle $handle, string $string): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**curl\_escape()\*\*\*\*
+**Приклад #1 Приклад використання** curl\_escape()\*\*\*\*
 
 ```php
 <?php

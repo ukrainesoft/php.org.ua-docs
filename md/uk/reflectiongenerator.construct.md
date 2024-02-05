@@ -15,7 +15,7 @@ ReflectionGenerator::\_\_construct — Конструктор ReflectionGenerato
 
 ### Опис
 
-public**ReflectionGenerator::\_\_construct** [Generator](class.generator.md) `$generator`) .
+public **ReflectionGenerator::\_\_construct** [Generator](class.generator.md) `$generator`) .
 
 Створює об'єкт [ReflectionGenerator](class.reflectiongenerator.md)
 
@@ -27,7 +27,7 @@ public**ReflectionGenerator::\_\_construct** [Generator](class.generator.md) `$g
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionGenerator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionGenerator::\_\_construct()\*\*\*\*
 
 ```php
 <?php

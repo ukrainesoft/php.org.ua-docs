@@ -40,7 +40,7 @@ mysql_error(resource $link_identifier = NULL): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_error()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_error()\*\*\*\*
 
 ```php
 <?php

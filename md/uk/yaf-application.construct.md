@@ -15,7 +15,7 @@ Yaf\_Application::\_\_construct - Конструктор класу Yaf\_Applica
 
 ### Опис
 
-public**Yaf\_Application::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$config`, string`$envrion`
+public **Yaf\_Application::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$config`, string`$envrion`
 
 Екземпляр [Yaf\_Application](class.yaf-application.md)
 
@@ -57,7 +57,7 @@ ap.dispatcher.defaultModule=Index ap.dispatcher.defaultController=Index ap.dispa
 
 ### Приклади
 
-**Пример #2 Пример использования**Yaf\_Application::\_\_construct()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Application::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +71,7 @@ $application->bootstrap()->run();
 
 Висновок наведеного прикладу буде схожим на:
 
-**Пример #3 Пример использования**Yaf\_Application::\_\_construct()\*\*\*\*
+**Приклад #3 Приклад використання** Yaf\_Application::\_\_construct()\*\*\*\*
 
 ```php
 <?php

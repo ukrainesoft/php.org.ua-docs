@@ -37,7 +37,7 @@ uopz_unset_mock(string $class): void
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_unset\_mock()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_unset\_mock()\*\*\*\*
 
 ```php
 <?php

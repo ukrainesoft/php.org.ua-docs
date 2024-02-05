@@ -33,7 +33,7 @@ sqlsrv_free_stmt(resource $stmt): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_free\_stmt()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_free\_stmt()\*\*\*\*
 
 ```php
 <?php

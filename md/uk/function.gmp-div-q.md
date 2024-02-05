@@ -51,7 +51,7 @@ gmp_div_q(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_div\_q()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_div\_q()\*\*\*\*
 
 ```php
 <?php

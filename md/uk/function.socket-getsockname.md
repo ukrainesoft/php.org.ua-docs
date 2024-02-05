@@ -29,7 +29,7 @@ socket_getsockname(Socket $socket, string &$address, int &$port = null): bool
 
 `address`
 
-Якщо заданий сокет має тип **`AF_INET`**или**`AF_INET6`** [socket\_getpeername()](function.socket-getpeername.md) поверне локальний *IP-адреса* у відповідному форматі (наприклад, `127.0.0.1`или`fe80::1`) в параметре`address` і якщо необов'язковий параметр `port` є також пов'язаний порт.
+Якщо заданий сокет має тип **`AF_INET`** або **`AF_INET6`** [socket\_getpeername()](function.socket-getpeername.md) поверне локальний *IP-адреса* у відповідному форматі (наприклад, `127.0.0.1`или`fe80::1`) в параметре`address` і якщо необов'язковий параметр `port` є також пов'язаний порт.
 
 Якщо заданий сокет має тип **`AF_UNIX`** [socket\_getpeername()](function.socket-getpeername.md) поверне шлях у файловій системі Unix (тобто . `/var/run/daemon.sock`) в параметр`address`
 

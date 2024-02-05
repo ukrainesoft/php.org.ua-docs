@@ -55,7 +55,7 @@ win32_delete_service(string $servicename, string $machine = ?): void
 
 ### Приклади
 
-**Пример #1 Пример использования**win32\_delete\_service()\*\*\*\*
+**Приклад #1 Приклад використання** win32\_delete\_service()\*\*\*\*
 
 Видаляє службу dummyphp.
 

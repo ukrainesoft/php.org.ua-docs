@@ -33,7 +33,7 @@ libxml_set_streams_context(resource $context): void
 
 ### Приклади
 
-**Пример #1 Пример использования**libxml\_set\_streams\_context()\*\*\*\*
+**Приклад #1 Приклад використання** libxml\_set\_streams\_context()\*\*\*\*
 
 ```php
 <?php

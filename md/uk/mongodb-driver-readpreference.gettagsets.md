@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadPreference::getTagSets(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::getTagSets()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadPreference::getTagSets()\*\*\*\*
 
 ```php
 <?php

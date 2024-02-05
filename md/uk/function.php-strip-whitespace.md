@@ -37,7 +37,7 @@ php_strip_whitespace(string $filename): string
 
 ### Приклади
 
-**Пример #1 Пример использования**php\_strip\_whitespace()\*\*\*\*
+**Приклад #1 Приклад використання** php\_strip\_whitespace()\*\*\*\*
 
 ```php
 <?php

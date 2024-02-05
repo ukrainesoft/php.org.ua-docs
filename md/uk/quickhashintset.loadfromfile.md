@@ -41,7 +41,7 @@ public static QuickHashIntSet::loadFromFile(string $filename, int $size = ?, int
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntSet::loadFromFile()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntSet::loadFromFile()\*\*\*\*
 
 ```php
 <?php

@@ -63,7 +63,7 @@ class ChildProducer extends Producer {
 ```php
 <?php
 $array['key'] ??= computeDefault();
-// примерно то же самое
+// Прикладно то же самое
 if (!isset($array['key'])) {
     $array['key'] = computeDefault();
 }
@@ -131,7 +131,7 @@ FFI - новий модуль, який пропонує простий спос
 
 ### Регулярні вирази (сумісні з Perl)
 
-Функції [preg\_replace\_callback()](function.preg-replace-callback.md) і [preg\_replace\_callback\_array()](function.preg-replace-callback-array.md) тепер приймають додатковий аргумент `flags` з підтримкою прапорів **`PREG_OFFSET_CAPTURE`**и**`PREG_UNMATCHED_AS_NULL`**. Він вплине на формат масиву значень, що збіглися, що передається в callback-функцію.
+Функції [preg\_replace\_callback()](function.preg-replace-callback.md) і [preg\_replace\_callback\_array()](function.preg-replace-callback-array.md) тепер приймають додатковий аргумент `flags` з підтримкою прапорів **`PREG_OFFSET_CAPTURE`** і **`PREG_UNMATCHED_AS_NULL`**. Він вплине на формат масиву значень, що збіглися, що передається в callback-функцію.
 
 ### PDO
 

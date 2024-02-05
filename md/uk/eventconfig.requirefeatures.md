@@ -37,7 +37,7 @@ public
 
 ### Приклади
 
-**Пример #1 Пример использования**EventConfig::requireFeatures()\*\*\*\*
+**Приклад #1 Приклад використання** EventConfig::requireFeatures()\*\*\*\*
 
 ```php
 <?php

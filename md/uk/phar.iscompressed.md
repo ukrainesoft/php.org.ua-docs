@@ -35,7 +35,7 @@ public Phar::isCompressed(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::isCompressed()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::isCompressed()\*\*\*\*
 
 ```php
 <?php

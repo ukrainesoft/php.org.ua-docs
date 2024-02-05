@@ -54,7 +54,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 | Версия | Опис |
 | --- | --- |
-| 8.0.0 | Флаги\*\*`FILTER_FLAG_SCHEME_REQUIRED`**и**`FILTER_FLAG_HOST_REQUIRED`**для фільтра**`FILTER_VALIDATE_URL`\*\* були вилучені. Прапори `scheme`и`host` були та залишаються обов'язковими. |
+| 8.0.0 | Флаги\*\*`FILTER_FLAG_SCHEME_REQUIRED`** і **`FILTER_FLAG_HOST_REQUIRED`**для фільтра**`FILTER_VALIDATE_URL`\*\* були вилучені. Прапори `scheme`и`host` були та залишаються обов'язковими. |
 | 8.0.0 | Добавлена константа\*\*`FILTER_VALIDATE_BOOL`\*\* як псевдонім **`FILTER_VALIDATE_BOOLEAN`**. . Краще віддати перевагу **`FILTER_VALIDATE_BOOL`** |
 | 7.4.0 | Додані опції `min_range`и`max_range`для фільтра\*\*`FILTER_VALIDATE_FLOAT`\*\* |
 | 7.0.0 | Доданий прапор **`FILTER_FLAG_HOSTNAME`** та фільтр **`FILTER_VALIDATE_DOMAIN`** |

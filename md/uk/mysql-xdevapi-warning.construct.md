@@ -15,7 +15,7 @@ Warning::\_\_construct - Конструктор класу Warning
 
 ### Опис
 
-private**mysql\_xdevapi\\Warning::\_\_construct**()
+private **mysql\_xdevapi\\Warning::\_\_construct**()
 
 **Увага**
 
@@ -27,7 +27,7 @@ private**mysql\_xdevapi\\Warning::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Warning::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Warning::\_\_construct()\*\*\*\*
 
 ```php
 <?php

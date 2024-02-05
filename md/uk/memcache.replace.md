@@ -45,7 +45,7 @@ Memcache::replace(    string $key,    mixed $var,    int $flag = ?,�
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::replace()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::replace()\*\*\*\*
 
 ```php
 <?php

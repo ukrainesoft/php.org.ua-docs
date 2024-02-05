@@ -37,7 +37,7 @@ public Phar::offsetGet(string $localName): SplFileInfo
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::offsetGet()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::offsetGet()\*\*\*\*
 
 Як і для будь-якого іншого класу, що реалізує [ArrayAccess](class.arrayaccess.md), метод**Phar::offsetGet()** буде викликано автоматично під час використання оператора `[]`
 

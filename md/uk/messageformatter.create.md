@@ -27,7 +27,7 @@ public static MessageFormatter::create(string $locale, string $pattern): ?Messag
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public**MessageFormatter::\_\_construct**(string`$locale`, string`$pattern`) .
+public **MessageFormatter::\_\_construct**(string`$locale`, string`$pattern`) .
 
 Процедурний стиль
 
@@ -57,7 +57,7 @@ msgfmt_create(string $locale, string $pattern): ?MessageFormatter
 
 ### Приклади
 
-**Пример #1 Пример использования**msgfmt\_create()\*\*\*\*
+**Приклад #1 Приклад використання** msgfmt\_create()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public AppendIterator::key(): scalar
 
 ### Приклади
 
-**Пример #1 Пример использования**AppendIterator::key()\*\*\*\*
+**Приклад #1 Приклад використання** AppendIterator::key()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionParameter::hasType(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionParameter::hasType()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionParameter::hasType()\*\*\*\*
 
 ```php
 <?php

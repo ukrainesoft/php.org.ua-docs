@@ -31,7 +31,7 @@ public Yaf_Router::addConfig(Yaf_Config_Abstract $config): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**application.ini()\*\*\*\*
+**Приклад #1 Приклад використання** application.ini()\*\*\*\*
 
 порядок дуже важливий, попередній буде названий першим
 
@@ -45,7 +45,7 @@ public Yaf_Router::addConfig(Yaf_Config_Abstract $config): bool
 
 ;карта маршруту відповідає будь-якому запиту до контролера routes.route\_name4.type="map" routes.route\_name4.controllerPrefer=TRUE routes.route\_namer.delimiter="#!"
 
-**Пример #2 Пример использования**Yaf\_Dispatcher::autoConfig()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Dispatcher::autoConfig()\*\*\*\*
 
 ```php
 <?php

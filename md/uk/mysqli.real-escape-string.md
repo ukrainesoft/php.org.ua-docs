@@ -57,7 +57,7 @@ mysqli_real_escape_string(mysqli $mysql, string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::real\_escape\_string()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::real\_escape\_string()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

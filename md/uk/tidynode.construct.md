@@ -15,7 +15,7 @@ tidyNode::\_\_construct — Приватний конструктор, який 
 
 ### Опис
 
-private**tidyNode::\_\_construct**()
+private **tidyNode::\_\_construct**()
 
 ### Список параметрів
 

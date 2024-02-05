@@ -15,7 +15,7 @@ DOMAttr::\_\_construct - Створює екземпляр класу [DOMAttr](
 
 ### Опис
 
-public**DOMAttr::\_\_construct**(string`$name`, string`$value` = "")
+public **DOMAttr::\_\_construct**(string`$name`, string`$value` = "")
 
 Створює новий об'єкт класу DOMAttr. Цей об'єкт буде доступний лише для читання. Він може бути доданий до документа, але додаткові вузли не можна додати до цього вузла, доки він приєднаний до документа. Для створення вузла з можливістю модифікації використовуйте [DOMDocument::createAttribute](domdocument.createattribute.md)
 

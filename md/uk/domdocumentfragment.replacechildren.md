@@ -49,7 +49,7 @@ public DOMDocumentFragment::replaceChildren(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMDocumentFragment::replaceChildren()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMDocumentFragment::replaceChildren()\*\*\*\*
 
 Заміна дочірніх вузлів на нові.
 

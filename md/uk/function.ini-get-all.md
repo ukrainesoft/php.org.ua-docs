@@ -35,7 +35,7 @@ ini_get_all(?string $extension = null, bool $details = true): array|false
 
 Повертає асоціативний масив з іменами директив як ключі. Повертає **`false`** і викликає помилку рівня **`E_WARNING`**, якщо `extension` не існує.
 
-Якщо `details`равен\*\*`true`\*\*(по умолчанию), в массиве будут содержаться`global_value`(значение настройки php.ini),`local_value`(например, заданное с помощью[ini\_set()](function.ini-set.md)или .htaccess) и`access`(уровень доступа).
+Якщо `details`равен\*\*`true`\*\*(по умолчанию), в массиве будут содержаться`global_value`(значение настройки php.ini),`local_value`(наПриклад, заданное с помощью[ini\_set()](function.ini-set.md)или .htaccess) и`access`(уровень доступа).
 
 Якщо `details`равен\*\*`false`\*\*, значенням масиву буде відповідне поточне налаштування.
 
@@ -97,7 +97,7 @@ Array
 )
 ```
 
-**Пример #2 Отключение`details`**
+**Приклад #2 Отключение`details`**
 
 ```php
 <?php

@@ -39,7 +39,7 @@ intlcal_get_available_locales(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getAvailableLocales()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getAvailableLocales()\*\*\*\*
 
 ```php
 <?php

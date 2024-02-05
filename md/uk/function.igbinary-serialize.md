@@ -45,7 +45,7 @@ igbinary_serialize(mixed $value): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**igbinary\_serialize()\*\*\*\*
+**Приклад #1 Приклад використання** igbinary\_serialize()\*\*\*\*
 
 ```php
 <?php

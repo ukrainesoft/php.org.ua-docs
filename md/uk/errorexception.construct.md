@@ -15,7 +15,7 @@ ErrorException::\_\_construct — Створює виняток
 
 ### Опис
 
-public**ErrorException::\_\_construct**  
+public **ErrorException::\_\_construct**  
 string`$message` = "",  
 int`$code`  
 int`$severity` **`E_ERROR`**,  
@@ -60,4 +60,4 @@ int`$severity` **`E_ERROR`**,
 
 | Версия | Опис |
 | --- | --- |
-| 8.0.0 | `filename`и`line` тепер допускають значення null. Раніше їх значеннями за промовчанням були \*\*`__FILE__`**и**`__LINE__`\*\*відповідно. |
+| 8.0.0 | `filename`и`line` тепер допускають значення null. Раніше їх значеннями за промовчанням були \*\*`__FILE__`** і **`__LINE__`\*\*відповідно. |

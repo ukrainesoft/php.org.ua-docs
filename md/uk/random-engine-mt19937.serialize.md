@@ -31,7 +31,7 @@ public Random\Engine\Mt19937::__serialize(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Mt19937::\_\_serialize()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Mt19937::\_\_serialize()\*\*\*\*
 
 ```php
 <?php

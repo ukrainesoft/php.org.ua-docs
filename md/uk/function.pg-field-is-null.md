@@ -55,7 +55,7 @@ pg_field_is_null(PgSql\Result $result, mixed $field): int
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_field\_is\_null()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_field\_is\_null()\*\*\*\*
 
 ```php
 <?php

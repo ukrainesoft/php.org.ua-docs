@@ -43,7 +43,7 @@ session_cache_expire(?int $value = null): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**session\_cache\_expire()\*\*\*\*
+**Приклад #1 Приклад використання** session\_cache\_expire()\*\*\*\*
 
 ```php
 <?php

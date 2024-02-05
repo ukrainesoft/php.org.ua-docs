@@ -15,7 +15,7 @@ SolrGenericResponse::\_\_destruct - Деструктор
 
 ### Опис
 
-public**SolrGenericResponse::\_\_destruct**()
+public **SolrGenericResponse::\_\_destruct**()
 
 Деструктор.
 

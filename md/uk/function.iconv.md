@@ -47,7 +47,7 @@ iconv(string $from_encoding, string $to_encoding, string $string): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**iconv()\*\*\*\*
+**Приклад #1 Приклад використання** iconv()\*\*\*\*
 
 ```php
 <?php

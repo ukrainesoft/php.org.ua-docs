@@ -41,7 +41,7 @@ wincache_ucache_cas(string $key, int $old_value, int $new_value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ucache\_cas()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_ucache\_cas()\*\*\*\*
 
 ```php
 <?php

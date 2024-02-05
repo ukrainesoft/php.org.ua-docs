@@ -45,7 +45,7 @@ public RegexIterator::setMode(int $mode): void
 
 ### Приклади
 
-**Пример #1 Пример использования**RegexIterator::setMode()\*\*\*\*
+**Приклад #1 Приклад використання** RegexIterator::setMode()\*\*\*\*
 
 ```php
 <?php

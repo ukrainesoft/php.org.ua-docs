@@ -45,7 +45,7 @@ xdiff_string_diff(    string $old_data,    string $new_data,    int 
 
 ### Приклади
 
-**Пример #1 Пример использования**xdiff\_string\_diff()\*\*\*\*
+**Приклад #1 Приклад використання** xdiff\_string\_diff()\*\*\*\*
 
 Наступний код виведе різницю двох статей.
 

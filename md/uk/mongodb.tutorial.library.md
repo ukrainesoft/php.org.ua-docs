@@ -45,7 +45,7 @@ require 'vendor/autoload.php';
 
 Після цього можна використовувати бібліотеку як описано [» в документації](https://www.mongodb.com/docs/php-library/current/)
 
-Якщо раніше доводилося працювати з драйвером MongoDB іншими мовами, API бібліотеки буде виглядати знайомим. Він містить клас [» Client](https://www.mongodb.com/docs/php-library/master/reference/class/MongoDBClient/)для соединения с MongoDB, класс[» Database](https://www.mongodb.com/docs/php-library/master/reference/class/MongoDBDatabase/) для операцій рівня бази даних (наприклад, команди, керування колекціями) та клас [» Collection](https://www.mongodb.com/docs/php-library/master/reference/class/MongoDBCollection)для операций уровня коллекций (например, операций[» CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), Управління індексами).
+Якщо раніше доводилося працювати з драйвером MongoDB іншими мовами, API бібліотеки буде виглядати знайомим. Він містить клас [» Client](https://www.mongodb.com/docs/php-library/master/reference/class/MongoDBClient/)для соединения с MongoDB, класс[» Database](https://www.mongodb.com/docs/php-library/master/reference/class/MongoDBDatabase/) для операцій рівня бази даних (наприклад, команди, керування колекціями) та клас [» Collection](https://www.mongodb.com/docs/php-library/master/reference/class/MongoDBCollection)для операций уровня коллекций (наПриклад, операций[» CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), Управління індексами).
 
 Наприклад, ось як вставити документ у колекцію *beers* бази даних *demo* :
 

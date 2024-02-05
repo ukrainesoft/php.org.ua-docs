@@ -45,7 +45,7 @@ window
 
 strategy
 
-Одна из констант:**`ZLIB_FILTERED`** **`ZLIB_HUFFMAN_ONLY`** **`ZLIB_RLE`** **`ZLIB_FIXED`**или**`ZLIB_DEFAULT_STRATEGY`**(по умолчанию).
+Одна из констант:**`ZLIB_FILTERED`** **`ZLIB_HUFFMAN_ONLY`** **`ZLIB_RLE`** **`ZLIB_FIXED`** або **`ZLIB_DEFAULT_STRATEGY`**(по умолчанию).
 
 dictionary
 

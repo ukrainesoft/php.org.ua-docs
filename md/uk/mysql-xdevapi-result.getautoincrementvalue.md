@@ -31,7 +31,7 @@ public mysql_xdevapi\Result::getAutoIncrementValue(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Result::getAutoIncrementValue()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Result::getAutoIncrementValue()\*\*\*\*
 
 ```php
 <?php

@@ -59,7 +59,7 @@ mysqli_prepare(mysqli $mysql, string $query): mysqli_stmt|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::prepare()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::prepare()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

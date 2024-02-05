@@ -31,7 +31,7 @@ public mysql_xdevapi\SqlStatement::bind(string $param): mysql_xdevapi\SqlStateme
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatement::bind()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\SqlStatement::bind()\*\*\*\*
 
 ```php
 <?php

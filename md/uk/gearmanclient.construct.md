@@ -15,7 +15,7 @@ GearmanClient::\_\_construct — Створити екземпляр GearmanClie
 
 ### Опис
 
-public**GearmanClient::\_\_construct**()
+public **GearmanClient::\_\_construct**()
 
 Створює екземпляр [GearmanClient](class.gearmanclient.md)представляє клієнта, який з'єднується з сервером завдань і надсилає завдання для виконання.
 

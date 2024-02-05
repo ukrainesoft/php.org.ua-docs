@@ -49,7 +49,7 @@ public DOMCharacterData::before(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMCharacterData::before()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMCharacterData::before()\*\*\*\*
 
 Додавання вузлів перед символьними даними.
 

@@ -33,7 +33,7 @@ tidy_config_count(tidy $tidy): int
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy\_config\_count()\*\*\*\*
+**Приклад #1 Приклад використання** tidy\_config\_count()\*\*\*\*
 
 ```php
 <?php

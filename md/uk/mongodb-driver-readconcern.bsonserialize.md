@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadConcern::bsonSerialize(): stdClass
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadConcern::bsonSerialize()\*\* з порожніми гарантіями читання\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadConcern::bsonSerialize()\*\* з порожніми гарантіями читання\*\*
 
 ```php
 <?php
@@ -55,7 +55,7 @@ object(stdClass)#2 (0) {
 { }
 ```
 
-**Пример #2 Пример использования**MongoDB\\Driver\\ReadConcern::bsonSerialize()\*\* з локальними гарантіями читання\*\*
+**Приклад #2 Приклад використання** MongoDB\\Driver\\ReadConcern::bsonSerialize()\*\* з локальними гарантіями читання\*\*
 
 ```php
 <?php

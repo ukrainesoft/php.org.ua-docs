@@ -51,7 +51,7 @@ numfmt_set_symbol(NumberFormatter $formatter, int $symbol, string $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_set\_symbol()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_set\_symbol()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ cubrid_field_seek(resource $result, int $field_offset = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_field\_seek()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_field\_seek()\*\*\*\*
 
 ```php
 <?php

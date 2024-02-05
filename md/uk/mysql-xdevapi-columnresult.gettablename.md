@@ -33,7 +33,7 @@ public mysql_xdevapi\ColumnResult::getTableName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getTableName()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::getTableName()\*\*\*\*
 
 ```php
 <?php

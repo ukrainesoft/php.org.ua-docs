@@ -43,7 +43,7 @@ pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_add\_to\_personal()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_add\_to\_personal()\*\*\*\*
 
 ```php
 <?php

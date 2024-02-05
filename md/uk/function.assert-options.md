@@ -87,7 +87,7 @@ assert_callback(    string $file,    int $line,    ?string $assertio
 
 ### Приклади
 
-**Пример #1 Пример использования**assert\_options()\*\*\*\*
+**Приклад #1 Приклад використання** assert\_options()\*\*\*\*
 
 ```php
 <?php

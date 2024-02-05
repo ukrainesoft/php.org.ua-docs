@@ -409,7 +409,7 @@ var_dump($int); // int(65535)
 
 ### Віддалені функції
 
-#### **call\_user\_method()**и**call\_user\_method\_array()**
+#### **call\_user\_method()** і **call\_user\_method\_array()**
 
 Функції, оголошені застарілими у PHP 4.1.0 на користь [call\_user\_func()](function.call-user-func.md) і [call\_user\_func\_array()](function.call-user-func-array.md). Можливо, вам також буде цікаво розглянути можливість [звернення до функцій через змінні](functions.variable-functions.md)и/или оператор[`...`](functions.arguments.md#functions.variable-arg-list)
 
@@ -421,7 +421,7 @@ var_dump($int); // int(65535)
 
 Устаревшая функция**mcrypt\_generic\_end()** була видалена на користь функції [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.md)
 
-Крім цього, застарілі функції **mcrypt\_ecb()** **mcrypt\_cbc()** **mcrypt\_cfb()**и**mcrypt\_ofb()** були видалені на користь використання [mcrypt\_decrypt()](function.mcrypt-decrypt.md) з відповідною константою **`MCRYPT_MODE_*`**
+Крім цього, застарілі функції **mcrypt\_ecb()** **mcrypt\_cbc()** **mcrypt\_cfb()** і **mcrypt\_ofb()** були видалені на користь використання [mcrypt\_decrypt()](function.mcrypt-decrypt.md) з відповідною константою **`MCRYPT_MODE_*`**
 
 #### Усі функції модуля mysql
 
@@ -438,7 +438,7 @@ var_dump($int); // int(65535)
 
 #### Псевдоніми [intl](book.intl.md)
 
-Застарілі псевдоніми **datefmt\_set\_timezone\_id()**и**IntlDateFormatter::setTimeZoneID()** були видалені на користь [datefmt\_set\_timezone()](intldateformatter.settimezone.md) і [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.md)соответственно.
+Застарілі псевдоніми **datefmt\_set\_timezone\_id()** і **IntlDateFormatter::setTimeZoneID()** були видалені на користь [datefmt\_set\_timezone()](intldateformatter.settimezone.md) і [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.md)соответственно.
 
 #### **set\_magic\_quotes\_runtime()**
 

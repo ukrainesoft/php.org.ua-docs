@@ -33,7 +33,7 @@ public mysql_xdevapi\TableUpdate::limit(int $rows): mysql_xdevapi\TableUpdate
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::limit()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableUpdate::limit()\*\*\*\*
 
 ```php
 <?php

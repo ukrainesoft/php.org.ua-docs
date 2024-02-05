@@ -33,7 +33,7 @@ public SplObjectStorage::removeAllExcept(SplObjectStorage $storage): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::removeAllExcept()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::removeAllExcept()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public SolrClient::ping(): SolrPingResponse
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrClient::ping()\*\*\*\*
+**Приклад #1 Приклад використання** SolrClient::ping()\*\*\*\*
 
 ```php
 <?php

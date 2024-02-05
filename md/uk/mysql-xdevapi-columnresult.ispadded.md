@@ -33,7 +33,7 @@ public mysql_xdevapi\ColumnResult::isPadded(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::isPadded()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::isPadded()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ get_class_methods(object|string $object_or_class): array
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_class\_methods()\*\*\*\*
+**Приклад #1 Приклад використання** get\_class\_methods()\*\*\*\*
 
 ```php
 <?php

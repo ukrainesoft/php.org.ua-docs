@@ -47,7 +47,7 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 `flags`
 
-Одна из констант\*\*`PGSQL_CONV_OPTS`\*\* **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** \*\*`PGSQL_DML_ASYNC`**или**`PGSQL_DML_STRING`\*\*або їх комбінація. Якщо `flags` містить **`PGSQL_DML_STRING`**, функція поверне рядок. Якщо встановлено **`PGSQL_DML_NO_CONV`**или**`PGSQL_DML_ESCAPE`**, то функция[pg\_convert()](function.pg-convert.md) внутрішньо не викликається.
+Одна из констант\*\*`PGSQL_CONV_OPTS`\*\* **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** \*\*`PGSQL_DML_ASYNC`** або **`PGSQL_DML_STRING`\*\*або їх комбінація. Якщо `flags` містить **`PGSQL_DML_STRING`**, функція поверне рядок. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функция[pg\_convert()](function.pg-convert.md) внутрішньо не викликається.
 
 ### Значення, що повертаються
 
@@ -61,7 +61,7 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_update()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_update()\*\*\*\*
 
 ```php
 <?php

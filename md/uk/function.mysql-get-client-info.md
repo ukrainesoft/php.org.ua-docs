@@ -38,7 +38,7 @@ mysql_get_client_info(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_get\_client\_info()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_get\_client\_info()\*\*\*\*
 
 ```php
 <?php

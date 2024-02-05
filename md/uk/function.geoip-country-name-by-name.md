@@ -33,7 +33,7 @@ geoip_country_name_by_name(string $hostname): string
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_country\_name\_by\_name()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_country\_name\_by\_name()\*\*\*\*
 
 Цей приклад виведе розташування хоста example.com.
 

@@ -37,7 +37,7 @@ public SQLite3::enableExceptions(bool $enable = false): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3::enableExceptions()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3::enableExceptions()\*\*\*\*
 
 ```php
 <?php

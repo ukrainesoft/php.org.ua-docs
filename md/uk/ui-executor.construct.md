@@ -15,11 +15,11 @@ UI\\Executor::\_\_construct — Створити новий об'єкт Executor
 
 ### Опис
 
-public**UI\\Executor::\_\_construct**()
+public **UI\\Executor::\_\_construct**()
 
-public**UI\\Executor::\_\_construct**(int`$microseconds`) .
+public **UI\\Executor::\_\_construct**(int`$microseconds`) .
 
-public**UI\\Executor::\_\_construct**(int`$seconds`, int`$microseconds`) .
+public **UI\\Executor::\_\_construct**(int`$seconds`, int`$microseconds`) .
 
 Створює виконавець із заданим інтервалом, не запускатиметься доти, доки не буде введений основний цикл
 

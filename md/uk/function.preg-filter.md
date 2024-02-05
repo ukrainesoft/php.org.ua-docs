@@ -37,7 +37,7 @@ preg_filter(    string|array $pattern,    string|array $replacement,  
 
 ### Приклади
 
-**Пример #1 Пример для сравнения функций**preg\_filter()**и[preg\_replace()](function.preg-replace.md)**
+**Приклад #1 Приклад для сравнения функций**preg\_filter()**и[preg\_replace()](function.preg-replace.md)**
 
 ```php
 <?php

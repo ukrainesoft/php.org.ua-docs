@@ -15,7 +15,7 @@ ReflectionExtension::\_\_construct — Створює об'єкт класу Ref
 
 ### Опис
 
-public**ReflectionExtension::\_\_construct**(string`$name`) .
+public **ReflectionExtension::\_\_construct**(string`$name`) .
 
 Створює об'єкт (object) класу [ReflectionExtension](class.reflectionextension.md)
 
@@ -31,7 +31,7 @@ public**ReflectionExtension::\_\_construct**(string`$name`) .
 
 ### Приклади
 
-**Пример #1 Пример использования[ReflectionExtension](class.reflectionextension.md)**
+**Приклад #1 Приклад использования[ReflectionExtension](class.reflectionextension.md)**
 
 ```php
 <?php

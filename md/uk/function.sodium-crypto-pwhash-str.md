@@ -29,11 +29,11 @@ string; Пароль, для якого генеруватиметься хеш.
 
 `opslimit`
 
-Задає обмеження використання процесорного часу. Чим більше число - тим більше навантаження на процесор при генерації ключа. Також можна використовувати певні константи для цього параметра (перераховані у порядку посилення захищеності та споживання ЦПУ): **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE`**и**`SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE`**
+Задає обмеження використання процесорного часу. Чим більше число - тим більше навантаження на процесор при генерації ключа. Також можна використовувати певні константи для цього параметра (перераховані у порядку посилення захищеності та споживання ЦПУ): **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE`** і **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE`**
 
 `memlimit`
 
-Задає обмеження використання пам'яті в байтах. Можна використовувати певні константи для цього параметра (перераховані в порядку посилення захищеності та споживання пам'яті): **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE`**и**`SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE`**. Має сенс використовувати однакові рівні захищеності в memlimit та opslimit.
+Задає обмеження використання пам'яті в байтах. Можна використовувати певні константи для цього параметра (перераховані в порядку посилення захищеності та споживання пам'яті): **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE`** і **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE`**. Має сенс використовувати однакові рівні захищеності в memlimit та opslimit.
 
 ### Значення, що повертаються
 
@@ -43,7 +43,7 @@ string; Пароль, для якого генеруватиметься хеш.
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_pwhash\_str()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_pwhash\_str()\*\*\*\*
 
 ```php
 <?php

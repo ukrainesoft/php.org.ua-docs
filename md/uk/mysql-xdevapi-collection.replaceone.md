@@ -39,7 +39,7 @@ public mysql_xdevapi\Collection::replaceOne(string $id, string $doc): mysql_xdev
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::replaceOne()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::replaceOne()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +54,7 @@ $collection = $schema->createCollection("people");
 $result = $collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
 
 // Обычно _id известен другими способами,
-// но для этого примера давайте извлечём сгенерированный идентификатор и используем его
+// но для этого Приклада давайте извлечём сгенерированный идентификатор и используем его
 $ids       = $result->getGeneratedIds();
 $alfred_id = $ids[0];
 

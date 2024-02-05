@@ -35,7 +35,7 @@ oci_fetch(resource $statement): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_fetch()\*\* з певними змінними\*\*
+**Приклад #1 Приклад використання** oci\_fetch()\*\* з певними змінними\*\*
 
 ```php
 <?php
@@ -70,7 +70,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #2 Пример использования**oci\_fetch()**с[oci\_result()](function.oci-result.md)**
+**Приклад #2 Приклад використання** oci\_fetch()**с[oci\_result()](function.oci-result.md)**
 
 ```php
 <?php

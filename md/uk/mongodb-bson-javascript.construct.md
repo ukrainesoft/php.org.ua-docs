@@ -43,7 +43,7 @@ final public MongoDB\BSON\Javascript::__construct(string $code, array|object|nul
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Javascript::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Javascript::\_\_construct()\*\*\*\*
 
 ```php
 <?php

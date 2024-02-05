@@ -38,7 +38,7 @@ $ . /usr/local/bin/oraenv
 $ . /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
 ```
 
-Деякі оболонки вимагають, щоб у php.ini параметр variables\_order содержал литеру`E`, например:
+Деякі оболонки вимагають, щоб у php.ini параметр variables\_order содержал литеру`E`, наПриклад:
 
 ```
 variables_order = "EGPCS"

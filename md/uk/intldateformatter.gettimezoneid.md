@@ -43,7 +43,7 @@ datefmt_get_timezone_id(IntlDateFormatter $formatter): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_get\_timezone\_id()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_get\_timezone\_id()\*\*\*\*
 
 ```php
 <?php

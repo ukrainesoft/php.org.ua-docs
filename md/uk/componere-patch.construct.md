@@ -15,9 +15,9 @@ Componere\\Patch::\_\_construct - Конструктор класу Patch
 
 ### Опис
 
-public**Componere\\Patch::\_\_construct**(object`$instance`) .
+public **Componere\\Patch::\_\_construct**(object`$instance`) .
 
-public**Componere\\Patch::\_\_construct**(object`$instance`, array`$interfaces`) .
+public **Componere\\Patch::\_\_construct**(object`$instance`, array`$interfaces`) .
 
 ### Список параметрів
 

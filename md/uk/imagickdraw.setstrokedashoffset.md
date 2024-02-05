@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeDashOffset(float $dash_offset): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeDashOffset()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeDashOffset()\*\*\*\*
 
 ```php
 <?php

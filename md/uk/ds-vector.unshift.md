@@ -37,7 +37,7 @@ public Ds\Vector::unshift(mixed $values = ?): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::unshift()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::unshift()\*\*\*\*
 
 ```php
 <?php

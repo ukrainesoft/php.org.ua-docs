@@ -303,7 +303,7 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::FIELD_DAY_OF_YEAR`**
 
-Поле календар для номера дня в році. Для Грегоріанського календаря знаходиться в діапазоні від до\*\*`365`**или**`366`\*\*
+Поле календар для номера дня в році. Для Грегоріанського календаря знаходиться в діапазоні від до\*\*`365`** або **`366`\*\*
 
 **`IntlCalendar::FIELD_DAY_OF_WEEK`**
 
@@ -367,7 +367,7 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::FIELD_MILLISECONDS_IN_DAY`**
 
-Поле календаря, що охоплює **`IntlCalendar::FIELD_HOUR_OF_DAY`** **`IntlCalendar::FIELD_MINUTE`** \*\*`IntlCalendar::FIELD_SECOND`**и**`IntlCalendar::FIELD_MILLISECOND`\*\*Находится в диапазоне от до`24 * 3600 * 1000 - 1`. Це не кількість мілісекунд, що минула з півночі, тому що в моменти переходу на літній/зимовий час матиме розриви.
+Поле календаря, що охоплює **`IntlCalendar::FIELD_HOUR_OF_DAY`** **`IntlCalendar::FIELD_MINUTE`** \*\*`IntlCalendar::FIELD_SECOND`** і **`IntlCalendar::FIELD_MILLISECOND`\*\*Находится в диапазоне от до`24 * 3600 * 1000 - 1`. Це не кількість мілісекунд, що минула з півночі, тому що в моменти переходу на літній/зимовий час матиме розриви.
 
 **`IntlCalendar::FIELD_IS_LEAP_MONTH`**
 

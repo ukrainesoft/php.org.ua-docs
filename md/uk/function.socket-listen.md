@@ -21,7 +21,7 @@ socket_listen(Socket $socket, int $backlog = 0): bool
 
 Після того, як сокет `socket` був створений за допомогою функції [socket\_create()](function.socket-create.md)и привязан к имени при помощи функции[socket\_bind()](function.socket-bind.md), йому можна вказати слухати вхідні з'єднання на сокеті `socket`
 
-Функция**socket\_listen()** застосовна тільки до сокетів типу **`SOCK_STREAM`**или**`SOCK_SEQPACKET`**
+Функция**socket\_listen()** застосовна тільки до сокетів типу **`SOCK_STREAM`** або **`SOCK_SEQPACKET`**
 
 ### Список параметрів
 

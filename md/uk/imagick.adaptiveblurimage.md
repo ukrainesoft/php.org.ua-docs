@@ -45,7 +45,7 @@ public Imagick::adaptiveBlurImage(float $radius, float $sigma, int $channel = Im
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::adaptiveBlurImage()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::adaptiveBlurImage()\*\* :\*\*
 
 Адаптивне розмиття зображення та відображення його у браузері.
 

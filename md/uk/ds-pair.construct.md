@@ -15,7 +15,7 @@ Ds\\Pair::\_\_construct - Створює екземпляр класу
 
 ### Опис
 
-public**Ds\\Pair::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$key` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$value`
+public **Ds\\Pair::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$key` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$value`
 
 Створення екземпляр класу із заданим ключем `key`и значением`value`
 

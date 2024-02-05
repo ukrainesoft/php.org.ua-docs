@@ -33,7 +33,7 @@ db2_escape_string(string $string_literal): string
 
 ### Приклади
 
-**Пример #1 Пример использования**db2\_escape\_string()\*\*\*\*
+**Приклад #1 Приклад використання** db2\_escape\_string()\*\*\*\*
 
 Результат виконання функції **db2\_escape\_string()**
 

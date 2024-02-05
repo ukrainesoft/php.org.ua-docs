@@ -57,7 +57,7 @@ imagecolorresolvealpha(    GdImage $image,    int $red,    int $gree
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecoloresolvealpha()**для получения цветов из изображения**
+**Приклад #1 Приклад використання** imagecoloresolvealpha()**для получения цветов из изображения**
 
 ```php
 <?php

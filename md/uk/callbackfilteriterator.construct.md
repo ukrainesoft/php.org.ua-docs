@@ -15,7 +15,7 @@ CallbackFilterIterator::\_\_construct — Створює ітератор, що 
 
 ### Опис
 
-public**CallbackFilterIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator` [callable](language.types.callable.md) `$callback`) .
+public **CallbackFilterIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator` [callable](language.types.callable.md) `$callback`) .
 
 Створює ітератор, що фільтрує, використовуючи функцію `callback` для відбору чи відхилення елементів.
 

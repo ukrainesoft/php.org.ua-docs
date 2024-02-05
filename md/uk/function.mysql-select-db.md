@@ -44,7 +44,7 @@ mysql_select_db(string $database_name, resource $link_identifier = NULL): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_select\_db()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_select\_db()\*\*\*\*
 
 ```php
 <?php

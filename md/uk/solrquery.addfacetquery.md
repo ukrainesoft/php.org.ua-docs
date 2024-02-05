@@ -33,7 +33,7 @@ public SolrQuery::addFacetQuery(string $facetQuery): SolrQuery
 
 ### Приклади
 
-**Пример #1 Пример использования[SolrQuery::addFacetField()](solrquery.addfacetfield.md)**
+**Приклад #1 Приклад использования[SolrQuery::addFacetField()](solrquery.addfacetfield.md)**
 
 ```php
 <?php

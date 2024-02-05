@@ -37,7 +37,7 @@ function_exists(string $function): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**function\_exists()\*\*\*\*
+**Приклад #1 Приклад використання** function\_exists()\*\*\*\*
 
 ```php
 <?php

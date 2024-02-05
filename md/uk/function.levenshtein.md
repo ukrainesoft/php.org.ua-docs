@@ -58,7 +58,7 @@ levenshtein(    string $string1,    string $string2,    int $inserti
 
 ### Приклади
 
-**Пример #1 Пример использования**levenshtein()\*\*\*\*
+**Приклад #1 Приклад використання** levenshtein()\*\*\*\*
 
 ```php
 <?php

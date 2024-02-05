@@ -31,7 +31,7 @@ public mysql_xdevapi\ColumnResult::getColumnLabel(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getColumnLabel()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::getColumnLabel()\*\*\*\*
 
 ```php
 <?php

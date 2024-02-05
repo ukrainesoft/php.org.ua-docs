@@ -15,13 +15,13 @@ CommonMark\\Node\\OrderedList::\_\_construct — Конструктор клас
 
 ### Опис
 
-public**CommonMark\\Node\\OrderedList::\_\_construct**()
+public **CommonMark\\Node\\OrderedList::\_\_construct**()
 
-public**CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`) .
+public **CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`) .
 
-public**CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`, int`$delimiter`) .
+public **CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`, int`$delimiter`) .
 
-public**CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`, int`$delimiter`, int`$start`) .
+public **CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`, int`$delimiter`, int`$start`) .
 
 **Увага**
 

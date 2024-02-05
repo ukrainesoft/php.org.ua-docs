@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadPreference::bsonSerialize(): stdClass
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з первинною перевагою читання\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з первинною перевагою читання\*\*
 
 ```php
 <?php
@@ -57,7 +57,7 @@ object(stdClass)#2 (1) {
 { "mode" : "primary" }
 ```
 
-**Пример #2 Пример использования**MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з вторинною перевагою читання та наборами тегів\*\*
+**Приклад #2 Приклад використання** MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з вторинною перевагою читання та наборами тегів\*\*
 
 ```php
 <?php
@@ -106,7 +106,7 @@ object(stdClass)#2 (2) {
 { "mode" : "secondary", "tags" : [ { "dc" : "ny" }, { "dc" : "sf", "use" : "reporting" }, {  } ] }
 ```
 
-**Пример #3 Пример использования**MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з вторинною перевагою читання та максимальним staleness\*\*
+**Приклад #3 Приклад використання** MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з вторинною перевагою читання та максимальним staleness\*\*
 
 ```php
 <?php

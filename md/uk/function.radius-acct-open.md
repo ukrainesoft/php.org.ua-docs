@@ -29,7 +29,7 @@ radius_acct_open(): resource
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_acct\_open()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_acct\_open()\*\*\*\*
 
 ```php
 <?php

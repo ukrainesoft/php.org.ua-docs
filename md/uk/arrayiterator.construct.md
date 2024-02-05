@@ -15,7 +15,7 @@ ArrayIterator::\_\_construct — Створює ArrayIterator
 
 ### Опис
 
-public**ArrayIterator::\_\_construct**(array|object`$array` \[\], int`$flags`
+public **ArrayIterator::\_\_construct**(array|object`$array` \[\], int`$flags`
 
 Створює [ArrayIterator](class.arrayiterator.md)типа object.
 

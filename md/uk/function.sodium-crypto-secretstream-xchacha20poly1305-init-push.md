@@ -36,7 +36,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_push(string $key): array
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push()\*\*\*\*
 
 ```php
 <?php

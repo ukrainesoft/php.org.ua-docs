@@ -15,7 +15,7 @@ DOMCdataSection::\_\_construct — Створює новий екземпляр 
 
 ### Опис
 
-public**DOMCdataSection::\_\_construct**(string`$data`) .
+public **DOMCdataSection::\_\_construct**(string`$data`) .
 
 Створює новий вузол CDATA. Працює як клас [DOMText](class.domtext.md)
 

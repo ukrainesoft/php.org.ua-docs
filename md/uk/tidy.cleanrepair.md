@@ -43,7 +43,7 @@ tidy_clean_repair(tidy $tidy): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::cleanrepair()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::cleanrepair()\*\*\*\*
 
 ```php
 <?php

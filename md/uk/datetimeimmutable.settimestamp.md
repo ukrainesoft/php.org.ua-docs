@@ -33,7 +33,7 @@ public DateTimeImmutable::setTimestamp(int $timestamp): DateTimeImmutable
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::setTimestamp()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::setTimestamp()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

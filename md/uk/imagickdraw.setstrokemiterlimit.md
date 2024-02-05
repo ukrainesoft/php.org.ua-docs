@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeMiterLimit(int $miterlimit): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeMiterLimit()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeMiterLimit()\*\*\*\*
 
 ```php
 <?php

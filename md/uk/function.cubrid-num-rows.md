@@ -41,7 +41,7 @@ cubrid_num_rows(resource $result): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_num\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_num\_rows()\*\*\*\*
 
 ```php
 <?php

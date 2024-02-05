@@ -66,7 +66,7 @@ public SplFileObject::fputcsv(    array $fields,    string $separator = 
 
 ### Приклади
 
-**Пример #1 Пример**SplFileObject::fputcsv()\*\*\*\*
+**Приклад #1 Приклад**SplFileObject::fputcsv()\*\*\*\*
 
 ```php
 <?php

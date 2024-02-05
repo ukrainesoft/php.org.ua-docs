@@ -35,7 +35,7 @@ public Imagick::sharpenImage(float $radius, float $sigma, int $channel = Imagick
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::sharpenImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::sharpenImage()\*\*\*\*
 
 ```php
 <?php

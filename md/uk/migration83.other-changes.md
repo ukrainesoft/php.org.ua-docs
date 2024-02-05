@@ -35,7 +35,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 #### Командний рядок (CLI)
 
-Потоки\*\*`STDOUT`\*\* **`STDERR`**и**`STDIN`** більше не закриваються при знищенні ресурсів, що зазвичай трапляється при завершенні роботи CLI. Однак, все ще можна явно закрити ці потоки через функцію [fclose()](function.fclose.md) та схожі.
+Потоки\*\*`STDOUT`\*\* **`STDERR`** і **`STDIN`** більше не закриваються при знищенні ресурсів, що зазвичай трапляється при завершенні роботи CLI. Однак, все ще можна явно закрити ці потоки через функцію [fclose()](function.fclose.md) та схожі.
 
 ### Змінені функції
 
@@ -66,7 +66,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 #### Модуль Curl
 
-Функция[curl\_getinfo()](function.curl-getinfo.md) тепер підтримує дві нові константи: **`CURLINFO_CAPATH`**и**`CURLINFO_CAINFO`**Если параметр option принимает значение**`null`**, будуть представлені два наступні додаткові ключі: `capath`и`cainfo`
+Функция[curl\_getinfo()](function.curl-getinfo.md) тепер підтримує дві нові константи: **`CURLINFO_CAPATH`** і **`CURLINFO_CAINFO`**Если параметр option принимает значение**`null`**, будуть представлені два наступні додаткові ключі: `capath`и`cainfo`
 
 #### Модуль DOM
 
@@ -90,7 +90,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 #### Модуль MBString
 
-Функції [mb\_strtolower()](function.mb-strtolower.md) і [mb\_convert\_case()](function.mb-convert-case.md) дотримуються правил умовного регістру для грецької літери сигма (? → σ). У функції [mb\_convert\_case()](function.mb-convert-case.md) умовний регістр застосовується лише для режимів **`MB_CASE_LOWER`**и**`MB_CASE_TITLE`**, але не для **`MB_CASE_LOWER_SIMPLE`**и**`MB_CASE_TITLE_SIMPLE`**
+Функції [mb\_strtolower()](function.mb-strtolower.md) і [mb\_convert\_case()](function.mb-convert-case.md) дотримуються правил умовного регістру для грецької літери сигма (? → σ). У функції [mb\_convert\_case()](function.mb-convert-case.md) умовний регістр застосовується лише для режимів **`MB_CASE_LOWER`** і **`MB_CASE_TITLE`**, але не для **`MB_CASE_LOWER_SIMPLE`** і **`MB_CASE_TITLE_SIMPLE`**
 
 Функция[mb\_decode\_mimeheader()](function.mb-decode-mimeheader.md) інтерпретує підкреслення в QPrint-кодованому MIME-кодуванні слів так, як вимагає стандарт RFC 2047; вони перетворюються на прогалини. Підкреслення повинні бути закодовані в `«=5F»` з таких MIME-кодованих слів.
 

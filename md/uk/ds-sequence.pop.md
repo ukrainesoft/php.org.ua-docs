@@ -35,7 +35,7 @@ abstract public Ds\Sequence::pop(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::pop()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::pop()\*\*\*\*
 
 ```php
 <?php

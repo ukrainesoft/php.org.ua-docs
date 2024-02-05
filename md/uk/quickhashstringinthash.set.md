@@ -37,7 +37,7 @@ public QuickHashStringIntHash::set(string $key, int $value): int
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashStringIntHash::set()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashStringIntHash::set()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ Fiber::\_\_construct - Створює новий екземпляр Fiber
 
 ### Опис
 
-public**Fiber::\_\_construct** [callable](language.types.callable.md) `$callback`) .
+public **Fiber::\_\_construct** [callable](language.types.callable.md) `$callback`) .
 
 ### Список параметрів
 

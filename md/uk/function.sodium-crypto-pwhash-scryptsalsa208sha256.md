@@ -39,7 +39,7 @@ sodium_crypto_pwhash_scryptsalsa208sha256(    int $length,    string $pa
 
 `opslimit`
 
-Надає максимальну кількість обчислень для виконання. Збільшення цього числа призведе до того, що функції потрібно більше циклів ЦП для обчислення ключа. Доступні деякі константи для встановлення межі операцій на відповідні значення залежно від передбачуваного використання у порядку розміру: **`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_INTERACTIVE`**и**`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_SENSITIVE`**
+Надає максимальну кількість обчислень для виконання. Збільшення цього числа призведе до того, що функції потрібно більше циклів ЦП для обчислення ключа. Доступні деякі константи для встановлення межі операцій на відповідні значення залежно від передбачуваного використання у порядку розміру: **`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_INTERACTIVE`** і **`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_SENSITIVE`**
 
 `memlimit`
 

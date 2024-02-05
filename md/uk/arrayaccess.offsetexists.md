@@ -43,7 +43,7 @@ public ArrayAccess::offsetExists(mixed $offset): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayAccess::offsetExists()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayAccess::offsetExists()\*\*\*\*
 
 ```php
 <?php

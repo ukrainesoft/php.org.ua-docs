@@ -39,7 +39,7 @@ collator_get_locale(Collator $object, int $type): string|false
 
 `type`
 
-Ви можете вибирати між коректним та фактичним мовним стандартом ( \*\*`Locale::VALID_LOCALE`**и**`Locale::ACTUAL_LOCALE`\*\*відповідно).
+Ви можете вибирати між коректним та фактичним мовним стандартом ( \*\*`Locale::VALID_LOCALE`** і **`Locale::ACTUAL_LOCALE`\*\*відповідно).
 
 ### Значення, що повертаються
 
@@ -47,7 +47,7 @@ collator_get_locale(Collator $object, int $type): string|false
 
 ### Приклади
 
-**Пример #1**collator\_get\_locale()**example**
+**Приклад #1**collator\_get\_locale()**example**
 
 ```php
 <?php

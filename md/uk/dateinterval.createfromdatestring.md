@@ -53,7 +53,7 @@ date_interval_create_from_date_string(string $datetime): DateInterval|false
 
 ```php
 <?php
-// Интервалы в каждом примере эквивалентны.
+// Интервалы в каждом Прикладе эквивалентны.
 $i = new DateInterval('P1D');
 $i = DateInterval::createFromDateString('1 day');
 

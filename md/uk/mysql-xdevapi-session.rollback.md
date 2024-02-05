@@ -31,7 +31,7 @@ public mysql_xdevapi\Session::rollback(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::rollback()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::rollback()\*\*\*\*
 
 ```php
 <?php

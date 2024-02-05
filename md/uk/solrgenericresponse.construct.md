@@ -15,7 +15,7 @@ SolrGenericResponse::\_\_construct — Конструктор
 
 ### Опис
 
-public**SolrGenericResponse::\_\_construct**()
+public **SolrGenericResponse::\_\_construct**()
 
 Конструктор
 

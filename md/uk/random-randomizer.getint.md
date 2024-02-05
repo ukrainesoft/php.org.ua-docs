@@ -44,7 +44,7 @@ public Random\Randomizer::getInt(int $min, int $max): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::getInt()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::getInt()\*\*\*\*
 
 ```php
 <?php

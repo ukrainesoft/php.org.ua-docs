@@ -43,7 +43,7 @@ curl_share_close(CurlShareHandle $share_handle): void
 
 ### Приклади
 
-**Пример #1 Пример использования[curl\_share\_setopt()](function.curl-share-setopt.md)**
+**Приклад #1 Приклад использования[curl\_share\_setopt()](function.curl-share-setopt.md)**
 
 У цьому прикладі ми створюємо роздільний обробник cURL, додаємо в нього два звичайні обробники і запускаємо їх. Вони будуть використовувати одні й ті ж куки.
 

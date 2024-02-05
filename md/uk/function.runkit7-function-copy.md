@@ -35,7 +35,7 @@ runkit7_function_copy(string $source_name, string $target_name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**runkit7\_function\_copy()\*\*\*\*
+**Приклад #1 Приклад використання** runkit7\_function\_copy()\*\*\*\*
 
 ```php
 <?php

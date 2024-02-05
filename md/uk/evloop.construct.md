@@ -15,7 +15,7 @@ EvLoop::\_\_construct - Конструктор об'єкта циклу поді
 
 ### Опис
 
-public**EvLoop::\_\_construct**  
+public **EvLoop::\_\_construct**  
 int`$flags` =  
 [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` =NULL ,  
 float`$io_interval` =  

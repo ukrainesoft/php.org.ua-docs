@@ -33,7 +33,7 @@ public Ds\Map::hasValue(mixed $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::hasValue()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::hasValue()\*\*\*\*
 
 ```php
 <?php

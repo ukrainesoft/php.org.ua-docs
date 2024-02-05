@@ -33,7 +33,7 @@ public Ds\Queue::push(mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Queue::push()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Queue::push()\*\*\*\*
 
 ```php
 <?php

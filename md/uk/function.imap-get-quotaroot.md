@@ -45,7 +45,7 @@ imap_get_quotaroot(IMAP\Connection $imap, string $mailbox): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_get\_quotaroot()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_get\_quotaroot()\*\*\*\*
 
 ```php
 <?php

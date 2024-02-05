@@ -15,7 +15,7 @@ RecursiveFilterIterator::\_\_construct — Створює об'єкт RecursiveF
 
 ### Опис
 
-public**RecursiveFilterIterator::\_\_construct** [RecursiveIterator](class.recursiveiterator.md) `$iterator`) .
+public **RecursiveFilterIterator::\_\_construct** [RecursiveIterator](class.recursiveiterator.md) `$iterator`) .
 
 Створює ітератор [RecursiveFilterIterator](class.recursivefilteriterator.md)на основе[RecursiveIterator](class.recursiveiterator.md)
 
@@ -27,7 +27,7 @@ public**RecursiveFilterIterator::\_\_construct** [RecursiveIterator](class.recur
 
 ### Приклади
 
-**Пример #1 Пример использования**RecursiveFilterIterator()\*\*\*\*
+**Приклад #1 Приклад використання** RecursiveFilterIterator()\*\*\*\*
 
 ```php
 <?php

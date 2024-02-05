@@ -25,7 +25,7 @@ public GearmanClient::addOptions(int $option): bool
 
 `option`
 
-Опції додавання. Одна з наступних констант або їх комбінація за допомогою бінарного оператора OR (|): **`GEARMAN_CLIENT_GENERATE_UNIQUE`** **`GEARMAN_CLIENT_NON_BLOCKING`** **`GEARMAN_CLIENT_UNBUFFERED_RESULT`**или**`GEARMAN_CLIENT_FREE_TASKS`**
+Опції додавання. Одна з наступних констант або їх комбінація за допомогою бінарного оператора OR (|): **`GEARMAN_CLIENT_GENERATE_UNIQUE`** **`GEARMAN_CLIENT_NON_BLOCKING`** **`GEARMAN_CLIENT_UNBUFFERED_RESULT`** або **`GEARMAN_CLIENT_FREE_TASKS`**
 
 ### Значення, що повертаються
 

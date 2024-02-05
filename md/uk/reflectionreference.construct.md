@@ -15,7 +15,7 @@ ReflectionReference::\_\_construct - Закритий конструктор, щ
 
 ### Опис
 
-private**ReflectionReference::\_\_construct**()
+private **ReflectionReference::\_\_construct**()
 
 ### Список параметрів
 

@@ -65,7 +65,7 @@ ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,  
 
 ### Приклади
 
-**Пример #1 Пример использования**ldap\_parse\_result()\*\*\*\*
+**Приклад #1 Приклад використання** ldap\_parse\_result()\*\*\*\*
 
 ```php
 <?php

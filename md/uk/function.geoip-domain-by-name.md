@@ -35,7 +35,7 @@ geoip_domain_by_name(string $hostname): string
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_domain\_by\_name()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_domain\_by\_name()\*\*\*\*
 
 Знайдемо домен, пов'язаний із IP 61.106.139.1.
 

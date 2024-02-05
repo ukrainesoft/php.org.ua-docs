@@ -49,7 +49,7 @@ public DOMParentNode::replaceChildren(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMParentNode::replaceChildren()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMParentNode::replaceChildren()\*\*\*\*
 
 ```php
 <?php

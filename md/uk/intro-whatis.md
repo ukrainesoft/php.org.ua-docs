@@ -19,7 +19,7 @@ PHP (рекурсивний акронім словосполучення `PHP: 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Пример</title>
+        <title>Приклад</title>
     </head>
     <body>
 

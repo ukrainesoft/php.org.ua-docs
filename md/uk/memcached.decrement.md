@@ -45,7 +45,7 @@ public Memcached::decrement(    string $key,    int $offset = 1,    
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::decrement()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::decrement()\*\*\*\*
 
 ```php
 <?php

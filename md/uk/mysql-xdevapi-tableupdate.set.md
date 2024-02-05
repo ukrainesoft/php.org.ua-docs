@@ -37,7 +37,7 @@ public mysql_xdevapi\TableUpdate::set(string $table_field, string $expression_or
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::set()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableUpdate::set()\*\*\*\*
 
 ```php
 <?php

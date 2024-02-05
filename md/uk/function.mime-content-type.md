@@ -37,7 +37,7 @@ mime_content_type(resource|string $filename): string|false
 
 ### Приклади
 
-**Пример #1 Пример**mime\_content\_type()\*\*\*\*
+**Приклад #1 Приклад**mime\_content\_type()\*\*\*\*
 
 ```php
 <?php

@@ -29,7 +29,7 @@ final public MongoDB\BSON\Regex::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Regex::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Regex::\_\_toString()\*\*\*\*
 
 ```php
 <?php

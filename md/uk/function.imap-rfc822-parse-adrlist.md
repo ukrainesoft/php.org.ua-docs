@@ -42,7 +42,7 @@ imap_rfc822_parse_adrlist(string $string, string $default_hostname): array
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_rfc822\_parse\_adrlist()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_rfc822\_parse\_adrlist()\*\*\*\*
 
 ```php
 <?php

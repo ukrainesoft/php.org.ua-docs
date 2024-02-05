@@ -33,7 +33,7 @@ public ImagickPixel::getColorValue(int $color): float
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getColorValue()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::getColorValue()\*\*\*\*
 
 ```php
 <?php

@@ -50,7 +50,7 @@ public ReflectionProperty::setValue(mixed $value): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::setValue()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::setValue()\*\*\*\*
 
 ```php
 <?php

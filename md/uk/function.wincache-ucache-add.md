@@ -55,7 +55,7 @@ wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ucache\_add()**с`key` у вигляді рядка**
+**Приклад #1 Приклад використання** wincache\_ucache\_add()**с`key` у вигляді рядка**
 
 ```php
 <?php
@@ -74,7 +74,7 @@ bool(false)
 string(3) "BAR"
 ```
 
-**Пример #2 Пример использования**wincache\_ucache\_add()**с`key` у вигляді масиву**
+**Приклад #2 Приклад використання** wincache\_ucache\_add()**с`key` у вигляді масиву**
 
 ```php
 <?php

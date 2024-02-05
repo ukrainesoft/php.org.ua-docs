@@ -15,7 +15,7 @@ SVMModel::\_\_construct - Конструктор класу SVMModel
 
 ### Опис
 
-public**SVMModel::\_\_construct**(string`$filename`
+public **SVMModel::\_\_construct**(string`$filename`
 
 Створює об'єкт класу SVMModel. Зазвичай моделі створюються методом SVM:: train, але збережені моделі можна відновити безпосередньо.
 

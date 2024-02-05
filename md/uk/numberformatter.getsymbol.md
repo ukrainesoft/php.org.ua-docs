@@ -47,7 +47,7 @@ numfmt_get_symbol(NumberFormatter $formatter, int $symbol): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_get\_symbol()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_get\_symbol()\*\*\*\*
 
 ```php
 <?php

@@ -53,7 +53,7 @@ public IntlCalendar::setDateTime(    int $year,    int $month,    in
 
 ### Приклади
 
-**Пример #1 Пример использования метода**IntlCalendar::setDateTime()\*\*\*\*
+**Приклад #1 Приклад использования метода**IntlCalendar::setDateTime()\*\*\*\*
 
 ```php
 <?php

@@ -15,9 +15,9 @@ CommonMark\\Node\\Heading::\_\_construct - Конструктор класу Hea
 
 ### Опис
 
-public**CommonMark\\Node\\Heading::\_\_construct**()
+public **CommonMark\\Node\\Heading::\_\_construct**()
 
-public**CommonMark\\Node\\Heading::\_\_construct**(int`$level`) .
+public **CommonMark\\Node\\Heading::\_\_construct**(int`$level`) .
 
 **Увага**
 

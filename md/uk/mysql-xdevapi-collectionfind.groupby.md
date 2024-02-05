@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionFind::groupBy(string $sort_expr): mysql_xdevapi\C
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\CollectionFind::groupBy()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\CollectionFind::groupBy()\*\*\*\*
 
 ```php
 <?php

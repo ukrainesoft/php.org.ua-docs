@@ -43,7 +43,7 @@ public Random\Randomizer::shuffleArray(array $array): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::shuffleArray()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::shuffleArray()\*\*\*\*
 
 ```php
 <?php

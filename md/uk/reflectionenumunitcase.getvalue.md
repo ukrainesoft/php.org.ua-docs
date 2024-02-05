@@ -31,7 +31,7 @@ public ReflectionEnumUnitCase::getValue(): UnitEnum
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionEnum::getValue()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionEnum::getValue()\*\*\*\*
 
 ```php
 <?php

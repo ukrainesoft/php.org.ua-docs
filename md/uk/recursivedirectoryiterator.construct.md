@@ -15,7 +15,7 @@ RecursiveDirectoryIterator::\_\_construct — Конструктор класу 
 
 ### Опис
 
-public**RecursiveDirectoryIterator::\_\_construct**(string`$directory`, int`$flags`\= FilesystemIterator::KEY\_AS\_PATHNAME | FilesystemIterator::CURRENT\_AS\_FILEINFO)
+public **RecursiveDirectoryIterator::\_\_construct**(string`$directory`, int`$flags`\= FilesystemIterator::KEY\_AS\_PATHNAME | FilesystemIterator::CURRENT\_AS\_FILEINFO)
 
 Створює новий об'єкт класу **RecursiveDirectoryIterator()**, використовуючи заданий шлях `directory`
 
@@ -43,7 +43,7 @@ public**RecursiveDirectoryIterator::\_\_construct**(string`$directory`, int`$fla
 
 ### Приклади
 
-**Пример #1 Пример использования[RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)**
+**Приклад #1 Приклад использования[RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)**
 
 ```php
 <?php

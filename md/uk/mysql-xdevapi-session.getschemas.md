@@ -31,7 +31,7 @@ public mysql_xdevapi\Session::getSchemas(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::getSchemas()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::getSchemas()\*\*\*\*
 
 ```php
 <?php

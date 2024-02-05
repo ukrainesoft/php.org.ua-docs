@@ -31,7 +31,7 @@ final public MongoDB\BSON\Binary::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Binary::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Binary::\_\_toString()\*\*\*\*
 
 ```php
 <?php

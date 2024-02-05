@@ -60,7 +60,7 @@ imap_status(IMAP\Connection $imap, string $mailbox, int $flags): stdClass|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_status()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_status()\*\*\*\*
 
 ```php
 <?php

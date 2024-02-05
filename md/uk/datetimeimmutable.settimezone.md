@@ -33,7 +33,7 @@ public DateTimeImmutable::setTimezone(DateTimeZone $timezone): DateTimeImmutable
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::setTimeZone()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::setTimeZone()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

@@ -31,7 +31,7 @@ public Imagick::uniqueImageColors(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::uniqueImageColors()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::uniqueImageColors()\*\*\*\*
 
 ```php
 <?php

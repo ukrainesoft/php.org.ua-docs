@@ -41,7 +41,7 @@ get_declared_classes(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_declared\_classes()\*\*\*\*
+**Приклад #1 Приклад використання** get\_declared\_classes()\*\*\*\*
 
 ```php
 <?php

@@ -25,7 +25,7 @@ sodium_crypto_box_publickey(string $key_pair): string
 
 `key_pair`
 
-Ключевая пара, созданная, например,[sodium\_crypto\_box\_keypair()](function.sodium-crypto-box-keypair.md) або [sodium\_crypto\_box\_seed\_keypair()](function.sodium-crypto-box-seed-keypair.md)
+Ключевая пара, созданная, наПриклад,[sodium\_crypto\_box\_keypair()](function.sodium-crypto-box-keypair.md) або [sodium\_crypto\_box\_seed\_keypair()](function.sodium-crypto-box-seed-keypair.md)
 
 ### Значення, що повертаються
 

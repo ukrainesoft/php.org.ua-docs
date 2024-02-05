@@ -31,7 +31,7 @@ public Ds\PriorityQueue::capacity(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\PriorityQueue::capacity()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\PriorityQueue::capacity()\*\*\*\*
 
 ```php
 <?php

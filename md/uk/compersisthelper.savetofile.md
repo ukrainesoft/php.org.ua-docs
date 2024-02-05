@@ -41,7 +41,7 @@ public COMPersistHelper::SaveToFile(?string $filename, bool $remember = true): b
 
 ### Приклади
 
-**Пример #1 Использование**COMPersistHelper::saveToFile()\*\*\*\*
+**Приклад #1 Использование**COMPersistHelper::saveToFile()\*\*\*\*
 
 ```php
 <?php

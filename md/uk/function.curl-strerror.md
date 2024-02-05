@@ -33,7 +33,7 @@ curl_strerror(int $error_code): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования[curl\_errno()](function.curl-errno.md)**
+**Приклад #1 Приклад использования[curl\_errno()](function.curl-errno.md)**
 
 ```php
 <?php

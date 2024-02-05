@@ -37,7 +37,7 @@ public ArrayObject::append(mixed $value): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::append()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::append()\*\*\*\*
 
 ```php
 <?php

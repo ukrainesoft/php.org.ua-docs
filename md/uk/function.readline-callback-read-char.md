@@ -31,7 +31,7 @@ readline_callback_read_char(): void
 
 ### Приклади
 
-Пример использования интерфейса callback-функций readline смотрите на странице описания функции[readline\_callback\_handler\_install()](function.readline-callback-handler-install.md)
+Приклад использования интерфейса callback-функций readline смотрите на странице описания функции[readline\_callback\_handler\_install()](function.readline-callback-handler-install.md)
 
 ### Дивіться також
 

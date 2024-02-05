@@ -45,7 +45,7 @@ session_destroy(): bool
 
 ### Приклади
 
-**Пример #1 Уничтожение сессии с помощью[$\_SESSION](reserved.variables.session.md)**
+**Приклад #1 Уничтожение сессии с помощью[$\_SESSION](reserved.variables.session.md)**
 
 ```php
 <?php

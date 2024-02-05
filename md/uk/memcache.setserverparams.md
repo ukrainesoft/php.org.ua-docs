@@ -57,7 +57,7 @@ Memcache::setServerParams(    string $host,    int $port = 11211,   �
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::setServerParams()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::setServerParams()\*\*\*\*
 
 ```php
 <?php

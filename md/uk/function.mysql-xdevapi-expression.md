@@ -31,7 +31,7 @@ mysql_xdevapi\expression(string $expression): object
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Expression()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Expression()\*\*\*\*
 
 ```php
 <?php

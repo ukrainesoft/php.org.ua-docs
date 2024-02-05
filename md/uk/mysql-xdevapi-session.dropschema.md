@@ -35,7 +35,7 @@ public mysql_xdevapi\Session::dropSchema(string $schema_name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::dropSchema()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::dropSchema()\*\*\*\*
 
 ```php
 <?php

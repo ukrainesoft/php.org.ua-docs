@@ -35,7 +35,7 @@ oci_fetch_assoc(resource $statement): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_fetch\_assoc()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_fetch\_assoc()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickDraw::setFillAlpha(float $opacity): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFillAlpha()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFillAlpha()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ apache_get_modules(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**apache\_get\_modules()\*\*\*\*
+**Приклад #1 Приклад використання** apache\_get\_modules()\*\*\*\*
 
 ```php
 <?php

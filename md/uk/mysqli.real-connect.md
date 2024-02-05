@@ -109,7 +109,7 @@ mysqli_real_connect(    mysqli $mysql,    ?string $hostname = null,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::real\_connect()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::real\_connect()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

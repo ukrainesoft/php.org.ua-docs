@@ -71,7 +71,7 @@ final public MongoDB\Driver\WriteConcern::__construct(string|int $w, ?int $wtime
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcern::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteConcern::\_\_construct()\*\*\*\*
 
 ```php
 <?php

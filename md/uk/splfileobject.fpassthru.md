@@ -33,7 +33,7 @@ public SplFileObject::fpassthru(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fpassthru()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fpassthru()\*\*\*\*
 
 ```php
 <?php

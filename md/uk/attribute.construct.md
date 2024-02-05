@@ -15,7 +15,7 @@ Attribute::\_\_construct — Створює новий екземпляр Attrib
 
 ### Опис
 
-public**Attribute::\_\_construct**(int`$flags`\= Attribute::TARGET\_ALL)
+public **Attribute::\_\_construct**(int`$flags`\= Attribute::TARGET\_ALL)
 
 Створює новий екземпляр [Attribute](class.attribute.md)
 

@@ -64,7 +64,7 @@ mysqli_begin_transaction(mysqli $mysql, int $flags = 0, ?string $name = null): b
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::begin\_transaction()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::begin\_transaction()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

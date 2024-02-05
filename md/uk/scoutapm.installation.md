@@ -15,7 +15,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 $ sudo pecl install scoutapm
 ```
 
-Можливо, вам буде потрібно додати Scout в *php.ini*, например:
+Можливо, вам буде потрібно додати Scout в *php.ini*, наПриклад:
 
 ```
 extension=scoutapm.so

@@ -41,7 +41,7 @@ public Ds\PriorityQueue::allocate(int $capacity): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\PriorityQueue::allocate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\PriorityQueue::allocate()\*\*\*\*
 
 ```php
 <?php

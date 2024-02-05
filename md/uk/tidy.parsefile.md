@@ -63,7 +63,7 @@ tidy_parse_file(    string $filename,    array|string|null $config = nul
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::parseFile()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::parseFile()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ public DOMElement::replaceChildren(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::replaceChildren()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::replaceChildren()\*\*\*\*
 
 Заміна дочірніх вузлів на нові.
 

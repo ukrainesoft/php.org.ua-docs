@@ -31,7 +31,7 @@ public ReflectionUnionType::getTypes(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionUnionType::getTypes()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionUnionType::getTypes()\*\*\*\*
 
 ```php
 <?php

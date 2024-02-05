@@ -41,7 +41,7 @@ recode_file(string $request, resource $input, resource $output): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**recode\_file()\*\*\*\*
+**Приклад #1 Приклад використання** recode\_file()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public Ds\Deque::find(mixed $value): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::find()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::find()\*\*\*\*
 
 ```php
 <?php

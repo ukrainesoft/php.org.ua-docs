@@ -68,7 +68,7 @@ public SQLite3Stmt::bindValue(string|int $param, mixed $value, int $type = SQLIT
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3Stmt::bindValue()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3Stmt::bindValue()\*\*\*\*
 
 ```php
 <?php

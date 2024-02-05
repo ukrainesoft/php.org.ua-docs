@@ -29,7 +29,7 @@ final public MongoDB\BSON\UTCDateTime::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\UTCDateTime::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\UTCDateTime::\_\_toString()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public Ds\Vector::contains(mixed ...$values): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::contains()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::contains()\*\*\*\*
 
 ```php
 <?php

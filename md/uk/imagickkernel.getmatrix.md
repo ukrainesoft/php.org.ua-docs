@@ -31,7 +31,7 @@ public ImagickKernel::getMatrix(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickKernel::getMatrix()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickKernel::getMatrix()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ public
 
 ### Приклади
 
-**Пример #1 Пример использования**EventBufferEvent::connect()\*\*\*\*
+**Приклад #1 Приклад використання** EventBufferEvent::connect()\*\*\*\*
 
 ```php
 <?php

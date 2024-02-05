@@ -55,7 +55,7 @@ wincache_scache_info(bool $summaryonly = false): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_scache\_info()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_scache\_info()\*\*\*\*
 
 ```php
 <pre>

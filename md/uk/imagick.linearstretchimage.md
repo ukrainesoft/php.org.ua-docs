@@ -37,7 +37,7 @@ public Imagick::linearStretchImage(float $blackPoint, float $whitePoint): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::linearStretchImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::linearStretchImage()\*\*\*\*
 
 ```php
 <?php

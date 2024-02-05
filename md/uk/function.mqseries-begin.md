@@ -45,7 +45,7 @@ mqseries_begin(    resource $hconn,    array $beginOptions,    resou
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_begin()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_begin()\*\*\*\*
 
 ```php
 <?php

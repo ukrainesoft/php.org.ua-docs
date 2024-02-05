@@ -37,7 +37,7 @@ is_readable(string $filename): bool
 
 ### Приклади
 
-**Пример #1**is\_readable()**example**
+**Приклад #1**is\_readable()**example**
 
 ```php
 <?php

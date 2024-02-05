@@ -109,7 +109,7 @@ assert_callback(    string $file,    int $line,    string $assertion
 
 ### Приклади
 
-**Пример #1 Пример использования функции**assert()\*\*\*\*
+**Приклад #1 Приклад использования функции**assert()\*\*\*\*
 
 ```php
 <?php

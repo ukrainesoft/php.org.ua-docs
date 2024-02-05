@@ -31,7 +31,7 @@ public mysql_xdevapi\ColumnResult::getColumnName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getColumnName()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::getColumnName()\*\*\*\*
 
 ```php
 <?php

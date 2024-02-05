@@ -15,7 +15,7 @@ UI\\Controls\\Separator::\_\_construct — Створити новий об'єк
 
 ### Опис
 
-public**UI\\Controls\\Separator::\_\_construct**(int`$type`\= UI\\Controls\\Separator::Horizontal)
+public **UI\\Controls\\Separator::\_\_construct**(int`$type`\= UI\\Controls\\Separator::Horizontal)
 
 Створить новий об'єкт Separator заданого типу
 

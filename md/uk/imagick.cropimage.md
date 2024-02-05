@@ -49,7 +49,7 @@ public Imagick::cropImage(    int $width,    int $height,    int $x,
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::cropImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::cropImage()\*\*\*\*
 
 ```php
 <?php

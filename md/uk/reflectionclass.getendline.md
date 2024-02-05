@@ -31,7 +31,7 @@ public ReflectionClass::getEndLine(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getEndLine()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getEndLine()\*\*\*\*
 
 ```php
 <?php

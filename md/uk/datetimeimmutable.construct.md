@@ -19,7 +19,7 @@ DateTimeImmutable::\_\_construct -- date\_create\_immutable — Повертає
 
 Об'єктно-орієнтований стиль
 
-public**DateTimeImmutable::\_\_construct**(string`$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**) .
+public **DateTimeImmutable::\_\_construct**(string`$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**) .
 
 Процедурний стиль
 
@@ -64,7 +64,7 @@ date_create_immutable(string $datetime = "now", ?DateTimeZone $timezone = null):
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::\_\_construct()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

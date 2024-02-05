@@ -44,7 +44,7 @@ geoip_netspeedcell_by_name(string $hostname): string
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_netspeedcell\_by\_name()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_netspeedcell\_by\_name()\*\*\*\*
 
 Отримання швидкості підключення до example.com.
 

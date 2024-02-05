@@ -29,15 +29,15 @@ pg_set_error_context_visibility(PgSql\Connection $connection, int $visibility): 
 
 `visibility`
 
-Необхідна видимість: **`PGSQL_SHOW_CONTEXT_NEVER`** **`PGSQL_SHOW_CONTEXT_ERRORS`**или**`PGSQL_SHOW_CONTEXT_ALWAYS`**
+Необхідна видимість: **`PGSQL_SHOW_CONTEXT_NEVER`** **`PGSQL_SHOW_CONTEXT_ERRORS`** або **`PGSQL_SHOW_CONTEXT_ALWAYS`**
 
 ### Значення, що повертаються
 
-Функція повертає попередній рівень видимості: **`PGSQL_SHOW_CONTEXT_NEVER`** **`PGSQL_SHOW_CONTEXT_ERRORS`**или**`PGSQL_SHOW_CONTEXT_ALWAYS`**
+Функція повертає попередній рівень видимості: **`PGSQL_SHOW_CONTEXT_NEVER`** **`PGSQL_SHOW_CONTEXT_ERRORS`** або **`PGSQL_SHOW_CONTEXT_ALWAYS`**
 
 ### Приклади
 
-**Пример #1 Пример использования функции**pg\_set\_error\_context\_visibility()\*\*\*\*
+**Приклад #1 Приклад использования функции**pg\_set\_error\_context\_visibility()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ gzgets(resource $stream, ?int $length = null): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**gzgets()\*\*\*\*
+**Приклад #1 Приклад використання** gzgets()\*\*\*\*
 
 ```php
 <?php

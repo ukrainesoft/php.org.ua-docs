@@ -42,7 +42,7 @@ mysql_fetch_lengths(resource $result): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_fetch\_lengths()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_fetch\_lengths()\*\*\*\*
 
 ```php
 <?php

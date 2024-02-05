@@ -47,7 +47,7 @@ public Memcached::get(string $key, ?callable $cache_cb = null, int $get_flags = 
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::get()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::get()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +65,7 @@ var_dump($m->get('foo'));
 int(100)
 ```
 
-**Пример #2 Пример использования**Memcached::get()\*\*\*\*
+**Приклад #2 Приклад використання** Memcached::get()\*\*\*\*
 
 ```php
 <?php

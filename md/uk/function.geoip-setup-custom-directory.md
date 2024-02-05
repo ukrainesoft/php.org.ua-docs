@@ -33,7 +33,7 @@ geoip_setup_custom_directory(string $path): void
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_setup\_custom\_directory()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_setup\_custom\_directory()\*\*\*\*
 
 Змінимо шлях до бази даних GeoIP.
 

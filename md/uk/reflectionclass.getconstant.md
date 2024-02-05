@@ -33,7 +33,7 @@ public ReflectionClass::getConstant(string $name): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getConstant()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getConstant()\*\*\*\*
 
 ```php
 <?php

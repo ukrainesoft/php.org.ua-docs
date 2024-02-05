@@ -33,7 +33,7 @@ public mysql_xdevapi\TableDelete::bind(array $placeholder_values): mysql_xdevapi
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::bind()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableDelete::bind()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ is_callable(mixed $value, bool $syntax_only = false, string &$callable_name = nu
 
 ### Приклади
 
-**Пример #1 Пример использования**is\_callable()\*\*\*\*
+**Приклад #1 Приклад використання** is\_callable()\*\*\*\*
 
 ```php
 <?php
@@ -85,7 +85,7 @@ echo $callable_name, "\n";  //  someClass::someMethod
 ?>
 ```
 
-**Пример #2**is\_callable()\*\* та конструктори\*\*
+**Приклад #2**is\_callable()\*\* та конструктори\*\*
 
 Функция**is\_callable()** не рахує конструктори за callable.
 

@@ -31,7 +31,7 @@ public mysql_xdevapi\Table::getSession(): mysql_xdevapi\Session
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Table::getSession()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Table::getSession()\*\*\*\*
 
 ```php
 <?php

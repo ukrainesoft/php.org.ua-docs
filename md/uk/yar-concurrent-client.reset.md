@@ -27,7 +27,7 @@ public static Yar_Concurrent_Client::reset(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yar\_Concurrent\_Client::reset()\*\*\*\*
+**Приклад #1 Приклад використання** Yar\_Concurrent\_Client::reset()\*\*\*\*
 
 Висновок наведеного прикладу буде схожим на:
 

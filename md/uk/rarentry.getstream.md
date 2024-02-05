@@ -45,7 +45,7 @@ public RarEntry::getStream(string $password = ?): resource|false
 
 ### Приклади
 
-**Пример #1 Пример использования**RarEntry::getStream()\*\*\*\*
+**Приклад #1 Приклад використання** RarEntry::getStream()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ Swoole\\Lock::\_\_construct — Створює блокування пам'ят�
 
 ### Опис
 
-public**Swoole\\Lock::\_\_construct**(string`$type`\= ?, string`$file_lock_location`
+public **Swoole\\Lock::\_\_construct**(string`$type`\= ?, string`$file_lock_location`
 
 Блокування Swoole використовується для синхронізації даних між кількома операціями чи процесами.
 

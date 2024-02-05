@@ -33,7 +33,7 @@ public ImagickDraw::setFontWeight(int $font_weight): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFontWeight()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFontWeight()\*\*\*\*
 
 ```php
 <?php

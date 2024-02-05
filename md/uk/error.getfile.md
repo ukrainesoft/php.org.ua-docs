@@ -31,7 +31,7 @@ final public Error::getFile(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Error::getFile()\*\*\*\*
+**Приклад #1 Приклад використання** Error::getFile()\*\*\*\*
 
 ```php
 <?php

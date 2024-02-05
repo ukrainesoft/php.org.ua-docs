@@ -31,7 +31,7 @@ public mysql_xdevapi\Schema::getCollections(): array
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getCollections()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Schema::getCollections()\*\*\*\*
 
 ```php
 <?php

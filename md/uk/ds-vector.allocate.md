@@ -37,7 +37,7 @@ public Ds\Vector::allocate(int $capacity): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::allocate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::allocate()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionReference::getId(): string
 
 ### Приклади
 
-**Пример #1 Простое использование**ReflectionReference::getId()\*\*\*\*
+**Приклад #1 Простое использование**ReflectionReference::getId()\*\*\*\*
 
 ```php
 <?php

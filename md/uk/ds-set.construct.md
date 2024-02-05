@@ -15,7 +15,7 @@ Ds\\Set::\_\_construct — Створює новий екземпляр клас
 
 ### Опис
 
-public**Ds\\Set::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values` \[\]) .
+public **Ds\\Set::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values` \[\]) .
 
 Створює новий екземпляр класу, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
@@ -27,7 +27,7 @@ public**Ds\\Set::\_\_construct** [mixed](language.types.declarations.md#language
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Set::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Set::\_\_construct()\*\*\*\*
 
 ```php
 <?php

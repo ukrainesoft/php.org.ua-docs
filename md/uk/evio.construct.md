@@ -15,7 +15,7 @@ EvIo::\_\_construct — Створює спостерігач об'єкт EvIo
 
 ### Опис
 
-public**EvIo::\_\_construct**  
+public **EvIo::\_\_construct**  
 [mixed](language.types.declarations.md#language.types.declarations.mixed) `$fd`  
 int`$events`  
 [callable](language.types.callable.md) `$callback`  

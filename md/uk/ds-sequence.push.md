@@ -33,7 +33,7 @@ abstract public Ds\Sequence::push(mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::push()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::push()\*\*\*\*
 
 ```php
 <?php

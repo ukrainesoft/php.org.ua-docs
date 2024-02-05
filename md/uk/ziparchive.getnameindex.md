@@ -37,7 +37,7 @@ public ZipArchive::getNameIndex(int $index, int $flags = 0): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**ZipArchive::getnameindex()\*\*\*\*
+**Приклад #1 Приклад використання** ZipArchive::getnameindex()\*\*\*\*
 
 ```php
 <?php

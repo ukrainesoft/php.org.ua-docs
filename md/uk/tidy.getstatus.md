@@ -43,7 +43,7 @@ tidy_get_status(tidy $tidy): int
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::getStatus()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::getStatus()\*\*\*\*
 
 ```php
 <?php

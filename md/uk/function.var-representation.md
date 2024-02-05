@@ -37,7 +37,7 @@ var_representation(mixed $value, int $flags = 0): string
 
 ### Приклади
 
-**Пример #1 Пример использования**var\_representation()\*\*\*\*
+**Приклад #1 Приклад використання** var\_representation()\*\*\*\*
 
 ```php
 <?php
@@ -112,7 +112,7 @@ echo var_representation($a);
 ])
 ```
 
-**Пример #5 Пример использования[\_\_set\_state()](language.oop5.magic.md#object.set-state)**
+**Приклад #5 Приклад использования[\_\_set\_state()](language.oop5.magic.md#object.set-state)**
 
 ```php
 <?php

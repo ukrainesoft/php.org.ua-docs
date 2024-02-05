@@ -37,7 +37,7 @@ public ImagickPixel::__construct(string $color = ?)
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixel::construct()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixel::construct()\*\*\*\*
 
 ```php
 <?php

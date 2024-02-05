@@ -35,7 +35,7 @@ cubrid_move_cursor(resource $req_identifier, int $offset, int $origin = CUBRID_C
 
 `origin`
 
-Місце, з якого ви бажаєте перемістити курсор: **`CUBRID_CURSOR_FIRST`** **`CUBRID_CURSOR_CURRENT`**или**`CUBRID_CURSOR_LAST`**
+Місце, з якого ви бажаєте перемістити курсор: **`CUBRID_CURSOR_FIRST`** **`CUBRID_CURSOR_CURRENT`** або **`CUBRID_CURSOR_LAST`**
 
 ### Значення, що повертаються
 
@@ -43,7 +43,7 @@ cubrid_move_cursor(resource $req_identifier, int $offset, int $origin = CUBRID_C
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_move\_cursor()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_move\_cursor()\*\*\*\*
 
 ```php
 <?php

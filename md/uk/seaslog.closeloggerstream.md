@@ -40,7 +40,7 @@ public static SeasLog::closeLoggerStream(int $model, string $logger): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::closeLoggerStream()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::closeLoggerStream()\*\*\*\*
 
 ```php
 <?php

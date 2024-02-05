@@ -19,13 +19,13 @@ cal\_to\_jd - Перетворює задану дату на юліанську
 cal_to_jd(    int $calendar,    int $month,    int $day,    int $year): int
 ```
 
-Функция**cal\_to\_jd()** розраховує кількість днів у юліанському календарі для дати у зазначеному календарі `calendar`. Список календарів, що підтримуються `calendar` **`CAL_GREGORIAN`** **`CAL_JULIAN`** **`CAL_JEWISH`**и**`CAL_FRENCH`**
+Функция**cal\_to\_jd()** розраховує кількість днів у юліанському календарі для дати у зазначеному календарі `calendar`. Список календарів, що підтримуються `calendar` **`CAL_GREGORIAN`** **`CAL_JULIAN`** **`CAL_JEWISH`** і **`CAL_FRENCH`**
 
 ### Список параметрів
 
 `calendar`
 
-Календар, з якого буде зроблено конвертацію, одна з констант: **`CAL_GREGORIAN`** **`CAL_JULIAN`** **`CAL_JEWISH`**или**`CAL_FRENCH`**
+Календар, з якого буде зроблено конвертацію, одна з констант: **`CAL_GREGORIAN`** **`CAL_JULIAN`** **`CAL_JEWISH`** або **`CAL_FRENCH`**
 
 `month`
 

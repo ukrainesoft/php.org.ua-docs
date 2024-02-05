@@ -43,7 +43,7 @@ public RRDUpdater::update(array $values, string $time
 
 ### Приклади
 
-**Пример #1 Пример использования**RRDUpdater::update()\*\*\*\*
+**Приклад #1 Приклад використання** RRDUpdater::update()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ mcrypt_generic(resource $td, string $data): string
 
 Дескриптор шифрування.
 
-Обробник шифрування завжди повинен ініціалізуватися за допомогою [mcrypt\_generic\_init()](function.mcrypt-generic-init.md) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.md)Смотрите пример в описании функции[mcrypt\_module\_open()](function.mcrypt-module-open.md)
+Обробник шифрування завжди повинен ініціалізуватися за допомогою [mcrypt\_generic\_init()](function.mcrypt-generic-init.md) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.md)Смотрите Приклад в описании функции[mcrypt\_module\_open()](function.mcrypt-module-open.md)
 
 `data`
 

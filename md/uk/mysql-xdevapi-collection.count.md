@@ -31,7 +31,7 @@ public mysql_xdevapi\Collection::count(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::count()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::count()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ collator_get_strength(Collator $object): int
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_get\_strength()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_get\_strength()\*\*\*\*
 
 ```php
 <?php

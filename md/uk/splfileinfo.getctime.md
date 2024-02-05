@@ -35,7 +35,7 @@ public SplFileInfo::getCTime(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getCTime()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getCTime()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ restore_include_path(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**restore\_include\_path()\*\*\*\*
+**Приклад #1 Приклад використання** restore\_include\_path()\*\*\*\*
 
 ```php
 <?php

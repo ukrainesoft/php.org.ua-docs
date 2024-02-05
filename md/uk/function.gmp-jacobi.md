@@ -39,7 +39,7 @@ gmp_jacobi(GMP|int|string $num1, GMP|int|string $num2): int
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_jacobi()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_jacobi()\*\*\*\*
 
 ```php
 <?php

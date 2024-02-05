@@ -31,7 +31,7 @@ public SplFileObject::fstat(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fstat()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fstat()\*\*\*\*
 
 ```php
 <?php

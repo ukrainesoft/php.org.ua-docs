@@ -54,7 +54,7 @@ public IteratorIterator::valid(): bool
 
 ## Приклади
 
-**Пример #1 Пример использования**LimitIterator\*\*\*\*
+**Приклад #1 Приклад використання** LimitIterator\*\*\*\*
 
 ```php
 <?php

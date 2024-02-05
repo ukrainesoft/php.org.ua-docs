@@ -37,7 +37,7 @@ image_type_to_extension(int $image_type, bool $include_dot = true): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**image\_type\_to\_extension()\*\*\*\*
+**Приклад #1 Приклад використання** image\_type\_to\_extension()\*\*\*\*
 
 ```php
 <?php

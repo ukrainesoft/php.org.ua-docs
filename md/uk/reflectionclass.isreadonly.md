@@ -31,7 +31,7 @@ public ReflectionClass::isReadOnly(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::isReadOnly()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::isReadOnly()\*\*\*\*
 
 ```php
 <?php

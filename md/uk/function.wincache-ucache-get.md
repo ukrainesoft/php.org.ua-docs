@@ -39,7 +39,7 @@ wincache_ucache_get(mixed $key, bool &$success = ?): mixed
 
 ### Приклади
 
-**Пример #1**wincache\_ucache\_get()**с`key` у вигляді рядка**
+**Приклад #1**wincache\_ucache\_get()**с`key` у вигляді рядка**
 
 ```php
 <?php
@@ -56,7 +56,7 @@ string(4) "blue"
 bool(true)
 ```
 
-**Пример #2**wincache\_ucache\_get()**с`key` у вигляді масиву**
+**Приклад #2**wincache\_ucache\_get()**с`key` у вигляді масиву**
 
 ```php
 <?php

@@ -45,7 +45,7 @@ clearstatcache(bool $clear_realpath_cache = false, string $filename = ""): void
 
 ### Приклади
 
-**Пример #1 Пример использования**clearstatcache()\*\*\*\*
+**Приклад #1 Приклад використання** clearstatcache()\*\*\*\*
 
 ```php
 <?php

@@ -13,7 +13,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 -   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
 
-**Пример #1 Использование[file\_get\_contents()](function.file-get-contents.md) для отримання даних із різних джерел**
+**Приклад #1 Использование[file\_get\_contents()](function.file-get-contents.md) для отримання даних із різних джерел**
 
 ```php
 <?php

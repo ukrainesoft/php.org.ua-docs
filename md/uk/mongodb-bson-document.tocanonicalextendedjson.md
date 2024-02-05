@@ -27,7 +27,7 @@ final public MongoDB\BSON\Document::toCanonicalExtendedJSON(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Document::toCanonicalExtendedJSON()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Document::toCanonicalExtendedJSON()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ apache_get_version(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**apache\_get\_version()\*\*\*\*
+**Приклад #1 Приклад використання** apache\_get\_version()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public RarEntry::getVersion(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**RarEntry::getVersion()\*\*\*\*
+**Приклад #1 Приклад використання** RarEntry::getVersion()\*\*\*\*
 
 ```php
 <?php

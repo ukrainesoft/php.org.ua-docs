@@ -50,8 +50,8 @@ public streamWrapper::stream_metadata(string $path, int $option, mixed $value): 
 Якщо `option`принимает значение
 
 -   **`STREAM_META_TOUCH`**: Масив (Array), що складається з двох аргументів функції.[touch()](function.touch.md)
--   **`STREAM_META_OWNER_NAME`**или**`STREAM_META_GROUP_NAME`**: Ім'я власника/групи у вигляді рядка (string).
--   **`STREAM_META_OWNER`**или**`STREAM_META_GROUP`**: Значення власника/групу як цілого числа (int).
+-   **`STREAM_META_OWNER_NAME`** або **`STREAM_META_GROUP_NAME`**: Ім'я власника/групи у вигляді рядка (string).
+-   **`STREAM_META_OWNER`** або **`STREAM_META_GROUP`**: Значення власника/групу як цілого числа (int).
 -   **`STREAM_META_ACCESS`**: Аргумент функції[chmod()](function.chmod.md) як цілого числа (int).
 
 ### Значення, що повертаються

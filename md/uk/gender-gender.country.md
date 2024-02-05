@@ -33,7 +33,7 @@ public Gender\Gender::country(int $country): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Gender\\Gender::country()\*\*\*\*
+**Приклад #1 Приклад використання** Gender\\Gender::country()\*\*\*\*
 
 ```php
 $gender = new Gender\Gender;

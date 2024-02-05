@@ -37,7 +37,7 @@ public PharData::addFromString(string $localName, string $contents): void
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::addFromString()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::addFromString()\*\*\*\*
 
 ```php
 <?php

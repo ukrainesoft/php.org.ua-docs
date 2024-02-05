@@ -41,7 +41,7 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_get\_field()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_get\_field()\*\*\*\*
 
 У наступному прикладі показано, як отримати рядок за допомогою [sqlsrv\_fetch()](function.sqlsrv-fetch.md) та отримати поля рядки за допомогою **sqlsrv\_get\_field()**
 

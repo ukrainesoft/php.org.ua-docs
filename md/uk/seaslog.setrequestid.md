@@ -33,7 +33,7 @@ public static SeasLog::setRequestID(string $request_id): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::setRequestID()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::setRequestID()\*\*\*\*
 
 ```php
 <?php

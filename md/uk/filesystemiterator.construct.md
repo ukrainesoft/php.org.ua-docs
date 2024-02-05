@@ -15,7 +15,7 @@ FilesystemIterator::\_\_construct — Створює новий ітератор
 
 ### Опис
 
-public**FilesystemIterator::\_\_construct**(string`$directory`, int`$flags`\= FilesystemIterator::KEY\_AS\_PATHNAME | FilesystemIterator::CURRENT\_AS\_FILEINFO | FilesystemIterator::SKIP\_DOTS)
+public **FilesystemIterator::\_\_construct**(string`$directory`, int`$flags`\= FilesystemIterator::KEY\_AS\_PATHNAME | FilesystemIterator::CURRENT\_AS\_FILEINFO | FilesystemIterator::SKIP\_DOTS)
 
 Створює новий об'єкт ітератора файлової системи на основі аргументу `directory`
 
@@ -44,7 +44,7 @@ public**FilesystemIterator::\_\_construct**(string`$directory`, int`$flags`\= Fi
 
 ### Приклади
 
-**Пример #1 Пример использования**FilesystemIterator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** FilesystemIterator::\_\_construct()\*\*\*\*
 
 ```php
 <?php

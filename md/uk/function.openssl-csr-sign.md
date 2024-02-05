@@ -64,7 +64,7 @@ openssl_csr_sign(    OpenSSLCertificateSigningRequest|string $csr,    Op
 
 ### Приклади
 
-**Пример #1 Пример**openssl\_csr\_sign()\*\* - підпис CSR (як зробити свій власний CA)\*\*
+**Приклад #1 Приклад**openssl\_csr\_sign()\*\* - підпис CSR (як зробити свій власний CA)\*\*
 
 ```php
 <?php
@@ -83,7 +83,7 @@ $privkey = array("file://path/to/ca.key", "your_ca_key_passphrase");
 $usercert = openssl_csr_sign($csrdata, $cacert, $privkey, 365, array('digest_alg'=>'sha256') );
 
 // Теперь напечатаем сертификат, чтобы пользователь мог его скопировать
-// и внести в свою локальную конфигурацию (например в файл хранилища SSL сертификатов)
+// и внести в свою локальную конфигурацию (наПриклад в файл хранилища SSL сертификатов)
 openssl_x509_export($usercert, $certout);
 echo $certout;
 

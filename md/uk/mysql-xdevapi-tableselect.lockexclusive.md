@@ -40,7 +40,7 @@ public mysql_xdevapi\TableSelect::lockExclusive(int $lock_waiting_option = ?): m
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::lockExclusive()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::lockExclusive()\*\*\*\*
 
 ```php
 <?php

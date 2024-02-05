@@ -29,7 +29,7 @@ final public static Phar::apiVersion(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::apiVersion()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::apiVersion()\*\*\*\*
 
 ```php
 <?php

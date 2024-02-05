@@ -31,7 +31,7 @@ final public Error::getMessage(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Error::getMessage()\*\*\*\*
+**Приклад #1 Приклад використання** Error::getMessage()\*\*\*\*
 
 ```php
 <?php

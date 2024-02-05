@@ -33,7 +33,7 @@ geoip_asnum_by_name(string $hostname): string
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_asnum\_by\_name()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_asnum\_by\_name()\*\*\*\*
 
 Получение ASN для хоста[www.example.com](http://www.example.com)
 

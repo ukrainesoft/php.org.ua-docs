@@ -27,7 +27,7 @@ final public MongoDB\BSON\Document::toRelaxedExtendedJSON(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Document::toRelaxedExtendedJSON()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Document::toRelaxedExtendedJSON()\*\*\*\*
 
 ```php
 <?php

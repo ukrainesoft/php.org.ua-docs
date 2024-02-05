@@ -31,7 +31,7 @@ public PhpToken::isIgnorable(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PhpToken::isIgnorable()\*\*\*\*
+**Приклад #1 Приклад використання** PhpToken::isIgnorable()\*\*\*\*
 
 ```php
 <?php

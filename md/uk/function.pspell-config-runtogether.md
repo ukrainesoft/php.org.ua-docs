@@ -45,7 +45,7 @@ pspell_config_runtogether(PSpell\Config $config, bool $allow): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_config\_runtogether()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_config\_runtogether()\*\*\*\*
 
 ```php
 <?php

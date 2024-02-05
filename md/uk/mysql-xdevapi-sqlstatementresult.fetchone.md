@@ -35,7 +35,7 @@ public mysql_xdevapi\SqlStatementResult::fetchOne(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::fetchOne()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\SqlStatementResult::fetchOne()\*\*\*\*
 
 ```php
 <?php

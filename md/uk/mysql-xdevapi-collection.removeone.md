@@ -33,7 +33,7 @@ public mysql_xdevapi\Collection::removeOne(string $id): mysql_xdevapi\Result
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::removeOne()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::removeOne()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +48,7 @@ $collection = $schema->createCollection("people");
 $result = $collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
 
 // Обычно _id известен другими способами,
-// но для этого примера давайте извлечём сгенерированный идентификатор и используем его
+// но для этого Приклада давайте извлечём сгенерированный идентификатор и используем его
 $ids       = $result->getGeneratedIds();
 $alfred_id = $ids[0];
 

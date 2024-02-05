@@ -31,7 +31,7 @@ public ImagickPixel::getColorAsString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getColorAsString()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::getColorAsString()\*\*\*\*
 
 ```php
 <?php

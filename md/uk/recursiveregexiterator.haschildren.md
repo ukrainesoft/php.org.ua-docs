@@ -31,7 +31,7 @@ public RecursiveRegexIterator::hasChildren(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**RecursiveRegexIterator::hasChildren()\*\*\*\*
+**Приклад #1 Приклад використання** RecursiveRegexIterator::hasChildren()\*\*\*\*
 
 ```php
 <?php

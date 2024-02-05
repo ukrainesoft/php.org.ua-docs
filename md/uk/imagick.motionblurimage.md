@@ -45,7 +45,7 @@ public Imagick::motionBlurImage(    float $radius,    float $sigma,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::motionBlurImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::motionBlurImage()\*\*\*\*
 
 ```php
 <?php

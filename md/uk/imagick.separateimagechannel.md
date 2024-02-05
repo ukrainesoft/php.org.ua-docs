@@ -37,7 +37,7 @@ public Imagick::separateImageChannel(int $channel): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::separateImageChannel()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::separateImageChannel()\*\*\*\*
 
 ```php
 <?php

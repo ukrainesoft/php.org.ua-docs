@@ -31,7 +31,7 @@ public RecursiveArrayIterator::hasChildren(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**RecursiveArrayIterator::hasChildren()\*\*\*\*
+**Приклад #1 Приклад використання** RecursiveArrayIterator::hasChildren()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ array_pad(array $array, int $length, mixed $value): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_pad()\*\*\*\*
+**Приклад #1 Приклад використання** array\_pad()\*\*\*\*
 
 ```php
 <?php

@@ -51,7 +51,7 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ### Інтерактивний відладчик PHP
 
-Видалені константи, що не використовуються. **`PHPDBG_FILE`** **`PHPDBG_METHOD`** **`PHPDBG_LINENO`**и**`PHPDBG_FUNC`**
+Видалені константи, що не використовуються. **`PHPDBG_FILE`** **`PHPDBG_METHOD`** **`PHPDBG_LINENO`** і **`PHPDBG_FUNC`**
 
 ### Менеджер процесів FastCGI
 

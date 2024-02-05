@@ -37,7 +37,7 @@ public mysql_xdevapi\CollectionRemove::limit(int $rows): mysql_xdevapi\Collectio
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionRemove::limit()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionRemove::limit()\*\*\*\*
 
 ```php
 <?php

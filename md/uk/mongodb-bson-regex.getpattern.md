@@ -33,7 +33,7 @@ final public MongoDB\BSON\Regex::getPattern(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Regex::getPattern()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Regex::getPattern()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ final public Exception::getCode(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Exception::getCode()\*\*\*\*
+**Приклад #1 Приклад використання** Exception::getCode()\*\*\*\*
 
 ```php
 <?php

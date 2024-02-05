@@ -43,7 +43,7 @@ filter_var_array(array $array, array|int $options = FILTER_DEFAULT, bool $add_em
 
 ### Приклади
 
-**Пример #1 Пример использования**filter\_var\_array()\*\*\*\*
+**Приклад #1 Приклад використання** filter\_var\_array()\*\*\*\*
 
 ```php
 <?php

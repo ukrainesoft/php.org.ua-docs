@@ -37,7 +37,7 @@ MongoDB\BSON\toRelaxedExtendedJSON(string $bson): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\toRelaxedExtendedJSON()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\toRelaxedExtendedJSON()\*\*\*\*
 
 ```php
 <?php

@@ -59,7 +59,7 @@ radius_put_string(    resource $radius_handle,    int $type,    stri
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_put\_string()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_put\_string()\*\*\*\*
 
 ```php
 <?php

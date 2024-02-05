@@ -37,7 +37,7 @@ cubrid_lob2_write(resource $lob_identifier, string $buf): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_lob2\_write()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_lob2\_write()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +60,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-**Пример #2 Пример использования**cubrid\_lob2\_write()\*\*\*\*
+**Приклад #2 Приклад використання** cubrid\_lob2\_write()\*\*\*\*
 
 ```php
 <?php

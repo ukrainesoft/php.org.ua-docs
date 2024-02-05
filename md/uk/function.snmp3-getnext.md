@@ -75,7 +75,7 @@ snmp3_getnext(    string $hostname,    string $security_name,    str
 
 ### Приклади
 
-**Пример #1 Пример использования**snmp3\_getnext()\*\*\*\*
+**Приклад #1 Приклад використання** snmp3\_getnext()\*\*\*\*
 
 ```php
 <?php

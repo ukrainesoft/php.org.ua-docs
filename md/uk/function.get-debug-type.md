@@ -48,7 +48,7 @@ get_debug_type(mixed $value): string
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_debug\_type()\*\*\*\*
+**Приклад #1 Приклад використання** get\_debug\_type()\*\*\*\*
 
 ```php
 <?php

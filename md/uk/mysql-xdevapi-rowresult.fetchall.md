@@ -31,7 +31,7 @@ public mysql_xdevapi\RowResult::fetchAll(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::fetchAll()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\RowResult::fetchAll()\*\*\*\*
 
 ```php
 <?php

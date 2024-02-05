@@ -45,11 +45,11 @@ odbc_specialcolumns(    resource $odbc,    int $type,    ?string $ca
 
 `scope`
 
-Область, яка впорядковує результуючий набір. Одна з констант **`SQL_SCOPE_CURROW`** **`SQL_SCOPE_TRANSACTION`**или**`SQL_SCOPE_SESSION`**
+Область, яка впорядковує результуючий набір. Одна з констант **`SQL_SCOPE_CURROW`** **`SQL_SCOPE_TRANSACTION`** або **`SQL_SCOPE_SESSION`**
 
 `nullable`
 
-Визначає, чи повертати спеціальні стовпці, які можуть мати значення NULL. Одна з констант **`SQL_NO_NULLS`**или**`SQL_NULLABLE`**
+Визначає, чи повертати спеціальні стовпці, які можуть мати значення NULL. Одна з констант **`SQL_NO_NULLS`** або **`SQL_NULLABLE`**
 
 ### Значення, що повертаються
 

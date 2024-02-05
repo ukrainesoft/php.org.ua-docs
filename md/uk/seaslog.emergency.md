@@ -45,7 +45,7 @@ public static SeasLog::emergency(string $message, array $content = ?, string $lo
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::emergency()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::emergency()\*\*\*\*
 
 ```php
 <?php

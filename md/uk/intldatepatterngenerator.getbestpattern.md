@@ -33,7 +33,7 @@ public IntlDatePatternGenerator::getBestPattern(string $skeleton): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlDatePatternGenerator::getBestPattern()\*\*\*\*
+**Приклад #1 Приклад використання** IntlDatePatternGenerator::getBestPattern()\*\*\*\*
 
 ```php
 <?php

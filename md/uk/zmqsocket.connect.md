@@ -41,7 +41,7 @@ public ZMQSocket::connect(string $dsn, bool $force = false): ZMQSocket
 
 ### Приклади
 
-**Пример #1 Пример использования**ZMQContext()\*\*\*\*
+**Приклад #1 Приклад використання** ZMQContext()\*\*\*\*
 
 Створити новий контекст та виділити сокет
 

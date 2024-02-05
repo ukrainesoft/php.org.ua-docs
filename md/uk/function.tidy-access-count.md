@@ -33,7 +33,7 @@ tidy_access_count(tidy $tidy): int
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy\_access\_count()\*\*\*\*
+**Приклад #1 Приклад використання** tidy\_access\_count()\*\*\*\*
 
 ```php
 <?php

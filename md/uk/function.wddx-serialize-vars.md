@@ -41,7 +41,7 @@ wddx_serialize_vars(mixed $var_name, mixed ...$var_names): string
 
 ### Приклади
 
-**Пример #1 Пример использования**wddx\_serialize\_vars()\*\*\*\*
+**Приклад #1 Приклад використання** wddx\_serialize\_vars()\*\*\*\*
 
 ```php
 <?php

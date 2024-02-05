@@ -31,7 +31,7 @@ public SplObjectStorage::rewind(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::rewind()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::rewind()\*\*\*\*
 
 ```php
 <?php

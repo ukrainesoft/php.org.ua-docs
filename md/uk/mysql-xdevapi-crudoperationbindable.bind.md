@@ -37,7 +37,7 @@ abstract public mysql_xdevapi\CrudOperationBindable::bind(array $placeholder_val
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CrudOperationBindable::bind()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CrudOperationBindable::bind()\*\*\*\*
 
 ```php
 <?php

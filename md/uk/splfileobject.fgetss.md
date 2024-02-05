@@ -37,7 +37,7 @@ public SplFileObject::fgetss(string $allowable_tags = ?): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fgetss()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fgetss()\*\*\*\*
 
 ```php
 <?php

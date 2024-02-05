@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Приклади
 
-**Пример #1 Пример использования**eio\_statvfs()\*\*\*\*
+**Приклад #1 Приклад використання** eio\_statvfs()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ date_modify(DateTime $object, string $modifier): DateTime|false
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTime::modify()\*\*\*\*
+**Приклад #1 Приклад використання** DateTime::modify()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

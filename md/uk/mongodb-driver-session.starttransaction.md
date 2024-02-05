@@ -19,7 +19,7 @@ MongoDB\\Driver\\Session::startTransaction — Запускає транзакц
 final public MongoDB\Driver\Session::startTransaction(?array $options = null): void
 ```
 
-Запускає багатодокументну транзакцію, пов'язану із сеансом. У будь-який час ви можете мати не більше однієї відкритої транзакції для сеансу. Після запуску транзакції об'єкт сеансу має бути переданий кожній операції за допомогою опції `"session"`(например,[MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)), щоб пов'язати цю операцію з транзакцією.
+Запускає багатодокументну транзакцію, пов'язану із сеансом. У будь-який час ви можете мати не більше однієї відкритої транзакції для сеансу. Після запуску транзакції об'єкт сеансу має бути переданий кожній операції за допомогою опції `"session"`(наПриклад,[MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)), щоб пов'язати цю операцію з транзакцією.
 
 Транзакції можуть бути зафіксовані через [MongoDB\\Driver\\Session::commitTransaction()](mongodb-driver-session.committransaction.md) та перервані за допомогою [MongoDB\\Driver\\Session::abortTransaction()](mongodb-driver-session.aborttransaction.md). Транзакції також автоматично перериваються, коли сеанс закривається зі складання сміття або явно викликається. [MongoDB\\Driver\\Session::endSession()](mongodb-driver-session.endsession.md)
 

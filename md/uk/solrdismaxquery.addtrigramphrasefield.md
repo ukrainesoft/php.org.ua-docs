@@ -41,7 +41,7 @@ public SolrDisMaxQuery::addTrigramPhraseField(string $field, string $boost, stri
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::addTrigramPhraseField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::addTrigramPhraseField()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeDashArray(array $dashArray): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeDashArray()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeDashArray()\*\*\*\*
 
 ```php
 <?php

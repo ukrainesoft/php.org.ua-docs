@@ -15,11 +15,11 @@ parallel\\Runtime::\_\_construct - Конструктор класу Runtime
 
 ### Опис
 
-public**parallel\\Runtime::\_\_construct**()
+public **parallel\\Runtime::\_\_construct**()
 
 Створює нове виконання без початкового завантаження.
 
-public**parallel\\Runtime::\_\_construct**(string`$bootstrap`) .
+public **parallel\\Runtime::\_\_construct**(string`$bootstrap`) .
 
 Створює нове середовище виконання з початковим завантаженням.
 

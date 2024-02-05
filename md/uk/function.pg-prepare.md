@@ -56,7 +56,7 @@ pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): P
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_prepare()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_prepare()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ArrayObject::getFlags(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::getFlags()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::getFlags()\*\*\*\*
 
 ```php
 <?php

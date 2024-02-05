@@ -37,7 +37,7 @@ public OAuthProvider::consumerHandler(callable $callback_function): void
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuthProvider::consumerHandler()\*\*\*\*
+**Приклад #1 Приклад використання** OAuthProvider::consumerHandler()\*\*\*\*
 
 ```php
 <?php

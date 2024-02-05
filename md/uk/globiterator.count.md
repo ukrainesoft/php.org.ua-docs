@@ -31,7 +31,7 @@ public GlobIterator::count(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**GlobIterator::count()\*\*\*\*
+**Приклад #1 Приклад використання** GlobIterator::count()\*\*\*\*
 
 ```php
 <?php

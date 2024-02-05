@@ -41,7 +41,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_mlsd()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_mlsd()\*\*\*\*
 
 ```php
 <?php

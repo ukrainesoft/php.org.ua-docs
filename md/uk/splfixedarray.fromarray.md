@@ -37,7 +37,7 @@ public static SplFixedArray::fromArray(array $array, bool $preserveKeys = true):
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFixedArray::fromArray()\*\*\*\*
+**Приклад #1 Приклад використання** SplFixedArray::fromArray()\*\*\*\*
 
 ```php
 <?php

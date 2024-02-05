@@ -37,7 +37,7 @@ abstract public Ds\Sequence::allocate(int $capacity): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::allocate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::allocate()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ IteratorIterator::\_\_construct — Створює ітератор із чог�
 
 ### Опис
 
-public**IteratorIterator::\_\_construct** [Traversable](class.traversable.md) `$iterator`, ?string`$class` **`null`**) .
+public **IteratorIterator::\_\_construct** [Traversable](class.traversable.md) `$iterator`, ?string`$class` **`null`**) .
 
 Створює ітератор із чогось, що є обхідним (traversable).
 

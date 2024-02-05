@@ -31,11 +31,11 @@ gethostname(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**gethostname()\*\*\*\*
+**Приклад #1 Приклад використання** gethostname()\*\*\*\*
 
 ```php
 <?php
-echo gethostname(); // может вывести например: sandie
+echo gethostname(); // может вывести наПриклад: sandie
 ?>
 ```
 

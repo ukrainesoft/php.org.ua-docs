@@ -41,7 +41,7 @@ public Ds\Map::merge(mixed $values): Ds\Map
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::merge()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::merge()\*\*\*\*
 
 ```php
 <?php

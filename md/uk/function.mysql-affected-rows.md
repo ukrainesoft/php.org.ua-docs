@@ -48,7 +48,7 @@ mysql_affected_rows(resource $link_identifier = NULL): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_affected\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_affected\_rows()\*\*\*\*
 
 ```php
 <?php
@@ -75,7 +75,7 @@ printf("Удалено записей: %d\n", mysql_affected_rows());
 Удалено записей: 0
 ```
 
-**Пример #2 Пример использования**mysql\_affected\_rows()\*\* з транзакціями\*\*
+**Приклад #2 Приклад використання** mysql\_affected\_rows()\*\* з транзакціями\*\*
 
 ```php
 <?php

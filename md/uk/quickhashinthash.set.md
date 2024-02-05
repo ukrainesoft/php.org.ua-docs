@@ -37,7 +37,7 @@ public QuickHashIntHash::set(int $key, int $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntHash::set()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntHash::set()\*\*\*\*
 
 ```php
 <?php

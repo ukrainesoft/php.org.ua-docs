@@ -15,11 +15,11 @@ IntlGregorianCalendar::\_\_construct - Конструктор класу гри�
 
 ### Опис
 
-public**IntlGregorianCalendar::\_\_construct** [IntlTimeZone](class.intltimezone.md) `$tz`\= ?, string`$locale`
+public **IntlGregorianCalendar::\_\_construct** [IntlTimeZone](class.intltimezone.md) `$tz`\= ?, string`$locale`
 
-public**IntlGregorianCalendar::\_\_construct**(int`$timeZoneOrYear`, int`$localeOrMonth`, int`$dayOfMonth`) .
+public **IntlGregorianCalendar::\_\_construct**(int`$timeZoneOrYear`, int`$localeOrMonth`, int`$dayOfMonth`) .
 
-public**IntlGregorianCalendar::\_\_construct**  
+public **IntlGregorianCalendar::\_\_construct**  
 int`$timeZoneOrYear`,  
 int`$localeOrMonth`,  
 int`$dayOfMonth`,  

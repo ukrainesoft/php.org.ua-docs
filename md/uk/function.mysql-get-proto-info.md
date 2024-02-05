@@ -39,7 +39,7 @@ mysql_get_proto_info(resource $link_identifier = NULL): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_get\_proto\_info()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_get\_proto\_info()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public mysql_xdevapi\TableUpdate::where(string $where_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::where()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableUpdate::where()\*\*\*\*
 
 ```php
 <?php

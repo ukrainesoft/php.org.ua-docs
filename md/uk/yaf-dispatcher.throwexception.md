@@ -33,7 +33,7 @@ bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Dispatcher::throwexception()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Dispatcher::throwexception()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +61,7 @@ try {
 string(59) "Could not find controller script /tmp/controllers/Index.php"
 ```
 
-**Пример #2 Пример использования**Yaf\_Dispatcher::throwexception()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Dispatcher::throwexception()\*\*\*\*
 
 ```php
 <?php

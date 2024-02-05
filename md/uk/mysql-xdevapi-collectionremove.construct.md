@@ -15,7 +15,7 @@ CollectionRemove::\_\_construct — Конструктор класу Collection
 
 ### Опис
 
-private**mysql\_xdevapi\\CollectionRemove::\_\_construct**()
+private **mysql\_xdevapi\\CollectionRemove::\_\_construct**()
 
 Видаляє документи колекції та створюється екземпляром методу **mysql\_xdevapi\\Collection::remove()**
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\CollectionRemove::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::remove()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::remove()\*\*\*\*
 
 ```php
 <?php

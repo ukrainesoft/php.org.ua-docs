@@ -51,7 +51,7 @@ base_convert(string $num, int $from_base, int $to_base): string
 
 ### Приклади
 
-**Пример #1 Пример использования функции**base\_convert()\*\*\*\*
+**Приклад #1 Приклад использования функции**base\_convert()\*\*\*\*
 
 ```php
 <?php

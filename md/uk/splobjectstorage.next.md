@@ -31,7 +31,7 @@ public SplObjectStorage::next(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::next()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::next()\*\*\*\*
 
 ```php
 <?php

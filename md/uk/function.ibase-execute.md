@@ -41,7 +41,7 @@ ibase_execute(resource $query, mixed ...$values): resource
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_execute()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_execute()\*\*\*\*
 
 ```php
 <?php

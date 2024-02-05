@@ -45,7 +45,7 @@ $f9 = [Foo::class, 'staticmethod'](...);
 
 У`CallableExpr(...)` та ж семантика, що й у [Closure::fromCallable()](closure.fromcallable.md). Тобто, на відміну від callback-функції з використанням рядків та масивів, `CallableExpr(...)` враховує область видимості у точці, де вона створюється:
 
-**Пример #2 Сравнение области действия`CallableExpr(...)` та традиційної callback-функції**
+**Приклад #2 Сравнение области действия`CallableExpr(...)` та традиційної callback-функції**
 
 ```php
 <?php

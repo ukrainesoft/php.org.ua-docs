@@ -35,7 +35,7 @@ abstract public Ds\Sequence::last(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::last()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::last()\*\*\*\*
 
 ```php
 <?php

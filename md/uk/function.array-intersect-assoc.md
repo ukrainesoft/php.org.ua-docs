@@ -43,7 +43,7 @@ array_intersect_assoc(array $array, array ...$arrays): array
 
 ### Приклади
 
-**Пример #1 Пример использования функции**array\_intersect\_assoc()\*\*\*\*
+**Приклад #1 Приклад использования функции**array\_intersect\_assoc()\*\*\*\*
 
 ```php
 <?php

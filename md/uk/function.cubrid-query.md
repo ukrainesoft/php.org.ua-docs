@@ -37,7 +37,7 @@ SQL-запит
 
 Для SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результуючий набір, **cubrid\_query()** повертає resource у разі успішного виконання та \*\*`false`\*\*в случае возникновения ошибки.
 
-Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP і т.д. **cubrid\_query()** повертає **`true`**или**`false`** залежно від успішності виконання.
+Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP і т.д. **cubrid\_query()** повертає **`true`** або **`false`** залежно від успішності виконання.
 
 Повернутий результат можна передавати у функцію [cubrid\_fetch\_array()](function.cubrid-fetch-array.md) і їй подібні до роботи з отриманими даними.
 
@@ -81,7 +81,7 @@ cubrid_execute($conn,"insert into friends values('fred','fox','home-1','20')");
 cubrid_execute($conn,"insert into friends values('blue','cat','home-2','21')");
 // Сформулируем запрос
 // Это лучший путь для выполнения запроса
-// Другие примеры смотрите cubrid_real_escape_string()
+// Другие Приклады смотрите cubrid_real_escape_string()
 $query = sprintf("SELECT firstname, lastname, address, age FROM friends WHERE firstname='%s' AND lastname='%s'",
 cubrid_real_escape_string($firstname),
 cubrid_real_escape_string($lastname));

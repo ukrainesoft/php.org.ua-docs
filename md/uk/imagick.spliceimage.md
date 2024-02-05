@@ -37,7 +37,7 @@ public Imagick::spliceImage(    int $width,    int $height,    int $
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::spliceImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::spliceImage()\*\*\*\*
 
 ```php
 <?php

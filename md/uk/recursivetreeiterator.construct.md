@@ -15,7 +15,7 @@ RecursiveTreeIterator::\_\_construct — Конструктор класу Recur
 
 ### Опис
 
-public**RecursiveTreeIterator::\_\_construct**  
+public **RecursiveTreeIterator::\_\_construct**  
 [RecursiveIterator](class.recursiveiterator.md) [IteratorAggregate](class.iteratoraggregate.md) `$iterator`,  
 int`$flags`\= RecursiveTreeIterator::BYPASS\_KEY,  
 int`$cachingIteratorFlags`\= CachingIterator::CATCH\_GET\_CHILD,  

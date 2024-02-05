@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionFind::sort(string $sort_expr): mysql_xdevapi\Coll
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::sort()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionFind::sort()\*\*\*\*
 
 ```php
 <?php

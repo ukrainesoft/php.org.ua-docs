@@ -37,11 +37,11 @@ intlcal_get_first_day_of_week(IntlCalendar $calendar): int|false
 
 ### Значення, що повертаються
 
-Одна из констант:**`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** \*\*`IntlCalendar::DOW_SATURDAY`**или**`false`\*\*в случае возникновения ошибки.
+Одна из констант:**`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** \*\*`IntlCalendar::DOW_SATURDAY`** або **`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getFirstDayOfWeek()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getFirstDayOfWeek()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ datefmt_is_lenient(IntlDateFormatter $formatter): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_is\_lenient()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_is\_lenient()\*\*\*\*
 
 ```php
 <?php

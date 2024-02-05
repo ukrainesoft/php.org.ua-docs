@@ -50,7 +50,7 @@ public Random\Randomizer::pickArrayKeys(array $array, int $num): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::pickArrayKeys()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::pickArrayKeys()\*\*\*\*
 
 ```php
 <?php

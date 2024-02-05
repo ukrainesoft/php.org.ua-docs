@@ -49,7 +49,7 @@ openssl_cms_sign(    string $input_filename,    string $output_filename,
 
 `encoding`
 
-Кодування вихідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`**или**`OPENSSL_ENCODING_PEM`**
+Кодування вихідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`** або **`OPENSSL_ENCODING_PEM`**
 
 `untrusted_certificates_filename`
 
@@ -61,7 +61,7 @@ openssl_cms_sign(    string $input_filename,    string $output_filename,
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_cms\_sign()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_cms\_sign()\*\*\*\*
 
 ```php
 <?php

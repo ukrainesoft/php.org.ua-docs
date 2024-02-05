@@ -35,7 +35,7 @@ public RecursiveRegexIterator::getChildren(): RecursiveRegexIterator
 
 ### Приклади
 
-**Пример #1 Пример использования**RecursiveRegexIterator::getChildren()\*\*\*\*
+**Приклад #1 Приклад використання** RecursiveRegexIterator::getChildren()\*\*\*\*
 
 ```php
 <?php

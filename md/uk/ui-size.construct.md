@@ -15,7 +15,7 @@ UI\\Size::\_\_construct — Створити новий об'єкт Size
 
 ### Опис
 
-public**UI\\Size::\_\_construct**(float`$width`, float`$height`) .
+public **UI\\Size::\_\_construct**(float`$width`, float`$height`) .
 
 Створити новий об'єкт Size, використовуючи нові ширину та висоту
 

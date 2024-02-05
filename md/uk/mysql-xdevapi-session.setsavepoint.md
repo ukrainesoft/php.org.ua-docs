@@ -37,7 +37,7 @@ public mysql_xdevapi\Session::setSavepoint(string $name = ?): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::setSavepoint()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::setSavepoint()\*\*\*\*
 
 ```php
 <?php

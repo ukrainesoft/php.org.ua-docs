@@ -41,7 +41,7 @@ bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Response\_Abstract::appendBody()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Response\_Abstract::appendBody()\*\*\*\*
 
 ```php
 <?php

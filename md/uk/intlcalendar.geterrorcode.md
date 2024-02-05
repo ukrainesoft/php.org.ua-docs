@@ -47,7 +47,7 @@ intlcal_get_error_code(IntlCalendar $calendar): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getErrorCode()**и[IntlCalendar::getErrorMessage()](intlcalendar.geterrormessage.md)**
+**Приклад #1 Приклад використання** IntlCalendar::getErrorCode()**и[IntlCalendar::getErrorMessage()](intlcalendar.geterrormessage.md)**
 
 ```php
 <?php

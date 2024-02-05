@@ -35,7 +35,7 @@ public Imagick::magnifyImage(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::magnifyImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::magnifyImage()\*\*\*\*
 
 ```php
 <?php

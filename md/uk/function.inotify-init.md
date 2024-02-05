@@ -38,7 +38,7 @@ inotify_init(): resource
 // Создаём экземпляр inotify
 $fd = inotify_init();
 
-// Отслеживаем __FILE__ на предмет изменения метаданных (например mtime)
+// Отслеживаем __FILE__ на предмет изменения метаданных (наПриклад mtime)
 $watch_descriptor = inotify_add_watch($fd, __FILE__, IN_ATTRIB);
 
 // создаём событие

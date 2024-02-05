@@ -45,7 +45,7 @@ public static SeasLog::error(string $message, array $content = ?, string $logger
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::error()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::error()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public mysql_xdevapi\SqlStatementResult::getLastInsertId(): String
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::getLastInsertId()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\SqlStatementResult::getLastInsertId()\*\*\*\*
 
 ```php
 <?php

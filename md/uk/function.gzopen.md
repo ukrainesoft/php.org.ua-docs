@@ -45,7 +45,7 @@ gzopen(string $filename, string $mode, int $use_include_path = 0): resource|fals
 
 ### Приклади
 
-**Пример #1 Пример использования**gzopen()\*\*\*\*
+**Приклад #1 Приклад використання** gzopen()\*\*\*\*
 
 ```php
 <?php

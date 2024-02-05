@@ -55,7 +55,7 @@ if (!ps_open_file($ps, "text.ps")) {
 
 ps_set_info($ps, "Creator", "rectangle.php");
 ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример размещения текста");
+ps_set_info($ps, "Title", "Приклад размещения текста");
 
 ps_begin_page($ps, 596, 842);
 $psfont = ps_findfont($ps, "Helvetica", "", 0);

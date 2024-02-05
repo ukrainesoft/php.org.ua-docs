@@ -31,7 +31,7 @@ public FilterIterator::accept(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**FilterIterator::accept()\*\*\*\*
+**Приклад #1 Приклад використання** FilterIterator::accept()\*\*\*\*
 
 ```php
 <?php

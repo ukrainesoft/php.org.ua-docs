@@ -37,7 +37,7 @@ public mysql_xdevapi\CollectionModify::skip(int $position): mysql_xdevapi\Collec
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::skip()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionModify::skip()\*\*\*\*
 
 ```php
 <?php

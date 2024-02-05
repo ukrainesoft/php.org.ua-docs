@@ -39,7 +39,7 @@ gzuncompress(string $data, int $max_length = 0): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**gzuncompress()\*\*\*\*
+**Приклад #1 Приклад використання** gzuncompress()\*\*\*\*
 
 ```php
 <?php

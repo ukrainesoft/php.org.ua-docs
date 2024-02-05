@@ -45,7 +45,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_get\_option()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_get\_option()\*\*\*\*
 
 ```php
 <?php

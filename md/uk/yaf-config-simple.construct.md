@@ -15,7 +15,7 @@ Yaf\_Config\_Simple::\_\_construct — Назначение\_\_construct
 
 ### Опис
 
-public**Yaf\_Config\_Simple::\_\_construct**(array`$configs`, bool`$readonly`\= false)
+public **Yaf\_Config\_Simple::\_\_construct**(array`$configs`, bool`$readonly`\= false)
 
 **Увага**
 

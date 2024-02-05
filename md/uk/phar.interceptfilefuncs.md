@@ -31,7 +31,7 @@ No parameters.
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::interceptFileFuncs()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::interceptFileFuncs()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +42,7 @@ include 'phar://' . __FILE__ . '/file.php';
 
 Припустимо, що ми маємо `/path/to/myphar.phar` і в ньому містяться файли `file.php`и`file2.txt`. . `file.php` містить такий код:
 
-**Пример #2 Пример использования**Phar::interceptFileFuncs()\*\*\*\*
+**Приклад #2 Приклад використання** Phar::interceptFileFuncs()\*\*\*\*
 
 ```php
 <?php

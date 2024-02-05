@@ -43,7 +43,7 @@ tidy_get_body(tidy $tidy): ?tidyNode
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::getBody()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::getBody()\*\*\*\*
 
 ```php
 <?php

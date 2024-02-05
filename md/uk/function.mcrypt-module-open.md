@@ -49,7 +49,7 @@ mcrypt_module_open(    string $algorithm,    string $algorithm_directory
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_module\_open()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_module\_open()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +62,7 @@ mcrypt_module_open(    string $algorithm,    string $algorithm_directory
 
 У першому рядку прикладу ми намагаємося відкрити шифр `DES` з директорії за замовчуванням та використовувати режим `ECB` із директорії /usr/lib/mcrypt-modes. У другому прикладі використовуємо рядкові імена шифру та режиму, що працює лише з модулем, зібраним із бібліотекою libmcrypt 2.4.x or 2.5.x.
 
-**Пример #2 Пример использования**mcrypt\_module\_open()\*\*\*\*
+**Приклад #2 Приклад використання** mcrypt\_module\_open()\*\*\*\*
 
 ```php
 <?php

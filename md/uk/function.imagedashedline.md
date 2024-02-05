@@ -59,7 +59,7 @@ imagedashedline(    GdImage $image,    int $x1,    int $y1,    i
 
 ### Приклади
 
-**Пример #1 Пример использования**imagedashedline()\*\*\*\*
+**Приклад #1 Приклад використання** imagedashedline()\*\*\*\*
 
 ```php
 <?php

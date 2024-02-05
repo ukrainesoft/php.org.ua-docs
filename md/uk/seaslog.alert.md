@@ -45,7 +45,7 @@ public static SeasLog::alert(string $message, array $content = ?, string $logger
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::alert()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::alert()\*\*\*\*
 
 ```php
 <?php

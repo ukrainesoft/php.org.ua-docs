@@ -41,7 +41,7 @@ gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): arr
 
 ### Приклади
 
-**Пример #1 Пример использования**gnupg\_decryptverify()\*\* у процедурному стилі\*\*
+**Приклад #1 Приклад використання** gnupg\_decryptverify()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -53,7 +53,7 @@ print_r($info);
 ?>
 ```
 
-**Пример #2 Пример использования**gnupg\_decryptverify()\*\* в об'єктно-орієнтованому стилі\*\*
+**Приклад #2 Приклад використання** gnupg\_decryptverify()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

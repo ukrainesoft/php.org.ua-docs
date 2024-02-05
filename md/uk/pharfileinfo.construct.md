@@ -15,7 +15,7 @@ PharFileInfo::\_\_construct — Конструктор об'єкта PharFileInf
 
 ### Опис
 
-public**PharFileInfo::\_\_construct**(string`$filename`) .
+public **PharFileInfo::\_\_construct**(string`$filename`) .
 
 Не повинен викликатись безпосередньо. Об'єкт PharFileInfo слід ініціалізувати за допомогою [Phar::offsetGet()](phar.offsetget.md)за допомогою синтаксису доступу до масиву.
 
@@ -31,7 +31,7 @@ public**PharFileInfo::\_\_construct**(string`$filename`) .
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::\_\_construct()\*\*\*\*
 
 ```php
 <?php

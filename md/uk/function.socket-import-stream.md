@@ -39,7 +39,7 @@ socket_import_stream(resource $stream): Socket|false
 
 ### Приклади
 
-**Пример #1 Пример использования**socket\_import\_stream()\*\*\*\*
+**Приклад #1 Приклад використання** socket\_import\_stream()\*\*\*\*
 
 ```php
 <?php

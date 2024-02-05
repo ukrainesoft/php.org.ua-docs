@@ -37,7 +37,7 @@ public SolrDisMaxQuery::addQueryField(string $field, string $boost = ?): SolrDis
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::addQueryField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::addQueryField()\*\*\*\*
 
 ```php
 <?php

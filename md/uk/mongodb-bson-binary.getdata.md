@@ -33,7 +33,7 @@ final public MongoDB\BSON\Binary::getData(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Binary::getData()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Binary::getData()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ call_user_func_array(callable $callback, array $args): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования функции**call\_user\_func\_array()\*\*\*\*
+**Приклад #1 Приклад использования функции**call\_user\_func\_array()\*\*\*\*
 
 ```php
 <?php
@@ -79,7 +79,7 @@ foobar got one and two
 foo::bar got three and four
 ```
 
-**Пример #2 Пример использования**call\_user\_func\_array()\*\* з ім'ям простору імен\*\*
+**Приклад #2 Приклад використання** call\_user\_func\_array()\*\* з ім'ям простору імен\*\*
 
 ```php
 <?php
@@ -149,7 +149,7 @@ function mega $a=55
 global $bar=55
 ```
 
-**Пример #5 Пример использования**call\_user\_func\_array()\*\* з іменованими аргументами\*\*
+**Приклад #5 Приклад використання** call\_user\_func\_array()\*\* з іменованими аргументами\*\*
 
 ```php
 <?php

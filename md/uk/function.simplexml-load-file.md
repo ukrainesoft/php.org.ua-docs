@@ -83,7 +83,7 @@ if (file_exists('test.xml')) {
 ```
 SimpleXMLElement Object
 (
-  [title] => Пример заголовка
+  [title] => Приклад заголовка
   ...
 )
 ```

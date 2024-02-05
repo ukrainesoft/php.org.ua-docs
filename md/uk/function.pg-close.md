@@ -51,7 +51,7 @@ pg_close(?PgSql\Connection $connection = null): true
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_close()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_close()\*\*\*\*
 
 ```php
 <?php

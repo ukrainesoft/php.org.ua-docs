@@ -49,7 +49,7 @@ sodium_crypto_stream_xchacha20_xor_ic(    string $message,    string $no
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_stream\_xchacha20\_xor\_ic()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_stream\_xchacha20\_xor\_ic()\*\*\*\*
 
 ```php
 <?php

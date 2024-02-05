@@ -37,7 +37,7 @@ getservbyname(string $service, string $protocol): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**getservbyname()\*\*\*\*
+**Приклад #1 Приклад використання** getservbyname()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ imagecreatefromgd2(string $filename): GdImage|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecreatefromgd2()\*\*\*\*
+**Приклад #1 Приклад використання** imagecreatefromgd2()\*\*\*\*
 
 ```php
 <?php

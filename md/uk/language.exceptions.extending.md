@@ -109,7 +109,7 @@ class TestException
     }
 }
 
-// Пример 1
+// Приклад 1
 try {
     $o = new TestException(TestException::THROW_CUSTOM);
 } catch (MyException $e) {      // Будет перехвачено
@@ -124,7 +124,7 @@ var_dump($o); // Null
 echo "\n\n";
 
 
-// Пример 2
+// Приклад 2
 try {
     $o = new TestException(TestException::THROW_DEFAULT);
 } catch (MyException $e) {      // Тип исключения не совпадёт
@@ -139,7 +139,7 @@ var_dump($o); // Null
 echo "\n\n";
 
 
-// Пример 3
+// Приклад 3
 try {
     $o = new TestException(TestException::THROW_CUSTOM);
 } catch (Exception $e) {        // Будет перехвачено
@@ -151,7 +151,7 @@ var_dump($o); // Null
 echo "\n\n";
 
 
-// Пример 4
+// Приклад 4
 try {
     $o = new TestException();
 } catch (Exception $e) {        // Будет пропущено, т.к. исключение не выбрасывается

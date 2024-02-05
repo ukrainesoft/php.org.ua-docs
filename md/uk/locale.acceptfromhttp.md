@@ -45,7 +45,7 @@ locale_accept_from_http(string $header): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_accept\_from\_http()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_accept\_from\_http()\*\*\*\*
 
 ```php
 <?php

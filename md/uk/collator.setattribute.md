@@ -49,7 +49,7 @@ collator_set_attribute(Collator $object, int $attribute, int $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_set\_attribute()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_set\_attribute()\*\*\*\*
 
 ```php
 <?php

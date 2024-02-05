@@ -45,7 +45,7 @@ posix_getpwnam(string $username): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getpwnam()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getpwnam()\*\*\*\*
 
 ```php
 <?php

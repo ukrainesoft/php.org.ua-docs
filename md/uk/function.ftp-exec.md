@@ -43,7 +43,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_exec()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_exec()\*\*\*\*
 
 ```php
 <?php

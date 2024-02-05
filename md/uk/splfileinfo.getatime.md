@@ -35,7 +35,7 @@ public SplFileInfo::getATime(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getATime()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getATime()\*\*\*\*
 
 ```php
 <?php

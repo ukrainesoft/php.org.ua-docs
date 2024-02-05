@@ -31,7 +31,7 @@ public SplObjectStorage::getInfo(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::getInfo()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::getInfo()\*\*\*\*
 
 ```php
 <?php

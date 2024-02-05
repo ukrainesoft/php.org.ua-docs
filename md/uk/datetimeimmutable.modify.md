@@ -43,7 +43,7 @@ public DateTimeImmutable::modify(string $modifier): DateTimeImmutable|false
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::modify()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::modify()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

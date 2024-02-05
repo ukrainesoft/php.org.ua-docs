@@ -15,7 +15,7 @@ InfiniteIterator::\_\_construct - Конструктор класу InfiniteIter
 
 ### Опис
 
-public**InfiniteIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`) .
+public **InfiniteIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`) .
 
 Створює новий об'єкт класу [InfiniteIterator](class.infiniteiterator.md) на основі об'єкта-ітератора [Iterator](class.iterator.md)
 
@@ -27,7 +27,7 @@ public**InfiniteIterator::\_\_construct** [Iterator](class.iterator.md) `$iterat
 
 ### Приклади
 
-**Пример #1 Пример использования**InfiniteIterator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** InfiniteIterator::\_\_construct()\*\*\*\*
 
 ```php
 <?php

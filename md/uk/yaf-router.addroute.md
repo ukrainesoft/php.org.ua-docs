@@ -31,7 +31,7 @@ public Yaf_Router::addRoute(string $name, Yaf_Route_Abstract $route): bool
 
 ### Приклади
 
-**Пример #1 Пример использования[Yaf\_Dispatcher::autoRender()](yaf-dispatcher.autorender.md)**
+**Приклад #1 Приклад использования[Yaf\_Dispatcher::autoRender()](yaf-dispatcher.autorender.md)**
 
 ```php
 <?php

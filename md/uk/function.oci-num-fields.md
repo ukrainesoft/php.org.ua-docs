@@ -33,7 +33,7 @@ oci_num_fields(resource $statement): int
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_num\_fields()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_num\_fields()\*\*\*\*
 
 ```php
 <?php

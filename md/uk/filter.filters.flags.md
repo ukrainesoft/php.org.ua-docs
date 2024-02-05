@@ -53,5 +53,5 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 | Версия | Опис |
 | --- | --- |
 | 8.2.0 | Добавлена константа\*\*`FILTER_FLAG_GLOBAL_RANGE`\*\* як прапор для **`FILTER_VALIDATE_IP`** |
-| 7.3.0 | Явна передача прапорів **`FILTER_FLAG_SCHEME_REQUIRED`**и**`FILTER_FLAG_HOST_REQUIRED`** оголошено застарілою. |
+| 7.3.0 | Явна передача прапорів **`FILTER_FLAG_SCHEME_REQUIRED`** і **`FILTER_FLAG_HOST_REQUIRED`** оголошено застарілою. |
 | 7.1.0 | Доданий прапор **`FILTER_FLAG_EMAIL_UNICODE`** |

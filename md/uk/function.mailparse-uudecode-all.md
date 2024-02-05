@@ -37,7 +37,7 @@ mailparse_uudecode_all(resource $fp): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mailparse\_uudecode\_all()\*\*\*\*
+**Приклад #1 Приклад використання** mailparse\_uudecode\_all()\*\*\*\*
 
 ```php
 <?php

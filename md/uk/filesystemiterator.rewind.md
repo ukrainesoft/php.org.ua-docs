@@ -31,7 +31,7 @@ public FilesystemIterator::rewind(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**FilesystemIterator::rewind()\*\*\*\*
+**Приклад #1 Приклад використання** FilesystemIterator::rewind()\*\*\*\*
 
 ```php
 <?php

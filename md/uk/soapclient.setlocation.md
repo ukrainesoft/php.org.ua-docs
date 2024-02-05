@@ -43,7 +43,7 @@ public SoapClient::__setLocation(?string $location = null): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapClient::\_\_setLocation()\*\*\*\*
+**Приклад #1 Приклад використання** SoapClient::\_\_setLocation()\*\*\*\*
 
 ```php
 <?php

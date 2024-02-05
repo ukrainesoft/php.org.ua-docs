@@ -37,7 +37,7 @@ sodium_crypto_generichash_final(string &$state, int $length = SODIUM_CRYPTO_GENE
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_generichash\_final()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_generichash\_final()\*\*\*\*
 
 ```php
 <?php

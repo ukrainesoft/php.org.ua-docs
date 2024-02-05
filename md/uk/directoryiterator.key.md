@@ -37,7 +37,7 @@ public DirectoryIterator::key(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::key()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::key()\*\*\*\*
 
 ```php
 <?php

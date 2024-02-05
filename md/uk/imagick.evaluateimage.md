@@ -45,7 +45,7 @@ public Imagick::evaluateImage(int $op, float $constant, int $channel = Imagick::
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::evaluateImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::evaluateImage()\*\*\*\*
 
 Використання evaluateImage для зменшення непрозорості зображення.
 

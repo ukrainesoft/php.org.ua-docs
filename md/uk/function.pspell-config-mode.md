@@ -47,7 +47,7 @@ pspell_config_mode(PSpell\Config $config, int $mode): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_config\_mode()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_config\_mode()\*\*\*\*
 
 ```php
 <?php

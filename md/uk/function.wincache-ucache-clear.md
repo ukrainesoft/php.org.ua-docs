@@ -31,7 +31,7 @@ wincache_ucache_clear(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ucache\_clear()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_ucache\_clear()\*\*\*\*
 
 ```php
 <?php

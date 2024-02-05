@@ -41,7 +41,7 @@ abstract public Ds\Sequence::set(int $index, mixed $value): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::set()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::set()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +63,7 @@ Ds\Vector Object
 )
 ```
 
-**Пример #2 Пример использования**Ds\\Sequence::set()\*\* із синтаксисом масиву\*\*
+**Приклад #2 Приклад використання** Ds\\Sequence::set()\*\* із синтаксисом масиву\*\*
 
 ```php
 <?php

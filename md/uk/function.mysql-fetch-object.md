@@ -48,7 +48,7 @@ mysql_fetch_object(resource $result, string $class_name = ?, array $params = ?):
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_fetch\_object()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_fetch\_object()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +63,7 @@ mysql_free_result($result);
 ?>
 ```
 
-**Пример #2 Пример использования**mysql\_fetch\_object()\*\*\*\*
+**Приклад #2 Приклад використання** mysql\_fetch\_object()\*\*\*\*
 
 ```php
 <?php

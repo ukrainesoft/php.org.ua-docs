@@ -39,7 +39,7 @@ public Imagick::raiseImage(    int $width,    int $height,    int $x
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::raiseImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::raiseImage()\*\*\*\*
 
 ```php
 <?php

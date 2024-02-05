@@ -37,7 +37,7 @@ gzfile(string $filename, int $use_include_path = 0): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**gzfile()\*\*\*\*
+**Приклад #1 Приклад використання** gzfile()\*\*\*\*
 
 ```php
 <?php

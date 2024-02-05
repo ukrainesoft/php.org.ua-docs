@@ -37,7 +37,7 @@ rmdir(string $directory, ?resource $context = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**rmdir()\*\*\*\*
+**Приклад #1 Приклад використання** rmdir()\*\*\*\*
 
 ```php
 <?php

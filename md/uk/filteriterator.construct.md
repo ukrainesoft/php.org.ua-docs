@@ -15,7 +15,7 @@ FilterIterator::\_\_construct - Конструктор класу FilterIterator
 
 ### Опис
 
-public**FilterIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`) .
+public **FilterIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`) .
 
 Створює об'єкт класу [FilterIterator](class.filteriterator.md), що складається з ітератора, переданого у параметрі `iterator`, та фільтрів, що застосовуються до нього.
 

@@ -15,7 +15,7 @@ streamWrapper::\_\_destruct — Знищує існуючу обгортку п�
 
 ### Опис
 
-public**streamWrapper::\_\_destruct**()
+public **streamWrapper::\_\_destruct**()
 
 Викликається під час закриття обгортки потоку безпосередньо перед викликом методу [streamWrapper::stream\_flush()](streamwrapper.stream-flush.md)
 

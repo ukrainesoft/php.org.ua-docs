@@ -74,7 +74,7 @@ final public MongoDB\Driver\Manager::executeBulkWrite(string $namespace, MongoDB
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Manager::executeBulkWrite()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Manager::executeBulkWrite()\*\*\*\*
 
 ```php
 <?php

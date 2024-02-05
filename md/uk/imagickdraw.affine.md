@@ -37,7 +37,7 @@ public ImagickDraw::affine(array $affine): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::affine()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::affine()\*\*\*\*
 
 ```php
 <?php

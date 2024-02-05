@@ -33,7 +33,7 @@ public RegexIterator::setPregFlags(int $pregFlags): void
 
 ### Приклади
 
-**Пример #1 Пример использования**RegexIterator::setPregFlags()\*\*\*\*
+**Приклад #1 Приклад використання** RegexIterator::setPregFlags()\*\*\*\*
 
 Створює новий об'єкт RegexIterator, який відбирає елементи масиву, ключі яких починаються зі слова 'test'.
 

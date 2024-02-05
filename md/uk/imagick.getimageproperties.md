@@ -37,7 +37,7 @@ public Imagick::getImageProperties(string $pattern = "*", bool $include_values =
 
 ### Приклади
 
-**Пример #1 Использование**Imagick::getImageProperties()\*\* :\*\*
+**Приклад #1 Использование**Imagick::getImageProperties()\*\* :\*\*
 
 Приклад отримання EXIF-інформації.
 

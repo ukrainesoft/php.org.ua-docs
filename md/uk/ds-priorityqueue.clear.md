@@ -31,7 +31,7 @@ public Ds\PriorityQueue::clear(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\PriorityQueue::clear()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\PriorityQueue::clear()\*\*\*\*
 
 ```php
 <?php

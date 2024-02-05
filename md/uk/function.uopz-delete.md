@@ -39,7 +39,7 @@ uopz_delete(string $class, string $function): void
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_delete()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_delete()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +55,7 @@ echo strlen("Hello World");
 PHP Fatal error: Call to undefined function strlen() in /path/to/script.php on line 4
 ```
 
-**Пример #2 Пример использования**uopz\_delete()\*\* з класом\*\*
+**Приклад #2 Приклад використання** uopz\_delete()\*\* з класом\*\*
 
 ```php
 <?php

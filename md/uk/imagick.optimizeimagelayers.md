@@ -35,7 +35,7 @@ public Imagick::optimizeImageLayers(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::optimizeImageLayers()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::optimizeImageLayers()\*\*\*\*
 
 Читання, оптимізація та запис зображення у форматі GIF
 

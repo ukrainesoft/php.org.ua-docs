@@ -57,7 +57,7 @@ callback(
 
 `events`
 
-Бітова маска подій: **`EventBufferEvent::READING`** **`EventBufferEvent::WRITING`** **`EventBufferEvent::EOL`** **`EventBufferEvent::ERROR`**и**`EventBufferEvent::TIMEOUT`**. Смотрите[Константи EventBufferEvent](class.eventbufferevent.md#eventbufferevent.constants)
+Бітова маска подій: **`EventBufferEvent::READING`** **`EventBufferEvent::WRITING`** **`EventBufferEvent::EOL`** **`EventBufferEvent::ERROR`** і **`EventBufferEvent::TIMEOUT`**. Смотрите[Константи EventBufferEvent](class.eventbufferevent.md#eventbufferevent.constants)
 
 `arg`
 

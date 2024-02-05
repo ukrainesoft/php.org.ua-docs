@@ -31,7 +31,7 @@ UUID; рядок завдовжки 32 символи.
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::generateUuid()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::generateUuid()\*\*\*\*
 
 ```php
 <?php

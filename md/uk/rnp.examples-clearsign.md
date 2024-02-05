@@ -22,7 +22,7 @@ $ffi = rnp_ffi_create('GPG', 'GPG');
 $key = rnp_op_generate_key($ffi, 'test@example.com', 'RSA');
 
 // Подписание
-$data = "Пример текста для подписи";
+$data = "Приклад текста для подписи";
 $signature = rnp_op_sign_cleartext($ffi, $data, array($key));
 
 echo $signature;

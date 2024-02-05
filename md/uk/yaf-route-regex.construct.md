@@ -15,7 +15,7 @@ Yaf\_Route\_Regex::\_\_construct - Конструктор класу Yaf\_Route\
 
 ### Опис
 
-public**Yaf\_Route\_Regex::\_\_construct**  
+public **Yaf\_Route\_Regex::\_\_construct**  
 string`$match`,  
 array`$route`,  
 array`$map`  
@@ -53,7 +53,7 @@ string`$reverse`
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Route\_Regex()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Route\_Regex()\*\*\*\*
 
 ```php
 <?php
@@ -75,7 +75,7 @@ string`$reverse`
 ?>
 ```
 
-**Пример #2 Пример использования**Yaf\_Route\_Regex (з версії 2.3.0)()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Route\_Regex (з версії 2.3.0)()\*\*\*\*
 
 ```php
 <?php
@@ -97,7 +97,7 @@ string`$reverse`
 ?>
 ```
 
-**Пример #3 Пример использования**Yaf\_Route\_Regex із іменованими збігами (з версії 2.3.0)()\*\*\*\*
+**Приклад #3 Приклад використання** Yaf\_Route\_Regex із іменованими збігами (з версії 2.3.0)()\*\*\*\*
 
 ```php
 <?php
@@ -119,7 +119,7 @@ string`$reverse`
 ?>
 ```
 
-**Пример #4 Пример использования**Yaf\_Route\_Regex()\*\*\*\*
+**Приклад #4 Приклад використання** Yaf\_Route\_Regex()\*\*\*\*
 
 ```php
 <?php

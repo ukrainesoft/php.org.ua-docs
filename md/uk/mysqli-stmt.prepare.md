@@ -70,7 +70,7 @@ mysqli_stmt_prepare(mysqli_stmt $statement, string $query): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_stmt::prepare()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_stmt::prepare()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

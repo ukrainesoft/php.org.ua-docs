@@ -41,7 +41,7 @@ array_merge_recursive(array ...$arrays): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_merge\_recursive()\*\*\*\*
+**Приклад #1 Приклад використання** array\_merge\_recursive()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ snmp_set_valueretrieval(int $method): true
 
 ### Приклади
 
-**Пример #1 Пример использования**snmp\_set\_valueretrieval()\*\*\*\*
+**Приклад #1 Приклад використання** snmp\_set\_valueretrieval()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ resourcebundle_get_error_message(ResourceBundle $bundle): string
 
 ### Приклади
 
-**Пример #1 Пример использования**resourcebundle\_get\_error\_message()\*\*\*\*
+**Приклад #1 Приклад використання** resourcebundle\_get\_error\_message()\*\*\*\*
 
 ```php
 <?php

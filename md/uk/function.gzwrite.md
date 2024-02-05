@@ -48,7 +48,7 @@ gzwrite(resource $stream, string $data, ?int $length = null): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**gzwrite()\*\*\*\*
+**Приклад #1 Приклад використання** gzwrite()\*\*\*\*
 
 ```php
 <?php

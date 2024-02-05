@@ -47,7 +47,7 @@ imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bo
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_set\_quota()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_set\_quota()\*\*\*\*
 
 ```php
 <?php

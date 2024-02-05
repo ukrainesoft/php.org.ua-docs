@@ -31,7 +31,7 @@ restore_exception_handler(): true
 
 ### Приклади
 
-**Пример #1 Пример использования**restore\_exception\_handler()\*\*\*\*
+**Приклад #1 Приклад використання** restore\_exception\_handler()\*\*\*\*
 
 ```php
 <?php

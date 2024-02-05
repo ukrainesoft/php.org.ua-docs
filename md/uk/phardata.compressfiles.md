@@ -39,7 +39,7 @@ public PharData::compressFiles(int $compression): void
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::compressFiles()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::compressFiles()\*\*\*\*
 
 ```php
 <?php

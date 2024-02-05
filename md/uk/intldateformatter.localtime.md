@@ -51,7 +51,7 @@ datefmt_localtime(IntlDateFormatter $formatter, string $string, int &$offset = n
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_localtime()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_localtime()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ eio_realpath(    string $path,    int $pri,    callable $callback, 
 
 ### Приклади
 
-**Пример #1 Пример использования**eio\_realpath()\*\*\*\*
+**Приклад #1 Приклад використання** eio\_realpath()\*\*\*\*
 
 ```php
 <?php

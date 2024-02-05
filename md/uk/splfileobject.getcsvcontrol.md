@@ -38,7 +38,7 @@ public SplFileObject::getCsvControl(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::getCsvControl()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::getCsvControl()\*\*\*\*
 
 ```php
 <?php

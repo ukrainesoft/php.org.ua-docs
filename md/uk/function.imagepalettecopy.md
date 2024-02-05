@@ -43,7 +43,7 @@ imagepalettecopy(GdImage $dst, GdImage $src): void
 
 ### Приклади
 
-**Пример #1 Пример использования**imagepalettecopy()\*\*\*\*
+**Приклад #1 Приклад використання** imagepalettecopy()\*\*\*\*
 
 ```php
 <?php

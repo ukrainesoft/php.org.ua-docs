@@ -45,7 +45,7 @@ mysqli_stmt_affected_rows(mysqli_stmt $statement): int|string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_stmt\_affected\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_stmt\_affected\_rows()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

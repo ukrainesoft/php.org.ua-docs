@@ -43,7 +43,7 @@ numfmt_get_error_code(NumberFormatter $formatter): int
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_get\_error\_code()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_get\_error\_code()\*\*\*\*
 
 ```php
 <?php

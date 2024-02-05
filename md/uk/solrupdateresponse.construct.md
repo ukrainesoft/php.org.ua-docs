@@ -15,7 +15,7 @@ SolrUpdateResponse::\_\_construct — Конструктор
 
 ### Опис
 
-public**SolrUpdateResponse::\_\_construct**()
+public **SolrUpdateResponse::\_\_construct**()
 
 Конструктор
 

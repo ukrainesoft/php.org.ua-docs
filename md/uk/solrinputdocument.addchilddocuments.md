@@ -39,7 +39,7 @@ public SolrInputDocument::addChildDocuments(array &$docs): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrInputDocument::addChildDocuments()\*\*\*\*
+**Приклад #1 Приклад використання** SolrInputDocument::addChildDocuments()\*\*\*\*
 
 ```php
 <?php

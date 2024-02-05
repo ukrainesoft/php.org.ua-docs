@@ -35,7 +35,7 @@ public Ds\PriorityQueue::peek(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\PriorityQueue::peek()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\PriorityQueue::peek()\*\*\*\*
 
 ```php
 <?php

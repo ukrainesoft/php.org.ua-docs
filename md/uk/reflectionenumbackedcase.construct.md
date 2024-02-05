@@ -15,7 +15,7 @@ ReflectionEnumBackedCase::\_\_construct — Створює об'єкт [Reflecti
 
 ### Опис
 
-public**ReflectionEnumBackedCase::\_\_construct**(object|string`$class`, string`$constant`) .
+public **ReflectionEnumBackedCase::\_\_construct**(object|string`$class`, string`$constant`) .
 
 ### Список параметрів
 

@@ -45,7 +45,7 @@ public Ds\Vector::insert(int $index, mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::insert()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::insert()\*\*\*\*
 
 ```php
 <?php

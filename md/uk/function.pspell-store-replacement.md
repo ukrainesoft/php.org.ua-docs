@@ -47,7 +47,7 @@ pspell_store_replacement(PSpell\Dictionary $dictionary, string $misspelled, stri
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_store\_replacement()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_store\_replacement()\*\*\*\*
 
 ```php
 <?php

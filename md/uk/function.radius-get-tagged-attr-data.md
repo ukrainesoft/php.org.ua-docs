@@ -33,7 +33,7 @@ radius_get_tagged_attr_data(string $data): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_get\_tagged\_attr\_data()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_get\_tagged\_attr\_data()\*\*\*\*
 
 ```php
 <?php

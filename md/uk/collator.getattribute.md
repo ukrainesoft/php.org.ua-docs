@@ -47,7 +47,7 @@ collator_get_attribute(Collator $object, int $attribute): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_get\_attribute()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_get\_attribute()\*\*\*\*
 
 ```php
 <?php

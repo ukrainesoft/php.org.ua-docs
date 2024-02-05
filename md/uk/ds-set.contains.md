@@ -41,7 +41,7 @@ public Ds\Set::contains(mixed ...$values): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Set::contains()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Set::contains()\*\*\*\*
 
 ```php
 <?php

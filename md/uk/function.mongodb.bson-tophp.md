@@ -61,7 +61,7 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\toPHP()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\toPHP()\*\*\*\*
 
 ```php
 <?php

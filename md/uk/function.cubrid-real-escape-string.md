@@ -39,7 +39,7 @@ cubrid_real_escape_string(string $unescaped_string, resource $conn_identifier = 
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_real\_escape\_string()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_real\_escape\_string()\*\*\*\*
 
 ```php
 <?php

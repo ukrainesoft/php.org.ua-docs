@@ -43,7 +43,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_delete()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_delete()\*\*\*\*
 
 ```php
 <?php

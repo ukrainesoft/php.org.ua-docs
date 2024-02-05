@@ -69,7 +69,7 @@ The**mqseries\_get()**(MQGET) call retrieves a message from a local queue that h
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_get()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_get()\*\*\*\*
 
 ```php
 <?php

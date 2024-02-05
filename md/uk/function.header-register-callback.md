@@ -35,7 +35,7 @@ header_register_callback(callable $callback): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**header\_register\_callback()\*\*\*\*
+**Приклад #1 Приклад використання** header\_register\_callback()\*\*\*\*
 
 ```php
 <?php

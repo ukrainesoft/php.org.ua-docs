@@ -29,7 +29,7 @@ public static SeasLog::getBuffer(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::getBuffer()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::getBuffer()\*\*\*\*
 
 ```php
 <?php

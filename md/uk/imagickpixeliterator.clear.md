@@ -31,7 +31,7 @@ public ImagickPixelIterator::clear(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixelIterator::clear()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixelIterator::clear()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public mysql_xdevapi\CollectionModify::bind(array $placeholder_values): mysql_xd
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::bind()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionModify::bind()\*\*\*\*
 
 ```php
 <?php

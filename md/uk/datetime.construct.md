@@ -15,7 +15,7 @@ DateTime::\_\_construct - Конструктор класу DateTime
 
 ### Опис
 
-public**DateTime::\_\_construct**(string`$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**) .
+public **DateTime::\_\_construct**(string`$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**) .
 
 Цей конструктор схожий на конструктор [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md), але працює з об'єктом [DateTime](class.datetime.md). Врахуйте, що замість цього класу краще працювати із класом [DateTimeImmutable](class.datetimeimmutable.md) та його функціями.
 

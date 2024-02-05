@@ -33,7 +33,7 @@ public Imagick::posterizeImage(int $levels, bool $dither): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::posterizeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::posterizeImage()\*\*\*\*
 
 ```php
 <?php

@@ -88,7 +88,7 @@ severity
 
 ## Приклади
 
-**Пример #1 Использование[set\_error\_handler()](function.set-error-handler.md) змінити повідомлення про помилки в ErrorException.**
+**Приклад #1 Использование[set\_error\_handler()](function.set-error-handler.md) змінити повідомлення про помилки в ErrorException.**
 
 ```php
 <?php

@@ -35,7 +35,7 @@ get_resource_type(resource $resource): string
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_resource\_type()\*\*\*\*
+**Приклад #1 Приклад використання** get\_resource\_type()\*\*\*\*
 
 ```php
 <?php

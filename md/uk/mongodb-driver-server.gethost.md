@@ -35,7 +35,7 @@ final public MongoDB\Driver\Server::getHost(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Server::getHost()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Server::getHost()\*\*\*\*
 
 ```php
 <?php

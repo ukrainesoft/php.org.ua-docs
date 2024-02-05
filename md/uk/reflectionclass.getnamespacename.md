@@ -31,7 +31,7 @@ public ReflectionClass::getNamespaceName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getNamespaceName()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getNamespaceName()\*\*\*\*
 
 ```php
 <?php

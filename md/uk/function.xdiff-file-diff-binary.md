@@ -43,7 +43,7 @@ xdiff_file_diff_binary(string $old_file, string $new_file, string $dest): bool
 
 ### Приклади
 
-**Пример #1 Апмсер использования**xdiff\_file\_diff\_binary()\*\*\*\*
+**Приклад #1 Апмсер использования**xdiff\_file\_diff\_binary()\*\*\*\*
 
 Наступний код створює бінарний патч, порівнюючи два архіви.
 

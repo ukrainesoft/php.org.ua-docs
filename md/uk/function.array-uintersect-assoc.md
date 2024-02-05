@@ -70,7 +70,7 @@ $compareFunc = static function ($item1, $item2) {
 
 ### Приклади
 
-**Пример #1 Пример использования функции**array\_uintersect\_assoc()\*\*\*\*
+**Приклад #1 Приклад использования функции**array\_uintersect\_assoc()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ public ReflectionMethod::invokeArgs(?object $object, array $args): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionMethod::invokeArgs()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionMethod::invokeArgs()\*\*\*\*
 
 ```php
 <?php

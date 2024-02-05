@@ -58,7 +58,7 @@ htmlspecialchars_decode(string $string, int $flags = ENT_QUOTES | ENT_SUBSTITUTE
 
 ### Приклади
 
-**Пример #1 Пример использования функции**htmlspecialchars\_decode()\*\*\*\*
+**Приклад #1 Приклад использования функции**htmlspecialchars\_decode()\*\*\*\*
 
 ```php
 <?php

@@ -84,7 +84,7 @@ handler(    int $errno,    string $errstr,    string $errfile = ?, 
 
 ### Приклади
 
-**Пример #1 Обработка ошибок с помощью функций**set\_error\_handler()**и[trigger\_error()](function.trigger-error.md)**
+**Приклад #1 Обработка ошибок с помощью функций**set\_error\_handler()**и[trigger\_error()](function.trigger-error.md)**
 
 Приклад нижче демонструє обробку внутрішніх виключень шляхом виклику помилок різних типів та їх обробки користувальницькою функцією:
 

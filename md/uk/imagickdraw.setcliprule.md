@@ -37,7 +37,7 @@ public ImagickDraw::setClipRule(int $fill_rule): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setClipRule()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setClipRule()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public mysql_xdevapi\Collection::find(string $search_condition = ?): mysql_xdeva
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::find()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::find()\*\*\*\*
 
 ```php
 <?php

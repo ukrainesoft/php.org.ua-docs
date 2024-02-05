@@ -37,7 +37,7 @@ public ImagickDraw::setFontSize(float $pointsize): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFontSize()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFontSize()\*\*\*\*
 
 ```php
 <?php

@@ -25,11 +25,11 @@ snmp_get_valueretrieval(): int
 
 ### Значення, що повертаються
 
-Об'єднання констант (**`SNMP_VALUE_LIBRARY`**или**`SNMP_VALUE_PLAIN`**) з можливим набором SNMP\_VALUE\_OBJECT.
+Об'єднання констант (**`SNMP_VALUE_LIBRARY`** або **`SNMP_VALUE_PLAIN`**) з можливим набором SNMP\_VALUE\_OBJECT.
 
 ### Приклади
 
-**Пример #1 Пример использования**snmp\_get\_valueretrieval()\*\*\*\*
+**Приклад #1 Приклад використання** snmp\_get\_valueretrieval()\*\*\*\*
 
 ```php
 <?php

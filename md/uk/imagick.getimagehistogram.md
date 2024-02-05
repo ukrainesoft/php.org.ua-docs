@@ -35,7 +35,7 @@ public Imagick::getImageHistogram(): array
 
 ### Приклади
 
-**Пример #1 Генерация**Imagick::getImageHistogram()\*\*\*\*
+**Приклад #1 Генерация**Imagick::getImageHistogram()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionProperty::hasDefaultValue(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::hasDefaultValue()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::hasDefaultValue()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ gzpassthru(resource $stream): int
 
 ### Приклади
 
-**Пример #1 Пример использования**gzpassthru()\*\*\*\*
+**Приклад #1 Приклад використання** gzpassthru()\*\*\*\*
 
 ```php
 <?php

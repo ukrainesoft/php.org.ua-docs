@@ -75,7 +75,7 @@ Memcache::addServer(    string $host,    int $port = 11211,    bool 
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::addServer()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::addServer()\*\*\*\*
 
 ```php
 <?php

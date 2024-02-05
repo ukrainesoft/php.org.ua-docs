@@ -31,7 +31,7 @@ public ReflectionExtension::getConstants(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionExtension::getConstants()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionExtension::getConstants()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ public Imagick::randomThresholdImage(float $low, float $high, int $channel = Ima
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::randomThresholdImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::randomThresholdImage()\*\*\*\*
 
 ```php
 <?php

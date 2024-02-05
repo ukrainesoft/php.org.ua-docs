@@ -48,7 +48,7 @@ parse_str(string $string, array &$result): void
 
 ### Приклади
 
-**Пример #1 Использование**parse\_str()\*\*\*\*
+**Приклад #1 Использование**parse\_str()\*\*\*\*
 
 ```php
 <?php

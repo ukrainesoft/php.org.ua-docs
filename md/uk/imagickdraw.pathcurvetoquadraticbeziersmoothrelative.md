@@ -43,7 +43,7 @@ public ImagickDraw::pathCurveToQuadraticBezierSmoothRelative(float $x, float $y)
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::pathCurveToQuadraticBezierSmoothRelative()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::pathCurveToQuadraticBezierSmoothRelative()\*\*\*\*
 
 ```php
 <?php

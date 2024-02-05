@@ -37,7 +37,7 @@ public ImagickDraw::setFontStyle(int $style): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFontStyle()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFontStyle()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ ibase_field_info(resource $result, int $field_number): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_field\_info()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_field\_info()\*\*\*\*
 
 ```php
 <?php

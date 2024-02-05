@@ -33,7 +33,7 @@ readline(?string $prompt = null): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**readline()\*\*\*\*
+**Приклад #1 Приклад використання** readline()\*\*\*\*
 
 ```php
 <?php

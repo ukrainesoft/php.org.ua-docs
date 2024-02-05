@@ -61,23 +61,23 @@ oci_bind_by_name(    resource $statement,    string $param,    mixed
 
 Допустимі значення параметра `type` :
 
--   \*\*`SQLT_BFILEE`**или**`OCI_B_BFILE`\*\*- для BFILE-об'єктів;
+-   \*\*`SQLT_BFILEE`** або **`OCI_B_BFILE`\*\*- для BFILE-об'єктів;
     
--   \*\*`SQLT_CFILEE`**или**`OCI_B_CFILEE`\*\*- для CFILE-об'єктів;
+-   \*\*`SQLT_CFILEE`** або **`OCI_B_CFILEE`\*\*- для CFILE-об'єктів;
     
--   \*\*`SQLT_CLOB`**или**`OCI_B_CLOB`\*\*- для CLOB-об'єктів;
+-   \*\*`SQLT_CLOB`** або **`OCI_B_CLOB`\*\*- для CLOB-об'єктів;
     
--   \*\*`SQLT_BLOB`**или**`OCI_B_BLOB`\*\*- для BLOB-об'єктів;
+-   \*\*`SQLT_BLOB`** або **`OCI_B_BLOB`\*\*- для BLOB-об'єктів;
     
--   \*\*`SQLT_RDD`**или**`OCI_B_ROWID`\*\*- для ROWID-об'єктів;
+-   \*\*`SQLT_RDD`** або **`OCI_B_ROWID`\*\*- для ROWID-об'єктів;
     
--   \*\*`SQLT_NTY`**или**`OCI_B_NTY`\*\*- для іменованих типів дати;
+-   \*\*`SQLT_NTY`** або **`OCI_B_NTY`\*\*- для іменованих типів дати;
     
--   \*\*`SQLT_INT`**или**`OCI_B_INT`\*\*- для цілих чисел;
+-   \*\*`SQLT_INT`** або **`OCI_B_INT`\*\*- для цілих чисел;
     
 -   \*\*`SQLT_CHR`\*\*- для символів VARCHAR;
     
--   \*\*`SQLT_BIN`**или**`OCI_B_BIN`\*\*- для RAW-полів;
+-   \*\*`SQLT_BIN`** або **`OCI_B_BIN`\*\*- для RAW-полів;
     
 -   \*\*`SQLT_LNG`\*\*- для LONG-полів;
     
@@ -85,7 +85,7 @@ oci_bind_by_name(    resource $statement,    string $param,    mixed
     
 -   \*\*`SQLT_RSET`\*\*- для курсорів, створених функцією[oci\_new\_cursor()](function.oci-new-cursor.md)
     
--   \*\*`SQLT_BOL`**или**`OCI_B_BOL`\*\*- для PL/SQL BOOLEAN (Потрібен Oracle Database 12c)
+-   \*\*`SQLT_BOL`** або **`OCI_B_BOL`\*\*- для PL/SQL BOOLEAN (Потрібен Oracle Database 12c)
     
 
 ### Значення, що повертаються
@@ -152,7 +152,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #3 Прикрепление в цикле`foreach`**
+**Приклад #3 Прикрепление в цикле`foreach`**
 
 ```php
 <?php
@@ -365,12 +365,12 @@ oci_close($conn);
 ```php
 <?php
 
-// В данном примере добавляется запись с идентификатором и именем,
+// В данном Прикладе добавляется запись с идентификатором и именем,
 // после чего увеличивается заработная плата
 // Создание таблицы:
 //   CREATE TABLE mytab (id NUMBER, salary NUMBER, name VARCHAR2(40));
 //
-// На основе собственных ROWID на примере thies[at]thieso.net (980221)
+// На основе собственных ROWID на Прикладе thies[at]thieso.net (980221)
 
 $conn = oci_connect('hr', 'welcome', 'localhost/XE');
 if (!$conn) {
@@ -514,7 +514,7 @@ if (!$conn) {
     trigger_error(htmlentities($e['message']), E_USER_ERROR);
 }
 
-$mykey = 12343;  // произвольный ключ для примера
+$mykey = 12343;  // произвольный ключ для Приклада
 
 $sql = "INSERT INTO mytab (mykey, myclob)
         VALUES (:mykey, EMPTY_CLOB())

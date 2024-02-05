@@ -41,7 +41,7 @@ is_subclass_of(mixed $object_or_class, string $class, bool $allow_string = true)
 
 ### Приклади
 
-**Пример #1 Пример использования**is\_subclass\_of()\*\*\*\*
+**Приклад #1 Приклад використання** is\_subclass\_of()\*\*\*\*
 
 ```php
 <?php
@@ -90,7 +90,7 @@ if (is_subclass_of('WidgetFactory_Child', 'WidgetFactory')) {
 да, WidgetFactory_Child наследует WidgetFactory
 ```
 
-**Пример #2 Пример использования**is\_subclass\_of()\*\* з інтерфейсами\*\*
+**Приклад #2 Приклад використання** is\_subclass\_of()\*\* з інтерфейсами\*\*
 
 ```php
 <?php

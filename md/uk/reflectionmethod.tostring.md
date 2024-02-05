@@ -31,7 +31,7 @@ public ReflectionMethod::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionMethod::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionMethod::\_\_toString()\*\*\*\*
 
 ```php
 <?php

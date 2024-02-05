@@ -33,7 +33,7 @@ posix_getsid(int $process_id): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getsid()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getsid()\*\*\*\*
 
 ```php
 <?php

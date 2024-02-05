@@ -47,7 +47,7 @@ bcdiv(string $num1, string $num2, ?int $scale = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**bcdiv()\*\*\*\*
+**Приклад #1 Приклад використання** bcdiv()\*\*\*\*
 
 ```php
 <?php

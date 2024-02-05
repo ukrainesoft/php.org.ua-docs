@@ -33,7 +33,7 @@ public Imagick::affineTransformImage(ImagickDraw $matrix): bool
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Imagick::affineTransformImage()\*\*\*\*
+**Приклад #1 Приклад использования метода**Imagick::affineTransformImage()\*\*\*\*
 
 ```php
 <?php

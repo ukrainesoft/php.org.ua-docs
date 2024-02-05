@@ -31,7 +31,7 @@ public Ds\Queue::capacity(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Queue::capacity()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Queue::capacity()\*\*\*\*
 
 ```php
 <?php

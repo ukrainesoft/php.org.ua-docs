@@ -29,7 +29,7 @@ final public MongoDB\BSON\ObjectId::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\ObjectId::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\ObjectId::\_\_toString()\*\*\*\*
 
 ```php
 <?php

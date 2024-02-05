@@ -45,7 +45,7 @@ yaml_parse(    string $input,    int $pos = 0,    int &$ndocs = ?, 
 
 ### Приклади
 
-**Пример #1 Пример использования**yaml\_parse()\*\*\*\*
+**Приклад #1 Приклад використання** yaml\_parse()\*\*\*\*
 
 ```php
 <?php

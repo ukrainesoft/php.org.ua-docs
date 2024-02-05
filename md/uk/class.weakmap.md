@@ -48,7 +48,7 @@ public offsetUnset(object $object): void
 
 ## Приклади
 
-**Пример #1 Пример использования**Weakmap\*\*\*\*
+**Приклад #1 Приклад використання** Weakmap\*\*\*\*
 
 ```php
 <?php

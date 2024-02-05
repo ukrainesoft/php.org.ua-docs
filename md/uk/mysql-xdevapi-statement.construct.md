@@ -15,7 +15,7 @@ Statement::\_\_construct — Опис конструктора
 
 ### Опис
 
-private**mysql\_xdevapi\\Statement::\_\_construct**()
+private **mysql\_xdevapi\\Statement::\_\_construct**()
 
 **Увага**
 
@@ -27,7 +27,7 @@ private**mysql\_xdevapi\\Statement::\_\_construct**()
 
 ### Приклади
 
-**Пример #1**mysql\_xdevapi\\Statement::\_\_construct()**example**
+**Приклад #1**mysql\_xdevapi\\Statement::\_\_construct()**example**
 
 ```php
 <?php

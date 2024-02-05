@@ -52,7 +52,7 @@ strrchr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 ### Приклади
 
-**Пример #1 Пример использования**strrchr()\*\*\*\*
+**Приклад #1 Приклад використання** strrchr()\*\*\*\*
 
 ```php
 <?php

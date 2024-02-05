@@ -52,7 +52,7 @@ compact(array|string $var_name, array|string ...$var_names): array
 
 ### Приклади
 
-**Пример #1 Пример использования**compact()\*\*\*\*
+**Приклад #1 Приклад використання** compact()\*\*\*\*
 
 ```php
 <?php

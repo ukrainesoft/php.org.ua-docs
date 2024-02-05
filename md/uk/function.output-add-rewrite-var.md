@@ -49,7 +49,7 @@ output_add_rewrite_var(string $name, string $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования функции**output\_add\_rewrite\_var()\*\*\*\*
+**Приклад #1 Приклад использования функции**output\_add\_rewrite\_var()\*\*\*\*
 
 ```php
 <?php

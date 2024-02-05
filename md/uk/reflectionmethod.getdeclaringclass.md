@@ -31,7 +31,7 @@ public ReflectionMethod::getDeclaringClass(): ReflectionClass
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionMethod::getDeclaringClass()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionMethod::getDeclaringClass()\*\*\*\*
 
 ```php
 <?php

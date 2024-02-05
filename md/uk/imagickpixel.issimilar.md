@@ -41,7 +41,7 @@ public ImagickPixel::isSimilar(ImagickPixel $color, float $fuzz): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixel::isSimilar()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixel::isSimilar()\*\*\*\*
 
 ```php
 <?php

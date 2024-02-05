@@ -33,7 +33,7 @@ mailparse_determine_best_xfer_encoding(resource $fp): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mailparse\_determine\_best\_xfer\_encoding()\*\*\*\*
+**Приклад #1 Приклад використання** mailparse\_determine\_best\_xfer\_encoding()\*\*\*\*
 
 ```php
 <?php

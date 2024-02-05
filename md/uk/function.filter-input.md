@@ -23,7 +23,7 @@ filter_input(    int $type,    string $var_name,    int $filter = FI
 
 `type`
 
-Одна из констант\*\*`INPUT_GET`\*\* **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`**или**`INPUT_ENV`**
+Одна из констант\*\*`INPUT_GET`\*\* **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`** або **`INPUT_ENV`**
 
 `var_name`
 
@@ -45,7 +45,7 @@ filter_input(    int $type,    string $var_name,    int $filter = FI
 
 ### Приклади
 
-**Пример #1 Пример использования**filter\_input()\*\*\*\*
+**Приклад #1 Приклад використання** filter\_input()\*\*\*\*
 
 ```php
 <?php

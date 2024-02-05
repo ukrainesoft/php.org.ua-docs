@@ -43,7 +43,7 @@ public SplFileObject::flock(int $operation, int &$wouldBlock = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::flock()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::flock()\*\*\*\*
 
 ```php
 <?php

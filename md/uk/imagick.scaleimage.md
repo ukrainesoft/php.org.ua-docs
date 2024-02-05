@@ -47,7 +47,7 @@ public Imagick::scaleImage(    int $columns,    int $rows,    bool $
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::scaleImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::scaleImage()\*\*\*\*
 
 ```php
 <?php

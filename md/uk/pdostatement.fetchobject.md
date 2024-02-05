@@ -19,7 +19,7 @@ PDOStatement::fetchObject — Витягує наступний рядок і п
 public PDOStatement::fetchObject(?string $class = "stdClass", array $constructorArgs = []): object|false
 ```
 
-Витягує наступний рядок і повертає його у вигляді об'єкта. Цей метод є альтернативою виклику [PDOStatement::fetch()](pdostatement.fetch.md)с параметром\*\*`PDO::FETCH_CLASS`**или**`PDO::FETCH_OBJ`\*\*
+Витягує наступний рядок і повертає його у вигляді об'єкта. Цей метод є альтернативою виклику [PDOStatement::fetch()](pdostatement.fetch.md)с параметром\*\*`PDO::FETCH_CLASS`** або **`PDO::FETCH_OBJ`\*\*
 
 Коли об'єкт вилучено, його властивості наповнюються значеннями відповідних стовпців, і після цього викликається його конструктор.
 

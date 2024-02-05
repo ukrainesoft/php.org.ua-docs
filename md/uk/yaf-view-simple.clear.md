@@ -33,7 +33,7 @@ public Yaf_View_Simple::clear(string $name = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_View\_Simple::clear()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_View\_Simple::clear()\*\*\*\*
 
 ```php
 <?php

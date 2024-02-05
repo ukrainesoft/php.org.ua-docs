@@ -47,7 +47,7 @@ intlcal_equals(IntlCalendar $calendar, IntlCalendar $other): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::equals()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::equals()\*\*\*\*
 
 ```php
 <?php

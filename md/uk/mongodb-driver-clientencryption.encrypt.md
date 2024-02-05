@@ -46,7 +46,7 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 
 Коефіцієнт стримування в оцінці запитів з індексованими, зашифрованими корисними навантаженнями.
 
-Опція застосовується та може бути вказана лише тоді, коли опція `algorithm` дорівнює **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**или**`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`**
+Опція застосовується та може бути вказана лише тоді, коли опція `algorithm` дорівнює **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`** або **`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`**
 
 | | keyAltName | string |
 
@@ -63,7 +63,7 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 -   **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY`**
 -   **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_RANGE_PREVIEW`**
 
-Опція застосовується та може бути вказана лише тоді, коли опція `algorithm` дорівнює **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**или**`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`**
+Опція застосовується та може бути вказана лише тоді, коли опція `algorithm` дорівнює **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`** або **`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`**
 
 | | rangeOpts | array |
 

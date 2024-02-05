@@ -62,7 +62,7 @@ collator_asort(Collator $object, array &$array, int $flags = Collator::SORT_REGU
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_asort()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_asort()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ public Imagick::compositeImage(    Imagick $composite_object,    int $co
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::compositeImage()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::compositeImage()\*\* :\*\*
 
 Накладання двох зображень за допомогою 'математичного' методу накладання
 

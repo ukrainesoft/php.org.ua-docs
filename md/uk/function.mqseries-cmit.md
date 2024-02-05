@@ -43,7 +43,7 @@ mqseries_cmit(resource $hconn, resource &$compCode, resource &$reason): void
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_cmit()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_cmit()\*\*\*\*
 
 ```php
 <?php

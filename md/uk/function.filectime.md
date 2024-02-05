@@ -37,12 +37,12 @@ filectime(string $filename): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования функции**filectime()\*\*\*\*
+**Приклад #1 Приклад использования функции**filectime()\*\*\*\*
 
 ```php
 <?php
 
-// Пример вывода: Файл somefile.txt в последний раз был изменён: December 29 2002 22:16:23.
+// Приклад вывода: Файл somefile.txt в последний раз был изменён: December 29 2002 22:16:23.
 
 $filename = 'somefile.txt';
 if (file_exists($filename)) {

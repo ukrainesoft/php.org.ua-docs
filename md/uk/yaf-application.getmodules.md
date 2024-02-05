@@ -29,7 +29,7 @@ public Yaf_Application::getModules(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Application::getModules()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Application::getModules()\*\*\*\*
 
 ```php
 <?php

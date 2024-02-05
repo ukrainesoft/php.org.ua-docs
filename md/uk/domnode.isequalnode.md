@@ -33,7 +33,7 @@ public DOMNode::isEqualNode(?DOMNode $otherNode): bool
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMNode::isEqualNode()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMNode::isEqualNode()\*\*\*\*
 
 ```php
 <?php

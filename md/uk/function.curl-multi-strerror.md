@@ -33,7 +33,7 @@ curl_multi_strerror(int $error_code): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**curl\_multi\_strerror()\*\*\*\*
+**Приклад #1 Приклад використання** curl\_multi\_strerror()\*\*\*\*
 
 ```php
 <?php

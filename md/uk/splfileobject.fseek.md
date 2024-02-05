@@ -43,7 +43,7 @@ public SplFileObject::fseek(int $offset, int $whence = SEEK_SET): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fseek()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fseek()\*\*\*\*
 
 ```php
 <?php

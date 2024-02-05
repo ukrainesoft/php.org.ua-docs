@@ -27,7 +27,7 @@ public Yaf_Application::getDispatcher(): Yaf_Dispatcher
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Application::getDispatcher()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Application::getDispatcher()\*\*\*\*
 
 ```php
 <?php

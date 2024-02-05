@@ -40,7 +40,7 @@ mysql_stat(resource $link_identifier = NULL): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_stat()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_stat()\*\*\*\*
 
 ```php
 <?php

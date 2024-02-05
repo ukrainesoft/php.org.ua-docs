@@ -37,7 +37,7 @@ public ImagickDraw::setGravity(int $gravity): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setGravity()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setGravity()\*\*\*\*
 
 ```php
 <?php

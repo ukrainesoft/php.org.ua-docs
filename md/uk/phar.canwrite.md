@@ -29,7 +29,7 @@ final public static Phar::canWrite(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::canWrite()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::canWrite()\*\*\*\*
 
 ```php
 <?php

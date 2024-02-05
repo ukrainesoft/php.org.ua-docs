@@ -31,7 +31,7 @@ public Worker::getStacked(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Worker::getStacked\*\*\*\*
+**Приклад #1 Приклад використання** Worker::getStacked\*\*\*\*
 
 ```php
 <?php

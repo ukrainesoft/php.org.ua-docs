@@ -33,7 +33,7 @@ public mysql_xdevapi\TableUpdate::bind(array $placeholder_values): mysql_xdevapi
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::bind()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableUpdate::bind()\*\*\*\*
 
 ```php
 <?php

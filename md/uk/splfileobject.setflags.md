@@ -33,7 +33,7 @@ public SplFileObject::setFlags(int $flags): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::setFlags()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::setFlags()\*\*\*\*
 
 ```php
 <?php

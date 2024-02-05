@@ -40,7 +40,7 @@ mysql_get_server_info(resource $link_identifier = NULL): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_get\_server\_info()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_get\_server\_info()\*\*\*\*
 
 ```php
 <?php

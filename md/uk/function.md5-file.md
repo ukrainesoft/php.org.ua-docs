@@ -37,7 +37,7 @@ md5_file(string $filename, bool $binary = false): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**md5\_file()\*\*\*\*
+**Приклад #1 Приклад використання** md5\_file()\*\*\*\*
 
 ```php
 <?php

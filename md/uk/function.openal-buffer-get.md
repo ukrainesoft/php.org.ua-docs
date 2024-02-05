@@ -27,7 +27,7 @@ openal_buffer_get(resource $buffer, int $property): int|false
 
 `property`
 
-Одна з властивостей, задана у вигляді константи: **`AL_FREQUENCY`** **`AL_BITS`** **`AL_CHANNELS`**и**`AL_SIZE`**
+Одна з властивостей, задана у вигляді константи: **`AL_FREQUENCY`** **`AL_BITS`** **`AL_CHANNELS`** і **`AL_SIZE`**
 
 ### Значення, що повертаються
 

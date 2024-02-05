@@ -31,7 +31,7 @@ get_declared_interfaces(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_declared\_interfaces()\*\*\*\*
+**Приклад #1 Приклад використання** get\_declared\_interfaces()\*\*\*\*
 
 ```php
 <?php

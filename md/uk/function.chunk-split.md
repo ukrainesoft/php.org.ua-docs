@@ -41,7 +41,7 @@ chunk_split(string $string, int $length = 76, string $separator = "\r\n"): strin
 
 ### Приклади
 
-**Пример #1 Пример использования**chunk\_split()\*\*\*\*
+**Приклад #1 Приклад використання** chunk\_split()\*\*\*\*
 
 ```php
 <?php

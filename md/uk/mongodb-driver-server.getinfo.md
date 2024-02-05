@@ -39,7 +39,7 @@ final public MongoDB\Driver\Server::getInfo(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Server::getInfo()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Server::getInfo()\*\*\*\*
 
 ```php
 <?php

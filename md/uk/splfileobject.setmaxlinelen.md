@@ -37,7 +37,7 @@ public SplFileObject::setMaxLineLen(int $maxLength): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::setMaxLineLen()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::setMaxLineLen()\*\*\*\*
 
 ```php
 <?php

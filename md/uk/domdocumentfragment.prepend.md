@@ -49,7 +49,7 @@ public DOMDocumentFragment::prepend(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMDocumentFragment::prepend()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMDocumentFragment::prepend()\*\*\*\*
 
 Додавання вузлів перед коренем фрагмента.
 

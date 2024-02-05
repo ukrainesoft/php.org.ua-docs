@@ -53,7 +53,7 @@ locale_get_display_variant(string $locale, ?string $displayLocale = null): strin
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_get\_display\_variant()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_get\_display\_variant()\*\*\*\*
 
 ```php
 <?php

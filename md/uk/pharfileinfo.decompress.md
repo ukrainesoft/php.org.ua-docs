@@ -35,7 +35,7 @@ public PharFileInfo::decompress(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::decompress()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::decompress()\*\*\*\*
 
 ```php
 <?php

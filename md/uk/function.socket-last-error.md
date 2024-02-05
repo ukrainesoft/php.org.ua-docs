@@ -42,7 +42,7 @@ socket_last_error(?Socket $socket = null): int
 
 ### Приклади
 
-**Пример #1 Пример использования**socket\_last\_error()\*\*\*\*
+**Приклад #1 Приклад використання** socket\_last\_error()\*\*\*\*
 
 ```php
 <?php

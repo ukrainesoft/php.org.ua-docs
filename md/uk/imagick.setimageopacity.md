@@ -37,7 +37,7 @@ public Imagick::setImageOpacity(float $opacity): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImageOpacity()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImageOpacity()\*\*\*\*
 
 Приклад використання Imagick::setImageOpacity().
 

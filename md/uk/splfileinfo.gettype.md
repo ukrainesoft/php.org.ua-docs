@@ -35,7 +35,7 @@ public SplFileInfo::getType(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getType()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getType()\*\*\*\*
 
 ```php
 <?php

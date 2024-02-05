@@ -43,7 +43,7 @@ timezone_location_get(DateTimeZone $object): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeZone::getLocation()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeZone::getLocation()\*\*\*\*
 
 ```php
 <?php

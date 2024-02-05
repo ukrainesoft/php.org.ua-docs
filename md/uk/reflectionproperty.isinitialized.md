@@ -43,7 +43,7 @@ public ReflectionProperty::isInitialized(?object $object = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::isInitialized()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::isInitialized()\*\*\*\*
 
 ```php
 <?php

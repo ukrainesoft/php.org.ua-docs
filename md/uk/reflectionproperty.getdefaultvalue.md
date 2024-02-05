@@ -31,7 +31,7 @@ public ReflectionProperty::getDefaultValue(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::getDefaultValue()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::getDefaultValue()\*\*\*\*
 
 ```php
 <?php

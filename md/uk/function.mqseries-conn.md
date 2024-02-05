@@ -49,7 +49,7 @@ mqseries_conn(    string $qManagerName,    resource &$hconn,    reso
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_conn()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_conn()\*\*\*\*
 
 ```php
 <?php

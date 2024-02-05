@@ -54,7 +54,7 @@ array_unique(array $array, int $flags = SORT_STRING): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_unique()\*\*\*\*
+**Приклад #1 Приклад використання** array\_unique()\*\*\*\*
 
 ```php
 <?php
@@ -75,7 +75,7 @@ Array
 )
 ```
 
-**Пример #2**array\_unique()\*\* та типи:\*\*
+**Приклад #2**array\_unique()\*\* та типи:\*\*
 
 ```php
 <?php

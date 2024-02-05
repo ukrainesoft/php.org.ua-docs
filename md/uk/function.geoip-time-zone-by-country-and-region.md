@@ -43,7 +43,7 @@ geoip_time_zone_by_country_and_region(string $country_code, string $region_code 
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_time\_zone\_by\_country\_and\_region()**для кода региона US/Canada**
+**Приклад #1 Приклад використання** geoip\_time\_zone\_by\_country\_and\_region()**для кода региона US/Canada**
 
 Надрукує часовий пояс країни CA (Канада), регіону QC (Квебек).
 
@@ -62,7 +62,7 @@ if ($timezone) {
 Часовой пояс для CA/QC: America/Montreal
 ```
 
-**Пример #2 Использование**geoip\_time\_zone\_by\_country\_and\_region()**, використовуючи коди FIPS**
+**Приклад #2 Использование**geoip\_time\_zone\_by\_country\_and\_region()**, використовуючи коди FIPS**
 
 Виводить часовий пояс для країни JP (Японія), регіон 01 (Aichi).
 

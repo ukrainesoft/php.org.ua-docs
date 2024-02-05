@@ -43,7 +43,7 @@ intlcal_in_daylight_time(IntlCalendar $calendar): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::inDaylightTime()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::inDaylightTime()\*\*\*\*
 
 ```php
 <?php

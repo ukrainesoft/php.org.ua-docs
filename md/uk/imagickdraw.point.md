@@ -41,7 +41,7 @@ public ImagickDraw::point(float $x, float $y): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::point()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::point()\*\*\*\*
 
 ```php
 <?php

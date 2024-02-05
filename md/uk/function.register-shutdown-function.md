@@ -43,7 +43,7 @@ register_shutdown_function(callable $callback, mixed ...$args): void
 
 ### Приклади
 
-**Пример #1 Пример использования**register\_shutdown\_function()\*\*\*\*
+**Приклад #1 Приклад використання** register\_shutdown\_function()\*\*\*\*
 
 ```php
 <?php

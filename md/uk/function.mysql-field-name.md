@@ -44,7 +44,7 @@ mysql_field_name(resource $result, int $field_offset): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_field\_name()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_field\_name()\*\*\*\*
 
 ```php
 <?php

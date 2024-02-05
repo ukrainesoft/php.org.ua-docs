@@ -45,7 +45,7 @@ cubrid_lob2_bind(    resource $req_identifier,    int $bind_index,   
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_lob2\_bind()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_lob2\_bind()\*\*\*\*
 
 ```php
 <?php

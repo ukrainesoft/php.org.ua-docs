@@ -37,7 +37,7 @@ public mysql_xdevapi\CollectionModify::set(string $collection_field, string $exp
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::set()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionModify::set()\*\*\*\*
 
 ```php
 <?php

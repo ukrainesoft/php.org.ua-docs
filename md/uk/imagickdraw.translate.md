@@ -41,7 +41,7 @@ public ImagickDraw::translate(float $x, float $y): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::translate()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::translate()\*\*\*\*
 
 ```php
 <?php

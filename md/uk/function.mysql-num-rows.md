@@ -41,7 +41,7 @@ mysql_num_rows(resource $result): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_num\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_num\_rows()\*\*\*\*
 
 ```php
 <?php

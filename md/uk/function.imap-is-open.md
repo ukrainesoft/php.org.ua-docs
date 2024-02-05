@@ -33,7 +33,7 @@ imap_is_open(IMAP\Connection $imap): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_is\_open()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_is\_open()\*\*\*\*
 
 ```php
 <?php

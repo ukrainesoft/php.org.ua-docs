@@ -53,7 +53,7 @@ datefmt_format_object(IntlCalendar|DateTimeInterface $datetime, array|int|string
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlDateFormatter::formatObject()\*\*\*\*
+**Приклад #1 Приклад використання** IntlDateFormatter::formatObject()\*\*\*\*
 
 ```php
 <?php

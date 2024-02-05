@@ -35,7 +35,7 @@ public Imagick::despeckleImage(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::despeckleImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::despeckleImage()\*\*\*\*
 
 ```php
 <?php

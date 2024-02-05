@@ -61,7 +61,7 @@ imagecolorallocatealpha(    GdImage $image,    int $red,    int $gre
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecolorallocatealpha()\*\*\*\*
+**Приклад #1 Приклад використання** imagecolorallocatealpha()\*\*\*\*
 
 ```php
 <?php

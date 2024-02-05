@@ -15,7 +15,7 @@ SolrInputDocument::\_\_construct — Конструктор
 
 ### Опис
 
-public**SolrInputDocument::\_\_construct**()
+public **SolrInputDocument::\_\_construct**()
 
 Конструктор.
 

@@ -31,7 +31,7 @@ oci_server_version(resource $connection): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_server\_version()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_server\_version()\*\*\*\*
 
 ```php
 <?php

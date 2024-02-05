@@ -15,7 +15,7 @@ ReflectionZendExtension::\_\_construct — Створює об'єкт Reflection
 
 ### Опис
 
-public**ReflectionZendExtension::\_\_construct**(string`$name`) .
+public **ReflectionZendExtension::\_\_construct**(string`$name`) .
 
 Створює об'єкт [ReflectionZendExtension](class.reflectionzendextension.md)
 

@@ -31,7 +31,7 @@ public tidyNode::getParent(): ?tidyNode
 
 ### Приклади
 
-**Пример #1 Пример использования функции**tidyNode::getParent()\*\*\*\*
+**Приклад #1 Приклад использования функции**tidyNode::getParent()\*\*\*\*
 
 ```php
 <?php

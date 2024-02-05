@@ -78,7 +78,7 @@ openssl_encrypt(    string $data,    string $cipher_algo,    string 
 ```php
 <?php
 // $key должен быть сгенерирован заранее криптографически безопасным образом
-// например, с помощью openssl_random_pseudo_bytes
+// наПриклад, с помощью openssl_random_pseudo_bytes
 $plaintext = "данные для шифрования";
 $cipher = "aes-128-gcm";
 if (in_array($cipher, openssl_get_cipher_methods()))
@@ -98,7 +98,7 @@ if (in_array($cipher, openssl_get_cipher_methods()))
 ```php
 <?php
 // $key должен быть сгенерирован заранее криптографически безопасным образом
-// например, с помощью openssl_random_pseudo_bytes
+// наПриклад, с помощью openssl_random_pseudo_bytes
 $plaintext = "данные для шифрования";
 $ivlen = openssl_cipher_iv_length($cipher="AES-128-CBC");
 $iv = openssl_random_pseudo_bytes($ivlen);

@@ -37,7 +37,7 @@ oci_field_type(resource $statement, string|int $column): string|int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_field\_type()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_field\_type()\*\*\*\*
 
 ```php
 <?php

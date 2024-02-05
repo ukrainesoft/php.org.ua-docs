@@ -35,7 +35,7 @@ public ArrayObject::offsetGet(mixed $key): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::offsetGet()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::offsetGet()\*\*\*\*
 
 ```php
 <?php

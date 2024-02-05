@@ -45,7 +45,7 @@ public SyncSharedMemory::write(string $string = ?, int $start = 0)
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncSharedMemory::write()\*\*\*\*
+**Приклад #1 Приклад використання** SyncSharedMemory::write()\*\*\*\*
 
 ```php
 <?php

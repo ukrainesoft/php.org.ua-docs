@@ -47,7 +47,7 @@ public Imagick::thumbnailImage(    int $columns,    int $rows,    bo
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::thumbnailImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::thumbnailImage()\*\*\*\*
 
 ```php
 <?php

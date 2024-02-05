@@ -64,7 +64,7 @@ collator_compare(Collator $object, string $string1, string $string2): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_compare()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_compare()\*\*\*\*
 
 ```php
 <?php

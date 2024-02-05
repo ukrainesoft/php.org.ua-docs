@@ -41,7 +41,7 @@ sodium_crypto_core_ristretto255_scalar_add(string $x, string $y): string
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_scalar\_add()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_core\_ristretto255\_scalar\_add()\*\*\*\*
 
 ```php
 <?php

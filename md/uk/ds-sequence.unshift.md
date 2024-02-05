@@ -37,7 +37,7 @@ abstract public Ds\Sequence::unshift(mixed $values = ?): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::unshift()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::unshift()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ Yaf\_Config\_Ini::\_\_construct - Конструктор класу Yaf\_Config\
 
 ### Опис
 
-public**Yaf\_Config\_Ini::\_\_construct**(string`$config_file`, string`$section`
+public **Yaf\_Config\_Ini::\_\_construct**(string`$config_file`, string`$section`
 
 Конструктор класу [Yaf\_Config\_Ini](class.yaf-config-ini.md)
 

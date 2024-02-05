@@ -43,7 +43,7 @@ intlcal_get_error_message(IntlCalendar $calendar): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getErrorMessage()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getErrorMessage()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public Imagick::flipImage(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::flipImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::flipImage()\*\*\*\*
 
 ```php
 <?php

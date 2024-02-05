@@ -33,7 +33,7 @@ intl_error_name(int $errorCode): string
 
 ### Приклади
 
-**Пример #1 Пример использования**intl\_error\_name()\*\*\*\*
+**Приклад #1 Приклад використання** intl\_error\_name()\*\*\*\*
 
 ```php
 <?php

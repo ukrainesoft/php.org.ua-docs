@@ -33,7 +33,7 @@ public SyncMutex::lock(int $wait = -1): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncMutex::lock()\*\*\*\*
+**Приклад #1 Приклад використання** SyncMutex::lock()\*\*\*\*
 
 ```php
 <?php

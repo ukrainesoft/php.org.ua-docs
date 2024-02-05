@@ -60,7 +60,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
     
 -   Будь-який масив, у якого в якості першого числового ключа вказано число n, використовуватиме n+1 для наступного наступного неявного ключа, навіть якщо n негативно.
     
--   Рівень error\_reporting за замовчуванням тепер\*\*`E_ALL`**. Раніше він виключав**`E_NOTICE`**и**`E_DEPRECATED`\*\*
+-   Рівень error\_reporting за замовчуванням тепер\*\*`E_ALL`**. Раніше він виключав**`E_NOTICE`** і **`E_DEPRECATED`\*\*
     
 -   [display\_startup\_errors](errorfunc.configuration.md#ini.display-startup-errors)тепер включено за замовчуванням.
     
@@ -366,9 +366,9 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### Фільтрування даних
 
--   Флаги\*\*`FILTER_FLAG_SCHEME_REQUIRED`**и**`FILTER_FLAG_HOST_REQUIRED`**для фільтра**`FILTER_VALIDATE_URL`\*\* были удалены . `scheme`и`host`необхідні (і завжди були).
+-   Флаги\*\*`FILTER_FLAG_SCHEME_REQUIRED`** і **`FILTER_FLAG_HOST_REQUIRED`**для фільтра**`FILTER_VALIDATE_URL`\*\* были удалены . `scheme`и`host`необхідні (і завжди були).
     
--   Типи\*\*`INPUT_REQUEST`**и**`INPUT_SESSION`\*\*для[filter\_input()](function.filter-input.md)і їй похідних було видалено. Вони ніколи не були реалізовані, а спроба їх використання завжди викликала попередження.
+-   Типи\*\*`INPUT_REQUEST`** і **`INPUT_SESSION`\*\*для[filter\_input()](function.filter-input.md)і їй похідних було видалено. Вони ніколи не були реалізовані, а спроба їх використання завжди викликала попередження.
     
 
 ### GD
@@ -413,7 +413,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### MBString
 
--   Директива[mbstring.func\_overload](mbstring.configuration.md#ini.mbstring.func-overload)було видалено. Пов'язані константи\*\*`MB_OVERLOAD_MAIL`\*\* \*\*`MB_OVERLOAD_STRING`**и**`MB_OVERLOAD_REGEX`\*\*також було видалено. Зрештою, записи`"func_overload"`и`"func_overload_list"`в[mb\_get\_info()](function.mb-get-info.md) були вилучені.
+-   Директива[mbstring.func\_overload](mbstring.configuration.md#ini.mbstring.func-overload)було видалено. Пов'язані константи\*\*`MB_OVERLOAD_MAIL`\*\* \*\*`MB_OVERLOAD_STRING`** і **`MB_OVERLOAD_REGEX`\*\*також було видалено. Зрештою, записи`"func_overload"`и`"func_overload_list"`в[mb\_get\_info()](function.mb-get-info.md) були вилучені.
     
 -   [mb\_parse\_str()](function.mb-parse-str.md)більше не можна використовувати без передачі масиву результатів.
     
@@ -532,7 +532,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### Сокети
 
--   Застарілі`flags` \*\*`AI_IDN_ALLOW_UNASSIGNED`**и**`AI_IDN_USE_STD3_ASCII_RULES`\*\*для[socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.md) були вилучені.
+-   Застарілі`flags` \*\*`AI_IDN_ALLOW_UNASSIGNED`** і **`AI_IDN_USE_STD3_ASCII_RULES`\*\*для[socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.md) були вилучені.
 
 ### Стандартна бібліотека PHP (SPL)
 
@@ -608,7 +608,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
     
 -   Будь-які функції, що приймають callback-функції, які явно не вказані для прийому параметрів посилання, тепер будуть попереджати, якщо використовується callback-функція з посиланнями. Наприклад,[array\_filter()](function.array-filter.md) і [array\_reduce()](function.array-reduce.md). Раніше так було більшість функцій, але не всі.
     
--   Обгортка HTTP-потоку, використовувана такими функціями, як[file\_get\_contents()](function.file-get-contents.md), тепер за промовчанням оголошує HTTP/1.1, а не HTTP/1.0. Не змінює поведінки клієнта, але може змусити сервери реагувати інакше. Щоб зберегти стару поведінку, установіть параметр контексту потоку`'protocol_version'`, например:
+-   Обгортка HTTP-потоку, використовувана такими функціями, як[file\_get\_contents()](function.file-get-contents.md), тепер за промовчанням оголошує HTTP/1.1, а не HTTP/1.0. Не змінює поведінки клієнта, але може змусити сервери реагувати інакше. Щоб зберегти стару поведінку, установіть параметр контексту потоку`'protocol_version'`, наПриклад:
     
     ```php
     <?php

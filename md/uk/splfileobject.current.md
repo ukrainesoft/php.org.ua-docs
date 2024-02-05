@@ -31,7 +31,7 @@ public SplFileObject::current(): string|array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::current()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::current()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public Memcached::getVersion(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::getVersion()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::getVersion()\*\*\*\*
 
 ```php
 <?php

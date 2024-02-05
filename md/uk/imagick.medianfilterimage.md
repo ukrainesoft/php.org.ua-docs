@@ -41,7 +41,7 @@ public Imagick::medianFilterImage(float $radius): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::medianFilterImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::medianFilterImage()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionProperty::hasType(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::hasType()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::hasType()\*\*\*\*
 
 ```php
 <?php

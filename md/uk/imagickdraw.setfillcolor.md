@@ -37,7 +37,7 @@ public ImagickDraw::setFillColor(ImagickPixel $fill_pixel): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFillColor()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFillColor()\*\*\*\*
 
 ```php
 <?php

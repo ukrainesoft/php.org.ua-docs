@@ -37,7 +37,7 @@ MongoDB\BSON\toCanonicalExtendedJSON(string $bson): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\toCanonicalExtendedJSON()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\toCanonicalExtendedJSON()\*\*\*\*
 
 ```php
 <?php

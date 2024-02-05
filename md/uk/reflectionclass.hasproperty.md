@@ -33,7 +33,7 @@ public ReflectionClass::hasProperty(string $name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::hasProperty()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::hasProperty()\*\*\*\*
 
 ```php
 <?php

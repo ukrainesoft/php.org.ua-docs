@@ -46,7 +46,7 @@ ssh2_auth_password($connection, 'username', 'password');
 $sftp = ssh2_sftp($connection);
 
 $target = ssh2_sftp_readlink($sftp, '/tmp/mysql.sock');
-/* $target теперь такой (например): '/var/run/mysql.sock' */
+/* $target теперь такой (наПриклад): '/var/run/mysql.sock' */
 ?>
 ```
 

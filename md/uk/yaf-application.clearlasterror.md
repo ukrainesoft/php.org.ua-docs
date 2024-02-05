@@ -27,7 +27,7 @@ public Yaf_Application::clearLastError(): Yaf_Application
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Application::clearLastError()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Application::clearLastError()\*\*\*\*
 
 ```php
 <?php

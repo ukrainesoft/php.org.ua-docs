@@ -41,7 +41,7 @@ public SplObjectStorage::getHash(object $object): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::getHash()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::getHash()\*\*\*\*
 
 ```php
 <?php

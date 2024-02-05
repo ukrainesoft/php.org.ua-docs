@@ -51,7 +51,7 @@ easter_date(?int $year = null, int $mode = CAL_EASTER_DEFAULT): int
 
 ### Приклади
 
-**Пример #1 Пример использования**easter\_date()\*\*\*\*
+**Приклад #1 Приклад використання** easter\_date()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +63,7 @@ echo date("M-d-Y", easter_date(2001));        // Apr-15-2001
 ?>
 ```
 
-**Пример #2 Пример использования**easter\_date()\*\* з об'єктом класу [DateTime](class.datetime.md)\*\*
+**Приклад #2 Приклад використання** easter\_date()\*\* з об'єктом класу [DateTime](class.datetime.md)\*\*
 
 ```php
 <?php

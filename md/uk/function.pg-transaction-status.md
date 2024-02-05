@@ -43,7 +43,7 @@ pg_transaction_status(PgSql\Connection $connection): int
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_transaction\_status()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_transaction\_status()\*\*\*\*
 
 ```php
 <?php

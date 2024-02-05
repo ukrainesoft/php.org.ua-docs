@@ -31,7 +31,7 @@ public ReflectionExtension::getINIEntries(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionExtension::getINIEntries()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionExtension::getINIEntries()\*\*\*\*
 
 ```php
 <?php

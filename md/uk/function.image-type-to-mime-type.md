@@ -57,7 +57,7 @@ image_type_to_mime_type(int $image_type): string
 
 ### Приклади
 
-**Пример #1 Пример использования**image\_type\_to\_mime\_type()\*\*\*\*
+**Приклад #1 Приклад використання** image\_type\_to\_mime\_type()\*\*\*\*
 
 ```php
 <?php

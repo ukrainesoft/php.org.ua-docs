@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Приклади
 
-**Пример #1**eio\_cancel()**example**
+**Приклад #1**eio\_cancel()**example**
 
 ```php
 <?php

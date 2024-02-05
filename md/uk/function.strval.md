@@ -37,7 +37,7 @@ strval(mixed $value): string
 
 ### Приклади
 
-**Пример #1 Пример использования**strval()\*\* з магічним методом PHP [\_\_toString()](language.oop5.magic.md#object.tostring)\*\*
+**Приклад #1 Приклад використання** strval()\*\* з магічним методом PHP [\_\_toString()](language.oop5.magic.md#object.tostring)\*\*
 
 ```php
 <?php

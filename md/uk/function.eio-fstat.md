@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Приклади
 
-**Пример #1 Пример использования[eio\_lstat()](function.eio-lstat.md)**
+**Приклад #1 Приклад использования[eio\_lstat()](function.eio-lstat.md)**
 
 ```php
 <?php

@@ -50,7 +50,7 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_last\_notice()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_last\_notice()\*\*\*\*
 
 ```php
 <?php

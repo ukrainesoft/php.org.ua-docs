@@ -31,7 +31,7 @@ public static SeasLog::getDatetimeFormat(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::getDatetimeFormat()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::getDatetimeFormat()\*\*\*\*
 
 ```php
 <?php

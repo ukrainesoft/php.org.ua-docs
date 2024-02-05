@@ -47,7 +47,7 @@ runkit7_method_redefine(    string $class_name,    string $method_name,�
 
 `flags`
 
-Перевизначений метод може бути **`RUNKIT7_ACC_PUBLIC`** **`RUNKIT7_ACC_PROTECTED`**или**`RUNKIT7_ACC_PRIVATE`**, і, при необхідності, об'єднаний за допомогою побітового АБО з **`RUNKIT7_ACC_STATIC`**
+Перевизначений метод може бути **`RUNKIT7_ACC_PUBLIC`** **`RUNKIT7_ACC_PROTECTED`** або **`RUNKIT7_ACC_PRIVATE`**, і, при необхідності, об'єднаний за допомогою побітового АБО з **`RUNKIT7_ACC_STATIC`**
 
 `doc_comment`
 
@@ -67,7 +67,7 @@ runkit7_method_redefine(    string $class_name,    string $method_name,�
 
 ### Приклади
 
-**Пример #1 Пример использования**runkit7\_method\_redefine()\*\*\*\*
+**Приклад #1 Приклад використання** runkit7\_method\_redefine()\*\*\*\*
 
 ```php
 <?php

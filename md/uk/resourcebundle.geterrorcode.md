@@ -43,7 +43,7 @@ resourcebundle_get_error_code(ResourceBundle $bundle): int
 
 ### Приклади
 
-**Пример #1 Пример использования**resourcebundle\_get\_error\_code()\*\*\*\*
+**Приклад #1 Приклад використання** resourcebundle\_get\_error\_code()\*\*\*\*
 
 ```php
 <?php

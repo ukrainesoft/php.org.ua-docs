@@ -15,7 +15,7 @@ DocResult::\_\_construct — Конструктор DocResult
 
 ### Опис
 
-private**mysql\_xdevapi\\DocResult::\_\_construct**()
+private **mysql\_xdevapi\\DocResult::\_\_construct**()
 
 Отримати результати та попередження документа, створюється CollectionFind.
 

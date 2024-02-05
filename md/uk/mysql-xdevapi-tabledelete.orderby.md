@@ -33,7 +33,7 @@ public mysql_xdevapi\TableDelete::orderby(string $orderby_expr): mysql_xdevapi\T
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::orderBy()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableDelete::orderBy()\*\*\*\*
 
 ```php
 <?php

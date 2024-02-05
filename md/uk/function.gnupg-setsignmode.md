@@ -31,7 +31,7 @@ gnupg_setsignmode(resource $identifier, int $signmode): bool
 
 Режим підписування.
 
-`signmode` містить константу, що вказує, який тип підпису має бути зроблено. Можливі значення: **`GNUPG_SIG_MODE_NORMAL`** **`GNUPG_SIG_MODE_DETACH`**и**`GNUPG_SIG_MODE_CLEAR`**По умолчанию используется**`GNUPG_SIG_MODE_CLEAR`**
+`signmode` містить константу, що вказує, який тип підпису має бути зроблено. Можливі значення: **`GNUPG_SIG_MODE_NORMAL`** **`GNUPG_SIG_MODE_DETACH`** і **`GNUPG_SIG_MODE_CLEAR`**По умолчанию используется**`GNUPG_SIG_MODE_CLEAR`**
 
 ### Значення, що повертаються
 
@@ -39,7 +39,7 @@ gnupg_setsignmode(resource $identifier, int $signmode): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**gnupg\_setsignmode()\*\* у процедурному стилі\*\*
+**Приклад #1 Приклад використання** gnupg\_setsignmode()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -48,7 +48,7 @@ gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // производить раз
 ?>
 ```
 
-**Пример #2 Пример использования**gnupg\_setsignmode()\*\* в об'єктно-орієнтованому стилі\*\*
+**Приклад #2 Приклад використання** gnupg\_setsignmode()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

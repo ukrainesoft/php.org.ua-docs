@@ -37,7 +37,7 @@ openssl_spki_export_challenge(string $spki): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_spki\_export\_challenge()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_spki\_export\_challenge()\*\*\*\*
 
 Повертає рядок дзвінка або \*\*`null`\*\*в случае возникновения ошибки.
 
@@ -49,7 +49,7 @@ $challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $spkac))
 ?>
 ```
 
-**Пример #2 Пример использование**openssl\_spki\_export\_challenge()**с**
+**Приклад #2 Приклад использование**openssl\_spki\_export\_challenge()**с**
 
 Вилучення рядка виклику, отриманого з елемента
 

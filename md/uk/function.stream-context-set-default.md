@@ -37,7 +37,7 @@ stream_context_set_default(array $options): resource
 
 ### Приклади
 
-**Пример #1**stream\_context\_set\_default()**example**
+**Приклад #1**stream\_context\_set\_default()**example**
 
 ```php
 <?php

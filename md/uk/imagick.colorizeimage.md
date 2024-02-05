@@ -47,7 +47,7 @@ public Imagick::colorizeImage(mixed $colorize, mixed $opacity, bool $legacy = fa
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::colorizeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::colorizeImage()\*\*\*\*
 
 ```php
 <?php

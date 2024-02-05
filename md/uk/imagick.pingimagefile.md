@@ -37,7 +37,7 @@ public Imagick::pingImageFile(resource $filehandle, string $fileName = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::pingImageFile()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::pingImageFile()\*\*\*\*
 
 Відкриття віддаленої локації
 

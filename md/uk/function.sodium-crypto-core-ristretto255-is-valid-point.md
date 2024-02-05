@@ -37,7 +37,7 @@ sodium_crypto_core_ristretto255_is_valid_point(string $s): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_is\_valid\_point()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_core\_ristretto255\_is\_valid\_point()\*\*\*\*
 
 ```php
 <?php

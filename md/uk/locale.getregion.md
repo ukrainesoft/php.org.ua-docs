@@ -45,7 +45,7 @@ locale_get_region(string $locale): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_get\_region()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_get\_region()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ mqseries_connx(    string $qManagerName,    array &$connOptions,    
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_connx()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_connx()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +78,7 @@ mqseries_connx(    string $qManagerName,    array &$connOptions,    
 ?>
 ```
 
-**Пример #2 Пример использования**mqseries\_connx()\*\* з використанням SSL та URL відповідача OCSP\*\*
+**Приклад #2 Приклад використання** mqseries\_connx()\*\* з використанням SSL та URL відповідача OCSP\*\*
 
 ```php
 <?php

@@ -32,7 +32,7 @@ public
 
 ### Приклади
 
-**Пример #1 Пример использования**EventBase::getFeatures()\*\*\*\*
+**Приклад #1 Приклад використання** EventBase::getFeatures()\*\*\*\*
 
 ```php
 <?php

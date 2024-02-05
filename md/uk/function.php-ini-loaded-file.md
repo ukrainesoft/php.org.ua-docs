@@ -31,7 +31,7 @@ php_ini_loaded_file(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**php\_ini\_loaded\_file()\*\*\*\*
+**Приклад #1 Приклад використання** php\_ini\_loaded\_file()\*\*\*\*
 
 ```php
 <?php

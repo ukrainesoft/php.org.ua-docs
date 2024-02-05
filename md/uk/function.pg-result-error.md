@@ -43,7 +43,7 @@ pg_result_error(PgSql\Result $result): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_result\_error()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_result\_error()\*\*\*\*
 
 ```php
 <?php

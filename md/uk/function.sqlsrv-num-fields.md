@@ -33,7 +33,7 @@ sqlsrv_num_fields(resource $stmt): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_num\_fields()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_num\_fields()\*\*\*\*
 
 ```php
 <?php

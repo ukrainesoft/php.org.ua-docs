@@ -39,7 +39,7 @@ cubrid_fetch_row(resource $result, int $type = ?): array
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_fetch\_row()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_fetch\_row()\*\*\*\*
 
 ```php
 <?php

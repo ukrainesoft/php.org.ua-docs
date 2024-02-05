@@ -15,7 +15,7 @@ DOMXPath::\_\_construct — Створює новий об'єкт класу [DO
 
 ### Опис
 
-public**DOMXPath::\_\_construct** [DOMDocument](class.domdocument.md) `$document`, bool`$registerNodeNS` **`true`**) .
+public **DOMXPath::\_\_construct** [DOMDocument](class.domdocument.md) `$document`, bool`$registerNodeNS` **`true`**) .
 
 Створює новий об'єкт класу [DOMXPath](class.domxpath.md)
 

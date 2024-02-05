@@ -37,7 +37,7 @@ public Imagick::setImage(Imagick $replace): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImage()\*\*\*\*
 
 Приклад використання Imagick::setImage()
 

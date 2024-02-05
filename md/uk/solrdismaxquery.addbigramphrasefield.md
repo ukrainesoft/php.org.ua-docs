@@ -35,7 +35,7 @@ public SolrDisMaxQuery::addBigramPhraseField(string $field, string $boost, strin
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::addBigramPhraseField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::addBigramPhraseField()\*\*\*\*
 
 ```php
 <?php

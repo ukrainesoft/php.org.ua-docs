@@ -36,7 +36,7 @@ mysql_fetch_array(resource $result, int $result_type = MYSQL_BOTH): array
 
 `result_type`
 
-Тип масива, що повертається. Є константою і може приймати такі значення: **`MYSQL_ASSOC`** **`MYSQL_NUM`**и**`MYSQL_BOTH`**
+Тип масива, що повертається. Є константою і може приймати такі значення: **`MYSQL_ASSOC`** **`MYSQL_NUM`** і **`MYSQL_BOTH`**
 
 ### Значення, що повертаються
 
@@ -50,7 +50,7 @@ mysql_fetch_array(resource $result, int $result_type = MYSQL_BOTH): array
 
 SELECT table1.field AS foo, table2.field AS bar FROM table1, table2
 
-**Пример #2**mysql\_fetch\_array()**с**`MYSQL_NUM`\*\*\*\*
+**Приклад #2**mysql\_fetch\_array()**с**`MYSQL_NUM`\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +68,7 @@ mysql_free_result($result);
 ?>
 ```
 
-**Пример #3**mysql\_fetch\_array()**с**`MYSQL_ASSOC`\*\*\*\*
+**Приклад #3**mysql\_fetch\_array()**с**`MYSQL_ASSOC`\*\*\*\*
 
 ```php
 <?php
@@ -86,7 +86,7 @@ mysql_free_result($result);
 ?>
 ```
 
-**Пример #4**mysql\_fetch\_array()**с**`MYSQL_BOTH`\*\*\*\*
+**Приклад #4**mysql\_fetch\_array()**с**`MYSQL_BOTH`\*\*\*\*
 
 ```php
 <?php

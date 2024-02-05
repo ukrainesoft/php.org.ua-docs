@@ -33,7 +33,7 @@ ibase_num_fields(resource $result_id): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_num\_fields()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_num\_fields()\*\*\*\*
 
 ```php
 <?php

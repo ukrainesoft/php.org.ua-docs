@@ -31,7 +31,7 @@ public FilesystemIterator::current(): string|SplFileInfo|FilesystemIterator
 
 ### Приклади
 
-**Пример #1 Пример использования**FilesystemIterator::current()\*\*\*\*
+**Приклад #1 Приклад використання** FilesystemIterator::current()\*\*\*\*
 
 У цьому прикладі буде виведено список вмісту директорії в якій знаходиться скрипт, що виконується.
 

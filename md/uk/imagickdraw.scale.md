@@ -41,7 +41,7 @@ public ImagickDraw::scale(float $x, float $y): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::scale()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::scale()\*\*\*\*
 
 ```php
 <?php

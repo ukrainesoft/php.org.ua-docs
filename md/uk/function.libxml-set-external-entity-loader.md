@@ -51,7 +51,7 @@ resolver(?string $public_id, string $system_id, array $context): resource|string
 
 ### Приклади
 
-**Пример #1 Пример использования**libxml\_set\_external\_entity\_loader()\*\*\*\*
+**Приклад #1 Приклад використання** libxml\_set\_external\_entity\_loader()\*\*\*\*
 
 ```php
 <?php

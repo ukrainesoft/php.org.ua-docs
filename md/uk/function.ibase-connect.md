@@ -65,7 +65,7 @@ ibase_connect(    string $database = ?,    string $username = ?,    
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_connect()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_connect()\*\*\*\*
 
 ```php
 <?php

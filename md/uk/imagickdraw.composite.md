@@ -57,7 +57,7 @@ public ImagickDraw::composite(    int $compose,    float $x,    floa
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::composite()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::composite()\*\*\*\*
 
 ```php
 <?php

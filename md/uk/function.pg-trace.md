@@ -43,7 +43,7 @@ pg_trace(    string $filename,    string $mode = "w",    ?PgSql\Conn
 
 `trace_mode`
 
-Необов'язковий режим трасування з наступними константами: **`PGSQL_TRACE_SUPPRESS_TIMESTAMPS`**и**`PGSQL_TRACE_REGRESS_MODE`**
+Необов'язковий режим трасування з наступними константами: **`PGSQL_TRACE_SUPPRESS_TIMESTAMPS`** і **`PGSQL_TRACE_REGRESS_MODE`**
 
 ### Значення, що повертаються
 
@@ -59,7 +59,7 @@ pg_trace(    string $filename,    string $mode = "w",    ?PgSql\Conn
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_trace()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_trace()\*\*\*\*
 
 ```php
 <?php

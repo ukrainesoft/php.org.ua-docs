@@ -51,7 +51,7 @@ socket_set_option(    Socket $socket,    int $level,    int $option,
 
 ### Приклади
 
-**Пример #1 Пример использования**socket\_set\_option()\*\*\*\*
+**Приклад #1 Приклад використання** socket\_set\_option()\*\*\*\*
 
 ```php
 <?php

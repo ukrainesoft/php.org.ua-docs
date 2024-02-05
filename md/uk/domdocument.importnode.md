@@ -45,7 +45,7 @@ public DOMDocument::importNode(DOMNode $node, bool $deep = false): DOMNode|false
 
 ### Приклади
 
-**Пример #1 Пример использования**DOMDocument::importNode()\*\*\*\*
+**Приклад #1 Приклад використання** DOMDocument::importNode()\*\*\*\*
 
 Копіювання вузлів між документами.
 

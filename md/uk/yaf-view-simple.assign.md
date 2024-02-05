@@ -37,7 +37,7 @@ public Yaf_View_Simple::assign(string $name, mixed $value = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_View\_Simple::assign()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_View\_Simple::assign()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +50,7 @@ class IndexController extends Yaf_Controller_Abstract {
 ?>
 ```
 
-**Пример #2 Пример использования**template()\*\*\*\*
+**Приклад #2 Приклад використання** template()\*\*\*\*
 
 ```php
 <html>

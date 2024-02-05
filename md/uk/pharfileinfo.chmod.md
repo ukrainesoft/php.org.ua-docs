@@ -33,7 +33,7 @@ public PharFileInfo::chmod(int $perms): void
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::chmod()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::chmod()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickDraw::setFontStretch(int $fontStretch): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFontStretch()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFontStretch()\*\*\*\*
 
 ```php
 <?php

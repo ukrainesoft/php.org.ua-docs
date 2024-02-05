@@ -37,7 +37,7 @@ oci_result(resource $statement, string|int $column): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования[oci\_fetch()](function.oci-fetch.md)с**oci\_result()\*\*\*\*
+**Приклад #1 Приклад использования[oci\_fetch()](function.oci-fetch.md)с**oci\_result()\*\*\*\*
 
 ```php
 <?php

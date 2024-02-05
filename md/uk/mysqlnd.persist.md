@@ -15,7 +15,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 Оскільки через дзвінки `COM_CHANGE_USER` збільшуються накладні витрати, можна відключити таку поведінку під час компіляції. У такому разі повторне використання постійного з'єднання генеруватиме виклик `COM_PING` `mysql_ping`), для перевірки можливості повторного використання з'єднання.
 
-Генерація виклику `COM_CHANGE_USER` може бути вимкнена прапором компіляції `MYSQLI_NO_CHANGE_USER_ON_PCONNECT`Например:
+Генерація виклику `COM_CHANGE_USER` може бути вимкнена прапором компіляції `MYSQLI_NO_CHANGE_USER_ON_PCONNECT`НаПриклад:
 
 ```
 shell# CFLAGS="-DMYSQLI_NO_CHANGE_USER_ON_PCONNECT" ./configure --with-mysql=/usr/local/mysql/ --with-mysqli=/usr/local/mysql/bin/mysql_config --with-pdo-mysql=/usr/local/mysql/bin/mysql_config --enable-debug && make clean && make -j6

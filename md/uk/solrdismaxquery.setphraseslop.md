@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setPhraseSlop()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setPhraseSlop()\*\*\*\*
 
 ```php
 <?php

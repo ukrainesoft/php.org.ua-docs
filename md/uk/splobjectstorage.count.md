@@ -33,7 +33,7 @@ public SplObjectStorage::count(int $mode = COUNT_NORMAL): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::count()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::count()\*\*\*\*
 
 ```php
 <?php

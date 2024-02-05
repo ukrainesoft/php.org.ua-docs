@@ -15,7 +15,7 @@ Yaf\_Dispatcher::\_\_construct - Конструктор класу Yaf\_Dispatch
 
 ### Опис
 
-public**Yaf\_Dispatcher::\_\_construct**()
+public **Yaf\_Dispatcher::\_\_construct**()
 
 ### Список параметрів
 

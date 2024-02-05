@@ -53,7 +53,7 @@ mysqli_autocommit(mysqli $mysql, bool $enable): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::autocommit()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::autocommit()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

@@ -48,7 +48,7 @@ session_name(?string $name = null): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**session\_name()\*\*\*\*
+**Приклад #1 Приклад використання** session\_name()\*\*\*\*
 
 ```php
 <?php

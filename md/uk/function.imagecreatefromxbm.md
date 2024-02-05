@@ -43,7 +43,7 @@ imagecreatefromxbm(string $filename): GdImage|false
 
 ### Приклади
 
-**Пример #1 Преобразование XBM изображения в png, используя**imagecreatefromxbm()\*\*\*\*
+**Приклад #1 Преобразование XBM изображения в png, используя**imagecreatefromxbm()\*\*\*\*
 
 ```php
 <?php

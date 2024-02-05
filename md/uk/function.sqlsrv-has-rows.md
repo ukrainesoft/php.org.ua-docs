@@ -33,7 +33,7 @@ sqlsrv_has_rows(resource $stmt): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_has\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_has\_rows()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ Schema::\_\_construct - Конструктор класу Schema
 
 ### Опис
 
-private**mysql\_xdevapi\\Schema::\_\_construct**()
+private **mysql\_xdevapi\\Schema::\_\_construct**()
 
 Об'єкт класу Schema надає повний доступ до схеми (бази даних).
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\Schema::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Schema::\_\_construct()\*\*\*\*
 
 ```php
 <?php

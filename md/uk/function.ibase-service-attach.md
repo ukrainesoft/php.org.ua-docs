@@ -39,7 +39,7 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_service\_attach()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_service\_attach()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +69,7 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 ?>
 ```
 
-**Пример #2 Пример использования**ibase\_service\_attach()\*\* із синтаксисом `hostname/port`\*\*
+**Приклад #2 Приклад використання** ibase\_service\_attach()\*\* із синтаксисом `hostname/port`\*\*
 
 ```php
 <?php

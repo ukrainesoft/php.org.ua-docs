@@ -33,7 +33,7 @@ public mysql_xdevapi\TableSelect::groupBy(mixed $sort_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::groupBy()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::groupBy()\*\*\*\*
 
 ```php
 <?php

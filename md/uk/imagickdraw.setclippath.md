@@ -37,7 +37,7 @@ public ImagickDraw::setClipPath(string $clip_mask): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setClipPath()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setClipPath()\*\*\*\*
 
 ```php
 <?php

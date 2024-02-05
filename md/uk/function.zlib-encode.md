@@ -33,7 +33,7 @@ zlib_encode(string $data, int $encoding, int $level = -1): string|false
 
 `encoding`
 
-Алгоритм сжатия. Одна из констант\*\*`ZLIB_ENCODING_RAW`\*\* **`ZLIB_ENCODING_DEFLATE`**или**`ZLIB_ENCODING_GZIP`**
+Алгоритм сжатия. Одна из констант\*\*`ZLIB_ENCODING_RAW`\*\* **`ZLIB_ENCODING_DEFLATE`** або **`ZLIB_ENCODING_GZIP`**
 
 `level`
 
@@ -41,7 +41,7 @@ zlib_encode(string $data, int $encoding, int $level = -1): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**zlib\_encode()\*\*\*\*
+**Приклад #1 Приклад використання** zlib\_encode()\*\*\*\*
 
 ```php
 <?php

@@ -44,7 +44,7 @@ pg_port(?PgSql\Connection $connection = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_port()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_port()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ ibase_fetch_object(resource $result_id, int $fetch_flag = 0): object
 
 `fetch_flag`
 
-`fetch_flag` є комбінацією констант **`IBASE_TEXT`**и**`IBASE_UNIXTIME`**ORed. Передача**`IBASE_TEXT`** змусить функцію повертати вміст BLOB-об'єктів замість ідентифікаторів BLOB-об'єктів. Передача **`IBASE_UNIXTIME`** змусить функцію повертати значення дати/часу як позначки часу Unix, а не як відформатовані рядки.
+`fetch_flag` є комбінацією констант **`IBASE_TEXT`** і **`IBASE_UNIXTIME`**ORed. Передача**`IBASE_TEXT`** змусить функцію повертати вміст BLOB-об'єктів замість ідентифікаторів BLOB-об'єктів. Передача **`IBASE_UNIXTIME`** змусить функцію повертати значення дати/часу як позначки часу Unix, а не як відформатовані рядки.
 
 ### Значення, що повертаються
 
@@ -39,7 +39,7 @@ ibase_fetch_object(resource $result_id, int $fetch_flag = 0): object
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_fetch\_object()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_fetch\_object()\*\*\*\*
 
 ```php
 <?php

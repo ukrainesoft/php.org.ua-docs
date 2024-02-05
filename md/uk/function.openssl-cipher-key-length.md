@@ -37,7 +37,7 @@ openssl_cipher_key_length(string $cipher_algo): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_cipher\_key\_length()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_cipher\_key\_length()\*\*\*\*
 
 ```php
 <?php

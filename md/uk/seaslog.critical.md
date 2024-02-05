@@ -45,7 +45,7 @@ public static SeasLog::critical(string $message, array $content = ?, string $log
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::critical()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::critical()\*\*\*\*
 
 ```php
 <?php

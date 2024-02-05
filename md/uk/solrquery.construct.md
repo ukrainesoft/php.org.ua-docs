@@ -15,7 +15,7 @@ SolrQuery::\_\_construct — Конструктор
 
 ### Опис
 
-public**SolrQuery::\_\_construct**(string`$q`
+public **SolrQuery::\_\_construct**(string`$q`
 
 Конструктор.
 

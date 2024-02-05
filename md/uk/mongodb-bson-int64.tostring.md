@@ -29,7 +29,7 @@ final public MongoDB\BSON\Int64::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Int64::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Int64::\_\_toString()\*\*\*\*
 
 ```php
 <?php

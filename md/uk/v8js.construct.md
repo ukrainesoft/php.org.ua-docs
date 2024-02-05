@@ -15,7 +15,7 @@ V8Js::\_\_construct — Створює новий об'єкт [V8Js](class.v8js.
 
 ### Опис
 
-public**V8Js::\_\_construct**  
+public **V8Js::\_\_construct**  
 string`$object_name` = "PHP",  
 array`$variables`\= array(),  
 array`$extensions`\= array(),  

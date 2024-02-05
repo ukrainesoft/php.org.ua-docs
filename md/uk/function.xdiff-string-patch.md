@@ -47,7 +47,7 @@ xdiff_string_patch(    string $str,    string $patch,    int $flags 
 
 ### Приклади
 
-**Пример #1 Пример использования**xdiff\_string\_patch()\*\*\*\*
+**Приклад #1 Приклад використання** xdiff\_string\_patch()\*\*\*\*
 
 Наступний код застосовує патч до статті.
 

@@ -155,7 +155,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### Функції інтернаціоналізації
 
-Додані константи **`IntlDateFormatter::RELATIVE_FULL`** **`IntlDateFormatter::RELATIVE_LONG`** **`IntlDateFormatter::RELATIVE_MEDIUM`**и**`IntlDateFormatter::RELATIVE_SHORT`**
+Додані константи **`IntlDateFormatter::RELATIVE_FULL`** **`IntlDateFormatter::RELATIVE_LONG`** **`IntlDateFormatter::RELATIVE_MEDIUM`** і **`IntlDateFormatter::RELATIVE_SHORT`**
 
 ### LDAP
 
@@ -167,7 +167,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### OpenSSL
 
-Додано підтримку синтаксису криптографічних повідомлень (CMS) ([» RFC 5652](http://www.faqs.org/rfcs/rfc5652)), що складається з функцій для шифрування, дешифрування, підпису, перевірки та читання. API схожий на API для функцій PKCS #7 з додаванням нових констант кодування: **`OPENSSL_ENCODING_DER`** **`OPENSSL_ENCODING_SMIME`**и**`OPENSSL_ENCODING_PEM`** :
+Додано підтримку синтаксису криптографічних повідомлень (CMS) ([» RFC 5652](http://www.faqs.org/rfcs/rfc5652)), що складається з функцій для шифрування, дешифрування, підпису, перевірки та читання. API схожий на API для функцій PKCS #7 з додаванням нових констант кодування: **`OPENSSL_ENCODING_DER`** **`OPENSSL_ENCODING_SMIME`** і **`OPENSSL_ENCODING_PEM`** :
 
 -   [openssl\_cms\_encrypt()](function.openssl-cms-encrypt.md)шифрує повідомлення у файлі із сертифікатами та виводить результат у наданий файл.
 -   [openssl\_cms\_decrypt()](function.openssl-cms-decrypt.md)розшифровує повідомлення S/MIME у файлі та виводить результати у наданий файл.

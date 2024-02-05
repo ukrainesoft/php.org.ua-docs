@@ -41,7 +41,7 @@ public Phar::addFromString(string $localName, string $contents): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::addFromString()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::addFromString()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickDraw::setTextUnderColor(ImagickPixel $under_color): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setTextUnderColor()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setTextUnderColor()\*\*\*\*
 
 ```php
 <?php

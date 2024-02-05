@@ -63,7 +63,7 @@ runkit7_function_add(    string $function_name,    Closure $closure,  
 
 ### Приклади
 
-**Пример #1 Пример использования**runkit7\_function\_add()\*\*\*\*
+**Приклад #1 Приклад використання** runkit7\_function\_add()\*\*\*\*
 
 ```php
 <?php

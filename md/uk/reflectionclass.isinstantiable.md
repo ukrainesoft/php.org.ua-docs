@@ -31,7 +31,7 @@ public ReflectionClass::isInstantiable(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::isInstantiable()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::isInstantiable()\*\*\*\*
 
 ```php
 <?php

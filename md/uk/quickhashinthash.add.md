@@ -19,7 +19,7 @@ QuickHashIntHash::add — Додати елемент у хеш
 public QuickHashIntHash::add(int $key, int $value = ?): bool
 ```
 
-Додає елемент у хеш та повертає **`true`**или**`false`**в зависимости от успешности операции. По умолчанию, добавление происходит всегда, если при создании хеша не использовался флаг**`QuickHashIntHash::CHECK_FOR_DUPES`**
+Додає елемент у хеш та повертає **`true`** або **`false`**в зависимости от успешности операции. По умолчанию, добавление происходит всегда, если при создании хеша не использовался флаг**`QuickHashIntHash::CHECK_FOR_DUPES`**
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ public QuickHashIntHash::add(int $key, int $value = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntHash::add()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntHash::add()\*\*\*\*
 
 ```php
 <?php

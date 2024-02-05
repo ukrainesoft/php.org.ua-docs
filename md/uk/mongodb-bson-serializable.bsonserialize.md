@@ -23,7 +23,7 @@ abstract public MongoDB\BSON\Serializable::bsonSerialize(): array|stdClass|Mongo
 
 Кореневі документи (наприклад, [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.md), передані в [MongoDB\\BSON\\fromPHP()](function.mongodb.bson-fromphp.md)) завжди будуть серіалізовані як документ BSON. Для значень полів асоціативні масиви та екземпляри [stdClass](class.stdclass.md) будуть серіалізовані у вигляді документа BSON, а послідовні масиви (наприклад, послідовні числові індекси, що починаються з ) будуть серіалізовані у вигляді масиву BSON.
 
-Користувачам рекомендовано включати властивість \_id (например,[MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md), ініціалізований у конструкторі) при поверненні даних для кореневого документа BSON; інакше драйвер чи база даних повинні будуть згенерувати [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md) при вставці чи злитті документа, відповідно.
+Користувачам рекомендовано включати властивість \_id (наПриклад,[MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md), ініціалізований у конструкторі) при поверненні даних для кореневого документа BSON; інакше драйвер чи база даних повинні будуть згенерувати [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md) при вставці чи злитті документа, відповідно.
 
 ### Список параметрів
 
@@ -44,7 +44,7 @@ abstract public MongoDB\BSON\Serializable::bsonSerialize(): array|stdClass|Mongo
 
 ### Приклади
 
-**Пример #1**MongoDB\\BSON\\Serializable::bsonSerialize()**возвращение ассоциативного массива для корневого документа**
+**Приклад #1**MongoDB\\BSON\\Serializable::bsonSerialize()**возвращение ассоциативного массива для корневого документа**
 
 ```php
 <?php
@@ -76,7 +76,7 @@ echo MongoDB\BSON\toJSON($bson), "\n";
 { "_id" : { "$oid" : "56cccdcada14d8755a58c591" }, "foo" : "bar" }
 ```
 
-**Пример #2 Пример использования метода**MongoDB\\BSON\\Serializable::bsonSerialize()**, що повертає асоціативний масив для кореневого документа**
+**Приклад #2 Приклад использования метода**MongoDB\\BSON\\Serializable::bsonSerialize()**, що повертає асоціативний масив для кореневого документа**
 
 ```php
 <?php
@@ -101,7 +101,7 @@ echo MongoDB\BSON\toJSON($bson), "\n";
 { "0" : 1, "1" : 2, "2" : 3 }
 ```
 
-**Пример #3**MongoDB\\BSON\\Serializable::bsonSerialize()**возвращение ассоциативного массива для поля документа**
+**Приклад #3**MongoDB\\BSON\\Serializable::bsonSerialize()**возвращение ассоциативного массива для поля документа**
 
 ```php
 <?php
@@ -127,7 +127,7 @@ echo MongoDB\BSON\toJSON($bson), "\n";
 { "document" : { "foo" : "bar" } }
 ```
 
-**Пример #4**MongoDB\\BSON\\Serializable::bsonSerialize()**возвращение последовательного массива для поля документа**
+**Приклад #4**MongoDB\\BSON\\Serializable::bsonSerialize()**возвращение последовательного массива для поля документа**
 
 ```php
 <?php

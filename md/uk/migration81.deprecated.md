@@ -11,7 +11,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### Ядро PHP
 
-#### Реализация[Serializable](class.serializable.md)без**\_\_serialize()**и**\_\_unserialize()**
+#### Реализация[Serializable](class.serializable.md)без**\_\_serialize()** і **\_\_unserialize()**
 
 Якщо не потрібна підтримка версій PHP менше 7.4, повинні бути реалізовані лише ці два магічні методи, інакше потрібно реалізувати як методи інтерфейсу, так і магічні методи.
 
@@ -99,7 +99,7 @@ $arr[] = 2;   // устарело
 
 ### Фільтр
 
-Фільтри \*\*`FILTER_SANITIZE_STRING`**и**`FILTER_SANITIZE_STRIPPED`\*\*устарели.
+Фільтри \*\*`FILTER_SANITIZE_STRING`** і **`FILTER_SANITIZE_STRIPPED`\*\*устарели.
 
 INI-директива[filter.default](filter.configuration.md#ini.filter.default)устарела.
 
@@ -117,7 +117,7 @@ INI-директива[filter.default](filter.configuration.md#ini.filter.defaul
 
 ### Intl
 
-Виклик [IntlCalendar::roll()](intlcalendar.roll.md)с логическим значением (bool) устарел. Используйте и`-1` замість \*\*`true`**и**`false`\*\*соответственно.
+Виклик [IntlCalendar::roll()](intlcalendar.roll.md)с логическим значением (bool) устарел. Используйте и`-1` замість \*\*`true`** і **`false`\*\*соответственно.
 
 ### Багатобайтові рядки
 
@@ -153,8 +153,8 @@ INI-директива[oci8.old\_oci\_close\_semantics](oci8.configuration.md#in
 
 ### Стандартні функції
 
-Виклик [key()](function.key.md) [current()](function.current.md) [next()](function.next.md) [prev()](function.prev.md) [reset()](function.reset.md) або [end()](function.end.md) з об'єктами (object) застарів. Або спочатку перетворіть об'єкт (object) на масив (array) за допомогою функції [get\_mangled\_object\_vars()](function.get-mangled-object-vars.md), або використовуйте методи, що надаються класом, що реалізує інтерфейс [Iterator](class.iterator.md), например,[ArrayIterator](class.arrayiterator.md)
+Виклик [key()](function.key.md) [current()](function.current.md) [next()](function.next.md) [prev()](function.prev.md) [reset()](function.reset.md) або [end()](function.end.md) з об'єктами (object) застарів. Або спочатку перетворіть об'єкт (object) на масив (array) за допомогою функції [get\_mangled\_object\_vars()](function.get-mangled-object-vars.md), або використовуйте методи, що надаються класом, що реалізує інтерфейс [Iterator](class.iterator.md), наПриклад,[ArrayIterator](class.arrayiterator.md)
 
 INI-директива[auto\_detect\_line\_endings](filesystem.configuration.md#ini.auto-detect-line-endings) застаріла. При необхідності обробіть розриви рядків `"\r"`вручную.
 
-Константи **`FILE_BINARY`**и**`FILE_TEXT`** застаріли. Вони ніколи не мали сенсу.
+Константи **`FILE_BINARY`** і **`FILE_TEXT`** застаріли. Вони ніколи не мали сенсу.

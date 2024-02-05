@@ -31,7 +31,7 @@ public ReflectionFunctionAbstract::getReturnType(): ?ReflectionType
 
 ### Приклади
 
-**Пример #1 Пример**ReflectionFunctionAbstract::getReturnType()\*\*\*\*
+**Приклад #1 Приклад**ReflectionFunctionAbstract::getReturnType()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ forward_static_call(callable $callback, mixed ...$args): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**forward\_static\_call()\*\*\*\*
+**Приклад #1 Приклад використання** forward\_static\_call()\*\*\*\*
 
 ```php
 <?php

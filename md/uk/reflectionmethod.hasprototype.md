@@ -31,7 +31,7 @@ public ReflectionMethod::hasPrototype(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionMethod::hasPrototype()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionMethod::hasPrototype()\*\*\*\*
 
 ```php
 <?php

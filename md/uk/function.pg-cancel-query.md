@@ -39,7 +39,7 @@ pg_cancel_query(PgSql\Connection $connection): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_cancel\_query()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_cancel\_query()\*\*\*\*
 
 ```php
 <?php

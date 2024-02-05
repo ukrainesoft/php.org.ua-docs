@@ -37,7 +37,7 @@ public Ds\PriorityQueue::push(mixed $value, int $priority): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\PriorityQueue::push()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\PriorityQueue::push()\*\*\*\*
 
 ```php
 <?php

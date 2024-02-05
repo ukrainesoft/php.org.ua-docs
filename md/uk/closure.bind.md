@@ -41,7 +41,7 @@ public static Closure::bind(Closure $closure, ?object $newThis, object|string|nu
 
 ### Приклади
 
-**Пример #1 Пример**Closure::bind()\*\*\*\*
+**Приклад #1 Приклад**Closure::bind()\*\*\*\*
 
 ```php
 <?php

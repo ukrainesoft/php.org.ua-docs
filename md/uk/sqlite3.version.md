@@ -31,7 +31,7 @@ public static SQLite3::version(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3::version()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3::version()\*\*\*\*
 
 ```php
 <?php

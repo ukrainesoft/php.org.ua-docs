@@ -44,7 +44,7 @@ imagecolortransparent(GdImage $image, ?int $color = null): int
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecolortransparent()\*\*\*\*
+**Приклад #1 Приклад використання** imagecolortransparent()\*\*\*\*
 
 ```php
 <?php

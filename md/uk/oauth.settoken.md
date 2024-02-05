@@ -37,7 +37,7 @@ public OAuth::setToken(string $token, string $token_secret): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuth::setToken()\*\*\*\*
+**Приклад #1 Приклад використання** OAuth::setToken()\*\*\*\*
 
 ```php
 <?php

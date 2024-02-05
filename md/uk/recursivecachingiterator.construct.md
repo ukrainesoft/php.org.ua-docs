@@ -15,7 +15,7 @@ RecursiveCachingIterator::\_\_construct — Конструктор
 
 ### Опис
 
-public**RecursiveCachingIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`, int`$flags`\= RecursiveCachingIterator::CALL\_TOSTRING)
+public **RecursiveCachingIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`, int`$flags`\= RecursiveCachingIterator::CALL\_TOSTRING)
 
 Створює новий [RecursiveCachingIterator](class.recursivecachingiterator.md), що складається з переданого ітератора (`iterator`
 

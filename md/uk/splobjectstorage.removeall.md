@@ -33,7 +33,7 @@ public SplObjectStorage::removeAll(SplObjectStorage $storage): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::removeAll()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::removeAll()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public Ds\Deque::reverse(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::reverse()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::reverse()\*\*\*\*
 
 ```php
 <?php

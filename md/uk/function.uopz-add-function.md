@@ -57,7 +57,7 @@ uopz_add_function(    string $class,    string $function,    Closure
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_add\_function()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_add\_function()\*\*\*\*
 
 ```php
 <?php

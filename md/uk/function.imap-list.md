@@ -53,7 +53,7 @@ imap_list(IMAP\Connection $imap, string $reference, string $pattern): array|fals
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_list()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_list()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ iterator_to_array(Traversable|array $iterator, bool $preserve_keys = true): arra
 
 ### Приклади
 
-**Пример #1 Пример использования**iterator\_to\_array()\*\*\*\*
+**Приклад #1 Приклад використання** iterator\_to\_array()\*\*\*\*
 
 ```php
 <?php

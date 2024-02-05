@@ -15,7 +15,7 @@ Zookeeper::\_\_construct — Створює дескриптор для спіл
 
 ### Опис
 
-public**Zookeeper::\_\_construct**(string`$host` = '', [callable](language.types.callable.md) `$watcher_cb` **`null`**, int`$recv_timeout`
+public **Zookeeper::\_\_construct**(string`$host` = '', [callable](language.types.callable.md) `$watcher_cb` **`null`**, int`$recv_timeout`
 
 Метод створює новий дескриптор та сеанс zookeeper, який відповідає цьому дескриптору. Встановлення сеансу асинхронне, тому сеанс не слід вважати встановленим доти, доки не буде отримано подію стану ZOO\_CONNECTED\_STATE.
 

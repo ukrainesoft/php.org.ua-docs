@@ -41,7 +41,7 @@ runkit7_method_copy(    string $destination_class,    string $destinatio
 
 ### Приклади
 
-**Пример #1 Пример использования**runkit7\_method\_copy()\*\*\*\*
+**Приклад #1 Приклад використання** runkit7\_method\_copy()\*\*\*\*
 
 ```php
 <?php

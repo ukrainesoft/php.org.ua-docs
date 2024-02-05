@@ -15,7 +15,7 @@ SensitiveParameter::\_\_construct — Створює новий екземпля
 
 ### Опис
 
-public**SensitiveParameter::\_\_construct**()
+public **SensitiveParameter::\_\_construct**()
 
 Створює новий екземпляр [SensitiveParameter](class.sensitiveparameter.md)
 

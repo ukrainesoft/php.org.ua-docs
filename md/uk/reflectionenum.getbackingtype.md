@@ -37,7 +37,7 @@ public ReflectionEnum::getBackingType(): ?ReflectionNamedType
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionEnum::getBackingType()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionEnum::getBackingType()\*\*\*\*
 
 ```php
 <?php

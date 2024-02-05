@@ -37,7 +37,7 @@ oci_commit(resource $connection): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_commit()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_commit()\*\*\*\*
 
 ```php
 <?php

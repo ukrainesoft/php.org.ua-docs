@@ -41,7 +41,7 @@ final public MongoDB\Driver\Server::getLatency(): ?integer
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Server::getLatency()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Server::getLatency()\*\*\*\*
 
 ```php
 <?php

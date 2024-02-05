@@ -49,7 +49,7 @@ public DOMElement::prepend(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::prepend()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::prepend()\*\*\*\*
 
 Додавання вузлів елемент «container».
 

@@ -33,7 +33,7 @@ radius_get_attr(resource $radius_handle): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_get\_attr()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_get\_attr()\*\*\*\*
 
 ```php
 <?php

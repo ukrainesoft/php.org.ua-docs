@@ -43,7 +43,7 @@ Memcache::get(array $keys, array &$flags = ?): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::get()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::get()\*\*\*\*
 
 ```php
 <?php

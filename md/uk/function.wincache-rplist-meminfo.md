@@ -39,7 +39,7 @@ wincache_rplist_meminfo(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_rplist\_meminfo()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_rplist\_meminfo()\*\*\*\*
 
 ```php
 <pre>

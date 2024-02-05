@@ -37,7 +37,7 @@ public ArrayObject::offsetSet(mixed $key, mixed $value): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::offsetSet()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::offsetSet()\*\*\*\*
 
 ```php
 <?php

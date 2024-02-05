@@ -39,7 +39,7 @@ cubrid_fetch_assoc(resource $result, int $type = ?): array
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_fetch\_assoc()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_fetch\_assoc()\*\*\*\*
 
 ```php
 <?php

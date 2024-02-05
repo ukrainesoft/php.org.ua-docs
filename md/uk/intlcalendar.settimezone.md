@@ -54,7 +54,7 @@ intlcal_set_time_zone(IntlCalendar $calendar, IntlTimeZone|DateTimeZone|string|n
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::setTimeZone()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::setTimeZone()\*\*\*\*
 
 ```php
 <?php

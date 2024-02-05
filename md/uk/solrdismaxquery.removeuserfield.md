@@ -37,7 +37,7 @@ public SolrDisMaxQuery::removeUserField(string $field): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::removeUserField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::removeUserField()\*\*\*\*
 
 ```php
 <?php

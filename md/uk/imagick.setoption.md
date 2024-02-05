@@ -49,7 +49,7 @@ public Imagick::setOption(string $key, string $value): bool
 ?>
 ```
 
-**Пример #2 Пример использования**Imagick::setOption()\*\*\*\*
+**Приклад #2 Приклад використання** Imagick::setOption()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +68,7 @@ public Imagick::setOption(string $key, string $value): bool
 ?>
 ```
 
-**Пример #3 Пример использования**Imagick::setOption()\*\*\*\*
+**Приклад #3 Приклад використання** Imagick::setOption()\*\*\*\*
 
 ```php
 <?php

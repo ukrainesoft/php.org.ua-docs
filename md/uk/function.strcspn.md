@@ -65,7 +65,7 @@ strcspn(    string $string,    string $characters,    int $offset = 
 
 ### Приклади
 
-**Пример #1 Пример использования**strcspn()\*\*\*\*
+**Приклад #1 Приклад використання** strcspn()\*\*\*\*
 
 ```php
 <?php

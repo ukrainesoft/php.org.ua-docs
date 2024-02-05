@@ -61,7 +61,7 @@ mysqli_commit(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### Приклади
 
-Смотрите пример использования в разделе[](mysqli.begin-transaction.md#mysqli.begin-transaction.example.basic)[mysqli::begin\_transaction()](mysqli.begin-transaction.md)
+Смотрите Приклад использования в разделе[](mysqli.begin-transaction.md#mysqli.begin-transaction.example.basic)[mysqli::begin\_transaction()](mysqli.begin-transaction.md)
 
 ### Примітки
 

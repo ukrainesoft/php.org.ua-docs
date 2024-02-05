@@ -15,7 +15,7 @@ ReflectionFiber::\_\_construct — Створює об'єкт ReflectionFiber
 
 ### Опис
 
-public**ReflectionFiber::\_\_construct** [Fiber](class.fiber.md) `$fiber`) .
+public **ReflectionFiber::\_\_construct** [Fiber](class.fiber.md) `$fiber`) .
 
 Створює об'єкт [ReflectionFiber](class.reflectionfiber.md)
 

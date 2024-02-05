@@ -39,7 +39,7 @@ str_pad(    string $string,    int $length,    string $pad_string = 
 
 `pad_type`
 
-Необов'язковий аргумент `pad_type` може мати значення **`STR_PAD_RIGHT`** **`STR_PAD_LEFT`**или**`STR_PAD_BOTH`**. Якщо не вказано, то за замовчуванням використовується **`STR_PAD_RIGHT`**
+Необов'язковий аргумент `pad_type` може мати значення **`STR_PAD_RIGHT`** **`STR_PAD_LEFT`** або **`STR_PAD_BOTH`**. Якщо не вказано, то за замовчуванням використовується **`STR_PAD_RIGHT`**
 
 ### Значення, що повертаються
 
@@ -47,7 +47,7 @@ str_pad(    string $string,    int $length,    string $pad_string = 
 
 ### Приклади
 
-**Пример #1 Пример использования**str\_pad()\*\*\*\*
+**Приклад #1 Приклад використання** str\_pad()\*\*\*\*
 
 ```php
 <?php

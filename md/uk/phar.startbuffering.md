@@ -35,7 +35,7 @@ public Phar::startBuffering(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::startBuffering()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::startBuffering()\*\*\*\*
 
 ```php
 <?php

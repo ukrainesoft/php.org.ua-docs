@@ -31,7 +31,7 @@ public RRDGraph::setOptions(array $options): void
 
 ### Приклади
 
-**Пример #1 Пример использования**RRDGraph::setOptions()\*\*\*\*
+**Приклад #1 Приклад використання** RRDGraph::setOptions()\*\*\*\*
 
 ```php
 <?php

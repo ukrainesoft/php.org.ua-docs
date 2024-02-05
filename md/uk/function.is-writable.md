@@ -39,7 +39,7 @@ is_writable(string $filename): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**is\_writable()\*\*\*\*
+**Приклад #1 Приклад використання** is\_writable()\*\*\*\*
 
 ```php
 <?php

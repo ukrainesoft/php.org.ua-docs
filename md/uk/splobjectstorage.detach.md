@@ -33,7 +33,7 @@ public SplObjectStorage::detach(object $object): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::detach()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::detach()\*\*\*\*
 
 ```php
 <?php

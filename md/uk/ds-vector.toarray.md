@@ -35,7 +35,7 @@ public Ds\Vector::toArray(): array
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Ds\\Vector::toArray()\*\*\*\*
+**Приклад #1 Приклад использования метода**Ds\\Vector::toArray()\*\*\*\*
 
 ```php
 <?php

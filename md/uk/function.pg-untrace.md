@@ -45,7 +45,7 @@ pg_untrace(?PgSql\Connection $connection = null): true
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_untrace()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_untrace()\*\*\*\*
 
 ```php
 <?php

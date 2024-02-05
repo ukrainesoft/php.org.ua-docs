@@ -45,7 +45,7 @@ public Memcached::append(string $key, string $value): ?bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::append()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::append()\*\*\*\*
 
 ```php
 <?php

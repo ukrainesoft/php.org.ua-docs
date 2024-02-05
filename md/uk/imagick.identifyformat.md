@@ -33,7 +33,7 @@ public Imagick::identifyFormat(string $embedText): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::identifyFormat()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::identifyFormat()\*\*\*\*
 
 ```php
 <?php

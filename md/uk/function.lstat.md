@@ -39,7 +39,7 @@ lstat(string $filename): array|false
 
 ### Приклади
 
-**Пример #1 Сравнение функций[stat()](function.stat.md)и**lstat()\*\*\*\*
+**Приклад #1 Сравнение функций[stat()](function.stat.md)и**lstat()\*\*\*\*
 
 ```php
 <?php

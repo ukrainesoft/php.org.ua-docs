@@ -31,7 +31,7 @@ public Memcached::getResultMessage(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::getResultMessage()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::getResultMessage()\*\*\*\*
 
 ```php
 <?php

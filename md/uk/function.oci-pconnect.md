@@ -53,11 +53,11 @@ oci_pconnect(    string $username,    string $password,    ?string $
 
 `session_mode`
 
-Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`**и**`OCI_SYSDBA`**. Якщо були вказані \*\*`OCI_SYSOPER`**или**`OCI_SYSDBA`\*\*ця функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privileged\_connect](oci8.configuration.md#ini.oci8.privileged-connect)в`On`
+Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо були вказані \*\*`OCI_SYSOPER`** або **`OCI_SYSDBA`\*\*ця функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privileged\_connect](oci8.configuration.md#ini.oci8.privileged-connect)в`On`
 
 У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний лише з ім'ям користувача "/" та порожнім паролем. . [oci8.privileged\_connect](oci8.configuration.md#ini.oci8.privileged-connect) може набувати значення `On`или`Off`
 
-**`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`**и**`OCI_SYSDBA`**
+**`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`** і **`OCI_SYSDBA`**
 
 **`OCI_CRED_EXT`** не підтримується у Windows через безпеку.
 

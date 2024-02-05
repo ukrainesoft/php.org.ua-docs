@@ -41,7 +41,7 @@ public Imagick::gammaImage(float $gamma, int $channel = Imagick::CHANNEL_DEFAULT
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::gammaImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::gammaImage()\*\*\*\*
 
 ```php
 <?php

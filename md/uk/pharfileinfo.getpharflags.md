@@ -31,7 +31,7 @@ public PharFileInfo::getPharFlags(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::getPharFlags()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::getPharFlags()\*\*\*\*
 
 ```php
 <?php

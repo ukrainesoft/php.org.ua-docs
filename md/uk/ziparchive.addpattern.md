@@ -41,7 +41,7 @@ public ZipArchive::addPattern(string $pattern, string $path = ".", array $option
 
 ### Приклади
 
-**Пример #1 Пример использования**ZipArchive::addPattern()\*\*\*\*
+**Приклад #1 Приклад використання** ZipArchive::addPattern()\*\*\*\*
 
 Додати до архіву всі текстові файли та файли скриптів PHP з поточної директорії
 

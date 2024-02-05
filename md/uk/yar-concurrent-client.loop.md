@@ -37,7 +37,7 @@ public static Yar_Concurrent_Client::loop(callable $callback = ?, callable $erro
 
 ### Приклади
 
-**Пример #1 Пример использования**Yar\_Concurrent\_Client::loop()\*\*\*\*
+**Приклад #1 Приклад використання** Yar\_Concurrent\_Client::loop()\*\*\*\*
 
 ```php
 <?php

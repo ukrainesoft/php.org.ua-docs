@@ -29,7 +29,7 @@ xml_parser_get_option(XMLParser $parser, int $option): string|int|bool
 
 `option`
 
-Яке налаштування отримати. Доступні параметри: **`XML_OPTION_CASE_FOLDING`** **`XML_OPTION_SKIP_TAGSTART`** **`XML_OPTION_SKIP_WHITE`**и**`XML_OPTION_TARGET_ENCODING`**. Вони описані у документації до функції [xml\_parser\_set\_option()](function.xml-parser-set-option.md)
+Яке налаштування отримати. Доступні параметри: **`XML_OPTION_CASE_FOLDING`** **`XML_OPTION_SKIP_TAGSTART`** **`XML_OPTION_SKIP_WHITE`** і **`XML_OPTION_TARGET_ENCODING`**. Вони описані у документації до функції [xml\_parser\_set\_option()](function.xml-parser-set-option.md)
 
 ### Значення, що повертаються
 
@@ -48,4 +48,4 @@ xml_parser_get_option(XMLParser $parser, int $option): string|int|bool
 | 8.3.0 | Тепер функція повертає логічне значення логічних налаштувань. |
 | 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |
 | 8.0.0 | Если значение параметра`option` неприпустимо, тепер викидається виняток [ValueError](class.valueerror.md) |
-| 7.1.24, 7.2.12, 7.3.0 | Тепер параметр `options` підтримує значення **`XML_OPTION_SKIP_TAGSTART`**и**`XML_OPTION_SKIP_WHITE`** |
+| 7.1.24, 7.2.12, 7.3.0 | Тепер параметр `options` підтримує значення **`XML_OPTION_SKIP_TAGSTART`** і **`XML_OPTION_SKIP_WHITE`** |

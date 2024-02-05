@@ -60,7 +60,7 @@ wincache_ucache_info(bool $summaryonly = false, string $key = NULL): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ucache\_info()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_ucache\_info()\*\*\*\*
 
 ```php
 <?php

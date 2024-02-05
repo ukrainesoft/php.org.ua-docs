@@ -15,7 +15,7 @@ Componere\\Method::\_\_construct - Конструктор класу Method
 
 ### Опис
 
-public**Componere\\Method::\_\_construct** [Closure](class.closure.md) `$closure`) .
+public **Componere\\Method::\_\_construct** [Closure](class.closure.md) `$closure`) .
 
 ### Список параметрів
 

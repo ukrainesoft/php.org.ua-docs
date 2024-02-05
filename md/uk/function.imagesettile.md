@@ -49,7 +49,7 @@ imagesettile(GdImage $image, GdImage $tile): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagesettile()\*\*\*\*
+**Приклад #1 Приклад використання** imagesettile()\*\*\*\*
 
 ```php
 <?php

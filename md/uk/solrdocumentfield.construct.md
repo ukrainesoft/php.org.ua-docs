@@ -15,7 +15,7 @@ SolrDocumentField::\_\_construct — Конструктор
 
 ### Опис
 
-public**SolrDocumentField::\_\_construct**()
+public **SolrDocumentField::\_\_construct**()
 
 Конструктор.
 

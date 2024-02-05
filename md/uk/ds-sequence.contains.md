@@ -33,7 +33,7 @@ abstract public Ds\Sequence::contains(mixed ...$values): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::contains()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::contains()\*\*\*\*
 
 ```php
 <?php

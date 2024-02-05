@@ -47,7 +47,7 @@ bcsub(string $num1, string $num2, ?int $scale = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**bcsub()\*\*\*\*
+**Приклад #1 Приклад використання** bcsub()\*\*\*\*
 
 ```php
 <?php

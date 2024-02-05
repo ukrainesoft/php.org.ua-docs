@@ -39,7 +39,7 @@ stream_context_get_default(?array $options = null): resource
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_context\_get\_default()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_context\_get\_default()\*\*\*\*
 
 ```php
 <?php

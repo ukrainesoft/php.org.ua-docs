@@ -250,7 +250,7 @@ Connection: close
 * хранится в $loop_hi, а встраиваемый в $loop_lo (который будет равен $loop_hi в случае
 * если мы не будем использовать встраиваемый цикл).
 *
-* Пример взят из
+* Приклад взят из
 * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
 $loop_hi = EvLoop::defaultLoop();
@@ -283,7 +283,7 @@ if ($loop_lo) {
 * Сохраняем событийный цикл kqueue/socket-only в loop_socket. (Можно опционально
 * использовать флаг EVFLAG_NOENV)
 *
-* Пример взят из
+* Приклад взят из
 * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
 $loop        = EvLoop::defaultLoop();

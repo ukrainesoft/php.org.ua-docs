@@ -35,7 +35,7 @@ public Imagick::getPixelIterator(): ImagickPixelIterator
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getPixelIterator()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::getPixelIterator()\*\*\*\*
 
 ```php
 <?php

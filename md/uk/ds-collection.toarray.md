@@ -35,7 +35,7 @@ public Ds\Collection::toArray(): array
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Ds\\Collection::toArray()\*\*\*\*
+**Приклад #1 Приклад использования метода**Ds\\Collection::toArray()\*\*\*\*
 
 ```php
 <?php

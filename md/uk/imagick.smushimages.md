@@ -33,7 +33,7 @@ public Imagick::smushImages(bool $stack, int $offset): Imagick
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::smushImages()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::smushImages()\*\*\*\*
 
 ```php
 <?php

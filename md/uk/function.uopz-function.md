@@ -51,7 +51,7 @@ uopz_function(    string $class,    string $function,    Closure $ha
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_function()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_function()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +68,7 @@ echo my_strlen("Привет, Мир");
 11
 ```
 
-**Пример #2 Пример использования**uopz\_function()\*\* з класом\*\*
+**Приклад #2 Приклад використання** uopz\_function()\*\* з класом\*\*
 
 ```php
 <?php

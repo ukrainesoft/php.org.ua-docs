@@ -37,7 +37,7 @@ public Imagick::edgeImage(float $radius): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::edgeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::edgeImage()\*\*\*\*
 
 ```php
 <?php

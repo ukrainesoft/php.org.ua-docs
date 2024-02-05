@@ -40,7 +40,7 @@ public DOMElement::insertAdjacentText(string $where, string $data): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::insertAdjacentText()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::insertAdjacentText()\*\*\*\*
 
 ```php
 <?php

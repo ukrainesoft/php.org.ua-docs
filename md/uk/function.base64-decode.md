@@ -37,7 +37,7 @@ base64_decode(string $string, bool $strict = false): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**base64\_decode()\*\*\*\*
+**Приклад #1 Приклад використання** base64\_decode()\*\*\*\*
 
 ```php
 <?php

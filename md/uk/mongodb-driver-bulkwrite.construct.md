@@ -61,7 +61,7 @@ public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\BulkWrite::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\BulkWrite::\_\_construct()\*\*\*\*
 
 ```php
 <?php

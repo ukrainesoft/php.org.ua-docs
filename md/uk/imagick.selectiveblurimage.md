@@ -39,7 +39,7 @@ public Imagick::selectiveBlurImage(    float $radius,    float $sigma, 
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::selectiveBlurImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::selectiveBlurImage()\*\*\*\*
 
 ```php
 <?php

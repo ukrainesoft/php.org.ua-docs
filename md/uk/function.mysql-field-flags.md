@@ -46,7 +46,7 @@ mysql_field_flags(resource $result, int $field_offset): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_field\_flags()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_field\_flags()\*\*\*\*
 
 ```php
 <?php

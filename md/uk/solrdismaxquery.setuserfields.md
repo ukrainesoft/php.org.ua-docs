@@ -37,7 +37,7 @@ public SolrDisMaxQuery::setUserFields(string $fields): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setUserFields()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setUserFields()\*\*\*\*
 
 ```php
 <?php

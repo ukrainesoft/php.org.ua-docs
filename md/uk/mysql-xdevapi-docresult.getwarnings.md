@@ -31,7 +31,7 @@ public mysql_xdevapi\DocResult::getWarnings(): Array
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\DocResult::getWarnings()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\DocResult::getWarnings()\*\*\*\*
 
 ```php
 <?php

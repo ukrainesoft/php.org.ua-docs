@@ -31,7 +31,7 @@ public mysql_xdevapi\Table::isView(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Table::isView()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Table::isView()\*\*\*\*
 
 ```php
 <?php

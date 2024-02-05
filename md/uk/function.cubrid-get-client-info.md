@@ -29,7 +29,7 @@ cubrid_get_client_info(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_get\_client\_info()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_get\_client\_info()\*\*\*\*
 
 ```php
 <?php

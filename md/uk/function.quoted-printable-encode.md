@@ -35,7 +35,7 @@ quoted_printable_encode(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**quoted\_printable\_encode()\*\*\*\*
+**Приклад #1 Приклад використання** quoted\_printable\_encode()\*\*\*\*
 
 ```php
 <?php

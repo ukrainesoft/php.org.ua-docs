@@ -79,7 +79,7 @@ public SplDoublyLinkedList::valid(): bool
 
 ## Приклади
 
-**Пример #1 Пример использования**SplStack\*\*\*\*
+**Приклад #1 Приклад використання** SplStack\*\*\*\*
 
 ```php
 <?php

@@ -99,7 +99,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 **`PDO::FETCH_GROUP`**(int)
 
-Угруповання значень, що повертаються. Зазвичай комбінується з константами **`PDO::FETCH_COLUMN`**или**`PDO::FETCH_KEY_PAIR`**
+Угруповання значень, що повертаються. Зазвичай комбінується з константами **`PDO::FETCH_COLUMN`** або **`PDO::FETCH_KEY_PAIR`**
 
 **`PDO::FETCH_UNIQUE`**(int)
 
@@ -161,7 +161,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 **`PDO::ATTR_CURSOR`**(int)
 
-Вибір типу курсору. Драйвер PDO підтримує два типи курсорів: **`PDO::CURSOR_FWDONLY`**и**`PDO::CURSOR_SCROLL`**. Якщо немає впевненості, що потрібен саме курсор, що прокручується, вибирають курсор **`PDO::CURSOR_FWDONLY`**
+Вибір типу курсору. Драйвер PDO підтримує два типи курсорів: **`PDO::CURSOR_FWDONLY`** і **`PDO::CURSOR_SCROLL`**. Якщо немає впевненості, що потрібен саме курсор, що прокручується, вибирають курсор **`PDO::CURSOR_FWDONLY`**
 
 **`PDO::ATTR_DRIVER_NAME`**(string)
 
@@ -211,7 +211,7 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 **`PDO::ATTR_DEFAULT_STR_PARAM`**(int)
 
-Встановлює тип рядкового параметра за промовчанням, значенням може бути одна з констант: \*\*`PDO::PARAM_STR_NATL`**или**`PDO::PARAM_STR_CHAR`\*\*Константа доступна с версии PHP 7.2.0.
+Встановлює тип рядкового параметра за промовчанням, значенням може бути одна з констант: \*\*`PDO::PARAM_STR_NATL`** або **`PDO::PARAM_STR_CHAR`\*\*Константа доступна с версии PHP 7.2.0.
 
 **`PDO::ERRMODE_SILENT`**(int)
 

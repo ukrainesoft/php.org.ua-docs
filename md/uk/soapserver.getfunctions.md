@@ -31,7 +31,7 @@ public SoapServer::getFunctions(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapServer::getFunctions()\*\*\*\*
+**Приклад #1 Приклад використання** SoapServer::getFunctions()\*\*\*\*
 
 ```php
 <?php

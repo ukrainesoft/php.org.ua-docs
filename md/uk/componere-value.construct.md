@@ -15,7 +15,7 @@ Componere\\Value::\_\_construct - Конструктор класу Value
 
 ### Опис
 
-public**Componere\\Value::\_\_construct** `$default`
+public **Componere\\Value::\_\_construct** `$default`
 
 ### Список параметрів
 

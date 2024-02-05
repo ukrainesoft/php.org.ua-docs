@@ -37,7 +37,7 @@ class_uses(object|string $object_or_class, bool $autoload = true): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**class\_uses()\*\*\*\*
+**Приклад #1 Приклад використання** class\_uses()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ Request identifier.
 
 ### Приклади
 
-**Пример #1**cubrid\_column\_types()**example**
+**Приклад #1**cubrid\_column\_types()**example**
 
 ```php
 <?php

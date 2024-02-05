@@ -37,7 +37,7 @@ public Imagick::resampleImage(    float $x_resolution,    float $y_resol
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Imagick::resampleImage()\*\*\*\*
+**Приклад #1 Приклад использования метода**Imagick::resampleImage()\*\*\*\*
 
 ```php
 <?php

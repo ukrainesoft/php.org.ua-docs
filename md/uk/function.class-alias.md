@@ -41,7 +41,7 @@ class_alias(string $class, string $alias, bool $autoload = true): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**class\_alias()\*\*\*\*
+**Приклад #1 Приклад використання** class\_alias()\*\*\*\*
 
 ```php
 <?php

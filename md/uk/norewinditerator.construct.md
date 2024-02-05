@@ -15,7 +15,7 @@ NoRewindIterator::\_\_construct — Створює новий об'єкт NoRewi
 
 ### Опис
 
-public**NoRewindIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`) .
+public **NoRewindIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`) .
 
 Створює новий об'єкт NoRewindIterator.
 
@@ -27,7 +27,7 @@ public**NoRewindIterator::\_\_construct** [Iterator](class.iterator.md) `$iterat
 
 ### Приклади
 
-**Пример #1 Пример использования**NoRewindIterator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** NoRewindIterator::\_\_construct()\*\*\*\*
 
 Другий цикл нічого не виведе, оскільки ітератор використовується лише один раз і не може бути повернутий на початок.
 

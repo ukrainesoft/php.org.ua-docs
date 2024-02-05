@@ -59,7 +59,7 @@ apache_lookup_uri(string $filename): object|false
 
 ### Приклади
 
-**Пример #1 Пример использования**apache\_lookup\_uri()\*\*\*\*
+**Приклад #1 Приклад використання** apache\_lookup\_uri()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Dispatcher::autoRender()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Dispatcher::autoRender()\*\*\*\*
 
 ```php
 <?php

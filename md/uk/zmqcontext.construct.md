@@ -37,7 +37,7 @@ public ZMQContext::__construct(int $io_threads = 1, bool $is_persistent = true)
 
 ### Приклади
 
-**Пример #1 Пример использования**ZMQContext()\*\*\*\*
+**Приклад #1 Приклад використання** ZMQContext()\*\*\*\*
 
 Створимо новий контекст та створимо сокети з нього
 

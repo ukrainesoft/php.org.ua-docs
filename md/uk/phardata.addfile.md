@@ -43,7 +43,7 @@ public PharData::addFile(string $filename, ?string $localName = null): void
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::addFile()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::addFile()\*\*\*\*
 
 ```php
 <?php

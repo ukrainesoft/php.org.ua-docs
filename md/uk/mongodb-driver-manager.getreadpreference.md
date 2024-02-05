@@ -35,7 +35,7 @@ final public MongoDB\Driver\Manager::getReadPreference(): MongoDB\Driver\ReadPre
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Manager::getReadPreference()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Manager::getReadPreference()\*\*\*\*
 
 ```php
 <?php

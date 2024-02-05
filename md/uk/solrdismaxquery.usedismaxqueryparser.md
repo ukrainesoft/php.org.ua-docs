@@ -31,7 +31,7 @@ public SolrDisMaxQuery::useDisMaxQueryParser(): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::useDisMaxQueryParser()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::useDisMaxQueryParser()\*\*\*\*
 
 ```php
 <?php

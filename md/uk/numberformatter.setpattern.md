@@ -47,7 +47,7 @@ numfmt_set_pattern(NumberFormatter $formatter, string $pattern): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_set\_pattern()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_set\_pattern()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeOpacity(float $stroke_opacity): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeOpacity()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeOpacity()\*\*\*\*
 
 ```php
 <?php

@@ -53,7 +53,7 @@ public Imagick::roundCorners(    float $x_rounding,    float $y_rounding
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::roundCorners()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::roundCorners()\*\*\*\*
 
 Закруглення кутів зображення
 

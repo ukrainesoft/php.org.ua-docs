@@ -31,7 +31,7 @@ public ReflectionClass::getExtension(): ?ReflectionExtension
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getExtension()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getExtension()\*\*\*\*
 
 ```php
 <?php

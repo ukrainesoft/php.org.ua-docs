@@ -59,7 +59,7 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 | Ключ | Значения | Опис |
 | --- | --- | --- |
 | QueryTimeout | Позитивне ціле значення. | Встановлює час очікування в секундах. За замовчуванням драйвер очікуватиме результатів нескінченно. |
-| SendStreamParamsAtExec | **`true`**или**`false`** (за замовчуванням **`true`**) . | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. . Для отримання додаткової інформації дивіться [sqlsrv\_send\_stream\_data()](function.sqlsrv-send-stream-data.md) |
+| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`**) . | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. . Для отримання додаткової інформації дивіться [sqlsrv\_send\_stream\_data()](function.sqlsrv-send-stream-data.md) |
 | Scrollable | SQLSRV\_CURSOR\_FORWARD, SQLSRV\_CURSOR\_STATIC, SQLSRV\_CURSOR\_DYNAMIC, або SQLSRV\_CURSOR\_KEYSET | Смотрите[» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx)в документации Microsoft SQLSRV. |
 
 ### Значення, що повертаються
@@ -68,7 +68,7 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_prepare()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_prepare()\*\*\*\*
 
 У цьому прикладі показано, як підготувати оператор за допомогою **sqlsrv\_prepare()** та повторно виконати його кілька разів (з різними значеннями параметрів) за допомогою [sqlsrv\_execute()](function.sqlsrv-execute.md)
 

@@ -43,7 +43,7 @@ public Memcached::set(string $key, mixed $value, int $expiration = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::set()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::set()\*\*\*\*
 
 ```php
 <?php

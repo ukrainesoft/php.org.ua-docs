@@ -45,7 +45,7 @@ public Ds\Queue::allocate(int $capacity): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Queue::allocate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Queue::allocate()\*\*\*\*
 
 ```php
 <?php

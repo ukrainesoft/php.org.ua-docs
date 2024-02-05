@@ -31,7 +31,7 @@ public ReflectionParameter::getType(): ?ReflectionType
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionParameter::getType()\*\* починаючи з PHP 7.1.0\*\*
+**Приклад #1 Приклад використання** ReflectionParameter::getType()\*\* починаючи з PHP 7.1.0\*\*
 
 Начиная с PHP 7.1.0, метод[ReflectionType::\_\_toString()](reflectiontype.tostring.md) оголошено застарілим. Метод **ReflectionParameter::getType()** *може* повернути екземпляр [ReflectionNamedType](class.reflectionnamedtype.md)Для получения имени типа параметра доступен метод**ReflectionNamedType()**
 
@@ -57,7 +57,7 @@ int
 NULL
 ```
 
-**Пример #2 Использование**ReflectionParameter::getType()\*\* у PHP до версії 7.1.0\*\*
+**Приклад #2 Использование**ReflectionParameter::getType()\*\* у PHP до версії 7.1.0\*\*
 
 ```php
 <?php
@@ -80,7 +80,7 @@ int
 NULL
 ```
 
-**Пример #3 Пример использования**ReflectionParameter::getType()\*\* в PHP 8.0.0 і пізніших\*\*
+**Приклад #3 Приклад використання** ReflectionParameter::getType()\*\* в PHP 8.0.0 і пізніших\*\*
 
 Починаючи з PHP 8.0.0, цей метод може повертати екземпляр [ReflectionNamedType](class.reflectionnamedtype.md) або екземпляр [ReflectionUnionType](class.reflectionuniontype.md). Останній є колекцією перших. Для аналізу типу часто буває зручно перетворити його на масив об'єктів [ReflectionNamedType](class.reflectionnamedtype.md). Наступна функція поверне масив з або більше екземплярів [ReflectionNamedType](class.reflectionnamedtype.md)
 

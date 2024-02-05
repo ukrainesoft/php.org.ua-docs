@@ -31,7 +31,7 @@ public ReflectionExtension::getName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionExtension::getName()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionExtension::getName()\*\*\*\*
 
 ```php
 <?php

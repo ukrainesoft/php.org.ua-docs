@@ -15,7 +15,7 @@ Expression::\_\_construct - Конструктор класу Expression
 
 ### Опис
 
-public**mysql\_xdevapi\\Expression::\_\_construct**(string`$expression`) .
+public **mysql\_xdevapi\\Expression::\_\_construct**(string`$expression`) .
 
 **Увага**
 
@@ -27,7 +27,7 @@ public**mysql\_xdevapi\\Expression::\_\_construct**(string`$expression`) .
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Expression::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Expression::\_\_construct()\*\*\*\*
 
 ```php
 <?php

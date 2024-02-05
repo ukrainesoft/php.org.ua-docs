@@ -31,7 +31,7 @@ public mysql_xdevapi\Table::delete(): mysql_xdevapi\TableDelete
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Table::delete()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Table::delete()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public Yaf_Dispatcher::catchException(bool $flag = ?): Yaf_Dispatcher
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Dispatcher::catchException()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Dispatcher::catchException()\*\*\*\*
 
 ```php
 /* если вы определили ErrorController следующим образом */

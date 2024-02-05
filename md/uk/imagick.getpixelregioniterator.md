@@ -49,7 +49,7 @@ public Imagick::getPixelRegionIterator(    int $x,    int $y,    int
 
 ### Приклади
 
-**Пример #1 Пример использования функции**Imagick::getPixelRegionIterator()\*\*\*\*
+**Приклад #1 Приклад использования функции**Imagick::getPixelRegionIterator()\*\*\*\*
 
 Пробігає пікселями вгорі зліва зображення і замінює їх на чорні.
 

@@ -41,7 +41,7 @@ final public static Phar::loadPhar(string $filename, ?string $alias = null): boo
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::loadPhar()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::loadPhar()\*\*\*\*
 
 Phar::loadPhar можна використовувати будь-де, тоді як Phar::mapPhar тільки в завантажувачі (stub) Phar-архіву.
 

@@ -31,7 +31,7 @@ public Ds\Collection::isEmpty(): bool
 
 ### Приклади
 
-**Пример #1 Пример**Ds\\Collection::isEmpty()\*\*\*\*
+**Приклад #1 Приклад**Ds\\Collection::isEmpty()\*\*\*\*
 
 ```php
 <?php

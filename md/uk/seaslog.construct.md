@@ -15,7 +15,7 @@ SeasLog::\_\_construct — Опис
 
 ### Опис
 
-public**SeasLog::\_\_construct**()
+public **SeasLog::\_\_construct**()
 
 **Увага**
 
@@ -27,7 +27,7 @@ public**SeasLog::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ openssl_pkcs12_read(string $pkcs12, array &$certificates, string $passphrase): b
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_pkcs12\_read()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_pkcs12\_read()\*\*\*\*
 
 ```php
 <?php

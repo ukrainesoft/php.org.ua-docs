@@ -15,7 +15,7 @@ finfo::\_\_construct — Псевдоним[finfo\_open()](function.finfo-open.m
 
 ### Опис
 
-public**finfo::\_\_construct**(int`$flags` **`FILEINFO_NONE`**, ?string`$magic_database` **`null`**) .
+public **finfo::\_\_construct**(int`$flags` **`FILEINFO_NONE`**, ?string`$magic_database` **`null`**) .
 
 Функция — псевдоним функции:[finfo\_open()](function.finfo-open.md)
 

@@ -47,7 +47,7 @@ simdjson_is_valid(string $json = false, int $depth = 512): bool
 
 ### Приклади
 
-**Пример #1 Пример использования[simdjson\_decode()](function.simdjson-decode.md)**
+**Приклад #1 Приклад использования[simdjson\_decode()](function.simdjson-decode.md)**
 
 ```php
 <?php
@@ -67,7 +67,7 @@ bool(true)
 bool(false)
 ```
 
-**Пример #2 Ошибки`depth`**
+**Приклад #2 Ошибки`depth`**
 
 ```php
 <?php
@@ -109,7 +109,7 @@ bool(false)
 
 > **Зауваження** :
 > 
-> У разі виникнення помилки декодування викидається виняток [SimdJsonException](class.simdjsonexception.md), а**SimdJsonException::getCode()**и**SimdJsonException::getMessage()** можуть бути використані визначення точної природи помилки.
+> У разі виникнення помилки декодування викидається виняток [SimdJsonException](class.simdjsonexception.md), а**SimdJsonException::getCode()** і **SimdJsonException::getMessage()** можуть бути використані визначення точної природи помилки.
 
 ### Дивіться також
 

@@ -15,7 +15,7 @@ DOMDocument::\_\_construct — Створює новий об'єкт DOMDocument
 
 ### Опис
 
-public**DOMDocument::\_\_construct**(string`$version` = "1.0", string `$encoding` = "")
+public **DOMDocument::\_\_construct**(string`$version` = "1.0", string `$encoding` = "")
 
 Створює новий об'єкт [DOMDocument](class.domdocument.md)
 

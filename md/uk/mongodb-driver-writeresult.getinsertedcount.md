@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteResult::getInsertedCount(): ?int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getInsertedCount()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getInsertedCount()\*\*\*\*
 
 ```php
 <?php

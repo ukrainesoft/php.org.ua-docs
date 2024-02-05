@@ -59,7 +59,7 @@ wincache_ocache_fileinfo(bool $summaryonly = false): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ocache\_fileinfo()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_ocache\_fileinfo()\*\*\*\*
 
 ```php
 <pre>

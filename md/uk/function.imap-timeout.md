@@ -25,7 +25,7 @@ imap_timeout(int $timeout_type, int $timeout = -1): int|bool
 
 `timeout_type`
 
-Одна из констант:**`IMAP_OPENTIMEOUT`** **`IMAP_READTIMEOUT`** **`IMAP_WRITETIMEOUT`**или**`IMAP_CLOSETIMEOUT`**
+Одна из констант:**`IMAP_OPENTIMEOUT`** **`IMAP_READTIMEOUT`** **`IMAP_WRITETIMEOUT`** або **`IMAP_CLOSETIMEOUT`**
 
 `timeout`
 
@@ -33,13 +33,13 @@ imap_timeout(int $timeout_type, int $timeout = -1): int|bool
 
 ### Значення, що повертаються
 
-Если задан параметр`timeout`, ця функція поверне **`true`**или**`false`** залежно від успішності виконання.
+Если задан параметр`timeout`, ця функція поверне **`true`** або **`false`** залежно від успішності виконання.
 
 Якщо параметр `timeout` не заданий, або виставлений рівним -1, то буде повернуто ціле число, що дорівнює поточній величині часу очікування, що відповідає заданому типу `timeout_type`
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_timeout()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_timeout()\*\*\*\*
 
 ```php
 <?php

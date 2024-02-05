@@ -33,7 +33,7 @@ openssl_get_cipher_methods(bool $aliases = false): array
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_get\_cipher\_methods()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_get\_cipher\_methods()\*\*\*\*
 
 Показує, як можуть виглядати доступні шифри та їхні псевдоніми.
 

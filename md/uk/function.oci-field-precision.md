@@ -39,7 +39,7 @@ oci_field_precision(resource $statement, string|int $column): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_field\_precision()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_field\_precision()\*\*\*\*
 
 ```php
 <?php

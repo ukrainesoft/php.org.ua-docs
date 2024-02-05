@@ -37,7 +37,7 @@ array_reverse(array $array, bool $preserve_keys = false): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_reverse()\*\*\*\*
+**Приклад #1 Приклад використання** array\_reverse()\*\*\*\*
 
 ```php
 <?php

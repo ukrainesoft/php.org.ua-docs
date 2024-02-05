@@ -40,7 +40,7 @@ public ArrayObject::asort(int $flags = SORT_REGULAR): true
 -   \*\*`SORT_STRING`\*\*- рядкове порівняння елементів
 -   \*\*`SORT_LOCALE_STRING`\*\*— Порівняти елементи як рядки на основі поточного мовного стандарту. Прапор використовує мовний стандарт, який можна змінити функцією[setlocale()](function.setlocale.md)
 -   **`SORT_NATURAL`** - Порівняння елементів як рядки, використовуючи "природний порядок", наприклад [natsort()](function.natsort.md)
--   \*\*`SORT_FLAG_CASE`**\- можна об'єднувати (побітове АБО) з**`SORT_STRING`**или**`SORT_NATURAL`\*\*для сортування рядків без урахування регістру
+-   \*\*`SORT_FLAG_CASE`**\- можна об'єднувати (побітове АБО) з**`SORT_STRING`** або **`SORT_NATURAL`\*\*для сортування рядків без урахування регістру
 
 ### Значення, що повертаються
 
@@ -54,7 +54,7 @@ public ArrayObject::asort(int $flags = SORT_REGULAR): true
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::asort()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::asort()\*\*\*\*
 
 ```php
 <?php

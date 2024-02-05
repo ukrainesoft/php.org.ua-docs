@@ -37,7 +37,7 @@ public QuickHashIntStringHash::add(int $key, string $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntStringHash::add()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntStringHash::add()\*\*\*\*
 
 ```php
 <?php

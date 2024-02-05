@@ -51,7 +51,7 @@ mysqli_use_result(mysqli $mysql): mysqli_result|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::use\_result()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::use\_result()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

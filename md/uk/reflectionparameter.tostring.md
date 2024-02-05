@@ -31,7 +31,7 @@ public ReflectionParameter::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionParameter::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionParameter::\_\_toString()\*\*\*\*
 
 ```php
 <?php

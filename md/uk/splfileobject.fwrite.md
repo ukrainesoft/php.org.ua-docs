@@ -43,7 +43,7 @@ public SplFileObject::fwrite(string $data, int $length = 0): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fwrite()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fwrite()\*\*\*\*
 
 ```php
 <?php

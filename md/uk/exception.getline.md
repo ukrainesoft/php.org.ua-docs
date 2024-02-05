@@ -31,7 +31,7 @@ final public Exception::getLine(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Exception::getLine()\*\*\*\*
+**Приклад #1 Приклад використання** Exception::getLine()\*\*\*\*
 
 ```php
 <?php

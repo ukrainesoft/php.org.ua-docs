@@ -15,7 +15,7 @@ SimpleXMLElement::\_\_construct — Створення нового об'єкт�
 
 ### Опис
 
-public**SimpleXMLElement::\_\_construct**  
+public **SimpleXMLElement::\_\_construct**  
 string`$data`,  
 int`$options`  
 bool`$dataIsURL` **`false`**,  

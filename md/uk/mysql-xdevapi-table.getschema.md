@@ -31,7 +31,7 @@ public mysql_xdevapi\Table::getSchema(): mysql_xdevapi\Schema
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Table::getSchema()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Table::getSchema()\*\*\*\*
 
 ```php
 <?php

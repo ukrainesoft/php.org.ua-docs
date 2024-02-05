@@ -37,7 +37,7 @@ public SplObjectStorage::offsetGet(object $object): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::offsetGet()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::offsetGet()\*\*\*\*
 
 ```php
 <?php

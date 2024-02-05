@@ -53,7 +53,7 @@ str_word_count(string $string, int $format = 0, ?string $characters = null): arr
 
 ### Приклади
 
-**Пример #1 Пример использования**str\_word\_count()\*\*\*\*
+**Приклад #1 Приклад використання** str\_word\_count()\*\*\*\*
 
 ```php
 <?php

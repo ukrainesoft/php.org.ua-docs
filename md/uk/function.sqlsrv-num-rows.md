@@ -33,7 +33,7 @@ sqlsrv_num_rows(resource $stmt): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_num\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_num\_rows()\*\*\*\*
 
 ```php
 <?php

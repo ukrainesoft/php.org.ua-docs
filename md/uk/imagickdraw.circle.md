@@ -49,7 +49,7 @@ public ImagickDraw::circle(    float $ox,    float $oy,    float $px
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::circle()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::circle()\*\*\*\*
 
 ```php
 <?php

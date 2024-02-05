@@ -15,7 +15,7 @@ SQLite3Stmt::\_\_construct - конструктор класу SQLite3Stmt
 
 ### Опис
 
-private**SQLite3Stmt::\_\_construct** [SQLite3](class.sqlite3.md) `$sqlite3`, string`$query`) .
+private **SQLite3Stmt::\_\_construct** [SQLite3](class.sqlite3.md) `$sqlite3`, string`$query`) .
 
 Примірники [SQLite3Stmt](class.sqlite3stmt.md) створюються за допомогою [SQLite3::prepare()](sqlite3.prepare.md)
 

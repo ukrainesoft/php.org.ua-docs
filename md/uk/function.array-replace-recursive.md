@@ -41,7 +41,7 @@ array_replace_recursive(array $array, array ...$replacements): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_replace\_recursive()\*\*\*\*
+**Приклад #1 Приклад використання** array\_replace\_recursive()\*\*\*\*
 
 ```php
 <?php
@@ -88,7 +88,7 @@ Array
 )
 ```
 
-**Пример #2**array\_replace\_recursive()**и рекурсивное поведение**
+**Приклад #2**array\_replace\_recursive()**и рекурсивное поведение**
 
 ```php
 <?php

@@ -37,11 +37,11 @@ filemtime(string $filename): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования функции**filemtime()\*\*\*\*
+**Приклад #1 Приклад использования функции**filemtime()\*\*\*\*
 
 ```php
 <?php
-// Пример вывода: В последний раз файл somefile.txt был изменён: December 29 2002 22:16:23.
+// Приклад вывода: В последний раз файл somefile.txt был изменён: December 29 2002 22:16:23.
 
 $filename = 'somefile.txt';
 if (file_exists($filename)) {

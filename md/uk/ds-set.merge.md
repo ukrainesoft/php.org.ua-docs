@@ -37,7 +37,7 @@ public Ds\Set::merge(mixed $values): Ds\Set
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Set::merge()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Set::merge()\*\*\*\*
 
 ```php
 <?php

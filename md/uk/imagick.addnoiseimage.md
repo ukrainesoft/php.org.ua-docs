@@ -37,7 +37,7 @@ public Imagick::addNoiseImage(int $noise_type, int $channel = Imagick::CHANNEL_D
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::addNoiseImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::addNoiseImage()\*\*\*\*
 
 ```php
 <?php

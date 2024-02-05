@@ -65,7 +65,7 @@ callback(mixed $value, mixed ...$values): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3::createFunction()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3::createFunction()\*\*\*\*
 
 ```php
 <?php

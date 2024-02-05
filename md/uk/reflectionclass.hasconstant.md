@@ -33,7 +33,7 @@ public ReflectionClass::hasConstant(string $name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::hasConstant()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::hasConstant()\*\*\*\*
 
 ```php
 <?php

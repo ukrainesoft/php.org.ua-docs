@@ -15,11 +15,11 @@ ReflectionMethod::\_\_construct - Конструктор класу ReflectionMe
 
 ### Опис
 
-public**ReflectionMethod::\_\_construct**(object|string`$objectOrMethod`, string`$method`) .
+public **ReflectionMethod::\_\_construct**(object|string`$objectOrMethod`, string`$method`) .
 
 Alternative signature (not supported with named arguments):
 
-public**ReflectionMethod::\_\_construct**(string`$classMethod`) .
+public **ReflectionMethod::\_\_construct**(string`$classMethod`) .
 
 Створює новий об'єкт класу [ReflectionMethod](class.reflectionmethod.md)
 
@@ -43,7 +43,7 @@ public**ReflectionMethod::\_\_construct**(string`$classMethod`) .
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionMethod::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionMethod::\_\_construct()\*\*\*\*
 
 ```php
 <?php

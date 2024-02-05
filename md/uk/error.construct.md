@@ -15,7 +15,7 @@ Error::\_\_construct — Створює об'єкт класу Error
 
 ### Опис
 
-public**Error::\_\_construct**(string`$message` = "", int `$code` [Throwable](class.throwable.md) `$previous` **`null`**) .
+public **Error::\_\_construct**(string`$message` = "", int `$code` [Throwable](class.throwable.md) `$previous` **`null`**) .
 
 Створює об'єкт класу Error.
 

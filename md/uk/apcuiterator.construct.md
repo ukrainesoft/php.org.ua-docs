@@ -15,7 +15,7 @@ APCUIterator::\_\_construct — Створює об'єкт ітератора к
 
 ### Опис
 
-public**APCUIterator::\_\_construct**  
+public **APCUIterator::\_\_construct**  
 array|string|null`$search` **`null`**,  
 int`$format`\= APC\_ITER\_ALL,  
 int`$chunk_size`  
@@ -40,11 +40,11 @@ int`$list`\= APC\_LIST\_ACTIVE
 
 `list`
 
-Тип списку. Задається константами **`APC_LIST_ACTIVE`**или**`APC_LIST_DELETED`**
+Тип списку. Задається константами **`APC_LIST_ACTIVE`** або **`APC_LIST_DELETED`**
 
 ### Приклади
 
-**Пример #1 Пример использования**APCUIterator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** APCUIterator::\_\_construct()\*\*\*\*
 
 ```php
 <?php

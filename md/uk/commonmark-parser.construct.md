@@ -15,7 +15,7 @@ CommonMark\\Parser::\_\_construct - Розбір
 
 ### Опис
 
-public**CommonMark\\Parser::\_\_construct**(int`$options`
+public **CommonMark\\Parser::\_\_construct**(int`$options`
 
 **Увага**
 

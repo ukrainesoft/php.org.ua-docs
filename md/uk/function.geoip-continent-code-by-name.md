@@ -45,7 +45,7 @@ geoip_continent_code_by_name(string $hostname): string
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_continent\_code\_by\_name()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_continent\_code\_by\_name()\*\*\*\*
 
 Цей приклад виведе розташування хоста example.com.
 

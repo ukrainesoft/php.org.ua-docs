@@ -37,7 +37,7 @@ public static ReflectionMethod::createFromMethodName(string $method): static
 
 ### Приклади
 
-**Пример #1 Пример использования метода**ReflectionMethod::createFromMethodName()\*\*\*\*
+**Приклад #1 Приклад использования метода**ReflectionMethod::createFromMethodName()\*\*\*\*
 
 ```php
 <?php

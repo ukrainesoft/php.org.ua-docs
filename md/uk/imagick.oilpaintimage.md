@@ -33,7 +33,7 @@ public Imagick::oilPaintImage(float $radius): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::oilPaintImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::oilPaintImage()\*\*\*\*
 
 ```php
 <?php

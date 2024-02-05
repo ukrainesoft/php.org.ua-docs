@@ -39,7 +39,7 @@ mysql_list_dbs(resource $link_identifier = NULL): resource
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_list\_dbs()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_list\_dbs()\*\*\*\*
 
 ```php
 <?php

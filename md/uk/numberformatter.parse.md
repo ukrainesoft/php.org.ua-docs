@@ -55,7 +55,7 @@ numfmt_parse(    NumberFormatter $formatter,    string $string,    i
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_parse()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_parse()\*\*\*\*
 
 ```php
 <?php

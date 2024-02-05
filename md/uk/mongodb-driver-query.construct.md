@@ -217,7 +217,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Query::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Query::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public Imagick::getIteratorIndex(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getIteratorIndex()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::getIteratorIndex()\*\* :\*\*
 
 Створення зображення, встановлення та отримання індексу ітератора
 

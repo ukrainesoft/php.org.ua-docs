@@ -57,7 +57,7 @@ public Phar::convertToData(?int $format = null, ?int $compression = null, ?strin
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::convertToData()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::convertToData()\*\*\*\*
 
 Використання Phar::convertToData():
 

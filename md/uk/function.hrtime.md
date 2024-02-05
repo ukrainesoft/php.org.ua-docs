@@ -33,7 +33,7 @@ hrtime(bool $as_number = false): array|int|float|false
 
 ### Приклади
 
-**Пример #1 Пример использования**hrtime()\*\*\*\*
+**Приклад #1 Приклад використання** hrtime()\*\*\*\*
 
 ```php
 <?php

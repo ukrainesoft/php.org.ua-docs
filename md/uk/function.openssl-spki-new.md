@@ -51,7 +51,7 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_spki\_new()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_spki\_new()\*\*\*\*
 
 Створює новий SPKAC з використанням стандартного алгоритму (MD5)
 

@@ -39,7 +39,7 @@ svn_checkout(    string $repos,    string $targetpath,    int $revis
 
 `flags`
 
-Комбинации из констант\*\*`SVN_NON_RECURSIVE`**и**`SVN_IGNORE_EXTERNALS`\*\*
+Комбинации из констант\*\*`SVN_NON_RECURSIVE`** і **`SVN_IGNORE_EXTERNALS`\*\*
 
 ### Значення, що повертаються
 

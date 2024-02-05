@@ -33,7 +33,7 @@ resourcebundle_create(?string $locale, ?string $bundle, bool $fallback = true): 
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public**ResourceBundle::\_\_construct**(?string`$locale`, ?string`$bundle`, bool`$fallback` **`true`**) .
+public **ResourceBundle::\_\_construct**(?string`$locale`, ?string`$bundle`, bool`$fallback` **`true`**) .
 
 Створює пакет ресурсів.
 
@@ -57,7 +57,7 @@ public**ResourceBundle::\_\_construct**(?string`$locale`, ?string`$bundle`, bool
 
 ### Приклади
 
-**Пример #1 Пример использования**resourcebundle\_create()\*\*\*\*
+**Приклад #1 Приклад використання** resourcebundle\_create()\*\*\*\*
 
 ```php
 <?php
@@ -66,7 +66,7 @@ echo $r['teststring'];
 ?>
 ```
 
-**Пример #2 Пример использования**ResourceBundle::create()\*\*\*\*
+**Приклад #2 Приклад використання** ResourceBundle::create()\*\*\*\*
 
 ```php
 <?php

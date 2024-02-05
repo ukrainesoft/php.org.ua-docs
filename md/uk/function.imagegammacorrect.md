@@ -47,7 +47,7 @@ imagegammacorrect(GdImage $image, float $input_gamma, float $output_gamma): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagegammacorrect()\*\*\*\*
+**Приклад #1 Приклад використання** imagegammacorrect()\*\*\*\*
 
 ```php
 <?php

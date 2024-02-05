@@ -49,7 +49,7 @@ public DOMDocument::append(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMDocument::append()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMDocument::append()\*\*\*\*
 
 Додавання вузлів після кореня документа.
 

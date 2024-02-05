@@ -37,7 +37,7 @@ sodium_crypto_box_seal_open(string $ciphertext, string $key_pair): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_box\_seal\_open()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_box\_seal\_open()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public Ds\Stack::isEmpty(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Stack::isEmpty()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Stack::isEmpty()\*\*\*\*
 
 ```php
 <?php

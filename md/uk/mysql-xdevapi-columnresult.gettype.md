@@ -31,7 +31,7 @@ public mysql_xdevapi\ColumnResult::getType(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getType()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::getType()\*\*\*\*
 
 ```php
 <?php

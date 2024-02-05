@@ -41,7 +41,7 @@ uopz_get_hook(string $class, string $function): Closure
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_get\_hook()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_get\_hook()\*\*\*\*
 
 ```php
 <?php

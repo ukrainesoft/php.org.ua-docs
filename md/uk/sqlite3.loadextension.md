@@ -33,7 +33,7 @@ public SQLite3::loadExtension(string $name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3::loadExtension()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3::loadExtension()\*\*\*\*
 
 ```php
 <?php

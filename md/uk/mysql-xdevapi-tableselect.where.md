@@ -33,7 +33,7 @@ public mysql_xdevapi\TableSelect::where(string $where_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::where()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::where()\*\*\*\*
 
 ```php
 <?php

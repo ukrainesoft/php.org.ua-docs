@@ -31,7 +31,7 @@ public DirectoryIterator::current(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::current()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::current()\*\*\*\*
 
 У цьому прикладі буде виведено вміст каталогу, що містить скрипт.
 

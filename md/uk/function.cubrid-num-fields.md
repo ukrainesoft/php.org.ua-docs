@@ -37,7 +37,7 @@ cubrid_num_fields(resource $result): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_num\_fields()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_num\_fields()\*\*\*\*
 
 ```php
 <?php

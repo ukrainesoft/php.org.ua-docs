@@ -65,7 +65,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Приклади
 
-**Пример #1 Пример использования**eio\_mkdir()\*\*\*\*
+**Приклад #1 Приклад використання** eio\_mkdir()\*\*\*\*
 
 ```php
 <?php

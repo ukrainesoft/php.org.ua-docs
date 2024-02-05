@@ -33,7 +33,7 @@ public ReflectionEnum::getCase(string $name): ReflectionEnumUnitCase
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionEnum::getCase()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionEnum::getCase()\*\*\*\*
 
 ```php
 <?php

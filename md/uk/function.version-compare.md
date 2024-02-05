@@ -49,7 +49,7 @@ version_compare(string $version1, string $version2, ?string $operator = null): i
 
 У прикладі нижче використовується константа \*\*`PHP_VERSION`\*\*Вона містить номер версії PHP, який виконує код.
 
-**Пример #1 Пример использования**version\_compare()\*\*\*\*
+**Приклад #1 Приклад використання** version\_compare()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public ImagickDraw::setFont(string $font_name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFont()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFont()\*\*\*\*
 
 ```php
 <?php

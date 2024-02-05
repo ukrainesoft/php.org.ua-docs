@@ -31,7 +31,7 @@ public ImagickPixel::getColorValueQuantum(int $color): int|float
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixel::getColorValueQuantum()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixel::getColorValueQuantum()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ public ImagickDraw::arc(    float $sx,    float $sy,    float $ex, 
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::arc()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::arc()\*\*\*\*
 
 ```php
 <?php

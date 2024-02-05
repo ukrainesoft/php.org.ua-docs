@@ -39,7 +39,7 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_connection\_reset()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_connection\_reset()\*\*\*\*
 
 ```php
 <?php

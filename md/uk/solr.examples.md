@@ -852,7 +852,7 @@ SolrObject Object
 )
 ```
 
-**Пример #13 Сворачивание[SolrQuery](class.solrquery.md)**
+**Приклад #13 Сворачивание[SolrQuery](class.solrquery.md)**
 
 ```php
 <?php
@@ -1142,7 +1142,7 @@ SolrObject Object
 )
 ```
 
-**Пример #14 Пример использования Solr Real Time Get (RTG)[SolrClient::getById()](solrclient.getbyid.md)**
+**Приклад #14 Приклад использования Solr Real Time Get (RTG)[SolrClient::getById()](solrclient.getbyid.md)**
 
 ```php
 <?php

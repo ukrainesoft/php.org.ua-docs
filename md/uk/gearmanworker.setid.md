@@ -33,7 +33,7 @@ public GearmanWorker::setId(string $id): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**GearmanWorker::setId()\*\*\*\*
+**Приклад #1 Приклад використання** GearmanWorker::setId()\*\*\*\*
 
 Завдання ідентифікатора для простого оброблювача.
 

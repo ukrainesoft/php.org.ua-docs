@@ -15,7 +15,7 @@ Memcached::\_\_construct — Створює екземпляр класу Memcac
 
 ### Опис
 
-public**Memcached::\_\_construct**(?string`$persistent_id` **`null`**, ?[callable](language.types.callable.md) `$callback` **`null`**, ?string`$connection_str` **`null`**) .
+public **Memcached::\_\_construct**(?string`$persistent_id` **`null`**, ?[callable](language.types.callable.md) `$callback` **`null`**, ?string`$connection_str` **`null`**) .
 
 Створює екземпляр класу Memcached, який з'єднує з'єднання з сервером memcache.
 

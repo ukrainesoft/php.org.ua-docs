@@ -49,7 +49,7 @@ mcrypt_get_key_size(string $cipher, string $mode): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_get\_key\_size()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_get\_key\_size()\*\*\*\*
 
 ```php
 <?php

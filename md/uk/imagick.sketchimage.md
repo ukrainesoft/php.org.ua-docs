@@ -41,7 +41,7 @@ public Imagick::sketchImage(float $radius, float $sigma, float $angle): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::sketchImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::sketchImage()\*\*\*\*
 
 ```php
 <?php

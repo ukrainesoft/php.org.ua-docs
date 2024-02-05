@@ -41,7 +41,7 @@ ibase_blob_import(resource $file_handle): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_blob\_import()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_blob\_import()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public static Reflection::getModifierNames(int $modifiers): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Reflection::getModifierNames()\*\*\*\*
+**Приклад #1 Приклад використання** Reflection::getModifierNames()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ PharData::\_\_destruct — Знищує об'єкт архіву tar або zip,
 
 ### Опис
 
-public**PharData::\_\_destruct**()
+public **PharData::\_\_destruct**()
 
 ### Список параметрів
 

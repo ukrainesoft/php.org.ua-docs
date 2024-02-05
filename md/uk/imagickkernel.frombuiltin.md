@@ -25,7 +25,7 @@ public static ImagickKernel::fromBuiltin(int $kernelType, string $kernelString):
 
 `kerneltype`
 
-Тип ядра для сборки, например,\\Imagick::KERNEL\_DIAMOND
+Тип ядра для сборки, наПриклад,\\Imagick::KERNEL\_DIAMOND
 
 `kernelString`
 
@@ -35,7 +35,7 @@ public static ImagickKernel::fromBuiltin(int $kernelType, string $kernelString):
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickKernel::fromBuiltin()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickKernel::fromBuiltin()\*\*\*\*
 
 ```php
 <?php

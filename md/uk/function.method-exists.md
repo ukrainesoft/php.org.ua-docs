@@ -37,7 +37,7 @@ method_exists(object|string $object_or_class, string $method): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**method\_exists()\*\*\*\*
+**Приклад #1 Приклад використання** method\_exists()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_set\_calendar()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_set\_calendar()\*\*\*\*
 
 ```php
 <?php
@@ -98,7 +98,7 @@ echo 'Теперь тип календаря : ' . $fmt->getCalendar();
 Теперь тип календаря : 0
 ```
 
-**Пример #3 Пример использования[IntlCalendar](class.intlcalendar.md)с параметром**
+**Приклад #3 Приклад использования[IntlCalendar](class.intlcalendar.md)с параметром**
 
 ```php
 <?php

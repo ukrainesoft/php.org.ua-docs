@@ -29,7 +29,7 @@ seaslog_get_author(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**seaslog\_get\_author()\*\*\*\*
+**Приклад #1 Приклад використання** seaslog\_get\_author()\*\*\*\*
 
 ```php
 <?php

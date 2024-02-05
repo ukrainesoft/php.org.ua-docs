@@ -43,7 +43,7 @@ callback(mixed $value): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::map()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::map()\*\*\*\*
 
 ```php
 <?php

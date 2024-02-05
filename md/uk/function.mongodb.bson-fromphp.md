@@ -37,7 +37,7 @@ MongoDB\BSON\fromPHP(array|object $value): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\fromPHP()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\fromPHP()\*\*\*\*
 
 ```php
 <?php

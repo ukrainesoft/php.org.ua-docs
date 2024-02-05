@@ -57,7 +57,7 @@ jpeg2wbmp(    string $jpegname,    string $wbmpname,    int $dest_he
 
 ### Приклади
 
-**Пример #1 Пример использования**jpeg2wbmp()\*\*\*\*
+**Приклад #1 Приклад використання** jpeg2wbmp()\*\*\*\*
 
 ```php
 <?php

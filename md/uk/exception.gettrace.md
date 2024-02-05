@@ -31,7 +31,7 @@ final public Exception::getTrace(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Exception::getTrace()\*\*\*\*
+**Приклад #1 Приклад використання** Exception::getTrace()\*\*\*\*
 
 ```php
 <?php

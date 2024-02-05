@@ -15,7 +15,7 @@ UI\\Draw\\Text\\Font\\Descriptor::\_\_construct - Конструктор кла�
 
 ### Опис
 
-public**UI\\Draw\\Text\\Font\\Descriptor::\_\_construct**  
+public **UI\\Draw\\Text\\Font\\Descriptor::\_\_construct**  
 string`$family`,  
 float`$size`,  
 int`$weight`\= UI\\Draw\\Text\\Font\\Weight::Normal,  

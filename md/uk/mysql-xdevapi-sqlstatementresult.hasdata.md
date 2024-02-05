@@ -33,7 +33,7 @@ public mysql_xdevapi\SqlStatementResult::hasData(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::hasData()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\SqlStatementResult::hasData()\*\*\*\*
 
 ```php
 <?php

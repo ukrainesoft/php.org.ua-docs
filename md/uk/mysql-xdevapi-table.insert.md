@@ -37,7 +37,7 @@ public mysql_xdevapi\Table::insert(mixed $columns, mixed ...$more_columns): mysq
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Table::insert()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Table::insert()\*\*\*\*
 
 ```php
 <?php

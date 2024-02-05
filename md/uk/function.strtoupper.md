@@ -43,7 +43,7 @@ strtoupper(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**strtoupper()\*\*\*\*
+**Приклад #1 Приклад використання** strtoupper()\*\*\*\*
 
 ```php
 <?php

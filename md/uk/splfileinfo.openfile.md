@@ -51,7 +51,7 @@ public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::openFile()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::openFile()\*\*\*\*
 
 ```php
 <?php

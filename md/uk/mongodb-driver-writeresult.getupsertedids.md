@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteResult::getUpsertedIds(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getUpsertedIds()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getUpsertedIds()\*\*\*\*
 
 ```php
 <?php

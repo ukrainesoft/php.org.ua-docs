@@ -28,7 +28,7 @@ $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
 try {
     $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
 } catch (PDOException $e) {
-    // Например, через какое-то время повторить попытку соединения
+    // НаПриклад, через какое-то время повторить попытку соединения
 }
 ?>
 ```

@@ -15,7 +15,7 @@ Swoole\\Server::\_\_construct — Створює сервер Swoole
 
 ### Опис
 
-public**Swoole\\Server::\_\_construct**  
+public **Swoole\\Server::\_\_construct**  
 string`$host`,  
 int`$port`  
 int`$mode`  

@@ -31,7 +31,7 @@ public NoRewindIterator::rewind(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**NoRewindIterator::rewind()\*\*\*\*
+**Приклад #1 Приклад використання** NoRewindIterator::rewind()\*\*\*\*
 
 Приклад показує, що виклик операції повернення на початок об'єкта NoRewindIterator не має жодного ефекту.
 

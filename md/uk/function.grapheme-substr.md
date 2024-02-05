@@ -49,7 +49,7 @@ grapheme_substr(string $string, int $offset, ?int $length = null): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**grapheme\_substr()\*\*\*\*
+**Приклад #1 Приклад використання** grapheme\_substr()\*\*\*\*
 
 ```php
 <?php

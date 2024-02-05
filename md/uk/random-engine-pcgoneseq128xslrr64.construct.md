@@ -15,7 +15,7 @@ Random\\Engine\\PcgOneseq128XslRr64::\_\_construct - Створює новий �
 
 ### Опис
 
-public**Random\\Engine\\PcgOneseq128XslRr64::\_\_construct**(string|int|null`$seed` **`null`**) .
+public **Random\\Engine\\PcgOneseq128XslRr64::\_\_construct**(string|int|null`$seed` **`null`**) .
 
 **Увага**
 
@@ -39,7 +39,7 @@ public**Random\\Engine\\PcgOneseq128XslRr64::\_\_construct**(string|int|null`$se
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\PcgOneseq128XslRr64::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\PcgOneseq128XslRr64::\_\_construct()\*\*\*\*
 
 ```php
 <?php

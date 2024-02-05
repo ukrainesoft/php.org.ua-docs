@@ -33,7 +33,7 @@ pcntl_setpriority(int $priority, ?int $process_id = null, int $mode = PRIO_PROCE
 
 `mode`
 
-Може набувати значення однієї з констант **`PRIO_PGRP`** **`PRIO_USER`** **`PRIO_PROCESS`** **`PRIO_DARWIN_BG`**или**`PRIO_DARWIN_THREAD`**
+Може набувати значення однієї з констант **`PRIO_PGRP`** **`PRIO_USER`** **`PRIO_PROCESS`** **`PRIO_DARWIN_BG`** або **`PRIO_DARWIN_THREAD`**
 
 ### Значення, що повертаються
 

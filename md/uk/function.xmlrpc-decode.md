@@ -39,7 +39,7 @@ XML-відповідь, що повертається методом XMLRPC.
 
 ### Приклади
 
-Смотрите пример[xmlrpc\_encode\_request()](function.xmlrpc-encode-request.md)
+Смотрите Приклад[xmlrpc\_encode\_request()](function.xmlrpc-encode-request.md)
 
 ### Дивіться також
 

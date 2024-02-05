@@ -31,7 +31,7 @@ public RecursiveCallbackFilterIterator::hasChildren(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**RecursiveCallbackFilterIterator::hasChildren()\*\*\*\*
+**Приклад #1 Приклад використання** RecursiveCallbackFilterIterator::hasChildren()\*\*\*\*
 
 ```php
 <?php

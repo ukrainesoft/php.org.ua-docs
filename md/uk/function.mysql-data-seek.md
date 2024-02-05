@@ -28,7 +28,7 @@ mysql_data_seek(resource $result, int $row_number): bool
 
 **mysql\_data\_seek()** переміщує внутрішній покажчик результату запиту, з яким пов'язаний переданий дескриптор, до ряду із зазначеним номером. Наступний дзвінок до функції отримання даних MySQL, такий як [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md), Поверне саме його.
 
-Нумерация`row_number` починається з 0 . `row_number` має бути значенням у діапазоні від 0 до [mysql\_num\_rows()](function.mysql-num-rows.md) \- 1. Однако, если результат пуст ([mysql\_num\_rows()](function.mysql-num-rows.md) == 0), то спроба зсуву покажчика до нульового ряду завершиться невдачею - буде викликана помилка рівня **`E_WARNING`**и**mysql\_data\_seek()** поверне **`false`**
+Нумерация`row_number` починається з 0 . `row_number` має бути значенням у діапазоні від 0 до [mysql\_num\_rows()](function.mysql-num-rows.md) \- 1. Однако, если результат пуст ([mysql\_num\_rows()](function.mysql-num-rows.md) == 0), то спроба зсуву покажчика до нульового ряду завершиться невдачею - буде викликана помилка рівня **`E_WARNING`** і **mysql\_data\_seek()** поверне **`false`**
 
 ### Список параметрів
 
@@ -46,7 +46,7 @@ mysql_data_seek(resource $result, int $row_number): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_data\_seek()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_data\_seek()\*\*\*\*
 
 ```php
 <?php

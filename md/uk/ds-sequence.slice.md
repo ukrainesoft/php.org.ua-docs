@@ -39,7 +39,7 @@ abstract public Ds\Sequence::slice(int $index, int $length = ?): Ds\Sequence
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::slice()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::slice()\*\*\*\*
 
 ```php
 <?php

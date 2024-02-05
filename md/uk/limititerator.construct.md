@@ -15,7 +15,7 @@ LimitIterator::\_\_construct - Конструктор класу LimitIterator
 
 ### Опис
 
-public**LimitIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`, int`$offset`\= 0, int`$limit`
+public **LimitIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`, int`$offset`\= 0, int`$limit`
 
 Створює новий об'єкт класу [LimitIterator](class.limititerator.md) на основі заданого об'єкта `iterator`, начального смещения`offset`и максимального числа итераций`limit`
 
@@ -46,7 +46,7 @@ public**LimitIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`
 
 ### Приклади
 
-**Пример #1 Пример использования**LimitIterator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** LimitIterator::\_\_construct()\*\*\*\*
 
 ```php
 <?php

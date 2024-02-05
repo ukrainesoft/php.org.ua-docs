@@ -51,7 +51,7 @@ numfmt_format(NumberFormatter $formatter, int|float $num, int $type = NumberForm
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_format()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_format()\*\*\*\*
 
 ```php
 <?php

@@ -29,7 +29,7 @@ public NumberFormatter::setTextAttribute(int $attribute, string $value): bool
 numfmt_set_text_attribute(NumberFormatter $formatter, int $attribute, string $value): bool
 ```
 
-Встановлює текстовий атрибут, пов'язаний із засобом форматування. Приклад текстового атрибута є суфікс для позитивних чисел. Якщо засіб форматування не розуміє атрибут, видається помилка **`U_UNSUPPORTED_ERROR`**Средства форматирования на основе правил понимают только**`NumberFormatter::DEFAULT_RULESET`**и**`NumberFormatter::PUBLIC_RULESETS`**
+Встановлює текстовий атрибут, пов'язаний із засобом форматування. Приклад текстового атрибута є суфікс для позитивних чисел. Якщо засіб форматування не розуміє атрибут, видається помилка **`U_UNSUPPORTED_ERROR`**Средства форматирования на основе правил понимают только**`NumberFormatter::DEFAULT_RULESET`** і **`NumberFormatter::PUBLIC_RULESETS`**
 
 ### Список параметрів
 
@@ -51,7 +51,7 @@ numfmt_set_text_attribute(NumberFormatter $formatter, int $attribute, string $va
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_set\_text\_attribute()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_set\_text\_attribute()\*\*\*\*
 
 ```php
 <?php

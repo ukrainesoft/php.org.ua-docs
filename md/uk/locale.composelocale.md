@@ -49,7 +49,7 @@ locale_compose(array $subtags): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_compose()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_compose()\*\*\*\*
 
 ```php
 <?php

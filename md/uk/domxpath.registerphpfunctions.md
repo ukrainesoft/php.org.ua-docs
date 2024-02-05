@@ -41,7 +41,7 @@ public DOMXPath::registerPhpFunctions(string|array|null $restrict = null): void
 
 PHP Basics Jim Smith Jane Smith PHP Secrets Jenny Smythe XML basics Joe Black
 
-**Пример #2**DOMXPath::registerPHPFunctions()**с`php:functionString`**
+**Приклад #2**DOMXPath::registerPHPFunctions()**с`php:functionString`**
 
 ```php
 <?php
@@ -77,7 +77,7 @@ PHP Basics автора Jim Smith
 PHP Secrets автора Jenny Smythe
 ```
 
-**Пример #3**DOMXPath::registerPHPFunctions()**с`php:function`**
+**Приклад #3**DOMXPath::registerPHPFunctions()**с`php:function`**
 
 ```php
 <?php

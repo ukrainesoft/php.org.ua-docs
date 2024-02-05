@@ -41,7 +41,7 @@ intlcal_get_time(IntlCalendar $calendar): float|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getTime()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getTime()\*\*\*\*
 
 ```php
 <?php

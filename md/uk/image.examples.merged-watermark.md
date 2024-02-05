@@ -11,7 +11,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Использование[imagecopymerge()](function.imagecopymerge.md) створити напівпрозорий водяний знак
 
-**Пример #1 Использование[imagecopymerge()](function.imagecopymerge.md) створити напівпрозорий водяний знак**
+**Приклад #1 Использование[imagecopymerge()](function.imagecopymerge.md) створити напівпрозорий водяний знак**
 
 ```php
 <?php

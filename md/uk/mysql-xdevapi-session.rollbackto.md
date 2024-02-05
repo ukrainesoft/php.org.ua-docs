@@ -33,7 +33,7 @@ public mysql_xdevapi\Session::rollbackTo(string $name): void
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::rollbackTo()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::rollbackTo()\*\*\*\*
 
 ```php
 <?php

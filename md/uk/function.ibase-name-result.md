@@ -37,7 +37,7 @@ ibase_name_result(resource $result, string $name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_name\_result()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_name\_result()\*\*\*\*
 
 ```php
 <?php

@@ -56,7 +56,7 @@ public RarEntry::extract(    string $dir,    string $filepath = "",  �
 
 ### Приклади
 
-**Пример #1 Пример использования**RarEntry::extract()\*\*\*\*
+**Приклад #1 Приклад використання** RarEntry::extract()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +76,7 @@ $entry->extract(false, '/dir/to/new_name.txt'); // создание /dir/to/new_
 ```php
 <?php
 
-/* Пример от Erik Jenssen aka erix */
+/* Приклад от Erik Jenssen aka erix */
 
 $filename = "foobar.rar";
 $filepath = "/home/foo/bar/";

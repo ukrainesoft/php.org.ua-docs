@@ -53,7 +53,7 @@ intlcal_field_difference(IntlCalendar $calendar, float $timestamp, int $field): 
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::fieldDifference()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::fieldDifference()\*\*\*\*
 
 ```php
 <?php

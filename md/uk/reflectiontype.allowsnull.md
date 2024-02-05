@@ -31,7 +31,7 @@ public ReflectionType::allowsNull(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionType::allowsNull()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionType::allowsNull()\*\*\*\*
 
 ```php
 <?php

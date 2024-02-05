@@ -15,14 +15,14 @@ DatePeriod::\_\_construct — Створює новий об'єкт DatePeriod
 
 ### Опис
 
-public**DatePeriod::\_\_construct**  
+public **DatePeriod::\_\_construct**  
 [DateTimeInterface](class.datetimeinterface.md) `$start`,  
 [DateInterval](class.dateinterval.md) `$interval`,  
 int`$recurrences`,  
 int`$options`  
 ) .
 
-public**DatePeriod::\_\_construct**  
+public **DatePeriod::\_\_construct**  
 [DateTimeInterface](class.datetimeinterface.md) `$start`,  
 [DateInterval](class.dateinterval.md) `$interval`,  
 [DateTimeInterface](class.datetimeinterface.md) `$end`,  
@@ -31,7 +31,7 @@ int`$options`
 
 **Увага**
 
-public**DatePeriod::\_\_construct**(string`$isostr`, int`$options`
+public **DatePeriod::\_\_construct**(string`$isostr`, int`$options`
 
 Цей варіант конструктора застарів, використовуйте замість нього метод [DatePeriod::createFromISO8601String()](dateperiod.createfromiso8601string.md)
 
@@ -123,7 +123,7 @@ foreach ($period as $date) {
 2012-07-29
 ```
 
-**Пример #2 Пример использования DatePeriod с**`DatePeriod::EXCLUDE_START_DATE`\*\*\*\*
+**Приклад #2 Приклад использования DatePeriod с**`DatePeriod::EXCLUDE_START_DATE`\*\*\*\*
 
 ```php
 <?php

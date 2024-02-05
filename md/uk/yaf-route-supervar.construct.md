@@ -15,7 +15,7 @@ Yaf\_Route\_Supervar::\_\_construct — Назначение\_\_construct
 
 ### Опис
 
-public**Yaf\_Route\_Supervar::\_\_construct**(string`$supervar_name`) .
+public **Yaf\_Route\_Supervar::\_\_construct**(string`$supervar_name`) .
 
 [Yaf\_Route\_Supervar](class.yaf-route-supervar.md)похож на[Yaf\_Route\_Static](class.yaf-route-static.md), Різниця в тому, що [Yaf\_Route\_Supervar](class.yaf-route-supervar.md) шукатиме інформацію про шлях у рядку запиту, а параметр supervar\_name є ключем.
 
@@ -29,7 +29,7 @@ public**Yaf\_Route\_Supervar::\_\_construct**(string`$supervar_name`) .
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Route\_Supervar()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Route\_Supervar()\*\*\*\*
 
 ```php
 <?php

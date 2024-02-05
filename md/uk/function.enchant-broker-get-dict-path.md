@@ -33,7 +33,7 @@ enchant_broker_get_dict_path(EnchantBroker $broker, int $type): string|false
 
 `type`
 
-Тип словників, тобто . **`ENCHANT_MYSPELL`**или**`ENCHANT_ISPELL`**
+Тип словників, тобто . **`ENCHANT_MYSPELL`** або **`ENCHANT_ISPELL`**
 
 ### Значення, що повертаються
 

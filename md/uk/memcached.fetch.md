@@ -31,7 +31,7 @@ public Memcached::fetch(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::fetch()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::fetch()\*\*\*\*
 
 ```php
 <?php

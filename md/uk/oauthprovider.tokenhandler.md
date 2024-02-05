@@ -37,7 +37,7 @@ public OAuthProvider::tokenHandler(callable $callback_function): void
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuthProvider::tokenHandler()\*\*\*\*
+**Приклад #1 Приклад використання** OAuthProvider::tokenHandler()\*\*\*\*
 
 ```php
 <?php

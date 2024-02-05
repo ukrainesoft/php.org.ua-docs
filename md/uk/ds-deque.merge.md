@@ -37,7 +37,7 @@ public Ds\Deque::merge(mixed $values): Ds\Deque
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::merge()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::merge()\*\*\*\*
 
 ```php
 <?php

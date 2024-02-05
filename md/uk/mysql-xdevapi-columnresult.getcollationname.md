@@ -31,7 +31,7 @@ public mysql_xdevapi\ColumnResult::getCollationName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getCollationName()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::getCollationName()\*\*\*\*
 
 ```php
 <?php

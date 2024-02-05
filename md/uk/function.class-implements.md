@@ -37,7 +37,7 @@ class_implements(object|string $object_or_class, bool $autoload = true): array|f
 
 ### Приклади
 
-**Пример #1 Пример использования**class\_implements()\*\*\*\*
+**Приклад #1 Приклад використання** class\_implements()\*\*\*\*
 
 ```php
 <?php

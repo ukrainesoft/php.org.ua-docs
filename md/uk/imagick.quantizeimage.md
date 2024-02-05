@@ -41,7 +41,7 @@ public Imagick::quantizeImage(    int $numberColors,    int $colorspace,
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::quantizeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::quantizeImage()\*\*\*\*
 
 ```php
 <?php

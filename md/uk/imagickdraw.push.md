@@ -31,7 +31,7 @@ public ImagickDraw::push(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::push()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::push()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionGenerator::getExecutingFile(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionGenerator::getExecutingFile()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionGenerator::getExecutingFile()\*\*\*\*
 
 ```php
 <?php

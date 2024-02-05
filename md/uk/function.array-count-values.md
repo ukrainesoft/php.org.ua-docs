@@ -37,7 +37,7 @@ array_count_values(array $array): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_count\_values()\*\*\*\*
+**Приклад #1 Приклад використання** array\_count\_values()\*\*\*\*
 
 ```php
 <?php

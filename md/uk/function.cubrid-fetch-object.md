@@ -47,7 +47,7 @@ cubrid_fetch_object(    resource $result,    string $class_name = ?,  
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_fetch\_object()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_fetch\_object()\*\*\*\*
 
 ```php
 <?php

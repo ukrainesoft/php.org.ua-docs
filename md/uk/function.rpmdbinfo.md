@@ -37,7 +37,7 @@ rpmdbinfo(string $nevr, bool $full = false): ?array
 
 ### Приклади
 
-**Пример #1 Пример использования**rpmdbinfo()\*\*\*\*
+**Приклад #1 Приклад використання** rpmdbinfo()\*\*\*\*
 
 ```php
 <?php

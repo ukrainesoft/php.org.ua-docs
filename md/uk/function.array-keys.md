@@ -47,7 +47,7 @@ array_keys(array $array, mixed $filter_value, bool $strict = false): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_keys()\*\*\*\*
+**Приклад #1 Приклад використання** array\_keys()\*\*\*\*
 
 ```php
 <?php

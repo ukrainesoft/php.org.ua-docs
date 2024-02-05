@@ -31,7 +31,7 @@ public DirectoryIterator::next(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::next()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::next()\*\*\*\*
 
 Перерахуйте вміст каталогу за допомогою циклу while.
 

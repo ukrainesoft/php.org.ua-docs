@@ -15,7 +15,7 @@ UI\\Controls\\Picker::\_\_construct — Створює новий об'єкт Pi
 
 ### Опис
 
-public**UI\\Controls\\Picker::\_\_construct**(int`$type`\= UI\\Controls\\Picker::Date)
+public **UI\\Controls\\Picker::\_\_construct**(int`$type`\= UI\\Controls\\Picker::Date)
 
 Створити новий об'єкт Picker заданого типу
 

@@ -37,7 +37,7 @@ socket_strerror(int $error_code): string
 
 ### Приклади
 
-**Пример #1 Пример использования**socket\_strerror()\*\*\*\*
+**Приклад #1 Приклад використання** socket\_strerror()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ DOMProcessingInstruction::\_\_construct — Створює новий об'єк�
 
 ### Опис
 
-public**DOMProcessingInstruction::\_\_construct**(string`$name`, string`$value` = "")
+public **DOMProcessingInstruction::\_\_construct**(string`$name`, string`$value` = "")
 
 Створює новий об'єкт класу [DOMProcessingInstruction](class.domprocessinginstruction.md). Цей об'єкт буде доступний лише для читання. Він може бути доданий до документа. Додаткові вузли не можна прикріпити до цього об'єкта, доки він приєднаний до будь-якого документа. Для створення вузла, що модифікується, використовуйте [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md)
 

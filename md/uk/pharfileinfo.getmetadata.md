@@ -35,7 +35,7 @@ public PharFileInfo::getMetadata(array $unserializeOptions = []): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::getMetadata()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::getMetadata()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ posix_getlogin(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getlogin()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getlogin()\*\*\*\*
 
 ```php
 <?php

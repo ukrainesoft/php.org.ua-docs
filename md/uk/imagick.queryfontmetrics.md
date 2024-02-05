@@ -45,7 +45,7 @@ public Imagick::queryFontMetrics(ImagickDraw $properties, string $text, bool $mu
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::queryFontMetrics()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::queryFontMetrics()\*\* :\*\*
 
 Запитує метрики для тексту та виводить результати на екран.
 

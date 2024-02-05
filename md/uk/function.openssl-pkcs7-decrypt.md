@@ -45,7 +45,7 @@ openssl_pkcs7_decrypt(    string $input_filename,    string $output_file
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_pkcs7\_decrypt()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_pkcs7\_decrypt()\*\*\*\*
 
 ```php
 <?php

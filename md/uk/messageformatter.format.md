@@ -47,7 +47,7 @@ msgfmt_format(MessageFormatter $formatter, array $values): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**msgfmt\_format()\*\*\*\*
+**Приклад #1 Приклад використання** msgfmt\_format()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ UI\\Controls\\Group::\_\_construct — Створити новий об'єкт G
 
 ### Опис
 
-public**UI\\Controls\\Group::\_\_construct**(string`$title`) .
+public **UI\\Controls\\Group::\_\_construct**(string`$title`) .
 
 Створює новий об'єкт Group із заданим заголовком
 

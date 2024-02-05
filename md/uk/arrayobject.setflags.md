@@ -42,7 +42,7 @@ public ArrayObject::setFlags(int $flags): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::setFlags()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::setFlags()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public ReflectionFunctionAbstract::getClosureUsedVariables(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionFunctionAbstract::getClosureUsedVariables()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionFunctionAbstract::getClosureUsedVariables()\*\*\*\*
 
 ```php
 <?php

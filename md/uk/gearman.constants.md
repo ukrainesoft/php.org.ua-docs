@@ -23,7 +23,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 **`GEARMAN_ERRNO`**(int)
 
-Системна помилка. Щоб отримати код помилки, скористайтеся функцією **GearmanClient::errno()**или**GearmanWorker::errno()**
+Системна помилка. Щоб отримати код помилки, скористайтеся функцією **GearmanClient::errno()** або **GearmanWorker::errno()**
 
 **`GEARMAN_NO_ACTIVE_FDS`**(int)
 

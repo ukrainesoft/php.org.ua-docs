@@ -31,7 +31,7 @@ final public Exception::getPrevious(): ?Throwable
 
 ### Приклади
 
-**Пример #1 Пример использования**Exception::getPrevious()\*\*\*\*
+**Приклад #1 Приклад використання** Exception::getPrevious()\*\*\*\*
 
 Прохід та друк ланцюга винятків.
 

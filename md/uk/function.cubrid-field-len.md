@@ -39,7 +39,7 @@ cubrid_field_len(resource $result, int $field_offset): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_field\_len()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_field\_len()\*\*\*\*
 
 ```php
 <?php

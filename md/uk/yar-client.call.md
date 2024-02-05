@@ -35,7 +35,7 @@ public Yar_Client::__call(string $method, array $parameters): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Yar\_Client::\_\_call()\*\*\*\*
+**Приклад #1 Приклад використання** Yar\_Client::\_\_call()\*\*\*\*
 
 ```php
 <?php

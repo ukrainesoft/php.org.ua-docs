@@ -42,7 +42,7 @@ public static SeasLog::setRequestVariable(int $key, string $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::setRequestVariable()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::setRequestVariable()\*\*\*\*
 
 ```php
 <?php

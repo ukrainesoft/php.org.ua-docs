@@ -41,7 +41,7 @@ ngettext(string $singular, string $plural, int $count): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ngettext()\*\*\*\*
+**Приклад #1 Приклад використання** ngettext()\*\*\*\*
 
 ```php
 <?php

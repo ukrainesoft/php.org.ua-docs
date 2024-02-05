@@ -33,7 +33,7 @@ public SyncSemaphore::unlock(int &$prevcount = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncSemaphore::unlock()\*\*\*\*
+**Приклад #1 Приклад використання** SyncSemaphore::unlock()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ collator_sort_with_sort_keys(Collator $object, array &$array): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_sort\_with\_sort\_keys()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_sort\_with\_sort\_keys()\*\*\*\*
 
 ```php
 <?php

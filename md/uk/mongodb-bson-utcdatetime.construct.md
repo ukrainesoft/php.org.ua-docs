@@ -42,7 +42,7 @@ final public MongoDB\BSON\UTCDateTime::__construct(int|float|string|DateTimeInte
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\UTCDateTime::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\UTCDateTime::\_\_construct()\*\*\*\*
 
 ```php
 <?php

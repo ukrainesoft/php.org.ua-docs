@@ -31,7 +31,7 @@ public ArrayObject::getArrayCopy(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::getArrayCopy()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::getArrayCopy()\*\*\*\*
 
 ```php
 <?php

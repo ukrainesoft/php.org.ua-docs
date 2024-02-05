@@ -49,7 +49,7 @@ public Imagick::chopImage(    int $width,    int $height,    int $x,
 
 ### Приклади
 
-**Пример #1 Использование**Imagick::chopImage()\*\* :\*\*
+**Приклад #1 Использование**Imagick::chopImage()\*\* :\*\*
 
 Приклад використання Imagick:: chopImage
 

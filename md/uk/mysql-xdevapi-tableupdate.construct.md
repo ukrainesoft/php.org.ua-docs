@@ -15,7 +15,7 @@ TableUpdate::\_\_construct - Конструктор класу TableUpdate
 
 ### Опис
 
-private**mysql\_xdevapi\\TableUpdate::\_\_construct**()
+private **mysql\_xdevapi\\TableUpdate::\_\_construct**()
 
 Ініціюється за допомогою методу update().
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\TableUpdate::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableUpdate::\_\_construct()\*\*\*\*
 
 ```php
 <?php

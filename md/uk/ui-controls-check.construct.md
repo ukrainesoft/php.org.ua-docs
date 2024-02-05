@@ -15,7 +15,7 @@ UI\\Controls\\Check::\_\_construct — Створити новий об'єкт C
 
 ### Опис
 
-public**UI\\Controls\\Check::\_\_construct**(string`$text`) .
+public **UI\\Controls\\Check::\_\_construct**(string`$text`) .
 
 Створює новий об'єкт Check
 

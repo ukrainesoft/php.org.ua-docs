@@ -41,7 +41,7 @@ sqlsrv_errors(int $errorsOrWarnings = ?): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**functionname()\*\*\*\*
+**Приклад #1 Приклад використання** functionname()\*\*\*\*
 
 ```php
 <?php

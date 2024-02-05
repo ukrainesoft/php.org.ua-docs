@@ -31,7 +31,7 @@ public ReflectionClassConstant::isEnumCase(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClassConstant::isEnumCase()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClassConstant::isEnumCase()\*\*\*\*
 
 Визначення варіанта перерахування та звичайної константи класу.
 

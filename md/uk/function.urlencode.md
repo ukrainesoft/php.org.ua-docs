@@ -33,7 +33,7 @@ urlencode(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**urlencode()\*\*\*\*
+**Приклад #1 Приклад використання** urlencode()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +50,7 @@ echo '<a href="mycgi?foo=', urlencode($userinput), '">';
 <a href="mycgi?foo=Data123%21%40-_+%2B">
 ```
 
-**Пример #2 Пример использования**urlencode()**и[htmlentities()](function.mdentities.md)**
+**Приклад #2 Приклад використання** urlencode()**и[htmlentities()](function.mdentities.md)**
 
 ```php
 <?php

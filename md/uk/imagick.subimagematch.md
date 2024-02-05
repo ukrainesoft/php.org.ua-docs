@@ -35,7 +35,7 @@ public Imagick::subImageMatch(Imagick $Imagick, array &$offset = ?, float &$simi
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::subImageMatch()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::subImageMatch()\*\*\*\*
 
 ```php
 <?php

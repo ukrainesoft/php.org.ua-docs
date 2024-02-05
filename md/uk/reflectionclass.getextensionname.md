@@ -31,7 +31,7 @@ public ReflectionClass::getExtensionName(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getExtensionName()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getExtensionName()\*\*\*\*
 
 ```php
 <?php

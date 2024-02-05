@@ -37,7 +37,7 @@ sha1_file(string $filename, bool $binary = false): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**sha1\_file()\*\*\*\*
+**Приклад #1 Приклад використання** sha1\_file()\*\*\*\*
 
 ```php
 <?php

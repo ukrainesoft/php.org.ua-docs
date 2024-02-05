@@ -31,7 +31,7 @@ public ImagickDraw::popDefs(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::popDefs()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::popDefs()\*\*\*\*
 
 ```php
 <?php

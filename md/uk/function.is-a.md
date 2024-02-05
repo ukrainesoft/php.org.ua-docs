@@ -41,7 +41,7 @@ is_a(mixed $object_or_class, string $class, bool $allow_string = false): bool
 
 ### Приклади
 
-**Пример #1 Пример использования функции**is\_a()\*\*\*\*
+**Приклад #1 Приклад использования функции**is\_a()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +62,7 @@ if (is_a($WF, 'WidgetFactory')) {
 ?>
 ```
 
-**Пример #2 Использование оператора*instanceof***
+**Приклад #2 Использование оператора*instanceof***
 
 ```php
 <?php

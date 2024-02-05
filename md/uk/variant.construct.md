@@ -15,7 +15,7 @@ variant::\_\_construct - Конструктор класу variant
 
 ### Опис
 
-public**variant::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$value` **`null`**, int`$type` **`VT_EMPTY`**, int`$codepage` **`CP_ACP`**) .
+public **variant::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$value` **`null`**, int`$type` **`VT_EMPTY`**, int`$codepage` **`CP_ACP`**) .
 
 Створює об'єкт класу variant.
 

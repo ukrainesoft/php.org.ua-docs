@@ -37,7 +37,7 @@ public ImagickDraw::polyline(array $coordinates): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::polyline()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::polyline()\*\*\*\*
 
 ```php
 <?php

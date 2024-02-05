@@ -58,7 +58,7 @@ openssl_open(    string $data,    string &$output,    string $encryp
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_open()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_open()\*\*\*\*
 
 ```php
 <?php

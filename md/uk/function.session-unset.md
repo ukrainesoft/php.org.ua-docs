@@ -39,7 +39,7 @@ session_unset(): bool
 
 > **Зауваження** :
 > 
-> При использовании[$\_SESSION](reserved.variables.session.md) для видалення змінних сесії, то використовуйте функцію [unset()](function.unset.md)Например,`unset($_SESSION['varname']);`
+> При использовании[$\_SESSION](reserved.variables.session.md) для видалення змінних сесії, то використовуйте функцію [unset()](function.unset.md)НаПриклад,`unset($_SESSION['varname']);`
 
 **Застереження**
 

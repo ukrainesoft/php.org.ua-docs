@@ -43,7 +43,7 @@ tidy_diagnose(tidy $tidy): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::diagnose()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::diagnose()\*\*\*\*
 
 ```php
 <?php

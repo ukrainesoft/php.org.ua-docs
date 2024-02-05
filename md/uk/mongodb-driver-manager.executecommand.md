@@ -82,7 +82,7 @@ final public MongoDB\Driver\Manager::executeCommand(string $db, MongoDB\Driver\C
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Manager::executeCommand()\*\* з командою, що повертає одиночний документ\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Manager::executeCommand()\*\* з командою, що повертає одиночний документ\*\*
 
 ```php
 <?php
@@ -115,7 +115,7 @@ array(1) {
 }
 ```
 
-**Пример #2 Пример использования**MongoDB\\Driver\\Manager::executeCommand()\*\* з командою, що повертає курсор\*\*
+**Приклад #2 Приклад використання** MongoDB\\Driver\\Manager::executeCommand()\*\* з командою, що повертає курсор\*\*
 
 ```php
 <?php

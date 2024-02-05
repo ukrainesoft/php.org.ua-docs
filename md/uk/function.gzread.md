@@ -43,7 +43,7 @@ gzread(resource $stream, int $length): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**gzread()\*\*\*\*
+**Приклад #1 Приклад використання** gzread()\*\*\*\*
 
 ```php
 <?php

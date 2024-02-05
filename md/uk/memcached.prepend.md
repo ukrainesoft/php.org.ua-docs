@@ -45,7 +45,7 @@ public Memcached::prepend(string $key, string $value): ?bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::prepend()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::prepend()\*\*\*\*
 
 ```php
 <?php

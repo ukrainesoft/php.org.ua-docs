@@ -39,7 +39,7 @@ cubrid_field_name(resource $result, int $field_offset): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_field\_name()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_field\_name()\*\*\*\*
 
 ```php
 <?php

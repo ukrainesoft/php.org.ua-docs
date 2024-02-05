@@ -39,7 +39,7 @@ public Yaf_Loader::registerLocalNamespace(mixed $prefix): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Loader::registerLocalNamespace()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Loader::registerLocalNamespace()\*\*\*\*
 
 ```php
 <?php

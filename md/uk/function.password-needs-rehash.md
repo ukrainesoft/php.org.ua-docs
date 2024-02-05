@@ -47,7 +47,7 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 
 ### Приклади
 
-**Пример #1 Пример использования**password\_needs\_rehash()\*\*\*\*
+**Приклад #1 Приклад використання** password\_needs\_rehash()\*\*\*\*
 
 ```php
 <?php

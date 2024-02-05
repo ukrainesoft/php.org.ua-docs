@@ -45,7 +45,7 @@ uopz_copy(string $class, string $function): Closure
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_copy()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_copy()\*\*\*\*
 
 ```php
 <?php

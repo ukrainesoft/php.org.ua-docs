@@ -41,7 +41,7 @@ uopz_undefine(string $class, string $constant): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_undefine()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_undefine()\*\*\*\*
 
 ```php
 <?php

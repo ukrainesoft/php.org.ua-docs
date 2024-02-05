@@ -51,7 +51,7 @@ uopz_rename(string $class, string $function, string $rename): void
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_rename()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_rename()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +67,7 @@ echo original_strlen("Hello World");
 11
 ```
 
-**Пример #2 Пример использования**uopz\_rename()\*\* з класом\*\*
+**Приклад #2 Приклад використання** uopz\_rename()\*\* з класом\*\*
 
 ```php
 <?php

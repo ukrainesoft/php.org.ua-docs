@@ -15,7 +15,7 @@ ColumnResult::\_\_construct - Конструктор класу ColumnResult
 
 ### Опис
 
-private**mysql\_xdevapi\\ColumnResult::\_\_construct**()
+private **mysql\_xdevapi\\ColumnResult::\_\_construct**()
 
 Отримує метадані стовпця, такі як набір символів; створюється методом **mysql\_xdevapi\\RowResult::getColumns()**
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\ColumnResult::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\ColumnResult::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\ColumnResult::\_\_construct()\*\*\*\*
 
 ```php
 <?php

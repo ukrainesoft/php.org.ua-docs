@@ -51,7 +51,7 @@ apcu_store(array $values, mixed $unused = NULL, int $ttl = 0): array
 
 ### Приклади
 
-**Пример #1 Пример использования**apcu\_store()\*\*\*\*
+**Приклад #1 Приклад використання** apcu\_store()\*\*\*\*
 
 ```php
 <?php

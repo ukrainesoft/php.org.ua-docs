@@ -31,7 +31,7 @@ public Ds\Vector::isEmpty(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::isEmpty()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::isEmpty()\*\*\*\*
 
 ```php
 <?php

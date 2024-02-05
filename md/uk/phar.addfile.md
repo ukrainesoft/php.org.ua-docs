@@ -47,7 +47,7 @@ public Phar::addFile(string $filename, ?string $localName = null): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::addFile()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::addFile()\*\*\*\*
 
 ```php
 <?php

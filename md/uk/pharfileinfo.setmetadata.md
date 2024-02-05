@@ -35,7 +35,7 @@ public PharFileInfo::setMetadata(mixed $metadata): void
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::setMetadata()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::setMetadata()\*\*\*\*
 
 ```php
 <?php

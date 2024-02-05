@@ -43,7 +43,7 @@ imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_mailboxmsginfo()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_mailboxmsginfo()\*\*\*\*
 
 ```php
 <?php

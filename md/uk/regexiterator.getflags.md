@@ -31,7 +31,7 @@ public RegexIterator::getFlags(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**RegexIterator::getFlags()\*\*\*\*
+**Приклад #1 Приклад використання** RegexIterator::getFlags()\*\*\*\*
 
 ```php
 <?php

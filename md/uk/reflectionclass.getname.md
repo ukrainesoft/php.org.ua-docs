@@ -31,7 +31,7 @@ public ReflectionClass::getName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getName()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getName()\*\*\*\*
 
 ```php
 <?php

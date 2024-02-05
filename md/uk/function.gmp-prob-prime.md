@@ -41,7 +41,7 @@ gmp_prob_prime(GMP|int|string $num, int $repetitions = 10): int
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_prob\_prime()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_prob\_prime()\*\*\*\*
 
 ```php
 <?php

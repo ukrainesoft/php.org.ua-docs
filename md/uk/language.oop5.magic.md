@@ -218,7 +218,7 @@ __invoke( ...$values): mixed
 
 Метод[\_\_invoke()](language.oop5.magic.md#object.invoke) викликається, коли скрипт намагається виконати об'єкт як функцію.
 
-**Пример #4 Использование[\_\_invoke()](language.oop5.magic.md#object.invoke)**
+**Приклад #4 Использование[\_\_invoke()](language.oop5.magic.md#object.invoke)**
 
 ```php
 <?php
@@ -242,7 +242,7 @@ int(5)
 bool(true)
 ```
 
-**Пример #5 Пример использования[\_\_invoke()](language.oop5.magic.md#object.invoke)**
+**Приклад #5 Приклад использования[\_\_invoke()](language.oop5.magic.md#object.invoke)**
 
 ```php
 <?php
@@ -340,7 +340,7 @@ static __set_state(array $properties): object
 
 Єдиним параметром цього методу є масив, що містить властивості, що експортуються у вигляді `['property' => value, ...]`
 
-**Пример #6 Использование[\_\_set\_state()](language.oop5.magic.md#object.set-state)**
+**Приклад #6 Использование[\_\_set\_state()](language.oop5.magic.md#object.set-state)**
 
 ```php
 <?php
@@ -395,7 +395,7 @@ __debugInfo(): array
 
 Цей метод викликається функцією [var\_dump()](function.var-dump.md), коли потрібно вивести список властивостей об'єкта. Якщо цей метод не визначений, тоді будуть виведені всі властивості об'єкта з модифікаторами public, protected та private.
 
-**Пример #7 Использование[\_\_debugInfo()](language.oop5.magic.md#object.debuginfo)**
+**Приклад #7 Использование[\_\_debugInfo()](language.oop5.magic.md#object.debuginfo)**
 
 ```php
 <?php

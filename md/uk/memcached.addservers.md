@@ -35,7 +35,7 @@ public Memcached::addServers(array $servers): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::addServers()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::addServers()\*\*\*\*
 
 ```php
 <?php

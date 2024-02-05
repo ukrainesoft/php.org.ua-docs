@@ -15,7 +15,7 @@ ReturnTypeWillChange::\_\_construct — Створює новий екземпл
 
 ### Опис
 
-public**ReturnTypeWillChange::\_\_construct**()
+public **ReturnTypeWillChange::\_\_construct**()
 
 Створює новий екземпляр [ReturnTypeWillChange](class.returntypewillchange.md)
 

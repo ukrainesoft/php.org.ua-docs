@@ -35,7 +35,7 @@ http_response_code(int $response_code = 0): int|bool
 
 ### Приклади
 
-**Пример #1 Использование**http\_response\_code()\*\* в оточенні веб-сервера\*\*
+**Приклад #1 Использование**http\_response\_code()\*\* в оточенні веб-сервера\*\*
 
 ```php
 <?php
@@ -55,7 +55,7 @@ int(200)
 int(404)
 ```
 
-**Пример #2 Использование**http\_response\_code()\*\* у CLI\*\*
+**Приклад #2 Использование**http\_response\_code()\*\* у CLI\*\*
 
 ```php
 <?php

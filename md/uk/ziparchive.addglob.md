@@ -84,7 +84,7 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
 
 ### Приклади
 
-**Пример #1 Пример использования**ZipArchive::addGlob()\*\*\*\*
+**Приклад #1 Приклад використання** ZipArchive::addGlob()\*\*\*\*
 
 Додати до архіву всі текстові файли та файли скриптів PHP з поточної директорії
 

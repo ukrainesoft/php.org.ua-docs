@@ -15,7 +15,7 @@ SolrDocument::\_\_construct — Конструктор
 
 ### Опис
 
-public**SolrDocument::\_\_construct**()
+public **SolrDocument::\_\_construct**()
 
 Конструктор класу SolrDocument
 

@@ -29,7 +29,7 @@ public NumberFormatter::getTextAttribute(int $attribute): string|false
 numfmt_get_text_attribute(NumberFormatter $formatter, int $attribute): string|false
 ```
 
-Отримує текстовий атрибут, пов'язаний із засобом форматування. Приклад текстового атрибута є суфікс для позитивних чисел. Якщо засіб форматування не розуміє атрибут, видається помилка **`U_UNSUPPORTED_ERROR`**Средства форматирования на основе правил понимают только**`NumberFormatter::DEFAULT_RULESET`**и**`NumberFormatter::PUBLIC_RULESETS`**
+Отримує текстовий атрибут, пов'язаний із засобом форматування. Приклад текстового атрибута є суфікс для позитивних чисел. Якщо засіб форматування не розуміє атрибут, видається помилка **`U_UNSUPPORTED_ERROR`**Средства форматирования на основе правил понимают только**`NumberFormatter::DEFAULT_RULESET`** і **`NumberFormatter::PUBLIC_RULESETS`**
 
 ### Список параметрів
 
@@ -47,7 +47,7 @@ numfmt_get_text_attribute(NumberFormatter $formatter, int $attribute): string|fa
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_get\_text\_attribute()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_get\_text\_attribute()\*\*\*\*
 
 ```php
 <?php

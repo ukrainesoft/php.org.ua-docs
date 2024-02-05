@@ -31,7 +31,7 @@ public ReflectionEnum::getCases(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionEnum::getCases()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionEnum::getCases()\*\*\*\*
 
 ```php
 <?php

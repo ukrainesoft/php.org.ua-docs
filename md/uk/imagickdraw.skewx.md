@@ -37,7 +37,7 @@ public ImagickDraw::skewX(float $degrees): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::skewX()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::skewX()\*\*\*\*
 
 ```php
 <?php

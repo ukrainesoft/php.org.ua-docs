@@ -31,7 +31,7 @@ public ReflectionEnum::isBacked(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionEnum::isBacked()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionEnum::isBacked()\*\*\*\*
 
 ```php
 <?php

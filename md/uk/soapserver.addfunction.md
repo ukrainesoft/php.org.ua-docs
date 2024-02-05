@@ -41,7 +41,7 @@ public SoapServer::addFunction(array|string|int $functions): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapServer::addFunction()\*\*\*\*
+**Приклад #1 Приклад використання** SoapServer::addFunction()\*\*\*\*
 
 ```php
 <?php

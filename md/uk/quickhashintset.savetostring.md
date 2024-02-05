@@ -31,7 +31,7 @@ public QuickHashIntSet::saveToString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntSet::saveToString()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntSet::saveToString()\*\*\*\*
 
 ```php
 <?php

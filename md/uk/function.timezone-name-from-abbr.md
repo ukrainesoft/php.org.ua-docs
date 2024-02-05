@@ -39,7 +39,7 @@ timezone_name_from_abbr(string $abbr, int $utcOffset = -1, int $isDST = -1): str
 
 ### Приклади
 
-**Пример #1 Пример использования**timezone\_name\_from\_abbr()\*\*\*\*
+**Приклад #1 Приклад використання** timezone\_name\_from\_abbr()\*\*\*\*
 
 ```php
 <?php

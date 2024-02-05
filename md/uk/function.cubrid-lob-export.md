@@ -41,7 +41,7 @@ cubrid_lob_export(resource $conn_identifier, resource $lob_identifier, string $p
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_lob\_export()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_lob\_export()\*\*\*\*
 
 ```php
 <?php

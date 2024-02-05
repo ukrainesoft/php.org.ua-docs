@@ -49,7 +49,7 @@ array_rand(array $array, int $num = 1): int|string|array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_rand()\*\*\*\*
+**Приклад #1 Приклад використання** array\_rand()\*\*\*\*
 
 ```php
 <?php

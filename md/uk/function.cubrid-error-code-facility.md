@@ -31,7 +31,7 @@ cubrid_error_code_facility(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_error\_code\_facility()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_error\_code\_facility()\*\*\*\*
 
 ```php
 <?php

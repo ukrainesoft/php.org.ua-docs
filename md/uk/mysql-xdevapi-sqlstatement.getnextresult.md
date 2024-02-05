@@ -31,7 +31,7 @@ public mysql_xdevapi\SqlStatement::getNextResult(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatement::getNextResult()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\SqlStatement::getNextResult()\*\*\*\*
 
 ```php
 <?php

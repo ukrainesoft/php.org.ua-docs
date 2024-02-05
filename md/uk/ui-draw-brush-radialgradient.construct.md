@@ -15,7 +15,7 @@ UI\\Draw\\Brush\\RadialGradient::\_\_construct - Конструктор клас
 
 ### Опис
 
-public**UI\\Draw\\Brush\\RadialGradient::\_\_construct** [UI\\Point](class.ui-point.md) `$start` [UI\\Point](class.ui-point.md) `$outer`, float`$radius`) .
+public **UI\\Draw\\Brush\\RadialGradient::\_\_construct** [UI\\Point](class.ui-point.md) `$start` [UI\\Point](class.ui-point.md) `$outer`, float`$radius`) .
 
 Створює новий радіальний градієнт
 

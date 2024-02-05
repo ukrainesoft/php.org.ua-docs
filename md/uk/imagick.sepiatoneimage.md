@@ -35,7 +35,7 @@ public Imagick::sepiaToneImage(float $threshold): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::sepiaToneImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::sepiaToneImage()\*\*\*\*
 
 ```php
 <?php

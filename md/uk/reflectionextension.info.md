@@ -31,7 +31,7 @@ public ReflectionExtension::info(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionExtension::info()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionExtension::info()\*\*\*\*
 
 ```php
 <?php

@@ -53,7 +53,7 @@ mysql_list_tables(string $database, resource $link_identifier = NULL): resource|
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_list\_tables()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_list\_tables()\*\*\*\*
 
 ```php
 <?php

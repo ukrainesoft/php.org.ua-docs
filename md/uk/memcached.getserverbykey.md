@@ -33,7 +33,7 @@ public Memcached::getServerByKey(string $server_key): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::getServerByKey()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::getServerByKey()\*\*\*\*
 
 ```php
 <?php

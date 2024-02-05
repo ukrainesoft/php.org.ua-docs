@@ -61,7 +61,7 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 ### Приклади
 
-**Пример #1 Пример использования[timezone\_transitions\_get()](function.timezone-transitions-get.md)**
+**Приклад #1 Приклад использования[timezone\_transitions\_get()](function.timezone-transitions-get.md)**
 
 ```php
 <?php
@@ -106,7 +106,7 @@ Array
 )
 ```
 
-**Пример #2 Пример использования[timezone\_transitions\_get()](function.timezone-transitions-get.md) із заданим параметром `timestampBegin`**
+**Приклад #2 Приклад использования[timezone\_transitions\_get()](function.timezone-transitions-get.md) із заданим параметром `timestampBegin`**
 
 ```php
 <?php

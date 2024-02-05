@@ -45,7 +45,7 @@ ssh2_shell(    resource $session,    string $termtype = "vanilla",   
 
 `width_height_type`
 
-`width_height_type` повинен бути **`SSH2_TERM_UNIT_CHARS`**или**`SSH2_TERM_UNIT_PIXELS`**
+`width_height_type` повинен бути **`SSH2_TERM_UNIT_CHARS`** або **`SSH2_TERM_UNIT_PIXELS`**
 
 ### Значення, що повертаються
 

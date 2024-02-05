@@ -37,7 +37,7 @@ public Imagick::mergeImageLayers(int $layer_method): Imagick
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::mergeImageLayers()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::mergeImageLayers()\*\*\*\*
 
 ```php
 <?php

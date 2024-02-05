@@ -15,7 +15,7 @@ Yaf\_Response\_Abstract::\_\_construct - Конструктор класу Yaf\_
 
 ### Опис
 
-public**Yaf\_Response\_Abstract::\_\_construct**()
+public **Yaf\_Response\_Abstract::\_\_construct**()
 
 **Увага**
 

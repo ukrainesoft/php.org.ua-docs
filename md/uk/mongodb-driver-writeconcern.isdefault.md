@@ -37,7 +37,7 @@ final public MongoDB\Driver\WriteConcern::isDefault(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcern::isDefault()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteConcern::isDefault()\*\*\*\*
 
 ```php
 <?php

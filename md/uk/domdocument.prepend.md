@@ -49,7 +49,7 @@ public DOMDocument::prepend(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMDocument::prepend()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMDocument::prepend()\*\*\*\*
 
 Додавання вузлів перед коренем документа.
 

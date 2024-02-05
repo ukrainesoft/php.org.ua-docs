@@ -44,7 +44,7 @@ mysql_field_table(resource $result, int $field_offset): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_field\_table()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_field\_table()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ public ImagickDraw::roundRectangle(    float $x1,    float $y1,    f
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::roundRectangle()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::roundRectangle()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ ReflectionEnumUnitCase::\_\_construct — Створює екземпляр об
 
 ### Опис
 
-public**ReflectionEnumUnitCase::\_\_construct**(object|string`$class`, string`$constant`) .
+public **ReflectionEnumUnitCase::\_\_construct**(object|string`$class`, string`$constant`) .
 
 ### Список параметрів
 

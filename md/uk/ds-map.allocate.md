@@ -41,7 +41,7 @@ public Ds\Map::allocate(int $capacity): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::allocate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::allocate()\*\*\*\*
 
 ```php
 <?php

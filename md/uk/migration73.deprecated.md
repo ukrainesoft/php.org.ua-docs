@@ -38,7 +38,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### Фільтрування даних
 
-Явное использование констант\*\*`FILTER_FLAG_SCHEME_REQUIRED`**и**`FILTER_FLAG_HOST_REQUIRED`\*\* тепер оголошено застарілим; так чи інакше, вони мають на увазі використання **`FILTER_VALIDATE_URL`**
+Явное использование констант\*\*`FILTER_FLAG_SCHEME_REQUIRED`** і **`FILTER_FLAG_HOST_REQUIRED`\*\* тепер оголошено застарілим; так чи інакше, вони мають на увазі використання **`FILTER_VALIDATE_URL`**
 
 ### Обробка зображень та GD
 

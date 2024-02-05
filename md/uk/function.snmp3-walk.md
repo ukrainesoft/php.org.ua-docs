@@ -79,7 +79,7 @@ snmp3_walk(    string $hostname,    string $security_name,    string
 
 ### Приклади
 
-**Пример #1 Пример использования**snmp3\_walk()\*\*\*\*
+**Приклад #1 Приклад використання** snmp3\_walk()\*\*\*\*
 
 ```php
 <?php

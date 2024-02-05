@@ -35,7 +35,7 @@ Imagick::swirlImage(float $degrees): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::swirlImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::swirlImage()\*\*\*\*
 
 ```php
 <?php

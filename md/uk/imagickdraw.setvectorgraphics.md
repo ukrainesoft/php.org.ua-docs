@@ -37,7 +37,7 @@ XML, що містить векторну графіку.
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setVectorGraphics()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setVectorGraphics()\*\*\*\*
 
 ```php
 <?php

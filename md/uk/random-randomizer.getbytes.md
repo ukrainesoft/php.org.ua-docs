@@ -40,7 +40,7 @@ public Random\Randomizer::getBytes(int $length): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::getBytes()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::getBytes()\*\*\*\*
 
 ```php
 <?php

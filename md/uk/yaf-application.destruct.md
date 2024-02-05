@@ -15,7 +15,7 @@ Yaf\_Application::\_\_destruct - Деструктор Yaf\_Application
 
 ### Опис
 
-public**Yaf\_Application::\_\_destruct**()
+public **Yaf\_Application::\_\_destruct**()
 
 ### Список параметрів
 

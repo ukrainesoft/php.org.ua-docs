@@ -31,7 +31,7 @@ public ReflectionExtension::getDependencies(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionExtension::getDependencies()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionExtension::getDependencies()\*\*\*\*
 
 ```php
 <?php

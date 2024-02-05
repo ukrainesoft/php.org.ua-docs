@@ -114,7 +114,7 @@ class PropertyTest
         unset($this->data[$name]);
     }
 
-    /**  Не магический метод, просто для примера. */
+    /**  Не магический метод, просто для Приклада. */
     public function getHidden()
     {
         return $this->hidden;

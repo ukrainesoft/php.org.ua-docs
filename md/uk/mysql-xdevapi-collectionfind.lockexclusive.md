@@ -42,7 +42,7 @@ public mysql_xdevapi\CollectionFind::lockExclusive(int $lock_waiting_option = ?)
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\CollectionFind::lockExclusive()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\CollectionFind::lockExclusive()\*\*\*\*
 
 ```php
 <?php

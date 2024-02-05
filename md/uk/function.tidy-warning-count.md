@@ -33,7 +33,7 @@ tidy_warning_count(tidy $tidy): int
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy\_warning\_count()\*\*\*\*
+**Приклад #1 Приклад використання** tidy\_warning\_count()\*\*\*\*
 
 ```php
 <?php

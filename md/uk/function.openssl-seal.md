@@ -65,7 +65,7 @@ openssl_seal(    string $data,    string &$sealed_data,    array &$e
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_seal()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_seal()\*\*\*\*
 
 ```php
 <?php

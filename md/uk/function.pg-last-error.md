@@ -52,7 +52,7 @@ pg_last_error(?PgSql\Connection $connection = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_last\_error()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_last\_error()\*\*\*\*
 
 ```php
 <?php

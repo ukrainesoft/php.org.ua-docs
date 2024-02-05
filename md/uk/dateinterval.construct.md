@@ -15,7 +15,7 @@ DateInterval::\_\_construct — Створює новий об'єкт DateInterv
 
 ### Опис
 
-public**DateInterval::\_\_construct**(string`$duration`) .
+public **DateInterval::\_\_construct**(string`$duration`) .
 
 Створює новий об'єкт DateInterval.
 
@@ -82,7 +82,7 @@ echo $interval->format("%d");
 
 Результат виконання наведеного прикладу:
 
-**Пример #2 Пример использования[DateInterval](class.dateinterval.md)**
+**Приклад #2 Приклад использования[DateInterval](class.dateinterval.md)**
 
 ```php
 <?php

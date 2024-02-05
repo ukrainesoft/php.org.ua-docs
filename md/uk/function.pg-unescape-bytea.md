@@ -39,7 +39,7 @@ pg_unescape_bytea(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_unescape\_bytea()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_unescape\_bytea()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ Memcache::pconnect(string $host, int $port = ?, int $timeout = ?): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::pconnect()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::pconnect()\*\*\*\*
 
 ```php
 <?php

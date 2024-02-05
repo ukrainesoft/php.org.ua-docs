@@ -15,7 +15,7 @@ SNMP::\_\_construct - Створює екземпляр SNMP, що предст�
 
 ### Опис
 
-public**SNMP::\_\_construct**  
+public **SNMP::\_\_construct**  
 int`$version`,  
 string`$hostname`,  
 string`$community`,  

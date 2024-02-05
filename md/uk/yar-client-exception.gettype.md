@@ -29,7 +29,7 @@ public Yar_Client_Exception::getType(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Yar\_Client\_Exception::getType()\*\*\*\*
+**Приклад #1 Приклад використання** Yar\_Client\_Exception::getType()\*\*\*\*
 
 ```php
 <?php

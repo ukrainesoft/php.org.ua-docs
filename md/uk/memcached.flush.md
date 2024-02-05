@@ -33,7 +33,7 @@ public Memcached::flush(int $delay = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::flush()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::flush()\*\*\*\*
 
 ```php
 <?php

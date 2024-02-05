@@ -15,7 +15,7 @@ Override::\_\_construct — Створює новий екземпляр атр�
 
 ### Опис
 
-public**Override::\_\_construct**()
+public **Override::\_\_construct**()
 
 Створює новий екземпляр класу [Override](class.override.md)
 

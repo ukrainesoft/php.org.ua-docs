@@ -29,7 +29,7 @@ pcntl_signal_get_handler(int $signal): callable|int
 
 ### Значення, що повертаються
 
-Функція поверне ціле значення, що вказує на константи **`SIG_DFL`**или**`SIG_IGN`**. Якщо заданий обробник користувача, повертається цей [callable](language.types.callable.md). функції.
+Функція поверне ціле значення, що вказує на константи **`SIG_DFL`** або **`SIG_IGN`**. Якщо заданий обробник користувача, повертається цей [callable](language.types.callable.md). функції.
 
 ### список змін
 
@@ -39,7 +39,7 @@ pcntl_signal_get_handler(int $signal): callable|int
 
 ### Приклади
 
-**Пример #1 Пример использования**pcntl\_signal\_get\_handler()\*\*\*\*
+**Приклад #1 Приклад використання** pcntl\_signal\_get\_handler()\*\*\*\*
 
 ```php
 <?php

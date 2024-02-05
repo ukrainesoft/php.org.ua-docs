@@ -25,7 +25,7 @@ public PharFileInfo::compress(int $compression): bool
 
 `compression`
 
-Стиснення має бути **`Phar::GZ`**или**`Phar::BZ2`**
+Стиснення має бути **`Phar::GZ`** або **`Phar::BZ2`**
 
 ### Значення, що повертаються
 
@@ -37,7 +37,7 @@ public PharFileInfo::compress(int $compression): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::compress()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::compress()\*\*\*\*
 
 ```php
 <?php

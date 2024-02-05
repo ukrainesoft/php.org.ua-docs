@@ -42,7 +42,7 @@ public mysql_xdevapi\Collection::add(mixed $document): mysql_xdevapi\CollectionA
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::add()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::add()\*\*\*\*
 
 ```php
 <?php

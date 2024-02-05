@@ -60,6 +60,6 @@ xml_parser_set_option(XMLParser $parser, int $option, string|int|bool $value): b
 
 | Версия | Опис |
 | --- | --- |
-| 8.3.0 | Тепер параметр `value` також набуває логічних значень. Налаштування **`XML_OPTION_CASE_FOLDING`**и**`XML_OPTION_SKIP_WHITE`** тепер логічні. |
+| 8.3.0 | Тепер параметр `value` також набуває логічних значень. Налаштування **`XML_OPTION_CASE_FOLDING`** і **`XML_OPTION_SKIP_WHITE`** тепер логічні. |
 | 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |
 | 8.0.0 | Тепер викидається виняток[ValueError](class.valueerror.md), если значение параметра`option`недопустимо. |

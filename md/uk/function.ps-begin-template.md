@@ -55,7 +55,7 @@ if (!ps_open_file($ps, "template.ps")) {
 ps_set_parameter($ps, "warning", "true");
 ps_set_info($ps, "Creator", "template.php");
 ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример шаблона");
+ps_set_info($ps, "Title", "Приклад шаблона");
 
 $pstemplate = ps_begin_template($ps, 30.0, 30.0);
 ps_moveto($ps, 0, 0);

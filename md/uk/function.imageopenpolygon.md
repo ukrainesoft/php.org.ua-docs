@@ -64,7 +64,7 @@ imageopenpolygon(    GdImage $image,    array $points,    int $num_p
 
 ### Приклади
 
-**Пример #1 Пример использования**imageopenpolygon()\*\*\*\*
+**Приклад #1 Приклад використання** imageopenpolygon()\*\*\*\*
 
 ```php
 <?php

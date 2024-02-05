@@ -45,7 +45,7 @@ locale_get_all_variants(string $locale): ?array
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_get\_all\_variants()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_get\_all\_variants()\*\*\*\*
 
 ```php
 <?php

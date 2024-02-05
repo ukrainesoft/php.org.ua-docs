@@ -35,7 +35,7 @@ public ReflectionMethod::getPrototype(): ReflectionMethod
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionMethod::getPrototype()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionMethod::getPrototype()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ pg_free_result(PgSql\Result $result): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_free\_result()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_free\_result()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public SolrDisMaxQuery::setQueryAlt(string $q): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setQueryAlt()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setQueryAlt()\*\*\*\*
 
 ```php
 <?php

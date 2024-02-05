@@ -123,8 +123,8 @@ final public rewrapManyDataKey(array|object $filter, ?array $options = null): ob
 
 | Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.16.0 | Додані константи **`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`**и**`MongoDB\Driver\ClientEncryption::QUERY_TYPE_RANGE_PREVIEW`** |
-| PECL mongodb 1.14.0 | Додані константи **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`** **`MongoDB\Driver\ClientEncryption::ALGORITHM_UNINDEXED`**и**`MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY`** |
+| PECL mongodb 1.16.0 | Додані константи **`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`** і **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_RANGE_PREVIEW`** |
+| PECL mongodb 1.14.0 | Додані константи **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`** **`MongoDB\Driver\ClientEncryption::ALGORITHM_UNINDEXED`** і **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY`** |
 
 ## Дивіться також
 

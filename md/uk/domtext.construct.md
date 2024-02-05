@@ -15,7 +15,7 @@ DOMText::\_\_construct — Створює об'єкт класу [DOMText](class
 
 ### Опис
 
-public**DOMText::\_\_construct**(string`$data` = "")
+public **DOMText::\_\_construct**(string`$data` = "")
 
 Створює новий екземпляр класу [DOMText](class.domtext.md)
 

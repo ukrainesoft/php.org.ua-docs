@@ -31,7 +31,7 @@ public SplFileObject::valid(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::valid()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::valid()\*\*\*\*
 
 ```php
 <?php

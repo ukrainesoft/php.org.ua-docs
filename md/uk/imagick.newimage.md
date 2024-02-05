@@ -55,7 +55,7 @@ public Imagick::newImage(    int $cols,    int $rows,    mixed $back
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::newImage()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::newImage()\*\* :\*\*
 
 Створення нового зображення та його відображення.
 

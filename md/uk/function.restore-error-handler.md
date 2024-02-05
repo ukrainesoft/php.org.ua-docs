@@ -31,7 +31,7 @@ restore_error_handler(): true
 
 ### Приклади
 
-**Пример #1 Пример использования**restore\_error\_handler()\*\*\*\*
+**Приклад #1 Приклад використання** restore\_error\_handler()\*\*\*\*
 
 Определение, произошла ли ошибка в функции[unserialize()](function.unserialize.md), а потім відновлення вихідного обробника помилок.
 

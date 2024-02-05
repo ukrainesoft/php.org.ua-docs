@@ -25,7 +25,7 @@ public SolrQuery::setEchoHandler(bool $flag): SolrQuery
 
 `flag`
 
-**`true`**или**`false`**
+**`true`** або **`false`**
 
 ### Значення, що повертаються
 

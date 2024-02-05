@@ -45,7 +45,7 @@ public DateTimeImmutable::setDate(int $year, int $month, int $day): DateTimeImmu
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::setDate()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::setDate()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

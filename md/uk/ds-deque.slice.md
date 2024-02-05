@@ -39,7 +39,7 @@ public Ds\Deque::slice(int $index, int $length = ?): Ds\Deque
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::slice()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::slice()\*\*\*\*
 
 ```php
 <?php

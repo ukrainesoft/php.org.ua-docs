@@ -33,7 +33,7 @@ public QuickHashIntSet::saveToFile(string $filename): void
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntSet::saveToFile()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntSet::saveToFile()\*\*\*\*
 
 ```php
 <?php

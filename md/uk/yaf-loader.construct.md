@@ -15,7 +15,7 @@ Yaf\_Loader::\_\_construct — Назначение\_\_construct
 
 ### Опис
 
-private**Yaf\_Loader::\_\_construct**()
+private **Yaf\_Loader::\_\_construct**()
 
 **Увага**
 

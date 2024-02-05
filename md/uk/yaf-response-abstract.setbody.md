@@ -39,7 +39,7 @@ public Yaf_Response_Abstract::setBody(string $content, string $key = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Response\_Abstract::setBody()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Response\_Abstract::setBody()\*\*\*\*
 
 ```php
 <?php

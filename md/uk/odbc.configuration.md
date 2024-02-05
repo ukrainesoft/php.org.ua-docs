@@ -72,4 +72,4 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 `odbc.default_cursortype`int
 
-Керує моделлю курсору ODBC. Можливі значення **`SQL_CURSOR_FORWARD_ONLY`** **`SQL_CURSOR_KEYSET_DRIVEN`** **`SQL_CURSOR_DYNAMIC`**и**`SQL_CURSOR_STATIC`**(по умолчанию).
+Керує моделлю курсору ODBC. Можливі значення **`SQL_CURSOR_FORWARD_ONLY`** **`SQL_CURSOR_KEYSET_DRIVEN`** **`SQL_CURSOR_DYNAMIC`** і **`SQL_CURSOR_STATIC`**(по умолчанию).

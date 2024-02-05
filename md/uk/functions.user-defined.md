@@ -17,7 +17,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 <?php
 function foo($arg_1, $arg_2, /* ..., */ $arg_n)
 {
-    echo "Пример функции.\n";
+    echo "Приклад функции.\n";
     return $retval;
 }
 ?>

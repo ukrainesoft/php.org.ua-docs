@@ -33,7 +33,7 @@ radius_get_vendor_attr(string $data): array
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_get\_vendor\_attr()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_get\_vendor\_attr()\*\*\*\*
 
 ```php
 <?php

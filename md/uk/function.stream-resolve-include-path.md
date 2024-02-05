@@ -33,7 +33,7 @@ stream_resolve_include_path(string $filename): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_resolve\_include\_path()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_resolve\_include\_path()\*\*\*\*
 
 Основний приклад використання.
 

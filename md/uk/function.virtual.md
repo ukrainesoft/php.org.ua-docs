@@ -37,7 +37,7 @@ virtual(string $uri): bool
 
 ### Приклади
 
-Пример использования смотрите в функции[apache\_note()](function.apache-note.md)
+Приклад использования смотрите в функции[apache\_note()](function.apache-note.md)
 
 ### Примітки
 

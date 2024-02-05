@@ -35,7 +35,7 @@ oci_fetch_row(resource $statement): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_fetch\_row()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_fetch\_row()\*\*\*\*
 
 ```php
 <?php

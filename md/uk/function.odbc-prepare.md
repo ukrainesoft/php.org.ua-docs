@@ -39,7 +39,7 @@ odbc_prepare(resource $odbc, string $query): resource|false
 
 ### Приклади
 
-**Пример #1 Пример использования[odbc\_execute()](function.odbc-execute.md)и**odbc\_prepare()\*\*\*\*
+**Приклад #1 Приклад использования[odbc\_execute()](function.odbc-execute.md)и**odbc\_prepare()\*\*\*\*
 
 У даному коді значення $success дорівнюватиме **`true`**, тільки якщо всі три параметри myproc є параметрами IN:
 

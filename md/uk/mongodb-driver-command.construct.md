@@ -53,7 +53,7 @@ final public MongoDB\Driver\Command::__construct(array|object $document, ?array 
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Command::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Command::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -115,7 +115,7 @@ array(13) {
 }
 ```
 
-**Пример #2 Пример использования**MongoDB\\Driver\\Command::\_\_construct()\*\*\*\*
+**Приклад #2 Приклад використання** MongoDB\\Driver\\Command::\_\_construct()\*\*\*\*
 
 Команди також можуть приймати опції, як частина нормальної структури, яку ви створюєте та відправляєте на сервер. Наприклад, з більшістю команд можна передавати опцію `maxTimeMS` для обмеження часу виконання.
 

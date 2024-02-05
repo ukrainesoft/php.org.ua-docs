@@ -59,7 +59,7 @@ SELECT`column`FROM`database` `table`WHERE rowid =`rowid`
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3::openBlob()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3::openBlob()\*\*\*\*
 
 ```php
 <?php

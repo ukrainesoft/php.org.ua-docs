@@ -15,7 +15,7 @@ Table::\_\_construct — Конструктор Table
 
 ### Опис
 
-private**mysql\_xdevapi\\Table::\_\_construct**()
+private **mysql\_xdevapi\\Table::\_\_construct**()
 
 Створити об'єкти таблиці.
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\Table::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Table::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Table::\_\_construct()\*\*\*\*
 
 ```php
 <?php

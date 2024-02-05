@@ -37,7 +37,7 @@ public ImagickDraw::setFillOpacity(float $fillOpacity): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFillOpacity()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFillOpacity()\*\*\*\*
 
 ```php
 <?php

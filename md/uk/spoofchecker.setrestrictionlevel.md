@@ -25,7 +25,7 @@ public Spoofchecker::setRestrictionLevel(int $level): void
 
 `level`
 
-Устанавливает уровень ограничения метода[SpoofChecker::isSuspicious()](spoofchecker.issuspicious.md)Одна из констант:**`Spoofchecker::ASCII`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`**или**`Spoofchecker::UNRESTRICTIVE`**Значение по умолчанию**`Spoofchecker::HIGHLY_RESTRICTIVE`**
+Устанавливает уровень ограничения метода[SpoofChecker::isSuspicious()](spoofchecker.issuspicious.md)Одна из констант:**`Spoofchecker::ASCII`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** або **`Spoofchecker::UNRESTRICTIVE`**Значение по умолчанию**`Spoofchecker::HIGHLY_RESTRICTIVE`**
 
 ### Значення, що повертаються
 

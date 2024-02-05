@@ -29,7 +29,7 @@ final public MongoDB\BSON\MinKey::__construct()
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\MinKey::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\MinKey::\_\_construct()\*\*\*\*
 
 ```php
 <?php

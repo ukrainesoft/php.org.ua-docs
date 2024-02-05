@@ -51,7 +51,7 @@ mysql_list_fields(string $database_name, string $table_name, resource $link_iden
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_list\_fields()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_list\_fields()\*\*\*\*
 
 ```php
 <?php

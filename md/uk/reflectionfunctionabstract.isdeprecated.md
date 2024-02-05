@@ -31,7 +31,7 @@ public ReflectionFunctionAbstract::isDeprecated(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionFunctionAbstract::isDeprecated()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionFunctionAbstract::isDeprecated()\*\*\*\*
 
 ```php
 <?php

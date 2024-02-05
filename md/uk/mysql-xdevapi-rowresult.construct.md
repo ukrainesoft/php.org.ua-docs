@@ -15,7 +15,7 @@ RowResult::\_\_construct - Конструктор класу RowResult
 
 ### Опис
 
-private**mysql\_xdevapi\\RowResult::\_\_construct**()
+private **mysql\_xdevapi\\RowResult::\_\_construct**()
 
 Представляє набір результатів, отриманий під час звернення до бази даних.
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\RowResult::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\RowResult::\_\_construct()\*\*\*\*
 
 ```php
 <?php

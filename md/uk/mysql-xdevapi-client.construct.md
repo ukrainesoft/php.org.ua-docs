@@ -15,7 +15,7 @@ Client::\_\_construct — Конструктор класу Client
 
 ### Опис
 
-private**mysql\_xdevapi\\Client::\_\_construct**()
+private **mysql\_xdevapi\\Client::\_\_construct**()
 
 Конструктор класу Client.
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\Client::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Client::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Client::\_\_construct()\*\*\*\*
 
 ```php
 <?php

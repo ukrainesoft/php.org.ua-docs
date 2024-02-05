@@ -39,7 +39,7 @@ public SplFixedArray::setSize(int $size): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFixedArray::setSize()\*\*\*\*
+**Приклад #1 Приклад використання** SplFixedArray::setSize()\*\*\*\*
 
 ```php
 <?php

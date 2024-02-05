@@ -31,7 +31,7 @@ public mysql_xdevapi\TableSelect::execute(): mysql_xdevapi\RowResult
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::execute()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::execute()\*\*\*\*
 
 ```php
 <?php

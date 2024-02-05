@@ -15,7 +15,7 @@ Swoole\\Atomic::\_\_construct — Створює атомарний об'єкт 
 
 ### Опис
 
-public**Swoole\\Atomic::\_\_construct**(int`$value`
+public **Swoole\\Atomic::\_\_construct**(int`$value`
 
 Атомарний об'єкт Swoole - це ціла змінна, яка дозволяє будь-якому процесору атомарно тестувати і модифікувати. Він реалізований з урахуванням атомарних інструкцій процесора. Атомарні змінні Swoole мають бути визначені до swoole\_server->start.
 

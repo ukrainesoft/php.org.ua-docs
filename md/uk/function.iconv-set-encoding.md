@@ -41,7 +41,7 @@ iconv_set_encoding(string $type, string $encoding): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**iconv\_set\_encoding()\*\*\*\*
+**Приклад #1 Приклад використання** iconv\_set\_encoding()\*\*\*\*
 
 ```php
 <?php

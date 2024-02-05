@@ -21,7 +21,7 @@ mysqli::\_\_construct -- mysqli::connect -- mysqli\_connect — Встановл
 
 Об'єктно-орієнтований стиль
 
-public**mysqli::\_\_construct**  
+public **mysqli::\_\_construct**  
 ?string`$hostname` **`null`**,  
 ?string`$username` **`null`**,  
 ?string`$password` **`null`**,  
@@ -93,7 +93,7 @@ mysqli_connect(    ?string $hostname = null,    ?string $username = null
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::\_\_construct()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

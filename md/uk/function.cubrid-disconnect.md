@@ -33,7 +33,7 @@ cubrid_disconnect(resource $conn_identifier = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_disconnect()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_disconnect()\*\*\*\*
 
 ```php
 <?php

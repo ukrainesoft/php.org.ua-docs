@@ -137,7 +137,7 @@ fclose($stream);
 
 ```php
 <?php
-/* В этом примере есть том с именем multi_broken.part1.rar,
+/* В этом Прикладе есть том с именем multi_broken.part1.rar,
  * а следующий том имеет имя multi.part2.rar */
 function resolve($vol) {
     if (preg_match('/_broken/', $vol))

@@ -41,7 +41,7 @@ public IntlCalendar::setDate(int $year, int $month, int $dayOfMonth): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**IntlCalendar::setDate()\*\*\*\*
+**Приклад #1 Приклад использования метода**IntlCalendar::setDate()\*\*\*\*
 
 ```php
 <?php

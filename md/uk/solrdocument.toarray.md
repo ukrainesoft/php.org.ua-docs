@@ -31,7 +31,7 @@ public SolrDocument::toArray(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDocument::toArray()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDocument::toArray()\*\*\*\*
 
 ```php
 <?php

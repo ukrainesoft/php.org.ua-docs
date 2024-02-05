@@ -15,7 +15,7 @@ ReflectionProperty::\_\_construct - Конструктор класу Reflection
 
 ### Опис
 
-public**ReflectionProperty::\_\_construct**(object|string`$class`, string`$property`) .
+public **ReflectionProperty::\_\_construct**(object|string`$class`, string`$property`) .
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public**ReflectionProperty::\_\_construct**(object|string`$class`, string`$prope
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::\_\_construct()\*\*\*\*
 
 ```php
 <?php

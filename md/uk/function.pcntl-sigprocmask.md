@@ -45,7 +45,7 @@ pcntl_sigprocmask(int $mode, array $signals, array &$old_signals = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pcntl\_sigprocmask()\*\*\*\*
+**Приклад #1 Приклад використання** pcntl\_sigprocmask()\*\*\*\*
 
 ```php
 <?php

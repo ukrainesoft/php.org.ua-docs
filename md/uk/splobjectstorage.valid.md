@@ -31,7 +31,7 @@ public SplObjectStorage::valid(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::valid()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::valid()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ public Imagick::blurImage(float $radius, float $sigma, int $channel = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::blurImage()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::blurImage()\*\* :\*\*
 
 Розмиття зображення та надсилання його до браузера.
 

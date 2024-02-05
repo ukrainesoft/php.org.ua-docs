@@ -33,7 +33,7 @@ public QuickHashIntStringHash::get(int $key): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntStringHash::get()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntStringHash::get()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public Imagick::setFont(string $font): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setFont()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setFont()\*\*\*\*
 
 Приклад використання Imagick::setFont
 

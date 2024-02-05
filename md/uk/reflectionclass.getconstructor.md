@@ -31,7 +31,7 @@ public ReflectionClass::getConstructor(): ?ReflectionMethod
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getConstructor()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getConstructor()\*\*\*\*
 
 ```php
 <?php

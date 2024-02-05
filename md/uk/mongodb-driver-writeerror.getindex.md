@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteError::getIndex(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteError::getIndex()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteError::getIndex()\*\*\*\*
 
 ```php
 <?php

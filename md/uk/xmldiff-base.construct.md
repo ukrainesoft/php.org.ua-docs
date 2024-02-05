@@ -15,7 +15,7 @@ XMLDiff\\Base::\_\_construct — Конструктор
 
 ### Опис
 
-public**XMLDiff\\Base::\_\_construct**(string`$nsname`) .
+public **XMLDiff\\Base::\_\_construct**(string`$nsname`) .
 
 Базовий конструктор для всіх робочих класів модуля xmldiff.
 

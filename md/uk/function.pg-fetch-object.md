@@ -57,7 +57,7 @@ pg_fetch_object(    PgSql\Result $result,    ?int $row = null,    st
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_fetch\_object()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_fetch\_object()\*\*\*\*
 
 ```php
 <?php

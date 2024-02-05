@@ -15,7 +15,7 @@ DirectoryIterator::\_\_construct — Створює новий ітератор 
 
 ### Опис
 
-public**DirectoryIterator::\_\_construct**(string`$directory`) .
+public **DirectoryIterator::\_\_construct**(string`$directory`) .
 
 Створює новий ітератор каталогів із шляху.
 
@@ -39,7 +39,7 @@ public**DirectoryIterator::\_\_construct**(string`$directory`) .
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::\_\_construct()\*\*\*\*
 
 У цьому прикладі буде виведено вміст каталогу, що містить скрипт.
 

@@ -31,7 +31,7 @@ public RecursiveDirectoryIterator::getSubPath(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**getSubPath()\*\*\*\*
+**Приклад #1 Приклад використання** getSubPath()\*\*\*\*
 
 ```php
 $directory = '/tmp';

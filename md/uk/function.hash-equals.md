@@ -43,13 +43,13 @@ hash_equals(string $known_string, string $user_string): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**hash\_equals()\*\*\*\*
+**Приклад #1 Приклад використання** hash\_equals()\*\*\*\*
 
 ```php
 <?php
 $secretKey = '8uRhAeH89naXfFXKGOEj';
 
-// Значение и подпись получены от пользователя, например, содержались в URL-адресе
+// Значение и подпись получены от пользователя, наПриклад, содержались в URL-адресе
 // и были извлечены из глобальной переменной $_GET.
 $value = 'username=rasmuslerdorf';
 $signature = '8c35009d3b50caf7f5d2c1e031842e6b7823a1bb781d33c5237cd27b57b5f327';

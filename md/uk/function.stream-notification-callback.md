@@ -59,7 +59,7 @@ Callback-функция типа[callable](language.types.callable.md), що в�
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_notification\_callback()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_notification\_callback()\*\*\*\*
 
 ```php
 <?php

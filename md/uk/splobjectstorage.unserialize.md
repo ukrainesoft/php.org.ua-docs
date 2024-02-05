@@ -33,7 +33,7 @@ public SplObjectStorage::unserialize(string $data): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::unserialize()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::unserialize()\*\*\*\*
 
 ```php
 <?php

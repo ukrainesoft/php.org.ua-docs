@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionModify::limit(int $rows): mysql_xdevapi\Collectio
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::limit()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionModify::limit()\*\*\*\*
 
 ```php
 <?php

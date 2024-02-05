@@ -43,7 +43,7 @@ Memcache::delete(string $key, int $timeout = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::delete()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::delete()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public Generator::send(mixed $value): mixed
 
 ### Приклади
 
-**Пример #1 Использование**Generator::send()**для внедрения значений**
+**Приклад #1 Использование**Generator::send()**для внедрения значений**
 
 ```php
 <?php

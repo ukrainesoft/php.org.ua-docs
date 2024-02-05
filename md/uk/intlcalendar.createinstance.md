@@ -56,7 +56,7 @@ intlcal_create_instance(IntlTimeZone|DateTimeZone|string|null $timezone = null, 
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::createInstance()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::createInstance()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public mysql_xdevapi\RowResult::getWarningsCount(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::getWarningsCount()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\RowResult::getWarningsCount()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ cubrid_next_result(resource $result): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_next\_result()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_next\_result()\*\*\*\*
 
 ```php
 <?php

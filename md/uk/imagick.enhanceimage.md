@@ -35,7 +35,7 @@ public Imagick::enhanceImage(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::enhanceImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::enhanceImage()\*\*\*\*
 
 ```php
 <?php

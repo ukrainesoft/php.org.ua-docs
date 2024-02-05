@@ -51,7 +51,7 @@ pg_copy_to(    PgSql\Connection $connection,    string $table_name,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_copy\_to()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_copy\_to()\*\*\*\*
 
 ```php
 <?php

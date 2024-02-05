@@ -40,7 +40,7 @@ public mysql_xdevapi\TableSelect::lockShared(int $lock_waiting_option = ?): mysq
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::lockShared()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::lockShared()\*\*\*\*
 
 ```php
 <?php

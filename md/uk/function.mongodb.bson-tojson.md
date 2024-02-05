@@ -43,7 +43,7 @@ MongoDB\BSON\toJSON(string $bson): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\toJSON()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\toJSON()\*\*\*\*
 
 ```php
 <?php

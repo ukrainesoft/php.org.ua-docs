@@ -37,7 +37,7 @@ final public MongoDB\Driver\ReadConcern::isDefault(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadConcern::isDefault()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadConcern::isDefault()\*\*\*\*
 
 ```php
 <?php

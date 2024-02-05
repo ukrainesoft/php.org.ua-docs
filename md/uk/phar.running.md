@@ -35,9 +35,9 @@ final public static Phar::running(bool $returnPhar = true): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::running()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::running()\*\*\*\*
 
-Для следующего примера предположим, что архив находится по пути`/path/to/phar/my.phar`
+Для следующего Приклада предположим, что архив находится по пути`/path/to/phar/my.phar`
 
 ```php
 <?php

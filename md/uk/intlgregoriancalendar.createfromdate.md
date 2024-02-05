@@ -41,7 +41,7 @@ public IntlGregorianCalendar::createFromDate(int $year, int $month, int $dayOfMo
 
 ### Приклади
 
-**Пример #1 Пример использования метода**IntlGregorianCalendar::createFromDate()\*\*\*\*
+**Приклад #1 Приклад использования метода**IntlGregorianCalendar::createFromDate()\*\*\*\*
 
 ```php
 <?php

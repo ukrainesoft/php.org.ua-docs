@@ -37,7 +37,7 @@ strpbrk(string $string, string $characters): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**strpbrk()\*\*\*\*
+**Приклад #1 Приклад використання** strpbrk()\*\*\*\*
 
 ```php
 <?php

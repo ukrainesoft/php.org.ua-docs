@@ -35,7 +35,7 @@ public SplFileInfo::getOwner(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getOwner()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getOwner()\*\*\*\*
 
 ```php
 <?php

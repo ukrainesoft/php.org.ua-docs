@@ -31,7 +31,7 @@ public SyncSharedMemory::first(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncSharedMemory::first()\*\*\*\*
+**Приклад #1 Приклад використання** SyncSharedMemory::first()\*\*\*\*
 
 ```php
 <?php

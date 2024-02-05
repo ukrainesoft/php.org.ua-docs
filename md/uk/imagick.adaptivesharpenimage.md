@@ -41,7 +41,7 @@ public Imagick::adaptiveSharpenImage(float $radius, float $sigma, int $channel =
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::adaptiveSharpenImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::adaptiveSharpenImage()\*\*\*\*
 
 Адаптивна зміна різкості зображення з радіусом 2 та сигмою 1.
 

@@ -33,7 +33,7 @@ uopz_allow_exit(bool $allow): void
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_allow\_exit()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_allow\_exit()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeLineJoin(int $linejoin): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeLineJoin()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeLineJoin()\*\*\*\*
 
 ```php
 <?php

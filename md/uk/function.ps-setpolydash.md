@@ -49,7 +49,7 @@ if (!ps_open_file($ps, "polydash.ps")) {
 
 ps_set_info($ps, "Creator", "polydash.php");
 ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример множественного тире");
+ps_set_info($ps, "Title", "Приклад множественного тире");
 
 ps_begin_page($ps, 596, 842);
 ps_setpolydash($ps, array(10, 5, 2, 5));

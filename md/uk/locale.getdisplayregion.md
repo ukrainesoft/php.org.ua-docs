@@ -53,7 +53,7 @@ locale_get_display_region(string $locale, ?string $displayLocale = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_get\_display\_region()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_get\_display\_region()\*\*\*\*
 
 ```php
 <?php

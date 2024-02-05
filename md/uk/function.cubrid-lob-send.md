@@ -37,7 +37,7 @@ cubrid_lob_send(resource $conn_identifier, resource $lob_identifier): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_lob\_send()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_lob\_send()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ xml_set_object(XMLParser $parser, object $object): true
 
 ### Приклади
 
-**Пример #1 Пример использования**xml\_set\_object()\*\*\*\*
+**Приклад #1 Приклад використання** xml\_set\_object()\*\*\*\*
 
 ```php
 <?php

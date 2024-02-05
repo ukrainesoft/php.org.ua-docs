@@ -35,7 +35,7 @@ public Imagick::readImageBlob(string $image, string $filename = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::readImageBlob()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::readImageBlob()\*\*\*\*
 
 ```php
 <?php

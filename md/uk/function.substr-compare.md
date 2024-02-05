@@ -57,7 +57,7 @@ substr_compare(    string $haystack,    string $needle,    int $offs
 
 ### Приклади
 
-**Пример #1 Пример использования**substr\_compare()\*\*\*\*
+**Приклад #1 Приклад використання** substr\_compare()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ strncmp(string $string1, string $string2, int $length): int
 
 ### Приклади
 
-**Пример #1**strncmp()**example**
+**Приклад #1**strncmp()**example**
 
 ```php
 <?php

@@ -57,7 +57,7 @@ public Yaf_Controller_Abstract::forward(    string $module,    string $c
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Controller\_Abstract::forward()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Controller\_Abstract::forward()\*\*\*\*
 
 ```php
 <?php

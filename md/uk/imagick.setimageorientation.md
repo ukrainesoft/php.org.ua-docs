@@ -33,7 +33,7 @@ public Imagick::setImageOrientation(int $orientation): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImageOrientation()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImageOrientation()\*\*\*\*
 
 ```php
 <?php

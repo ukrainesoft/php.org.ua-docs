@@ -35,7 +35,7 @@ escapeshellcmd(string $command): string
 
 ### Приклади
 
-**Пример #1 Пример использования**escapeshellcmd()\*\*\*\*
+**Приклад #1 Приклад використання** escapeshellcmd()\*\*\*\*
 
 ```php
 <?php

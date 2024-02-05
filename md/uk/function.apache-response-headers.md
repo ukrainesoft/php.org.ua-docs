@@ -31,7 +31,7 @@ apache_response_headers(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**apache\_response\_headers()\*\*\*\*
+**Приклад #1 Приклад використання** apache\_response\_headers()\*\*\*\*
 
 ```php
 <?php

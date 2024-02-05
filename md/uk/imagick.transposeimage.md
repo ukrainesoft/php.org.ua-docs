@@ -31,7 +31,7 @@ public Imagick::transposeImage(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::transposeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::transposeImage()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ final public static Phar::canCompress(int $compression = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::canCompress()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::canCompress()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public Yar_Client::setOpt(int $name, mixed $value): Yar_Client|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Yar\_Client::setOpt()\*\*\*\*
+**Приклад #1 Приклад використання** Yar\_Client::setOpt()\*\*\*\*
 
 ```php
 <?php

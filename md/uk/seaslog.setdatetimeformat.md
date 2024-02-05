@@ -37,7 +37,7 @@ public static SeasLog::setDatetimeFormat(string $format): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::setDatetimeFormat()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::setDatetimeFormat()\*\*\*\*
 
 ```php
 <?php

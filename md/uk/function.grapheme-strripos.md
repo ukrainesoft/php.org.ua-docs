@@ -43,7 +43,7 @@ grapheme_strripos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**grapheme\_strripos()\*\*\*\*
+**Приклад #1 Приклад використання** grapheme\_strripos()\*\*\*\*
 
 ```php
 <?php

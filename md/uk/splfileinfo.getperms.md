@@ -31,7 +31,7 @@ public SplFileInfo::getPerms(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getPerms()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getPerms()\*\*\*\*
 
 ```php
 <?php

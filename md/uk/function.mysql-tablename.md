@@ -47,7 +47,7 @@ mysql_tablename(resource $result, int $i): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_tablename()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_tablename()\*\*\*\*
 
 ```php
 <?php

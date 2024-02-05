@@ -43,7 +43,7 @@ pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|in
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_result\_status()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_result\_status()\*\*\*\*
 
 ```php
 <?php

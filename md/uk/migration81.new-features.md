@@ -124,7 +124,7 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' => $file]);
 -   murmur3c, 128-розрядний хеш для x86
 -   murmur3f, 128-розрядний хеш для x64
 
-Початковий стан хешування можна передати за допомогою ключа `seed` у масиві `options`, например:
+Початковий стан хешування можна передати за допомогою ключа `seed` у масиві `options`, наПриклад:
 
 ```php
 <?php
@@ -144,7 +144,7 @@ echo $h, "\n";
 -   xxh3, 64-bit hash
 -   xxh128, 128-bit hash
 
-Початковий стан хешування можна передати за допомогою ключа `seed` у масиві `options`, например:
+Початковий стан хешування можна передати за допомогою ключа `seed` у масиві `options`, наПриклад:
 
 ```php
 <?php
@@ -208,7 +208,7 @@ new PDO('sqlite:file:path/to/sqlite.db?mode=ro')
 
 ### POSIX
 
-Додані константи **`POSIX_RLIMIT_KQUEUES`**и**`POSIX_RLIMIT_NPTS`**. Ці обмеження доступні лише у FreeBSD.
+Додані константи **`POSIX_RLIMIT_KQUEUES`** і **`POSIX_RLIMIT_NPTS`**. Ці обмеження доступні лише у FreeBSD.
 
 ### Стандартні функції
 

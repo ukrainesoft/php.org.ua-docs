@@ -15,7 +15,7 @@ UI\\Draw\\Stroke::\_\_construct — Створити новий об'єкт Stro
 
 ### Опис
 
-public**UI\\Draw\\Stroke::\_\_construct**  
+public **UI\\Draw\\Stroke::\_\_construct**  
 int`$cap`\= UI\\Draw\\Line\\Cap::Flat,  
 int`$join`\= UI\\Draw\\Line\\Join::Miter,  
 float`$thickness`  

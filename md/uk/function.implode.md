@@ -56,7 +56,7 @@ implode(array $array, string $separator): string
 
 ### Приклади
 
-**Пример #1 Пример использования**implode()\*\*\*\*
+**Приклад #1 Приклад використання** implode()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public static SeasLog::setLogger(string $logger): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::setLogger()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::setLogger()\*\*\*\*
 
 ```php
 <?php

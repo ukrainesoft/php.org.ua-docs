@@ -42,7 +42,7 @@ apcu_cache_info(bool $limited = false): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**apcu\_cache\_info()\*\*\*\*
+**Приклад #1 Приклад використання** apcu\_cache\_info()\*\*\*\*
 
 ```php
 <?php

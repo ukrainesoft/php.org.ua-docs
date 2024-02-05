@@ -138,7 +138,7 @@ curl_getinfo(CurlHandle $handle, ?int $option = null): mixed
 
 | Версия | Опис |
 | --- | --- |
-| 8.3.0 | Додані опції **`CURLINFO_CAINFO`**и**`CURLINFO_CAPATH`** |
+| 8.3.0 | Додані опції **`CURLINFO_CAINFO`** і **`CURLINFO_CAPATH`** |
 | 8.2.0 | Додані опції **`CURLINFO_PROXY_ERROR`** **`CURLINFO_REFERER`** **`CURLINFO_RETRY_AFTER`** |
 | 8.0.0 | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 | 8.0.0 | Тепер параметр `option`принимает значение\*\*`null`\*\*. . раніше значенням за умовчанням був |
@@ -146,7 +146,7 @@ curl_getinfo(CurlHandle $handle, ?int $option = null): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования функции**curl\_getinfo()\*\*\*\*
+**Приклад #1 Приклад использования функции**curl\_getinfo()\*\*\*\*
 
 ```php
 <?php
@@ -169,7 +169,7 @@ curl_close($ch);
 ?>
 ```
 
-**Пример #2 Пример использования функции**curl\_getinfo()**с параметром`option`**
+**Приклад #2 Приклад использования функции**curl\_getinfo()**с параметром`option`**
 
 ```php
 <?php

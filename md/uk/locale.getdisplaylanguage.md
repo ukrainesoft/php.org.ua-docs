@@ -53,7 +53,7 @@ locale_get_display_language(string $locale, ?string $displayLocale = null): stri
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_get\_display\_language()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_get\_display\_language()\*\*\*\*
 
 ```php
 <?php

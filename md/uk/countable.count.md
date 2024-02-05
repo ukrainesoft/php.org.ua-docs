@@ -35,7 +35,7 @@ public Countable::count(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Countable::count()\*\*\*\*
+**Приклад #1 Приклад використання** Countable::count()\*\*\*\*
 
 ```php
 <?php

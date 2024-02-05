@@ -43,7 +43,7 @@ mysql_ping(resource $link_identifier = NULL): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_ping()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_ping()\*\*\*\*
 
 ```php
 <?php

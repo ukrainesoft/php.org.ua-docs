@@ -39,7 +39,7 @@ imagefontheight(GdFont|int $font): int
 
 ### Приклади
 
-**Пример #1 Пример использования**imagefontheight()\*\* на вбудованих шрифтах\*\*
+**Приклад #1 Приклад використання** imagefontheight()\*\* на вбудованих шрифтах\*\*
 
 ```php
 <?php
@@ -53,7 +53,7 @@ echo 'Font height: ' . imagefontheight(4);
 Font height: 16
 ```
 
-**Пример #2 Использование**imagefontheight()**вместе с[imageloadfont()](function.imageloadfont.md)**
+**Приклад #2 Использование**imagefontheight()**вместе с[imageloadfont()](function.imageloadfont.md)**
 
 ```php
 <?php

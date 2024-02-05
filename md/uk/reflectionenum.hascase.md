@@ -33,7 +33,7 @@ public ReflectionEnum::hasCase(string $name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionEnum::hasCase()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionEnum::hasCase()\*\*\*\*
 
 ```php
 <?php

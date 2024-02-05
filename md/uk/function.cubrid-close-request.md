@@ -33,7 +33,7 @@ cubrid_close_request(resource $req_identifier): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_close\_request()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_close\_request()\*\*\*\*
 
 ```php
 <?php

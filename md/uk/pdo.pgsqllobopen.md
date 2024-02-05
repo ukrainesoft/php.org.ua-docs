@@ -39,9 +39,9 @@ public PDO::pgsqlLOBOpen(string $oid, string $mode = "rb"): resource|false
 
 ### Приклади
 
-**Пример #1 Пример использования**PDO::pgsqlLOBOpen()\*\*\*\*
+**Приклад #1 Приклад використання** PDO::pgsqlLOBOpen()\*\*\*\*
 
-Продолжая пример из описания[PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md)Цей код витягує LOB з БД і виводить його в браузер.
+Продолжая Приклад из описания[PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md)Цей код витягує LOB з БД і виводить його в браузер.
 
 ```php
 <?php

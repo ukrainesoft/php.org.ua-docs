@@ -15,7 +15,7 @@ DOMDocumentFragment::\_\_construct - Конструктор об'єкта [DOMDo
 
 ### Опис
 
-public**DOMDocumentFragment::\_\_construct**()
+public **DOMDocumentFragment::\_\_construct**()
 
 ### Список параметрів
 

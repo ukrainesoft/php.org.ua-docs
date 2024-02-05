@@ -37,7 +37,7 @@ public Imagick::compareImageLayers(int $method): Imagick
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::compareImageLayers()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::compareImageLayers()\*\*\*\*
 
 Порівняння шарів зображення
 

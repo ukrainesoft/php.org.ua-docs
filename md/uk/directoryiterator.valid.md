@@ -31,7 +31,7 @@ public DirectoryIterator::valid(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::valid()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::valid()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ mcrypt_list_algorithms(string $lib_dir = ini_get("mcrypt.algorithms_dir")): arra
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_list\_algorithms()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_list\_algorithms()\*\*\*\*
 
 ```php
 <?php

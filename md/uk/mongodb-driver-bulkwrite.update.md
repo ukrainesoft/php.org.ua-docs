@@ -31,7 +31,7 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 
 `newObj`(array|object)
 
-Документ, що містить оператори оновлення (наприклад, `$set`), заменяющий документ (например,*тільки* вирази `field:value`) или[» конвеєр агрегації](https://www.mongodb.com/docs/manual/reference/command/update/#update-with-an-aggregation-pipeline)
+Документ, що містить оператори оновлення (наприклад, `$set`), заменяющий документ (наПриклад,*тільки* вирази `field:value`) или[» конвеєр агрегації](https://www.mongodb.com/docs/manual/reference/command/update/#update-with-an-aggregation-pipeline)
 
 `updateOptions`
 
@@ -80,7 +80,7 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\BulkWrite::update()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\BulkWrite::update()\*\*\*\*
 
 ```php
 <?php

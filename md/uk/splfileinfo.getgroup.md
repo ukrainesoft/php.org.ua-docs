@@ -35,7 +35,7 @@ public SplFileInfo::getGroup(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getGroup()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getGroup()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public SyncSemaphore::lock(int $wait = -1): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncSemaphore::lock()\*\*\*\*
+**Приклад #1 Приклад використання** SyncSemaphore::lock()\*\*\*\*
 
 ```php
 <?php

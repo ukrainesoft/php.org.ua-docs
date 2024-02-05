@@ -49,7 +49,7 @@ imageloadfont(string $filename): GdFont|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imageloadfont()\*\*\*\*
+**Приклад #1 Приклад використання** imageloadfont()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ public SplFileObject::setCsvControl(string $separator = ",", string $enclosure =
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::setCsvControl()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::setCsvControl()\*\*\*\*
 
 ```php
 <?php

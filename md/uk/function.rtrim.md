@@ -46,7 +46,7 @@ rtrim(string $string, string $characters = " \n\r\t\v\x00"): string
 
 ### Приклади
 
-**Пример #1 Пример использования**rtrim()\*\*\*\*
+**Приклад #1 Приклад використання** rtrim()\*\*\*\*
 
 ```php
 <?php

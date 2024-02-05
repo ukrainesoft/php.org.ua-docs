@@ -45,7 +45,7 @@ pg_affected_rows(PgSql\Result $result): int
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_affected\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_affected\_rows()\*\*\*\*
 
 ```php
 <?php

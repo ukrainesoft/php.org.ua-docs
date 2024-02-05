@@ -51,7 +51,7 @@ public SyncReaderWriter::__construct(string $name = ?, int $autounlock = 1)
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncReaderWriter::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SyncReaderWriter::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ numfmt_get_locale(NumberFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE): s
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_get\_locale()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_get\_locale()\*\*\*\*
 
 ```php
 <?php

@@ -53,7 +53,7 @@ $c = oci_connect('hr', 'welcome', 'localhost/XE');
 // Запись модуля
 oci_set_module_name($c, 'Home Page');
 
-// Код, осуществляющий запрос к БД, например выборка:
+// Код, осуществляющий запрос к БД, наПриклад выборка:
 $s = oci_parse($c, 'select * from dual');
 oci_execute($s);
 oci_fetch_all($s, $res);

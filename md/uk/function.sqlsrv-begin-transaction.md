@@ -33,7 +33,7 @@ sqlsrv_begin_transaction(resource $conn): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_begin\_transaction()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_begin\_transaction()\*\*\*\*
 
 У наступному прикладі показано, як використовувати\*\*sqlsrv\_begin\_transaction()\*\*вместе с[sqlsrv\_commit()](function.sqlsrv-commit.md) і [sqlsrv\_rollback()](function.sqlsrv-rollback.md)
 

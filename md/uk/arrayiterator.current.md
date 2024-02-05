@@ -31,7 +31,7 @@ public ArrayIterator::current(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayIterator::current()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayIterator::current()\*\*\*\*
 
 ```php
 <?php

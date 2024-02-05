@@ -31,7 +31,7 @@ public Ds\Deque::capacity(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::capacity()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::capacity()\*\*\*\*
 
 ```php
 <?php

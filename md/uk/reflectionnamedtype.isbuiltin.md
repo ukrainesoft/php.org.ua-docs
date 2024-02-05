@@ -31,7 +31,7 @@ public ReflectionNamedType::isBuiltin(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionNamedType::isBuiltin()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionNamedType::isBuiltin()\*\*\*\*
 
 ```php
 <?php

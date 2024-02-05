@@ -43,7 +43,7 @@ svn_add(string $path, bool $recursive = true, bool $force = false): bool
 
 ### Приклади
 
-**Пример #1**svn\_add()**example**
+**Приклад #1**svn\_add()**example**
 
 У робочій директорії, де **`svn status`** повертає:
 

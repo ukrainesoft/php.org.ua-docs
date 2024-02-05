@@ -59,7 +59,7 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = 
 | Ключ | Значения | Опис |
 | --- | --- | --- |
 | QueryTimeout | Позитивне ціле значення. | Встановлює час очікування в секундах. За замовчуванням драйвер чекатиме на результати нескінченно. |
-| SendStreamParamsAtExec | **`true`**или**`false`** (за замовчуванням **`true`**) . | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. . Для отримання додаткової інформації дивіться [sqlsrv\_send\_stream\_data()](function.sqlsrv-send-stream-data.md) |
+| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`**) . | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. . Для отримання додаткової інформації дивіться [sqlsrv\_send\_stream\_data()](function.sqlsrv-send-stream-data.md) |
 | Scrollable | SQLSRV\_CURSOR\_FORWARD, SQLSRV\_CURSOR\_STATIC, SQLSRV\_CURSOR\_DYNAMIC, або SQLSRV\_CURSOR\_KEYSET | Смотрите[» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx)в документации Microsoft SQLSRV. |
 
 ### Значення, що повертаються
@@ -68,7 +68,7 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = 
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_query()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_query()\*\*\*\*
 
 ```php
 <?php

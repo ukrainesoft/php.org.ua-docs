@@ -31,7 +31,7 @@ public SyncEvent::fire(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncEvent::fire()\*\*\*\*
+**Приклад #1 Приклад використання** SyncEvent::fire()\*\*\*\*
 
 ```php
 <?php

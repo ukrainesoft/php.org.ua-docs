@@ -39,7 +39,7 @@ oci_field_scale(resource $statement, string|int $column): int|false
 
 ### Приклади
 
-**Пример #1**oci\_field\_scale()**Example**
+**Приклад #1**oci\_field\_scale()**Example**
 
 ```php
 <?php

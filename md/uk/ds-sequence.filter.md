@@ -39,7 +39,7 @@ callback(mixed $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::filter()**с callback-функцией**
+**Приклад #1 Приклад використання** Ds\\Sequence::filter()**с callback-функцией**
 
 ```php
 <?php
@@ -62,7 +62,7 @@ object(Ds\Vector)#3 (2) {
 }
 ```
 
-**Пример #2 Пример использования**Ds\\Sequence::filter()\*\* без callback-функції\*\*
+**Приклад #2 Приклад використання** Ds\\Sequence::filter()\*\* без callback-функції\*\*
 
 ```php
 <?php

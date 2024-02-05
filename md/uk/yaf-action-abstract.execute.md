@@ -33,12 +33,12 @@ abstract publicYaf_Action_Abstract::execute(mixed ...$args): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Action\_Abstract::execute()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Action\_Abstract::execute()\*\*\*\*
 
 ```php
 <?php
 /**
- * Пример контроллера
+ * Приклад контроллера
  */
 class ProductController extends Yaf_Controller_Abstract {
       protected $actions = array(
@@ -48,7 +48,7 @@ class ProductController extends Yaf_Controller_Abstract {
 ?>
 ```
 
-**Пример #2 Пример использования**Yaf\_Action\_Abstract::execute()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Action\_Abstract::execute()\*\*\*\*
 
 ```php
 <?php

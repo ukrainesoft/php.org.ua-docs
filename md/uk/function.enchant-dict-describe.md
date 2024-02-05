@@ -40,7 +40,7 @@ enchant_dict_describe(EnchantDictionary $dictionary): array
 
 ### Приклади
 
-**Пример #1 Пример использования**enchant\_dict\_describe()\*\*\*\*
+**Приклад #1 Приклад використання** enchant\_dict\_describe()\*\*\*\*
 
 Перевіримо, що словник є за допомогою [enchant\_broker\_dict\_exists()](function.enchant-broker-dict-exists.md) та отримаємо інформацію про нього.
 

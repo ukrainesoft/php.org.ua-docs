@@ -35,7 +35,7 @@ public DatePeriod::getStartDate(): DateTimeInterface
 
 ### Приклади
 
-**Пример #1 Пример использования**DatePeriod::getStartDate()\*\*\*\*
+**Приклад #1 Приклад використання** DatePeriod::getStartDate()\*\*\*\*
 
 ```php
 <?php

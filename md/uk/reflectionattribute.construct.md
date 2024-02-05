@@ -15,7 +15,7 @@ ReflectionAttribute::\_\_construct - Закритий конструктор, щ
 
 ### Опис
 
-private**ReflectionAttribute::\_\_construct**()
+private **ReflectionAttribute::\_\_construct**()
 
 ### Список параметрів
 

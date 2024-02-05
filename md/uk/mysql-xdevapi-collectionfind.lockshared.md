@@ -44,7 +44,7 @@ public mysql_xdevapi\CollectionFind::lockShared(int $lock_waiting_option = ?): m
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\CollectionFind::lockShared()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\CollectionFind::lockShared()\*\*\*\*
 
 ```php
 <?php

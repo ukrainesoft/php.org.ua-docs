@@ -35,7 +35,7 @@ public mysql_xdevapi\RowResult::getColumnNames(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::getColumnNames()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\RowResult::getColumnNames()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ public Ds\Set::intersect(Ds\Set $set): Ds\Set
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Set::intersect()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Set::intersect()\*\*\*\*
 
 ```php
 <?php

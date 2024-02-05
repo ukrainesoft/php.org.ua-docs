@@ -46,7 +46,7 @@ sodium_crypto_secretbox_open(string $ciphertext, string $nonce, string $key): st
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_secretbox\_open()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_secretbox\_open()\*\*\*\*
 
 ```php
 <?php

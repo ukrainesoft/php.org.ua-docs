@@ -52,7 +52,7 @@ imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): true
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_delete()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_delete()\*\*\*\*
 
 ```php
 <?php

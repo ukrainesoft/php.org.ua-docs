@@ -55,7 +55,7 @@ exif_thumbnail(    resource|string $file,    int &$width = null,    
 
 ### Приклади
 
-**Пример #1 Пример использования**exif\_thumbnail()\*\*\*\*
+**Приклад #1 Приклад використання** exif\_thumbnail()\*\*\*\*
 
 ```php
 <?php

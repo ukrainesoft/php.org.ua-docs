@@ -43,7 +43,7 @@ gzdeflate(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_RAW): str
 
 ### Приклади
 
-**Пример #1 Пример использования**gzdeflate()\*\*\*\*
+**Приклад #1 Приклад використання** gzdeflate()\*\*\*\*
 
 ```php
 <?php

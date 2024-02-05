@@ -35,7 +35,7 @@ public mysql_xdevapi\Collection::dropIndex(string $index_name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::dropIndex()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::dropIndex()\*\*\*\*
 
 ```php
 <?php

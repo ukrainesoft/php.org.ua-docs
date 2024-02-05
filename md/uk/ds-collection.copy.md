@@ -31,7 +31,7 @@ public Ds\Collection::copy(): Ds\Collection
 
 ### Приклади
 
-**Пример #1 Пример**Ds\\Collection::copy()\*\*\*\*
+**Приклад #1 Приклад**Ds\\Collection::copy()\*\*\*\*
 
 ```php
 <?php

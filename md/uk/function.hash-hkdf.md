@@ -65,7 +65,7 @@ hash_hkdf(    string $algo,    string $key,    int $length = 0,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**hash\_hkdf()\*\*\*\*
+**Приклад #1 Приклад використання** hash\_hkdf()\*\*\*\*
 
 ```php
 <?php

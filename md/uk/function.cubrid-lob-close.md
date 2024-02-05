@@ -33,7 +33,7 @@ cubrid_lob_close(array $lob_identifier_array): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_lob\_close()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_lob\_close()\*\*\*\*
 
 ```php
 <?php

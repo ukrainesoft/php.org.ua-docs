@@ -35,7 +35,7 @@ final public MongoDB\Driver\Manager::getReadConcern(): MongoDB\Driver\ReadConcer
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Manager::getReadConcern()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Manager::getReadConcern()\*\*\*\*
 
 ```php
 <?php

@@ -55,7 +55,7 @@ date_timezone_get(DateTimeInterface $object): DateTimeZone|false
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTime::getTimezone()\*\*\*\*
+**Приклад #1 Приклад використання** DateTime::getTimezone()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

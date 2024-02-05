@@ -37,11 +37,11 @@ intlcal_get_type(IntlCalendar $calendar): string
 
 ### Значення, що повертаються
 
-Строка (string), представляющая тип календаря, например,`'gregorian'` `'islamic'`и т.д.
+Строка (string), представляющая тип календаря, наПриклад,`'gregorian'` `'islamic'`и т.д.
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getType()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getType()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ public Imagick::compareImages(Imagick $compare, int $metric): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::compareImages()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::compareImages()\*\* :\*\*
 
 Порівняння зображення та відображення відновленого зображення
 

@@ -33,7 +33,7 @@ URL callback-функції OAuth. Якщо `callback_url` Заданий пор
 
 `http_method`
 
-HTTP-метод, например`GET`или`POST`
+HTTP-метод, наПриклад`GET`или`POST`
 
 ### Значення, що повертаються
 
@@ -48,7 +48,7 @@ HTTP-метод, например`GET`или`POST`
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuth::getRequestToken()\*\*\*\*
+**Приклад #1 Приклад використання** OAuth::getRequestToken()\*\*\*\*
 
 ```php
 <?php

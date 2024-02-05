@@ -31,7 +31,7 @@ public Imagick::solarizeImage(int $threshold): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::solarizeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::solarizeImage()\*\*\*\*
 
 ```php
 <?php

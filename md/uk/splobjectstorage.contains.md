@@ -33,7 +33,7 @@ public SplObjectStorage::contains(object $object): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::contains()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::contains()\*\*\*\*
 
 ```php
 <?php

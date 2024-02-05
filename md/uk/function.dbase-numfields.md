@@ -43,7 +43,7 @@ dbase_numfields(resource $database): int
 
 ### Приклади
 
-**Пример #1 Пример использования**dbase\_numfields()\*\*\*\*
+**Приклад #1 Приклад використання** dbase\_numfields()\*\*\*\*
 
 ```php
 <?php

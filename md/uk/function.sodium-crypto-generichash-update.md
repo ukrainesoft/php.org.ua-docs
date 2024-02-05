@@ -37,7 +37,7 @@ sodium_crypto_generichash_update(string &$state, string $message): true
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_generichash\_update()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_generichash\_update()\*\*\*\*
 
 ```php
 <?php

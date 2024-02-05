@@ -60,7 +60,7 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_execute()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_execute()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_rename()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_rename()\*\*\*\*
 
 ```php
 <?php

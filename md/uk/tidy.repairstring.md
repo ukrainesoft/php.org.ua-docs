@@ -61,7 +61,7 @@ tidy_repair_string(string $string, array|string|null $config = null, ?string $en
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::repairString()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::repairString()\*\*\*\*
 
 ```php
 <?php

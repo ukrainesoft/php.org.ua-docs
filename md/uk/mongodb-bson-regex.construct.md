@@ -49,7 +49,7 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Regex::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Regex::\_\_construct()\*\*\*\*
 
 ```php
 <?php

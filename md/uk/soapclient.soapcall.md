@@ -59,7 +59,7 @@ public SoapClient::__soapCall(    string $name,    array $args,    ?
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapClient::\_\_soapCall()\*\*\*\*
+**Приклад #1 Приклад використання** SoapClient::\_\_soapCall()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ intlcal_get(IntlCalendar $calendar, int $field): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::get()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::get()\*\*\*\*
 
 ```php
 <?php

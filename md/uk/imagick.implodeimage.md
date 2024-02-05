@@ -37,7 +37,7 @@ public Imagick::implodeImage(float $radius): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::implodeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::implodeImage()\*\*\*\*
 
 ```php
 <?php

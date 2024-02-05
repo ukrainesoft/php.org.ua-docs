@@ -41,7 +41,7 @@ intlcal_get_time_zone(IntlCalendar $calendar): IntlTimeZone|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getTimeZone()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getTimeZone()\*\*\*\*
 
 ```php
 <?php

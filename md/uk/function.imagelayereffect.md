@@ -64,7 +64,7 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagelayereffect()\*\*\*\*
+**Приклад #1 Приклад використання** imagelayereffect()\*\*\*\*
 
 ```php
 <?php

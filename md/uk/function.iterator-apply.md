@@ -43,7 +43,7 @@ iterator_apply(Traversable $iterator, callable $callback, ?array $args = null): 
 
 ### Приклади
 
-**Пример #1 Пример использования**iterator\_apply()\*\*\*\*
+**Приклад #1 Приклад використання** iterator\_apply()\*\*\*\*
 
 ```php
 <?php

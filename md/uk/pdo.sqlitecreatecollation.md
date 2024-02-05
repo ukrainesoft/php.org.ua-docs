@@ -45,7 +45,7 @@ collation(string $string1, string $string2): int
 
 ### Приклади
 
-**Пример #1 Пример использования**PDO::sqliteCreateCollation()\*\*\*\*
+**Приклад #1 Приклад використання** PDO::sqliteCreateCollation()\*\*\*\*
 
 ```php
 <?php

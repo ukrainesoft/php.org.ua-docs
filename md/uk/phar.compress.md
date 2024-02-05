@@ -55,7 +55,7 @@ public Phar::compress(int $compression, ?string $extension = null): ?Phar
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::compress()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::compress()\*\*\*\*
 
 ```php
 <?php

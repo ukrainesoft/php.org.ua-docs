@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadPreference::getMode(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::getMode()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\ReadPreference::getMode()\*\*\*\*
 
 ```php
 <?php

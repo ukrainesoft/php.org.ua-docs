@@ -51,7 +51,7 @@ collator_get_sort_key(Collator $object, string $string): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_get\_sort\_key()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_get\_sort\_key()\*\*\*\*
 
 ```php
 <?php

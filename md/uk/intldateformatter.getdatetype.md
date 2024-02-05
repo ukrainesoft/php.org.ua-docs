@@ -43,7 +43,7 @@ datefmt_get_datetype(IntlDateFormatter $formatter): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_get\_datetype()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_get\_datetype()\*\*\*\*
 
 ```php
 <?php

@@ -144,7 +144,7 @@ if (!$conn) {
     trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$mykey = 12343;  // произвольный ключ для данного примера;
+$mykey = 12343;  // произвольный ключ для данного Приклада;
 
 $sql = "INSERT INTO mytable (mykey, myclob)
         VALUES (:mykey, EMPTY_CLOB())

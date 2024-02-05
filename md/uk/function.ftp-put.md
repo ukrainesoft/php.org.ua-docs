@@ -37,7 +37,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `mode`
 
-Визначає режим передачі. Може приймати значення **`FTP_ASCII`**или**`FTP_BINARY`**
+Визначає режим передачі. Може приймати значення **`FTP_ASCII`** або **`FTP_BINARY`**
 
 `offset`
 
@@ -56,7 +56,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_put()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_put()\*\*\*\*
 
 ```php
 <?php

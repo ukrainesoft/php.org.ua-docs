@@ -39,11 +39,11 @@ string; Пароль, для якого створюється хеш.
 
 `opslimit`
 
-Збільшення цього числа призведе до того, що функції знадобиться більше циклів ЦП для обчислення ключа. Існують константи, доступні для встановлення межі операцій для відповідних значень залежно від передбачуваного використання, у порядку зменшення: **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE`**и**`SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE`**
+Збільшення цього числа призведе до того, що функції знадобиться більше циклів ЦП для обчислення ключа. Існують константи, доступні для встановлення межі операцій для відповідних значень залежно від передбачуваного використання, у порядку зменшення: **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE`** і **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE`**
 
 `memlimit`
 
-Максимальний обсяг ОЗП в байтах, який використовуватиме функція. Існують константи, які допоможуть вам вибрати відповідне значення як розмір: **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE`**и**`SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE`**. Як правило, вони повинні поєднуватись з відповідними значеннями `opslimit`
+Максимальний обсяг ОЗП в байтах, який використовуватиме функція. Існують константи, які допоможуть вам вибрати відповідне значення як розмір: **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE`** і **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE`**. Як правило, вони повинні поєднуватись з відповідними значеннями `opslimit`
 
 `algo`
 
@@ -55,7 +55,7 @@ int Число, що вказує алгоритм хешування, що ви
 
 ### Приклади
 
-**Пример #1 Пример использования[password\_hash()](function.password-hash.md)**
+**Приклад #1 Приклад использования[password\_hash()](function.password-hash.md)**
 
 ```php
 <?php

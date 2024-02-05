@@ -39,7 +39,7 @@ mysql_thread_id(resource $link_identifier = NULL): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_thread\_id()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_thread\_id()\*\*\*\*
 
 ```php
 <?php

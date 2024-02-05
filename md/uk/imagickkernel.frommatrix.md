@@ -37,7 +37,7 @@ public static ImagickKernel::fromMatrix(array $matrix, array $origin = ?): Imagi
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickKernel::fromMatrix()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickKernel::fromMatrix()\*\*\*\*
 
 ```php
 <?php

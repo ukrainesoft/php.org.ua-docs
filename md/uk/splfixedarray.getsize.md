@@ -31,7 +31,7 @@ public SplFixedArray::getSize(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFixedArray::getSize()\*\*\*\*
+**Приклад #1 Приклад використання** SplFixedArray::getSize()\*\*\*\*
 
 ```php
 <?php

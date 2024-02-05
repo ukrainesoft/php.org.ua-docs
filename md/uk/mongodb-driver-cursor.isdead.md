@@ -46,7 +46,7 @@ final public MongoDB\Driver\Cursor::isDead(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Cursor::isDead()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Cursor::isDead()\*\*\*\*
 
 ```php
 <?php

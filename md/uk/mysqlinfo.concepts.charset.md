@@ -61,7 +61,7 @@ echo 'Ваша текущая кодировка: ' . $mysqli->character_set_nam
 ?>
 ```
 
-**Пример #3 Пример установки кодировки символов:[pdo\_mysql](ref.pdo-mysql.connection.md)**
+**Приклад #3 Приклад установки кодировки символов:[pdo\_mysql](ref.pdo-mysql.connection.md)**
 
 ```php
 <?php

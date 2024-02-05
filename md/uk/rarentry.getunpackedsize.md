@@ -41,7 +41,7 @@ public RarEntry::getUnpackedSize(): int
 
 ### Значення, що повертаються
 
-**Пример #1 Пример использования**RarEntry::getUnpackedSize()\*\*\*\*
+**Приклад #1 Приклад використання** RarEntry::getUnpackedSize()\*\*\*\*
 
 ```php
 <?php

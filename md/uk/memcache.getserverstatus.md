@@ -41,7 +41,7 @@ Memcache::getServerStatus(string $host, int $port = 11211): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::getServerStatus()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::getServerStatus()\*\*\*\*
 
 ```php
 <?php

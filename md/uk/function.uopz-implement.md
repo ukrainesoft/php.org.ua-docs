@@ -37,7 +37,7 @@ uopz_implement(string $class, string $interface): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_implement()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_implement()\*\*\*\*
 
 ```php
 <?php

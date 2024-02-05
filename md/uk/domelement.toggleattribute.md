@@ -39,7 +39,7 @@ public DOMElement::toggleAttribute(string $qualifiedName, ?bool $force = null): 
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::toggleAttribute()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::toggleAttribute()\*\*\*\*
 
 ```php
 <?php

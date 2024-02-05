@@ -44,7 +44,7 @@ posix_getgrgid(int $group_id): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getgrgid()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getgrgid()\*\*\*\*
 
 ```php
 <?php

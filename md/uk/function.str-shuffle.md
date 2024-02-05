@@ -45,7 +45,7 @@ str_shuffle(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**str\_shuffle()\*\*\*\*
+**Приклад #1 Приклад використання** str\_shuffle()\*\*\*\*
 
 ```php
 <?php

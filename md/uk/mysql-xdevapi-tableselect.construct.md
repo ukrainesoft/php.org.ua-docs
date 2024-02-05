@@ -15,7 +15,7 @@ TableSelect::\_\_construct - Конструктор класу TableSelect
 
 ### Опис
 
-private**mysql\_xdevapi\\TableSelect::\_\_construct**()
+private **mysql\_xdevapi\\TableSelect::\_\_construct**()
 
 Об'єкт, який повертається методом select(); Використовуйте execute() для виконання запиту.
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\TableSelect::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::\_\_construct()\*\*\*\*
 
 ```php
 <?php

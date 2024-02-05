@@ -15,7 +15,7 @@ mysqli\_result::\_\_construct - Конструктор об'єкта [mysqli\_re
 
 ### Опис
 
-public**mysqli\_result::\_\_construct** [mysqli](class.mysqli.md) `$mysql`, int`$result_mode` **`MYSQLI_STORE_RESULT`**) .
+public **mysqli\_result::\_\_construct** [mysqli](class.mysqli.md) `$mysql`, int`$result_mode` **`MYSQLI_STORE_RESULT`**) .
 
 Метод створює новий об'єкт [mysqli\_result](class.mysqli-result.md)
 

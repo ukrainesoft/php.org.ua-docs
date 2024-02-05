@@ -41,7 +41,7 @@ ignore_user_abort(?bool $enable = null): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ignore\_user\_abort()\*\*\*\*
+**Приклад #1 Приклад використання** ignore\_user\_abort()\*\*\*\*
 
 ```php
 <?php

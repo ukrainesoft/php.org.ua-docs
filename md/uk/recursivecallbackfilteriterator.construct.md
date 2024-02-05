@@ -15,7 +15,7 @@ RecursiveCallbackFilterIterator::\_\_construct — Створює об'єкт к
 
 ### Опис
 
-public**RecursiveCallbackFilterIterator::\_\_construct** [RecursiveIterator](class.recursiveiterator.md) `$iterator` [callable](language.types.callable.md) `$callback`) .
+public **RecursiveCallbackFilterIterator::\_\_construct** [RecursiveIterator](class.recursiveiterator.md) `$iterator` [callable](language.types.callable.md) `$callback`) .
 
 Створює ітератор, що фільтрує, на основі об'єкта-ітератора. [RecursiveIterator](class.recursiveiterator.md), используя функцию`callback` для відбору необхідних елементів.
 

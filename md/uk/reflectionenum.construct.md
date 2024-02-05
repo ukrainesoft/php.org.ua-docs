@@ -15,7 +15,7 @@ ReflectionEnum::\_\_construct — Створює об'єкт [ReflectionEnum](cl
 
 ### Опис
 
-public**ReflectionEnum::\_\_construct**(object|string`$objectOrClass`) .
+public **ReflectionEnum::\_\_construct**(object|string`$objectOrClass`) .
 
 ### Список параметрів
 

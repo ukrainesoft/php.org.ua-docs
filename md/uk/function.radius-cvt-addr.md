@@ -33,7 +33,7 @@ radius_cvt_addr(string $data): string
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_cvt\_addr()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_cvt\_addr()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public QuickHashIntHash::get(int $key): int
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntHash::get()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntHash::get()\*\*\*\*
 
 ```php
 <?php

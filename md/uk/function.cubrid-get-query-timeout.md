@@ -33,7 +33,7 @@ cubrid_get_query_timeout(resource $req_identifier): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_get\_query\_timeout()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_get\_query\_timeout()\*\*\*\*
 
 ```php
 <?php

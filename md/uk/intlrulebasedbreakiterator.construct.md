@@ -15,7 +15,7 @@ IntlRuleBasedBreakIterator::\_\_construct - Створює ітератор на
 
 ### Опис
 
-public**IntlRuleBasedBreakIterator::\_\_construct**(string`$rules`, bool`$compiled` **`false`**) .
+public **IntlRuleBasedBreakIterator::\_\_construct**(string`$rules`, bool`$compiled` **`false`**) .
 
 **Увага**
 

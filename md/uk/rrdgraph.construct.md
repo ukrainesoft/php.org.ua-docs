@@ -15,7 +15,7 @@ RRDGraph::\_\_construct — Створює новий екземпляр [RRDGra
 
 ### Опис
 
-public**RRDGraph::\_\_construct**(string`$path`) .
+public **RRDGraph::\_\_construct**(string`$path`) .
 
 Створює новий екземпляр [RRDGraph](class.rrdgraph.md). Екземпляр відповідає за відображення результату запиту до бази даних RRD у вигляді зображення.
 

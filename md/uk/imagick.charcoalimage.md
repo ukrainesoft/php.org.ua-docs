@@ -37,7 +37,7 @@ public Imagick::charcoalImage(float $radius, float $sigma): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::charcoalImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::charcoalImage()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ image2wbmp(resource $image, string $filename = ?, int $foreground = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**image2wbmp()\*\*\*\*
+**Приклад #1 Приклад використання** image2wbmp()\*\*\*\*
 
 ```php
 <?php

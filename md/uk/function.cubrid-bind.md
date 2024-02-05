@@ -83,7 +83,7 @@ cubrid_bind(    resource $req_identifier,    int $bind_index,    mix
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_bind()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_bind()\*\*\*\*
 
 ```php
 <?php
@@ -133,7 +133,7 @@ Bird Larry
 Barkley Charles
 ```
 
-**Пример #2 Пример использования**cubrid\_bind()\*\* з BLOB/CLOB\*\*
+**Приклад #2 Приклад використання** cubrid\_bind()\*\* з BLOB/CLOB\*\*
 
 ```php
 <?php
@@ -152,7 +152,7 @@ if ($con) {
 ?>
 ```
 
-**Пример #3 Пример использования**cubrid\_bind()\*\* з BLOB/CLOB\*\*
+**Приклад #3 Приклад використання** cubrid\_bind()\*\* з BLOB/CLOB\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ odbc_next_result(resource $statement): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**odbc\_next\_result()\*\*\*\*
+**Приклад #1 Приклад використання** odbc\_next\_result()\*\*\*\*
 
 ```php
 <?php

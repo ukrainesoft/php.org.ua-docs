@@ -37,7 +37,7 @@ public ImagickDraw::setFontFamily(string $font_family): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFontFamily()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFontFamily()\*\*\*\*
 
 ```php
 <?php

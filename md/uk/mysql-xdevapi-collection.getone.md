@@ -35,7 +35,7 @@ public mysql_xdevapi\Collection::getOne(string $id): Document
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::getOne()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::getOne()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +50,7 @@ $collection = $schema->createCollection("people");
 $result = $collection->add('{"name": "Alfred", "age": 42, "job": "Butler"}')->execute();
 
 // Уникальный _id (по умолчанию и рекомендуется) генерируется MySQL Server
-// Возвращает сгенерированные _id; в этом примере только одна запись, поэтому $ids[0]
+// Возвращает сгенерированные _id; в этом Прикладе только одна запись, поэтому $ids[0]
 $ids        = $result->getGeneratedIds();
 $alfreds_id = $ids[0];
 

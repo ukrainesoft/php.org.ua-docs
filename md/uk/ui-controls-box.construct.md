@@ -15,7 +15,7 @@ UI\\Controls\\Box::\_\_construct — Створити новий об'єкт Box
 
 ### Опис
 
-public**UI\\Controls\\Box::\_\_construct**(int`$orientation`\= UI\\Controls\\Box::Horizontal)
+public **UI\\Controls\\Box::\_\_construct**(int`$orientation`\= UI\\Controls\\Box::Horizontal)
 
 Створить новий блок
 

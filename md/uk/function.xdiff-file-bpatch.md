@@ -41,7 +41,7 @@ xdiff_file_bpatch(string $file, string $patch, string $dest): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**xdiff\_file\_bpatch()\*\*\*\*
+**Приклад #1 Приклад використання** xdiff\_file\_bpatch()\*\*\*\*
 
 У наступному коді показано застосування бінарного патчу до файлу.
 

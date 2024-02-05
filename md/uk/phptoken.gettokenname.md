@@ -31,7 +31,7 @@ public PhpToken::getTokenName(): ?string
 
 ### Приклади
 
-**Пример #1 Пример использования**PhpToken::getTokenName()\*\*\*\*
+**Приклад #1 Приклад використання** PhpToken::getTokenName()\*\*\*\*
 
 ```php
 <?php

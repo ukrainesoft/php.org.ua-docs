@@ -49,7 +49,7 @@ if (!ps_open_file($ps, "spotcolor.ps")) {
 
 ps_set_info($ps, "Creator", "spotcolor.php");
 ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример плашечного цвета");
+ps_set_info($ps, "Title", "Приклад плашечного цвета");
 
 ps_begin_page($ps, 596, 842);
 ps_setcolor($ps, "fill", "cmyk", 0.37, 0.0, 0.34, 0.34);

@@ -79,7 +79,7 @@ Strength to set.
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_set\_strength()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_set\_strength()\*\*\*\*
 
 ```php
 <?php

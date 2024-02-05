@@ -54,7 +54,7 @@ public Imagick::adaptiveResizeImage(    int $columns,    int $rows,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::adaptiveResizeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::adaptiveResizeImage()\*\*\*\*
 
 Зміна розмірів зображення, що зазвичай використовуються в web. Цей метод найкраще працює при невеликій зміні розміру.
 

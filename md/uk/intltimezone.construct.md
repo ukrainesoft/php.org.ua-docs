@@ -15,7 +15,7 @@ IntlTimeZone::\_\_construct - Конструктор класу, що забор
 
 ### Опис
 
-private**IntlTimeZone::\_\_construct**()
+private **IntlTimeZone::\_\_construct**()
 
 ### Список параметрів
 

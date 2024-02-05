@@ -15,7 +15,7 @@ WeakReference::\_\_construct - Конструктор, який забороня
 
 ### Опис
 
-public**WeakReference::\_\_construct**()
+public **WeakReference::\_\_construct**()
 
 Метод існує лише для заборони створення екземплярів класу [WeakReference](class.weakreference.md). Слабкі посилання мають бути створені за допомогою фабричного методу [WeakReference::create()](weakreference.create.md)
 

@@ -41,7 +41,7 @@ final public static Phar::mapPhar(?string $alias = null, int $offset = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::mapPhar()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::mapPhar()\*\*\*\*
 
 Phar::mapPhar слід використовувати лише всередині завантажувача заглушки Phar-архіву. Використовуйте loadPhar для завантаження зовнішнього phar у пам'ять.
 

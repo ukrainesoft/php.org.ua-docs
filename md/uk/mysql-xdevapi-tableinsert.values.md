@@ -33,7 +33,7 @@ public mysql_xdevapi\TableInsert::values(array $row_values): mysql_xdevapi\Table
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableInsert::values()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableInsert::values()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ UI\\Menu::\_\_construct — Створити новий об'єкт Menu
 
 ### Опис
 
-public**UI\\Menu::\_\_construct**(string`$name`) .
+public **UI\\Menu::\_\_construct**(string`$name`) .
 
 Створить новий об'єкт Menu
 

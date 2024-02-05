@@ -47,7 +47,7 @@ easter_days(?int $year = null, int $mode = CAL_EASTER_DEFAULT): int
 
 ### Приклади
 
-**Пример #1 Пример использования**easter\_days()\*\*\*\*
+**Приклад #1 Приклад використання** easter\_days()\*\*\*\*
 
 ```php
 <?php

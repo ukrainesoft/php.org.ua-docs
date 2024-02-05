@@ -45,7 +45,7 @@ tidy_get_config(tidy $tidy): array
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::getConfig()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::getConfig()\*\*\*\*
 
 ```php
 <?php

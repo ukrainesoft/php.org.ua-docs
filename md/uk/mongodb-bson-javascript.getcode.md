@@ -33,7 +33,7 @@ final public MongoDB\BSON\Javascript::getCode(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Javascript::getCode()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Javascript::getCode()\*\*\*\*
 
 ```php
 <?php

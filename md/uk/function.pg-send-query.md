@@ -49,7 +49,7 @@ pg_send_query(PgSql\Connection $connection, string $query): int|bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_send\_query()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_send\_query()\*\*\*\*
 
 ```php
 <?php

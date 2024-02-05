@@ -33,7 +33,7 @@ sqlsrv_rollback(resource $conn): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_rollback()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_rollback()\*\*\*\*
 
 У наступному прикладі показано, як використовувати [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md)вместе с[sqlsrv\_commit()](function.sqlsrv-commit.md)или**sqlsrv\_rollback()**
 

@@ -41,7 +41,7 @@ public Ds\Set::allocate(int $capacity): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Set::allocate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Set::allocate()\*\*\*\*
 
 ```php
 <?php

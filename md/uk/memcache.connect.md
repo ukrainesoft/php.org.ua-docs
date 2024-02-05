@@ -43,7 +43,7 @@ Memcache::connect(string $host, int $port = ?, int $timeout = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::connect()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::connect()\*\*\*\*
 
 ```php
 <?php

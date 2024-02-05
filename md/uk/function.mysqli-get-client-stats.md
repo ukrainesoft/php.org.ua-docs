@@ -33,7 +33,7 @@ mysqli_get_client_stats(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_get\_client\_stats()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_get\_client\_stats()\*\*\*\*
 
 ```php
 <?php

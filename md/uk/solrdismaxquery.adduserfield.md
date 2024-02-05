@@ -33,7 +33,7 @@ public SolrDisMaxQuery::addUserField(string $field): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::addUserField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::addUserField()\*\*\*\*
 
 ```php
 <?php

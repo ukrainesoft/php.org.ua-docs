@@ -29,7 +29,7 @@ phpdbg_color(int $element, string $color): void
 
 `color`
 
-Имя цвета. Одно из:`white` `red` `green` `yellow` `blue` `purple` `cyan`или`black`. Опціонально можна використовувати суфікси `-bold`или`-underline`К примеру`white-bold`или`green-underline`
+Имя цвета. Одно из:`white` `red` `green` `yellow` `blue` `purple` `cyan`или`black`. Опціонально можна використовувати суфікси `-bold`или`-underline`К Прикладу`white-bold`или`green-underline`
 
 ### Значення, що повертаються
 

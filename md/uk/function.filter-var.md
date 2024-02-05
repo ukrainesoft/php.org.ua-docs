@@ -79,7 +79,7 @@ $var = filter_var('Doe, Jane Sue', FILTER_CALLBACK, array('options' => 'foo'));
 
 ### Приклади
 
-**Пример #1 Пример использования**filter\_var()\*\*\*\*
+**Приклад #1 Приклад використання** filter\_var()\*\*\*\*
 
 ```php
 <?php

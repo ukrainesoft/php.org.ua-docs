@@ -51,7 +51,7 @@ date_timezone_set(DateTime $object, DateTimeZone $timezone): DateTime
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTime::setTimeZone()\*\*\*\*
+**Приклад #1 Приклад використання** DateTime::setTimeZone()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

@@ -41,7 +41,7 @@ public RarEntry::getPackedSize(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**RarEntry::getPackedSize()\*\*\*\*
+**Приклад #1 Приклад використання** RarEntry::getPackedSize()\*\*\*\*
 
 ```php
 <?php

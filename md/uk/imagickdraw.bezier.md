@@ -37,7 +37,7 @@ public ImagickDraw::bezier(array $coordinates): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::bezier()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::bezier()\*\*\*\*
 
 ```php
 <?php

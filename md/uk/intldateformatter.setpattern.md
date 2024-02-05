@@ -47,7 +47,7 @@ datefmt_set_pattern(IntlDateFormatter $formatter, string $pattern): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_set\_pattern()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_set\_pattern()\*\*\*\*
 
 ```php
 <?php

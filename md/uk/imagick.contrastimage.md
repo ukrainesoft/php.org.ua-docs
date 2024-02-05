@@ -37,7 +37,7 @@ public Imagick::contrastImage(bool $sharpen): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::contrastImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::contrastImage()\*\*\*\*
 
 ```php
 <?php

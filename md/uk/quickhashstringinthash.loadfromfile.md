@@ -83,7 +83,7 @@ bucket lists:
 
 ### Приклади
 
-**Пример #3 Пример использования**QuickHashStringIntHash::loadFromFile()\*\*\*\*
+**Приклад #3 Приклад використання** QuickHashStringIntHash::loadFromFile()\*\*\*\*
 
 ```php
 <?php

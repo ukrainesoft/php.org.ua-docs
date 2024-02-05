@@ -82,7 +82,7 @@ imagefilter(GdImage $image, int $filter, array|int|float|bool ...$args): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagefilter()\*\* із фільтром grayscale\*\*
+**Приклад #1 Приклад використання** imagefilter()\*\* із фільтром grayscale\*\*
 
 ```php
 <?php
@@ -103,7 +103,7 @@ imagedestroy($im);
 ?>
 ```
 
-**Пример #2 Пример использования**imagefilter()\*\* з фільтром яскравості\*\*
+**Приклад #2 Приклад використання** imagefilter()\*\* з фільтром яскравості\*\*
 
 ```php
 <?php
@@ -123,7 +123,7 @@ else
 ?>
 ```
 
-**Пример #3 Пример использования**imagefilter()**с фильтром colorize**
+**Приклад #3 Приклад використання** imagefilter()**с фильтром colorize**
 
 ```php
 <?php
@@ -144,7 +144,7 @@ else
 ?>
 ```
 
-**Пример #4 Пример использования**imagefilter()**с фильтром negate**
+**Приклад #4 Приклад використання** imagefilter()**с фильтром negate**
 
 ```php
 <?php
@@ -188,7 +188,7 @@ else
 ?>
 ```
 
-**Пример #5 Пример использования**imagefilter()**с фильтром pixelate**
+**Приклад #5 Приклад використання** imagefilter()**с фильтром pixelate**
 
 ```php
 <?php
@@ -221,7 +221,7 @@ imagedestroy($output);
 
 ![Висновок прикладу: imagefilter() pixelate](images/21009b70229598c6a80eef8b45bf282b-imagefilterpixelate.png)
 
-**Пример #6 Пример использования**imagefilter()**с фильтром scatter**
+**Приклад #6 Приклад використання** imagefilter()**с фильтром scatter**
 
 ```php
 <?php

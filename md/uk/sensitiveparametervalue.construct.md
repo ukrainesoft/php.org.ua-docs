@@ -15,7 +15,7 @@ SensitiveParameterValue::\_\_construct — Створює новий об'єкт
 
 ### Опис
 
-public**SensitiveParameterValue::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$value`) .
+public **SensitiveParameterValue::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$value`) .
 
 **Увага**
 

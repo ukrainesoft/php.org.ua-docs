@@ -59,7 +59,7 @@ callback(string $class): void
 
 ### Приклади
 
-**Пример #1**spl\_autoload\_register()\*\* як альтернатива функції [\_\_autoload()](function.autoload.md)\*\*
+**Приклад #1**spl\_autoload\_register()\*\* як альтернатива функції [\_\_autoload()](function.autoload.md)\*\*
 
 ```php
 <?php
@@ -82,7 +82,7 @@ spl_autoload_register(function ($class) {
 ?>
 ```
 
-**Пример #2 Пример использования**spl\_autoload\_register()\*\* у випадку, якщо клас не завантажився\*\*
+**Приклад #2 Приклад використання** spl\_autoload\_register()\*\* у випадку, якщо клас не завантажився\*\*
 
 ```php
 <?php

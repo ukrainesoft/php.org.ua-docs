@@ -33,7 +33,7 @@ final public MongoDB\BSON\UTCDateTime::toDateTime(): DateTime
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\UTCDatetime::toDateTime()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\UTCDatetime::toDateTime()\*\*\*\*
 
 ```php
 <?php

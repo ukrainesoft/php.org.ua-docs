@@ -41,7 +41,7 @@ mdecrypt_generic(resource $td, string $data): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mdecrypt\_generic()\*\*\*\*
+**Приклад #1 Приклад використання** mdecrypt\_generic()\*\*\*\*
 
 ```php
 <?php
@@ -81,7 +81,7 @@ mdecrypt_generic(resource $td, string $data): string
 
 Приклад вище показує, як перевірити, що дані до шифрування збігаються з даними після дешифрування. Вкрай важливо переініціалізувати буфери шифрування за допомогою [mcrypt\_generic\_init()](function.mcrypt-generic-init.md) перед дешифруванням даних.
 
-Обробник дешифрування завжди має ініціалізуватися за допомогою [mcrypt\_generic\_init()](function.mcrypt-generic-init.md) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.md)Смотрите пример в описании функции[mcrypt\_module\_open()](function.mcrypt-module-open.md)
+Обробник дешифрування завжди має ініціалізуватися за допомогою [mcrypt\_generic\_init()](function.mcrypt-generic-init.md) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.md)Смотрите Приклад в описании функции[mcrypt\_module\_open()](function.mcrypt-module-open.md)
 
 ### Дивіться також
 

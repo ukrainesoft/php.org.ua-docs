@@ -43,7 +43,7 @@ numfmt_get_error_message(NumberFormatter $formatter): string
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_get\_error\_message()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_get\_error\_message()\*\*\*\*
 
 ```php
 <?php

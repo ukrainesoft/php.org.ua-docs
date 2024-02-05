@@ -49,7 +49,7 @@ count_chars(string $string, int $mode = 0): array|string
 
 ### Приклади
 
-**Пример #1 Пример использования**count\_chars()\*\*\*\*
+**Приклад #1 Приклад використання** count\_chars()\*\*\*\*
 
 ```php
 <?php

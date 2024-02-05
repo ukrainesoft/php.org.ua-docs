@@ -44,7 +44,7 @@ curl_multi_add_handle(CurlMultiHandle $multi_handle, CurlHandle $handle): int
 
 ### Приклади
 
-**Пример #1 Пример использования**curl\_multi\_add\_handle()\*\*\*\*
+**Приклад #1 Приклад використання** curl\_multi\_add\_handle()\*\*\*\*
 
 Цей приклад створить два дескриптори cURL, додасть в набір дескрипторів, а потім запустить їх асинхронно.
 

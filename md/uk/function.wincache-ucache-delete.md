@@ -35,7 +35,7 @@ wincache_ucache_delete(mixed $key): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ucache\_delete()**с`key` у вигляді рядка**
+**Приклад #1 Приклад використання** wincache\_ucache\_delete()**с`key` у вигляді рядка**
 
 ```php
 <?php
@@ -52,7 +52,7 @@ bool(true)
 bool(false)
 ```
 
-**Пример #2 Пример использования**wincache\_ucache\_delete()**с`key` у вигляді масиву**
+**Приклад #2 Приклад використання** wincache\_ucache\_delete()**с`key` у вигляді масиву**
 
 ```php
 <?php
@@ -72,7 +72,7 @@ array(4) { [0]=> string(5) "green"
            [3]=> string(4) "cyan" }
 ```
 
-**Пример #3 Пример использования**wincache\_ucache\_delete()**с`key` у вигляді масиву, з якого не можна видалити деякі елементи**
+**Приклад #3 Приклад використання** wincache\_ucache\_delete()**с`key` у вигляді масиву, з якого не можна видалити деякі елементи**
 
 ```php
 <?php

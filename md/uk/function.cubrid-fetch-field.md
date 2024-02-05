@@ -91,7 +91,7 @@ cubrid_fetch_field(resource $result, int $field_offset = 0): object
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_fetch\_field()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_fetch\_field()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ ReflectionClassConstant::\_\_construct — Створює об'єкт Reflection
 
 ### Опис
 
-public**ReflectionClassConstant::\_\_construct**(object|string`$class`, string`$constant`) .
+public **ReflectionClassConstant::\_\_construct**(object|string`$class`, string`$constant`) .
 
 Створює новий об'єкт [ReflectionClassConstant](class.reflectionclassconstant.md)
 

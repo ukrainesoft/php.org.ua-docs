@@ -47,7 +47,7 @@ stream_socket_recvfrom(    resource $socket,    int $length,    int 
 
 ### Приклади
 
-**Пример #1 Пример использования функции**stream\_socket\_recvfrom()\*\*\*\*
+**Приклад #1 Приклад использования функции**stream\_socket\_recvfrom()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcern::getJournal(): ?bool
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcern::getJournal()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteConcern::getJournal()\*\*\*\*
 
 ```php
 <?php

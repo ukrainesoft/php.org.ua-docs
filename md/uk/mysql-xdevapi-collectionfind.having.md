@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionFind::having(string $sort_expr): mysql_xdevapi\Co
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::having()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionFind::having()\*\*\*\*
 
 ```php
 <?php

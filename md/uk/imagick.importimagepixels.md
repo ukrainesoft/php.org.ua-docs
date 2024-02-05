@@ -61,7 +61,7 @@ public Imagick::importImagePixels(    int $x,    int $y,    int $wid
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::importImagePixels()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::importImagePixels()\*\*\*\*
 
 ```php
 <?php

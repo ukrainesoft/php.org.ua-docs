@@ -51,7 +51,7 @@ stream_copy_to_stream(    resource $from,    resource $to,    ?int $
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_copy\_to\_stream()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_copy\_to\_stream()\*\*\*\*
 
 ```php
 <?php

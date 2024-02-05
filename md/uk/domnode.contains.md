@@ -33,7 +33,7 @@ public DOMNode::contains(DOMNode|DOMNameSpaceNode|null $other): bool
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMNode::contains()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMNode::contains()\*\*\*\*
 
 ```php
 <?php

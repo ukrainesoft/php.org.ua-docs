@@ -45,7 +45,7 @@ public static SeasLog::debug(string $message, array $content = ?, string $logger
 
 ### Приклади
 
-**Пример #1**SeasLog::debug()**example**
+**Приклад #1**SeasLog::debug()**example**
 
 ```php
 <?php

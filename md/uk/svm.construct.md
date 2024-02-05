@@ -15,7 +15,7 @@ SVM::\_\_construct - Конструктор класу SVM
 
 ### Опис
 
-public**SVM::\_\_construct**()
+public **SVM::\_\_construct**()
 
 Створює новий об'єкт SVM, готовий до прийому навчальних даних.
 

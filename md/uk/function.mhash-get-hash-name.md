@@ -43,7 +43,7 @@ mhash_get_hash_name(int $algo): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mhash\_get\_hash\_name()\*\*\*\*
+**Приклад #1 Приклад використання** mhash\_get\_hash\_name()\*\*\*\*
 
 ```php
 <?php

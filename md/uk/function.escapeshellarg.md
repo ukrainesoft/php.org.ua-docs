@@ -35,7 +35,7 @@ escapeshellarg(string $arg): string
 
 ### Приклади
 
-**Пример #1 Пример использования**escapeshellarg()\*\*\*\*
+**Приклад #1 Приклад використання** escapeshellarg()\*\*\*\*
 
 ```php
 <?php

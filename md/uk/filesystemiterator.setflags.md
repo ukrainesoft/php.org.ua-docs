@@ -33,7 +33,7 @@ public FilesystemIterator::setFlags(int $flags): void
 
 ### Приклади
 
-**Пример #1 Пример использования[FilesystemIterator::key()](filesystemiterator.key.md)**
+**Приклад #1 Приклад использования[FilesystemIterator::key()](filesystemiterator.key.md)**
 
 Приклад демонструє різницю між прапорами [FilesystemIterator::KEY\_AS\_PATHNAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEY\_AS\_FILENAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-filename)
 

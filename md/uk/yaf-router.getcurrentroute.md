@@ -76,7 +76,7 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
 ?>
 ```
 
-**Пример #2 Плагин Dummy.php (в[application.directory](yaf.appconfig.md#configuration.yaf.directory)/plugins)**
+**Приклад #2 Плагин Dummy.php (в[application.directory](yaf.appconfig.md#configuration.yaf.directory)/plugins)**
 
 ```php
 <?php

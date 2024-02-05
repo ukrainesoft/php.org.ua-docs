@@ -23,7 +23,7 @@ abstract public MongoDB\BSON\Persistable::bsonSerialize(): array|stdClass|MongoD
 
 Значення, що повертається, завжди буде серіалізоване у вигляді BSON-документа. Серіалізований документ включатиме поле, що містить ім'я класу об'єкта. Тому в даному методі неможливо повернути екземпляр класу [MongoDB\\BSON\\PackedArray](class.mongodb-bson-packedarray.md)
 
-Користувачам рекомендується включати властивість \_id (например,[MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md), ініціалізоване у вашому конструкторі) при поверненні даних для кореневого документа BSON; інакше драйверу або базі даних доведеться генерувати [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md) при додаванні чи оновленні документа, відповідно.
+Користувачам рекомендується включати властивість \_id (наПриклад,[MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md), ініціалізоване у вашому конструкторі) при поверненні даних для кореневого документа BSON; інакше драйверу або базі даних доведеться генерувати [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md) при додаванні чи оновленні документа, відповідно.
 
 ### Список параметрів
 

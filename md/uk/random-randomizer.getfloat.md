@@ -139,7 +139,7 @@ public Random\Randomizer::getFloat(float $min, float $max, Random\IntervalBounda
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Random\\Randomizer::getFloat()\*\*\*\*
+**Приклад #1 Приклад использования метода**Random\\Randomizer::getFloat()\*\*\*\*
 
 ```php
 <?php

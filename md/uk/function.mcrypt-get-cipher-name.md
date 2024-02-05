@@ -43,7 +43,7 @@ mcrypt_get_cipher_name(string $cipher): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_get\_cipher\_name()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_get\_cipher\_name()\*\*\*\*
 
 ```php
 <?php

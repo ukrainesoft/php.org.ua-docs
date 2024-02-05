@@ -39,7 +39,7 @@ public ReflectionFunction::invokeArgs(array $args): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionFunction::invokeArgs()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionFunction::invokeArgs()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +60,7 @@ echo $function->invokeArgs(array('Dr', 'Phil'));
 Dr. Phil
 ```
 
-**Пример #2 Пример использования**ReflectionFunction::invokeArgs()\*\* з посиланнями на аргументи\*\*
+**Приклад #2 Приклад використання** ReflectionFunction::invokeArgs()\*\* з посиланнями на аргументи\*\*
 
 ```php
 <?php

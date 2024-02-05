@@ -55,7 +55,7 @@ openssl_cms_verify(    string $input_filename,    int $flags = 0,   �
 
 `encoding`
 
-Кодування вхідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`**или**`OPENSSL_ENCODING_PEM`**
+Кодування вхідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`** або **`OPENSSL_ENCODING_PEM`**
 
 ### Значення, що повертаються
 

@@ -37,7 +37,7 @@ public mysql_xdevapi\TableUpdate::orderby(mixed $orderby_expr, mixed ...$orderby
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::orderby()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableUpdate::orderby()\*\*\*\*
 
 ```php
 <?php

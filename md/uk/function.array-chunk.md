@@ -51,7 +51,7 @@ array_chunk(array $array, int $length, bool $preserve_keys = false): array
 
 ### Приклади
 
-**Пример #1 Пример использования функции**array\_chunk()\*\*\*\*
+**Приклад #1 Приклад использования функции**array\_chunk()\*\*\*\*
 
 ```php
 <?php

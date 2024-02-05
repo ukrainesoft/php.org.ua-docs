@@ -19,7 +19,7 @@ Gmagick::setsize — Встановлює розмір об'єкта Gmagick
 public Gmagick::setsize(int $columns, int $rows): Gmagick
 ```
 
-Встановлює розмір об'єкта Gmagick. Встановіть його, перш ніж читати сирий формат зображення, такий як **`Gmagick::COLORSPACE_RGB`** **`Gmagick::COLORSPACE_GRAY`**или**`Gmagick::COLORSPACE_CMYK`**
+Встановлює розмір об'єкта Gmagick. Встановіть його, перш ніж читати сирий формат зображення, такий як **`Gmagick::COLORSPACE_RGB`** **`Gmagick::COLORSPACE_GRAY`** або **`Gmagick::COLORSPACE_CMYK`**
 
 ### Список параметрів
 

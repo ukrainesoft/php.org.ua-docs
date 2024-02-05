@@ -67,7 +67,7 @@ $foo =& find_var($bar);
 
 ```php
 <?php
-$var1 = "Пример переменной";
+$var1 = "Приклад переменной";
 $var2 = "";
 
 function global_references($use_globals)
@@ -83,7 +83,7 @@ function global_references($use_globals)
 global_references(false);
 echo "значение var2: '$var2'\n"; // значение var2: ''
 global_references(true);
-echo "значение var2: '$var2'\n"; // значение var2: 'Пример переменной'
+echo "значение var2: '$var2'\n"; // значение var2: 'Приклад переменной'
 ?>
 ```
 

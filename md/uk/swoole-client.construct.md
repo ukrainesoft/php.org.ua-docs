@@ -15,7 +15,7 @@ Swoole\\Client::\_\_construct — Створює синхронний або а�
 
 ### Опис
 
-public**Swoole\\Client::\_\_construct**(int`$sock_type`, int`$is_async`
+public **Swoole\\Client::\_\_construct**(int`$sock_type`, int`$is_async`
 
 ### Список параметрів
 

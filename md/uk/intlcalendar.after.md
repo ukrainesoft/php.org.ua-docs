@@ -47,7 +47,7 @@ intlcal_after(IntlCalendar $calendar, IntlCalendar $other): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::after()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::after()\*\*\*\*
 
 ```php
 <?php

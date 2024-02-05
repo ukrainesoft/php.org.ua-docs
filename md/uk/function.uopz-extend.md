@@ -41,7 +41,7 @@ uopz_extend(string $class, string $parent): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_extend()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_extend()\*\*\*\*
 
 ```php
 <?php

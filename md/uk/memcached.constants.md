@@ -19,7 +19,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 **`Memcached::OPT_SERIALIZER`**
 
-Задає серіалізатор для серіалізації не скалярних значень. Коректними значеннями є **`Memcached::SERIALIZER_PHP`**и**`Memcached::SERIALIZER_IGBINARY`**. Останній припустимо, тільки якщо memcached зібраний з опцією `--enable-memcached-igbinary`и загружен модуль`igbinary`
+Задає серіалізатор для серіалізації не скалярних значень. Коректними значеннями є **`Memcached::SERIALIZER_PHP`** і **`Memcached::SERIALIZER_IGBINARY`**. Останній припустимо, тільки якщо memcached зібраний з опцією `--enable-memcached-igbinary`и загружен модуль`igbinary`
 
 Тип: int, по умолчанию:**`Memcached::SERIALIZER_PHP`**
 

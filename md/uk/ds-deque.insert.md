@@ -45,7 +45,7 @@ public Ds\Deque::insert(int $index, mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::insert()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::insert()\*\*\*\*
 
 ```php
 <?php

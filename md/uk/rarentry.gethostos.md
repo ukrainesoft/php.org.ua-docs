@@ -31,7 +31,7 @@ public RarEntry::getHostOs(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**RarEntry::getHostOs()**(версії >= 2.0.0)**
+**Приклад #1 Приклад використання** RarEntry::getHostOs()**(версії >= 2.0.0)**
 
 ```php
 <?php
@@ -64,7 +64,7 @@ switch ($entry->getHostOs()) {
 ?>
 ```
 
-**Пример #2**Приклад використання RarEntry::getHostOs()**(версії <= 1.0.0)**
+**Приклад #2**Приклад використання RarEntry::getHostOs()**(версії <= 1.0.0)**
 
 ```php
 <?php

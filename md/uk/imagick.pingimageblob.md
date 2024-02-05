@@ -33,7 +33,7 @@ public Imagick::pingImageBlob(string $image): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::pingImageBlob()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::pingImageBlob()\*\*\*\*
 
 Отримання зображення з рядка
 

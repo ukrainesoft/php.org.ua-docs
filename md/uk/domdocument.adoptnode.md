@@ -39,7 +39,7 @@ public DOMDocument::adoptNode(DOMNode $node): DOMNode|false
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMDocument::adoptNode()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMDocument::adoptNode()\*\*\*\*
 
 Перенесення елемента hello з першого документа до другого.
 

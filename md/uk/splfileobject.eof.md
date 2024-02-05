@@ -31,7 +31,7 @@ public SplFileObject::eof(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::eof()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::eof()\*\*\*\*
 
 ```php
 <?php

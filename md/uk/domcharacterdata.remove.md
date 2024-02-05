@@ -31,7 +31,7 @@ public DOMCharacterData::remove(): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMCharacterData::remove()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMCharacterData::remove()\*\*\*\*
 
 Видалення символьних даних.
 

@@ -31,7 +31,7 @@ stomp_connect_error(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**stomp\_connect\_error()\*\*\*\*
+**Приклад #1 Приклад використання** stomp\_connect\_error()\*\*\*\*
 
 ```php
 <?php

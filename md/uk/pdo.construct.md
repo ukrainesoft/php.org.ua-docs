@@ -15,7 +15,7 @@ PDO::\_\_construct - Створює екземпляр PDO, що надає з'�
 
 ### Опис
 
-public**PDO::\_\_construct**  
+public **PDO::\_\_construct**  
 string`$dsn`,  
 ?string`$username` **`null`**,  
 ?string`$password` **`null`**,  

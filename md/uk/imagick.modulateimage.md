@@ -35,7 +35,7 @@ public Imagick::modulateImage(float $brightness, float $saturation, float $hue):
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::modulateImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::modulateImage()\*\*\*\*
 
 ```php
 <?php

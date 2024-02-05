@@ -49,7 +49,7 @@ opendir(string $directory, ?resource $context = null): resource|false
 
 ### Приклади
 
-**Пример #1 Пример использования функции**opendir()\*\*\*\*
+**Приклад #1 Приклад использования функции**opendir()\*\*\*\*
 
 ```php
 <?php

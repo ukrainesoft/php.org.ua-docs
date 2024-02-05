@@ -47,7 +47,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_size()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_size()\*\*\*\*
 
 ```php
 <?php

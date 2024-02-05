@@ -33,7 +33,7 @@ public DateTimeImmutable::add(DateInterval $interval): DateTimeImmutable
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::add()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::add()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

@@ -25,7 +25,7 @@ sodium_crypto_kx_secretkey(string $key_pair): string
 
 `key_pair`
 
-Пара ключей X25519, например, сгенерированная[sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.md)
+Пара ключей X25519, наПриклад, сгенерированная[sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.md)
 
 ### Значення, що повертаються
 

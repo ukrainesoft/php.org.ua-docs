@@ -45,7 +45,7 @@ imap_rfc822_write_address(string $mailbox, string $hostname, string $personal): 
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_rfc822\_write\_address()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_rfc822\_write\_address()\*\*\*\*
 
 ```php
 <?php

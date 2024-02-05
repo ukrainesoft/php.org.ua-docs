@@ -45,7 +45,7 @@ mb_strwidth(string $string, ?string $encoding = null): int
 
 ### Приклади
 
-**Пример #1 Пример использования функции**mb\_strwidth()\*\*\*\*
+**Приклад #1 Приклад использования функции**mb\_strwidth()\*\*\*\*
 
 ```php
 <?php

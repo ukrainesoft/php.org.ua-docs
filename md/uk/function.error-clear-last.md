@@ -29,7 +29,7 @@ error_clear_last(): void
 
 ### Приклади
 
-**Пример #1 Пример**error\_clear\_last()\*\*\*\*
+**Приклад #1 Приклад**error\_clear\_last()\*\*\*\*
 
 ```php
 <?php

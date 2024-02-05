@@ -19,7 +19,7 @@ Stomp::\_\_destruct -- stomp\_close - Закриває Stomp-з'єднання
 
 Об'єктно-орієнтований стиль (деструктор):
 
-public**Stomp::\_\_destruct**()
+public **Stomp::\_\_destruct**()
 
 Процедурний стиль:
 

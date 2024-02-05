@@ -31,7 +31,7 @@ public SplFileInfo::getRealPath(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getRealPath()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getRealPath()\*\*\*\*
 
 ```php
 <?php

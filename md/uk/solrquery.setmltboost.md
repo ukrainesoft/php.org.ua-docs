@@ -25,7 +25,7 @@ public SolrQuery::setMltBoost(bool $flag): SolrQuery
 
 `value`
 
-Установите\*\*`true`**или**`false`\*\*
+Установите\*\*`true`** або **`false`\*\*
 
 ### Значення, що повертаються
 

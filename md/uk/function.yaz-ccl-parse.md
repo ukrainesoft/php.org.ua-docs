@@ -59,7 +59,7 @@ yaz_ccl_parse(resource $id, string $query, array &$result): bool
 ```php
 <?php
 
-yaz_ccl_conf($id, $fields);  // смотрите пример для yaz_ccl_conf
+yaz_ccl_conf($id, $fields);  // смотрите Приклад для yaz_ccl_conf
 if (!yaz_ccl_parse($id, $ccl, &$cclresult)) {
     echo 'Ошибка: ' . $cclresult["errorstring"];
 } else {

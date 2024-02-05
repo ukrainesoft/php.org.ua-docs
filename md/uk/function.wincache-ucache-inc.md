@@ -41,7 +41,7 @@ wincache_ucache_inc(string $key, int $inc_by = 1, bool &$success = ?): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ucache\_inc()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_ucache\_inc()\*\*\*\*
 
 ```php
 <?php

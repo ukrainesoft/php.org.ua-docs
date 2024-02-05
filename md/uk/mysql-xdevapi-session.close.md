@@ -31,7 +31,7 @@ public mysql_xdevapi\Session::close(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::close()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::close()\*\*\*\*
 
 ```php
 <?php

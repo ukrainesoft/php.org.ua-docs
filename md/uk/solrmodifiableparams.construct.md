@@ -15,7 +15,7 @@ SolrModifiableParams::\_\_construct — Конструктор
 
 ### Опис
 
-public**SolrModifiableParams::\_\_construct**()
+public **SolrModifiableParams::\_\_construct**()
 
 Конструктор
 

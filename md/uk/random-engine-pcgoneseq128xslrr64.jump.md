@@ -37,7 +37,7 @@ public Random\Engine\PcgOneseq128XslRr64::jump(int $advance): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\PcgOneseq128XslRr64::jump()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\PcgOneseq128XslRr64::jump()\*\*\*\*
 
 ```php
 <?php

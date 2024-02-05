@@ -31,7 +31,7 @@ public ReflectionMethod::getModifiers(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionMethod::getModifiers()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionMethod::getModifiers()\*\*\*\*
 
 ```php
 <?php

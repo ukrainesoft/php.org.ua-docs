@@ -31,7 +31,7 @@ public SplFileInfo::isLink(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::isLink()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::isLink()\*\*\*\*
 
 ```php
 <?php

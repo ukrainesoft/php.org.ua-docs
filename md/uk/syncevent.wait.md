@@ -33,7 +33,7 @@ public SyncEvent::wait(int $wait = -1): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncEvent::wait()\*\*\*\*
+**Приклад #1 Приклад використання** SyncEvent::wait()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 ### Приклади
 
-**Пример #1 Пример использования**hash\_update\_stream()\*\*\*\*
+**Приклад #1 Приклад використання** hash\_update\_stream()\*\*\*\*
 
 ```php
 <?php

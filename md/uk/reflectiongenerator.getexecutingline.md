@@ -31,7 +31,7 @@ public ReflectionGenerator::getExecutingLine(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionGenerator::getExecutingLine()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionGenerator::getExecutingLine()\*\*\*\*
 
 ```php
 <?php

@@ -231,7 +231,7 @@ PHP-файл для кожного рядка введення.
 
 PHP-код, який виконується після обробки введення.
 
-**Пример #4 Использование опций**\-B\*\* **\-R**и**\-E** для підрахунку кількості рядків у проекті.\*\*
+**Приклад #4 Использование опций**\-B\*\* **\-R** і **\-E** для підрахунку кількості рядків у проекті.\*\*
 
 ```
 $ find my_proj | php -B '$l=0;' -R '$l += count(@file($argn));' -E 'echo "Всего строк: $l\n";'
@@ -254,7 +254,7 @@ $ find my_proj | php -B '$l=0;' -R '$l += count(@file($argn));' -E 'echo "Все
 
 \-v |--version |
 
-**Пример #5 Использование**\-v\*\* для отримання типу SAPI та версії PHP та Zend\*\*
+**Приклад #5 Использование**\-v\*\* для отримання типу SAPI та версії PHP та Zend\*\*
 
 ```
 $ php -v
@@ -279,7 +279,7 @@ Zend Engine v2.3.0, Copyright (c) 1998-2009 Zend Technologies
 
 Показує імена конфігураційних файлів та відскановані каталоги.
 
-**Пример #6 Пример`--ini`**
+**Приклад #6 Приклад`--ini`**
 
 $ php --ini Configuration File (php.ini) Path: /usr/dev/php/5.2/lib Loaded Configuration File: /usr/dev/php/5.2/lib/php.ini Scan for additional .ini files in: (none) Additional .ini files parsed: (none)
 
@@ -289,7 +289,7 @@ $ php --ini Configuration File (php.ini) Path: /usr/dev/php/5.2/lib Loaded Confi
 
 Ця опція доступна лише в тому випадку, якщо PHP був скомпільований з підтримкою [Reflection](book.reflection.md)
 
-**Пример #7 Базовое использование`--rf`**
+**Приклад #7 Базовое использование`--rf`**
 
 $ php --rf var\_dump Function\[ public function var\_dump\]
 
@@ -301,7 +301,7 @@ $ php --rf var\_dump Function\[ public function var\_dump\]
 
 Ця опція доступна лише в тому випадку, якщо PHP був скомпільований з підтримкою [Reflection](book.reflection.md)
 
-**Пример #8 Пример`--rc`**
+**Приклад #8 Приклад`--rc`**
 
 $ php --rc Directory Class\[ [internal:standard](internal:standard)class Directory\]
 
@@ -326,7 +326,7 @@ $ php --rc Directory Class\[ [internal:standard](internal:standard)class Directo
 
 Ця опція доступна лише в тому випадку, якщо PHP був скомпільований з підтримкою [Reflection](book.reflection.md)
 
-**Пример #9 Пример`--re`**
+**Приклад #9 Приклад`--re`**
 
 $ php --re json Extension\[ extension #19 json version 1.2.1\]
 
@@ -340,7 +340,7 @@ $ php --re json Extension\[ extension #19 json version 1.2.1\]
 
 Показує інформацію про конфігурацію зазначеного модуля (та сама інформація, яка повертається [phpinfo()](function.phpinfo.md)). Конфігурацію ядра можна дізнатися, вказавши як ім'я модуля значення "main".
 
-**Пример #10 Пример`--ri`**
+**Приклад #10 Приклад`--ri`**
 
 $ php --ri date
 

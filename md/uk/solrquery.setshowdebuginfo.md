@@ -25,7 +25,7 @@ public SolrQuery::setShowDebugInfo(bool $flag): SolrQuery
 
 `flag`
 
-Чи показувати налагоджувальну інформацію . **`true`**или**`false`**
+Чи показувати налагоджувальну інформацію . **`true`** або **`false`**
 
 ### Значення, що повертаються
 

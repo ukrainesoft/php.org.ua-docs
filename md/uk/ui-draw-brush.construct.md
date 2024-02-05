@@ -15,9 +15,9 @@ UI\\Draw\\Brush::\_\_construct — Створити новий об'єкт Brush
 
 ### Опис
 
-public**UI\\Draw\\Brush::\_\_construct** [UI\\Draw\\Color](class.ui-draw-color.md) `$color`) .
+public **UI\\Draw\\Brush::\_\_construct** [UI\\Draw\\Color](class.ui-draw-color.md) `$color`) .
 
-public**UI\\Draw\\Brush::\_\_construct**(int`$color`) .
+public **UI\\Draw\\Brush::\_\_construct**(int`$color`) .
 
 Створить суцільний пензель, використовуючи заданий колір
 

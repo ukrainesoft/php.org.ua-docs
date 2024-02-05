@@ -37,7 +37,7 @@ mcrypt_list_modes(string $lib_dir = ini_get("mcrypt.modes_dir")): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_list\_modes()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_list\_modes()\*\*\*\*
 
 ```php
 <?php

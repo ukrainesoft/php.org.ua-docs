@@ -75,7 +75,7 @@ key/value 2 (key = 3, string index = 4 ("NINE")):
 
 ### Приклади
 
-**Пример #3 Пример использования**QuickHashIntStringHash::loadFromFile()\*\*\*\*
+**Приклад #3 Приклад використання** QuickHashIntStringHash::loadFromFile()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ apache_setenv(string $variable, string $value, bool $walk_to_top = false): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**apache\_setenv()**для установки переменной окружения Apache.**
+**Приклад #1 Приклад використання** apache\_setenv()**для установки переменной окружения Apache.**
 
 ```php
 <?php

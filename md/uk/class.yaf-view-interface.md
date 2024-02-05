@@ -13,7 +13,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ## Вступ
 
-Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [Yaf\_View\_Simple](class.yaf-view-simple.md)Пример реализации смотрите в описании[Yaf\_Dispatcher::setView()](yaf-dispatcher.setview.md)
+Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [Yaf\_View\_Simple](class.yaf-view-simple.md)Приклад реализации смотрите в описании[Yaf\_Dispatcher::setView()](yaf-dispatcher.setview.md)
 
 ## Огляд класів
 

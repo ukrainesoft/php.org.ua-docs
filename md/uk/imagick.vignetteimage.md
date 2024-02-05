@@ -45,7 +45,7 @@ public Imagick::vignetteImage(    float $blackPoint,    float $whitePoin
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::vignetteImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::vignetteImage()\*\*\*\*
 
 ```php
 <?php

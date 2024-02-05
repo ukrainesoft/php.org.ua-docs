@@ -33,7 +33,7 @@ stream_context_get_params(resource $context): array
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_context\_get\_params()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_context\_get\_params()\*\*\*\*
 
 Приклад простого використання
 

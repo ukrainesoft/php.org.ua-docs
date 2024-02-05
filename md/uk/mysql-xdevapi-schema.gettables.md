@@ -33,7 +33,7 @@ public mysql_xdevapi\Schema::getTables(): array
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getTables()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Schema::getTables()\*\*\*\*
 
 ```php
 <?php

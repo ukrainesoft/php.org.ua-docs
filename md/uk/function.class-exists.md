@@ -37,7 +37,7 @@ class_exists(string $class, bool $autoload = true): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**class\_exists()\*\*\*\*
+**Приклад #1 Приклад використання** class\_exists()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +49,7 @@ if (class_exists('MyClass')) {
 ?>
 ```
 
-**Пример #2 Пример использования c параметром`autoload`**
+**Приклад #2 Приклад использования c параметром`autoload`**
 
 ```php
 <?php

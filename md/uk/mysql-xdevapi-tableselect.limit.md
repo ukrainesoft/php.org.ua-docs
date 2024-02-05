@@ -33,7 +33,7 @@ public mysql_xdevapi\TableSelect::limit(int $rows): mysql_xdevapi\TableSelect
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::limit()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableSelect::limit()\*\*\*\*
 
 ```php
 <?php

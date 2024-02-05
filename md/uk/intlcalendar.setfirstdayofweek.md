@@ -27,7 +27,7 @@ public IntlCalendar::setFirstDayOfWeek(int $dayOfWeek): true
 intlcal_set_first_day_of_week(IntlCalendar $calendar, int $dayOfWeek): true
 ```
 
-Визначає день тижня, що вважається початком тижня. Це впливає на поведінку полів, які залежать від концепції початку та кінця тижня, наприклад: **`IntlCalendar::FIELD_WEEK_OF_YEAR`**и**`IntlCalendar::FIELD_YEAR_WOY`**
+Визначає день тижня, що вважається початком тижня. Це впливає на поведінку полів, які залежать від концепції початку та кінця тижня, наприклад: **`IntlCalendar::FIELD_WEEK_OF_YEAR`** і **`IntlCalendar::FIELD_YEAR_WOY`**
 
 ### Список параметрів
 
@@ -51,7 +51,7 @@ intlcal_set_first_day_of_week(IntlCalendar $calendar, int $dayOfWeek): true
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::setFirstDayOfWeek()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::setFirstDayOfWeek()\*\*\*\*
 
 ```php
 <?php

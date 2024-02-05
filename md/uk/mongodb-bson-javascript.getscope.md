@@ -33,7 +33,7 @@ final public MongoDB\BSON\Javascript::getScope(): ?object
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Javascript::getScope()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Javascript::getScope()\*\*\*\*
 
 ```php
 <?php

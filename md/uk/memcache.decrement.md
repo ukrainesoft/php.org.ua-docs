@@ -47,7 +47,7 @@ Memcache::decrement(string $key, int $value = 1): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::decrement()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::decrement()\*\*\*\*
 
 ```php
 <?php

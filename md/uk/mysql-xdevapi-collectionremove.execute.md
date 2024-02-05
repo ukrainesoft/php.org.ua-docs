@@ -35,7 +35,7 @@ public mysql_xdevapi\CollectionRemove::execute(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionRemove::execute()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionRemove::execute()\*\*\*\*
 
 ```php
 <?php

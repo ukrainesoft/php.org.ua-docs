@@ -37,7 +37,7 @@ public ReflectionClass::getMethod(string $name): ReflectionMethod
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getMethod()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getMethod()\*\*\*\*
 
 ```php
 <?php

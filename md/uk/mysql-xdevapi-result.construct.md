@@ -15,7 +15,7 @@ Result::\_\_construct - Конструктор класу Result
 
 ### Опис
 
-private**mysql\_xdevapi\\Result::\_\_construct**()
+private **mysql\_xdevapi\\Result::\_\_construct**()
 
 Об'єкт, який витягує згенеровані ідентифікатори, значення AUTO\_INCREMENT та попередження для набору Result.
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\Result::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Result::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Result::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public static SeasLog::flushBuffer(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::flushBuffer()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::flushBuffer()\*\*\*\*
 
 ```php
 <?php

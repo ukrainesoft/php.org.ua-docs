@@ -40,7 +40,7 @@ iconv_get_encoding(string $type = "all"): array|string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**iconv\_get\_encoding()\*\*\*\*
+**Приклад #1 Приклад використання** iconv\_get\_encoding()\*\*\*\*
 
 ```php
 <pre>

@@ -54,7 +54,7 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 ### Приклади
 
-**Пример #1 Пример использования**stristr()\*\*\*\*
+**Приклад #1 Приклад використання** stristr()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickPixel::setColorValue(int $color, float $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setColorValue()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setColorValue()\*\*\*\*
 
 ```php
 <?php

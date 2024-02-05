@@ -29,7 +29,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Значення, що повертаються
 
-Повертає **`FTP_FAILED`** **`FTP_FINISHED`**или**`FTP_MOREDATA`**
+Повертає **`FTP_FAILED`** **`FTP_FINISHED`** або **`FTP_MOREDATA`**
 
 ### список змін
 
@@ -39,7 +39,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_nb\_continue()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_nb\_continue()\*\*\*\*
 
 ```php
 <?php

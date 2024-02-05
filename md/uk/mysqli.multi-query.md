@@ -67,7 +67,7 @@ mysqli_multi_query(mysqli $mysql, string $query): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::multi\_query()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::multi\_query()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

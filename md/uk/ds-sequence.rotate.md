@@ -33,7 +33,7 @@ abstract public Ds\Sequence::rotate(int $rotations): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::rotate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::rotate()\*\*\*\*
 
 ```php
 <?php

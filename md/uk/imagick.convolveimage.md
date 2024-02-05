@@ -41,7 +41,7 @@ public Imagick::convolveImage(array $kernel, int $channel = Imagick::CHANNEL_DEF
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::convolveImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::convolveImage()\*\*\*\*
 
 ```php
 <?php

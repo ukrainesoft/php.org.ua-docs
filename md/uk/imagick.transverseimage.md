@@ -31,7 +31,7 @@ public Imagick::transverseImage(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::transverseImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::transverseImage()\*\*\*\*
 
 ```php
 <?php

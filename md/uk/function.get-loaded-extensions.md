@@ -33,7 +33,7 @@ get_loaded_extensions(bool $zend_extensions = false): array
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_loaded\_extensions()\*\*\*\*
+**Приклад #1 Приклад використання** get\_loaded\_extensions()\*\*\*\*
 
 ```php
 <?php

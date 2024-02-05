@@ -39,7 +39,7 @@ public SplFileObject::ftruncate(int $size): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::ftruncate()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::ftruncate()\*\*\*\*
 
 ```php
 <?php

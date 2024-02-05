@@ -53,7 +53,7 @@ locale_filter_matches(string $langtag, string $locale, bool $canonicalize = fals
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_filter\_matches()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_filter\_matches()\*\*\*\*
 
 ```php
 <?php

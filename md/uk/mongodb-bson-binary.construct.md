@@ -33,7 +33,7 @@ final public MongoDB\BSON\Binary::__construct(string $data, int $type = MongoDB\
 
 -   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 -   Видає[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `type` не є 8-розрядним цілим числом.
--   Видає[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `type`является\*\*`MongoDB\BSON\Binary::TYPE_UUID`**или**`MongoDB\BSON\Binary::TYPE_OLD_UUID`\*\*, а длина`data`не равна 16 байтам.
+-   Видає[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `type`является\*\*`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`\*\*, а длина`data`не равна 16 байтам.
 
 ### список змін
 
@@ -44,7 +44,7 @@ final public MongoDB\BSON\Binary::__construct(string $data, int $type = MongoDB\
 
 | | PECL mongodb 1.3.0 |
 
-[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо `type`является\*\*`MongoDB\BSON\Binary::TYPE_UUID`**или**`MongoDB\BSON\Binary::TYPE_OLD_UUID`\*\*, а длина`data`не равна 16 байтам.
+[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо `type`является\*\*`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`\*\*, а длина`data`не равна 16 байтам.
 
 | | PECL mongodb 1.1.3 |
 
@@ -52,7 +52,7 @@ final public MongoDB\BSON\Binary::__construct(string $data, int $type = MongoDB\
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Binary::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Binary::\_\_construct()\*\*\*\*
 
 ```php
 <?php

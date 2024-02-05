@@ -142,7 +142,7 @@ mbstring.detect_order         = ASCII,JIS,UTF-8,SJIS,EUC-JP ; Указать п�
 ;; Установить символ замены по умолчанию
 mbstring.substitute_character = 12307   ; Указать значение Unicode
 mbstring.substitute_character = none    ; Не печатать символ
-mbstring.substitute_character = long    ; Примеры кодовых значений символов: U+3000,JIS+7E7E
+mbstring.substitute_character = long    ; Приклады кодовых значений символов: U+3000,JIS+7E7E
 ```
 
 **Приклад #2 Налаштування php.ini для користувачів `EUC-JP`**

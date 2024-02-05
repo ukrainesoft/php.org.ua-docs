@@ -31,7 +31,7 @@ public Imagick::setSamplingFactors(array $factors): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setSamplingFactors()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setSamplingFactors()\*\*\*\*
 
 ```php
 <?php

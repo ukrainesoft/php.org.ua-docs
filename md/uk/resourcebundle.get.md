@@ -51,7 +51,7 @@ resourcebundle_get(ResourceBundle $bundle, string|int $index, bool $fallback = t
 
 ### Приклади
 
-**Пример #1 Пример использования**resourcebundle\_get()\*\*\*\*
+**Приклад #1 Приклад використання** resourcebundle\_get()\*\*\*\*
 
 ```php
 <?php

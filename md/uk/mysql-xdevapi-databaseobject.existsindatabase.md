@@ -31,7 +31,7 @@ abstract public mysql_xdevapi\DatabaseObject::existsInDatabase(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\DatabaseObject::existsInDatabase()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\DatabaseObject::existsInDatabase()\*\*\*\*
 
 ```php
 <?php

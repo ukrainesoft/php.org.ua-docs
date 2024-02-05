@@ -35,7 +35,7 @@ public Imagick::flopImage(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::flopImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::flopImage()\*\*\*\*
 
 ```php
 <?php

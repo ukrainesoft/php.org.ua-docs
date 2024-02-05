@@ -15,7 +15,7 @@ Yaf\_Request\_Simple::\_\_construct - Конструктор класу Yaf\_Req
 
 ### Опис
 
-public**Yaf\_Request\_Simple::\_\_construct**  
+public **Yaf\_Request\_Simple::\_\_construct**  
 string`$method`  
 string`$module`  
 string`$controller`  

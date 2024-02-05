@@ -35,7 +35,7 @@ public Random\Engine\Xoshiro256StarStar::jumpLong(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Xoshiro256StarStar::jumpLong()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Xoshiro256StarStar::jumpLong()\*\*\*\*
 
 ```php
 <?php

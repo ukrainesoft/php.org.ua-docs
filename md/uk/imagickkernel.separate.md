@@ -29,7 +29,7 @@ public ImagickKernel::separate(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickKernel::separate()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickKernel::separate()\*\*\*\*
 
 ```php
 <?php

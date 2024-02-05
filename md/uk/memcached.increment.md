@@ -45,7 +45,7 @@ public Memcached::increment(    string $key,    int $offset = 1,    
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::increment()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::increment()\*\*\*\*
 
 ```php
 <?php

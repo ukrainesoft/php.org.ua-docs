@@ -39,7 +39,7 @@ gmp_legendre(GMP|int|string $num1, GMP|int|string $num2): int
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_legendre()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_legendre()\*\*\*\*
 
 ```php
 <?php

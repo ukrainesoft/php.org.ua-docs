@@ -27,7 +27,7 @@ public Yaf_Application::getLastErrorNo(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Application::getLastErrorNo()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Application::getLastErrorNo()\*\*\*\*
 
 ```php
 <?php

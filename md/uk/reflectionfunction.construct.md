@@ -15,7 +15,7 @@ ReflectionFunction::\_\_construct - Конструктор класу Reflection
 
 ### Опис
 
-public**ReflectionFunction::\_\_construct** [Closure](class.closure.md)|string`$function`) .
+public **ReflectionFunction::\_\_construct** [Closure](class.closure.md)|string`$function`) .
 
 Створює об'єкт класу [ReflectionFunction](class.reflectionfunction.md)
 
@@ -31,7 +31,7 @@ public**ReflectionFunction::\_\_construct** [Closure](class.closure.md)|string`$
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionFunction::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionFunction::\_\_construct()\*\*\*\*
 
 ```php
 <?php

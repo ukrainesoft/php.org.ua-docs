@@ -37,7 +37,7 @@ runkit7_method_remove(string $class_name, string $method_name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**runkit7\_method\_remove()\*\*\*\*
+**Приклад #1 Приклад використання** runkit7\_method\_remove()\*\*\*\*
 
 ```php
 <?php

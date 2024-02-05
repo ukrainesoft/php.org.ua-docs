@@ -45,7 +45,7 @@ pspell_config_personal(PSpell\Config $config, string $filename): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pspell\_config\_personal()\*\*\*\*
+**Приклад #1 Приклад використання** pspell\_config\_personal()\*\*\*\*
 
 ```php
 <?php

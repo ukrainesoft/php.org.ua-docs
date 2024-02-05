@@ -31,7 +31,7 @@ public AppendIterator::getIteratorIndex(): ?int
 
 ### Приклади
 
-**Пример #1 Пример использования**AppendIterator.getIteratorIndex()\*\*\*\*
+**Приклад #1 Приклад використання** AppendIterator.getIteratorIndex()\*\*\*\*
 
 ```php
 <?php

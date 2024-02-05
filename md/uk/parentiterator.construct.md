@@ -15,7 +15,7 @@ ParentIterator::\_\_construct - Конструктор класу ParentIterator
 
 ### Опис
 
-public**ParentIterator::\_\_construct** [RecursiveIterator](class.recursiveiterator.md) `$iterator`) .
+public **ParentIterator::\_\_construct** [RecursiveIterator](class.recursiveiterator.md) `$iterator`) .
 
 Створює новий об'єкт класу [ParentIterator](class.parentiterator.md) на основі об'єкта-ітератора.
 

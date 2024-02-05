@@ -31,7 +31,7 @@ sodium_crypto_secretbox_keygen(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_secretbox\_keygen()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_secretbox\_keygen()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +46,7 @@ var_dump( sodium_bin2hex( $key ) );
 string(64) "88bd1dc51ec81984f3ddc5a8f59a3d95b647e2da3e879f1b9ceb0abd89e7286c"
 ```
 
-**Пример #2 Сравнение**sodium\_crypto\_secretbox\_keygen()**с[random\_bytes()](function.random-bytes.md)**
+**Приклад #2 Сравнение**sodium\_crypto\_secretbox\_keygen()**с[random\_bytes()](function.random-bytes.md)**
 
 ```php
 <?php

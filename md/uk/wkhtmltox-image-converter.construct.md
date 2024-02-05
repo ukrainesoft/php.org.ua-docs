@@ -15,7 +15,7 @@ wkhtmltox\\Image\\Converter::\_\_construct — Створити новий ко�
 
 ### Опис
 
-public**wkhtmltox\\Image\\Converter::\_\_construct**(string`$buffer`\= ?, array`$settings`
+public **wkhtmltox\\Image\\Converter::\_\_construct**(string`$buffer`\= ?, array`$settings`
 
 Створює конвертер зображень, додатково використовуючи вхідний буфер та налаштування конфігурації
 

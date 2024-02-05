@@ -50,7 +50,7 @@ public DOMElement::after(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::after()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::after()\*\*\*\*
 
 Додавання вузлів після елемента Hello.
 

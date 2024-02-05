@@ -47,7 +47,7 @@ mysqli_get_connection_stats(mysqli $mysql): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_get\_connection\_stats()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_get\_connection\_stats()\*\*\*\*
 
 ```php
 <?php

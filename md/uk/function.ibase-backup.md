@@ -37,7 +37,7 @@ ibase_backup(    resource $service_handle,    string $source_db,    
 
 `options`
 
-Додаткові опції передачі на сервер бази даних для резервного копіювання. Параметр `options` може бути комбінацією з наступних констант: **`IBASE_BKP_IGNORE_CHECKSUMS`** **`IBASE_BKP_IGNORE_LIMBO`** **`IBASE_BKP_METADATA_ONLY`** **`IBASE_BKP_NO_GARBAGE_COLLECT`** **`IBASE_BKP_OLD_DESCRIPTIONS`** \*\*`IBASE_BKP_NON_TRANSPORTABLE`**или**`IBASE_BKP_CONVERT`\*\*Прочтите раздел о [Обумовлені константи](ibase.constants.md) для отримання додаткової інформації.
+Додаткові опції передачі на сервер бази даних для резервного копіювання. Параметр `options` може бути комбінацією з наступних констант: **`IBASE_BKP_IGNORE_CHECKSUMS`** **`IBASE_BKP_IGNORE_LIMBO`** **`IBASE_BKP_METADATA_ONLY`** **`IBASE_BKP_NO_GARBAGE_COLLECT`** **`IBASE_BKP_OLD_DESCRIPTIONS`** \*\*`IBASE_BKP_NON_TRANSPORTABLE`** або **`IBASE_BKP_CONVERT`\*\*Прочтите раздел о [Обумовлені константи](ibase.constants.md) для отримання додаткової інформації.
 
 `verbose`
 
@@ -51,7 +51,7 @@ ibase_backup(    resource $service_handle,    string $source_db,    
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_backup()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_backup()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +69,7 @@ ibase_service_detach ($service);
 ?>
 ```
 
-**Пример #2 Пример использования**ibase\_backup()\*\* з аргументами\*\*
+**Приклад #2 Приклад використання** ibase\_backup()\*\* з аргументами\*\*
 
 ```php
 <?php

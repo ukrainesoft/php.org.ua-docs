@@ -41,7 +41,7 @@ public static QuickHashIntStringHash::loadFromString(string $contents, int $size
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntStringHash::loadFromString()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntStringHash::loadFromString()\*\*\*\*
 
 ```php
 <?php

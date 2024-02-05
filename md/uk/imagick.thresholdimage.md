@@ -33,7 +33,7 @@ public Imagick::thresholdImage(float $threshold, int $channel = Imagick::CHANNEL
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::thresholdImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::thresholdImage()\*\*\*\*
 
 ```php
 <?php

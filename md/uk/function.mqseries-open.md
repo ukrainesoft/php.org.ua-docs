@@ -57,7 +57,7 @@ mqseries_open(    resource $hconn,    array &$objDesc,    int $optio
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_open()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_open()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ recode_string(string $request, string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**recode\_string()\*\*\*\*
+**Приклад #1 Приклад використання** recode\_string()\*\*\*\*
 
 ```php
 <?php

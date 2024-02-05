@@ -39,7 +39,7 @@ public Phar::stopBuffering(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::stopBuffering()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::stopBuffering()\*\*\*\*
 
 ```php
 <?php

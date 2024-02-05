@@ -43,7 +43,7 @@ locale_set_default(string $locale): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_set\_default()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_set\_default()\*\*\*\*
 
 ```php
 <?php

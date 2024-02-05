@@ -65,7 +65,7 @@ cubrid_get_db_parameter(resource $conn_identifier): array
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_get\_db\_parameter()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_get\_db\_parameter()\*\*\*\*
 
 ```php
 <?php

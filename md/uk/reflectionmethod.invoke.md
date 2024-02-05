@@ -43,7 +43,7 @@ public ReflectionMethod::invoke(?object $object, mixed ...$args): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionMethod::invoke()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionMethod::invoke()\*\*\*\*
 
 ```php
 <?php

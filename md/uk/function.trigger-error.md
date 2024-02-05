@@ -39,7 +39,7 @@ trigger_error(string $message, int $error_level = E_USER_NOTICE): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**trigger\_error()\*\*\*\*
+**Приклад #1 Приклад використання** trigger\_error()\*\*\*\*
 
 Більш детальний приклад наведено в описі функції [set\_error\_handler()](function.set-error-handler.md)
 

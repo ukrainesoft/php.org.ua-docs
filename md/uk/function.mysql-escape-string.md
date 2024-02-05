@@ -42,7 +42,7 @@ mysql_escape_string(string $unescaped_string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_escape\_string()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_escape\_string()\*\*\*\*
 
 ```php
 <?php

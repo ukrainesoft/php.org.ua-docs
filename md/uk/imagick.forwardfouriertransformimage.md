@@ -33,7 +33,7 @@ public Imagick::forwardFourierTransformimage(bool $magnitude): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::forwardFourierTransformImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::forwardFourierTransformImage()\*\*\*\*
 
 ```php
 <?php

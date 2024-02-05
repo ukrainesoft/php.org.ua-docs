@@ -43,7 +43,7 @@ public Imagick::unsharpMaskImage(    float $radius,    float $sigma,  
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::unsharpMaskImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::unsharpMaskImage()\*\*\*\*
 
 ```php
 <?php

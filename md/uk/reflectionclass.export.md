@@ -41,7 +41,7 @@ public static ReflectionClass::export(mixed $argument, bool $return = false): st
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::export()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::export()\*\*\*\*
 
 ```php
 <?php

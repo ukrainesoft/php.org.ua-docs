@@ -39,7 +39,7 @@ libxml_use_internal_errors(?bool $use_errors = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**libxml\_use\_internal\_errors()\*\*\*\*
+**Приклад #1 Приклад використання** libxml\_use\_internal\_errors()\*\*\*\*
 
 Цей приклад демонструє основне використання помилок libxml та значення, яке повертає ця функція.
 

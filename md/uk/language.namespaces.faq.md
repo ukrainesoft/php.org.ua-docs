@@ -29,7 +29,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 2.  [Вкладені простори імен неприпустимі.](language.namespaces.faq.md#language.namespaces.faq.nested)
 3.  [Динамічні імена просторів імен (ідентифікатори, взяті в лапки) повинні екранувати символ зворотного слішу.](language.namespaces.faq.md#language.namespaces.faq.quote)
 4.  [Посилатися на невизначені константи, використовуючи зворотний сліш, не можна. Виводиться фатальна помилка](language.namespaces.faq.md#language.namespaces.faq.constants)
-5.  [Неможливо перевизначити спеціальні константи **`null`** **`true`**или**`false`**](language.namespaces.faq.md#language.namespaces.faq.builtinconst)
+5.  [Неможливо перевизначити спеціальні константи **`null`** **`true`** або **`false`**](language.namespaces.faq.md#language.namespaces.faq.builtinconst)
 
 ### Якщо в коді не вказано простору імен, чи потрібно вважати щось із цього важливим?
 
@@ -327,7 +327,7 @@ $a = \Bar\FOO; // фатальная ошибка: undefined namespace constant 
 ?>
 ```
 
-### Неможливо перевизначити спеціальні константи **`null`** **`true`**или**`false`**
+### Неможливо перевизначити спеціальні константи **`null`** **`true`** або **`false`**
 
 Будь-яка спроба визначити константу простору імен, яка збігається з назвами спеціальних вбудованих констант, призведе до фатальної помилки.
 

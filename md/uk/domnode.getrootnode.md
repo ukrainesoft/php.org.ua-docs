@@ -33,7 +33,7 @@ public DOMNode::getRootNode(array $options = null): DOMNode
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMNode::getRootNode()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMNode::getRootNode()\*\*\*\*
 
 ```php
 <?php

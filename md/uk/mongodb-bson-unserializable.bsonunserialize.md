@@ -37,7 +37,7 @@ abstract public MongoDB\BSON\Unserializable::bsonUnserialize(array $data): void
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Unserializable::bsonUnserialize()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Unserializable::bsonUnserialize()\*\*\*\*
 
 ```php
 <?php

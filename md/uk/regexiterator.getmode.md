@@ -31,7 +31,7 @@ public RegexIterator::getMode(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**RegexIterator::getMode()\*\*\*\*
+**Приклад #1 Приклад використання** RegexIterator::getMode()\*\*\*\*
 
 ```php
 <?php

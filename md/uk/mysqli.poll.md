@@ -63,7 +63,7 @@ mysqli_poll(    ?array &$read,    ?array &$error,    array &$reject,
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_poll()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_poll()\*\*\*\*
 
 ```php
 <?php

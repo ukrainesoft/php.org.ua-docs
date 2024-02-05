@@ -43,14 +43,14 @@ sodium_crypto_box_seal(string $message, string $public_key): string
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_box\_seal()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_box\_seal()\*\*\*\*
 
 ```php
 <?php
 $keypair = sodium_crypto_box_keypair();
 $public_key = sodium_crypto_box_publickey($keypair);
 
-// Обфусцированный текст, чтобы сделать пример более увлекательным
+// Обфусцированный текст, чтобы сделать Приклад более увлекательным
 $plaintext_b64 = "V3JpdGluZyBzb2Z0d2FyZSBpbiBQSFAgY2FuIGJlIGEgZGVsaWdodCE=";
 $decoded_plaintext = sodium_base642bin($plaintext_b64, SODIUM_BASE64_VARIANT_ORIGINAL);
 

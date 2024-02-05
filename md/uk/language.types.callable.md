@@ -34,12 +34,12 @@ Callback-функції можуть бути позначені оголоше�
 ```php
 <?php
 
-// Пример callback-функции
+// Приклад callback-функции
 function my_callback_function() {
     echo 'Привет, мир!';
 }
 
-// Пример callback-метода
+// Приклад callback-метода
 class MyClass {
     static function myCallbackMethod() {
         echo 'Привет, мир!';

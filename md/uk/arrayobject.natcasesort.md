@@ -43,7 +43,7 @@ public ArrayObject::natcasesort(): true
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::natcasesort()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::natcasesort()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ final public MongoDB\BSON\ObjectId::getTimestamp(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\ObjectId::getTimestamp()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\ObjectId::getTimestamp()\*\*\*\*
 
 ```php
 <?php

@@ -57,7 +57,7 @@ pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_fetch\_result()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_fetch\_result()\*\*\*\*
 
 ```php
 <?php

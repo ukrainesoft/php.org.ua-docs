@@ -41,7 +41,7 @@ public Imagick::embossImage(float $radius, float $sigma): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::embossImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::embossImage()\*\*\*\*
 
 ```php
 <?php

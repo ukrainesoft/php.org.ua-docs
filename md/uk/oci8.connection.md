@@ -57,7 +57,7 @@ DRCP приносить користь усім трьом функціям пі
     $c = oci_pconnect("myuser", "mypassword", "MYDB");
     ```
     
-    змініть файл tnsnames.ora та додайте оператор`(SERVER=POOLED)`, например:
+    змініть файл tnsnames.ora та додайте оператор`(SERVER=POOLED)`, наПриклад:
     
     ```
     MYDB = (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp) (HOST=myhost.dom.com)

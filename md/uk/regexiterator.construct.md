@@ -15,7 +15,7 @@ RegexIterator::\_\_construct - Конструктор класу RegexIterator
 
 ### Опис
 
-public**RegexIterator::\_\_construct**  
+public **RegexIterator::\_\_construct**  
 [Iterator](class.iterator.md) `$iterator`,  
 string`$pattern`,  
 int`$mode`\= RegexIterator::MATCH,  
@@ -63,7 +63,7 @@ int`$pregFlags`
 
 ### Приклади
 
-**Пример #1 Пример использования**RegexIterator::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** RegexIterator::\_\_construct()\*\*\*\*
 
 Створює новий об'єкт RegexIterator, який відбирає рядки, що починаються зі слова 'test'.
 

@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setPhraseFields(string $fields): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setPhraseFields()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setPhraseFields()\*\*\*\*
 
 ```php
 <?php

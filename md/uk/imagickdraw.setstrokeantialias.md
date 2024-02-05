@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeAntialias(bool $stroke_antialias): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeAntialias()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeAntialias()\*\*\*\*
 
 ```php
 <?php

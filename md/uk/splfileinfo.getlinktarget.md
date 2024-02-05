@@ -39,7 +39,7 @@ public SplFileInfo::getLinkTarget(): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getLinkTarget()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getLinkTarget()\*\*\*\*
 
 ```php
 <?php

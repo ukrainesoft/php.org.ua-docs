@@ -56,7 +56,7 @@ datefmt_format(IntlDateFormatter $formatter, IntlCalendar|DateTimeInterface|arra
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_format()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_format()\*\*\*\*
 
 ```php
 <?php

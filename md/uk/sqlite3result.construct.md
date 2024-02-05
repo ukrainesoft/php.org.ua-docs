@@ -15,7 +15,7 @@ SQLite3Result::\_\_construct — Конструктор класу SQLite3Result
 
 ### Опис
 
-private**SQLite3Result::\_\_construct**()
+private **SQLite3Result::\_\_construct**()
 
 Примірники [SQLite3Result](class.sqlite3result.md) створюються за допомогою [SQLite3::query()](sqlite3.query.md) і [SQLite3Stmt::execute()](sqlite3stmt.execute.md)
 

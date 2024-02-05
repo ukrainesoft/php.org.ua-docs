@@ -15,7 +15,7 @@ GearmanTask::\_\_construct — Створює об'єкт GearmanTask
 
 ### Опис
 
-public**GearmanTask::\_\_construct**()
+public **GearmanTask::\_\_construct**()
 
 Створює об'єкт [GearmanTask](class.gearmantask.md), що представляє завдання на обробку, яка надалі буде відправлена ​​на сервер.
 

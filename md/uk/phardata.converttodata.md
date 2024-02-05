@@ -57,7 +57,7 @@ public PharData::convertToData(?int $format = null, ?int $compression = null, ?s
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::convertToData()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::convertToData()\*\*\*\*
 
 Використання PharData::convertToData():
 

@@ -44,7 +44,7 @@ ltrim(string $string, string $characters = " \n\r\t\v\x00"): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ltrim()\*\*\*\*
+**Приклад #1 Приклад використання** ltrim()\*\*\*\*
 
 ```php
 <?php

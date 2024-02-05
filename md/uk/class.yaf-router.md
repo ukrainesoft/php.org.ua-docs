@@ -49,7 +49,7 @@ if (!-e $request\_filename) { rewrite ^/(.\*) /index.php/$1 last; } }
 
 Деякі приклади відповідності таких маршрутів:
 
-**Пример #5 Пример использования[Yaf\_Route\_Static](class.yaf-route-static.md)(маршрут за замовчуванням)**
+**Приклад #5 Приклад использования[Yaf\_Route\_Static](class.yaf-route-static.md)(маршрут за замовчуванням)**
 
 // Припускаючи наступне налаштування: $conf = array( "application" => array( "modules" => "Index,Blog", ), );
 

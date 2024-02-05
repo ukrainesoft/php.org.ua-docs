@@ -33,7 +33,7 @@ public RarArchive::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**RarArchive::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** RarArchive::\_\_toString()\*\*\*\*
 
 ```php
 <?php

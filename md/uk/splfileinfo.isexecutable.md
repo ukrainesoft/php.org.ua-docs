@@ -31,7 +31,7 @@ public SplFileInfo::isExecutable(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::isExecutable()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::isExecutable()\*\*\*\*
 
 ```php
 <?php

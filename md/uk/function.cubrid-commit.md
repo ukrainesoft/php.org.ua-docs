@@ -35,7 +35,7 @@ cubrid_commit(resource $conn_identifier): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_commit()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_commit()\*\*\*\*
 
 ```php
 <?php

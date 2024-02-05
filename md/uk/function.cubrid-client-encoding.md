@@ -35,7 +35,7 @@ cubrid_client_encoding(resource $conn_identifier = ?): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_client\_encoding()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_client\_encoding()\*\*\*\*
 
 ```php
 <?php

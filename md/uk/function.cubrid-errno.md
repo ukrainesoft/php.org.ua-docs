@@ -35,7 +35,7 @@ cubrid_errno(resource $conn_identifier = ?): int
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_errno()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_errno()\*\*\*\*
 
 ```php
 <?php

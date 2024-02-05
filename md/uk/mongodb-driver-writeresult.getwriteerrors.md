@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteResult::getWriteErrors(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getWriteErrors()\*\* з однією помилкою\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getWriteErrors()\*\* з однією помилкою\*\*
 
 ```php
 <?php
@@ -78,7 +78,7 @@ array(1) {
 }
 ```
 
-**Пример #2 Пример использования**MongoDB\\Driver\\WriteResult::getWriteErrors()\*\* з кількома помилками\*\*
+**Приклад #2 Приклад використання** MongoDB\\Driver\\WriteResult::getWriteErrors()\*\* з кількома помилками\*\*
 
 ```php
 <?php

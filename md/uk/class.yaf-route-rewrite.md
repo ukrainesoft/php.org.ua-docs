@@ -13,7 +13,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ## Вступ
 
-Пример использования смотрите в разделе примеров[Yaf\_Route\_Rewrite::\_\_construct()](yaf-route-rewrite.construct.md)
+Приклад использования смотрите в разделе Прикладов[Yaf\_Route\_Rewrite::\_\_construct()](yaf-route-rewrite.construct.md)
 
 ## Огляд класів
 

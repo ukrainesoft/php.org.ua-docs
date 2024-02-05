@@ -31,7 +31,7 @@ public mysql_xdevapi\Result::getAffectedItemsCount(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Result::getAffectedItemsCount()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Result::getAffectedItemsCount()\*\*\*\*
 
 ```php
 <?php

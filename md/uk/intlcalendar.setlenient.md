@@ -51,4 +51,4 @@ intlcal_set_lenient(IntlCalendar $calendar, bool $lenient): true
 
 ### Приклади
 
-Смотрите пример в описании метода[IntlCalendar::isLenient()](intlcalendar.islenient.md)
+Смотрите Приклад в описании метода[IntlCalendar::isLenient()](intlcalendar.islenient.md)

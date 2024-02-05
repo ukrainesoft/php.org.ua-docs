@@ -45,7 +45,7 @@ xmlrpc_set_type(string &$value, string $type): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**xmlrpc\_set\_type()\*\*\*\*
+**Приклад #1 Приклад використання** xmlrpc\_set\_type()\*\*\*\*
 
 ```php
 <?php

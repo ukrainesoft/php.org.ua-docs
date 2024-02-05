@@ -33,7 +33,7 @@ public Imagick::transformImageColorspace(int $colorspace): bool
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Imagick::transformImageColorspace()\*\*\*\*
+**Приклад #1 Приклад использования метода**Imagick::transformImageColorspace()\*\*\*\*
 
 Перетворює зображення на новий колірний простір, а потім витягує окремий канал, щоб можна було переглянути значення окремих каналів.
 
@@ -42,7 +42,7 @@ public Imagick::transformImageColorspace(int $colorspace): bool
 function transformImageColorspace($imagePath, $colorSpace, $channel) {
     $imagick = new \Imagick(realpath($imagePath));
     $imagick->transformimagecolorspace($colorSpace);
-    //канал должен быть одной из констант канала, например \Imagick::CHANNEL_BLUE
+    //канал должен быть одной из констант канала, наПриклад \Imagick::CHANNEL_BLUE
     $imagick->separateImageChannel($channel);
     header("Content-Type: image/jpg");
     echo $imagick->getImageBlob();

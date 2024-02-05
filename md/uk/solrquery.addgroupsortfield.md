@@ -35,7 +35,7 @@ public SolrQuery::addGroupSortField(string $field, int $order = ?): SolrQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrQuery::addGroupSortField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrQuery::addGroupSortField()\*\*\*\*
 
 ```php
 <?php

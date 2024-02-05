@@ -31,7 +31,7 @@ public SolrCollapseFunction::setMax(string $max): SolrCollapseFunction
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrCollapseFunction::setMax()\*\*\*\*
+**Приклад #1 Приклад використання** SolrCollapseFunction::setMax()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public SplFileInfo::isWritable(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::isWriteable()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::isWriteable()\*\*\*\*
 
 ```php
 <?php

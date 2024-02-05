@@ -35,7 +35,7 @@ public SplFileInfo::getSize(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getSize()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getSize()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getServer()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getServer()\*\*\*\*
 
 ```php
 <?php

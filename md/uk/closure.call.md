@@ -37,7 +37,7 @@ public Closure::call(object $newThis, mixed ...$args): mixed
 
 ### Приклади
 
-**Пример #1 Пример**Closure::call()\*\*\*\*
+**Приклад #1 Приклад**Closure::call()\*\*\*\*
 
 ```php
 <?php

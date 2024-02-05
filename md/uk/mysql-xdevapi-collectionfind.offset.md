@@ -35,7 +35,7 @@ public mysql_xdevapi\CollectionFind::offset(int $position): mysql_xdevapi\Collec
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::offset()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionFind::offset()\*\*\*\*
 
 ```php
 <?php

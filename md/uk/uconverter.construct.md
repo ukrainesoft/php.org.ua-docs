@@ -15,7 +15,7 @@ UConverter::\_\_construct — Створити об'єкт UConverter
 
 ### Опис
 
-public**UConverter::\_\_construct**(?string`$destination_encoding` **`null`**, ?string`$source_encoding` **`null`**) .
+public **UConverter::\_\_construct**(?string`$destination_encoding` **`null`**, ?string`$source_encoding` **`null`**) .
 
 **Увага**
 

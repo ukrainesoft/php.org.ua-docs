@@ -59,7 +59,7 @@ radius_put_attr(    resource $radius_handle,    int $type,    string
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_put\_attr()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_put\_attr()\*\*\*\*
 
 ```php
 <?php

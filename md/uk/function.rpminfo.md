@@ -41,7 +41,7 @@ rpminfo(string $path, bool $full = false, string &$error = ?): ?array
 
 ### Приклади
 
-**Пример #1 Пример использования**rpminfo()\*\*\*\*
+**Приклад #1 Приклад використання** rpminfo()\*\*\*\*
 
 ```php
 <?php

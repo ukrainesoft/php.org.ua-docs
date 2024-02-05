@@ -29,7 +29,7 @@ svn_ls(    string $repos_url,    int $revision_no = SVN_REVISION_HEAD, 
 
 `url`
 
-URL-адрес репозитория, например\*\*`http://www.example.com/svnroot`**Для доступа к локальному репозиторию Subversion через файловую систему используйте файловую URI-схему, например**`file:///home/user/svn-repos`\*\*
+URL-адрес репозитория, наПриклад\*\*`http://www.example.com/svnroot`**Для доступа к локальному репозиторию Subversion через файловую систему используйте файловую URI-схему, наПриклад**`file:///home/user/svn-repos`\*\*
 
 `revision`
 
@@ -47,7 +47,7 @@ URL-адрес репозитория, например\*\*`http://www.example.c
 
 ### Приклади
 
-**Пример #1 Пример использования**svn\_ls()\*\*\*\*
+**Приклад #1 Приклад використання** svn\_ls()\*\*\*\*
 
 ```php
 <?php

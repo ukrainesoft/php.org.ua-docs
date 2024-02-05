@@ -15,7 +15,7 @@ Yaf\_Route\_Rewrite::\_\_construct - Конструктор класу Yaf\_Rout
 
 ### Опис
 
-public**Yaf\_Route\_Rewrite::\_\_construct**(string`$match`, array`$route`, array`$verify`
+public **Yaf\_Route\_Rewrite::\_\_construct**(string`$match`, array`$route`, array`$verify`
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ public**Yaf\_Route\_Rewrite::\_\_construct**(string`$match`, array`$route`, arra
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Route\_Rewrite()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Route\_Rewrite()\*\*\*\*
 
 ```php
 <?php
@@ -77,7 +77,7 @@ array(
 )
 ```
 
-**Пример #2 Пример использования**Yaf\_Route\_Rewrite()\*\*\*\*
+**Приклад #2 Приклад використання** Yaf\_Route\_Rewrite()\*\*\*\*
 
 ```php
 <?php
@@ -119,7 +119,7 @@ array(
 )
 ```
 
-**Пример #3 Пример использования**Yaf\_Route\_Rewrite(as of 2.3.0)()\*\*\*\*
+**Приклад #3 Приклад використання** Yaf\_Route\_Rewrite(as of 2.3.0)()\*\*\*\*
 
 ```php
 <?php

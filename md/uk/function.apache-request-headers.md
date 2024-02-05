@@ -37,7 +37,7 @@ apache_request_headers(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**apache\_request\_headers()\*\*\*\*
+**Приклад #1 Приклад використання** apache\_request\_headers()\*\*\*\*
 
 ```php
 <?php

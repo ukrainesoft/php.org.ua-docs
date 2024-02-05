@@ -35,7 +35,7 @@ final public MongoDB\BSON\Timestamp::__construct(int $increment, int $timestamp)
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Timestamp::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Timestamp::\_\_construct()\*\*\*\*
 
 ```php
 <?php

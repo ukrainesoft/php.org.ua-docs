@@ -43,7 +43,7 @@ mb_encoding_aliases(string $encoding): array
 
 ### Приклади
 
-**Пример #1 Пример использования функции**mb\_encoding\_aliases()\*\*\*\*
+**Приклад #1 Приклад использования функции**mb\_encoding\_aliases()\*\*\*\*
 
 ```php
 <?php

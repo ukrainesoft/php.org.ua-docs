@@ -15,7 +15,7 @@ Yaf\_Exception::\_\_construct - Конструктор класу Yaf\_Exception
 
 ### Опис
 
-public**Yaf\_Exception::\_\_construct**()
+public **Yaf\_Exception::\_\_construct**()
 
 **Увага**
 

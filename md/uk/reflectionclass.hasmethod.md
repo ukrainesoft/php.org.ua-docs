@@ -33,7 +33,7 @@ public ReflectionClass::hasMethod(string $name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::hasMethod()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::hasMethod()\*\*\*\*
 
 ```php
 <?php

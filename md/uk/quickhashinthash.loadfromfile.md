@@ -64,7 +64,7 @@ key/value 2 (key = 3, value = 9)
 
 ### Приклади
 
-**Пример #3 Пример использования**QuickHashIntHash::loadFromFile()\*\*\*\*
+**Приклад #3 Приклад використання** QuickHashIntHash::loadFromFile()\*\*\*\*
 
 ```php
 <?php

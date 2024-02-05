@@ -59,7 +59,7 @@ public
 
 `state`
 
-Текущее состояние SSL-соединения:**`EventBufferEvent::SSL_OPEN`** **`EventBufferEvent::SSL_ACCEPTING`**или**`EventBufferEvent::SSL_CONNECTING`**
+Текущее состояние SSL-соединения:**`EventBufferEvent::SSL_OPEN`** **`EventBufferEvent::SSL_ACCEPTING`** або **`EventBufferEvent::SSL_CONNECTING`**
 
 `options`
 
@@ -81,7 +81,7 @@ public
  * Usage:
  * 1) Подготовим файлы сертификата cert.pem и приватного ключа privkey.pem.
  * 2) Запустим скрипт сервера
- * 3) Откроем TLS-соединение, например:
+ * 3) Откроем TLS-соединение, наПриклад:
  *      $ openssl s_client -connect localhost:25 -starttls smtp -crlf
  * 4) Протестируем команды, описанные в метода `cmd`.
  */

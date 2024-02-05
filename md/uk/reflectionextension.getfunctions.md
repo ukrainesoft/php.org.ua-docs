@@ -31,7 +31,7 @@ public ReflectionExtension::getFunctions(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionExtension::getFunctions()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionExtension::getFunctions()\*\*\*\*
 
 ```php
 <?php

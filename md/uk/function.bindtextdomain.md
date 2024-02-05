@@ -43,7 +43,7 @@ bindtextdomain(string $domain, ?string $directory): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**bindtextdomain()\*\*\*\*
+**Приклад #1 Приклад використання** bindtextdomain()\*\*\*\*
 
 ```php
 <?php

@@ -42,7 +42,7 @@ mysql_close(resource $link_identifier = NULL): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_close()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_close()\*\*\*\*
 
 ```php
 <?php

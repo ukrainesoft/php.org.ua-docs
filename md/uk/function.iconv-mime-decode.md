@@ -54,7 +54,7 @@ iconv_mime_decode(string $string, int $mode = 0, ?string $encoding = null): stri
 
 ### Приклади
 
-**Пример #1 Пример использования**iconv\_mime\_decode()\*\*\*\*
+**Приклад #1 Приклад використання** iconv\_mime\_decode()\*\*\*\*
 
 ```php
 <?php

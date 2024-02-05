@@ -77,7 +77,7 @@ random_bytes(int $length): string
 
 ### Приклади
 
-**Пример #1 Пример использования**random\_bytes()\*\*\*\*
+**Приклад #1 Приклад використання** random\_bytes()\*\*\*\*
 
 ```php
 <?php

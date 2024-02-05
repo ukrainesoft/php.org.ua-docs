@@ -33,7 +33,7 @@ public mysql_xdevapi\Session::releaseSavepoint(string $name): void
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::releaseSavepoint()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::releaseSavepoint()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ public OAuth::setRequestEngine(int $reqengine): void
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuth::setRequestEngine()\*\*\*\*
+**Приклад #1 Приклад використання** OAuth::setRequestEngine()\*\*\*\*
 
 ```php
 <?php

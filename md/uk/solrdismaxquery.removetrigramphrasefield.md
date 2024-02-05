@@ -33,7 +33,7 @@ public SolrDisMaxQuery::removeTrigramPhraseField(string $field): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::removeTrigramPhraseField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::removeTrigramPhraseField()\*\*\*\*
 
 ```php
 <?php

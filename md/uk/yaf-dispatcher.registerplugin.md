@@ -29,7 +29,7 @@ public Yaf_Dispatcher::registerPlugin(Yaf_Plugin_Abstract $plugin): Yaf_Dispatch
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Dispatcher::registerPlugin()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Dispatcher::registerPlugin()\*\*\*\*
 
 ```php
 <?php

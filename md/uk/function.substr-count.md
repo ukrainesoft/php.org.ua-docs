@@ -56,7 +56,7 @@ substr_count(    string $haystack,    string $needle,    int $offset
 
 ### Приклади
 
-**Пример #1 Пример использования**substr\_count()\*\*\*\*
+**Приклад #1 Приклад використання** substr\_count()\*\*\*\*
 
 ```php
 <?php

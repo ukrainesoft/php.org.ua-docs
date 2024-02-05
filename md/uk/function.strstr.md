@@ -59,7 +59,7 @@ strstr(string $haystack, string $needle, bool $before_needle = false): string|fa
 
 ### Приклади
 
-**Пример #1 Пример использования**strstr()\*\*\*\*
+**Приклад #1 Приклад використання** strstr()\*\*\*\*
 
 ```php
 <?php

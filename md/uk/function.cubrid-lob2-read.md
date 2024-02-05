@@ -37,7 +37,7 @@ cubrid_lob2_read(resource $lob_identifier, int $len): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_lob2\_read()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_lob2\_read()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +72,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-**Пример #2 Пример использования**cubrid\_lob2\_read()\*\*\*\*
+**Приклад #2 Приклад використання** cubrid\_lob2\_read()\*\*\*\*
 
 ```php
 <?php

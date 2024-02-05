@@ -43,7 +43,7 @@ msgfmt_get_pattern(MessageFormatter $formatter): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**msgfmt\_get\_pattern()\*\*\*\*
+**Приклад #1 Приклад використання** msgfmt\_get\_pattern()\*\*\*\*
 
 ```php
 <?php

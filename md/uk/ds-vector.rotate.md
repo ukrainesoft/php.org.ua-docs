@@ -33,7 +33,7 @@ public Ds\Vector::rotate(int $rotations): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::rotate()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::rotate()\*\*\*\*
 
 ```php
 <?php

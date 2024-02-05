@@ -33,7 +33,7 @@ public SolrDisMaxQuery::removeBigramPhraseField(string $field): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::removeBigramPhraseField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::removeBigramPhraseField()\*\*\*\*
 
 ```php
 <?php

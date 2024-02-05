@@ -29,7 +29,7 @@ public Generator::getReturn(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Generator::getReturn()\*\*\*\*
+**Приклад #1 Приклад використання** Generator::getReturn()\*\*\*\*
 
 ```php
 <?php

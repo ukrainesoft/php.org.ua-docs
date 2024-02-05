@@ -47,7 +47,7 @@ imagesavealpha(GdImage $image, bool $enable): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagesavealpha()\*\*\*\*
+**Приклад #1 Приклад використання** imagesavealpha()\*\*\*\*
 
 ```php
 <?php

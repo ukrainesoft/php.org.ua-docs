@@ -35,7 +35,7 @@ public Ds\Vector::first(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::first()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::first()\*\*\*\*
 
 ```php
 <?php

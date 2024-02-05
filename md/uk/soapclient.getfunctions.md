@@ -35,7 +35,7 @@ public SoapClient::__getFunctions(): ?array
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapClient::\_\_getFunctions()\*\*\*\*
+**Приклад #1 Приклад використання** SoapClient::\_\_getFunctions()\*\*\*\*
 
 ```php
 <?php

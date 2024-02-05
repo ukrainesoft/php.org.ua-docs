@@ -54,7 +54,7 @@ hash_hmac(    string $algo,    string $data,    string $key,    
 
 ### Приклади
 
-**Пример #1 Пример использования**hash\_hmac()\*\*\*\*
+**Приклад #1 Приклад використання** hash\_hmac()\*\*\*\*
 
 ```php
 <?php

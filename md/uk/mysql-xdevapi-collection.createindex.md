@@ -52,7 +52,7 @@ public mysql_xdevapi\Collection::createIndex(string $index_name, string $index_d
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::createIndex()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::createIndex()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ gmp_random_seed(GMP|int|string $seed): void
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_random\_seed()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_random\_seed()\*\*\*\*
 
 ```php
 <?php

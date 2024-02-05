@@ -49,7 +49,7 @@ public Imagick::annotateImage(    ImagickDraw $draw_settings,    float $
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::annotateImage()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::annotateImage()\*\* :\*\*
 
 Додавання тексту до порожнього зображення
 

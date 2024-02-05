@@ -49,7 +49,7 @@ uopz_set_property(object $instance, string $property, mixed $value): void
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_set\_property()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_set\_property()\*\*\*\*
 
 ```php
 <?php

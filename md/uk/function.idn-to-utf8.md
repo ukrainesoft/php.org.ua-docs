@@ -54,7 +54,7 @@ idn_to_utf8(    string $domain,    int $flags = IDNA_DEFAULT,    int
 
 ### Приклади
 
-**Пример #1 Пример использования**idn\_to\_utf8()\*\*\*\*
+**Приклад #1 Приклад використання** idn\_to\_utf8()\*\*\*\*
 
 ```php
 <?php

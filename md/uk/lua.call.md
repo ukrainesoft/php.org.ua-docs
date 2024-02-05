@@ -49,7 +49,7 @@ public Lua::__call(callable $lua_func, array $args = ?, int $use_self = 0): mixe
 
 ### Приклади
 
-**Пример #1 Пример использования**Lua::call()\*\*\*\*
+**Приклад #1 Приклад використання** Lua::call()\*\*\*\*
 
 ```php
 <?php

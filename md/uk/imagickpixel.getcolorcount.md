@@ -35,7 +35,7 @@ ImagickPixel::getColorCount може працювати тільки з об'є�
 
 ### Приклади
 
-**Пример #1 ImagickPixel**getColorCount()\*\*\*\*
+**Приклад #1 ImagickPixel**getColorCount()\*\*\*\*
 
 ```php
 <?php

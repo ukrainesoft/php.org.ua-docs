@@ -51,7 +51,7 @@ uopz_compose(    string $name,    array $classes,    array $methods 
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_compose()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_compose()\*\*\*\*
 
 ```php
 <?php

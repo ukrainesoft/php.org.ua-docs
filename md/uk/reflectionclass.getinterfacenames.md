@@ -31,7 +31,7 @@ public ReflectionClass::getInterfaceNames(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getInterfaceNames()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getInterfaceNames()\*\*\*\*
 
 ```php
 <?php

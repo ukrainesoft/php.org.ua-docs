@@ -37,7 +37,7 @@ sodium_crypto_core_ristretto255_from_hash(string $s): string
 
 ### Приклади
 
-**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_from\_hash()\*\*\*\*
+**Приклад #1 Приклад використання** sodium\_crypto\_core\_ristretto255\_from\_hash()\*\*\*\*
 
 ```php
 <?php

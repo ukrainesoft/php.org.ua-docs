@@ -15,7 +15,7 @@ Swoole\\Table::\_\_construct — Створює таблицю пам'яті Swo
 
 ### Опис
 
-public**Swoole\\Table::\_\_construct**(int`$table_size`) .
+public **Swoole\\Table::\_\_construct**(int`$table_size`) .
 
 ### Список параметрів
 

@@ -53,7 +53,7 @@ callback(
 
 ### Приклади
 
-**Пример #1 Пример использования метода**EventHttpRequest::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад использования метода**EventHttpRequest::\_\_construct()\*\*\*\*
 
 ```php
 <?php

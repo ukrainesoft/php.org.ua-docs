@@ -70,14 +70,14 @@ unserialize(string $data, array $options = []): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования функции**unserialize()\*\*\*\*
+**Приклад #1 Приклад использования функции**unserialize()\*\*\*\*
 
 ```php
 <?php
 
 // Используем функцию unserialize() для загрузки сессионных данных в массив
 // $session_data из строки, извлекаемой из базы данных.
-// Пример дополняет пример, описывающий вызов функции serialize().
+// Приклад дополняет Приклад, описывающий вызов функции serialize().
 
 $conn = odbc_connect("webdb", "php", "chicken");
 $stmt = odbc_prepare($conn, "SELECT data FROM sessions WHERE id = ?");

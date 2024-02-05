@@ -15,7 +15,7 @@ DOMElement::\_\_construct — Створює новий екземпляр кл�
 
 ### Опис
 
-public**DOMElement::\_\_construct**(string`$qualifiedName`, ?string`$value` **`null`**, string`$namespace` = "")
+public **DOMElement::\_\_construct**(string`$qualifiedName`, ?string`$value` **`null`**, string`$namespace` = "")
 
 Створює новий об'єкт класу [DOMElement](class.domelement.md). Цей об'єкт доступний лише для читання. Він може бути доданий до документа, але додаткові вузли до нього не можна додати, поки вузол не буде пов'язаний з документом. Щоб створити записуваний вузол, використовуйте [DOMDocument::createElement](domdocument.createelement.md) або [DOMDocument::createElementNS](domdocument.createelementns.md)
 

@@ -38,7 +38,7 @@ public Random\Randomizer::nextInt(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::nextInt()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::nextInt()\*\*\*\*
 
 ```php
 <?php

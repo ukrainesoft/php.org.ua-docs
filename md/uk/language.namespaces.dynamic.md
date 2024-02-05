@@ -76,7 +76,7 @@ $b = 'funcname';
 $b(); // выводит funcname
 echo constant('constname'), "\n"; // выводит global
 
-/* обратите внимание, что в двойных кавычках символ обратного слеша нужно заэкранировать. Например, "\\namespacename\\classname" */
+/* обратите внимание, что в двойных кавычках символ обратного слеша нужно заэкранировать. НаПриклад, "\\namespacename\\classname" */
 $a = '\namespacename\classname';
 $obj = new $a; // выводит namespacename\classname::__construct
 $a = 'namespacename\classname';

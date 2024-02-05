@@ -25,7 +25,7 @@ public Spoofchecker::setChecks(int $checks): void
 
 `checks`
 
-Перевірки, які виконуватимуться методом [SpoofChecker::isSuspicious()](spoofchecker.issuspicious.md). Бітова маска, що складається з констант **`Spoofchecker::SINGLE_SCRIPT_CONFUSABLE`** **`Spoofchecker::MIXED_SCRIPT_CONFUSABLE`** **`Spoofchecker::WHOLE_SCRIPT_CONFUSABLE`** **`Spoofchecker::ANY_CASE`** **`Spoofchecker::SINGLE_SCRIPT`** **`Spoofchecker::INVISIBLE`**или**`Spoofchecker::CHAR_LIMIT`**. За промовчанням всі перевірки, починаючи з ICU 58; до цієї версії константа **`Spoofchecker::SINGLE_SCRIPT`** була виключена.
+Перевірки, які виконуватимуться методом [SpoofChecker::isSuspicious()](spoofchecker.issuspicious.md). Бітова маска, що складається з констант **`Spoofchecker::SINGLE_SCRIPT_CONFUSABLE`** **`Spoofchecker::MIXED_SCRIPT_CONFUSABLE`** **`Spoofchecker::WHOLE_SCRIPT_CONFUSABLE`** **`Spoofchecker::ANY_CASE`** **`Spoofchecker::SINGLE_SCRIPT`** **`Spoofchecker::INVISIBLE`** або **`Spoofchecker::CHAR_LIMIT`**. За промовчанням всі перевірки, починаючи з ICU 58; до цієї версії константа **`Spoofchecker::SINGLE_SCRIPT`** була виключена.
 
 ### Значення, що повертаються
 

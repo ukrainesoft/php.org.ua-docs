@@ -53,7 +53,7 @@ public SyncSemaphore::__construct(string $name = ?, int $initialval = 1, bool $a
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncSemaphore::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SyncSemaphore::\_\_construct()\*\*\*\*
 
 ```php
 <?php

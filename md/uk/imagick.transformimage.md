@@ -41,7 +41,7 @@ public Imagick::transformImage(string $crop, string $geometry): Imagick
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::transformImage()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::transformImage()\*\* :\*\*
 
 У прикладі створюється чорне зображення розміром 100×100.
 

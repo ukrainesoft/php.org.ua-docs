@@ -15,7 +15,7 @@ RRDUpdater::\_\_construct — Створює новий об'єкт [RRDUpdater]
 
 ### Опис
 
-public**RRDUpdater::\_\_construct**(string`$path`) .
+public **RRDUpdater::\_\_construct**(string`$path`) .
 
 Створює новий об'єкт RRDUpdater. Цей об'єкт застосовується для внесення змін до файлу бази даних RRD.
 

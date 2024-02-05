@@ -48,7 +48,7 @@ get_headers(string $url, bool $associative = false, ?resource $context = null): 
 
 ### Приклади
 
-**Пример #1 Пример использования**get\_headers()\*\*\*\*
+**Приклад #1 Приклад використання** get\_headers()\*\*\*\*
 
 ```php
 <?php

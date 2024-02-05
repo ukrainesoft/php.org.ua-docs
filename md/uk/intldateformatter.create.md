@@ -27,7 +27,7 @@ public static IntlDateFormatter::create(    ?string $locale,    int $dat
 
 Об'єктно-орієнтований стиль (конструктор)
 
-public**IntlDateFormatter::\_\_construct**  
+public **IntlDateFormatter::\_\_construct**  
 ?string`$locale`,  
 int`$dateType`\= IntlDateFormatter::FULL,  
 int`$timeType`\= IntlDateFormatter::FULL,  
@@ -85,7 +85,7 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_create()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_create()\*\*\*\*
 
 ```php
 <?php

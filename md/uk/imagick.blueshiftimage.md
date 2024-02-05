@@ -31,7 +31,7 @@ public Imagick::blueShiftImage(float $factor = 1.5): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::blueShiftImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::blueShiftImage()\*\*\*\*
 
 ```php
 <?php

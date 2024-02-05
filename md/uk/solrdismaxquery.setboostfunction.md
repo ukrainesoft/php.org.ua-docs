@@ -35,7 +35,7 @@ recip(rord(myfield),1,2,3)^1.5
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setBoostFunction()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setBoostFunction()\*\*\*\*
 
 ```php
 <?php

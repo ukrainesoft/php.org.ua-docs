@@ -41,7 +41,7 @@ xdiff_file_bdiff(string $old_file, string $new_file, string $dest): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**xdiff\_file\_bdiff()\*\*\*\*
+**Приклад #1 Приклад використання** xdiff\_file\_bdiff()\*\*\*\*
 
 Наступний код створює бінарний патч.
 

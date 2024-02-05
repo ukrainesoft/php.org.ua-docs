@@ -45,7 +45,7 @@ uopz_redefine(string $class, string $constant, mixed $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_redefine()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_redefine()\*\*\*\*
 
 ```php
 <?php

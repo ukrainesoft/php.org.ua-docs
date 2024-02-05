@@ -31,7 +31,7 @@ public ReflectionClass::isFinal(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::isFinal()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::isFinal()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public ReflectionClass::getDefaultProperties(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getDefaultProperties()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getDefaultProperties()\*\*\*\*
 
 ```php
 <?php

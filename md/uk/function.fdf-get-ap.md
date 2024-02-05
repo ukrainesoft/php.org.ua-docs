@@ -31,7 +31,7 @@ fdf_get_ap(    resource $fdf_document,    string $field,    int $fac
 
 `face`
 
-Можливі значення: **`FDFNormalAP`** **`FDFRolloverAP`**и**`FDFDownAP`**
+Можливі значення: **`FDFNormalAP`** **`FDFRolloverAP`** і **`FDFDownAP`**
 
 `filename`
 

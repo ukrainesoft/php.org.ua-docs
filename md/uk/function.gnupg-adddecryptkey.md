@@ -39,7 +39,7 @@ gnupg_adddecryptkey(resource $identifier, string $fingerprint, string $passphras
 
 ### Приклади
 
-**Пример #1 Пример использования**gnupg\_adddecryptkey()\*\* у процедурному стилі\*\*
+**Приклад #1 Приклад використання** gnupg\_adddecryptkey()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -48,7 +48,7 @@ gnupg_adddecryptkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");
 ?>
 ```
 
-**Пример #2 Пример использования**gnupg\_adddecryptkey()\*\* в об'єктно-орієнтованому стилі\*\*
+**Приклад #2 Приклад використання** gnupg\_adddecryptkey()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

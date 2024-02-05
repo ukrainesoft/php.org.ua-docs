@@ -33,7 +33,7 @@ public mysql_xdevapi\Session::sql(string $query): mysql_xdevapi\SqlStatement
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::sql()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::sql()\*\*\*\*
 
 ```php
 <?php

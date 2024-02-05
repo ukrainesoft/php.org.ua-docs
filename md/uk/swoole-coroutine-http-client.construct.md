@@ -15,7 +15,7 @@ Swoole\\Coroutine\\Http\\Client::\_\_construct — Опис
 
 ### Опис
 
-public**Swoole\\Coroutine\\Http\\Client::\_\_construct**()
+public **Swoole\\Coroutine\\Http\\Client::\_\_construct**()
 
 **Увага**
 

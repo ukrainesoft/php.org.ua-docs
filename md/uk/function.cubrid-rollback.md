@@ -35,7 +35,7 @@ Connection identifier.
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_rollback()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_rollback()\*\*\*\*
 
 ```php
 <?php

@@ -55,7 +55,7 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_sign()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_sign()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +72,7 @@ openssl_free_key($pkeyid);
 ?>
 ```
 
-**Пример #2 Пример использования**openssl\_sign()\*\*\*\*
+**Приклад #2 Приклад використання** openssl\_sign()\*\*\*\*
 
 ```php
 <?php

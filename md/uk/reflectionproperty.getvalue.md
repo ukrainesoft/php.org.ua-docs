@@ -40,7 +40,7 @@ public ReflectionProperty::getValue(?object $object = null): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::getValue()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::getValue()\*\*\*\*
 
 ```php
 <?php

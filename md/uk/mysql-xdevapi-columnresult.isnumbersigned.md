@@ -35,7 +35,7 @@ public mysql_xdevapi\ColumnResult::isNumberSigned(): int
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\ColumnResult::isNumberSigned()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\ColumnResult::isNumberSigned()\*\*\*\*
 
 ```php
 <?php

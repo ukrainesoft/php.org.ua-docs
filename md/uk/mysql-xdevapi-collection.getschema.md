@@ -31,7 +31,7 @@ public mysql_xdevapi\Collection::getSchema(): Schema Object
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Collection::getSchema()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Collection::getSchema()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ Swoole\\Coroutine\\MySQL::\_\_construct — Опис
 
 ### Опис
 
-public**Swoole\\Coroutine\\MySQL::\_\_construct**()
+public **Swoole\\Coroutine\\MySQL::\_\_construct**()
 
 **Увага**
 

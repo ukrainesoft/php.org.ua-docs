@@ -52,7 +52,7 @@ mysql_result(resource $result, int $row, mixed $field = 0): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_result()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_result()\*\*\*\*
 
 ```php
 <?php

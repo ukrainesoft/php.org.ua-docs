@@ -29,7 +29,7 @@ public Yaf_Application::getConfig(): Yaf_Config_Abstract
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Application::getConfig()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Application::getConfig()\*\*\*\*
 
 ```php
 <?php

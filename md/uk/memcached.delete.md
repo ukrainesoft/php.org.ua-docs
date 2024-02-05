@@ -39,7 +39,7 @@ public Memcached::delete(string $key, int $time = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::delete()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::delete()\*\*\*\*
 
 ```php
 <?php

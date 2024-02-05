@@ -33,7 +33,7 @@ getprotobyname(string $protocol): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**getprotobyname()\*\*\*\*
+**Приклад #1 Приклад використання** getprotobyname()\*\*\*\*
 
 ```php
 <?php

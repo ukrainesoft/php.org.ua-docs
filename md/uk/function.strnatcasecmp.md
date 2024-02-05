@@ -43,7 +43,7 @@ strnatcasecmp(string $string1, string $string2): int
 
 ### Приклади
 
-**Пример #1 Пример использования**strnatcasecmp()\*\*\*\*
+**Приклад #1 Приклад використання** strnatcasecmp()\*\*\*\*
 
 ```php
 <?php

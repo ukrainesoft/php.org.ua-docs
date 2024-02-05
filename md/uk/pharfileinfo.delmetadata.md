@@ -27,7 +27,7 @@ public PharFileInfo::delMetadata(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**или**`false`** залежно від успішності виконання. Так як ця функціональність змінює phar-архів, необхідно, щоб опція [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено, інакше внести зміни до архіву [Phar](class.phar.md) не вийде. На архіви [PharData](class.phardata.md) обмеження на запис не поширюється.
+Повертає **`true`** або **`false`** залежно від успішності виконання. Так як ця функціональність змінює phar-архів, необхідно, щоб опція [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено, інакше внести зміни до архіву [Phar](class.phar.md) не вийде. На архіви [PharData](class.phardata.md) обмеження на запис не поширюється.
 
 ### Помилки
 
@@ -35,7 +35,7 @@ public PharFileInfo::delMetadata(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::delMetaData()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::delMetaData()\*\*\*\*
 
 ```php
 <?php

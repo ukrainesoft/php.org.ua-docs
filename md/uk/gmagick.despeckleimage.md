@@ -35,7 +35,7 @@ public Gmagick::despeckleimage(): Gmagick
 
 ### Приклади
 
-**Пример #1 Пример использования**Gmagick::despeckleimage()\*\*\*\*
+**Приклад #1 Приклад використання** Gmagick::despeckleimage()\*\*\*\*
 
 ```php
 <?php

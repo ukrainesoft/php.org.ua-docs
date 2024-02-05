@@ -43,7 +43,7 @@ datefmt_get_error_message(IntlDateFormatter $formatter): string
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_get\_error\_message()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_get\_error\_message()\*\*\*\*
 
 ```php
 <?php

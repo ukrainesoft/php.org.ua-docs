@@ -37,7 +37,7 @@ public PharData::delMetadata(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::delMetaData()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::delMetaData()\*\*\*\*
 
 ```php
 <?php

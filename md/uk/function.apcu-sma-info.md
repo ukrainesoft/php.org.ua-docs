@@ -33,7 +33,7 @@ apcu_sma_info(bool $limited = false): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**apcu\_sma\_info()\*\*\*\*
+**Приклад #1 Приклад використання** apcu\_sma\_info()\*\*\*\*
 
 ```php
 <?php

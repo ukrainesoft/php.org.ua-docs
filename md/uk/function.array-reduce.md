@@ -59,7 +59,7 @@ callback(mixed $carry, mixed $item): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_reduce()\*\*\*\*
+**Приклад #1 Приклад використання** array\_reduce()\*\*\*\*
 
 ```php
 <?php

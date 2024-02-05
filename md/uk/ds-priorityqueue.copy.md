@@ -31,7 +31,7 @@ public Ds\PriorityQueue::copy(): Ds\PriorityQueue
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\PriorityQueue::copy()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\PriorityQueue::copy()\*\*\*\*
 
 ```php
 <?php

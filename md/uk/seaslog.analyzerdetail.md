@@ -60,7 +60,7 @@ public static SeasLog::analyzerDetail(    string $level,    string $log_
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::analyzerDetail()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::analyzerDetail()\*\*\*\*
 
 ```php
 <?php

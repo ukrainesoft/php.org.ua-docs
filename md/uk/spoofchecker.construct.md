@@ -15,7 +15,7 @@ Spoofchecker::\_\_construct - Конструктор класу
 
 ### Опис
 
-public**Spoofchecker::\_\_construct**()
+public **Spoofchecker::\_\_construct**()
 
 Створює екземпляр класу Spoofchecker.
 

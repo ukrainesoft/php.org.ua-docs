@@ -44,7 +44,7 @@ final
 * Сохраняем событийный цикл kqueue/socket-only в loop_socket. (Можем, опционально
 * использовать флаг EVFLAG_NOENV)
 *
-* Пример взят с сайта
+* Приклад взят с сайта
 * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
 $loop        = EvLoop::defaultLoop();

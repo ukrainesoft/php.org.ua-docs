@@ -41,7 +41,7 @@ public Imagick::negateImage(bool $gray, int $channel = Imagick::CHANNEL_DEFAULT)
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::negateImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::negateImage()\*\*\*\*
 
 ```php
 <?php

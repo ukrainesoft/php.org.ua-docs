@@ -40,7 +40,7 @@ public ReflectionGenerator::getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJE
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionGenerator::getTrace()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionGenerator::getTrace()\*\*\*\*
 
 ```php
 <?php

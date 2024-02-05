@@ -47,7 +47,7 @@ datefmt_set_lenient(IntlDateFormatter $formatter, bool $lenient): void
 
 ### Приклади
 
-**Пример #1 Пример использования**datefmt\_set\_lenient()\*\*\*\*
+**Приклад #1 Приклад використання** datefmt\_set\_lenient()\*\*\*\*
 
 ```php
 <?php

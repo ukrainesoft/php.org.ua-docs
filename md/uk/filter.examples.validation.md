@@ -9,7 +9,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Перевірка (валідація)
 
-**Пример #1 Валидация e-mail адреса, используя функцию[filter\_var()](function.filter-var.md)**
+**Приклад #1 Валидация e-mail адреса, используя функцию[filter\_var()](function.filter-var.md)**
 
 ```php
 <?php
@@ -34,7 +34,7 @@ E-mail адрес 'joe@example.com' указан верно.
 E-mail адрес 'bogus' указан неверно.
 ```
 
-**Пример #2 Валидация IP-адреса, используя функцию[filter\_var()](function.filter-var.md)**
+**Приклад #2 Валидация IP-адреса, используя функцию[filter\_var()](function.filter-var.md)**
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public Random\Engine\Xoshiro256StarStar::__unserialize(array $data): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Xoshiro256StarStar::\_\_unserialize()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Xoshiro256StarStar::\_\_unserialize()\*\*\*\*
 
 ```php
 <?php

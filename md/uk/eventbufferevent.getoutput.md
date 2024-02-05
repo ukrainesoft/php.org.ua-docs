@@ -34,7 +34,7 @@ public
 
 ### Приклади
 
-**Пример #1 Пример использования**EventBufferEvent::getOutput()\*\*\*\*
+**Приклад #1 Приклад використання** EventBufferEvent::getOutput()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ public Imagick::reduceNoiseImage(float $radius): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::reduceNoiseImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::reduceNoiseImage()\*\*\*\*
 
 ```php
 <?php

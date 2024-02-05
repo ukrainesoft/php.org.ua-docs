@@ -55,7 +55,7 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsy
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_verify()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_verify()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +78,7 @@ openssl_free_key($pubkeyid);
 ?>
 ```
 
-**Пример #2 Пример использования**openssl\_verify()\*\*\*\*
+**Приклад #2 Приклад використання** openssl\_verify()\*\*\*\*
 
 ```php
 <?php

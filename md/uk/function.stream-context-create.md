@@ -45,7 +45,7 @@ stream_context_create(?array $options = null, ?array $params = null): resource
 
 ### Приклади
 
-**Пример #1 Использование**stream\_context\_create()\*\*\*\*
+**Приклад #1 Использование**stream\_context\_create()\*\*\*\*
 
 ```php
 <?php

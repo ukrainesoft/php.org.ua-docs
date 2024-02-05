@@ -31,7 +31,7 @@ public DirectoryIterator::getExtension(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::getExtension()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::getExtension()\*\*\*\*
 
 ```php
 <?php

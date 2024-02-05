@@ -36,7 +36,7 @@ public ImagickKernel::scale(float $scale, int $normalizeFlag = ?): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickKernel::scale()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickKernel::scale()\*\*\*\*
 
 ```php
 <?php

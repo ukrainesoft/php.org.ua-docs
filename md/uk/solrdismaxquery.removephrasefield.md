@@ -33,7 +33,7 @@ public SolrDisMaxQuery::removePhraseField(string $field): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::removePhraseField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::removePhraseField()\*\*\*\*
 
 ```php
 <?php

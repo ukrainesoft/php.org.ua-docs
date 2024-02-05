@@ -39,7 +39,7 @@ public SolrClient::deleteByQuery(string $query): SolrUpdateResponse
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrQuery::deleteByQuery()\*\*\*\*
+**Приклад #1 Приклад використання** SolrQuery::deleteByQuery()\*\*\*\*
 
 ```php
 <?php

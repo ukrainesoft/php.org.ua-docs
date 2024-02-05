@@ -64,7 +64,7 @@ imagepolygon(    GdImage $image,    array $points,    int $num_point
 
 ### Приклади
 
-**Пример #1 Пример использования**imagepolygon()\*\*\*\*
+**Приклад #1 Приклад використання** imagepolygon()\*\*\*\*
 
 ```php
 <?php

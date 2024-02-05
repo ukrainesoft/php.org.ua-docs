@@ -15,7 +15,7 @@ Session::\_\_construct — Опис конструктора
 
 ### Опис
 
-private**mysql\_xdevapi\\Session::\_\_construct**()
+private **mysql\_xdevapi\\Session::\_\_construct**()
 
 Об'єкт Session, ініційований getSession().
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\Session::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ debug_zval_dump(mixed $value, mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**debug\_zval\_dump()\*\*\*\*
+**Приклад #1 Приклад використання** debug\_zval\_dump()\*\*\*\*
 
 ```php
 <?php

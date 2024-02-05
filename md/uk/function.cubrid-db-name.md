@@ -37,7 +37,7 @@ cubrid_db_name(array $result, int $index): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_db\_name()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_db\_name()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ ReflectionParameter::\_\_construct — Конструктор
 
 ### Опис
 
-public**ReflectionParameter::\_\_construct**(string|array|object`$function`, int|string`$param`) .
+public **ReflectionParameter::\_\_construct**(string|array|object`$function`, int|string`$param`) .
 
 Створює екземпляр [ReflectionParameter](class.reflectionparameter.md)
 
@@ -31,7 +31,7 @@ public**ReflectionParameter::\_\_construct**(string|array|object`$function`, int
 
 ### Приклади
 
-**Пример #1 Использования класса[ReflectionParameter](class.reflectionparameter.md)**
+**Приклад #1 Использования класса[ReflectionParameter](class.reflectionparameter.md)**
 
 ```php
 <?php

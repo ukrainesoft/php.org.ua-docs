@@ -31,7 +31,7 @@ public DirectoryIterator::rewind(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::rewind()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::rewind()\*\*\*\*
 
 ```php
 <?php

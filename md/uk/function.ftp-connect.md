@@ -47,7 +47,7 @@ ftp_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection
 
 ### Приклади
 
-**Пример #1 Пример использования**ftp\_connect()\*\*\*\*
+**Приклад #1 Приклад використання** ftp\_connect()\*\*\*\*
 
 ```php
 <?php

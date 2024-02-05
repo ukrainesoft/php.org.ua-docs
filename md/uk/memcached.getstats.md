@@ -33,7 +33,7 @@ public Memcached::getStats(?string $type = null): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::getStats()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::getStats()\*\*\*\*
 
 ```php
 <?php

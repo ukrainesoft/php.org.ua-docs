@@ -47,7 +47,7 @@ mysqli_data_seek(mysqli_result $result, int $offset): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::data\_seek()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::data\_seek()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

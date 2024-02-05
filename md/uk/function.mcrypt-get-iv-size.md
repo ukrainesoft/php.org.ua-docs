@@ -45,7 +45,7 @@ mcrypt_get_iv_size(string $cipher, string $mode): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_get\_iv\_size()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_get\_iv\_size()\*\*\*\*
 
 ```php
 <?php

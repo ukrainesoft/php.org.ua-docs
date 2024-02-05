@@ -45,7 +45,7 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_fetch\_all\_columns()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_fetch\_all\_columns()\*\*\*\*
 
 ```php
 <?php

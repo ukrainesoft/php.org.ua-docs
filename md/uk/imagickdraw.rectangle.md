@@ -49,7 +49,7 @@ public ImagickDraw::rectangle(    float $x1,    float $y1,    float 
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::rectangle()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::rectangle()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ HTTP код помилки.
 
 ### Приклади
 
-**Пример #1 Пример использования**EventHttpRequest::sendError()\*\*\*\*
+**Приклад #1 Приклад використання** EventHttpRequest::sendError()\*\*\*\*
 
 ```php
 <?php

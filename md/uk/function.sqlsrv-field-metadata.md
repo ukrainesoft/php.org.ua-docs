@@ -46,7 +46,7 @@ sqlsrv_field_metadata(resource $stmt): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_field\_metadata()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_field\_metadata()\*\*\*\*
 
 ```php
 <?php

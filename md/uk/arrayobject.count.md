@@ -35,7 +35,7 @@ public ArrayObject::count(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::count()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::count()\*\*\*\*
 
 ```php
 <?php

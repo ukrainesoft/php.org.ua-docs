@@ -43,7 +43,7 @@ mysqli_character_set_name(mysqli $mysql): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::character\_set\_name()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::character\_set\_name()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

@@ -33,7 +33,7 @@ public Ds\Deque::contains(mixed ...$values): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::contains()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::contains()\*\*\*\*
 
 ```php
 <?php

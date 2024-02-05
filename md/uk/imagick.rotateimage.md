@@ -43,7 +43,7 @@ public Imagick::rotateImage(mixed $background, float $degrees): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::rotateImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::rotateImage()\*\*\*\*
 
 ```php
 <?php

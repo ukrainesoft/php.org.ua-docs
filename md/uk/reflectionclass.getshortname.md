@@ -31,7 +31,7 @@ public ReflectionClass::getShortName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getShortName()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getShortName()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public Random\Engine\Xoshiro256StarStar::__debugInfo(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Xoshiro256StarStar::\_\_debugInfo()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Xoshiro256StarStar::\_\_debugInfo()\*\*\*\*
 
 ```php
 <?php

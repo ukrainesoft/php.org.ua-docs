@@ -326,7 +326,7 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 Вказує список директорій, у яких функції [require](function.require.md) [include](function.include.md) [fopen()](function.fopen.md) [file()](function.file.md) [readfile()](function.readfile.md) і [file\_get\_contents()](function.file-get-contents.md) шукають файли Формат відповідає формату системної змінної оточення PATH: список директорій, розділених двокрапкою в Unix або крапкою з комою у Windows.
 
-При пошуку файлів, що підключаються, PHP окремо розглядає кожне значення в include\_path. Він перевіряє перший шлях, якщо файл у ньому не знайдений, то він переходить до наступного, і так до тих пір, поки не знайде файл, що підключається, або поверне **`E_WARNING`**или**`E_ERROR`**. Ви можете змінити ваш include\_path під час виконання скрипту за допомогою функції [set\_include\_path()](function.set-include-path.md)
+При пошуку файлів, що підключаються, PHP окремо розглядає кожне значення в include\_path. Він перевіряє перший шлях, якщо файл у ньому не знайдений, то він переходить до наступного, і так до тих пір, поки не знайде файл, що підключається, або поверне **`E_WARNING`** або **`E_ERROR`**. Ви можете змінити ваш include\_path під час виконання скрипту за допомогою функції [set\_include\_path()](function.set-include-path.md)
 
 **Приклад #1 include\_path в Unix**
 

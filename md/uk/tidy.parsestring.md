@@ -59,7 +59,7 @@ tidy_parse_string(string $string, array|string|null $config = null, ?string $enc
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::parseString()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::parseString()\*\*\*\*
 
 ```php
 <?php

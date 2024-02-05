@@ -48,7 +48,7 @@ pg_tty(?PgSql\Connection $connection = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_tty()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_tty()\*\*\*\*
 
 ```php
 <?php

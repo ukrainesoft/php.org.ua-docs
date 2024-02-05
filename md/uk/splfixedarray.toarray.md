@@ -31,7 +31,7 @@ public SplFixedArray::toArray(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFixedArray::toArray()\*\*\*\*
+**Приклад #1 Приклад використання** SplFixedArray::toArray()\*\*\*\*
 
 ```php
 <?php

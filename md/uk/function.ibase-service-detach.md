@@ -31,7 +31,7 @@ ibase_service_detach(resource $service_handle): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_service\_detach()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_service\_detach()\*\*\*\*
 
 ```php
 <?php

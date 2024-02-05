@@ -37,7 +37,7 @@ public Ds\Deque::remove(int $index): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::remove()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::remove()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public SplObjectStorage::setInfo(mixed $info): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::setInfo()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::setInfo()\*\*\*\*
 
 ```php
 <?php

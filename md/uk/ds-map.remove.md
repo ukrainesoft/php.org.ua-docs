@@ -55,7 +55,7 @@ public Ds\Map::remove(mixed $key, mixed $default = ?): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::remove()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::remove()\*\*\*\*
 
 ```php
 <?php

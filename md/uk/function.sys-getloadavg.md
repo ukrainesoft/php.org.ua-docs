@@ -31,7 +31,7 @@ sys_getloadavg(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**sys\_getloadavg()\*\*\*\*
+**Приклад #1 Приклад використання** sys\_getloadavg()\*\*\*\*
 
 ```php
 <?php

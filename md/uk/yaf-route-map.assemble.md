@@ -37,7 +37,7 @@ public Yaf_Route_Map::assemble(array $info, array $query = ?): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Route\_Map::assemble()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Route\_Map::assemble()\*\*\*\*
 
 ```php
 <?php

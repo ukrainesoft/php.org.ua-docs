@@ -33,7 +33,7 @@ posix_getpgid(int $process_id): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getpgid()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getpgid()\*\*\*\*
 
 ```php
 <?php

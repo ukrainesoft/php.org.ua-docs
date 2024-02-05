@@ -128,7 +128,7 @@ vfprintf(resource $stream, string $format, array $values): int
 
 ### Приклади
 
-**Пример #1**vfprintf()**: доповнення нулями цілих чисел**
+**Приклад #1**vfprintf()**: доповнення нулями цілих чисел**
 
 ```php
 <?php

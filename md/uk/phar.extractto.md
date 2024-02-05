@@ -45,7 +45,7 @@ public Phar::extractTo(string $directory, array|string|null $files = null, bool 
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::extractTo()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::extractTo()\*\*\*\*
 
 ```php
 <?php

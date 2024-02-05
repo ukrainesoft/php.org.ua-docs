@@ -45,7 +45,7 @@ shell_exec(string $command): string|false|null
 
 ### Приклади
 
-**Пример #1 Пример использования**shell\_exec()\*\*\*\*
+**Приклад #1 Приклад використання** shell\_exec()\*\*\*\*
 
 ```php
 <?php

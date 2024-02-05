@@ -43,7 +43,7 @@ convert_uuencode(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**convert\_uuencode()\*\*\*\*
+**Приклад #1 Приклад використання** convert\_uuencode()\*\*\*\*
 
 ```php
 <?php

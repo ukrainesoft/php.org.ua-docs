@@ -33,7 +33,7 @@ numfmt_create(string $locale, int $style, ?string $pattern = null): ?NumberForma
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public**NumberFormatter::\_\_construct**(string`$locale`, int`$style`, ?string`$pattern` **`null`**) .
+public **NumberFormatter::\_\_construct**(string`$locale`, int`$style`, ?string`$pattern` **`null`**) .
 
 Створює засіб форматування чисел.
 
@@ -45,7 +45,7 @@ public**NumberFormatter::\_\_construct**(string`$locale`, int`$style`, ?string`$
 
 `style`
 
-Стиль форматування, одна з констант [стилю форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`**или**`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документації ICU DecimalFormat](https://unicode-org.github.io/icu-docs/apidoc/released/icu4c/classDecimalFormat.md) або [» документації ICU RuleBasedNumberFormat](https://unicode-org.github.io/icu/userguide/format_parse/numbers/rbnf.md)відповідно.
+Стиль форматування, одна з констант [стилю форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`** або **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документації ICU DecimalFormat](https://unicode-org.github.io/icu-docs/apidoc/released/icu4c/classDecimalFormat.md) або [» документації ICU RuleBasedNumberFormat](https://unicode-org.github.io/icu/userguide/format_parse/numbers/rbnf.md)відповідно.
 
 `pattern`
 
@@ -63,7 +63,7 @@ public**NumberFormatter::\_\_construct**(string`$locale`, int`$style`, ?string`$
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_create()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_create()\*\*\*\*
 
 ```php
 <?php
@@ -74,7 +74,7 @@ echo numfmt_format($fmt, 1142)."\n";
 ?>
 ```
 
-**Пример #2 Пример использования**NumberFormatter::create()\*\*\*\*
+**Приклад #2 Приклад використання** NumberFormatter::create()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public SolrQuery::addFilterQuery(string $fq): SolrQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrQuery::addFilterQuery()\*\*\*\*
+**Приклад #1 Приклад використання** SolrQuery::addFilterQuery()\*\*\*\*
 
 ```php
 <?php

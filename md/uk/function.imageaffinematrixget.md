@@ -29,9 +29,9 @@ imageaffinematrixget(int $type, array|float $options): array|false
 
 `options`
 
-Якщо `type`равен\*\*`IMG_AFFINE_TRANSLATE`**или**`IMG_AFFINE_SCALE`\*\* `options` має бути масивом (array) з ключами `x`и`y`обидва мають значення типу float.
+Якщо `type`равен\*\*`IMG_AFFINE_TRANSLATE`** або **`IMG_AFFINE_SCALE`\*\* `options` має бути масивом (array) з ключами `x`и`y`обидва мають значення типу float.
 
-Якщо `type`равен\*\*`IMG_AFFINE_ROTATE`\*\* **`IMG_AFFINE_SHEAR_HORIZONTAL`**или**`IMG_AFFINE_SHEAR_VERTICAL`** `options` повинен бути числом з плаваючою точкою (float), що визначає кут.
+Якщо `type`равен\*\*`IMG_AFFINE_ROTATE`\*\* **`IMG_AFFINE_SHEAR_HORIZONTAL`** або **`IMG_AFFINE_SHEAR_VERTICAL`** `options` повинен бути числом з плаваючою точкою (float), що визначає кут.
 
 ### Значення, що повертаються
 
@@ -39,7 +39,7 @@ imageaffinematrixget(int $type, array|float $options): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imageaffinematrixget()\*\*\*\*
+**Приклад #1 Приклад використання** imageaffinematrixget()\*\*\*\*
 
 ```php
 <?php

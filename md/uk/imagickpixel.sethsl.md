@@ -41,7 +41,7 @@ public ImagickPixel::setHSL(float $hue, float $saturation, float $luminosity): b
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixel::setHSL()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixel::setHSL()\*\*\*\*
 
 ```php
 <?php

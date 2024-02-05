@@ -37,7 +37,7 @@ public static Imagick::queryFonts(string $pattern = "*"): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::queryFonts()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::queryFonts()\*\*\*\*
 
 ```php
 <?php

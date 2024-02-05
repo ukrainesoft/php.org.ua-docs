@@ -41,7 +41,7 @@ stream_socket_shutdown(resource $stream, int $mode): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_socket\_shutdown()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_socket\_shutdown()\*\*\*\*
 
 ```php
 <?php

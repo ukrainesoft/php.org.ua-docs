@@ -31,7 +31,7 @@ oci_client_version(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_client\_version()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_client\_version()\*\*\*\*
 
 ```php
 <?php

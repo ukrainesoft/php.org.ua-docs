@@ -19,11 +19,11 @@ imagesetbrush — Встановлення зображення (пензля), 
 imagesetbrush(GdImage $image, GdImage $brush): bool
 ```
 
-**imagesetbrush()** задає зображення, яке використовуватиметься функціями для малювання ліній (такими як [imageline()](function.imageline.md) і [imagepolygon()](function.imagepolygon.md)) при использовании цветов\*\*`IMG_COLOR_BRUSHED`**или**`IMG_COLOR_STYLEDBRUSHED`\*\*
+**imagesetbrush()** задає зображення, яке використовуватиметься функціями для малювання ліній (такими як [imageline()](function.imageline.md) і [imagepolygon()](function.imagepolygon.md)) при использовании цветов\*\*`IMG_COLOR_BRUSHED`** або **`IMG_COLOR_STYLEDBRUSHED`\*\*
 
 **Застереження**
 
-Додаткові дії після завершення роботи з пензлем не потрібні, проте якщо зображення пензля знищено, не можна користуватися квітами **`IMG_COLOR_BRUSHED`**или**`IMG_COLOR_STYLEDBRUSHED`**, доки не буде встановлено нове зображення пензля!
+Додаткові дії після завершення роботи з пензлем не потрібні, проте якщо зображення пензля знищено, не можна користуватися квітами **`IMG_COLOR_BRUSHED`** або **`IMG_COLOR_STYLEDBRUSHED`**, доки не буде встановлено нове зображення пензля!
 
 ### Список параметрів
 
@@ -47,7 +47,7 @@ imagesetbrush(GdImage $image, GdImage $brush): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagesetbrush()\*\*\*\*
+**Приклад #1 Приклад використання** imagesetbrush()\*\*\*\*
 
 ```php
 <?php

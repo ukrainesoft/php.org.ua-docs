@@ -61,7 +61,7 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 ### Приклади
 
-**Пример #1 Пример**win32\_start\_service\_ctrl\_dispatcher()\*\*\*\*
+**Приклад #1 Приклад**win32\_start\_service\_ctrl\_dispatcher()\*\*\*\*
 
 Перевірте, чи запущено сервіс у диспетчері служб.
 

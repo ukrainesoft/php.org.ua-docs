@@ -31,7 +31,7 @@ public RarEntry::getAttr(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**RarEntry::getAttr()\*\*\*\*
+**Приклад #1 Приклад використання** RarEntry::getAttr()\*\*\*\*
 
 ```php
 <?php

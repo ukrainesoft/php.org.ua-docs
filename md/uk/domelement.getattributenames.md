@@ -31,7 +31,7 @@ public DOMElement::getAttributeNames(): array
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::getAttributeNames()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::getAttributeNames()\*\*\*\*
 
 ```php
 <?php

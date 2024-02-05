@@ -33,7 +33,7 @@ public ReflectionClass::getProperty(string $name): ReflectionProperty
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getProperty()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getProperty()\*\*\*\*
 
 ```php
 <?php

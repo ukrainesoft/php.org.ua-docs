@@ -37,7 +37,7 @@ xattr_supported(string $filename, int $flags = 0): bool
 
 ### Приклади
 
-**Пример #1**xattr\_supported()**example**
+**Приклад #1**xattr\_supported()**example**
 
 Перевірте, чи можна використовувати розширені атрибути.
 

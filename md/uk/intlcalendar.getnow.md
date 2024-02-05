@@ -39,7 +39,7 @@ intlcal_get_now(): float
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getNow()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getNow()\*\*\*\*
 
 ```php
 <?php

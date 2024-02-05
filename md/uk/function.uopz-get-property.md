@@ -45,7 +45,7 @@ uopz_get_property(object $instance, string $property): mixed
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_get\_property()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_get\_property()\*\*\*\*
 
 ```php
 <?php

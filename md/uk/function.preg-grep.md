@@ -45,7 +45,7 @@ preg_grep(string $pattern, array $array, int $flags = 0): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**preg\_grep()\*\*\*\*
+**Приклад #1 Приклад використання** preg\_grep()\*\*\*\*
 
 ```php
 <?php

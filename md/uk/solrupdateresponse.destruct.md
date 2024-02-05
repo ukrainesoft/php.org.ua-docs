@@ -15,7 +15,7 @@ SolrUpdateResponse::\_\_destruct - Деструктор
 
 ### Опис
 
-public**SolrUpdateResponse::\_\_destruct**()
+public **SolrUpdateResponse::\_\_destruct**()
 
 Деструктор
 

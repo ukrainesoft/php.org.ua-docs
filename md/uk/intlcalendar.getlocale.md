@@ -45,7 +45,7 @@ intlcal_get_locale(IntlCalendar $calendar, int $type): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getLocale()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getLocale()\*\*\*\*
 
 ```php
 <?php

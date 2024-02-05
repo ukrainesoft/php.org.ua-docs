@@ -31,7 +31,7 @@ intl_get_error_message(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**intl\_get\_error\_message()\*\*\*\*
+**Приклад #1 Приклад використання** intl\_get\_error\_message()\*\*\*\*
 
 ```php
 <?php

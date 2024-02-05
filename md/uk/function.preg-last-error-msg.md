@@ -31,7 +31,7 @@ preg_last_error_msg(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**preg\_last\_error\_msg()\*\*\*\*
+**Приклад #1 Приклад використання** preg\_last\_error\_msg()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ uopz_set_hook(string $class, string $function, Closure $hook): bool
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_set\_hook()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_set\_hook()\*\*\*\*
 
 ```php
 <?php

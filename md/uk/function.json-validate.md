@@ -63,7 +63,7 @@ json_validate(string $json, int $depth = 512, int $flags = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**json\_validate()\*\*\*\*
+**Приклад #1 Приклад використання** json\_validate()\*\*\*\*
 
 ```php
 <?php

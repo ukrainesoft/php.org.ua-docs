@@ -31,7 +31,7 @@ public Random\Engine\Mt19937::__debugInfo(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Mt19937::\_\_debugInfo()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Mt19937::\_\_debugInfo()\*\*\*\*
 
 ```php
 <?php

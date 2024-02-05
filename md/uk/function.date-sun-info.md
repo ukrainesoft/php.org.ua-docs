@@ -83,7 +83,7 @@ date_sun_info(int $timestamp, float $latitude, float $longitude): array
 
 ### Приклади
 
-**Пример #1 Пример использования**date\_sun\_info()\*\*\*\*
+**Приклад #1 Приклад використання** date\_sun\_info()\*\*\*\*
 
 ```php
 <?php

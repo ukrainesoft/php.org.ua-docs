@@ -57,7 +57,7 @@ png2wbmp(    string $pngname,    string $wbmpname,    int $dest_heig
 
 ### Приклади
 
-**Пример #1 Пример использования**png2wbmp()\*\*\*\*
+**Приклад #1 Приклад використання** png2wbmp()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public SplFileInfo::getPath(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getPath()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getPath()\*\*\*\*
 
 ```php
 <?php

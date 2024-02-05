@@ -15,7 +15,7 @@ Swoole\\Process::\_\_construct — Створює процес
 
 ### Опис
 
-public**Swoole\\Process::\_\_construct** [callable](language.types.callable.md) `$callback`, bool`$redirect_stdin_and_stdout`\= ?, int`$pipe_type`
+public **Swoole\\Process::\_\_construct** [callable](language.types.callable.md) `$callback`, bool`$redirect_stdin_and_stdout`\= ?, int`$pipe_type`
 
 ### Список параметрів
 

@@ -41,7 +41,7 @@ An[PgSql\\Lob](class.pgsql-lob.md)instance, returned by[pg\_lo\_open()](function
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_lo\_tell()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_lo\_tell()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ Phar::\_\_destruct — Знищує об'єкт архіву Phar
 
 ### Опис
 
-public**Phar::\_\_destruct**()
+public **Phar::\_\_destruct**()
 
 ### Список параметрів
 

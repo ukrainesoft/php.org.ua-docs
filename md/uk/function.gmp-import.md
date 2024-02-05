@@ -47,7 +47,7 @@ gmp_import(string $data, int $word_size = 1, int $flags = GMP_MSW_FIRST | GMP_NA
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_import()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_import()\*\*\*\*
 
 ```php
 <?php

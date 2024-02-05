@@ -44,7 +44,7 @@ mysql_field_len(resource $result, int $field_offset): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_field\_len()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_field\_len()\*\*\*\*
 
 ```php
 <?php

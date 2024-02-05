@@ -41,11 +41,11 @@ intlcal_get_skipped_wall_time_option(IntlCalendar $calendar): int
 
 ### Значення, що повертаються
 
-Одна из констант:**`IntlCalendar::WALLTIME_FIRST`** **`IntlCalendar::WALLTIME_LAST`**или**`IntlCalendar::WALLTIME_NEXT_VALID`**
+Одна из констант:**`IntlCalendar::WALLTIME_FIRST`** **`IntlCalendar::WALLTIME_LAST`** або **`IntlCalendar::WALLTIME_NEXT_VALID`**
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getSkippedWallTimeOption()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getSkippedWallTimeOption()\*\*\*\*
 
 ```php
 <?php

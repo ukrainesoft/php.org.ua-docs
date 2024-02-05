@@ -29,7 +29,7 @@ dba_key_split(string|false|null $key): array|false
 
 ### Значення, що повертаються
 
-Повертає масив такого виду `array(0 => group, 1 => value_name)`. Ця функція повертає **`false`**, якщо `key`равен\*\*`null`**или**`false`\*\*
+Повертає масив такого виду `array(0 => group, 1 => value_name)`. Ця функція повертає **`false`**, якщо `key`равен\*\*`null`** або **`false`\*\*
 
 ### Дивіться також
 

@@ -47,7 +47,7 @@ imageinterlace(GdImage $image, ?bool $enable = null): bool
 
 ### Приклади
 
-**Пример #1 Включение интерлейсинга, используя**imageinterlace()\*\*\*\*
+**Приклад #1 Включение интерлейсинга, используя**imageinterlace()\*\*\*\*
 
 ```php
 <?php

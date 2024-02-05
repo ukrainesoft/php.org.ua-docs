@@ -19,7 +19,7 @@ CURLFile::\_\_construct -- curl\_file\_create — Створює об'єкт CUR
 
 Об'єктно-орієнтований стиль
 
-public**CURLFile::\_\_construct**(string`$filename`, ?string`$mime_type` **`null`**, ?string`$posted_filename` **`null`**) .
+public **CURLFile::\_\_construct**(string`$filename`, ?string`$mime_type` **`null`**, ?string`$posted_filename` **`null`**) .
 
 Процедурний стиль
 
@@ -55,7 +55,7 @@ Mime-тип файлу.
 
 ### Приклади
 
-**Пример #1 Пример использования**CURLFile::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** CURLFile::\_\_construct()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -125,7 +125,7 @@ array(1) {
 }
 ```
 
-**Пример #2 Пример использования**CURLFile::\_\_construct()\*\* для завантаження кількох файлів\*\*
+**Приклад #2 Приклад використання** CURLFile::\_\_construct()\*\* для завантаження кількох файлів\*\*
 
 Об'єктно-орієнтований стиль
 

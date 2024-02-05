@@ -64,7 +64,7 @@ tidy_repair_file(    string $filename,    array|string|null $config = nu
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy::repairFile()\*\*\*\*
+**Приклад #1 Приклад використання** tidy::repairFile()\*\*\*\*
 
 ```php
 <?php

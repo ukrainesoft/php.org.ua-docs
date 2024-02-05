@@ -31,7 +31,7 @@ abstract public Ds\Sequence::capacity(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::capacity()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::capacity()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ public Memcached::getMulti(array $keys, int $get_flags = 0): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::getMulti()\*\* версії 3\*\*
+**Приклад #1 Приклад використання** Memcached::getMulti()\*\* версії 3\*\*
 
 ```php
 <?php
@@ -80,7 +80,7 @@ array(2) {
 }
 ```
 
-**Пример #2 Пример использования**Memcached::getMulti()\*\* версій 1 та 2\*\*
+**Приклад #2 Приклад використання** Memcached::getMulti()\*\* версій 1 та 2\*\*
 
 ```php
 <?php
@@ -117,7 +117,7 @@ array(2) {
 }
 ```
 
-**Пример #3 Пример использования**`Memcached::GET_PRESERVE_ORDER`\*\* з версією 3\*\*
+**Приклад #3 Приклад використання** `Memcached::GET_PRESERVE_ORDER`\*\* з версією 3\*\*
 
 ```php
 <?php
@@ -157,7 +157,7 @@ kek kek-data
 zoo
 ```
 
-**Пример #4 Пример использования**`Memcached::GET_PRESERVE_ORDER`\*\* з версією 1 та 2\*\*
+**Приклад #4 Приклад використання** `Memcached::GET_PRESERVE_ORDER`\*\* з версією 1 та 2\*\*
 
 ```php
 <?php

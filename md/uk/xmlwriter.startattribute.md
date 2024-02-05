@@ -53,7 +53,7 @@ xmlwriter_start_attribute(XMLWriter $writer, string $name): bool
 
 ### Приклади
 
-**Пример #1 Пример базового использования**XMLWriter::startAttribute()\*\*\*\*
+**Приклад #1 Приклад базового использования**XMLWriter::startAttribute()\*\*\*\*
 
 ```php
 <?php

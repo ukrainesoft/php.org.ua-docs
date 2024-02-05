@@ -31,7 +31,7 @@ public SplFileObject::getFlags(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::getFlags()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::getFlags()\*\*\*\*
 
 ```php
 <?php

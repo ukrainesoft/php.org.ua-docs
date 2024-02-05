@@ -72,7 +72,7 @@ exif_imagetype(string $filename): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**exif\_imagetype()\*\*\*\*
+**Приклад #1 Приклад використання** exif\_imagetype()\*\*\*\*
 
 ```php
 <?php

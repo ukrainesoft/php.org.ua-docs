@@ -60,7 +60,7 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### Приклади
 
-**Пример #1 Пример[finfo\_buffer()](finfo.buffer.md)**
+**Приклад #1 Приклад[finfo\_buffer()](finfo.buffer.md)**
 
 ```php
 <?php

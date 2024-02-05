@@ -138,7 +138,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 ?>
 ```
 
-**Пример #6 createGradientImage is used by other examples**Imagick::sparseColorImage()\*\*\*\*
+**Приклад #6 createGradientImage is used by other examples**Imagick::sparseColorImage()\*\*\*\*
 
 ```php
 <?php

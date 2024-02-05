@@ -33,7 +33,7 @@ public Ds\Deque::push(mixed ...$values): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::push()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::push()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ public Imagick::orderedPosterizeImage(string $threshold_map, int $channel = Imag
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::orderedPosterizeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::orderedPosterizeImage()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public static Imagick::queryFormats(string $pattern = "*"): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::queryFormats()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::queryFormats()\*\*\*\*
 
 ```php
 <?php

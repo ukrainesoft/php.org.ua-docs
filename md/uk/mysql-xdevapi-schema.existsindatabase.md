@@ -31,7 +31,7 @@ public mysql_xdevapi\Schema::existsInDatabase(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::existsInDatabase()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Schema::existsInDatabase()\*\*\*\*
 
 ```php
 <?php

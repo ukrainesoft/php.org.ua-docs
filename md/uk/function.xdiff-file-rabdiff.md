@@ -43,7 +43,7 @@ xdiff_file_rabdiff(string $old_file, string $new_file, string $dest): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**xdiff\_file\_rabdiff()\*\*\*\*
+**Приклад #1 Приклад використання** xdiff\_file\_rabdiff()\*\*\*\*
 
 Наступний код порівнює два архіви та створює патч.
 

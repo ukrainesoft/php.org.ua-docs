@@ -37,7 +37,7 @@ cubrid_lob2_import(resource $lob_identifier, string $file_name): bool
 
 ### Приклади
 
-**Пример #1 Пример использования[cubrid\_lob2\_export()](function.cubrid-lob2-export.md)**
+**Приклад #1 Приклад использования[cubrid\_lob2\_export()](function.cubrid-lob2-export.md)**
 
 ```php
 <?php

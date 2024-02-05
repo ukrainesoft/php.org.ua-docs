@@ -49,7 +49,7 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_last\_oid()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_last\_oid()\*\*\*\*
 
 ```php
 <?php

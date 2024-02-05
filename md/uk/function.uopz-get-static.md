@@ -41,7 +41,7 @@ uopz_get_static(string $function): array
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_get\_static()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_get\_static()\*\*\*\*
 
 ```php
 <?php

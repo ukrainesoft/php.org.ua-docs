@@ -39,7 +39,7 @@ public SolrClient::query(SolrParams $query): SolrQueryResponse
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrClient::query()\*\*\*\*
+**Приклад #1 Приклад використання** SolrClient::query()\*\*\*\*
 
 ```php
 <?php

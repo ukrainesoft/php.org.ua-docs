@@ -61,7 +61,7 @@ public PharData::convertToExecutable(?int $format = null, ?int $compression = nu
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::convertToExecutable()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::convertToExecutable()\*\*\*\*
 
 Використовуємо PharData::convertToExecutable():
 

@@ -49,7 +49,7 @@ public ImagickDraw::pathCurveToQuadraticBezierAbsolute(    float $x1,   �
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::pathCurveToQuadraticBezierAbsolute()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::pathCurveToQuadraticBezierAbsolute()\*\*\*\*
 
 ```php
 <?php

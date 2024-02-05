@@ -31,7 +31,7 @@ public mysql_xdevapi\Session::commit(): Object
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::commit()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::commit()\*\*\*\*
 
 ```php
 <?php

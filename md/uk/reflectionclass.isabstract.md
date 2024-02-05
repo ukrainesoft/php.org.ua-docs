@@ -31,7 +31,7 @@ public ReflectionClass::isAbstract(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::isAbstract()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::isAbstract()\*\*\*\*
 
 ```php
 <?php

@@ -65,7 +65,7 @@ strptime(string $timestamp, string $format): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**strptime()\*\*\*\*
+**Приклад #1 Приклад використання** strptime()\*\*\*\*
 
 ```php
 <?php

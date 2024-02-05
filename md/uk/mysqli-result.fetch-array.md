@@ -47,7 +47,7 @@ mysqli_fetch_array(mysqli_result $result, int $mode = MYSQLI_BOTH): array|null|f
 
 `mode`
 
-Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`**или**`MYSQLI_BOTH`**
+Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`** або **`MYSQLI_BOTH`**
 
 При використанні константи **`MYSQLI_ASSOC`** функція поводитиметься ідентично [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.md), а при\*\*`MYSQLI_NUM`\*\* ідентично функції [mysqli\_fetch\_row()](mysqli-result.fetch-row.md)При задании\*\*`MYSQLI_BOTH`\*\* функція створить один масив, що включає атрибути обох варіантів.
 
@@ -57,7 +57,7 @@ mysqli_fetch_array(mysqli_result $result, int $mode = MYSQLI_BOTH): array|null|f
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_result::fetch\_array()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_result::fetch\_array()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

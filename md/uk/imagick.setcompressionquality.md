@@ -37,7 +37,7 @@ public Imagick::setCompressionQuality(int $quality): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setCompressionQuality()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setCompressionQuality()\*\*\*\*
 
 ```php
 <?php

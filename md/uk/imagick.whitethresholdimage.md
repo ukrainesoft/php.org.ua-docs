@@ -37,7 +37,7 @@ public Imagick::whiteThresholdImage(mixed $threshold): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::whiteThresholdImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::whiteThresholdImage()\*\*\*\*
 
 ```php
 <?php

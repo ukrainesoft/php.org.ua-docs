@@ -31,7 +31,7 @@ public static RarException::isUsingExceptions(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**RarException::isUsingExceptions()\*\*\*\*
+**Приклад #1 Приклад використання** RarException::isUsingExceptions()\*\*\*\*
 
 ```php
 <?php

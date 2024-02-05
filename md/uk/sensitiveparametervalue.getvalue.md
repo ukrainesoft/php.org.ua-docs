@@ -33,7 +33,7 @@ public SensitiveParameterValue::getValue(): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**SensitiveParameterValue::getValue()\*\*\*\*
+**Приклад #1 Приклад використання** SensitiveParameterValue::getValue()\*\*\*\*
 
 ```php
 <?php

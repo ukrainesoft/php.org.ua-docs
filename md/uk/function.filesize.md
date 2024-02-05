@@ -39,12 +39,12 @@ filesize(string $filename): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования функции**filesize()\*\*\*\*
+**Приклад #1 Приклад использования функции**filesize()\*\*\*\*
 
 ```php
 <?php
 
-// Пример вывода: Размер файла somefile.txt: 1024 байтов
+// Приклад вывода: Размер файла somefile.txt: 1024 байтов
 
 $filename = 'somefile.txt';
 echo 'Размер файла ' . $filename . ': ' . filesize($filename) . ' байтов';

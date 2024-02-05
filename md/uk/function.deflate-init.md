@@ -45,11 +45,11 @@ memory
 
 window
 
-Розмір вікна zlib (логарифмічний) у діапазоні `8` .. . `15`; по умолчанию`15`zlib изменяет размер окна с`8`на`9`, а з zlib 1.2.8 видаватиме попередження, якщо запитується розмір вікна рівний `8`для\*\*`ZLIB_ENCODING_RAW`**или**`ZLIB_ENCODING_GZIP`\*\*
+Розмір вікна zlib (логарифмічний) у діапазоні `8` .. . `15`; по умолчанию`15`zlib изменяет размер окна с`8`на`9`, а з zlib 1.2.8 видаватиме попередження, якщо запитується розмір вікна рівний `8`для\*\*`ZLIB_ENCODING_RAW`** або **`ZLIB_ENCODING_GZIP`\*\*
 
 strategy
 
-Одна из констант:**`ZLIB_FILTERED`** **`ZLIB_HUFFMAN_ONLY`** **`ZLIB_RLE`** **`ZLIB_FIXED`**или**`ZLIB_DEFAULT_STRATEGY`**(по умолчанию).
+Одна из констант:**`ZLIB_FILTERED`** **`ZLIB_HUFFMAN_ONLY`** **`ZLIB_RLE`** **`ZLIB_FIXED`** або **`ZLIB_DEFAULT_STRATEGY`**(по умолчанию).
 
 dictionary
 

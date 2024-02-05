@@ -63,7 +63,7 @@ public
 
 `family`
 
-Семейство адресов\*\*`EventUtil::AF_UNSPEC`\*\* \*\*`EventUtil::AF_INET`**или**`EventUtil::AF_INET6`\*\*Обратитесь к списку[констант EventUtil](class.eventutil.md#eventutil.constants)
+Семейство адресов\*\*`EventUtil::AF_UNSPEC`\*\* \*\*`EventUtil::AF_INET`** або **`EventUtil::AF_INET6`\*\*Обратитесь к списку[констант EventUtil](class.eventutil.md#eventutil.constants)
 
 ### Значення, що повертаються
 
@@ -71,7 +71,7 @@ public
 
 ### Приклади
 
-**Пример #1**Приклад використання EventBufferEvent::connectHost()\*\*\*\*
+**Приклад #1**Приклад використання EventBufferEvent::connectHost()\*\*\*\*
 
 ```php
 <?php

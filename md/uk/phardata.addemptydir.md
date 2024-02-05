@@ -33,7 +33,7 @@ public PharData::addEmptyDir(string $directory): void
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::addEmptyDir()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::addEmptyDir()\*\*\*\*
 
 ```php
 <?php

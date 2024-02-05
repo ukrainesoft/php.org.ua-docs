@@ -33,7 +33,7 @@ public mysql_xdevapi\Session::getSchema(string $schema_name): mysql_xdevapi\Sche
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::getSchema()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::getSchema()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ public mysql_xdevapi\Schema::createCollection(string $name, string $validate = ?
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::createCollection()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Schema::createCollection()\*\*\*\*
 
 ```php
 <?php
@@ -79,7 +79,7 @@ Array
 )
 ```
 
-**Пример #2 Пример использования метода**mysql\_xdevapi\\Schema::createCollection()\*\*\*\*
+**Приклад #2 Приклад использования метода**mysql\_xdevapi\\Schema::createCollection()\*\*\*\*
 
 ```php
 <?php

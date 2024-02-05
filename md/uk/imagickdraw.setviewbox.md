@@ -49,7 +49,7 @@ public ImagickDraw::setViewbox(    int $x1,    int $y1,    int $x2,�
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setViewBox()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setViewBox()\*\*\*\*
 
 ```php
 <?php

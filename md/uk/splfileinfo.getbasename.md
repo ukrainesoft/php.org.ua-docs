@@ -37,7 +37,7 @@ public SplFileInfo::getBasename(string $suffix = ""): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getBasename()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getBasename()\*\*\*\*
 
 ```php
 <?php

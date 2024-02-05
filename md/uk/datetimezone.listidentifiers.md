@@ -54,7 +54,7 @@ timezone_identifiers_list(int $timezoneGroup = DateTimeZone::ALL, ?string $count
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeZone::listIdentifiers()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeZone::listIdentifiers()\*\*\*\*
 
 ```php
 <?php

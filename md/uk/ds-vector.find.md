@@ -37,7 +37,7 @@ public Ds\Vector::find(mixed $value): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::find()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::find()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ cubrid_field_table(resource $result, int $field_offset): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_field\_table()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_field\_table()\*\*\*\*
 
 ```php
 <?php

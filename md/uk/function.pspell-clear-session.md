@@ -39,7 +39,7 @@ pspell_clear_session(PSpell\Dictionary $dictionary): bool
 
 ### Приклади
 
-**Пример #1 Пример использования[pspell\_add\_to\_personal()](function.pspell-add-to-personal.md)**
+**Приклад #1 Приклад использования[pspell\_add\_to\_personal()](function.pspell-add-to-personal.md)**
 
 ```php
 <?php

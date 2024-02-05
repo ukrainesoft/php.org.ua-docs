@@ -15,7 +15,7 @@ Random\\Engine\\Mt19937::\_\_construct — Створює новий об'єкт
 
 ### Опис
 
-public**Random\\Engine\\Mt19937::\_\_construct**(?int`$seed` **`null`**, int`$mode` **`MT_RAND_MT19937`**) .
+public **Random\\Engine\\Mt19937::\_\_construct**(?int`$seed` **`null`**, int`$mode` **`MT_RAND_MT19937`**) .
 
 **Застереження**
 
@@ -50,7 +50,7 @@ public**Random\\Engine\\Mt19937::\_\_construct**(?int`$seed` **`null`**, int`$mo
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Mt19937::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Mt19937::\_\_construct()\*\*\*\*
 
 ```php
 <?php

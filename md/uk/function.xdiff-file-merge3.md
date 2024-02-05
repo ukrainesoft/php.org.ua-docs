@@ -45,7 +45,7 @@ xdiff_file_merge3(    string $old_file,    string $new_file1,    str
 
 ### Приклади
 
-**Пример #1 Пример использования**xdiff\_file\_merge3()\*\*\*\*
+**Приклад #1 Приклад використання** xdiff\_file\_merge3()\*\*\*\*
 
 Наступний код поєднує три файли.
 

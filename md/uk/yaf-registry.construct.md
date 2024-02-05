@@ -15,7 +15,7 @@ Yaf\_Registry::\_\_construct — Yaf\_Registry реалізує шаблон п�
 
 ### Опис
 
-private**Yaf\_Registry::\_\_construct**()
+private **Yaf\_Registry::\_\_construct**()
 
 ### Список параметрів
 

@@ -45,7 +45,7 @@ public Memcached::cas(    string|int|float $cas_token,    string $key, 
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::cas()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::cas()\*\*\*\*
 
 ```php
 <?php

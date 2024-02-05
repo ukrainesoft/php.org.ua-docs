@@ -31,7 +31,7 @@ final public Error::getTraceAsString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Error::getTraceAsString()\*\*\*\*
+**Приклад #1 Приклад використання** Error::getTraceAsString()\*\*\*\*
 
 ```php
 <?php

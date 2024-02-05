@@ -31,7 +31,7 @@ public ImagickPixelIterator::getNextIteratorRow(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixelIterator::getNextIteratorRow()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixelIterator::getNextIteratorRow()\*\*\*\*
 
 ```php
 <?php

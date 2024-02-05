@@ -49,7 +49,7 @@ public DOMDocumentFragment::append(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMDocumentFragment::append()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMDocumentFragment::append()\*\*\*\*
 
 Додавання вузлів у фрагмент.
 

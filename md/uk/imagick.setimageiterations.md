@@ -37,7 +37,7 @@ public Imagick::setImageIterations(int $iterations): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImageIterations()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImageIterations()\*\*\*\*
 
 ```php
 <?php

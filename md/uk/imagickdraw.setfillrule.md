@@ -37,7 +37,7 @@ public ImagickDraw::setFillRule(int $fill_rule): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setFillRule()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setFillRule()\*\*\*\*
 
 ```php
 <?php

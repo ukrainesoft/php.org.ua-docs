@@ -59,7 +59,7 @@ posix_getrlimit(?int $resource = null): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getrlimit()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getrlimit()\*\*\*\*
 
 ```php
 <?php

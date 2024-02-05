@@ -75,7 +75,7 @@ snmp3_get(    string $hostname,    string $security_name,    string 
 
 ### Приклади
 
-**Пример #1 Пример использования**snmp3\_get()\*\*\*\*
+**Приклад #1 Приклад використання** snmp3\_get()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ Yaf\_Controller\_Abstract::\_\_construct - Конструктор класу Yaf
 
 ### Опис
 
-final private**Yaf\_Controller\_Abstract::\_\_construct**()
+final private **Yaf\_Controller\_Abstract::\_\_construct**()
 
 **Yaf\_Controller\_Abstract::\_\_construct()** - Остаточний (final) метод і не може бути перевизначений. Ви можете подивитися натомість [Yaf\_Controller\_Abstract::init()](yaf-controller-abstract.init.md)
 

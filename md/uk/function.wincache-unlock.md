@@ -37,7 +37,7 @@ wincache_unlock(string $key): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_unlock()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_unlock()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ public DOMElement::before(DOMNode|string ...$nodes): void
 
 ### Приклади
 
-**Пример #1 Пример использования метода**DOMElement::before()\*\*\*\*
+**Приклад #1 Приклад использования метода**DOMElement::before()\*\*\*\*
 
 Додавання вузлів перед елементом "hello".
 

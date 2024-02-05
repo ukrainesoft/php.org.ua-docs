@@ -15,7 +15,7 @@ Swoole\\Http\\Client::\_\_construct — Створює асинхронний HT
 
 ### Опис
 
-public**Swoole\\Http\\Client::\_\_construct**(string`$host`, string`$port`\= ?, bool`$ssl`
+public **Swoole\\Http\\Client::\_\_construct**(string`$host`, string`$port`\= ?, bool`$ssl`
 
 ### Список параметрів
 

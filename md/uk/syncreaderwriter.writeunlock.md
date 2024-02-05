@@ -31,7 +31,7 @@ public SyncReaderWriter::writeunlock(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncReaderWriter::writeunlock()\*\*\*\*
+**Приклад #1 Приклад використання** SyncReaderWriter::writeunlock()\*\*\*\*
 
 ```php
 <?php

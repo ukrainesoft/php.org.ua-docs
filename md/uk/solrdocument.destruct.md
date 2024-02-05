@@ -15,7 +15,7 @@ SolrDocument::\_\_destruct - Деструктор
 
 ### Опис
 
-public**SolrDocument::\_\_destruct**()
+public **SolrDocument::\_\_destruct**()
 
 Деструктор класу SolrDocument.
 

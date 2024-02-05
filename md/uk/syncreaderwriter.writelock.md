@@ -33,7 +33,7 @@ public SyncReaderWriter::writelock(int $wait = -1): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncReaderWriter::writelock()\*\*\*\*
+**Приклад #1 Приклад використання** SyncReaderWriter::writelock()\*\*\*\*
 
 ```php
 <?php

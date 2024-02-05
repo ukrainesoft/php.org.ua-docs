@@ -63,7 +63,7 @@ mysqli_change_user(    mysqli $mysql,    string $username,    string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli::change\_user()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli::change\_user()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

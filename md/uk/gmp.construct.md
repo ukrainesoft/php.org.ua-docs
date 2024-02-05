@@ -15,7 +15,7 @@ GMP::\_\_construct - Створює GMP-число
 
 ### Опис
 
-public**GMP::\_\_construct**(int|string`$num`\= 0, int`$base`
+public **GMP::\_\_construct**(int|string`$num`\= 0, int`$base`
 
 Створює GMP-число з цілого чи рядка.
 

@@ -29,7 +29,7 @@ ssh2_fingerprint(resource $session, int $flags = SSH2_FINGERPRINT_MD5 | SSH2_FIN
 
 `flags`
 
-`flags` може бути **`SSH2_FINGERPRINT_MD5`**или**`SSH2_FINGERPRINT_SHA1`**, об'єднані логічним АБО (OR) з **`SSH2_FINGERPRINT_HEX`**или**`SSH2_FINGERPRINT_RAW`**
+`flags` може бути **`SSH2_FINGERPRINT_MD5`** або **`SSH2_FINGERPRINT_SHA1`**, об'єднані логічним АБО (OR) з **`SSH2_FINGERPRINT_HEX`** або **`SSH2_FINGERPRINT_RAW`**
 
 ### Значення, що повертаються
 

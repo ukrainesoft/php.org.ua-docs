@@ -44,7 +44,7 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_ping()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_ping()\*\*\*\*
 
 ```php
 <?php

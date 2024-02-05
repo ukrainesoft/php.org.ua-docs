@@ -49,7 +49,7 @@ pg_send_prepare(PgSql\Connection $connection, string $statement_name, string $qu
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_send\_prepare()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_send\_prepare()\*\*\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public Ds\Vector::remove(int $index): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::remove()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::remove()\*\*\*\*
 
 ```php
 <?php

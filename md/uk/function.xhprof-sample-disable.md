@@ -31,7 +31,7 @@ xhprof_sample_disable(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**xhprof\_sample\_disable()\*\*\*\*
+**Приклад #1 Приклад використання** xhprof\_sample\_disable()\*\*\*\*
 
 ```php
 <?php

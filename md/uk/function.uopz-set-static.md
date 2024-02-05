@@ -45,7 +45,7 @@ uopz_set_static(string $class, string $function, array $static): void
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_set\_static()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_set\_static()\*\*\*\*
 
 ```php
 <?php

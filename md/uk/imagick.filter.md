@@ -41,7 +41,7 @@ public Imagick::filter(ImagickKernel $ImagickKernel, int $channel = Imagick::CHA
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::filter()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::filter()\*\*\*\*
 
 ```php
 <?php

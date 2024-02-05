@@ -15,7 +15,7 @@ InternalIterator::\_\_construct — Закритий конструктор дл
 
 ### Опис
 
-private**InternalIterator::\_\_construct**()
+private **InternalIterator::\_\_construct**()
 
 ### Список параметрів
 

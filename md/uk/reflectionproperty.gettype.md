@@ -31,7 +31,7 @@ public ReflectionProperty::getType(): ?ReflectionType
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionProperty::getType()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionProperty::getType()\*\*\*\*
 
 ```php
 <?php

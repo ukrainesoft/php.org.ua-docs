@@ -41,7 +41,7 @@ public ImagickPixel::setColorValueQuantum(int $color, int|float $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickPixel::setColorValueQuantum()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickPixel::setColorValueQuantum()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public SplFileObject::key(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::key()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::key()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +54,7 @@ foreach ($file as $line) {
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
 
-**Пример #2 Пример использования**SplFileObject::key()\*\* при заданні довжини рядка методом [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)\*\*
+**Приклад #2 Приклад використання** SplFileObject::key()\*\* при заданні довжини рядка методом [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)\*\*
 
 ```php
 <?php

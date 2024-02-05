@@ -35,7 +35,7 @@ public static Yaconf::get(string $name, mixed $default_value = NULL): mixed
 
 ### Приклади
 
-**Пример #1 Пример**INI()\*\*\*\*
+**Приклад #1 Приклад**INI()\*\*\*\*
 
 ;файл foo.ini, що знаходиться в директорії, заданої yaconf.directory\[SectionA\];пара ключ-значение key=val ;хеш hash.a=val ;массив arr.0=val ;или так arr\[\]=val
 

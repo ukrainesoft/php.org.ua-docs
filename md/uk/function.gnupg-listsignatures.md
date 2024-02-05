@@ -35,7 +35,7 @@ gnupg_listsignatures(resource $identifier, string $keyid): ?array
 
 ### Приклади
 
-**Пример #1 Пример использования**gnupg\_listsignatures()\*\* у процедурному стилі\*\*
+**Приклад #1 Приклад використання** gnupg\_listsignatures()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -45,7 +45,7 @@ print_r($signatures);
 ?>
 ```
 
-**Пример #2 Пример использования**gnupg\_listsignatures()\*\* в об'єктно-орієнтованому стилі\*\*
+**Приклад #2 Приклад використання** gnupg\_listsignatures()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeColor(ImagickPixel $stroke_pixel): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeColor()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeColor()\*\*\*\*
 
 ```php
 <?php

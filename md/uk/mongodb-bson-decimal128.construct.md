@@ -34,7 +34,7 @@ final public MongoDB\BSON\Decimal128::__construct(string $value)
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Decimal128::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Decimal128::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -27,7 +27,7 @@ final public MongoDB\Driver\Session::isInTransaction(): boolean
 
 ### Значення, що повертаються
 
-Повертає **`true`**или**`false`**
+Повертає **`true`** або **`false`**
 
 ### Помилки
 

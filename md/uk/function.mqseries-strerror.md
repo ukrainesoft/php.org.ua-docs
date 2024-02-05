@@ -33,7 +33,7 @@ mqseries_strerror(int $reason): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_strerror()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_strerror()\*\*\*\*
 
 ```php
 <?php

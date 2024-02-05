@@ -31,7 +31,7 @@ public QuickHashIntStringHash::getSize(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntStringHash::getSize()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntStringHash::getSize()\*\*\*\*
 
 ```php
 <?php

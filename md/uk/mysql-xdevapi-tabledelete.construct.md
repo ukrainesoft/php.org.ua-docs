@@ -15,7 +15,7 @@ TableDelete::\_\_construct - Конструктор класу TableDelete
 
 ### Опис
 
-private**mysql\_xdevapi\\TableDelete::\_\_construct**()
+private **mysql\_xdevapi\\TableDelete::\_\_construct**()
 
 Ініціюється за допомогою методу delete().
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\TableDelete::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableDelete::\_\_construct()\*\*\*\*
 
 ```php
 <?php

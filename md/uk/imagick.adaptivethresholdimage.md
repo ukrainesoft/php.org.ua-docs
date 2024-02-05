@@ -41,7 +41,7 @@ public Imagick::adaptiveThresholdImage(int $width, int $height, int $offset): bo
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::adaptiveThresholdImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::adaptiveThresholdImage()\*\*\*\*
 
 ```php
 <?php

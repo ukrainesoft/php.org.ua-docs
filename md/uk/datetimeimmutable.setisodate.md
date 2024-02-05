@@ -41,7 +41,7 @@ public DateTimeImmutable::setISODate(int $year, int $week, int $dayOfWeek = 1): 
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::setISODate()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::setISODate()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

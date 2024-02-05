@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Приклади
 
-**Пример #1 Пример использования**eio\_grp()\*\*\*\*
+**Приклад #1 Приклад використання** eio\_grp()\*\*\*\*
 
 ```php
 <?php

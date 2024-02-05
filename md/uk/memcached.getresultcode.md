@@ -31,7 +31,7 @@ public Memcached::getResultCode(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcached::getResultCode()\*\*\*\*
+**Приклад #1 Приклад використання** Memcached::getResultCode()\*\*\*\*
 
 ```php
 <?php

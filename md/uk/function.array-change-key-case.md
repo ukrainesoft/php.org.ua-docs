@@ -37,7 +37,7 @@ array_change_key_case(array $array, int $case = CASE_LOWER): array
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_change\_key\_case()\*\*\*\*
+**Приклад #1 Приклад використання** array\_change\_key\_case()\*\*\*\*
 
 ```php
 <?php

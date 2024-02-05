@@ -47,7 +47,7 @@ public PharData::buildFromDirectory(string $directory, string $pattern = ""): ar
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::buildFromDirectory()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::buildFromDirectory()\*\*\*\*
 
 ```php
 <?php

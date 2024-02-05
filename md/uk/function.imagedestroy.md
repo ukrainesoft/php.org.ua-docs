@@ -44,7 +44,7 @@ imagedestroy(GdImage $image): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagedestroy()**до PHP 8.0.0**
+**Приклад #1 Приклад використання** imagedestroy()**до PHP 8.0.0**
 
 ```php
 <?php

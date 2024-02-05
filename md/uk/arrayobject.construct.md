@@ -15,7 +15,7 @@ ArrayObject::\_\_construct — Створює новий об'єкт масив�
 
 ### Опис
 
-public**ArrayObject::\_\_construct**(array|object`$array` \[\], int`$flags`\= 0, string`$iteratorClass`\= ArrayIterator::class)
+public **ArrayObject::\_\_construct**(array|object`$array` \[\], int`$flags`\= 0, string`$iteratorClass`\= ArrayIterator::class)
 
 Створює новий об'єкт масиву.
 
@@ -35,7 +35,7 @@ public**ArrayObject::\_\_construct**(array|object`$array` \[\], int`$flags`\= 0,
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::\_\_construct()\*\*\*\*
 
 ```php
 <?php

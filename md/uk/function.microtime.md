@@ -53,7 +53,7 @@ echo "Ничего не делал $time секунд\n";
 ?>
 ```
 
-**Пример #2 Пример использования**microtime()**и`REQUEST_TIME_FLOAT`**
+**Приклад #2 Приклад використання** microtime()**и`REQUEST_TIME_FLOAT`**
 
 ```php
 <?php

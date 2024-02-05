@@ -62,7 +62,7 @@ datefmt_set_timezone(IntlDateFormatter $formatter, IntlTimeZone|DateTimeZone|str
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlDateFormatter::setTimeZone()\*\*\*\*
+**Приклад #1 Приклад використання** IntlDateFormatter::setTimeZone()\*\*\*\*
 
 ```php
 <?php

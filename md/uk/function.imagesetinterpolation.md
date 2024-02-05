@@ -65,7 +65,7 @@ imagesetinterpolation(GdImage $image, int $method = IMG_BILINEAR_FIXED): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagesetinterpolation()\*\*\*\*
+**Приклад #1 Приклад використання** imagesetinterpolation()\*\*\*\*
 
 ```php
 <?php

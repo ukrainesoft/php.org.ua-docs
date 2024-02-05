@@ -31,7 +31,7 @@ realpath_cache_get(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**realpath\_cache\_get()\*\*\*\*
+**Приклад #1 Приклад використання** realpath\_cache\_get()\*\*\*\*
 
 ```php
 <?php

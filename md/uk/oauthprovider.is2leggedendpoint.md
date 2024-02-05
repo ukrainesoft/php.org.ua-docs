@@ -35,7 +35,7 @@ public OAuthProvider::is2LeggedEndpoint(mixed $params_array): void
 
 ### Приклади
 
-**Пример #1 Пример использования**OAuthProvider::is2LeggedEndpoint()\*\*\*\*
+**Приклад #1 Приклад використання** OAuthProvider::is2LeggedEndpoint()\*\*\*\*
 
 ```php
 <?php

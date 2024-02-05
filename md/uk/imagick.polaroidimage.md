@@ -37,7 +37,7 @@ public Imagick::polaroidImage(ImagickDraw $properties, float $angle): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::polaroidImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::polaroidImage()\*\*\*\*
 
 Приклад використання Imagick::polaroidImage()
 

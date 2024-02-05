@@ -55,7 +55,7 @@ date_offset_get(DateTimeInterface $object): int
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTime::getOffset()\*\*\*\*
+**Приклад #1 Приклад використання** DateTime::getOffset()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

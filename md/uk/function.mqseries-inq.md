@@ -73,7 +73,7 @@ mqseries_inq(    resource $hconn,    resource $hobj,    int $selecto
 
 ### Приклади
 
-**Пример #1 Пример использования**mqseries\_inq()\*\*\*\*
+**Приклад #1 Приклад використання** mqseries\_inq()\*\*\*\*
 
 ```php
 <?php

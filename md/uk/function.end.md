@@ -35,12 +35,12 @@ end(array|object &$array): mixed
 
 | Версия | Опис |
 | --- | --- |
-| 8.1.0 | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку перетворіть об'єкт (object) на масив (array) за допомогою функції [get\_mangled\_object\_vars()](function.get-mangled-object-vars.md), або використовуйте методи, що надаються класом, що реалізує інтерфейс [Iterator](class.iterator.md), например,[ArrayIterator](class.arrayiterator.md) |
+| 8.1.0 | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку перетворіть об'єкт (object) на масив (array) за допомогою функції [get\_mangled\_object\_vars()](function.get-mangled-object-vars.md), або використовуйте методи, що надаються класом, що реалізує інтерфейс [Iterator](class.iterator.md), наПриклад,[ArrayIterator](class.arrayiterator.md) |
 | 7.4.0 | Примірники класів [SPL](book.spl.md) тепер обробляються як порожні об'єкти, які мають властивостей, замість виклику методу [Iterator](class.iterator.md) з тим самим ім'ям, що і ця функція. |
 
 ### Приклади
 
-**Пример #1 Пример использования функции**end()\*\*\*\*
+**Приклад #1 Приклад использования функции**end()\*\*\*\*
 
 ```php
 <?php

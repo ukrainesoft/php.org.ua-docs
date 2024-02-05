@@ -41,7 +41,7 @@ intlcal_to_date_time(IntlCalendar $calendar): DateTime|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::toDateTime()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::toDateTime()\*\*\*\*
 
 ```php
 <?php

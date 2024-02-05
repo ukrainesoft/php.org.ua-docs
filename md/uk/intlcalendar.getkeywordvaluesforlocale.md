@@ -51,7 +51,7 @@ intlcal_get_keyword_values_for_locale(string $keyword, string $locale, bool $onl
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getKeyworkValuesForLocale()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getKeyworkValuesForLocale()\*\*\*\*
 
 ```php
 <?php

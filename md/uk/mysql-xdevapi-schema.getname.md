@@ -31,7 +31,7 @@ public mysql_xdevapi\Schema::getName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getName()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Schema::getName()\*\*\*\*
 
 ```php
 <?php

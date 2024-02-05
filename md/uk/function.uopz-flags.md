@@ -55,7 +55,7 @@ uopz_flags(string $class, string $function, int $flags = PHP_INT_MAX): int
 
 ### Приклади
 
-**Пример #1 Пример использования**uopz\_flags()\*\*\*\*
+**Приклад #1 Приклад використання** uopz\_flags()\*\*\*\*
 
 ```php
 <?php

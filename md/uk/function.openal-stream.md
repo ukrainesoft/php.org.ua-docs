@@ -27,7 +27,7 @@ openal_stream(resource $source, int $format, int $rate): resource|false
 
 `format`
 
-Формат даних `data`, представлений однією з констант: **`AL_FORMAT_MONO8`** **`AL_FORMAT_MONO16`** **`AL_FORMAT_STEREO8`**и**`AL_FORMAT_STEREO16`**
+Формат даних `data`, представлений однією з констант: **`AL_FORMAT_MONO8`** **`AL_FORMAT_MONO16`** **`AL_FORMAT_STEREO8`** і **`AL_FORMAT_STEREO16`**
 
 `rate`
 

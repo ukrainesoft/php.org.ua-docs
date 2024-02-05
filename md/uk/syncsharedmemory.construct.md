@@ -49,7 +49,7 @@ public SyncSharedMemory::__construct(string $name, int $size)
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncSharedMemory::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SyncSharedMemory::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -65,7 +65,7 @@ getimagesize(string $filename, array &$image_info = null): array|false
 
 `mime` - Відповідний MIME-тип зображення. Ці відомості використовуються для коректної обробки зображення на основі заголовка `Content-type` :
 
-**Пример #1**getimagesize()\*\* та MIME типи\*\*
+**Приклад #1**getimagesize()\*\* та MIME типи\*\*
 
 ```php
 <?php
@@ -102,12 +102,12 @@ if ($size && $fp) {
 
 ### Приклади
 
-**Пример #2 Пример использования**getimagesize()\*\*\*\*
+**Приклад #2 Приклад використання** getimagesize()\*\*\*\*
 
 ```php
 <?php
 list($width, $height, $type, $attr) = getimagesize("img/flag.jpg");
-echo "<img src=\"img/flag.jpg\" $attr alt=\"пример getimagesize()\" />";
+echo "<img src=\"img/flag.jpg\" $attr alt=\"Приклад getimagesize()\" />";
 ?>
 ```
 

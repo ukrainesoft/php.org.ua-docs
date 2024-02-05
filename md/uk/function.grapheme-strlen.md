@@ -35,7 +35,7 @@ grapheme_strlen(string $string): int|false|null
 
 ### Приклади
 
-**Пример #1 Пример использования**grapheme\_strlen()\*\*\*\*
+**Приклад #1 Приклад використання** grapheme\_strlen()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ Subject: =?ISO-8859-1?Q?Pr=FCfung_f=FCr?= Entwerfen von einer MIME kopfzeile
 
 **Установки, що підтримуються в **iconv\_mime\_encode()****
 
-| Элемент | Тип | Опис | Значение по умолчанию | Пример |
+| Элемент | Тип | Опис | Значение по умолчанию | Приклад |
 | --- | --- | --- | --- | --- |
 | scheme | string | Задає, як закодувати значення поля. Значенням цього елемента може бути "B", або "Q". "B" означає схему кодування `base64`, а "Q" - `quoted-printable` | B | B |
 | input-charset | string | Задає, в якому кодуванні представлені аргументи `field_name`и`field_value`. . Якщо не задано, **iconv\_mime\_encode()** передбачає, що набір символів вказано в ini-налаштуванні [iconv.internal\_encoding](iconv.configuration.md) | [iconv.internal\_encoding](iconv.configuration.md) | ISO-8859-1 |
@@ -57,7 +57,7 @@ Subject: =?ISO-8859-1?Q?Pr=FCfung_f=FCr?= Entwerfen von einer MIME kopfzeile
 
 ### Приклади
 
-**Пример #1 Пример использования**iconv\_mime\_encode()\*\*\*\*
+**Приклад #1 Приклад використання** iconv\_mime\_encode()\*\*\*\*
 
 ```php
 <?php

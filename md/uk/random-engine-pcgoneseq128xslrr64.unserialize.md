@@ -33,7 +33,7 @@ public Random\Engine\PcgOneseq128XslRr64::__unserialize(array $data): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\PcgOneseq128XslRr64::\_\_unserialize()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\PcgOneseq128XslRr64::\_\_unserialize()\*\*\*\*
 
 ```php
 <?php

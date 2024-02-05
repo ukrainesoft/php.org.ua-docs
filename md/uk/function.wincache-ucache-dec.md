@@ -41,7 +41,7 @@ wincache_ucache_dec(string $key, int $dec_by = 1, bool &$success = ?): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**wincache\_ucache\_dec()\*\*\*\*
+**Приклад #1 Приклад використання** wincache\_ucache\_dec()\*\*\*\*
 
 ```php
 <?php

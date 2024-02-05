@@ -41,7 +41,7 @@ public Imagick::setImageArtifact(string $artifact, string $value): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImageArtifact()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImageArtifact()\*\*\*\*
 
 ```php
 <?php

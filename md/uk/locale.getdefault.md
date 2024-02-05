@@ -39,7 +39,7 @@ locale_get_default(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_get\_default()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_get\_default()\*\*\*\*
 
 ```php
 <?php

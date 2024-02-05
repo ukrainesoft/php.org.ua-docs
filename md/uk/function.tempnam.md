@@ -45,7 +45,7 @@ tempnam(string $directory, string $prefix): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования функции**tempnam()\*\*\*\*
+**Приклад #1 Приклад использования функции**tempnam()\*\*\*\*
 
 ```php
 <?php

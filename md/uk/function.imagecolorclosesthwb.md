@@ -51,7 +51,7 @@ imagecolorclosesthwb(    GdImage $image,    int $red,    int $green,
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecolorclosesthwb()\*\*\*\*
+**Приклад #1 Приклад використання** imagecolorclosesthwb()\*\*\*\*
 
 ```php
 <?php

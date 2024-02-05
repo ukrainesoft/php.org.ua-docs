@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setTieBreaker(string $tieBreaker): SolrDisMaxQuery
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::setTieBreaker()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::setTieBreaker()\*\*\*\*
 
 ```php
 <?php

@@ -19,7 +19,7 @@ inflate\_get\_status — Отримує статус декомпресії
 inflate_get_status(InflateContext $context): int
 ```
 
-Зазвичай повертає **`ZLIB_OK`**или**`ZLIB_STREAM_END`**
+Зазвичай повертає **`ZLIB_OK`** або **`ZLIB_STREAM_END`**
 
 ### Список параметрів
 

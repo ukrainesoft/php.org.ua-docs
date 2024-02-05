@@ -45,7 +45,7 @@ intlcal_is_equivalent_to(IntlCalendar $calendar, IntlCalendar $other): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::isEquivalentTo()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::isEquivalentTo()\*\*\*\*
 
 ```php
 <?php

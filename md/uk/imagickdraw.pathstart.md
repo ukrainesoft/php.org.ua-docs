@@ -31,7 +31,7 @@ public ImagickDraw::pathStart(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::pathStart()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::pathStart()\*\*\*\*
 
 ```php
 <?php

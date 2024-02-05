@@ -35,7 +35,7 @@ public QuickHashIntStringHash::delete(int $key): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntStringHash::delete()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntStringHash::delete()\*\*\*\*
 
 ```php
 <?php

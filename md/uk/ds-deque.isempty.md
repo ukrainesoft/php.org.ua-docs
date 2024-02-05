@@ -31,7 +31,7 @@ public Ds\Deque::isEmpty(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Deque::isEmpty()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Deque::isEmpty()\*\*\*\*
 
 ```php
 <?php

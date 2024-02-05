@@ -51,7 +51,7 @@ numfmt_set_attribute(NumberFormatter $formatter, int $attribute, int|float $valu
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_set\_attribute()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_set\_attribute()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ PhpToken::\_\_construct — Створює об'єкт PhpToken
 
 ### Опис
 
-final public**PhpToken::\_\_construct**  
+final public **PhpToken::\_\_construct**  
 int`$id`,  
 string`$text`,  
 int`$line`  

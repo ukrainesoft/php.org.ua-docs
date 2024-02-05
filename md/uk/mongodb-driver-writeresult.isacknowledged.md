@@ -35,7 +35,7 @@ final public MongoDB\Driver\WriteResult::isAcknowledged(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::isAcknowledged()\*\* з підтвердженими гарантіями запису\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::isAcknowledged()\*\* з підтвердженими гарантіями запису\*\*
 
 ```php
 <?php
@@ -58,7 +58,7 @@ var_dump($result->isAcknowledged());
 bool(true)
 ```
 
-**Пример #2 Пример использования**MongoDB\\Driver\\WriteResult::isAcknowledged()\*\* з непідтвердженими гарантіями запису\*\*
+**Приклад #2 Приклад використання** MongoDB\\Driver\\WriteResult::isAcknowledged()\*\* з непідтвердженими гарантіями запису\*\*
 
 ```php
 <?php

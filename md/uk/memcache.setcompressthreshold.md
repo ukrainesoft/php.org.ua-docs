@@ -41,7 +41,7 @@ Memcache::setCompressThreshold(int $threshold, float $min_savings = ?): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::setCompressThreshold()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::setCompressThreshold()\*\*\*\*
 
 ```php
 <?php

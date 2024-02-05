@@ -37,7 +37,7 @@ final public MongoDB\Driver\Manager::getServers(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Manager::getServers()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Manager::getServers()\*\*\*\*
 
 ```php
 <?php

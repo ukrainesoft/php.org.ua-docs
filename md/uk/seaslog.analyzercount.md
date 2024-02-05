@@ -41,7 +41,7 @@ public static SeasLog::analyzerCount(string $level, string $log_path = ?, string
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::analyzerCount()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::analyzerCount()\*\*\*\*
 
 ```php
 <?php

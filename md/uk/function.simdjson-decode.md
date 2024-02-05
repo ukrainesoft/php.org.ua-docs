@@ -41,7 +41,7 @@ simdjson_decode(string $json, bool $associative = false, int $depth = 512): mixe
 
 ### Значення, що повертаються
 
-Повертає значення, закодоване у параметрі `json` у відповідному типі PHP. Значення `true` `false`и`null` повертаються як **`true`** \*\*`false`**и**`null`\*\*соответственно.
+Повертає значення, закодоване у параметрі `json` у відповідному типі PHP. Значення `true` `false`и`null` повертаються як **`true`** \*\*`false`** і **`null`\*\*соответственно.
 
 ### Помилки
 
@@ -122,7 +122,7 @@ simdjson_decode($bad_json); // Выбрасывается исключение S
 ?>
 ```
 
-**Пример #4 Ошибки`depth`**
+**Приклад #4 Ошибки`depth`**
 
 ```php
 <?php
@@ -178,7 +178,7 @@ array(1) {
 Попался: The JSON document was too deep (too many nested objects and arrays)
 ```
 
-**Пример #5**simdjson\_decode()\*\* великих цілих чисел\*\*
+**Приклад #5**simdjson\_decode()\*\* великих цілих чисел\*\*
 
 ```php
 <?php
@@ -206,7 +206,7 @@ object(stdClass)#1 (1) {
 
 > **Зауваження** :
 > 
-> У разі виникнення помилки декодування викидається виняток [SimdJsonException](class.simdjsonexception.md), а**SimdJsonException::getCode()**и**SimdJsonException::getMessage()** можуть бути використані визначення точної природи помилки.
+> У разі виникнення помилки декодування викидається виняток [SimdJsonException](class.simdjsonexception.md), а**SimdJsonException::getCode()** і **SimdJsonException::getMessage()** можуть бути використані визначення точної природи помилки.
 
 ### Дивіться також
 

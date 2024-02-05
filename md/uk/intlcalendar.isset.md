@@ -45,7 +45,7 @@ intlcal_is_set(IntlCalendar $calendar, int $field): bool
 
 ### Приклади
 
-Смотрите пример в описании метода[IntlCalendar::clear()](intlcalendar.clear.md)
+Смотрите Приклад в описании метода[IntlCalendar::clear()](intlcalendar.clear.md)
 
 ### Дивіться також
 

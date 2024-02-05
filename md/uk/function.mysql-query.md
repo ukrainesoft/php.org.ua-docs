@@ -74,13 +74,13 @@ if (!$result) {
 
 ```php
 <?php
-// Эти данные, к примеру, могли быть получены от пользователя
+// Эти данные, к Прикладу, могли быть получены от пользователя
 $firstname = 'fred';
 $lastname  = 'fox';
 
 // Формируем запрос
 // Это лучший способ выполнить SQL-запрос
-// Ещё примеры можно найти в документации mysql_real_escape_string()
+// Ещё Приклады можно найти в документации mysql_real_escape_string()
 $query = sprintf("SELECT firstname, lastname, address, age FROM friends
     WHERE firstname='%s' AND lastname='%s'",
     mysql_real_escape_string($firstname),

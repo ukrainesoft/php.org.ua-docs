@@ -45,7 +45,7 @@ public Random\Randomizer::getBytesFromString(string $string, int $length): strin
 
 ### Приклади
 
-**Пример #1 Пример использования метода**Random\\Randomizer::getBytesFromString()\*\*\*\*
+**Приклад #1 Приклад использования метода**Random\\Randomizer::getBytesFromString()\*\*\*\*
 
 ```php
 <?php

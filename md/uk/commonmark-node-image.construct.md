@@ -15,11 +15,11 @@ CommonMark\\Node\\Image::\_\_construct - Конструктор класу Image
 
 ### Опис
 
-public**CommonMark\\Node\\Image::\_\_construct**()
+public **CommonMark\\Node\\Image::\_\_construct**()
 
-public**CommonMark\\Node\\Image::\_\_construct**(string`$url`) .
+public **CommonMark\\Node\\Image::\_\_construct**(string`$url`) .
 
-public**CommonMark\\Node\\Image::\_\_construct**(string`$url`, string`$title`) .
+public **CommonMark\\Node\\Image::\_\_construct**(string`$url`, string`$title`) .
 
 **Увага**
 

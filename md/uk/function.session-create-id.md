@@ -39,7 +39,7 @@ session_create_id(string $prefix = ""): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**session\_create\_id()\*\* з функцією [session\_regenerate\_id()](function.session-regenerate-id.md)\*\*
+**Приклад #1 Приклад використання** session\_create\_id()\*\* з функцією [session\_regenerate\_id()](function.session-regenerate-id.md)\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ numfmt_get_attribute(NumberFormatter $formatter, int $attribute): int|float|fals
 
 ### Приклади
 
-**Пример #1 Пример использования**numfmt\_get\_attribute()\*\*\*\*
+**Приклад #1 Приклад використання** numfmt\_get\_attribute()\*\*\*\*
 
 ```php
 <?php

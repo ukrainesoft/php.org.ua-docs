@@ -41,7 +41,7 @@ datefmt_get_timezone(IntlDateFormatter $formatter): IntlTimeZone|false
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlDateFormatter::getTimeZone()\*\*\*\*
+**Приклад #1 Приклад використання** IntlDateFormatter::getTimeZone()\*\*\*\*
 
 ```php
 <?php

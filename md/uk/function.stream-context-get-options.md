@@ -33,7 +33,7 @@ stream_context_get_options(resource $stream_or_context): array
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_context\_get\_options()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_context\_get\_options()\*\*\*\*
 
 ```php
 <?php

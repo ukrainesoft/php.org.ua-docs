@@ -51,7 +51,7 @@ mb_encode_numericentity(    string $string,    array $map,    ?strin
 
 ### Приклади
 
-**Пример #1 Пример использования параметра`map`**
+**Приклад #1 Приклад использования параметра`map`**
 
 ```php
 <?php
@@ -67,7 +67,7 @@ $convmap = array (
 ?>
 ```
 
-**Пример #2 Пример использования функции**mb\_encode\_numericentity()\*\*\*\*
+**Приклад #2 Приклад использования функции**mb\_encode\_numericentity()\*\*\*\*
 
 ```php
 <?php

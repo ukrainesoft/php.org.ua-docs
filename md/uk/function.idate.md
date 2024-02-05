@@ -74,7 +74,7 @@ idate(string $format, ?int $timestamp = null): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**idate()\*\*\*\*
+**Приклад #1 Приклад використання** idate()\*\*\*\*
 
 ```php
 <?php

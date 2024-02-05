@@ -37,7 +37,7 @@ public SplObjectStorage::current(): object
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::current()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::current()\*\*\*\*
 
 ```php
 <?php

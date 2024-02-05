@@ -31,7 +31,7 @@ public SplFileObject::next(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::next()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::next()\*\*\*\*
 
 ```php
 <?php

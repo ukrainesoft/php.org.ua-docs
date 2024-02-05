@@ -15,7 +15,7 @@ UI\\Controls\\MultilineEntry::\_\_construct — Створити новий об
 
 ### Опис
 
-public**UI\\Controls\\MultilineEntry::\_\_construct**(int`$type`
+public **UI\\Controls\\MultilineEntry::\_\_construct**(int`$type`
 
 Створює новий об'єкт керуючого елемента "Многорядкове введення" заданого типу
 

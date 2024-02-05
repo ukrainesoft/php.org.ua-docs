@@ -35,7 +35,7 @@ gmp_perfect_square(GMP|int|string $num): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_perfect\_square()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_perfect\_square()\*\*\*\*
 
 ```php
 <?php

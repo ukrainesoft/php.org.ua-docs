@@ -35,7 +35,7 @@ public SplFileObject::fgets(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fgets()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fgets()\*\*\*\*
 
 Цей приклад построчно виводить вміст `file.txt`
 

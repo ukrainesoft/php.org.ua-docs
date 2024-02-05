@@ -31,7 +31,7 @@ public static SeasLog::getRequestID(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SeasLog::getRequestID()\*\*\*\*
+**Приклад #1 Приклад використання** SeasLog::getRequestID()\*\*\*\*
 
 ```php
 <?php

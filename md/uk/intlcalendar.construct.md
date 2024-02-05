@@ -15,7 +15,7 @@ IntlCalendar::\_\_construct — Закритий конструктор для �
 
 ### Опис
 
-private**IntlCalendar::\_\_construct**()
+private **IntlCalendar::\_\_construct**()
 
 Закритий конструктор для заборони створення екземплярів за допомогою оператора [new](language.oop5.basic.md#language.oop5.basic.new)
 

@@ -15,7 +15,7 @@ SoapParam::\_\_construct - Конструктор SoapParam
 
 ### Опис
 
-public**SoapParam::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`, string`$name`) .
+public **SoapParam::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`, string`$name`) .
 
 Створює новий об'єкт [SoapParam](class.soapparam.md)
 
@@ -31,7 +31,7 @@ public**SoapParam::\_\_construct** [mixed](language.types.declarations.md#langua
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapParam::SoapParam()\*\*\*\*
+**Приклад #1 Приклад використання** SoapParam::SoapParam()\*\*\*\*
 
 ```php
 <?php

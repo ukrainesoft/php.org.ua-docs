@@ -33,7 +33,7 @@ ob_iconv_handler(string $contents, int $status): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ob\_iconv\_handler()\*\*\*\*
+**Приклад #1 Приклад використання** ob\_iconv\_handler()\*\*\*\*
 
 ```php
 <?php

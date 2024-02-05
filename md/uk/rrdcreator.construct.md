@@ -15,7 +15,7 @@ RRDCreator::\_\_construct — Створює новий екземпляр [RRDC
 
 ### Опис
 
-public**RRDCreator::\_\_construct**(string`$path`, string`$startTime`\= ?, int`$step`
+public **RRDCreator::\_\_construct**(string`$path`, string`$startTime`\= ?, int`$step`
 
 Створює новий екземпляр [RRDCreator](class.rrdcreator.md)
 

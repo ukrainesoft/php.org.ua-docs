@@ -41,7 +41,7 @@ runkit7_method_rename(string $class_name, string $source_method_name, string $ta
 
 ### Приклади
 
-**Пример #1 Пример использования**runkit7\_method\_rename()\*\*\*\*
+**Приклад #1 Приклад використання** runkit7\_method\_rename()\*\*\*\*
 
 ```php
 <?php

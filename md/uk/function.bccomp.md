@@ -47,7 +47,7 @@ bccomp(string $num1, string $num2, ?int $scale = null): int
 
 ### Приклади
 
-**Пример #1 Пример использования**bccomp()\*\*\*\*
+**Приклад #1 Приклад використання** bccomp()\*\*\*\*
 
 ```php
 <?php

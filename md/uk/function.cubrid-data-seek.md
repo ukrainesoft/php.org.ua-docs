@@ -37,7 +37,7 @@ cubrid_data_seek(resource $result, int $row_number): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_data\_seek()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_data\_seek()\*\*\*\*
 
 ```php
 <?php

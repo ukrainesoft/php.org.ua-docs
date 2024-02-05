@@ -63,7 +63,7 @@ mb_convert_kana(string $string, string $mode = "KV", ?string $encoding = null): 
 
 ### Помилки
 
-Буде викинуто виняток [ValueError](class.valueerror.md)якщо комбінація заданих у параметрі `mode`режимов недопустима. Например,`«sS»`
+Буде викинуто виняток [ValueError](class.valueerror.md)якщо комбінація заданих у параметрі `mode`режимов недопустима. НаПриклад,`«sS»`
 
 ### список змін
 
@@ -74,7 +74,7 @@ mb_convert_kana(string $string, string $mode = "KV", ?string $encoding = null): 
 
 ### Приклади
 
-**Пример #1 Пример использования функции**mb\_convert\_kana()\*\*\*\*
+**Приклад #1 Приклад использования функции**mb\_convert\_kana()\*\*\*\*
 
 ```php
 <?php

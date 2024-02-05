@@ -15,7 +15,7 @@ Ds\\Queue::\_\_construct — Створює новий екземпляр
 
 ### Опис
 
-public**Ds\\Queue::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
+public **Ds\\Queue::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
 Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
@@ -27,7 +27,7 @@ public**Ds\\Queue::\_\_construct** [mixed](language.types.declarations.md#langua
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Queue::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Queue::\_\_construct()\*\*\*\*
 
 ```php
 <?php

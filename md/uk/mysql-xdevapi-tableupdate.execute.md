@@ -31,7 +31,7 @@ public mysql_xdevapi\TableUpdate::execute(): mysql_xdevapi\TableUpdate
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::execute()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\TableUpdate::execute()\*\*\*\*
 
 ```php
 <?php

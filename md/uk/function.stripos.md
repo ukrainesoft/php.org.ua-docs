@@ -61,7 +61,7 @@ stripos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**stripos()\*\*\*\*
+**Приклад #1 Приклад використання** stripos()\*\*\*\*
 
 ```php
 <?php

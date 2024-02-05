@@ -53,7 +53,7 @@ public IntlGregorianCalendar::createFromDateTime(    int $year,    int $
 
 ### Приклади
 
-**Пример #1 Пример использования метода**IntlGregorianCalendar::createFromDateTime()\*\*\*\*
+**Приклад #1 Приклад использования метода**IntlGregorianCalendar::createFromDateTime()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public Imagick::getImageLength(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getImageLength()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::getImageLength()\*\* :\*\*
 
 Отримання довжини зображення в байтах
 

@@ -47,7 +47,7 @@ imap_getacl(IMAP\Connection $imap, string $mailbox): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_getacl()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_getacl()\*\*\*\*
 
 ```php
 <?php

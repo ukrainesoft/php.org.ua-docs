@@ -31,7 +31,7 @@ public SplObjectStorage::serialize(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::serialize()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::serialize()\*\*\*\*
 
 ```php
 <?php

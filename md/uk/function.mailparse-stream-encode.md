@@ -41,7 +41,7 @@ mailparse_stream_encode(resource $sourcefp, resource $destfp, string $encoding):
 
 ### Приклади
 
-**Пример #1 Пример использования**mailparse\_stream\_encode()\*\*\*\*
+**Приклад #1 Приклад використання** mailparse\_stream\_encode()\*\*\*\*
 
 ```php
 <?php

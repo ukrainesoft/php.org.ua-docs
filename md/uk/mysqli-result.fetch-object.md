@@ -65,7 +65,7 @@ mysqli_fetch_object(mysqli_result $result, string $class = "stdClass", array $co
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_result::fetch\_object()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_result::fetch\_object()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

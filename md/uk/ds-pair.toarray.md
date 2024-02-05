@@ -35,7 +35,7 @@ public Ds\Pair::toArray(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Pair::toArray()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Pair::toArray()\*\*\*\*
 
 ```php
 <?php

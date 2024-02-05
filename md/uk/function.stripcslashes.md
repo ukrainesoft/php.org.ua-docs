@@ -33,7 +33,7 @@ stripcslashes(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**stripcslashes()\*\*\*\*
+**Приклад #1 Приклад використання** stripcslashes()\*\*\*\*
 
 ```php
 <?php

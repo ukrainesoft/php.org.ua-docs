@@ -31,7 +31,7 @@ public PhpToken::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**PhpToken::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** PhpToken::\_\_toString()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ public MongoDB\Driver\BulkWrite::count(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\BulkWrite::count()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\BulkWrite::count()\*\*\*\*
 
 ```php
 <?php

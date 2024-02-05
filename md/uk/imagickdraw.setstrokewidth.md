@@ -37,7 +37,7 @@ public ImagickDraw::setStrokeWidth(float $stroke_width): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setStrokeWidth()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setStrokeWidth()\*\*\*\*
 
 ```php
 <?php

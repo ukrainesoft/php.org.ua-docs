@@ -37,7 +37,7 @@ Imagick::textureImage(Imagick $texture_wand): Imagick
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::textureImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::textureImage()\*\*\*\*
 
 ```php
 <?php

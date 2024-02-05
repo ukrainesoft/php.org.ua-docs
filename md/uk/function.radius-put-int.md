@@ -59,7 +59,7 @@ radius_put_int(    resource $radius_handle,    int $type,    int $va
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_put\_int()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_put\_int()\*\*\*\*
 
 ```php
 <?php

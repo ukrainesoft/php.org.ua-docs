@@ -44,7 +44,7 @@ pg_host(?PgSql\Connection $connection = null): string
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_host()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_host()\*\*\*\*
 
 ```php
 <?php

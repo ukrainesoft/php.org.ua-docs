@@ -15,7 +15,7 @@ Gmagick::\_\_construct — Конструктор об'єкту Gmagick
 
 ### Опис
 
-public**Gmagick::\_\_construct**(string`$filename`
+public **Gmagick::\_\_construct**(string`$filename`
 
 Конструктор об'єкту [Gmagick](class.gmagick.md)
 

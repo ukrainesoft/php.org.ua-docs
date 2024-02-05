@@ -27,7 +27,7 @@ mb_chr(int $codepoint, ?string $encoding = null): string|false
 
 `codepoint`
 
-Значение кодовой точки Unicode, например`128024`для*U+1F418 ELEPHANT*
+Значение кодовой точки Unicode, наПриклад`128024`для*U+1F418 ELEPHANT*
 
 `encoding`
 

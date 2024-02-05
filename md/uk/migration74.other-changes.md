@@ -127,7 +127,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 ### OPcache
 
-Конфігураційні опції **\--disable-opcache-file**и**\--enable-opcache-file** видалені на користь використання INI-директиви [opcache.file\_cache](opcache.configuration.md#ini.opcache.file-cache)
+Конфігураційні опції **\--disable-opcache-file** і **\--enable-opcache-file** видалені на користь використання INI-директиви [opcache.file\_cache](opcache.configuration.md#ini.opcache.file-cache)
 
 ### Хешування паролів
 

@@ -67,7 +67,7 @@ public MongoDB\Driver\BulkWrite::delete(array|object $filter, ?array $deleteOpti
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\BulkWrite::delete()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\BulkWrite::delete()\*\*\*\*
 
 ```php
 <?php

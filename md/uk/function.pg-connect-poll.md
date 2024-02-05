@@ -29,7 +29,7 @@ pg_connect_poll(PgSql\Connection $connection): int
 
 ### Значення, що повертаються
 
-Повертає **`PGSQL_POLLING_FAILED`** **`PGSQL_POLLING_READING`** **`PGSQL_POLLING_WRITING`** **`PGSQL_POLLING_OK`**или**`PGSQL_POLLING_ACTIVE`**
+Повертає **`PGSQL_POLLING_FAILED`** **`PGSQL_POLLING_READING`** **`PGSQL_POLLING_WRITING`** **`PGSQL_POLLING_OK`** або **`PGSQL_POLLING_ACTIVE`**
 
 ### список змін
 

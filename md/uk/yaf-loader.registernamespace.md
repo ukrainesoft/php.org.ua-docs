@@ -41,7 +41,7 @@ bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Loader::registerNamespace()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Loader::registerNamespace()\*\*\*\*
 
 ```php
 <?php

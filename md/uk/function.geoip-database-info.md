@@ -35,7 +35,7 @@ geoip_database_info(int $database = GEOIP_COUNTRY_EDITION): string
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_database\_info()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_database\_info()\*\*\*\*
 
 Приклад демонструє виведення інформації про базу даних.
 

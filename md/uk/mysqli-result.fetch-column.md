@@ -53,7 +53,7 @@ mysqli_fetch_column(mysqli_result $result, int $column = 0): null|int|float|stri
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_result::fetch\_column()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_result::fetch\_column()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

@@ -15,7 +15,7 @@ ExecutionStatus::\_\_construct - Конструктор класу ExecutionStat
 
 ### Опис
 
-private**mysql\_xdevapi\\ExecutionStatus::\_\_construct**()
+private **mysql\_xdevapi\\ExecutionStatus::\_\_construct**()
 
 **Увага**
 
@@ -27,7 +27,7 @@ private**mysql\_xdevapi\\ExecutionStatus::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ExecutionStatus::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ExecutionStatus::\_\_construct()\*\*\*\*
 
 ```php
 <?php

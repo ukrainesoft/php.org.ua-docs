@@ -62,7 +62,7 @@ imagefilledpolygon(    GdImage $image,    array $points,    int $num
 
 ### Приклади
 
-**Пример #1 Пример использования**imagefilledpolygon()\*\*\*\*
+**Приклад #1 Приклад використання** imagefilledpolygon()\*\*\*\*
 
 ```php
 <?php

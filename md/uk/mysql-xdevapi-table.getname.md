@@ -31,7 +31,7 @@ public mysql_xdevapi\Table::getName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Table::getName()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Table::getName()\*\*\*\*
 
 ```php
 <?php

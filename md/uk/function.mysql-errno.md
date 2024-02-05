@@ -42,7 +42,7 @@ mysql_errno(resource $link_identifier = NULL): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_errno()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_errno()\*\*\*\*
 
 ```php
 <?php

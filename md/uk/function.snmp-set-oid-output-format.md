@@ -39,7 +39,7 @@ snmp_set_oid_output_format(int $format): true
 
 ### Приклади
 
-**Пример #1 Пример использования[snmprealwalk()](function.snmprealwalk.md)**
+**Приклад #1 Приклад использования[snmprealwalk()](function.snmprealwalk.md)**
 
 ```php
 <?php

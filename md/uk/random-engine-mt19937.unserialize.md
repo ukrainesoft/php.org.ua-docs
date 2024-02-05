@@ -33,7 +33,7 @@ public Random\Engine\Mt19937::__unserialize(array $data): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Mt19937::\_\_unserialize()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Mt19937::\_\_unserialize()\*\*\*\*
 
 ```php
 <?php

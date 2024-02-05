@@ -37,7 +37,7 @@ ini_parse_quantity(string $shorthand): int
 
 ### Приклади
 
-**Пример #1 Пример использования**ini\_parse\_quantity()\*\*\*\*
+**Приклад #1 Приклад використання** ini\_parse\_quantity()\*\*\*\*
 
 ```php
 <?php

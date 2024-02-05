@@ -30,7 +30,7 @@ $p = new Phar('/путь/к/myphar.phar', 0, 'myphar.phar');
 // эти два вызова file_get_contents() равнозначны в том случае, если
 // /путь/к/myphar.phar имеет явно заданный псевдоним "myphar.phar"
 // в своём манифесте, или если phar был инициализирован созданием объекта Phar,
-// как показано в предыдущем примере
+// как показано в предыдущем Прикладе
 $f = file_get_contents('phar:///путь/к/myphar.phar/whatever.txt');
 $f = file_get_contents('phar://myphar.phar/whatever.txt');
 ?>

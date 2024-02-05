@@ -33,7 +33,7 @@ array_key_first(array $array): int|string|null
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_key\_first()\*\*\*\*
+**Приклад #1 Приклад використання** array\_key\_first()\*\*\*\*
 
 ```php
 <?php

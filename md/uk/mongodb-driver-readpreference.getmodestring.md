@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadPreference::getModeString(): string
 
 ### Приклади
 
-**Пример #1**Приклад використання MongoDB\\Driver\\ReadPreference::getModeString()\*\*\*\*
+**Приклад #1**Приклад використання MongoDB\\Driver\\ReadPreference::getModeString()\*\*\*\*
 
 ```php
 <?php

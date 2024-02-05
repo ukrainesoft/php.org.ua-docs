@@ -33,7 +33,7 @@ public DirectoryIterator::getBasename(string $suffix = ""): string
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::getBasename()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::getBasename()\*\*\*\*
 
 У цьому прикладі для файлів у каталозі, що містить скрипт, буде перераховано повне базове ім'я та базове ім'я з віддаленим суфіксом `.jpg`
 

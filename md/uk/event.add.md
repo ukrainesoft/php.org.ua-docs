@@ -48,7 +48,7 @@ public
 
 $ php examples/signal.php
 
-В другом окне терминала узнайте pid и отправьте SIGTERM, например:
+В другом окне терминала узнайте pid и отправьте SIGTERM, наПриклад:
 
 $ ps aux | grep examp
 

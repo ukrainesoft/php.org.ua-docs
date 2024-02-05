@@ -57,7 +57,7 @@ public Imagick::floodFillPaintImage(    mixed $fill,    float $fuzz,  
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::floodfillPaintImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::floodfillPaintImage()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public ArrayObject::offsetUnset(mixed $key): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::offsetUnset()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::offsetUnset()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ public ImagickPixel::getColor(int $normalized = 0): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::getColor()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::getColor()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public SplFileObject::fflush(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileObject::fflush()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileObject::fflush()\*\*\*\*
 
 ```php
 <?php

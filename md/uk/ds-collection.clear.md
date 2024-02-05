@@ -31,7 +31,7 @@ public Ds\Collection::clear(): void
 
 ### Приклади
 
-**Пример #1 Пример**Ds\\Collection::clear()\*\*\*\*
+**Приклад #1 Приклад**Ds\\Collection::clear()\*\*\*\*
 
 ```php
 <?php

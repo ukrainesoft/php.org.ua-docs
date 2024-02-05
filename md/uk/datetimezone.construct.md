@@ -19,7 +19,7 @@ DateTimeZone::\_\_construct -- timezone\_open — Створює новий об
 
 Об'єктно-орієнтований стиль
 
-public**DateTimeZone::\_\_construct**(string`$timezone`) .
+public **DateTimeZone::\_\_construct**(string`$timezone`) .
 
 Процедурний стиль
 

@@ -31,7 +31,7 @@ public Yar_Server_Exception::getType(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Yar\_Server\_Exception::getType()\*\*\*\*
+**Приклад #1 Приклад використання** Yar\_Server\_Exception::getType()\*\*\*\*
 
 ```php
 //Server.php

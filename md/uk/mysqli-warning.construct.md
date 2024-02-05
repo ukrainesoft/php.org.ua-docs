@@ -15,7 +15,7 @@ mysqli\_warning::\_\_construct — Закритий конструктор дл�
 
 ### Опис
 
-private**mysqli\_warning::\_\_construct**()
+private **mysqli\_warning::\_\_construct**()
 
 ### Список параметрів
 

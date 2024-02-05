@@ -33,7 +33,7 @@ public QuickHashIntHash::exists(int $key): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**QuickHashIntHash::exists()\*\*\*\*
+**Приклад #1 Приклад використання** QuickHashIntHash::exists()\*\*\*\*
 
 ```php
 <?php

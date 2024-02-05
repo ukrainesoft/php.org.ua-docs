@@ -15,7 +15,7 @@ EvChild::\_\_construct — Створює спостерігач об'єкт evC
 
 ### Опис
 
-public**EvChild::\_\_construct**  
+public **EvChild::\_\_construct**  
 int`$pid`  
 bool`$trace`  
 [callable](language.types.callable.md) `$callback`  

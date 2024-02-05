@@ -37,7 +37,7 @@ public mysql_xdevapi\CollectionRemove::sort(string $sort_expr): mysql_xdevapi\Co
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionRemove::sort()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionRemove::sort()\*\*\*\*
 
 ```php
 <?php

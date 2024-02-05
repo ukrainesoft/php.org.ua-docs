@@ -43,7 +43,7 @@ mhash_get_block_size(int $algo): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mhash\_get\_block\_size()\*\*\*\*
+**Приклад #1 Приклад використання** mhash\_get\_block\_size()\*\*\*\*
 
 ```php
 <?php

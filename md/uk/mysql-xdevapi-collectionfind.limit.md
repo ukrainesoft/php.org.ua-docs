@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionFind::limit(int $rows): mysql_xdevapi\CollectionF
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::limit()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionFind::limit()\*\*\*\*
 
 ```php
 <?php

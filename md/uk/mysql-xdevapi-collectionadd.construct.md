@@ -15,7 +15,7 @@ CollectionAdd::\_\_construct - Конструктор класу CollectionAdd
 
 ### Опис
 
-private**mysql\_xdevapi\\CollectionAdd::\_\_construct**()
+private **mysql\_xdevapi\\CollectionAdd::\_\_construct**()
 
 Використовується для додавання документа до колекції; Викликається з об'єкта Collection.
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\CollectionAdd::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionAdd::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionAdd::\_\_construct()\*\*\*\*
 
 ```php
 <?php

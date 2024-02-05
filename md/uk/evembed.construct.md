@@ -15,7 +15,7 @@ EvEmbed::\_\_construct — Конструктор об'єкту EvEmbed
 
 ### Опис
 
-public**EvEmbed::\_\_construct**  
+public **EvEmbed::\_\_construct**  
 object`$other`  
 [callable](language.types.callable.md) `$callback` =  
 [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` =  
@@ -58,7 +58,7 @@ int`$priority` =
  * Сохраните событийный цикл kqueue/socket-only в loop_socket. (Опционально можно
  * использовать флаг EVFLAG_NOENV)
  *
- * пример взят из
+ * Приклад взят из
  * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
  */
 $loop        = EvLoop::defaultLoop();

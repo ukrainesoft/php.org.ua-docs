@@ -58,7 +58,7 @@ openssl_pkcs7_encrypt(    string $input_filename,    string $output_file
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_pkcs7\_encrypt()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_pkcs7\_encrypt()\*\*\*\*
 
 ```php
 <?php

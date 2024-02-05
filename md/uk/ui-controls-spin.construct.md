@@ -15,7 +15,7 @@ UI\\Controls\\Spin::\_\_construct — Створює новий об'єкт Spin
 
 ### Опис
 
-public**UI\\Controls\\Spin::\_\_construct**(int`$min`, int`$max`) .
+public **UI\\Controls\\Spin::\_\_construct**(int`$min`, int`$max`) .
 
 Створює новий об'єкт Spin із заданим діапазоном
 

@@ -33,7 +33,7 @@ sqlsrv_rows_affected(resource $stmt): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**sqlsrv\_rows\_affected()\*\*\*\*
+**Приклад #1 Приклад використання** sqlsrv\_rows\_affected()\*\*\*\*
 
 ```php
 <?php

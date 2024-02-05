@@ -47,7 +47,7 @@ rename(string $from, string $to, ?resource $context = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования функции**rename()\*\*\*\*
+**Приклад #1 Приклад использования функции**rename()\*\*\*\*
 
 ```php
 <?php

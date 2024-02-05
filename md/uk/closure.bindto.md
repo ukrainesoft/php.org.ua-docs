@@ -47,7 +47,7 @@ public Closure::bindTo(?object $newThis, object|string|null $newScope = "static"
 
 ### Приклади
 
-**Пример #1 Пример**Closure::bindTo()\*\*\*\*
+**Приклад #1 Приклад**Closure::bindTo()\*\*\*\*
 
 ```php
 <?php

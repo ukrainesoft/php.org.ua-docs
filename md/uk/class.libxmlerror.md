@@ -61,7 +61,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 level
 
-Важливість помилки (одна з наступних констант: **`LIBXML_ERR_WARNING`** **`LIBXML_ERR_ERROR`**или**`LIBXML_ERR_FATAL`**) .
+Важливість помилки (одна з наступних констант: **`LIBXML_ERR_WARNING`** **`LIBXML_ERR_ERROR`** або **`LIBXML_ERR_FATAL`**) .
 
 code
 

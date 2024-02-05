@@ -43,7 +43,7 @@ stream_set_timeout(resource $stream, int $seconds, int $microseconds = 0): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**stream\_set\_timeout()\*\*\*\*
+**Приклад #1 Приклад використання** stream\_set\_timeout()\*\*\*\*
 
 ```php
 <?php

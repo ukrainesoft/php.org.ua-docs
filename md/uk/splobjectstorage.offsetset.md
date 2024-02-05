@@ -41,7 +41,7 @@ public SplObjectStorage::offsetSet(object $object, mixed $info = null): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::offsetSet()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::offsetSet()\*\*\*\*
 
 ```php
 <?php

@@ -73,7 +73,7 @@ callback(mixed $value, mixed ...$values): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**PDO::sqliteCreateFunction()\*\*\*\*
+**Приклад #1 Приклад використання** PDO::sqliteCreateFunction()\*\*\*\*
 
 ```php
 <?php

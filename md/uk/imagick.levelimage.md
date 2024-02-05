@@ -49,7 +49,7 @@ public Imagick::levelImage(    float $blackPoint,    float $gamma,   
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::levelImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::levelImage()\*\*\*\*
 
 ```php
 <?php

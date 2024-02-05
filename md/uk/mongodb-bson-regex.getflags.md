@@ -33,7 +33,7 @@ final public MongoDB\BSON\Regex::getFlags(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Regex::getFlags()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Regex::getFlags()\*\*\*\*
 
 ```php
 <?php

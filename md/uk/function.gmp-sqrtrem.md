@@ -35,7 +35,7 @@ gmp_sqrtrem(GMP|int|string $num): array
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_sqrtrem()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_sqrtrem()\*\*\*\*
 
 ```php
 <?php

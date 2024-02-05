@@ -45,7 +45,7 @@ locale_get_keywords(string $locale): array|false|null
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_get\_keywords()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_get\_keywords()\*\*\*\*
 
 ```php
 <?php

@@ -35,7 +35,7 @@ public ArrayObject::serialize(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::serialize()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::serialize()\*\*\*\*
 
 ```php
 <?php

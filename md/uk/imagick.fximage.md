@@ -41,7 +41,7 @@ public Imagick::fxImage(string $expression, int $channel = Imagick::CHANNEL_DEFA
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::fxImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::fxImage()\*\*\*\*
 
 ```php
 <?php

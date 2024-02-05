@@ -15,7 +15,7 @@ UI\\Draw\\Text\\Layout::\_\_construct — Створити новий об'єк�
 
 ### Опис
 
-public**UI\\Draw\\Text\\Layout::\_\_construct**(string`$text` [UI\\Draw\\Text\\Font](class.ui-draw-text-font.md) `$font`, float`$width`) .
+public **UI\\Draw\\Text\\Layout::\_\_construct**(string`$text` [UI\\Draw\\Text\\Font](class.ui-draw-text-font.md) `$font`, float`$width`) .
 
 Створить новий об'єкт макету тексту
 

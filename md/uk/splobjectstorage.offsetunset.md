@@ -37,7 +37,7 @@ public SplObjectStorage::offsetUnset(object $object): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SplObjectStorage::offsetUnset()\*\*\*\*
+**Приклад #1 Приклад використання** SplObjectStorage::offsetUnset()\*\*\*\*
 
 ```php
 <?php

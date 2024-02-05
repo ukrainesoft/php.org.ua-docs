@@ -31,7 +31,7 @@ public SyncEvent::reset(): bool
 
 ### Приклади
 
-**Пример #1**SyncEvent::reset()**example**
+**Приклад #1**SyncEvent::reset()**example**
 
 ```php
 <?php

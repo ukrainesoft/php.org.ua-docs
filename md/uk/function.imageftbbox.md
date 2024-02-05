@@ -63,7 +63,7 @@ imageftbbox(    float $size,    float $angle,    string $font_filena
 
 ### Приклади
 
-**Пример #1 Пример использования**imageftbbox()\*\*\*\*
+**Приклад #1 Приклад використання** imageftbbox()\*\*\*\*
 
 ```php
 <?php

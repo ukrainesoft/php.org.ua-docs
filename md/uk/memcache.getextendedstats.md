@@ -49,7 +49,7 @@ Memcache::getExtendedStats(string $type = ?, int $slabid = ?, int $limit = 100):
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::getExtendedStats()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::getExtendedStats()\*\*\*\*
 
 ```php
 <?php

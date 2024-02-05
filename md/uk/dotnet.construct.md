@@ -15,7 +15,7 @@ dotnet::\_\_construct — Конструктор класу dotnet
 
 ### Опис
 
-public**dotnet::\_\_construct**(string`$assembly_name`, string`$datatype_name`, int`$codepage` **`CP_ACP`**) .
+public **dotnet::\_\_construct**(string`$assembly_name`, string`$datatype_name`, int`$codepage` **`CP_ACP`**) .
 
 Створює об'єкт класу dotnet.
 

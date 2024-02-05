@@ -45,7 +45,7 @@ mysqli_fetch_row(mysqli_result $result): array|null|false
 
 ### Приклади
 
-**Пример #1 Пример использования**mysqli\_result::fetch\_row()\*\*\*\*
+**Приклад #1 Приклад використання** mysqli\_result::fetch\_row()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

@@ -43,7 +43,7 @@ public MongoDB\Driver\BulkWrite::insert(array|object $document): mixed
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\BulkWrite::insert()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\BulkWrite::insert()\*\*\*\*
 
 ```php
 <?php

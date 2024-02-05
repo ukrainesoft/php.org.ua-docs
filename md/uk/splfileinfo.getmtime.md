@@ -31,7 +31,7 @@ public SplFileInfo::getMTime(): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::getMTime()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::getMTime()\*\*\*\*
 
 ```php
 <?php

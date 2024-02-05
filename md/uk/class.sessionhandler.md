@@ -56,7 +56,7 @@ public write(string $id, string $data): bool
 
 Цей клас призначений для розширення поточного внутрішнього оброблювача сесії PHP. При цьому, якщо вам потрібно написати власний обробник, необхідно написати власну реалізацію інтерфейсу [SessionHandlerInterface](class.sessionhandlerinterface.md)вместо расширения класса**SessionHandler**
 
-**Пример #1 Использование**SessionHandler\*\* для того, щоб додати шифрування даних до внутрішнього оброблювача сесій PHP.\*\*
+**Приклад #1 Использование**SessionHandler\*\* для того, щоб додати шифрування даних до внутрішнього оброблювача сесій PHP.\*\*
 
 ```php
 <?php
@@ -143,7 +143,7 @@ class EncryptedSessionHandler extends SessionHandler
 }
 
 // Здесь мы перехватываем встроенный обработчик 'files', но можно использовать любой другой
-// обработчик, например 'sqlite', 'memcache' или 'memcached',
+// обработчик, наПриклад 'sqlite', 'memcache' или 'memcached',
 // которые предоставлены модулями PHP.
 ini_set('session.save_handler', 'files');
 

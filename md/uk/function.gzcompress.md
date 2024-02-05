@@ -49,7 +49,7 @@ gzcompress(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_DEFLATE)
 
 ### Приклади
 
-**Пример #1 Пример использования**gzcompress()\*\*\*\*
+**Приклад #1 Приклад використання** gzcompress()\*\*\*\*
 
 ```php
 <?php

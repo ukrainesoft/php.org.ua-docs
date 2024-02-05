@@ -35,7 +35,7 @@ ibase_server_info(resource $service_handle, int $action): string
 
 ### Приклади
 
-**Пример #1 Пример использования[ibase\_service\_attach()](function.ibase-service-attach.md)**
+**Приклад #1 Приклад использования[ibase\_service\_attach()](function.ibase-service-attach.md)**
 
 ```php
 <?php

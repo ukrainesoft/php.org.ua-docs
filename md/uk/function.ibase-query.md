@@ -47,7 +47,7 @@ ibase_query(resource $link_identifier = ?, string $query, int $bind_args = ?): r
 
 ### Приклади
 
-**Пример #1 Пример использования**ibase\_query()\*\*\*\*
+**Приклад #1 Приклад використання** ibase\_query()\*\*\*\*
 
 ```php
 <?php

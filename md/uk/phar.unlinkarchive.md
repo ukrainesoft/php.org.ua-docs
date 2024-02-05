@@ -37,7 +37,7 @@ final public static Phar::unlinkArchive(string $filename): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Phar::unlinkArchive()\*\*\*\*
+**Приклад #1 Приклад використання** Phar::unlinkArchive()\*\*\*\*
 
 ```php
 <?php

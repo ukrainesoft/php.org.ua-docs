@@ -40,7 +40,7 @@ geoip_region_by_name(string $hostname): array
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_region\_by\_name()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_region\_by\_name()\*\*\*\*
 
 Виведе масив, що складається з коду країни та регіону для хоста example.com.
 

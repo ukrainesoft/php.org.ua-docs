@@ -13,7 +13,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 На додаток до основного файлу php.ini PHP шукає INI-файли в кожній директорії, починаючи з директорії запитаного PHP-файлу і продовжує пошук до кореневої директорії (встановленої в елементі [$\_SERVER\['DOCUMENT\_ROOT'\]](reserved.variables.server.md)). Якщо PHP-файл лежить поза кореневою директорією, то сканується лише його директорія.
 
-Тільки INI-налаштування з режимами **`INI_PERDIR`**и**`INI_USER`** будуть розпізнані в INI-файлах у стилі .user.ini.
+Тільки INI-налаштування з режимами **`INI_PERDIR`** і **`INI_USER`** будуть розпізнані в INI-файлах у стилі .user.ini.
 
 Дві нові INI-директиви, [user\_ini.filename](ini.core.md#ini.user-ini.filename) і [user\_ini.cache\_ttl](ini.core.md#ini.user-ini.cache-ttl), контролюють використання INI-файлів користувача.
 

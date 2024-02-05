@@ -15,7 +15,7 @@ SqlStatementResult::\_\_construct — Опис конструктора
 
 ### Опис
 
-private**mysql\_xdevapi\\SqlStatementResult::\_\_construct**()
+private **mysql\_xdevapi\\SqlStatementResult::\_\_construct**()
 
 **Увага**
 
@@ -27,7 +27,7 @@ private**mysql\_xdevapi\\SqlStatementResult::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\SqlStatementResult::\_\_construct()\*\*\*\*
 
 ```php
 <?php

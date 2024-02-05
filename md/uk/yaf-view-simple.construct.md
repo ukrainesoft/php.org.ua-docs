@@ -15,7 +15,7 @@ Yaf\_View\_Simple::\_\_construct - Конструктор класу Yaf\_View\_
 
 ### Опис
 
-final public**Yaf\_View\_Simple::\_\_construct**(string`$template_dir`, array`$options`
+final public **Yaf\_View\_Simple::\_\_construct**(string`$template_dir`, array`$options`
 
 ### Список параметрів
 
@@ -29,7 +29,7 @@ final public**Yaf\_View\_Simple::\_\_construct**(string`$template_dir`, array`$o
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_View\_Simple::\_\_constructor()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_View\_Simple::\_\_constructor()\*\*\*\*
 
 ```php
 <?php

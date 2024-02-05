@@ -33,7 +33,7 @@ public Ds\Map::hasKey(mixed $key): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Map::hasKey()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Map::hasKey()\*\*\*\*
 
 ```php
 <?php

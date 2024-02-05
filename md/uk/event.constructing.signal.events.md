@@ -11,7 +11,7 @@ origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 
 Event може відстежувати сигнали у стилі POSIX. Для створення обробника сигналу використовуйте конструктор [Event::\_\_construct()](event.construct.md) з прапором **`Event::SIGNAL`** або фабричний метод [Event::signal()](event.signal.md)
 
-**Пример #1 Обработка сигнала`SIGTERM`**
+**Приклад #1 Обработка сигнала`SIGTERM`**
 
 ```php
 <?php

@@ -15,7 +15,7 @@ CollectionFind::\_\_construct - Конструктор класу CollectionFind
 
 ### Опис
 
-private**mysql\_xdevapi\\CollectionFind::\_\_construct**()
+private **mysql\_xdevapi\\CollectionFind::\_\_construct**()
 
 **Увага**
 

@@ -35,7 +35,7 @@ final public MongoDB\Driver\Server::getPort(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Server::getPort()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Server::getPort()\*\*\*\*
 
 ```php
 <?php

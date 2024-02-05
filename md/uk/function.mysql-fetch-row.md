@@ -42,7 +42,7 @@ mysql_fetch_row(resource $result): array
 
 ### Приклади
 
-**Пример #1 Получение одного ряда с помощью**mysql\_fetch\_row()\*\*\*\*
+**Приклад #1 Получение одного ряда с помощью**mysql\_fetch\_row()\*\*\*\*
 
 ```php
 <?php

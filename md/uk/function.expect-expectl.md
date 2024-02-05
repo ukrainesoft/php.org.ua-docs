@@ -55,7 +55,7 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 
 ### Приклади
 
-**Пример #1 Пример использования**expect\_expectl()\*\*\*\*
+**Приклад #1 Приклад використання** expect\_expectl()\*\*\*\*
 
 ```php
 <?php

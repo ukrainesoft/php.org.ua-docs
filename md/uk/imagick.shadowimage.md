@@ -37,7 +37,7 @@ public Imagick::shadowImage(    float $opacity,    float $sigma,    
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::shadowImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::shadowImage()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ public PharData::decompress(?string $extension = null): ?PharData
 
 ### Приклади
 
-**Пример #1 Пример использования**PharData::decompress()\*\*\*\*
+**Приклад #1 Приклад використання** PharData::decompress()\*\*\*\*
 
 ```php
 <?php

@@ -45,7 +45,7 @@ public Imagick::newPseudoImage(int $columns, int $rows, string $pseudoString): b
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::newPseudoImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::newPseudoImage()\*\*\*\*
 
 ```php
 <?php

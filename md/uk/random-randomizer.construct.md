@@ -15,7 +15,7 @@ Random\\Randomizer::\_\_construct — Створює новий об'єкт Rand
 
 ### Опис
 
-public**Random\\Randomizer::\_\_construct**(?[Random\\Engine](class.random-engine.md) `$engine` **`null`**) .
+public **Random\\Randomizer::\_\_construct**(?[Random\\Engine](class.random-engine.md) `$engine` **`null`**) .
 
 **Увага**
 
@@ -31,7 +31,7 @@ public**Random\\Randomizer::\_\_construct**(?[Random\\Engine](class.random-engin
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::\_\_construct()\*\*\*\*
 
 ```php
 <?php

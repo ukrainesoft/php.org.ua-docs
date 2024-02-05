@@ -39,7 +39,7 @@ handler(Throwable $ex): void
 
 ### Приклади
 
-**Пример #1 Пример использования**set\_exception\_handler()\*\*\*\*
+**Приклад #1 Приклад використання** set\_exception\_handler()\*\*\*\*
 
 ```php
 <?php

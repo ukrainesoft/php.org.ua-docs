@@ -31,7 +31,7 @@ public SyncSharedMemory::size(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**SyncSharedMemory::size()\*\*\*\*
+**Приклад #1 Приклад використання** SyncSharedMemory::size()\*\*\*\*
 
 ```php
 <?php

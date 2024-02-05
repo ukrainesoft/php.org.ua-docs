@@ -31,7 +31,7 @@ public ReflectionGenerator::getThis(): ?object
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionGenerator::getThis()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionGenerator::getThis()\*\*\*\*
 
 ```php
 <?php

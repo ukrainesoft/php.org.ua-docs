@@ -25,7 +25,7 @@ public PharFileInfo::isCompressed(?int $compression = null): bool
 
 `compression`
 
-Одна из констант\*\*`Phar::GZ`**или**`Phar::BZ2`\*\*. За замовчуванням – будь-який тип стиснення.
+Одна из констант\*\*`Phar::GZ`** або **`Phar::BZ2`\*\*. За замовчуванням – будь-який тип стиснення.
 
 ### Значення, що повертаються
 
@@ -39,7 +39,7 @@ public PharFileInfo::isCompressed(?int $compression = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**PharFileInfo::isCompressed()\*\*\*\*
+**Приклад #1 Приклад використання** PharFileInfo::isCompressed()\*\*\*\*
 
 ```php
 <?php

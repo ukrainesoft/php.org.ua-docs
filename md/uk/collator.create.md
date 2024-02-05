@@ -43,7 +43,7 @@ collator_create(string $locale): ?Collator
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_create()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_create()\*\*\*\*
 
 ```php
 <?php

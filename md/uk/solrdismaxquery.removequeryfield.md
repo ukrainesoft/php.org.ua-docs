@@ -35,7 +35,7 @@ qf: При створенні DisjunctionMaxQueries з запиту корист
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrDisMaxQuery::removeQueryField()\*\*\*\*
+**Приклад #1 Приклад використання** SolrDisMaxQuery::removeQueryField()\*\*\*\*
 
 ```php
 <?php

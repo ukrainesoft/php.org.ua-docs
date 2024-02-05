@@ -15,7 +15,7 @@ RecursiveIteratorIterator::\_\_construct — Конструктор класу R
 
 ### Опис
 
-public**RecursiveIteratorIterator::\_\_construct** [Traversable](class.traversable.md) `$iterator`, int`$mode`\= RecursiveIteratorIterator::LEAVES\_ONLY, int`$flags`
+public **RecursiveIteratorIterator::\_\_construct** [Traversable](class.traversable.md) `$iterator`, int`$mode`\= RecursiveIteratorIterator::LEAVES\_ONLY, int`$flags`
 
 Створює новий об'єкт класу [RecursiveIteratorIterator](class.recursiveiteratoriterator.md) на основі об'єкта [RecursiveIterator](class.recursiveiterator.md)
 

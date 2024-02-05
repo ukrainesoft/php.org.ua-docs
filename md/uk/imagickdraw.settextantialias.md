@@ -35,7 +35,7 @@ public ImagickDraw::setTextAntialias(bool $antiAlias): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ImagickDraw::setTextAntialias()\*\*\*\*
+**Приклад #1 Приклад використання** ImagickDraw::setTextAntialias()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ mysql_db_name(resource $result, int $row, mixed $field = NULL): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_db\_name()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_db\_name()\*\*\*\*
 
 ```php
 <?php

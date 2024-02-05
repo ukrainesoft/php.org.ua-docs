@@ -43,7 +43,7 @@ oci_fetch_object(resource $statement, int $mode = OCI_ASSOC | OCI_RETURN_NULLS):
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_fetch\_object()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_fetch\_object()\*\*\*\*
 
 ```php
 <?php
@@ -80,7 +80,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #2 Пример использования**oci\_fetch\_object()\*\* з назвами стовпців у різних регістрах\*\*
+**Приклад #2 Приклад використання** oci\_fetch\_object()\*\* з назвами стовпців у різних регістрах\*\*
 
 ```php
 <?php
@@ -118,7 +118,7 @@ oci_close($conn);
 ?>
 ```
 
-**Пример #3 Пример использования**oci\_fetch\_object()**с LOB**
+**Приклад #3 Приклад використання** oci\_fetch\_object()**с LOB**
 
 ```php
 <?php

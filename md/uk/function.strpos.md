@@ -58,7 +58,7 @@ strpos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### Приклади
 
-**Пример #1 Использование`===`**
+**Приклад #1 Использование`===`**
 
 ```php
 <?php

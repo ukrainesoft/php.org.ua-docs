@@ -31,7 +31,7 @@ public ReflectionClass::isCloneable(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::isCloneable()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::isCloneable()\*\*\*\*
 
 ```php
 <?php

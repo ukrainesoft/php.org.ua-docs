@@ -35,7 +35,7 @@ public RecursiveArrayIterator::getChildren(): ?RecursiveArrayIterator
 
 ### Приклади
 
-**Пример #1 Пример использования**RecursiveArrayIterator::getChildren()\*\*\*\*
+**Приклад #1 Приклад використання** RecursiveArrayIterator::getChildren()\*\*\*\*
 
 ```php
 <?php

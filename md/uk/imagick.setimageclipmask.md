@@ -41,7 +41,7 @@ public Imagick::setImageClipMask(Imagick $clip_mask): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setImageClipMask()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::setImageClipMask()\*\*\*\*
 
 ```php
 <?php

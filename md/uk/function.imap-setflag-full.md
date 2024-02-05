@@ -58,7 +58,7 @@ imap_setflag_full(    IMAP\Connection $imap,    string $sequence,   �
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_setflag\_full()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_setflag\_full()\*\*\*\*
 
 ```php
 <?php

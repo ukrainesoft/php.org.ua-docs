@@ -31,7 +31,7 @@ public Random\Randomizer::__serialize(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::\_\_serialize()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::\_\_serialize()\*\*\*\*
 
 ```php
 <?php

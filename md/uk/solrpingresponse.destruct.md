@@ -15,7 +15,7 @@ SolrPingResponse::\_\_destruct - Деструктор
 
 ### Опис
 
-public**SolrPingResponse::\_\_destruct**()
+public **SolrPingResponse::\_\_destruct**()
 
 Деструктор
 

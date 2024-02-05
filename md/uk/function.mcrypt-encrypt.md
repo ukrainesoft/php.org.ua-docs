@@ -55,7 +55,7 @@ mcrypt_encrypt(    string $cipher,    string $key,    string $data,�
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_encrypt()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_encrypt()\*\*\*\*
 
 ```php
 <?php

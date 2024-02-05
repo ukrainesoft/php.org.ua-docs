@@ -43,7 +43,7 @@ collator_get_error_message(Collator $object): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**collator\_get\_error\_message()\*\*\*\*
+**Приклад #1 Приклад використання** collator\_get\_error\_message()\*\*\*\*
 
 ```php
 <?php

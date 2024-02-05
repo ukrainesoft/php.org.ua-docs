@@ -27,7 +27,7 @@ public Yaf_Application::getLastErrorMsg(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**Yaf\_Application::getLastErrorMsg()\*\*\*\*
+**Приклад #1 Приклад використання** Yaf\_Application::getLastErrorMsg()\*\*\*\*
 
 ```php
 <?php

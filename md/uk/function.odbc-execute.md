@@ -41,7 +41,7 @@ odbc_execute(resource $statement, array $params = []): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**odbc\_execute()**и[odbc\_prepare()](function.odbc-prepare.md)**
+**Приклад #1 Приклад використання** odbc\_execute()**и[odbc\_prepare()](function.odbc-prepare.md)**
 
 У цьому коді $success матиме значення **`true`**, тільки якщо всі три параметри myproc присутні у масиві параметрів:
 

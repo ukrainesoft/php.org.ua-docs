@@ -15,7 +15,7 @@ SoapHeader::\_\_construct - Конструктор SoapHeader
 
 ### Опис
 
-public**SoapHeader::\_\_construct**  
+public **SoapHeader::\_\_construct**  
 string`$namespace`,  
 string`$name`,  
 [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`  
@@ -49,7 +49,7 @@ string`$actor`
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapHeader::SoapHeader()\*\*\*\*
+**Приклад #1 Приклад використання** SoapHeader::SoapHeader()\*\*\*\*
 
 ```php
 <?php

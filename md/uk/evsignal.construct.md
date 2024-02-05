@@ -15,7 +15,7 @@ EvSignal::\_\_construct - Конструктор об'єкта спостері�
 
 ### Опис
 
-public**EvSignal::\_\_construct**  
+public **EvSignal::\_\_construct**  
 int`$signum`  
 [callable](language.types.callable.md) `$callback`  
 [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` = **`null`**  

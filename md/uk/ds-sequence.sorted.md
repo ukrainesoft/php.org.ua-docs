@@ -41,7 +41,7 @@ callback(mixed $a, mixed $b): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::sorted()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::sorted()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +64,7 @@ Ds\Vector Object
 )
 ```
 
-**Пример #2 Пример использования**Ds\\Sequence::sorted()\*\* з callback-функцією порівняння\*\*
+**Приклад #2 Приклад використання** Ds\\Sequence::sorted()\*\* з callback-функцією порівняння\*\*
 
 ```php
 <?php

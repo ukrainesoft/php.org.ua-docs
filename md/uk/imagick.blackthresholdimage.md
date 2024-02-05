@@ -39,7 +39,7 @@ public Imagick::blackThresholdImage(mixed $threshold): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::blackThresholdImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::blackThresholdImage()\*\*\*\*
 
 ```php
 <?php

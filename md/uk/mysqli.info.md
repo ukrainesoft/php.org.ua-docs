@@ -31,7 +31,7 @@ mysqli_info(mysqli $mysql): ?string
 
 **Можливі значення, що повертаються mysqli\_info**
 
-| Тип запроса | Пример результирующей строки |
+| Тип запроса | Приклад результирующей строки |
 | --- | --- |
 | INSERT INTO...SELECT... | Records: 100 Duplicates: 0 Warnings: 0 |
 | INSERT INTO...VALUES (...),(...),(...) | Records: 3 Duplicates: 0 Warnings: 0 |

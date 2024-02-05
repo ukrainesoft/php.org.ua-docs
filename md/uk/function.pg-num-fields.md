@@ -43,7 +43,7 @@ pg_num_fields(PgSql\Result $result): int
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_num\_fields()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_num\_fields()\*\*\*\*
 
 ```php
 <?php

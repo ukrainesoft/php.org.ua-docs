@@ -31,7 +31,7 @@ public Ds\Vector::capacity(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::capacity()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::capacity()\*\*\*\*
 
 ```php
 <?php

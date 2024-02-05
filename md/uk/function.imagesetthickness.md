@@ -43,7 +43,7 @@ imagesetthickness(GdImage $image, int $thickness): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagesetthickness()\*\*\*\*
+**Приклад #1 Приклад використання** imagesetthickness()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ public CachingIterator::getCache(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**CachingIterator::getCache()\*\*\*\*
+**Приклад #1 Приклад використання** CachingIterator::getCache()\*\*\*\*
 
 ```php
 <?php

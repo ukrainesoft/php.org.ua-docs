@@ -35,14 +35,14 @@ imap_mail_compose(array $envelope, array $bodies): string|false
 
 | Ключ | Тип | Опис |
 | --- | --- | --- |
-| `type` | int | Тип MIME. Один з **`TYPETEXT`**(по умолчанию),**`TYPEMULTIPART`** **`TYPEMESSAGE`** **`TYPEAPPLICATION`** **`TYPEAUDIO`** **`TYPEIMAGE`** **`TYPEMODEL`**или**`TYPEOTHER`** |
-| `encoding` | int | Значение`Content-Transfer-Encoding`. . Одне з **`ENC7BIT`** (default), **`ENC8BIT`** **`ENCBINARY`** **`ENCBASE64`** **`ENCQUOTEDPRINTABLE`**или**`ENCOTHER`** |
+| `type` | int | Тип MIME. Один з **`TYPETEXT`**(по умолчанию),**`TYPEMULTIPART`** **`TYPEMESSAGE`** **`TYPEAPPLICATION`** **`TYPEAUDIO`** **`TYPEIMAGE`** **`TYPEMODEL`** або **`TYPEOTHER`** |
+| `encoding` | int | Значение`Content-Transfer-Encoding`. . Одне з **`ENC7BIT`** (default), **`ENC8BIT`** **`ENCBINARY`** **`ENCBASE64`** **`ENCQUOTEDPRINTABLE`** або **`ENCOTHER`** |
 | `charset` | string | Параметр charset типу MIME. |
 | `type.parameters` | array | Асоціативний масив (array) імен параметрів `Content-Type` та їх значень. |
 | `subtype` | string | Підтип MIME, наприклад, `'jpeg'`для\*\*`TYPEIMAGE`\*\* |
 | `id` | string | Значение`Content-ID` |
 | `description` | string | Значение`Content-Description` |
-| `disposition.type` | string | Значение`Content-Disposition`, например,`'attachment'` |
+| `disposition.type` | string | Значение`Content-Disposition`, наПриклад,`'attachment'` |
 | `disposition` | array | Асоціативний масив (array) імен параметрів `Content-Disposition` та їх значень. |
 | `contents.data` | string | Корисне навантаження. |
 | `lines` | int | Розмір корисного навантаження у рядках. |
@@ -55,7 +55,7 @@ imap_mail_compose(array $envelope, array $bodies): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_mail\_compose()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_mail\_compose()\*\*\*\*
 
 ```php
 <?php

@@ -45,11 +45,11 @@ intlcal_get_day_of_week_type(IntlCalendar $calendar, int $dayOfWeek): int|false
 
 ### Значення, що повертаються
 
-Повертає одну з констант: **`IntlCalendar::DOW_TYPE_WEEKDAY`** **`IntlCalendar::DOW_TYPE_WEEKEND`** \*\*`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**или**`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**или**`false`\*\*в случае возникновения ошибки.
+Повертає одну з констант: **`IntlCalendar::DOW_TYPE_WEEKDAY`** **`IntlCalendar::DOW_TYPE_WEEKEND`** \*\*`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`** або **`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`** або **`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::getDayOfWeekType()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::getDayOfWeekType()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ GmagickPixel::\_\_construct - Конструктора класу GmagickPixel
 
 ### Опис
 
-public**GmagickPixel::\_\_construct**(string`$color`
+public **GmagickPixel::\_\_construct**(string`$color`
 
 Створює новий об'єкт класу [GmagickPixel](class.gmagickpixel.md). Якщо вказано колір, об'єкт буде ініціалізований цим кольором.
 

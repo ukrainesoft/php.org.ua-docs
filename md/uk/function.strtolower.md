@@ -43,7 +43,7 @@ strtolower(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**strtolower()\*\*\*\*
+**Приклад #1 Приклад використання** strtolower()\*\*\*\*
 
 ```php
 <?php

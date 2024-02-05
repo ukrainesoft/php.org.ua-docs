@@ -35,7 +35,7 @@ win32_set_service_status(int $status, int $checkpoint = 0): void
 
 Значення контрольної точки, яку служба періодично збільшує, щоб повідомити свій прогрес під час тривалого запуску, зупинки, паузи або продовження роботи. Наприклад, служба має збільшувати це значення на одиницю в міру завершення кожного кроку своєї ініціалізації під час запуску.
 
-`checkpoint` дійсна лише тоді, коли `status` є одним з **`WIN32_SERVICE_STOP_PENDING`** **`WIN32_SERVICE_START_PENDING`** **`WIN32_SERVICE_CONTINUE_PENDING`**или**`WIN32_SERVICE_PAUSE_PENDING`**
+`checkpoint` дійсна лише тоді, коли `status` є одним з **`WIN32_SERVICE_STOP_PENDING`** **`WIN32_SERVICE_START_PENDING`** **`WIN32_SERVICE_CONTINUE_PENDING`** або **`WIN32_SERVICE_PAUSE_PENDING`**
 
 ### Значення, що повертаються
 

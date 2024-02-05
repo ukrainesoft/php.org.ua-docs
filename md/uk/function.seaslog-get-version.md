@@ -29,7 +29,7 @@ seaslog_get_version(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**seaslog\_get\_version()\*\*\*\*
+**Приклад #1 Приклад використання** seaslog\_get\_version()\*\*\*\*
 
 ```php
 <?php

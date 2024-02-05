@@ -31,7 +31,7 @@ public FilesystemIterator::next(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**FilesystemIterator::next()\*\*\*\*
+**Приклад #1 Приклад використання** FilesystemIterator::next()\*\*\*\*
 
 Виведення списку вмісту директорії за допомогою циклу while.
 

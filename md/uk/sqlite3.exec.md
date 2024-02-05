@@ -35,7 +35,7 @@ public SQLite3::exec(string $query): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3::exec()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3::exec()\*\*\*\*
 
 ```php
 <?php

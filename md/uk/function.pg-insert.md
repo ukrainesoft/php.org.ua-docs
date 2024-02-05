@@ -43,7 +43,7 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 `flags`
 
-Комбінація констант **`PGSQL_CONV_OPTS`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`**и**`PGSQL_DML_STRING`**. Якщо серед інших передається \*\*`PGSQL_DML_STRING`\*\*в параметре`flags`, функція поверне рядок запиту. Якщо встановлено **`PGSQL_DML_NO_CONV`**или**`PGSQL_DML_ESCAPE`**, то функция[pg\_convert()](function.pg-convert.md) внутрішньо не викликається.
+Комбінація констант **`PGSQL_CONV_OPTS`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** і **`PGSQL_DML_STRING`**. Якщо серед інших передається \*\*`PGSQL_DML_STRING`\*\*в параметре`flags`, функція поверне рядок запиту. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функция[pg\_convert()](function.pg-convert.md) внутрішньо не викликається.
 
 ### Значення, що повертаються
 
@@ -58,7 +58,7 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_insert()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_insert()\*\*\*\*
 
 ```php
 <?php

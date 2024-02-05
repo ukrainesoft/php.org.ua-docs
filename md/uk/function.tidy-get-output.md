@@ -33,7 +33,7 @@ tidy_get_output(tidy $tidy): string
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy\_get\_output()\*\*\*\*
+**Приклад #1 Приклад використання** tidy\_get\_output()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ disk_total_space(string $directory): float|false
 
 ### Приклади
 
-**Пример #1 Пример использования**disk\_total\_space()\*\*\*\*
+**Приклад #1 Приклад використання** disk\_total\_space()\*\*\*\*
 
 ```php
 <?php

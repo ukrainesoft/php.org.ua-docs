@@ -43,7 +43,7 @@ imagecolormatch(GdImage $image1, GdImage $image2): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecolormatch()\*\*\*\*
+**Приклад #1 Приклад використання** imagecolormatch()\*\*\*\*
 
 ```php
 <?php

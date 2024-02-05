@@ -31,7 +31,7 @@ public RarEntry::getMethod(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**RarEntry::getMethod()\*\*\*\*
+**Приклад #1 Приклад використання** RarEntry::getMethod()\*\*\*\*
 
 ```php
 <?php

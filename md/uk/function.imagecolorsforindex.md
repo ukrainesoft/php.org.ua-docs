@@ -44,7 +44,7 @@ imagecolorsforindex(GdImage $image, int $color): array
 
 ### Приклади
 
-**Пример #1 Пример использования**imagecolorsforindex()\*\*\*\*
+**Приклад #1 Приклад використання** imagecolorsforindex()\*\*\*\*
 
 ```php
 <?php

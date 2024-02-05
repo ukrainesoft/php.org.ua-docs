@@ -41,7 +41,7 @@ uopz_unset_hook(string $class, string $function): bool
 
 ### Приклади
 
-**Пример #1 Простое использование**uopz\_unset\_hook()\*\*\*\*
+**Приклад #1 Простое использование**uopz\_unset\_hook()\*\*\*\*
 
 ```php
 <?php

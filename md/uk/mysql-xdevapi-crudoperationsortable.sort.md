@@ -37,7 +37,7 @@ abstract public mysql_xdevapi\CrudOperationSortable::sort(string $sort_expr): my
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CrudOperationSortable::sort()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CrudOperationSortable::sort()\*\*\*\*
 
 ```php
 <?php

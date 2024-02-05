@@ -128,7 +128,7 @@ date_create_immutable_from_format(string $format, string $datetime, ?DateTimeZon
 
 ### Приклади
 
-**Пример #1 Пример использования**DateTimeImmutable::createFromFormat()\*\*\*\*
+**Приклад #1 Приклад використання** DateTimeImmutable::createFromFormat()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 

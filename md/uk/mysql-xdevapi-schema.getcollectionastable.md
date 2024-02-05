@@ -33,7 +33,7 @@ public mysql_xdevapi\Schema::getCollectionAsTable(string $name): mysql_xdevapi\T
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getCollectionAsTable()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\Schema::getCollectionAsTable()\*\*\*\*
 
 ```php
 <?php

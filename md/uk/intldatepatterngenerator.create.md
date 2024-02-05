@@ -21,7 +21,7 @@ IntlDatePatternGenerator::create -- IntlDatePatternGenerator::\_\_construct — 
 public static IntlDatePatternGenerator::create(?string $locale = null): ?IntlDatePatternGenerator
 ```
 
-public**IntlDatePatternGenerator::\_\_construct**(?string`$locale` **`null`**) .
+public **IntlDatePatternGenerator::\_\_construct**(?string`$locale` **`null`**) .
 
 Створює новий екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
 

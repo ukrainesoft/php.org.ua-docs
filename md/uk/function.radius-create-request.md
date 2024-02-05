@@ -29,7 +29,7 @@ radius_create_request(resource $radius_handle, int $type): bool
 
 `type`
 
-Тип\*\*`RADIUS_ACCESS_REQUEST`**или**`RADIUS_ACCOUNTING_REQUEST`\*\*
+Тип\*\*`RADIUS_ACCESS_REQUEST`** або **`RADIUS_ACCOUNTING_REQUEST`\*\*
 
 ### Значення, що повертаються
 
@@ -37,7 +37,7 @@ radius_create_request(resource $radius_handle, int $type): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**radius\_create\_request()\*\*\*\*
+**Приклад #1 Приклад використання** radius\_create\_request()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public mysql_xdevapi\Session::quoteName(string $name): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::quoteName()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::quoteName()\*\*\*\*
 
 ```php
 <?php

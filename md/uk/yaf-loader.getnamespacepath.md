@@ -33,7 +33,7 @@ string шлях, якщо простір імен не зареєстрован�
 
 ### Приклади
 
-**Пример #1 Пример использования[Yaf\_Loader::registerNamespace()](yaf-loader.registernamespace.md)**
+**Приклад #1 Приклад использования[Yaf\_Loader::registerNamespace()](yaf-loader.registernamespace.md)**
 
 ```php
 <?php

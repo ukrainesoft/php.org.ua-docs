@@ -35,7 +35,7 @@ abstract public mysql_xdevapi\DatabaseObject::getSession(): mysql_xdevapi\Sessio
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\DatabaseObject::getSession()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\DatabaseObject::getSession()\*\*\*\*
 
 ```php
 <?php

@@ -41,7 +41,7 @@ openssl_pkey_derive(OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public
 
 ### Приклади
 
-**Пример #1 Пример использования**openssl\_pkey\_derive()\*\*\*\*
+**Приклад #1 Приклад використання** openssl\_pkey\_derive()\*\*\*\*
 
 ```php
 <?php

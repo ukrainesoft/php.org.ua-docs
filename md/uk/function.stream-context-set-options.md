@@ -43,7 +43,7 @@ stream_context_set_options(resource $context, array $options): bool
 
 ### Приклади
 
-**Пример #1 Пример использования функции**stream\_context\_set\_options()\*\*\*\*
+**Приклад #1 Приклад использования функции**stream\_context\_set\_options()\*\*\*\*
 
 ```php
 <?php

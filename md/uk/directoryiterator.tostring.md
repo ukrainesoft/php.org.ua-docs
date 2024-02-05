@@ -31,7 +31,7 @@ public DirectoryIterator::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**DirectoryIterator::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** DirectoryIterator::\_\_toString()\*\*\*\*
 
 У цьому прикладі буде виведено вміст каталогу, що містить скрипт.
 

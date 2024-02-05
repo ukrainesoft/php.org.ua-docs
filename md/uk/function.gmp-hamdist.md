@@ -41,7 +41,7 @@ gmp_hamdist(GMP|int|string $num1, GMP|int|string $num2): int
 
 ### Приклади
 
-**Пример #1 Пример использования**gmp\_hamdist()\*\*\*\*
+**Приклад #1 Приклад використання** gmp\_hamdist()\*\*\*\*
 
 ```php
 <?php

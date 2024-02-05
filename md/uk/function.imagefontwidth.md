@@ -39,7 +39,7 @@ imagefontwidth(GdFont|int $font): int
 
 ### Приклади
 
-**Пример #1 Использование**imagefontwidth()\*\* на вбудованих шрифтах\*\*
+**Приклад #1 Использование**imagefontwidth()\*\* на вбудованих шрифтах\*\*
 
 ```php
 <?php
@@ -53,7 +53,7 @@ echo 'Ширина шрифта: ' . imagefontwidth(4);
 Font width: 8
 ```
 
-**Пример #2 Использование**imagefontwidth()**вместе с[imageloadfont()](function.imageloadfont.md)**
+**Приклад #2 Использование**imagefontwidth()**вместе с[imageloadfont()](function.imageloadfont.md)**
 
 ```php
 <?php

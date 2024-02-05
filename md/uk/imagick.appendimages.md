@@ -37,7 +37,7 @@ public Imagick::appendImages(bool $stack): Imagick
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::appendImages()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::appendImages()\*\*\*\*
 
 ```php
 <?php

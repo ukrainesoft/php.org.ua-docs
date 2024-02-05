@@ -37,7 +37,7 @@ public Imagick::clutImage(Imagick $lookup_table, int $channel = Imagick::CHANNEL
 
 ### Приклади
 
-**Пример #1 Использование**Imagick::clutImage()\*\* :\*\*
+**Приклад #1 Использование**Imagick::clutImage()\*\* :\*\*
 
 Заміна кольору зображення, використовуючи таблицю відповідності.
 

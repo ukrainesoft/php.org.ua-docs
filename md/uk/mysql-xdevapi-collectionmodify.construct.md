@@ -15,7 +15,7 @@ CollectionModify::\_\_construct - Конструктор класу CollectionMo
 
 ### Опис
 
-private**mysql\_xdevapi\\CollectionModify::\_\_construct**()
+private **mysql\_xdevapi\\CollectionModify::\_\_construct**()
 
 Змінює (оновлює) колекцію та створюється методом **mysql\_xdevapi\\Collection::modify()**
 
@@ -25,7 +25,7 @@ private**mysql\_xdevapi\\CollectionModify::\_\_construct**()
 
 ### Приклади
 
-**Пример #1 Пример использования метода**mysql\_xdevapi\\CollectionModify::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад использования метода**mysql\_xdevapi\\CollectionModify::\_\_construct()\*\*\*\*
 
 ```php
 <?php

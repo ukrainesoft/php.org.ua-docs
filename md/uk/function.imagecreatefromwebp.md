@@ -43,7 +43,7 @@ imagecreatefromwebp(string $filename): GdImage|false
 
 ### Приклади
 
-**Пример #1 Конвертирование WebP-изображения к jpeg-изображению, используя**imagecreatefromwebp()\*\*\*\*
+**Приклад #1 Конвертирование WebP-изображения к jpeg-изображению, используя**imagecreatefromwebp()\*\*\*\*
 
 ```php
 <?php

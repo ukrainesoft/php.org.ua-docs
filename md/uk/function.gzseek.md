@@ -48,7 +48,7 @@ gzseek(resource $stream, int $offset, int $whence = SEEK_SET): int
 
 ### Приклади
 
-**Пример #1 Пример использования**gzseek()\*\*\*\*
+**Приклад #1 Приклад використання** gzseek()\*\*\*\*
 
 ```php
 <?php

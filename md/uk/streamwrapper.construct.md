@@ -15,7 +15,7 @@ streamWrapper::\_\_construct — Створює новий об'єкт обер�
 
 ### Опис
 
-public**streamWrapper::\_\_construct**()
+public **streamWrapper::\_\_construct**()
 
 Викликається при відкритті обгортки потоку безпосередньо перед викликом методу [streamWrapper::stream\_open()](streamwrapper.stream-open.md)
 

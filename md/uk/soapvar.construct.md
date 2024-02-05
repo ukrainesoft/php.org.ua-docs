@@ -15,7 +15,7 @@ SoapVar::\_\_construct - Конструктор SoapVar
 
 ### Опис
 
-public**SoapVar::\_\_construct**  
+public **SoapVar::\_\_construct**  
 [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`,  
 ?int`$encoding`,  
 ?string`$typeName` **`null`**,  
@@ -60,7 +60,7 @@ public**SoapVar::\_\_construct**
 
 ### Приклади
 
-**Пример #1 Пример использования**SoapVar::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SoapVar::\_\_construct()\*\*\*\*
 
 ```php
 <?php

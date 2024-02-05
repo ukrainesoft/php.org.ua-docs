@@ -47,7 +47,7 @@ msgfmt_parse(MessageFormatter $formatter, string $string): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**msgfmt\_parse()\*\*\*\*
+**Приклад #1 Приклад використання** msgfmt\_parse()\*\*\*\*
 
 ```php
 <?php

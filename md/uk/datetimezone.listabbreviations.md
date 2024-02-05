@@ -47,7 +47,7 @@ timezone_abbreviations_list(): array
 
 ### Приклади
 
-**Пример #1 Пример использования[timezone\_abbreviations\_list()](function.timezone-abbreviations-list.md)**
+**Приклад #1 Приклад использования[timezone\_abbreviations\_list()](function.timezone-abbreviations-list.md)**
 
 ```php
 <?php

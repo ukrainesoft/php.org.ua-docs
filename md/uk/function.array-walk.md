@@ -63,7 +63,7 @@ array_walk(array|object &$array, callable $callback, mixed $arg = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**array\_walk()\*\*\*\*
+**Приклад #1 Приклад використання** array\_walk()\*\*\*\*
 
 ```php
 <?php
@@ -104,7 +104,7 @@ b. fruit: banana
 c. fruit: apple
 ```
 
-**Пример #2 Пример использования**array\_walk()\*\* з анонімною функцією\*\*
+**Приклад #2 Приклад використання** array\_walk()\*\* з анонімною функцією\*\*
 
 ```php
 <?php

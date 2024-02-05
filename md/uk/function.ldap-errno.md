@@ -45,7 +45,7 @@ ldap_errno(LDAP\Connection $ldap): int
 
 ```php
 <?php
-// Этот пример содержит ошибку, которую мы поймаем
+// Этот Приклад содержит ошибку, которую мы поймаем
 $ld = ldap_connect("localhost");
 $bind = ldap_bind($ld);
 // синтаксическая ошибка в выражении фильтра (errno 87),

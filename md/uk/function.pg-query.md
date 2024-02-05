@@ -62,7 +62,7 @@ pg_query(PgSql\Connection $connection = ?, string $query): PgSql\Result|false
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_query()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_query()\*\*\*\*
 
 ```php
 <?php

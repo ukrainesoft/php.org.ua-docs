@@ -49,7 +49,7 @@ callback(mixed $a, mixed $b): int
 
 ### Приклади
 
-**Пример #1 Пример использования фукции**array\_intersect\_ukey()\*\*\*\*
+**Приклад #1 Приклад использования фукции**array\_intersect\_ukey()\*\*\*\*
 
 ```php
 <?php

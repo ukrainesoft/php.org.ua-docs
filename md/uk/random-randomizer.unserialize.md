@@ -33,7 +33,7 @@ public Random\Randomizer::__unserialize(array $data): void
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Randomizer::\_\_unserialize()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Randomizer::\_\_unserialize()\*\*\*\*
 
 ```php
 <?php

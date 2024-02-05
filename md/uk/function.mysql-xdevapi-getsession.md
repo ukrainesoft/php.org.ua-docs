@@ -101,7 +101,7 @@ mysqlx://foo:bar@localhost:33160/?connect-timeout=10&compression=required&compre
 
 ### Приклади
 
-**Пример #2 Пример использования**mysql\_xdevapi\\getSession()\*\*\*\*
+**Приклад #2 Приклад використання** mysql\_xdevapi\\getSession()\*\*\*\*
 
 ```php
 <?php

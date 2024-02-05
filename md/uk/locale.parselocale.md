@@ -45,7 +45,7 @@ locale_parse(string $locale): ?array
 
 ### Приклади
 
-**Пример #1 Пример использования**locale\_parse()\*\*\*\*
+**Приклад #1 Приклад використання** locale\_parse()\*\*\*\*
 
 ```php
 <?php

@@ -15,7 +15,7 @@ SQLite3::\_\_construct — Створює екземпляр SQLite3 і відк
 
 ### Опис
 
-public**SQLite3::\_\_construct**(string`$filename`, int`$flags`\= SQLITE3\_OPEN\_READWRITE | SQLITE3\_OPEN\_CREATE, string`$encryptionKey` = "")
+public **SQLite3::\_\_construct**(string`$filename`, int`$flags`\= SQLITE3\_OPEN\_READWRITE | SQLITE3\_OPEN\_CREATE, string`$encryptionKey` = "")
 
 Створює екземпляр SQLite3 і відкриває з'єднання з базою. Якщо увімкнено шифрування, з'являється можливість використання ключа.
 
@@ -52,7 +52,7 @@ public**SQLite3::\_\_construct**(string`$filename`, int`$flags`\= SQLITE3\_OPEN\
 
 ### Приклади
 
-**Пример #1 Пример использования**SQLite3::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** SQLite3::\_\_construct()\*\*\*\*
 
 ```php
 <?php

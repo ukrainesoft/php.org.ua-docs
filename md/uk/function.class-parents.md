@@ -37,7 +37,7 @@ class_parents(object|string $object_or_class, bool $autoload = true): array|fals
 
 ### Приклади
 
-**Пример #1 Пример использования**class\_parents()\*\*\*\*
+**Приклад #1 Приклад використання** class\_parents()\*\*\*\*
 
 ```php
 <?php

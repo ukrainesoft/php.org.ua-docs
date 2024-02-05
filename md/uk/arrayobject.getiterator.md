@@ -31,7 +31,7 @@ public ArrayObject::getIterator(): Iterator
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayObject::getIterator()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayObject::getIterator()\*\*\*\*
 
 ```php
 <?php

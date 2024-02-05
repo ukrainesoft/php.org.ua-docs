@@ -42,7 +42,7 @@ pg_get_result(PgSql\Connection $connection): PgSql\Result|false
 
 ### Приклади
 
-**Пример #1 Пример использования**pg\_get\_result()\*\*\*\*
+**Приклад #1 Приклад використання** pg\_get\_result()\*\*\*\*
 
 ```php
 <?php

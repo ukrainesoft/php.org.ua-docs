@@ -29,7 +29,7 @@ final public MongoDB\BSON\Decimal128::__toString(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\Decimal128::\_\_toString()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\Decimal128::\_\_toString()\*\*\*\*
 
 ```php
 <?php

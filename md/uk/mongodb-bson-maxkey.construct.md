@@ -29,7 +29,7 @@ final public MongoDB\BSON\MaxKey::__construct()
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\BSON\\MaxKey::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\BSON\\MaxKey::\_\_construct()\*\*\*\*
 
 ```php
 <?php

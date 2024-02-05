@@ -37,7 +37,7 @@ apache_getenv(string $variable, bool $walk_to_top = false): string|false
 
 ### Приклади
 
-**Пример #1 Пример использования**apache\_getenv()\*\*\*\*
+**Приклад #1 Приклад використання** apache\_getenv()\*\*\*\*
 
 Нижче наведений приклад показує, як можна отримати значення змінної оточення сервера Apache SERVER\_ADDR.
 

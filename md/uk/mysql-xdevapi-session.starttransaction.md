@@ -31,7 +31,7 @@ public mysql_xdevapi\Session::startTransaction(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Session::startTransaction()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Session::startTransaction()\*\*\*\*
 
 ```php
 <?php

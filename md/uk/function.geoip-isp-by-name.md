@@ -35,7 +35,7 @@ geoip_isp_by_name(string $hostname): string
 
 ### Приклади
 
-**Пример #1 Пример использования**geoip\_isp\_by\_name()\*\*\*\*
+**Приклад #1 Приклад використання** geoip\_isp\_by\_name()\*\*\*\*
 
 Відобразить ім'я ISP для хоста example.com.
 

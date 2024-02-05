@@ -54,13 +54,13 @@ json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false
 | Версия | Опис |
 | --- | --- |
 | 7.3.0 | Добавлена константа\*\*`JSON_THROW_ON_ERROR`\*\*для параметра`flags` |
-| 7.2.0 | Додані константи \*\*`JSON_INVALID_UTF8_IGNORE`**и**`JSON_INVALID_UTF8_SUBSTITUTE`\*\*для параметра`flags` |
+| 7.2.0 | Додані константи \*\*`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`\*\*для параметра`flags` |
 | 7.1.0 | Добавлена константа\*\*`JSON_UNESCAPED_LINE_TERMINATORS`\*\*для параметра`flags` |
 | 7.1.0 | При кодуванні чисел із плаваючою точкою (float) використовується [serialize\_precision](ini.core.md#ini.serialize-precision) замість [precision](ini.core.md#ini.precision) |
 
 ### Приклади
 
-**Пример #1 Пример использования**json\_encode()\*\*\*\*
+**Приклад #1 Приклад використання** json\_encode()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +76,7 @@ echo json_encode($arr);
 {"a":1,"b":2,"c":3,"d":4,"e":5}
 ```
 
-**Пример #2 Пример использования**json\_encode()\*\* з опціями\*\*
+**Приклад #2 Приклад використання** json\_encode()\*\* з опціями\*\*
 
 ```php
 <?php
@@ -240,7 +240,7 @@ array(3) {
 string(33) "{"0":"foo","2":"baz","3":"blong"}"
 ```
 
-**Пример #5 Пример использования опции**`JSON_PRESERVE_ZERO_FRACTION`\*\*\*\*
+**Приклад #5 Приклад использования опции**`JSON_PRESERVE_ZERO_FRACTION`\*\*\*\*
 
 ```php
 <?php

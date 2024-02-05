@@ -39,7 +39,7 @@ callback(mixed $value): bool
 
 ### Приклади
 
-**Пример #1 Пример**Ds\\Set::filter()**с использованием callback-функции**
+**Приклад #1 Приклад**Ds\\Set::filter()**с использованием callback-функции**
 
 ```php
 <?php
@@ -62,7 +62,7 @@ object(Ds\Set)#3 (2) {
 }
 ```
 
-**Пример #2 Пример**Ds\\Set::filter()\*\* без callback-функції\*\*
+**Приклад #2 Приклад**Ds\\Set::filter()\*\* без callback-функції\*\*
 
 ```php
 <?php

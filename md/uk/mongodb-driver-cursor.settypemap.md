@@ -41,7 +41,7 @@ final public MongoDB\Driver\Cursor::setTypeMap(array $typemap): void
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\Cursor::setTypeMap()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\Cursor::setTypeMap()\*\*\*\*
 
 ```php
 <?php

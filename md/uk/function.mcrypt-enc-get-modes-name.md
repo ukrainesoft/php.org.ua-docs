@@ -37,7 +37,7 @@ mcrypt_enc_get_modes_name(resource $td): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mcrypt\_enc\_get\_modes\_name()\*\*\*\*
+**Приклад #1 Приклад використання** mcrypt\_enc\_get\_modes\_name()\*\*\*\*
 
 ```php
 <?php

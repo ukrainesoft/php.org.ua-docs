@@ -33,7 +33,7 @@ public mysql_xdevapi\ColumnResult::getFractionalDigits(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getFractionalDigits()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\ColumnResult::getFractionalDigits()\*\*\*\*
 
 ```php
 <?php

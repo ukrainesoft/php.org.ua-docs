@@ -39,7 +39,7 @@ snmp_set_enum_print(bool $enable): true
 
 ### Приклади
 
-**Пример #1 Пример использования**snmp\_set\_enum\_print()\*\*\*\*
+**Приклад #1 Приклад використання** snmp\_set\_enum\_print()\*\*\*\*
 
 ```php
 <?php

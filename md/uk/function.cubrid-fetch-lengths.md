@@ -39,7 +39,7 @@ cubrid_fetch_lengths(resource $result): array
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_fetch\_lengths()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_fetch\_lengths()\*\*\*\*
 
 ```php
 <?php

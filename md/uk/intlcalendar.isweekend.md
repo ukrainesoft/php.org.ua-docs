@@ -49,7 +49,7 @@ intlcal_is_weekend(IntlCalendar $calendar, ?float $timestamp = null): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**IntlCalendar::isWeekend()\*\*\*\*
+**Приклад #1 Приклад використання** IntlCalendar::isWeekend()\*\*\*\*
 
 ```php
 <?php

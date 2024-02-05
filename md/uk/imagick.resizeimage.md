@@ -57,7 +57,7 @@ public Imagick::resizeImage(    int $columns,    int $rows,    int $
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::resizeImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::resizeImage()\*\*\*\*
 
 ```php
 <?php

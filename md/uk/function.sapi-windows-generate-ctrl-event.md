@@ -25,7 +25,7 @@ sapi_windows_generate_ctrl_event(int $event, int $pid = 0): bool
 
 `event`
 
-Подія `CTRL` **`PHP_WINDOWS_EVENT_CTRL_C`**или**`PHP_WINDOWS_EVENT_CTRL_BREAK`**
+Подія `CTRL` **`PHP_WINDOWS_EVENT_CTRL_C`** або **`PHP_WINDOWS_EVENT_CTRL_BREAK`**
 
 `pid`
 
@@ -37,7 +37,7 @@ sapi_windows_generate_ctrl_event(int $event, int $pid = 0): bool
 
 ### Приклади
 
-**Пример #1 Использование**sapi\_windows\_generate\_ctrl\_event()\*\*\*\*
+**Приклад #1 Использование**sapi\_windows\_generate\_ctrl\_event()\*\*\*\*
 
 У цьому прикладі показано, як надіслати події `CTRL+BREAK`дочернему процессу. В данном случае дочерний процесс будет печатать`Я все ще живий!` раз на секунду, доки користувач не натисне `CTRL+BREAK`. Після цього дочірній процес завершиться.
 

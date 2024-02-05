@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcern::bsonSerialize(): stdClass
 
 ### Приклади
 
-**Пример #1**MongoDB\\Driver\\WriteConcern::bsonSerialize()\*\* з більшістю гарантії запису\*\*
+**Приклад #1**MongoDB\\Driver\\WriteConcern::bsonSerialize()\*\* з більшістю гарантії запису\*\*
 
 ```php
 <?php
@@ -57,7 +57,7 @@ object(stdClass)#2 (1) {
 { "w" : "majority" }
 ```
 
-**Пример #2**MongoDB\\Driver\\WriteConcern::bsonSerialize()\*\* з часом очікування та журналом\*\*
+**Приклад #2**MongoDB\\Driver\\WriteConcern::bsonSerialize()\*\* з часом очікування та журналом\*\*
 
 ```php
 <?php

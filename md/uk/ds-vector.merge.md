@@ -37,7 +37,7 @@ public Ds\Vector::merge(mixed $values): Ds\Vector
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Vector::merge()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Vector::merge()\*\*\*\*
 
 ```php
 <?php

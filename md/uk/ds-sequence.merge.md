@@ -37,7 +37,7 @@ abstract public Ds\Sequence::merge(mixed $values): Ds\Sequence
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Sequence::merge()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Sequence::merge()\*\*\*\*
 
 ```php
 <?php

@@ -51,7 +51,7 @@ URI, пов'язаний із запитом.
 
 ### Приклади
 
-**Пример #1 Пример использования**EventHttpConnection::makeRequest()\*\*\*\*
+**Приклад #1 Приклад використання** EventHttpConnection::makeRequest()\*\*\*\*
 
 ```php
 <?php

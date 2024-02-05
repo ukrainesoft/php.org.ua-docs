@@ -31,7 +31,7 @@ public ArrayIterator::rewind(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**ArrayIterator::rewind()\*\*\*\*
+**Приклад #1 Приклад використання** ArrayIterator::rewind()\*\*\*\*
 
 ```php
 <?php

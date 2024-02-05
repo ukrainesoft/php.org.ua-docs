@@ -45,7 +45,7 @@ public Imagick::gaussianBlurImage(float $radius, float $sigma, int $channel = Im
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::gaussianBlurImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::gaussianBlurImage()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ tidy_getopt(tidy $tidy, string $option): string|int|bool
 
 ### Приклади
 
-**Пример #1 Пример использования**tidy\_getopt()\*\*\*\*
+**Приклад #1 Приклад використання** tidy\_getopt()\*\*\*\*
 
 ```php
 <?php

@@ -47,7 +47,7 @@ mb_convert_variables(    string $to_encoding,    array|string $from_enco
 
 ### Приклади
 
-**Пример #1 Пример использования функции**mb\_convert\_variables()\*\*\*\*
+**Приклад #1 Приклад использования функции**mb\_convert\_variables()\*\*\*\*
 
 ```php
 <?php

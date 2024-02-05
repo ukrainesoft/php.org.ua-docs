@@ -31,7 +31,7 @@ public mysql_xdevapi\Result::getGeneratedIds(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\Result::getGeneratedIds()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\Result::getGeneratedIds()\*\*\*\*
 
 ```php
 <?php

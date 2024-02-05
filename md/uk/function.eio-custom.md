@@ -73,7 +73,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Приклади
 
-**Пример #1 Пример использования**eio\_custom()\*\*\*\*
+**Приклад #1 Приклад використання** eio\_custom()\*\*\*\*
 
 ```php
 <?php

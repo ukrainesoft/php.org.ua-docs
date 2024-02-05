@@ -62,7 +62,7 @@ date_parse_from_format(string $format, string $datetime): array
 
 ### Приклади
 
-**Пример #1 Пример использования**date\_parse\_from\_format()\*\*\*\*
+**Приклад #1 Приклад використання** date\_parse\_from\_format()\*\*\*\*
 
 ```php
 <?php
@@ -100,7 +100,7 @@ Array
 )
 ```
 
-**Пример #2 Пример использования**date\_parse\_from\_format()**с предупреждениями**
+**Приклад #2 Приклад використання** date\_parse\_from\_format()**с предупреждениями**
 
 ```php
 <?php
@@ -121,7 +121,7 @@ foreach ($parsed['warnings'] as $position => $message) {
     Позиция 23: The parsed time was invalid
 ```
 
-**Пример #3 Пример использования**date\_parse\_from\_format()\*\* з помилками\*\*
+**Приклад #3 Приклад використання** date\_parse\_from\_format()\*\* з помилками\*\*
 
 ```php
 <?php

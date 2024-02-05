@@ -15,7 +15,7 @@ CURLStringFile::\_\_construct — Створює об'єкт CURLStringFile
 
 ### Опис
 
-public**CURLStringFile::\_\_construct**(string`$data`, string`$postname`, string`$mime` = "application/octet-stream")
+public **CURLStringFile::\_\_construct**(string`$data`, string`$postname`, string`$mime` = "application/octet-stream")
 
 Створює об'єкт [CURLStringFile](class.curlstringfile.md), який використовується для завантаження файлу за допомогою **`CURLOPT_POSTFIELDS`**
 
@@ -35,7 +35,7 @@ MIME-тип файла (по умолчанию`application/octet-stream`
 
 ### Приклади
 
-**Пример #1 Пример использования**CURLStringFile::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** CURLStringFile::\_\_construct()\*\*\*\*
 
 ```php
 <?php

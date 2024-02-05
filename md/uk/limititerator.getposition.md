@@ -31,7 +31,7 @@ public LimitIterator::getPosition(): int
 
 ### Приклади
 
-**Пример #1 Пример использования**LimitIterator::getPosition()\*\*\*\*
+**Приклад #1 Приклад використання** LimitIterator::getPosition()\*\*\*\*
 
 ```php
 <?php

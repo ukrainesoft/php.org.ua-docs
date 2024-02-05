@@ -33,7 +33,7 @@ public SolrObject::offsetUnset(string $property_name): void
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrObject::offsetUnset()\*\*\*\*
+**Приклад #1 Приклад використання** SolrObject::offsetUnset()\*\*\*\*
 
 ```php
 <?php

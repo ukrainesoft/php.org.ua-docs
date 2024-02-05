@@ -15,7 +15,7 @@ Yaf\_Response\_Abstract::\_\_destruct - Деструктор класу Yaf\_Res
 
 ### Опис
 
-public**Yaf\_Response\_Abstract::\_\_destruct**()
+public **Yaf\_Response\_Abstract::\_\_destruct**()
 
 **Увага**
 

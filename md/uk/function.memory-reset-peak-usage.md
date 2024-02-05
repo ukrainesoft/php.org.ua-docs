@@ -31,7 +31,7 @@ memory_reset_peak_usage(): void
 
 ### Приклади
 
-**Пример #1 Пример использования**memory\_reset\_peak\_usage()\*\*\*\*
+**Приклад #1 Приклад використання** memory\_reset\_peak\_usage()\*\*\*\*
 
 ```php
 <?php

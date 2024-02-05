@@ -47,7 +47,7 @@ strncasecmp(string $string1, string $string2, int $length): int
 
 ### Приклади
 
-**Пример #1 Пример использования**strncasecmp()\*\*\*\*
+**Приклад #1 Приклад використання** strncasecmp()\*\*\*\*
 
 ```php
 <?php

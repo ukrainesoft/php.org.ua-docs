@@ -67,7 +67,7 @@ imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): ar
 
 ### Приклади
 
-**Пример #1 Пример использования**imap\_fetch\_overview()\*\*\*\*
+**Приклад #1 Приклад використання** imap\_fetch\_overview()\*\*\*\*
 
 ```php
 <?php

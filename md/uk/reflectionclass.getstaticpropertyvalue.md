@@ -37,7 +37,7 @@ public ReflectionClass::getStaticPropertyValue(string $name, mixed &$def_value =
 
 ### Приклади
 
-**Пример #1 Пример использования**ReflectionClass::getStaticPropertyValue()\*\*\*\*
+**Приклад #1 Приклад використання** ReflectionClass::getStaticPropertyValue()\*\*\*\*
 
 ```php
 <?php

@@ -33,7 +33,7 @@ public Imagick::setIteratorIndex(int $index): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::setIteratorIndex()\*\* :\*\*
+**Приклад #1 Приклад використання** Imagick::setIteratorIndex()\*\* :\*\*
 
 Створення зображення, встановлення та отримання індексу ітератора
 

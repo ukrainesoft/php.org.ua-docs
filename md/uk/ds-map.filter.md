@@ -39,7 +39,7 @@ callback(mixed $key, mixed $value): bool
 
 ### Приклади
 
-**Пример #1 Пример**Ds\\Map::filter()**с использованием callback-функции**
+**Приклад #1 Приклад**Ds\\Map::filter()**с использованием callback-функции**
 
 ```php
 <?php
@@ -79,7 +79,7 @@ object(Ds\Map)#3 (3) {
 }
 ```
 
-**Пример #2 Пример**Ds\\Map::filter()\*\* без callback-функції\*\*
+**Приклад #2 Приклад**Ds\\Map::filter()\*\* без callback-функції\*\*
 
 ```php
 <?php

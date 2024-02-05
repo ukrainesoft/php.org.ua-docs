@@ -37,17 +37,17 @@ password_verify(string $password, string $hash): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**или**`false`**, Залежно від результатів перевірки.
+Повертає **`true`** або **`false`**, Залежно від результатів перевірки.
 
 ### Приклади
 
-**Пример #1 Пример использования**password\_verify()\*\*\*\*
+**Приклад #1 Приклад використання** password\_verify()\*\*\*\*
 
 Це спрощений приклад; за потреби рекомендується перестворити правильний пароль; дивіться приклад у описі функції [password\_needs\_rehash()](function.password-needs-rehash.md)
 
 ```php
 <?php
-// Смотрите пример использования password_hash(), для понимания откуда это взялось.
+// Смотрите Приклад использования password_hash(), для понимания откуда это взялось.
 $hash = '$2y$10$.vGA1O9wmRjrwAVXD98HNOgsNpDczlqm3Jq7KnEd1rVAGv3Fykk1a';
 
 if (password_verify('rasmuslerdorf', $hash)) {

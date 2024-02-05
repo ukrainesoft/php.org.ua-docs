@@ -31,7 +31,7 @@ posix_getgroups(): array|false
 
 ### Приклади
 
-**Пример #1 Пример использования**posix\_getgroups()\*\*\*\*
+**Приклад #1 Приклад використання** posix\_getgroups()\*\*\*\*
 
 ```php
 <?php

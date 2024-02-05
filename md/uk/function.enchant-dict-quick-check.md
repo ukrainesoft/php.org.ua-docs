@@ -47,7 +47,7 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 ### Приклади
 
-**Пример #1 Пример использования**enchant\_dict\_quick\_check()\*\*\*\*
+**Приклад #1 Приклад використання** enchant\_dict\_quick\_check()\*\*\*\*
 
 ```php
 <?php

@@ -43,7 +43,7 @@ public Imagick::tintImage(mixed $tint, mixed $opacity, bool $legacy = false): bo
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::tintImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::tintImage()\*\*\*\*
 
 ```php
 <?php

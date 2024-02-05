@@ -35,7 +35,7 @@ abstract public mysql_xdevapi\DatabaseObject::getName(): string
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\DatabaseObject::getName()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\DatabaseObject::getName()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public SplFileInfo::isReadable(): bool
 
 ### Приклади
 
-**Пример #1 Пример использования**SplFileInfo::isReadable()\*\*\*\*
+**Приклад #1 Приклад використання** SplFileInfo::isReadable()\*\*\*\*
 
 ```php
 <?php

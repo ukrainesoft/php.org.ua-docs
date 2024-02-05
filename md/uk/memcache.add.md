@@ -45,7 +45,7 @@ Memcache::add(    string $key,    mixed $var,    int $flag = ?,  �
 
 ### Приклади
 
-**Пример #1 Пример использования**Memcache::add()\*\*\*\*
+**Приклад #1 Приклад використання** Memcache::add()\*\*\*\*
 
 ```php
 <?php

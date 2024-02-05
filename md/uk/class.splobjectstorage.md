@@ -62,7 +62,7 @@ public valid(): bool
 
 ## Приклади
 
-**Пример #1 Класс**SplObjectStorage\*\* як набір об'єктів\*\*
+**Приклад #1 Класс**SplObjectStorage\*\* як набір об'єктів\*\*
 
 ```php
 <?php
@@ -99,7 +99,7 @@ bool(false)
 bool(false)
 ```
 
-**Пример #2 Класс**SplObjectStorage\*\* як відображення об'єктів у дані\*\*
+**Приклад #2 Класс**SplObjectStorage\*\* як відображення об'єктів у дані\*\*
 
 ```php
 <?php

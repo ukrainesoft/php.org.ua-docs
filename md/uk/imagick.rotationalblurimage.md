@@ -37,7 +37,7 @@ public Imagick::rotationalBlurImage(float $angle, int $channel = Imagick::CHANNE
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::rotationalBlurImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::rotationalBlurImage()\*\*\*\*
 
 ```php
 <?php

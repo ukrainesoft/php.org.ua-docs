@@ -33,7 +33,7 @@ public SolrCollapseFunction::setHint(string $hint): SolrCollapseFunction
 
 ### Приклади
 
-**Пример #1 Пример использования**SolrCollapseFunction::setHint()\*\*\*\*
+**Приклад #1 Приклад використання** SolrCollapseFunction::setHint()\*\*\*\*
 
 ```php
 <?php

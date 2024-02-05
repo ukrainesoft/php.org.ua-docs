@@ -41,7 +41,7 @@ public Imagick::morphology(    int $morphologyMethod,    int $iterations
 
 ### Приклади
 
-**Пример #1 Пример использования метода Convolve**Imagick::morphology()\*\*\*\*
+**Приклад #1 Приклад использования метода Convolve**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +54,7 @@ echo $imagick->getImageBlob();
 ?>
 ```
 
-**Пример #2 Пример использования метода Correlate**Imagick::morphology()\*\*\*\*
+**Приклад #2 Приклад использования метода Correlate**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +71,7 @@ echo $imagick->getImageBlob();
 ?>
 ```
 
-**Пример #3 Пример использования метода Erode**Imagick::morphology()\*\*\*\*
+**Приклад #3 Приклад использования метода Erode**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -84,7 +84,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #4 Пример использования метода Erode Intensity**Imagick::morphology()\*\*\*\*
+**Приклад #4 Приклад использования метода Erode Intensity**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -97,7 +97,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #5 Пример использования метода Dilate**Imagick::morphology()\*\*\*\*
+**Приклад #5 Приклад использования метода Dilate**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -110,7 +110,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #6 Пример использования метода Dilate intensity**Imagick::morphology()\*\*\*\*
+**Приклад #6 Приклад использования метода Dilate intensity**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -123,7 +123,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #7 Пример использования метода Distance с ядром Chebyshev**Imagick::morphology()\*\*\*\*
+**Приклад #7 Приклад использования метода Distance с ядром Chebyshev**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -137,7 +137,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #8 Пример использования метода Distance с ядром Manhattan**Imagick::morphology()\*\*\*\*
+**Приклад #8 Приклад использования метода Distance с ядром Manhattan**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -151,7 +151,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #9 Пример использования метода Distance с ядром ocatagonal**Imagick::morphology()\*\*\*\*
+**Приклад #9 Приклад использования метода Distance с ядром ocatagonal**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -165,7 +165,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #10 Пример использования метода Distance с ядром Euclidean**Imagick::morphology()\*\*\*\*
+**Приклад #10 Приклад использования метода Distance с ядром Euclidean**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -179,7 +179,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #11 Пример использования метода Edge**Imagick::morphology()\*\*\*\*
+**Приклад #11 Приклад использования метода Edge**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -192,7 +192,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #12 Пример использования метода Open**Imagick::morphology()\*\*\*\*
+**Приклад #12 Приклад использования метода Open**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -207,7 +207,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #13 Пример использования метода Open intensity**Imagick::morphology()\*\*\*\*
+**Приклад #13 Приклад использования метода Open intensity**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -223,12 +223,12 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #14 Пример использования метода Close**Imagick::morphology()\*\*\*\*
+**Приклад #14 Приклад использования метода Close**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
 // Основное использование метода "Close" - уменьшить или удалить любые дыры или пробелы в размере Структурного элемента ядра.
-// Это "близкие" части фона примерно такого размера.
+// Это "близкие" части фона Прикладно такого размера.
 $canvas = $this->getCharacterOutline();
 $kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
 $canvas->morphology(\Imagick::MORPHOLOGY_CLOSE, 1, $kernel);
@@ -238,12 +238,12 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #15 Пример использования метода Close Intensity**Imagick::morphology()\*\*\*\*
+**Приклад #15 Приклад использования метода Close Intensity**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
 // Основное использование метода "Close" - уменьшить или удалить любые дыры или пробелы в размере Структурного элемента ядра.
-// Это "близкие" части фона примерно такого размера.
+// Это "близкие" части фона Прикладно такого размера.
 $canvas = $this->getCharacter();
 $kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
 $canvas->morphology(\Imagick::MORPHOLOGY_CLOSE_INTENSITY, 1, $kernel);
@@ -253,7 +253,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #16 Пример использования метода Smooth**Imagick::morphology()\*\*\*\*
+**Приклад #16 Приклад использования метода Smooth**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -266,7 +266,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #17 Пример использования метода Edge in**Imagick::morphology()\*\*\*\*
+**Приклад #17 Приклад использования метода Edge in**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -279,7 +279,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #18 Пример использования метода Edge out**Imagick::morphology()\*\*\*\*
+**Приклад #18 Приклад использования метода Edge out**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -337,7 +337,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #22 Пример использования метода Thinning**Imagick::morphology()\*\*\*\*
+**Приклад #22 Приклад использования метода Thinning**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -353,7 +353,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #23 Пример использования метода Thicken**Imagick::morphology()\*\*\*\*
+**Приклад #23 Приклад использования метода Thicken**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -389,7 +389,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Пример #25 Пример использования метода Iterative morphology**Imagick::morphology()\*\*\*\*
+**Приклад #25 Приклад использования метода Iterative morphology**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public Random\Engine\Xoshiro256StarStar::__serialize(): array
 
 ### Приклади
 
-**Пример #1 Пример использования**Random\\Engine\\Xoshiro256StarStar::\_\_serialize()\*\*\*\*
+**Приклад #1 Приклад використання** Random\\Engine\\Xoshiro256StarStar::\_\_serialize()\*\*\*\*
 
 ```php
 <?php

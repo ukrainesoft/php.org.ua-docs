@@ -35,7 +35,7 @@ stripslashes(string $string): string
 
 ### Приклади
 
-**Пример #1 Пример использования**stripslashes()\*\*\*\*
+**Приклад #1 Приклад використання** stripslashes()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +50,7 @@ echo stripslashes($str);
 > 
 > **stripslashes()** не рекурсивна. Якщо ви хочете застосувати її до багатовимірного масиву, вам необхідно використовувати рекурсивну функцію.
 
-**Пример #2 Использование**stripslashes()\*\* з масивом\*\*
+**Приклад #2 Использование**stripslashes()\*\* з масивом\*\*
 
 ```php
 <?php
@@ -63,7 +63,7 @@ function stripslashes_deep($value)
     return $value;
 }
 
-// Пример
+// Приклад
 $array = array("f\\'oo", "b\\'ar", array("fo\\'o", "b\\'ar"));
 $array = stripslashes_deep($array);
 

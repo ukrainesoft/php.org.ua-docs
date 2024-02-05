@@ -43,7 +43,7 @@ intlcal_set_skipped_wall_time_option(IntlCalendar $calendar, int $option): true
 
 `option`
 
-Одна из констант:**`IntlCalendar::WALLTIME_FIRST`** **`IntlCalendar::WALLTIME_LAST`**или**`IntlCalendar::WALLTIME_NEXT_VALID`**
+Одна из констант:**`IntlCalendar::WALLTIME_FIRST`** **`IntlCalendar::WALLTIME_LAST`** або **`IntlCalendar::WALLTIME_NEXT_VALID`**
 
 ### Значення, що повертаються
 

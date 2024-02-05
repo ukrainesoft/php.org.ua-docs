@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteResult::getDeletedCount(): ?int
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getDeletedCount()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteResult::getDeletedCount()\*\*\*\*
 
 ```php
 <?php

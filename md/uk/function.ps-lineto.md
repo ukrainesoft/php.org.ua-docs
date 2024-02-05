@@ -53,7 +53,7 @@ if (!ps_open_file($ps, "rectangle.ps")) {
 
 ps_set_info($ps, "Creator", "rectangle.php");
 ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример Линето");
+ps_set_info($ps, "Title", "Приклад Линето");
 
 ps_begin_page($ps, 596, 842);
 ps_moveto($ps, 100, 100);

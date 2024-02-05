@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcern::getW(): string|int|null
 
 ### Приклади
 
-**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcern::getW()\*\*\*\*
+**Приклад #1 Приклад використання** MongoDB\\Driver\\WriteConcern::getW()\*\*\*\*
 
 ```php
 <?php

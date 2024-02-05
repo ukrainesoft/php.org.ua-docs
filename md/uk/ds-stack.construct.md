@@ -15,7 +15,7 @@ Ds\\Stack::\_\_construct — Створює новий екземпляр кла
 
 ### Опис
 
-public**Ds\\Stack::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
+public **Ds\\Stack::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
 Створює новий екземпляр класу, використовуючи або об'єкт реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
@@ -27,7 +27,7 @@ public**Ds\\Stack::\_\_construct** [mixed](language.types.declarations.md#langua
 
 ### Приклади
 
-**Пример #1 Пример использования**Ds\\Stack::\_\_construct()\*\*\*\*
+**Приклад #1 Приклад використання** Ds\\Stack::\_\_construct()\*\*\*\*
 
 ```php
 <?php

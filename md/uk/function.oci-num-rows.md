@@ -33,7 +33,7 @@ oci_num_rows(resource $statement): int|false
 
 ### Приклади
 
-**Пример #1 Пример использования**oci\_num\_rows()\*\*\*\*
+**Приклад #1 Приклад використання** oci\_num\_rows()\*\*\*\*
 
 ```php
 <?php

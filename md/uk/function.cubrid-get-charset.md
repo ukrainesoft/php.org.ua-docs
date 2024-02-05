@@ -33,7 +33,7 @@ cubrid_get_charset(resource $conn_identifier): string
 
 ### Приклади
 
-**Пример #1 Пример использования**cubrid\_get\_charset()\*\*\*\*
+**Приклад #1 Приклад використання** cubrid\_get\_charset()\*\*\*\*
 
 ```php
 <?php

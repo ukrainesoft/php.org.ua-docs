@@ -15,7 +15,7 @@ SolrModifiableParams::\_\_destruct - Деструктор
 
 ### Опис
 
-public**SolrModifiableParams::\_\_destruct**()
+public **SolrModifiableParams::\_\_destruct**()
 
 Деструктор
 

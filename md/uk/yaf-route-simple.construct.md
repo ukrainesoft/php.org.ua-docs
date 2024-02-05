@@ -15,7 +15,7 @@ Yaf\_Route\_Simple::\_\_construct - Конструктор класу Yaf\_Route
 
 ### Опис
 
-public**Yaf\_Route\_Simple::\_\_construct**(string`$module_name`, string`$controller_name`, string`$action_name`) .
+public **Yaf\_Route\_Simple::\_\_construct**(string`$module_name`, string`$controller_name`, string`$action_name`) .
 
 [Yaf\_Route\_Simple](class.yaf-route-simple.md) отримає інформацію про маршрут з рядка запиту та параметри конструктора будуть використовуватись як ключі при пошуку інформації про маршрут у $\_GET.
 
@@ -43,7 +43,7 @@ public**Yaf\_Route\_Simple::\_\_construct**(string`$module_name`, string`$contro
 
 ### Приклади
 
-**Пример #1 Пример использования[Yaf\_Route\_Simple::route()](yaf-route-simple.route.md)**
+**Приклад #1 Приклад использования[Yaf\_Route\_Simple::route()](yaf-route-simple.route.md)**
 
 ```php
 <?php
@@ -52,7 +52,7 @@ public**Yaf\_Route\_Simple::\_\_construct**(string`$module_name`, string`$contro
 ?>
 ```
 
-**Пример #2 Пример использования[Yaf\_Route\_Simple::route()](yaf-route-simple.route.md)**
+**Приклад #2 Приклад использования[Yaf\_Route\_Simple::route()](yaf-route-simple.route.md)**
 
 Запит: [http://yourdomain.com/path/?controller=a&act=b](http://yourdomain.com/path/?controller=a&act=b) => module = default(index), controller = a, action = b
 

@@ -37,7 +37,7 @@ public Imagick::statisticImage(    int $type,    int $width,    int 
 
 ### Приклади
 
-**Пример #1 Пример использования**Imagick::statisticImage()\*\*\*\*
+**Приклад #1 Приклад використання** Imagick::statisticImage()\*\*\*\*
 
 ```php
 <?php

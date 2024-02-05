@@ -54,7 +54,7 @@ idn_to_ascii(    string $domain,    int $flags = IDNA_DEFAULT,    in
 
 ### Приклади
 
-**Пример #1 Пример использования**idn\_to\_ascii()\*\*\*\*
+**Приклад #1 Приклад використання** idn\_to\_ascii()\*\*\*\*
 
 ```php
 <?php

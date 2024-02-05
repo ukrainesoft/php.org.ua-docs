@@ -33,7 +33,7 @@ public mysql_xdevapi\CollectionModify::unset(array $fields): mysql_xdevapi\Colle
 
 ### Приклади
 
-**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::unset()\*\*\*\*
+**Приклад #1 Приклад використання** mysql\_xdevapi\\CollectionModify::unset()\*\*\*\*
 
 ```php
 <?php
